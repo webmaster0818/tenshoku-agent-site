@@ -17,8 +17,19 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-navy/95 backdrop-blur-md border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center gap-2">
-            <img src="/logo-header.jpg" alt="転職エージェント比較ラボ" className="h-12 sm:h-14 w-auto rounded" />
+          <Link href="/" className="flex items-center gap-3">
+            <svg viewBox="0 0 40 40" className="w-9 h-9 sm:w-10 sm:h-10 flex-shrink-0" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="17" stroke="white" strokeWidth="2.5"/>
+              <line x1="20" y1="3" x2="20" y2="8" stroke="white" strokeWidth="2"/>
+              <line x1="20" y1="32" x2="20" y2="37" stroke="white" strokeWidth="2"/>
+              <line x1="3" y1="20" x2="8" y2="20" stroke="white" strokeWidth="2"/>
+              <line x1="32" y1="20" x2="37" y2="20" stroke="white" strokeWidth="2"/>
+              <polygon points="20,6 25,22 20,18 15,22" fill="#0D9488"/>
+              <polygon points="20,34 15,18 20,22 25,18" fill="white" fillOpacity="0.5"/>
+            </svg>
+            <div className="flex flex-col leading-tight">
+              <span className="text-white font-bold text-base sm:text-lg tracking-tight">転職エージェント<span className="text-teal">比較ラボ</span></span>
+            </div>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
