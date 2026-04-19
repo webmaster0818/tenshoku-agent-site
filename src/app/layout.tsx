@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     default: "転職エージェント比較ラボ｜おすすめ転職エージェントランキング2026",
     template: "%s｜転職エージェント比較ラボ",
   },
+  icons: {
+    icon: '/favicon.jpg',
+  },
   description:
     "転職エージェントを徹底比較。リクルートエージェント、doda、マイナビエージェント、ビズリーチ、JACリクルートメントなど人気5社を厳選。求人数・特徴・年代別おすすめを詳しく解説します。",
   metadataBase: new URL("https://example.com"),
