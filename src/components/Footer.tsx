@@ -21,7 +21,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 text-white font-extrabold text-lg mb-4">
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-teal text-white text-sm font-black">転</span>
-              転職エージェント比較ナビ
+              転職エージェント比較ラボ
             </Link>
             <p className="text-sm leading-relaxed text-white/50">
               転職を考えるすべての方に、最適な転職エージェント選びをサポートするための比較・情報サイトです。
@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 text-center text-xs text-white/40">
           <p>当サイトはアフィリエイトプログラムに参加しています。</p>
-          <p className="mt-1">&copy; {new Date().getFullYear()} 転職エージェント比較ナビ All Rights Reserved.</p>
+          <p className="mt-1">&copy; {new Date().getFullYear()} 転職エージェント比較ラボ All Rights Reserved.</p>
         </div>
       </div>
     </footer>

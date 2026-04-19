@@ -19,7 +19,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 text-white font-extrabold text-lg tracking-tight">
             <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-teal text-white text-sm font-black">転</span>
-            <span className="hidden sm:inline">転職エージェント比較ナビ</span>
+            <span className="hidden sm:inline">転職エージェント比較ラボ</span>
             <span className="sm:hidden">転職比較ナビ</span>
           </Link>
 

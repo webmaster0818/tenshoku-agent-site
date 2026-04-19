@@ -13,8 +13,8 @@ const zenKaku = Zen_Kaku_Gothic_New({
 
 export const metadata: Metadata = {
   title: {
-    default: "転職エージェント比較ナビ｜おすすめ転職エージェントランキング2026",
-    template: "%s｜転職エージェント比較ナビ",
+    default: "転職エージェント比較ラボ｜おすすめ転職エージェントランキング2026",
+    template: "%s｜転職エージェント比較ラボ",
   },
   description:
     "転職エージェントを徹底比較。リクルートエージェント、doda、マイナビエージェント、ビズリーチ、JACリクルートメントなど人気5社を厳選。求人数・特徴・年代別おすすめを詳しく解説します。",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    siteName: "転職エージェント比較ナビ",
+    siteName: "転職エージェント比較ラボ",
   },
   other: {
     "Cache-Control": "no-cache, no-store, must-revalidate",
