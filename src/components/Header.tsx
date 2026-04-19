@@ -17,10 +17,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-navy/95 backdrop-blur-md border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2 text-white font-extrabold text-lg tracking-tight">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-teal text-white text-sm font-black">転</span>
-            <span className="hidden sm:inline">転職エージェント比較ラボ</span>
-            <span className="sm:hidden">転職比較ナビ</span>
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/logo.jpg" alt="転職エージェント比較ラボ" className="h-10 w-auto" />
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
