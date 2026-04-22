@@ -280,6 +280,15 @@ export default function NintendoCareer() {
             <Link href="/company/cyberagent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               サイバーエージェント転職ガイド
             </Link>
+            <Link href="/company/toyota/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              トヨタ転職ガイド
+            </Link>
+            <Link href="/company/sony/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              ソニー転職ガイド
+            </Link>
+            <Link href="/company/mercari/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              メルカリ転職ガイド
+            </Link>
           </div>
         </div>
       </article>
