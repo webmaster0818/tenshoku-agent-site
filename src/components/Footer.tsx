@@ -11,13 +11,18 @@ const footerLinks = {
     { label: '目的別ガイド', href: '/#purpose-guide' },
     { label: 'よくある質問', href: '/#faq' },
   ],
+  'サイト情報': [
+    { label: '利用規約', href: '/terms/' },
+    { label: 'プライバシーポリシー', href: '/privacy/' },
+    { label: '記事制作ポリシー', href: '/content-policy/' },
+  ],
 };
 
 export default function Footer() {
   return (
     <footer className="bg-navy-dark text-white/70">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
             <Link href="/" className="flex items-center gap-2 text-white font-extrabold text-lg mb-4">
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-teal text-white text-sm font-black">転</span>
