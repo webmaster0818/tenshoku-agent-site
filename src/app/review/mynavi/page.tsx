@@ -77,6 +77,50 @@ export default function MynaviReview() {
           ))}
         </div>
 
+        {/* 基本データ */}
+        <h2>マイナビエージェントの基本データ【2026年6月時点】</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <tbody>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社マイナビ（1973年設立）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料（公式明記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">20代〜30代前半が中心（第二新卒・初めての転職に強い）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">専門部門「マイナビ転職ITエージェント」あり。SE職で約3万件規模、3か月以内入社決定率84.6%（公式）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：マイナビエージェント公式（mynavi-agent.jp）、マイナビ会社概要（2026年6月21日確認）。求人数は時期により変動します。</p>
+
+        {/* 年齢層（検索意図対応） */}
+        <h2>マイナビエージェントの年齢層は？何歳まで使える？</h2>
+        <p>
+          マイナビエージェントの利用者ボリュームは<strong>20代〜30代前半が中心</strong>です。第二新卒・初めての転職・ポテンシャル採用への強さが最大の特徴で、書類添削や面接対策の手厚さが評価されています。
+          一方で<strong>35歳以降やハイクラス（年収800万円超）の求人は相対的に少なくなる傾向</strong>があり、その場合はリクルートエージェントやdoda、ハイクラス特化（ビズリーチ・JAC）との併用がおすすめです。年齢制限の明記はありません。
+        </p>
+
+        {/* 口コミ傾向（出典付き） */}
+        <h2>マイナビエージェントの評判・口コミの傾向</h2>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="glass-card p-5">
+            <p className="font-bold text-teal mb-2">良い評判の傾向</p>
+            <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
+              <li>親身で丁寧なカウンセリング</li>
+              <li>書類添削・面接対策が手厚い</li>
+              <li>20代・第二新卒向けの求人が豊富で、ミスマッチが少ない</li>
+            </ul>
+          </div>
+          <div className="glass-card p-5">
+            <p className="font-bold text-amber-700 mb-2">気になる評判の傾向</p>
+            <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
+              <li>ハイクラス・高年収の求人は相対的に少なめ</li>
+              <li>求人総数はリクルート・dodaに劣る</li>
+              <li>担当者の質・相性にばらつきがある／連絡が多いと感じる場合も</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：みん評・各比較メディアの口コミ傾向（2026年6月21日確認）。評価は個人の体験に基づくもので、当サイトでは口コミの創作は行っていません。</p>
+
         {/* マイナビエージェントの強み */}
         <h2>マイナビエージェントが20代に選ばれる理由</h2>
         <p>

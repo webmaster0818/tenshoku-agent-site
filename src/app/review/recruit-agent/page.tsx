@@ -77,6 +77,48 @@ export default function RecruitAgentReview() {
           ))}
         </div>
 
+        {/* 基本データ */}
+        <h2>リクルートエージェントの基本データ【2026年6月時点】</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <tbody>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社リクルート</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公開 約76万件／非公開 約27万件（公式・2026年5月30日時点）＝業界最大級</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料（公式明記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">全年代対応の総合型（現スキル・経験を活かす転職に強い）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">専門部門「リクルートエージェントIT」あり。IT出身アドバイザーが対応・リモート案件が豊富</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：リクルートエージェント公式（r-agent.com・公開76万/非公開27万件は2026年5月30日時点表示）、2026年6月21日確認。求人数は時期により変動します。</p>
+
+        {/* IT・口コミ（検索意図対応） */}
+        <h2>リクルートエージェントはITエンジニア転職に使える？評判は？</h2>
+        <p>
+          リクルートエージェントはIT専門部門「<strong>リクルートエージェントIT</strong>」を持ち、IT業界出身のアドバイザーが対応します。テック企業・SIer・社内SEまで求人が幅広く、<strong>リモート案件の多さ・年収交渉のスムーズさ</strong>が高く評価されています。
+          一方で「希望と異なる求人も紹介される」「サポートが定型的になる場合がある」という声もあり、深い技術相談やエンジニア特化の交渉を重視するなら、レバテックキャリア等のIT特化エージェントとの併用が定石です。
+        </p>
+        <h2>リクルートエージェントの評判・口コミの傾向</h2>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="glass-card p-5">
+            <p className="font-bold text-teal mb-2">良い評判の傾向</p>
+            <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
+              <li>圧倒的な求人数で選択肢が広い</li>
+              <li>書類添削・面接対策・セミナーが役立つ</li>
+              <li>年収・条件交渉がスムーズ</li>
+            </ul>
+          </div>
+          <div className="glass-card p-5">
+            <p className="font-bold text-amber-700 mb-2">気になる評判の傾向</p>
+            <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
+              <li>希望と異なる求人が紹介されることがある</li>
+              <li>担当者の対応にばらつき・サポート期限が約3か月</li>
+              <li>「電話・メールがしつこい」と感じる人も（面談時に連絡手段・頻度を指定すれば調整可能）</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：みん評・イーデス等の口コミ傾向（2026年6月21日確認）。「電話が多い」は登録直後にアクティブ層として連絡が集中するためで、メール中心・時間帯指定の希望を伝えると改善します。当サイトでは口コミの創作は行っていません。</p>
+
         {/* 利用の流れ */}
         <h2>リクルートエージェント 利用の流れ 4ステップ</h2>
         <div className="space-y-5 mb-8">

@@ -77,6 +77,50 @@ export default function DodaReview() {
           ))}
         </div>
 
+        {/* 基本データ */}
+        <h2>dodaの基本データ【2026年6月時点】</h2>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <tbody>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">パーソルキャリア株式会社（パーソルグループ）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">約30万件（非公開含む・公式トップ表示／2026年6月18日時点）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料（公式明記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">特徴</th><td className="px-3 py-2 border-b">エージェント＋転職サイト＋スカウトの一体型</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">全年代対応。中心は20代〜30代前半。IT専門「dodaエンジニアIT」あり</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：doda公式（doda.jp・総求人数は2026年6月18日時点のトップ表示値）、パーソルキャリア会社概要、2026年6月21日確認。求人数は時期により変動します。</p>
+
+        {/* スカウト（検索意図対応） */}
+        <h2>dodaのスカウトサービスの評判は？</h2>
+        <p>
+          dodaのスカウトは、登録した経歴・資格に興味を持った企業からオファーが届く仕組みで<strong>利用は無料</strong>です。書類選考なしで面接に進める<strong>「面接確約オファー」</strong>や、在籍企業に知られない非公開設定が特徴で、「待つだけで思わぬ企業と接点が持てる」と評価されています。
+          一方で「的外れな求人が届く」「マッチング精度にムラがある」という声もあるため、希望条件を細かく登録しておくのがコツです。
+        </p>
+
+        {/* 口コミ傾向（出典付き） */}
+        <h2>dodaの評判・口コミの傾向</h2>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="glass-card p-5">
+            <p className="font-bold text-teal mb-2">良い評判の傾向</p>
+            <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
+              <li>求人数が多く、優良企業の求人も見つかる</li>
+              <li>書類添削・面接対策・日程調整・選考後フォローが手厚い</li>
+              <li>スカウト経由で思わぬ企業と出会えた</li>
+            </ul>
+          </div>
+          <div className="glass-card p-5">
+            <p className="font-bold text-amber-700 mb-2">気になる評判の傾向</p>
+            <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
+              <li>メール・電話が多すぎると感じる場合がある</li>
+              <li>希望と合わない求人・重複求人の紹介</li>
+              <li>アドバイザーの質・返信速度に当たり外れ</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：みん評（口コミ244件・2026年6月時点）等の傾向（2026年6月21日確認）。良し悪しは担当アドバイザーの相性に左右されやすいのが共通見解です。当サイトでは口コミの創作は行っていません。</p>
+
         {/* dodaの3つの機能 */}
         <h2>dodaの3つの機能</h2>
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
