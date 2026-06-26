@@ -98,6 +98,34 @@ export default function MynaviVsRecruitPage() {
           </div>
         </div>
 
+        <h2>属性別「どっちが向く？」早見表</h2>
+        <div className="overflow-x-auto mb-10">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-navy text-white">
+                <th className="p-3 text-left font-medium rounded-tl-lg">あなたのタイプ</th>
+                <th className="p-3 text-left font-medium rounded-tr-lg">向いているのは</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ["20代前半・社会人経験が浅い", "マイナビエージェント（手厚いサポート）"],
+                ["第二新卒・初めての転職", "マイナビエージェント"],
+                ["未経験職種に挑戦したい", "マイナビエージェント＋リクルート併用"],
+                ["とにかく求人数・選択肢を増やしたい", "リクルートエージェント"],
+                ["30代以上・ハイクラスも視野", "リクルートエージェント（＋ビズリーチ/JAC）"],
+                ["地方・海外の求人も探したい", "リクルートエージェント"],
+                ["提案スピード重視で効率的に進めたい", "リクルートエージェント"],
+              ].map((row, i) => (
+                <tr key={i} className={i % 2 === 0 ? "bg-warm-gray/50" : ""}>
+                  <td className="p-3 font-medium text-navy border-b border-border">{row[0]}</td>
+                  <td className="p-3 text-text-secondary border-b border-border">{row[1]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
         <h2>結論：20代は「マイナビ軸＋リクルート併用」がおすすめ</h2>
         <p>
           マイナビエージェントは手厚いサポートで20代・第二新卒に、リクルートエージェントは圧倒的な求人数で全年代に強みがあります。
