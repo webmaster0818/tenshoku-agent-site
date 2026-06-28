@@ -3,19 +3,22 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "マイナビエージェントの評判・口コミ｜20代・第二新卒向けサポートを徹底解説",
+  title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
   description:
-    "マイナビエージェントを徹底解説。20代・第二新卒に強い手厚いサポートが特徴の転職エージェント。利用の流れ、メリット・デメリット、よくある質問をわかりやすくまとめました。",
+    "マイナビエージェントの評判・口コミを徹底調査。20代・第二新卒に強い手厚いサポートが特徴。年齢層は何歳まで使える？口コミの実態、メリット・デメリット、向いている人、FAQをまとめました。登録は完全無料。",
   openGraph: {
-    title: "マイナビエージェントの評判・口コミ｜20代・第二新卒向けサポートを徹底解説",
-    description: "20代に強いマイナビエージェントの特徴を徹底レビュー。",
+    title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
+    description: "20代・第二新卒に強いマイナビエージェントの評判・口コミ・年齢層・メリット・デメリットを徹底レビュー。",
   },
 };
 
 const faqData = [
-  { q: "マイナビエージェントの登録に費用はかかりますか？", a: "いいえ、完全無料で利用できます。登録から内定まで、費用は一切かかりません。" },
-  { q: "第二新卒でも利用できますか？", a: "はい、マイナビエージェントは第二新卒の転職支援に特に力を入れています。社会人経験が浅くても、丁寧にキャリア相談に乗ってもらえます。" },
-  { q: "マイナビエージェントとマイナビ転職の違いは何ですか？", a: "マイナビ転職は自分で求人を検索して応募する転職サイトです。マイナビエージェントは専任のキャリアアドバイザーがつき、求人紹介から面接対策まで一貫してサポートする転職エージェントサービスです。" },
+  { q: "マイナビエージェントの評判は実際どうですか？口コミの傾向は？", a: "「親身で丁寧」「書類添削・面接対策が手厚い」という良い評判が、特に20代・第二新卒の利用者から多く見られます。一方で「ハイクラス・高年収の求人は少なめ」「担当者の質・相性にばらつきがある」という声もあります。評価は担当アドバイザーとの相性に左右されやすく、合わない場合は担当変更を申し出ることができます。" },
+  { q: "マイナビエージェントは何歳まで使える？年齢層は？", a: "年齢制限の明記はなく、30代以降も利用できます。ただし利用者ボリュームは20代〜30代前半が中心で、第二新卒・初めての転職への強さが特徴です。35歳以降やハイクラス（年収800万円超）の求人は相対的に少なくなる傾向があるため、その場合はリクルートエージェントやdoda、ハイクラス特化のビズリーチ・JACとの併用がおすすめです。" },
+  { q: "マイナビエージェントの登録に費用はかかりますか？", a: "いいえ、求職者は完全無料で利用できます（公式明記）。登録から内定まで、費用は一切かかりません。サービスは採用企業からの報酬で運営されています。" },
+  { q: "第二新卒でも利用できますか？", a: "はい、マイナビエージェントは第二新卒の転職支援に特に力を入れています。社会人経験が浅くても、丁寧にキャリア相談に乗ってもらえます。20代向けの求人が豊富で、初めての転職でも安心して進められる体制が整っています。" },
+  { q: "マイナビエージェントとマイナビ転職の違いは何ですか？", a: "マイナビ転職は自分で求人を検索して応募する転職サイトです。マイナビエージェントは専任のキャリアアドバイザーがつき、求人紹介から書類添削・面接対策・年収交渉まで一貫してサポートする転職エージェントサービスです。両者は別サービスで、併用も可能です。" },
+  { q: "マイナビエージェントは20代に向いていますか？", a: "はい、20代・第二新卒の転職支援に最も力を入れているエージェントの一つです。ポテンシャル採用の求人が豊富で、丁寧なカウンセリングと手厚い書類・面接サポートが受けられるため、初めての転職で不安が大きい20代に向いています。" },
   { q: "30代以降でも利用できますか？", a: "はい、30代の方も利用可能です。ただし、マイナビエージェントは20代〜30代前半の求人に特に強みがあります。30代後半以降のハイクラス転職には、ビズリーチやJACリクルートメントとの併用をおすすめします。" },
   { q: "面談はオンラインでも受けられますか？", a: "はい、電話面談・オンライン面談に対応しています。平日夜や土曜日の面談にも対応しているため、在職中でも利用しやすい環境が整っています。" },
   { q: "マイナビエージェントの非公開求人とは？", a: "マイナビエージェントが独自に保有している、一般には公開されていない求人です。企業が非公開で募集する理由は、競合に知られたくないケースや、重要ポジションの採用などがあります。登録することで紹介を受けられます。" },
@@ -36,7 +39,9 @@ export default function MynaviReview() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
 
       <Breadcrumb
@@ -60,6 +65,29 @@ export default function MynaviReview() {
             20代・第二新卒の転職支援に特に強く、手厚いサポート体制が最大の特徴です。
             非公開求人を多数保有しており、IT・メーカー・営業職の転職に定評があります。
           </p>
+        </div>
+
+        {/* 結論ボックス（結論先出し） */}
+        <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
+          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li className="flex items-start gap-2">
+              <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
+              <span><strong>20代・第二新卒の転職に最も強いエージェントの一つ</strong>。丁寧なカウンセリングと手厚い書類添削・面接対策が好評で、初めての転職でも安心して進められます。</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
+              <span><strong>気になる評判は「ハイクラス求人が少なめ」「求人総数は大手に劣る」</strong>点。35歳以降や高年収狙いは、求人網羅性の高い大手との併用で補えます。</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
+              <span><strong>登録・利用は完全無料</strong>。年齢制限の明記はなく、20代〜30代前半が中心ですが30代以降も利用できます。</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
+              <span>求人数No.1級の<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や一体型の<Link href="/review/doda/" className="text-teal underline">doda</Link>と<strong>併用</strong>すると、求人の取りこぼしを減らせます。</span>
+            </li>
+          </ul>
         </div>
 
         {/* Summary Stats */}
@@ -197,15 +225,33 @@ export default function MynaviReview() {
           </div>
         </div>
 
-        {/* こんな方におすすめ */}
-        <h2>マイナビエージェントはこんな方におすすめ</h2>
-        <ul>
-          <li>20代で初めての転職を考えている方</li>
-          <li>第二新卒として転職活動をしたい方</li>
-          <li>手厚いサポートを受けたい方</li>
-          <li>IT・メーカー・営業職への転職を考えている方</li>
-          <li>書類作成や面接に不安がある方</li>
-        </ul>
+        {/* 向いている人・向いていない人 */}
+        <h2>マイナビエージェントが向いている人・向いていない人</h2>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">向いている人</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>20代で初めての転職を考えている人</li>
+              <li>第二新卒として転職活動をしたい人</li>
+              <li>手厚いサポート・丁寧な伴走を受けたい人</li>
+              <li>IT・メーカー・営業職への転職を考えている人</li>
+              <li>書類作成や面接に不安がある人</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>とにかく求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
+              <li>サイト・スカウトも併用したい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link></li>
+              <li>年収800万円以上のハイクラス転職を狙う人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>等</li>
+              <li>35歳以降で管理職・専門職を狙う人</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-sm text-text-secondary mb-8">
+          転職エージェントは1社に絞る必要はなく、<strong>2〜3社の併用が一般的</strong>です。
+          20代・第二新卒ならマイナビエージェントを軸に、求人網羅性の高い大手を組み合わせると、求人の取りこぼしとミスマッチの両方を減らせます。
+        </p>
 
         {/* FAQ */}
         <h2>マイナビエージェント よくある質問</h2>
