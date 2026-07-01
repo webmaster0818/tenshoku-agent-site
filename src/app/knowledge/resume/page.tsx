@@ -3,12 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "転職エージェントの職務経歴書添削サービス｜書き方のコツと活用法",
+  title: "職務経歴書の書き方｜職務要約の例文・テンプレートと通過するコツ",
   description:
-    "転職エージェントの職務経歴書添削サービスを徹底解説。基本構成、添削で変わるポイント、業界別の書き方（IT・営業・管理部門）、よくある失敗例と修正例まで、書類選考通過率を上げるコツを紹介します。",
+    "職務経歴書の書き方を例文つきで解説。職務要約の例文（IT・営業・管理部門）、基本構成、実績の数値化・自己PRの書き方、よくある失敗例と修正例まで。無料で使える転職エージェントの添削も紹介します。",
   openGraph: {
-    title: "転職エージェントの職務経歴書添削サービス｜書き方のコツと活用法",
-    description: "転職エージェントの職務経歴書添削を活用して書類選考通過率を上げるコツを解説。",
+    title: "職務経歴書の書き方｜職務要約の例文・テンプレートと通過するコツ",
+    description: "職務経歴書の書き方を職務要約の例文つきで解説。IT・営業・管理部門の例文と通過のコツ。",
   },
 };
 
@@ -42,18 +42,19 @@ export default function ResumePage() {
       <Breadcrumb
         items={[
           { name: "お役立ち", href: "/" },
-          { name: "職務経歴書の書き方・添削" },
+          { name: "職務経歴書の書き方・例文" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            転職エージェントの職務経歴書添削サービス｜書き方のコツと活用法
+            職務経歴書の書き方｜職務要約の例文・テンプレートと通過するコツ
           </h1>
           <p className="text-text-secondary leading-relaxed">
             職務経歴書の完成度は書類選考の通過率に直結します。
-            転職エージェントの無料添削サービスを活用し、あなたの強みが伝わる職務経歴書を作成しましょう。
+            このページでは、基本構成と各項目の書き方、そのまま参考にできる<strong className="text-navy">職務要約の例文</strong>を職種別に紹介します。
+            自分だけで仕上げにくいときは、後半で紹介する転職エージェントの無料添削も活用しましょう。
           </p>
         </div>
 
@@ -76,8 +77,46 @@ export default function ResumePage() {
           ))}
         </div>
 
+        {/* 職務要約の例文 */}
+        <h2>職務要約の例文（職種別）</h2>
+        <p className="text-sm text-text-secondary mb-6">
+          職務要約は採用担当者が最初に読む部分で、書類選考の印象を大きく左右します。
+          「経験年数＋領域＋主な実績＋強み」を3〜5行で簡潔にまとめるのがコツです。
+          以下の例文を自分の経歴に合わせて書き換えて使ってください（数値・固有名詞はご自身のものに置き換えましょう）。
+        </p>
+        <div className="space-y-5 mb-6">
+          {[
+            {
+              role: "IT・エンジニア（Webエンジニア）",
+              text: "Web系開発会社にて6年間、自社SaaSのサーバーサイド開発に従事してまいりました。要件定義から設計・実装・運用まで一貫して担当し、直近ではリードエンジニアとして5名のチームを牽引。API応答速度を平均40%改善し、月間の障害件数を前年比で半減させました。TypeScript・Goを用いた開発と、チームの技術負債解消を得意としています。",
+            },
+            {
+              role: "営業（法人営業・BtoB）",
+              text: "人材サービス会社にて5年間、法人向けの新規開拓営業を担当してまいりました。IT業界を中心に年間約60社を新規開拓し、担当エリアの売上を3期連続で前年比120%以上に成長させ、全社表彰を2度受賞。近年は既存顧客のアップセルにも注力し、顧客単価を15%改善しました。課題ヒアリングに基づく提案営業を強みとしています。",
+            },
+            {
+              role: "管理部門（経理）",
+              text: "上場企業の経理部にて7年間、月次・年次決算および開示業務に従事してまいりました。連結決算の早期化プロジェクトに携わり、決算日程を3営業日短縮。日商簿記1級を保有し、税務・監査法人対応の実務経験もございます。正確性とスピードを両立した決算業務と、業務フローの改善を得意としています。",
+            },
+          ].map((item) => (
+            <div key={item.role} className="bg-warm-gray rounded-2xl p-5">
+              <p className="font-bold text-navy text-sm mb-2">例：{item.role}</p>
+              <p className="text-sm text-text-secondary leading-relaxed">{item.text}</p>
+            </div>
+          ))}
+        </div>
+        <div className="bg-teal/5 rounded-2xl p-5 border border-teal/10 mb-10">
+          <h3 className="font-bold text-teal mb-2">職務要約を書くときのポイント</h3>
+          <ul className="space-y-1.5 text-sm text-text-secondary">
+            <li>冒頭で「何年・どの領域の経験か」を明示する。</li>
+            <li>実績はできる限り数値（金額・割合・件数）で表す。</li>
+            <li>最後の1文で「自分の強み」を一言で言い切る。</li>
+            <li>応募先の求人要件に合わせて強調するキーワードを入れ替える。</li>
+          </ul>
+        </div>
+
         {/* 添削サービスの内容 */}
-        <h2>エージェント添削サービスの内容</h2>
+        <h2>職務経歴書を仕上げる：エージェントの無料添削</h2>
         <div className="grid sm:grid-cols-3 gap-4 mb-10">
           {[
             { label: "料金", value: "完全無料" },
@@ -235,6 +274,12 @@ export default function ResumePage() {
             </Link>
             <Link href="/knowledge/email-template/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               メール例文集
+            </Link>
+            <Link href="/review/recruit-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              エージェントの口コミ
+            </Link>
+            <Link href="/company/hoya/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              企業別の転職ガイド
             </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ

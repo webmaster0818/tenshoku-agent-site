@@ -117,8 +117,36 @@ export default function EmailTemplatePage() {
           </div>
         </div>
 
+        {/* 例文3.5: 面接日程調整の返信 */}
+        <h3 className="text-lg font-bold text-navy mt-8 mb-3">4. 面接日程調整（候補日への返信）メール</h3>
+        <div className="bg-warm-gray rounded-2xl p-5 mb-6">
+          <p className="text-xs text-text-muted mb-2">件名：Re:【面接日程のご連絡】A社の面接について（山田太郎）</p>
+          <div className="text-sm text-text-secondary space-y-2">
+            <p>○○エージェント ○○様</p>
+            <p>面接日程のご連絡ありがとうございます。</p>
+            <p>いただいた候補日のうち、下記の日程で伺えますでしょうか。<br />第1希望：○月○日（○）14:00〜<br />第2希望：○月○日（○）10:00〜</p>
+            <p>いずれもご都合が合わない場合は、あらためて調整いたしますので<br />お知らせいただけますと幸いです。</p>
+            <p>当日はどうぞよろしくお願いいたします。</p>
+            <p>山田太郎</p>
+          </div>
+        </div>
+
+        {/* 例文3.6: 日程変更のお願い */}
+        <h3 className="text-lg font-bold text-navy mt-8 mb-3">5. 面接日程の変更をお願いするメール</h3>
+        <div className="bg-warm-gray rounded-2xl p-5 mb-6">
+          <p className="text-xs text-text-muted mb-2">件名：【日程変更のご相談】A社の面接について（山田太郎）</p>
+          <div className="text-sm text-text-secondary space-y-2">
+            <p>○○エージェント ○○様</p>
+            <p>いつもお世話になっております。山田太郎です。</p>
+            <p>誠に恐れ入りますが、○月○日に予定しておりますA社の面接につきまして、<br />急な業務都合により日程を変更させていただけないでしょうか。</p>
+            <p>あらためての候補日として、下記を希望いたします。<br />・○月○日（○）終日<br />・○月○日（○）午後</p>
+            <p>ご迷惑をおかけし申し訳ございませんが、<br />ご調整のほどよろしくお願いいたします。</p>
+            <p>山田太郎</p>
+          </div>
+        </div>
+
         {/* 例文4: 面接辞退 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">4. 面接辞退のメール</h3>
+        <h3 className="text-lg font-bold text-navy mt-8 mb-3">6. 面接辞退のメール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご相談】A社の面接辞退について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -132,7 +160,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文5: 内定辞退 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">5. 内定辞退のメール</h3>
+        <h3 className="text-lg font-bold text-navy mt-8 mb-3">7. 内定辞退のメール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【内定辞退のお詫び】B社について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -147,7 +175,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文6: エージェント利用終了 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">6. エージェント利用終了の連絡</h3>
+        <h3 className="text-lg font-bold text-navy mt-8 mb-3">8. エージェント利用終了の連絡</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご報告】転職活動終了のご連絡（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -161,7 +189,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文7: 担当者変更の依頼 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">7. 担当者変更の依頼メール</h3>
+        <h3 className="text-lg font-bold text-navy mt-8 mb-3">9. 担当者変更の依頼メール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご相談】担当者変更のお願い（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -242,7 +270,13 @@ export default function EmailTemplatePage() {
               使えないと感じたら
             </Link>
             <Link href="/knowledge/resume/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              職務経歴書の書き方・添削
+              職務経歴書の書き方・例文
+            </Link>
+            <Link href="/review/recruit-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              エージェントの口コミ
+            </Link>
+            <Link href="/company/capcom/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              企業別の転職ガイド
             </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
