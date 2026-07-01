@@ -377,6 +377,9 @@ export default function DodaReview() {
             <Link href="/review/mynavi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               マイナビエージェントの詳細
             </Link>
+            <Link href="/review/levtech/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              レバテックキャリアの詳細
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

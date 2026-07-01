@@ -123,7 +123,10 @@ export default function ItEngineerPage() {
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3">
+            <Link href="/review/levtech/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              レバテックキャリアの評判
+            </Link>
             <Link href="/type/high-class/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ハイクラス向けエージェント
             </Link>

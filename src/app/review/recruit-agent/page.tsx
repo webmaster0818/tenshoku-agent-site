@@ -124,7 +124,7 @@ export default function RecruitAgentReview() {
         <h2>リクルートエージェントはITエンジニア転職に使える？評判は？</h2>
         <p>
           リクルートエージェントはIT専門部門「<strong>リクルートエージェントIT</strong>」を持ち、IT業界出身のアドバイザーが対応します。テック企業・SIer・社内SEまで求人が幅広く、<strong>リモート案件の多さ・年収交渉のスムーズさ</strong>が高く評価されています。
-          一方で「希望と異なる求人も紹介される」「サポートが定型的になる場合がある」という声もあり、深い技術相談やエンジニア特化の交渉を重視するなら、レバテックキャリア等のIT特化エージェントとの併用が定石です。
+          一方で「希望と異なる求人も紹介される」「サポートが定型的になる場合がある」という声もあり、深い技術相談やエンジニア特化の交渉を重視するなら、<Link href="/review/levtech/" className="text-teal underline">レバテックキャリア</Link>等のIT特化エージェントとの併用が定石です。
         </p>
         <h2>リクルートエージェントの評判・口コミの傾向</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-4">
@@ -278,12 +278,18 @@ export default function RecruitAgentReview() {
         {/* Internal Links */}
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">他のエージェントも比較する</h3>
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3">
             <Link href="/review/doda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               doda（デューダ）の詳細
             </Link>
             <Link href="/review/mynavi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               マイナビエージェントの詳細
+            </Link>
+            <Link href="/review/levtech/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              レバテックキャリアの詳細
+            </Link>
+            <Link href="/review/bizreach/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              ビズリーチの詳細
             </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
