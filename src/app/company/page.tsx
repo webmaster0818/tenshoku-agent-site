@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 
 // 年収は各企業ページ掲載の検証済み値（有報=決算期付き/外資=参考値）。ページ側と必ず一致させること。
 const companies = [
-  { slug: "nintendo", name: "任天堂", salary: "約988万円（有報）", tag: "ゲーム" },
-  { slug: "sony", name: "ソニーグループ", salary: "約1,085万円", tag: "エレクトロニクス" },
-  { slug: "toyota", name: "トヨタ自動車", salary: "約895万円", tag: "自動車" },
+  { slug: "nintendo", name: "任天堂", salary: "982万円（有報）", tag: "ゲーム" },
+  { slug: "sony", name: "ソニーグループ", salary: "1,155万円（有報）", tag: "エレクトロニクス" },
+  { slug: "toyota", name: "トヨタ自動車", salary: "1,006万円（有報）", tag: "自動車" },
   { slug: "capcom", name: "カプコン", salary: "約985万円（有報）", tag: "ゲーム" },
-  { slug: "cyberagent", name: "サイバーエージェント", salary: "約800万円", tag: "IT・広告" },
-  { slug: "mercari", name: "メルカリ", salary: "約970万円", tag: "IT" },
+  { slug: "cyberagent", name: "サイバーエージェント", salary: "913万円（有報）", tag: "IT・広告" },
+  { slug: "mercari", name: "メルカリ", salary: "1,176万円（有報）", tag: "IT" },
   { slug: "hoya", name: "HOYA", salary: "約970万円（有報）", tag: "精密機器" },
   { slug: "daifuku", name: "ダイフク", salary: "約917万円（有報）", tag: "マテハン" },
   { slug: "nidec", name: "ニデック", salary: "約760万円（有報）", tag: "電子部品" },

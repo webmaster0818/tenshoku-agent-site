@@ -91,7 +91,7 @@ export default function AmazonCareer() {
                 { label: "本社", value: "東京都目黒区（日本法人） / ワシントン州シアトル（グローバル本社）" },
                 { label: "設立", value: "1994年（グローバル） / 2000年（日本法人）" },
                 { label: "従業員数", value: "約1,540,000人（グローバル） / 約10,000人以上（日本）" },
-                { label: "平均年収", value: "1,000〜1,500万円（+RSU・サインオンボーナス）" },
+                { label: "平均年収", value: "1,000〜1,500万円（+RSU）※エンジニア職の総報酬中央値は約1,700万円（levels.fyi・東京・RSU込み参考値）" },
                 { label: "事業内容", value: "EC（Amazon.co.jp）、クラウド（AWS）、Prime Video、Alexa/デバイス、物流、広告" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
