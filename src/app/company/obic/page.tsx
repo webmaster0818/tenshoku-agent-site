@@ -89,7 +89,7 @@ export default function CompanyCareer() {
                 { label: "平均年齢", value: "約35.8歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約12.9年（同・提出会社）" },
                 { label: "従業員数", value: "2,030名（同・提出会社単体）／連結は要公式確認" },
-              ]].map((row) => (
+              ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
                   <td className="py-3 px-4 text-text-secondary">{row.value}</td>
@@ -120,7 +120,7 @@ export default function CompanyCareer() {
             { title: "自社開発志向", desc: "外注に出さず自社で作り切る文化のため、上流から下流まで一貫して関わりたい志向が合います。" },
             { title: "顧客と長く向き合う姿勢", desc: "直販・長期サポートのモデルのため、顧客企業と継続的に関わる粘り強さが求められます。" },
             { title: "高い基礎能力と学習意欲", desc: "新卒中心の育成文化では、地頭と吸収力を重視する傾向が知られています。" }
-          ]].map((point) => (
+          ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
               <p className="text-sm text-text-secondary">{point.desc}</p>
@@ -136,7 +136,7 @@ export default function CompanyCareer() {
             { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
             { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
             { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
-          ]].map((s) => (
+          ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
               <div>
@@ -165,7 +165,7 @@ export default function CompanyCareer() {
             { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
             { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
-          ]].map((agent) => (
+          ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
                 <h3 className="font-bold text-navy">{agent.name}</h3>
