@@ -74,6 +74,20 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文1: 初回登録後の挨拶 */}
+        <h2>そもそも転職エージェントにお礼メールは必要？</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-3">
+            <strong className="text-navy">結論：必須ではありませんが、送ることを強くおすすめします。</strong>お礼メールの有無で合否が変わることはないものの、エージェントも人間です。丁寧な連絡をくれる求職者は「企業に紹介しても安心」と判断されやすく、<strong className="text-navy">求人紹介の優先度やサポートの質に良い影響</strong>があります。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>・送るタイミングは<strong className="text-navy">面談当日〜翌日午前中</strong>まで。時間が経つほど効果が薄れます。</li>
+            <li>・長文は不要。感謝＋面談で得た気づき＋次のアクション（求人への返答期日など）の3点で簡潔に。</li>
+            <li>・電話でのお礼はかえって業務を中断させるため不要。メールまたは担当者と使っているチャットでOKです。</li>
+            <li>・内定・入社が決まったときのお礼は、担当者のモチベーションにもなるためぜひ送りましょう（例文6参照）。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">具体的な文面は下の例文2（面談後のお礼）・例文3（求人紹介へのお礼）をそのまま使えます。</p>
+        </div>
+
         <h2>シーン別メール例文</h2>
 
         <h3 className="text-lg font-bold text-navy mt-8 mb-3">1. 初回登録後の挨拶メール</h3>
