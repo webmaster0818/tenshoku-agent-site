@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・コーエーテクモなど18社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど21社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -26,6 +26,9 @@ const companies = [
   { slug: "sega-sammy", name: "セガサミーHD", salary: "約884万円（有報・HD単体）", tag: "ゲーム" },
   { slug: "konami", name: "コナミグループ", salary: "約850万円（有報・HD単体）", tag: "ゲーム" },
   { slug: "toyo-suisan", name: "東洋水産（マルちゃん）", salary: "約698万円（有報）", tag: "食品" },
+  { slug: "takara-tomy", name: "タカラトミー", salary: "約1,038万円（有報）", tag: "玩具" },
+  { slug: "yakult", name: "ヤクルト本社", salary: "約854万円（有報）", tag: "食品" },
+  { slug: "zojirushi", name: "象印マホービン", salary: "約835万円（有報）", tag: "家電" },
   { slug: "amazon", name: "Amazon Japan", salary: "参考値（外資）", tag: "外資IT" },
   { slug: "google", name: "Google Japan", salary: "参考値（外資）", tag: "外資IT" },
   { slug: "accenture", name: "アクセンチュア", salary: "参考値（外資）", tag: "コンサル" },
