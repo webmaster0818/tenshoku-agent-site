@@ -164,6 +164,7 @@ export default function GameSalaryRanking() {
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ゲーム業界への転職を考えたら</h2>
           <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>
             <Link href="/company/" className="btn-accent px-8 py-3">企業別転職ガイド一覧を見る</Link>
           </div>
         </div>

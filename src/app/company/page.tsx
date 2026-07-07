@@ -72,7 +72,8 @@ export default function CompanyIndexPage() {
         <section className="bg-warm-gray rounded-2xl p-6">
           <h2 className="font-bold text-navy mb-3">転職活動をあわせて進めるなら</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/company/game-salary/" className="text-navy underline">ゲーム会社の年収ランキング【有報準拠】</Link></li>
+            <li><Link href="/company/game-salary/" className="text-navy underline">ゲーム会社の年収ランキング【有報準拠】</Link>
+          <Link href="/company/maker-salary/" className="text-navy underline">メーカーの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/review/levtech/" className="text-navy underline">レバテックキャリアの評判（IT・エンジニア特化）</Link></li>
             <li><Link href="/review/recruit-agent/" className="text-navy underline">リクルートエージェントの評判（求人数最大級）</Link></li>
             <li><Link href="/review/jac/" className="text-navy underline">JACリクルートメントの評判（ハイクラス）</Link></li>
