@@ -263,6 +263,7 @@ export default function ToyotaCareer() {
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">他の企業の転職ガイド</h3>
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
+            <Link href="/company/maker-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">メーカー年収ランキング</Link>
             <Link href="/company/google/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               Google転職ガイド
             </Link>

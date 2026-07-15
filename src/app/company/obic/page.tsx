@@ -197,6 +197,7 @@ export default function CompanyCareer() {
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
+            <Link href="/company/it-consultant-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">ITコンサル年収ランキング</Link>
             <Link href="/company/sony/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">ソニーグループ転職ガイド</Link>
             <Link href="/company/cyberagent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">サイバーエージェント転職ガイド</Link>
             <Link href="/company/mercari/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">メルカリ転職ガイド</Link>

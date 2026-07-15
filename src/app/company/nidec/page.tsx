@@ -252,6 +252,7 @@ export default function NidecCareer() {
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
+            <Link href="/company/maker-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">メーカー年収ランキング</Link>
             <Link href="/company/daifuku/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ダイフク転職ガイド
             </Link>
