@@ -3,11 +3,11 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "転職エージェントへのメール例文集｜登録・お礼・辞退・断り方",
+  title: "転職エージェントへのお礼メール例文｜面談後・内定後・辞退・断り方【コピペ可】",
   description:
     "転職エージェントへのメール例文を場面別に紹介。初回挨拶、面談後のお礼、求人紹介へのお礼、面接辞退、内定辞退、利用終了の連絡、担当者変更の依頼など、コピペで使えるテンプレートを完全網羅。",
   openGraph: {
-    title: "転職エージェントへのメール例文集｜登録・お礼・辞退・断り方",
+    title: "転職エージェントへのお礼メール例文｜面談後・内定後・辞退・断り方【コピペ可】",
     description: "転職エージェントへの場面別メール例文集。コピペで使えるテンプレートを紹介。",
   },
 };
