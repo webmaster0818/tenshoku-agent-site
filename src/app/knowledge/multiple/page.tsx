@@ -113,7 +113,7 @@ export default function MultiplePage() {
             </p>
           </div>
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2">パターン3：年収アップ・キャリアアップ狙い</h3>
+            <h3 className="font-bold text-navy mb-2">パターン3：ハイクラス・キャリアアップ狙い</h3>
             <p className="text-sm text-text-secondary">
               <strong>ビズリーチ</strong>（ハイクラス・スカウト型）＋ <strong>JACリクルートメント</strong>（外資系・管理職に強い）の組み合わせ。
               高年収の求人と専門性の高いサポートを受けられます。
