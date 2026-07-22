@@ -44,6 +44,17 @@ const faqData = [
   },
 ];
 
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "ゲーム業界の年収ランキング【有価証券報告書準拠】",
+  dateModified: "2026-07-22",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/game-salary/" },
+  inLanguage: "ja",
+};
+
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -57,6 +68,7 @@ const faqJsonLd = {
 export default function GameSalaryRanking() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "ゲーム会社の年収ランキング" }]} />
 
