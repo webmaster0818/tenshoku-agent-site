@@ -57,6 +57,32 @@ export default function EmailTemplatePage() {
           </p>
         </div>
 
+        {/* 最速コピペ: 最需要の面談後お礼の基本形 */}
+        <div className="glass-card p-6 mb-8 border-l-4 border-teal">
+          <p className="text-sm font-bold text-navy mb-2">【30秒で使える】面談後のお礼メール基本形（そのままコピペOK）</p>
+          <div className="bg-warm-gray rounded-xl p-4 text-sm text-text-secondary space-y-1.5">
+            <p className="text-xs text-text-muted">件名：【お礼】本日の面談ありがとうございました（氏名）</p>
+            <p>○○様　本日はお時間をいただきありがとうございました。アドバイスを伺い、キャリアの方向性が明確になりました。ご紹介いただいた求人は確認のうえ、○日までにご連絡いたします。引き続きよろしくお願いいたします。（氏名）</p>
+          </div>
+          <p className="text-xs text-text-muted mt-2">ポイントは「感謝＋気づき＋次のアクション」の3点だけ。より丁寧な文面や他の場面は下の例文集からどうぞ。</p>
+        </div>
+
+        {/* 目次 */}
+        <div className="card-hover p-5 mb-10">
+          <p className="font-bold text-navy text-sm mb-3">この記事の例文一覧（クリックで移動）</p>
+          <ol className="grid sm:grid-cols-2 gap-x-4 gap-y-1.5 text-sm text-text-secondary list-none pl-0">
+            <li><a href="#ex1" className="text-teal hover:underline">1. 初回登録後の挨拶</a></li>
+            <li><a href="#ex2" className="text-teal hover:underline">2. 面談後のお礼</a></li>
+            <li><a href="#ex3" className="text-teal hover:underline">3. 求人紹介へのお礼・応募意思</a></li>
+            <li><a href="#ex4" className="text-teal hover:underline">4. 面接日程調整の返信</a></li>
+            <li><a href="#ex5" className="text-teal hover:underline">5. 面接日程の変更依頼</a></li>
+            <li><a href="#ex6" className="text-teal hover:underline">6. 面接辞退</a></li>
+            <li><a href="#ex7" className="text-teal hover:underline">7. 内定辞退</a></li>
+            <li><a href="#ex8" className="text-teal hover:underline">8. 利用終了の連絡</a></li>
+            <li><a href="#ex9" className="text-teal hover:underline">9. 担当者変更の依頼</a></li>
+          </ol>
+        </div>
+
         {/* メールマナー */}
         <h2>メール作成の基本マナー</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-10">
@@ -90,7 +116,7 @@ export default function EmailTemplatePage() {
 
         <h2>シーン別メール例文</h2>
 
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">1. 初回登録後の挨拶メール</h3>
+        <h3 id="ex1" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">1. 初回登録後の挨拶メール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご挨拶】転職相談のお願い（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -104,7 +130,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文2: 面談後のお礼 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">2. 面談後のお礼メール</h3>
+        <h3 id="ex2" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">2. 面談後のお礼メール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【お礼】本日の面談ありがとうございました（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -118,7 +144,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文3: 求人紹介へのお礼・応募意思 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">3. 求人紹介へのお礼・応募意思の連絡</h3>
+        <h3 id="ex3" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">3. 求人紹介へのお礼・応募意思の連絡</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【求人確認】ご紹介いただいた求人について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -132,7 +158,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文3.5: 面接日程調整の返信 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">4. 面接日程調整（候補日への返信）メール</h3>
+        <h3 id="ex4" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">4. 面接日程調整（候補日への返信）メール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：Re:【面接日程のご連絡】A社の面接について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -146,7 +172,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文3.6: 日程変更のお願い */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">5. 面接日程の変更をお願いするメール</h3>
+        <h3 id="ex5" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">5. 面接日程の変更をお願いするメール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【日程変更のご相談】A社の面接について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -160,7 +186,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文4: 面接辞退 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">6. 面接辞退のメール</h3>
+        <h3 id="ex6" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">6. 面接辞退のメール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご相談】A社の面接辞退について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -174,7 +200,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文5: 内定辞退 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">7. 内定辞退のメール</h3>
+        <h3 id="ex7" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">7. 内定辞退のメール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【内定辞退のお詫び】B社について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -189,7 +215,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文6: エージェント利用終了 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">8. エージェント利用終了の連絡</h3>
+        <h3 id="ex8" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">8. エージェント利用終了の連絡</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご報告】転職活動終了のご連絡（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -203,7 +229,7 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文7: 担当者変更の依頼 */}
-        <h3 className="text-lg font-bold text-navy mt-8 mb-3">9. 担当者変更の依頼メール</h3>
+        <h3 id="ex9" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">9. 担当者変更の依頼メール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：【ご相談】担当者変更のお願い（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
