@@ -104,13 +104,16 @@ export default function CompanyCareer() {
 
         <h2>セガサミーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">採用はセガ・サミー等の事業会社単位で行われます。セガはコンシューマ・モバイル両面でゲーム開発職（プログラマー・プランナー・デザイナー）のキャリア採用を継続的に実施しており、大型IPの海外展開に伴う職種の広がりも見られます。</p>
+          <p className="text-sm text-text-secondary mb-4">採用主体はセガサミーホールディングスではなく事業会社側です。ゲーム開発のキャリア採用は「株式会社セガ・株式会社セガ フェイブ アミューズメントコンテンツカンパニー・株式会社セガ札幌スタジオは合同で採用活動をしています」と公式に記載されており、セガの<a href="https://www.sega.co.jp/recruit/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用ページ</a>から<a href="https://hrmos.co/pages/sega" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOS上の求人一覧</a>（確認時点で約92件）へ案内され、各求人ページから応募する形式です。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>応募窓口は持株会社ではなく事業会社（セガ・サミー等）。</li>
-            <li>ゲーム開発職はポートフォリオ・実績の提示が実質必須。</li>
-            <li>遊技機（サミー）側は機構設計・映像・ソフトなどメーカー系職種が中心。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>応募窓口は持株会社（セガサミーHD）ではなく事業会社（株式会社セガ等の合同採用グループ）。</li>
+            <li>募集職種のカテゴリ（公式求人一覧の表記）: ゲーム開発職（プランナー、プログラマ・エンジニア（CS）、デザイナー（CS）、サウンド、TAなど）／ビジネス職（マーケティング・宣伝、営業（CS）、経営企画・事業企画など）／事業支援・バックオフィス／グループ会社。</li>
+            <li>キャリア採用ページ上では確認時点でテクニカルアーティスト、プログラマの募集をピックアップ掲載。雇用形態は正社員・契約社員・アルバイトを掲載。</li>
+            <li>勤務地（求人一覧の公式記載）: 東京都品川区西品川（大崎本社）、北海道札幌市北区（セガ札幌スタジオ）。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         <h2>セガサミーで求められる人材</h2>

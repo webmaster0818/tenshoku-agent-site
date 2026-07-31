@@ -104,13 +104,17 @@ export default function CompanyCareer() {
 
         <h2>コナミの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">採用は事業会社ごとに行われ、ゲーム開発（KONAMIデジタルエンタテインメント）ではプログラマー・プランナー・デザイナー等のキャリア採用が継続的にあります。モバイル・コンシューマ・eスポーツと領域が広いのが特徴です。</p>
+          <p className="text-sm text-text-secondary mb-4">コナミグループはグループ横断の公式<a href="https://www.konami.com/jobs/ja/jk/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">中途採用情報ページ</a>で通年募集を行っており、<a href="https://www.konami.com/jobs/ja/jk/list/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧</a>から各求人にオンライン応募する形式です。採用実施会社はコナミデジタルエンタテインメント、コナミアーケードゲームス、コナミアミューズメント、コナミスポーツ、コナミビジネスエキスパートの5社に加え、コナミグループ株式会社本体の求人（経理・財務・税務等）もグループ採用ページに集約されています（公式FAQ記載）。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>応募窓口は持株会社ではなく各事業会社。</li>
-            <li>ゲーム開発職はポートフォリオ・実績の提示が実質必須。</li>
-            <li>スポーツクラブ事業など非ゲームの職種もある。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種のカテゴリ（公式表記）: エンジニア／デザイナー／企画・プロデュース／サウンド・映像・アニメ／制作・ビジネス支援／web3／法務・商標・特許／経理・財務・税務／社内システム開発・運用／製造・建築関連／その他。</li>
+            <li>応募はエントリーフォームからのオンライン応募。デザイナー・サウンドクリエイター職はエントリー審査合格後に作品提出が必須（公式記載）。</li>
+            <li>キャリア登録制度あり: 掲載外の職種でも登録可能（有効期間1年）で、該当求人の掲載時に選考が開始される仕組み。</li>
+            <li>事業所は東京・神奈川・大阪・神戸・一宮（愛知）、営業関連職は全国（公式FAQ記載）。応募時に希望勤務地の記入が必要。</li>
+            <li>給与は「月給賞与制 前給を基本に経験・能力等を考慮の上」決定と公式に記載。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         <h2>コナミで求められる人材</h2>

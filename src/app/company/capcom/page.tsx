@@ -121,14 +121,17 @@ export default function CapcomCareer() {
         <h2>カプコンの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
-            カプコンは自社IPを軸に安定した収益を上げており、開発体制の強化に伴い開発職を中心に中途採用を継続しています。人気タイトルを抱えるため応募が集まりやすい一方、経験者にとっては幅広い職種で挑戦の機会があります。
+            カプコンはキャリア採用（中途採用）を実施しており、<a href="https://www.capcom.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>から<a href="https://hrmos.co/pages/capcom" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOS上のキャリア採用求人一覧</a>へ案内されています。確認時点で約80件超の求人が掲載されており（正社員中心・一部契約社員等）、応募は各求人ページから行う形式です。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>プランナー・プログラマー・デザイナー・アーティスト・サウンドなどの開発職。</li>
-            <li>IP事業、eスポーツ、マーケティング、海外事業などの職種。</li>
-            <li>経理・法務・人事・情報システムなどのコーポレート職。</li>
-            <li>募集職種・要件は時期により変動するため、公式採用サイトでの最新確認が必須。</li>
+            <li>募集職種の例（公式求人一覧のカテゴリ表記）: プロデューサー/プランナー、データ分析/データエンジニア、デザイナー、ゲーム開発プログラマー、エンジンプログラマーのほか、サウンド・Localization・マーケティング等。</li>
+            <li>勤務地は求人一覧のフィルタ表記で「東京」「大阪」「大阪/東京」「全国」（確認時点では大阪勤務の求人が最多）。</li>
+            <li>「職種を絞らずに応募したい方」向けにキャリア登録の仕組みがあり、各部門が経歴を見て検討する形式（公式記載）。</li>
+            <li>ジョブリターン制度（退職した社員の再雇用）の記載あり。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         {/* 求められる人材 */}

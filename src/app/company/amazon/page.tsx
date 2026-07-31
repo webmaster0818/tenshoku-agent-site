@@ -125,34 +125,64 @@ export default function AmazonCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>Amazonの中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            Amazonの中途採用は、公式採用ポータル
+            <a
+              href="https://www.amazon.jobs/jp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              amazon.jobs
+            </a>
+            で求人を検索して応募する方式です。公式検索では日本国内の求人が1,006件掲載されていました（2026年7月31日確認時点）。主要な募集カテゴリは、公式表記でFulfillment & Operations Management、Sales, Advertising, & Account Management、Solutions Architect、Software Developmentなど。勤務地は東京が最多で、大阪・名古屋・尼崎・堺・小田原のほか、全国のフルフィルメントセンター・物流拠点（埼玉・千葉・岐阜・奈良・岡山・佐賀など）でも募集があります。
+          </p>
+          <p className="text-sm text-text-secondary mb-4">
+            選考プロセスは公式の
+            <a
+              href="https://www.amazon.jobs/content/jp/how-we-hire"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              採用プロセスページ
+            </a>
+            で「オンライン申請」→「アセスメント」→「電話スクリーニング」→「インタビューループ」と案内されており（職種により異なる旨の記載あり）、応募状況はamazon.jobsのマイページや専用アプリで確認できます。
+          </p>
+          <p className="text-xs text-text-muted">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
-        <h2>Amazonの選考フロー</h2>
+        <h2>Amazonの選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">
+          ※公式採用ページ記載の流れ（2026年7月31日確認）。職種により異なる旨の公式記載があります。
+        </p>
         <div className="space-y-5 mb-8">
           {[
             {
               step: 1,
-              title: "書類選考・リクルーター連絡",
-              desc: "レジュメを提出または、Amazonリクルーターからのアプローチを受けます。職務経歴とスキルセットがポジション要件に合致するか判断されます。",
+              title: "オンライン申請",
+              desc: "公式採用ポータルamazon.jobsで職種を検索し、オンラインで応募します。応募状況はマイページで確認でき、専用アプリ（App Store/Google Play）も提供されています。",
             },
             {
               step: 2,
-              title: "電話/オンライン面接",
-              desc: "リクルーターとの電話スクリーニング後、ハイアリングマネージャーとの面接が行われます。技術職はこの段階でコーディング問題が出題されることがあります。",
+              title: "アセスメント",
+              desc: "応募後、アセスメントが実施されます。内容や有無は職種により異なる旨が公式に記載されています。",
             },
             {
               step: 3,
-              title: "ループ面接（4〜6回）",
-              desc: "Amazonオフィスで4〜6名の面接官と各1時間程度の面接を実施。各面接官がそれぞれ異なるLeadership Principlesを担当して評価します。Bar Raiserも参加します。",
+              title: "電話スクリーニング",
+              desc: "電話でのスクリーニングが行われます。公式サイトには面接対策コンテンツ「面接の秘訣」やLeadership Principlesの説明ページが用意されています。",
             },
             {
               step: 4,
-              title: "デブリーフ（合否判定会議）",
-              desc: "全面接官が集まり、各面接のフィードバックを共有。Bar Raiserには拒否権があり、基準に満たないと判断した場合は採用が見送られます。",
-            },
-            {
-              step: 5,
-              title: "オファー・条件交渉",
-              desc: "デブリーフ通過後、Total Compensation（基本給+サインオンボーナス+RSU）の提示が行われます。競合オファーがある場合は交渉の余地があります。",
+              title: "インタビューループ",
+              desc: "複数回の面接からなるインタビューループが実施されます。選考ステップの詳細は職種により異なるため、応募前に公式採用プロセスページをご確認ください。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">

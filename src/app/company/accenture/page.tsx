@@ -125,6 +125,29 @@ export default function AccentureCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>アクセンチュアの中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            アクセンチュアは中途採用を「経験者採用」として実施しており、
+            <a
+              href="https://www.accenture.com/jp-ja/careers"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              公式採用ページ
+            </a>
+            の求人検索から職種を選んで応募する方式です。公式の採用プロセスページには、ウェブ応募（履歴書・職務経歴書のアップロード）→書類選考→面接（2〜3回を予定、応募部門により回数は異なる）→オファー（約1週間で結果連絡）という流れと、選考期間は約1〜2ヶ月が目安であることが記載されています。複数職種への同時応募は不可、経験者採用は原則4年以上の社会人経験が目安との記載もあります。
+          </p>
+          <p className="text-sm text-text-secondary mb-4">
+            日本国内の拠点は、公式拠点一覧によると東京・札幌・仙台・会津若松・前橋・横浜・名古屋・京都・大阪・福岡・熊本の11都市。募集分野としては「AI＆データ」「クラウド」「サイバーセキュリティ」「戦略コンサルティング」「テクノロジー・トランスフォーメーション」などのカテゴリが公式採用ページに掲載されています。
+          </p>
+          <p className="text-xs text-text-muted">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
         <h2>アクセンチュアの選考フロー</h2>
         <div className="space-y-5 mb-8">

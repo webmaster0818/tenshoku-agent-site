@@ -104,13 +104,16 @@ export default function CompanyCareer() {
 
         <h2>ピジョンの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">ピジョンは商品企画・研究開発・品質保証・マーケティング・営業などの職種でキャリア採用を行うことがあります（募集の有無・職種は時期により変動）。消費財メーカーでの商品開発・品質保証・マーケティングの経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            ピジョンは<a href="https://www.pigeon.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>で「経験者採用情報」として中途採用を実施しており、求人の一覧・応募は公式リンク先の<a href="https://arwrk.net/recruit/dyqpmzzv1nmud7b" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">経験者採用ページ</a>から行う形です。2026年7月31日確認時点では、以下の職種が掲載されていました（公式表記のまま・いずれも正社員）。
+          </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>商品企画・研究開発・品質保証などメーカーの定番職種が中心。</li>
-            <li>育児用品に加え、マタニティ・介護・保育など事業領域が幅広い。</li>
-            <li>本社単体は338名と組織が小さく、募集枠は限られる傾向。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>掲載職種：哺乳瓶の技術開発／連結決算・開示・財務業務（スタッフ職／リーダー職）／社内SE業務／ブランディング業務／広報業務／法務業務／サステナビリティ関連業務／ベビー用品の国内提案型ルート営業／内部監査業務／食品の品質管理業務（2026年7月31日確認時点）。</li>
+            <li>勤務地は東京本社が中心。哺乳瓶の技術開発は筑波事業所、食品の品質管理業務は中央研究所オフィス。</li>
+            <li>応募は経験者採用ページの各求人から。あわせて「キャリア登録」フォームの案内もあり。</li>
+            <li>選考ステップの詳細は各求人ページ単位での案内（一覧ページには明記なし）。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>ピジョンで求められる人材</h2>

@@ -125,6 +125,32 @@ export default function NintendoCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>任天堂の中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            任天堂は「キャリア採用」の名称で中途採用を実施しており、
+            <a
+              href="https://www.nintendo.co.jp/jobs/career/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              公式のキャリア採用 募集要項ページ
+            </a>
+            で募集職種を確認できます。応募は公式サイトの「キャリア採用Web応募」からのWebエントリーです。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>募集職種カテゴリ（公式表記のまま・2026年7月31日確認時点）: 「デザイナー」「ソフトウェアエンジニア」「コーポレートIT」「ハードウェアエンジニア」「プランナー／ディレクター／プロダクトマネージャー」「サウンドクリエイター」「プロジェクトマネージャー」「マーケティング／プロモーション／ブランディング」「ウェブサイト企画・制作・運営」「コーポレートスタッフ」の全10カテゴリ</li>
+            <li>各職種とも「京都勤務」「東京勤務」の2区分で募集されています</li>
+            <li>公式の採用プロセスでは、Web応募の結果連絡まで約1カ月、応募から内定までは2〜3か月程度とされています。職種により作品選考があり、面接は複数回を予定と記載されています</li>
+            <li>「現在任天堂グループに在籍中の方のご応募はご遠慮ください」の注記があります。職種別説明会の情報が掲載されることもあります</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
         <h2>任天堂の選考フロー</h2>
         <div className="space-y-5 mb-8">

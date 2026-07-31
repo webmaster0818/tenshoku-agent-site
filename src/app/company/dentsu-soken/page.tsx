@@ -100,7 +100,24 @@ export default function CompanyCareer() {
 
         <h2>電通総研の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">電通総研はコンサルタント・エンジニア等の職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。ITコンサル/SIの経験や、特定業界のドメイン知識が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            電通総研は中途採用を「キャリア採用」として実施しており、
+            <a
+              href="https://www.career.dentsusoken.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              公式キャリア採用サイト
+            </a>
+            を運営しています。募集職種は公式の職種分類で、営業／マーケティング／新規事業・製品企画／プロジェクトマネージャー・リーダー／ITアーキテクト・テックリード／プロダクトマネージャー／アプリケーションエンジニア／データサイエンティスト／クラウドエンジニア／コンサルタント／管理系（人事・経理・法務・広報など）の11分類。勤務地の検索フィルタは東京・大阪・名古屋・豊田・広島です。アルムナイ（退職者再入社）の採用枠もあります。
+          </p>
+          <p className="text-sm text-text-secondary mb-4">
+            応募方法は募集職種一覧からの応募のほか、キャリア登録（マッチした職種が見つかり次第連絡）の2通り。公式FAQには、入社日は原則毎月1日付で希望調整が可能なこと、入社初日・2日目の入社オリエンテーションと研修に加えて配属後6ヶ月間のオンボーディングプログラムとOJTがあること、SIer・コンサル以外の事業会社出身の転職者も多数活躍していることが記載されています。
+          </p>
+          <p className="text-xs text-text-muted">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         <h2>電通総研で求められる人材</h2>
@@ -126,14 +143,14 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>電通総研の選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>電通総研の選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種・時期により異なる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "職務経歴書で、コンサル/IT/ドメインの経験と応募職種の適合性が確認されます。" },
-            { step: 2, title: "一次面接・ケース", desc: "現場マネージャー等との面接。論理的思考や実務経験、ケース面接が課される場合もあります。" },
-            { step: 3, title: "二次・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットとキャリアビジョンを確認。" },
-            { step: 4, title: "内定・条件提示", desc: "等級・オファー年収の提示。条件確認を経て入社となります。" },
+            { step: 1, title: "応募", desc: "公式キャリア採用サイトの募集職種一覧から応募するか、キャリア登録（マッチした職種が見つかり次第連絡）を利用します。" },
+            { step: 2, title: "書類審査", desc: "公式FAQでは選考は「書類審査、面接2〜3回を標準」と記載されています。" },
+            { step: 3, title: "面接（2〜3回を標準）", desc: "面接は2〜3回が標準。最終面接の遠方交通費は会社規程により負担との公式記載があります。" },
+            { step: 4, title: "内定", desc: "応募から採用内定まで概ね1ヶ月が目安（公式FAQ）。入社日は原則毎月1日付で、希望に応じた調整が可能です。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

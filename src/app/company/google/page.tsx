@@ -125,6 +125,38 @@ export default function GoogleCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>Googleの中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            Googleの採用は新卒・中途という区分ではなく、公式の
+            <a
+              href="https://www.google.com/about/careers/applications/jobs/results/?location=Japan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              Google Careers
+            </a>
+            で求人を検索して応募する方式です。勤務地をJapanで絞り込むと66件の求人が掲載されていました（2026年7月31日確認時点）。求人の勤務地は東京および千葉県印西市（データセンター）で、Google Cloud関連（セールス・カスタマーエンジニア）、広告営業、データセンター運用のポジションが中心です。
+          </p>
+          <p className="text-sm text-text-secondary mb-4">
+            選考プロセスについては公式の
+            <a
+              href="https://www.google.com/about/careers/applications/how-we-hire/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              How we hire
+            </a>
+            ページで案内されています（本記事作成時点では同ページの本文詳細までは確認できていないため、選考ステップの詳細は応募前に公式ページを直接ご確認ください）。
+          </p>
+          <p className="text-xs text-text-muted">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
         <h2>Googleの選考フロー</h2>
         <div className="space-y-5 mb-8">

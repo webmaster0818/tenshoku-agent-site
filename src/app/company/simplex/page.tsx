@@ -100,7 +100,22 @@ export default function CompanyCareer() {
 
         <h2>シンプレクスの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">シンプレクスはコンサルタント・エンジニア等の職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。ITコンサル/SIの経験や、特定業界のドメイン知識が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            シンプレクスは
+            <a href="https://recruit.simplex.holdings/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>
+            内に
+            <a href="https://recruit.simplex.holdings/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用ページ</a>
+            を設けています。募集ポジションの確認・応募は、公式FAQで案内されている
+            <a href="https://hrmos.co/pages/simplex/jobs" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用ポジション一覧</a>
+            から行えます。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary mb-4">
+            <li>募集職種（公式表記）：コンサルタント／セールス／プロジェクトマネジャー／UI/UX（UI/UXデザイナー、プロダクトエンジニア）／ソフトウェアエンジニア（テックリード、フロントエンドエンジニア、バックエンドエンジニア、モバイルアプリエンジニア）／インフラエンジニア（インフラエンジニア、クラウドエンジニア、SRE、セキュリティエンジニア）／コーポレート。</li>
+            <li>カジュアル面談を職種別の3カテゴリで実施。選考期間は「通常2週間〜1か月程度」と公式FAQに記載されています。</li>
+            <li>拠点：「虎ノ門ヒルズと麻布台ヒルズの二つの拠点」と採用サイトに記載されています。</li>
+            <li>「中途入社者 対談」（Vol.1・Vol.2）や中途入社者の個別インタビューが複数掲載されています。中途採用比率の数値記載は確認できませんでした。</li>
+          </ul>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>シンプレクスで求められる人材</h2>
@@ -126,14 +141,13 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>シンプレクスの選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>シンプレクスの選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種により異なる場合があるため、最新は公式サイトでご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "職務経歴書で、コンサル/IT/ドメインの経験と応募職種の適合性が確認されます。" },
-            { step: 2, title: "一次面接・ケース", desc: "現場マネージャー等との面接。論理的思考や実務経験、ケース面接が課される場合もあります。" },
-            { step: 3, title: "二次・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットとキャリアビジョンを確認。" },
-            { step: 4, title: "内定・条件提示", desc: "等級・オファー年収の提示。条件確認を経て入社となります。" },
+            { step: 1, title: "カジュアル面談（実施あり）", desc: "職種別の3カテゴリでカジュアル面談が実施されています（公式採用サイト記載）。" },
+            { step: 2, title: "ポジション確認・応募", desc: "採用ポジションは hrmos.co/pages/simplex/jobs の一覧で確認・応募します（公式FAQ記載）。" },
+            { step: 3, title: "選考", desc: "選考期間は「通常2週間〜1か月程度」と公式FAQに記載されています。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

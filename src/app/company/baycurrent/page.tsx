@@ -100,7 +100,20 @@ export default function CompanyCareer() {
 
         <h2>ベイカレントの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">ベイカレントはコンサルタント・エンジニア等の職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。ITコンサル/SIの経験や、特定業界のドメイン知識が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            ベイカレントは
+            <a href="https://www.baycurrent.co.jp/careers/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>
+            に「キャリア採用募集要項」「キャリア採用イベント」を掲載しています。応募は
+            <a href="https://www.baycurrent.co.jp/careers/mid-career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用募集要項</a>
+            の各職種「詳細・エントリー」から行う構成です。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary mb-4">
+            <li>募集職種（公式表記）：コンサルタント職／エキスパート職／システムコンサルタント職／スペシャリスト職／アカウントセールス職／リクルーター職。</li>
+            <li>勤務地：関東、関西、東海（キャリア採用募集要項ページ記載）。関西・東海拠点説明会の開催案内もあります。</li>
+            <li>キャリア採用イベントを毎月開催しており、「イベントへご参加いただいた方には、特別選考のご案内も可能」と公式に記載されています。</li>
+            <li>「キャリアストーリー」ページに、大手広告代理店・外資系IT企業出身者など中途入社の事例が複数掲載されています。選考ステップの詳細や中途採用比率の数値は、募集要項ページ上では確認できませんでした。</li>
+          </ul>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>ベイカレントで求められる人材</h2>

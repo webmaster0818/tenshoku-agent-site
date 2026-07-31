@@ -121,14 +121,17 @@ export default function HoyaCareer() {
         <h2>HOYAの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
-            HOYAは光学技術を核に多角的な事業を展開しており、事業ごとに専門人材を通年で採用しています。半導体マスクブランクスは世界的に高いシェアを持つなど各事業で高い競争力を有し、研究開発・技術系の採用ニーズが継続しています。
+            HOYAの中途採用比率は<strong className="text-navy">2025年度で84%</strong>（出典：公式採用サイト）と、中途採用が採用の中心です。公式採用情報ページには「それぞれの事業部や拠点ごとに、各ポジションで力を十分に発揮していただける人材を採用」と記載されており、<strong className="text-navy">事業部単位の採用</strong>が基本構造となっています（本社／HSO事業部／LSI事業部／MD事業部／ビジョンケア事業部／コンタクトレンズ事業部／PENTAX事業部／オプティクス事業部／FPD事業部）。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>半導体・光学・材料・精密加工などの研究開発・技術職。</li>
-            <li>医療機器（内視鏡等）の開発・品質・薬事・マーケティング職。</li>
-            <li>グローバル営業、事業企画、経理・財務・法務などのコーポレート職。</li>
-            <li>募集職種・要件は事業ごとに異なるため、公式採用サイトでの最新確認が必須。</li>
+            <li>公式採用サイト（HRMOS）掲載の職種カテゴリは「営業系職種」「管理系職種」「技術系職種」「製造系職種」。</li>
+            <li>応募は各事業部の専用採用ページから行い、募集内容の問い合わせは「各事業部・事業所の採用担当者が直接受付」（公式記載）。タレントプール採用制度もある。</li>
+            <li>元社員向けの<a href="https://www.hoya.com/recruit/alumni/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">アルムナイ採用</a>を公式に実施。</li>
+            <li>公式ページ：<a href="https://www.hoya.com/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用情報（hoya.com）</a>／<a href="https://hrmos.co/pages/hoya" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用サイト（HRMOS）</a></li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         {/* 求められる人材 */}

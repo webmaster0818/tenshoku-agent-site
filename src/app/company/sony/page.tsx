@@ -125,6 +125,32 @@ export default function SonyCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>ソニーの中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            ソニーは「経験者採用」の名称で中途採用を実施しています。ソニー株式会社の
+            <a
+              href="https://www.sony.co.jp/recruit/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              公式採用情報ページ
+            </a>
+            に「経験者採用のエントリーはこちらから」というWeb応募の導線があることを確認しています。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>経験者採用の募集職種一覧や選考プロセスの詳細は、掲載先（www.sony.com配下のページ）が外部から閲覧できない状態で、2026年7月31日確認時点では公式情報として確認できませんでした</li>
+            <li>公式採用情報ページのOffice欄には「みなとみらい」「大崎」の記載があります（ソニー株式会社）</li>
+            <li>採用ページには中途入社者向けコンテンツ「他社を経験したから実感できる、ソニーならではの働きやすさ」への導線があります</li>
+            <li>今回内容を確認できたのは事業会社「ソニー株式会社」の採用ページで、持株会社ソニーグループ株式会社側の採用ページは確認できませんでした。応募前に自分が受けたい会社・ポジションの窓口を公式サイトでご確認ください</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
         <h2>ソニーの選考フロー</h2>
         <div className="space-y-5 mb-8">

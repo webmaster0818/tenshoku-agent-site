@@ -100,7 +100,20 @@ export default function CompanyCareer() {
 
         <h2>フューチャーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">フューチャーはコンサルタント・エンジニア等の職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。ITコンサル/SIの経験や、特定業界のドメイン知識が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            フューチャーは
+            <a href="https://www.future.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>
+            でキャリア採用の
+            <a href="https://www.future.co.jp/recruit/recruit/rec-career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集要項</a>
+            とエントリー導線を公開しています。エントリーは採用プラットフォーム（Talentio）経由で、職種はTalentio上の「募集職種一覧」で確認する構成です。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary mb-4">
+            <li>応募資格：「各募集職種に必要な経験、またはスキルを有する方」（募集要項記載）。公式ページ上での職種カテゴリの列挙は確認できませんでした。</li>
+            <li>勤務地：「東京（プロジェクト都合により全国出張あり、転勤なし）」（募集要項記載）。</li>
+            <li>面接は原則オンライン（状況に応じ柔軟に対応）で、原則平日10時〜18時開始。エントリー時に履歴書・職務経歴書をアップロードします。</li>
+            <li>応募・選考・研修・待遇・働き方・入社後・人事制度について計20以上のQ&Aを掲載するキャリア採用FAQがあり、社員紹介採用の導線もあります。中途採用比率の数値記載は確認できませんでした。</li>
+          </ul>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>フューチャーで求められる人材</h2>

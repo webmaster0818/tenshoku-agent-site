@@ -125,6 +125,41 @@ export default function CyberAgentCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>サイバーエージェントの中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            サイバーエージェントは「キャリア採用」の名称で中途採用を実施しており、
+            <a
+              href="https://www.cyberagent.co.jp/careers/professional/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              公式のキャリア採用ページ
+            </a>
+            から案内されています。募集職種の一覧は
+            <a
+              href="https://hrmos.co/pages/cyberagent-group"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              HRMOSの公式採用ページ
+            </a>
+            に集約されており、応募はHRMOS掲載の各求人からのWebエントリーです。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>公式採用サイト上には職種カテゴリの列挙はなく、HRMOSでは事業部門単位で募集が掲載されています（公式表記のまま・2026年7月31日確認時点）: 「インターネット広告事業本部」「メディア事業部」「ゲーム事業部」「AI事業本部」「アニメIP事業本部」「マンガIP事業本部」「グループIT推進本部」「CA Creative Center」ほか、株式会社AbemaTV・株式会社CyberZなどのグループ会社</li>
+            <li>選考プロセスの共通記載は、公式採用サイト・HRMOSトップのいずれでも確認できませんでした。求人・部門により選考の流れは異なる可能性があるため、各求人票でご確認ください</li>
+            <li>キャリア採用ページに勤務地の共通記載はなく、勤務地は各求人票に依存します（HRMOSの会社情報には本社所在地「東京都渋谷区宇田川町40番1号 Abema Towers」の記載があります）</li>
+            <li>グループ13社の個別キャリア採用ページへのリンク一覧が採用総合ページに用意されています</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
         <h2>サイバーエージェントの選考フロー</h2>
         <div className="space-y-5 mb-8">

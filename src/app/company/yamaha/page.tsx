@@ -107,13 +107,18 @@ export default function CompanyCareer() {
 
         <h2>ヤマハの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">ヤマハは楽器・音響機器の設計開発、生産技術、品質保証、営業・マーケティングなどの職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。音響・電気・ソフトウェアや製造業での実務経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            ヤマハは公式採用情報サイトに<a href="https://www.yamaha.com/ja/recruitment/mid-career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用</a>ページを常設し、「多種多様なご経験の方々を求めて、多くの中途採用募集を行っています」（公式記載）。応募は<a href="https://yamaha-recruiting.snar.jp/index.aspx/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧（エントリーサイト）</a>から希望職種を選択し「応募」から必要情報を送信する形式で、書類選考の結果は全応募者に連絡されます（公式記載）。
+          </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>設計開発（機構・電気・ソフトウェア）・生産技術・品質保証などメーカーの定番職種が中心。</li>
-            <li>楽器・音響のグローバルブランドとして、海外展開に関わる可能性もある。</li>
-            <li>本社（浜松）勤務の職種と工場・事業所勤務の職種で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種（公式表記・2026年7月31日確認時点のエントリーサイト掲載分）：ヤマハグローバルウェブプラットフォームの開発推進エンジニア、電子楽器のファームウェア開発業務、電子楽器向けグローバルオンラインサービスを牽引するクラウドエンジニア、電子楽器のマーケティング・セールス（将来中国駐在候補）、楽器・音響機器製造に係る材料系の生産技術者。掲載内容は随時更新される。</li>
+            <li>応募経路は複数：職種から応募／マイページ会員登録（情報収集段階向け）／元社員向け採用（退職者専用の応募方法）／リファラル採用（社員紹介）。雇用形態は正社員採用と契約社員採用の2種。</li>
+            <li>勤務地の区分は本社、工場、国内事業所、関連会社、海外事業所など。確認日時点の掲載求人は静岡県浜松市が中心（ほか神奈川県横浜市、静岡県磐田市）。</li>
+            <li>キャリア採用ページには中途入社社員インタビューも掲載（楽器開発者、自動車部品メーカー出身者の事例など）。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         <h2>ヤマハで求められる人材</h2>
@@ -131,14 +136,16 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハの選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>ヤマハの選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "書類選考", desc: "募集職種一覧ページから応募し、書類選考が行われます。書類選考の結果は全応募者に連絡されます（公式記載）。" },
+            { step: 2, title: "一次面接準備", desc: "適性検査の受検と自己紹介書の提出を行います。" },
+            { step: 3, title: "一次面接", desc: "部門担当者との面談です。" },
+            { step: 4, title: "二次面接", desc: "部門責任者および人事担当者との面談です。" },
+            { step: 5, title: "最終選考（役員面談）", desc: "役員との面談による最終選考です。" },
+            { step: 6, title: "採用内定", desc: "最終選考を経て採用内定となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

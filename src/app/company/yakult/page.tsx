@@ -104,13 +104,16 @@ export default function CompanyCareer() {
 
         <h2>ヤクルト本社の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">ヤクルト本社は生産・品質管理・研究開発・営業などの職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。食品業界の経験や、製造業での生産技術・品質保証の経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            ヤクルト本社は<a href="https://www.yakult.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用情報サイト</a>に<a href="https://www.yakult.co.jp/saiyou/career-info/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「キャリア採用」区分</a>を設けており、募集職種は公式案内先の<a href="https://hrmos.co/pages/yakult" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOSの募集職種一覧</a>に掲載されます。2026年7月31日確認時点で掲載されていたキャリア採用求人は「☆海外駐在前提☆海外工場管理者候補」「☆海外駐在前提☆海外事業所管理部門責任者候補」の2職種のみでした（公式表記のまま）。
+          </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>生産技術・品質保証・研究開発など食品メーカーの定番職種が中心。</li>
-            <li>海外売上の比重が大きく、グローバルに関わる可能性もある。</li>
-            <li>工場（全国各地）勤務の職種と本社勤務の職種で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>採用区分は新卒／高専／障がい者／キャリアの4本立て。キャリア採用の求人はHRMOS掲載分を確認する形。</li>
+            <li>確認時点の掲載は海外駐在前提の2職種のみで、国内勤務前提のキャリア求人は掲載されていなかった（勤務地等の詳細は各求人ページで確認する仕様）。</li>
+            <li>応募には顔写真付き履歴書と職務経歴書の提出が必須。書類選考通過者のみ連絡と公式に記載。</li>
+            <li>採用に関する問い合わせはメールのみ（電話不可）。ヤクルトグループ関連会社や販売会社でも社員やヤクルトスタッフの募集を行っている場合がある（詳細は各社へ直接問い合わせ）。ヤクルトレディ募集は別枠。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>ヤクルト本社で求められる人材</h2>
@@ -128,14 +131,14 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤクルト本社の選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>ヤクルト本社の選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用サイト（キャリア採用）に記載の選考フローです（2026年7月31日確認時点）。詳細は職種・時期により異なる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "応募", desc: "公式案内先のHRMOSページに掲載された求人から応募。顔写真付き履歴書と職務経歴書の提出が必須です。" },
+            { step: 2, title: "書類選考", desc: "提出書類による選考。書類選考通過者のみ連絡と公式に記載されています。" },
+            { step: 3, title: "面接（複数回）と筆記試験等", desc: "公式記載では、面接は複数回行われ、あわせて筆記試験等が実施されます。" },
+            { step: 4, title: "内定", desc: "選考通過後に内定。入社時期や条件面は個別に確認しましょう。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

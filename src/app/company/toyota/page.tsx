@@ -125,29 +125,74 @@ export default function ToyotaCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>トヨタ自動車の中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            トヨタ自動車の公式採用サイトは
+            <a
+              href="https://recruit.toyota/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              recruit.toyota
+            </a>
+            へ移行済みで（旧「toyota-recruit.com/career/」はrecruit.toyotaへリダイレクト）、キャリア採用は
+            <a
+              href="https://recruit.toyota/career/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              キャリア採用ページ
+            </a>
+            に募集要項・選考プロセスがまとまっています。応募は公式採用サイトからのWebエントリーです。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>募集職種（公式表記のまま・2026年7月31日確認時点）: 「ソフトウェア」「技術系」「事務系」「業務系」「新卒博士」「病院事務」の各区分で募集</li>
+            <li>勤務地: 本社（愛知県豊田市）、名古屋オフィス（愛知県名古屋市）、東富士研究所（静岡県裾野市）、東京本社（東京都文京区）など。技術職・事務職は将来的に転勤の可能性があり、業務職は原則配属後の転勤なし（地区内異動）とされています</li>
+            <li>雇用形態は「正社員（期間の定め無し）」で、試用期間なしと記載されています</li>
+            <li>リファラル採用・アルムナイ採用の専用ページや、キャリア登録の仕組みも用意されています</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
-        <h2>トヨタ自動車の選考フロー</h2>
+        <h2>トヨタ自動車の選考フロー（公式記載）</h2>
         <div className="space-y-5 mb-8">
           {[
             {
               step: 1,
-              title: "書類選考",
-              desc: "履歴書・職務経歴書を提出。過去の実績やスキル、トヨタで実現したいことが評価されます。転職エージェント経由での推薦が有効です。",
+              title: "応募",
+              desc: "公式採用サイトのキャリア採用ページからWebエントリーします。履歴書・職務経歴書を提出します。",
             },
             {
               step: 2,
-              title: "適性検査",
-              desc: "SPIや独自の適性検査が実施されます。論理的思考力やパーソナリティの適合性を確認する目的です。",
+              title: "書類選考",
+              desc: "合否にかかわらず、2週間以内にメールで結果が連絡されるとされています。",
             },
             {
               step: 3,
-              title: "面接（2〜3回）",
-              desc: "現場マネージャーや部門長との面接が2〜3回行われます。「トヨタウェイ」への理解、改善提案力、チームワークが重点的に評価されます。",
+              title: "1次面接＋適性検査",
+              desc: "1次面接に進むと適性検査があり、面接の3日前までにWEBで受験するとされています。",
             },
             {
               step: 4,
-              title: "最終面接・内定",
-              desc: "役員クラスとの最終面接を経て、内定・条件提示となります。年収や配属先の交渉もこの段階で行われます。",
+              title: "最終面接",
+              desc: "1次面接通過後、最終面接が行われます。",
+            },
+            {
+              step: 5,
+              title: "最終面接合否連絡",
+              desc: "最終面接の合否は、通常1〜2週間以内に連絡されるとされています。",
+            },
+            {
+              step: 6,
+              title: "内定",
+              desc: "合格連絡から2〜3カ月後に入社するスケジュールが公式ページに記載されています。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -159,6 +204,9 @@ export default function ToyotaCareer() {
             </div>
           ))}
         </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※公式採用ページ記載の流れ（2026年7月31日確認）
+        </p>
 
         {/* 面接対策ポイント */}
         <h2>トヨタ転職の面接対策ポイント</h2>

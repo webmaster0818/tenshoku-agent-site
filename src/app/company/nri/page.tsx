@@ -100,7 +100,20 @@ export default function CompanyCareer() {
 
         <h2>NRIの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">NRIはコンサルタント・エンジニア等の職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。ITコンサル/SIの経験や、特定業界のドメイン知識が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            NRIはキャリア採用（Career Recruiting）を「随時募集中」としています。企業サイト内の
+            <a href="https://www.nri.com/jp/career/mid" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用案内</a>
+            と、
+            <a href="https://career.nri.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用専用サイト</a>
+            から求人の確認・応募ができます。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary mb-4">
+            <li>募集職種（公式表記）：コンサルタント、システムエンジニア等。キャリア採用サイトでは「システムコンサルティング」「経営コンサルティング」「金融ITソリューション」「証券ITソリューション」「資産運用ITソリューション」「産業ITソリューション」「IT基盤サービス」の事業部門区分で求人が掲載されています。</li>
+            <li>応募の導線：求人一覧のほか、採用イベント、キャリア登録、求人おすすめAI（β版）、リファラル採用、退職者向けの「カムバック採用」が公式サイトに用意されています。選考ステップの詳細記載は確認できませんでした。</li>
+            <li>公式サイトには「転職者インタビュー」「Why NRI?」「NRI Leader&apos;s Voice」「カムバック採用」インタビューなど、中途入社者向けコンテンツが掲載されています。中途採用比率の数値記載は確認できませんでした。</li>
+            <li>勤務地：キャリア採用サイトで「福岡開発センター」「札幌開発センター」の記載を確認（求人により異なるため各求人でご確認ください）。</li>
+          </ul>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>NRIで求められる人材</h2>

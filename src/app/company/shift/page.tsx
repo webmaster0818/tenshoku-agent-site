@@ -100,7 +100,20 @@ export default function CompanyCareer() {
 
         <h2>SHIFTの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">SHIFTはコンサルタント・エンジニア等の職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。ITコンサル/SIの経験や、特定業界のドメイン知識が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">
+            SHIFTは
+            <a href="https://recruit.shiftinc.jp/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用専用サイト</a>
+            で中途採用を積極的に行っています。選考の流れは公式の
+            <a href="https://recruit.shiftinc.jp/career/recruit-info/process/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">選考フローページ</a>
+            に記載されています。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary mb-4">
+            <li>募集職種（公式表記・職種カテゴリより抜粋）：フロントエンドエンジニア／バックエンドエンジニア／インフラ・クラウドエンジニア／QAエンジニア／セキュリティエンジニア／コンサルタント／プロジェクトマネージャー／営業職 など（ほかフルスタックエンジニア、DevOps/SRE、AI/ML、テックリード、スクラムマスター/アジャイルコーチ、ビジネスマネジメント職、コーポレート職等）。</li>
+            <li>選考の特徴：書類選考では「AIレジュメアナライザー」により経歴・スキルを統一フォーマットで可視化・要約。応募者全員が「CAT検定」（活躍する素養を見極める検定試験）を受検し、面接は原則1回（動画撮影を行い複数の採用決裁者が閲覧）。一部ハイスキルポジションは「ワークショップ選考」です。「AIインタビュー」は開発中と記載されています。</li>
+            <li>勤務地区分：北海道・東北／北陸・甲信越／関東／東海／関西／中国・四国／九州・沖縄。</li>
+            <li>転職体験記、カムバックメンバー特集、30代ITエンジニアインタビューなど、インタビュー記事が400本以上掲載されています。中途採用比率の数値記載は確認できませんでした。</li>
+          </ul>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>SHIFTで求められる人材</h2>
@@ -126,14 +139,14 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>SHIFTの選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>SHIFTの選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種により異なる場合があるため、最新は公式サイトでご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "職務経歴書で、コンサル/IT/ドメインの経験と応募職種の適合性が確認されます。" },
-            { step: 2, title: "一次面接・ケース", desc: "現場マネージャー等との面接。論理的思考や実務経験、ケース面接が課される場合もあります。" },
-            { step: 3, title: "二次・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットとキャリアビジョンを確認。" },
-            { step: 4, title: "内定・条件提示", desc: "等級・オファー年収の提示。条件確認を経て入社となります。" },
+            { step: 1, title: "書類選考", desc: "「AIレジュメアナライザー」により、経歴・スキルが統一フォーマットで可視化・要約されます。" },
+            { step: 2, title: "CAT検定", desc: "活躍する素養を見極める検定試験。応募者全員が受検します。" },
+            { step: 3, title: "面接選考", desc: "面接は原則1回。動画撮影を行い、複数の採用決裁者が閲覧します。一部ハイスキルポジションは「ワークショップ選考」となります。" },
+            { step: 4, title: "オファー", desc: "選考通過後、オファーとなります。なお「AIインタビュー」は開発中と公式ページに記載されています。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

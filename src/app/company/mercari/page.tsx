@@ -125,29 +125,60 @@ export default function MercariCareer() {
           </ul>
         </div>
 
+        {/* 中途採用の状況 */}
+        <h2>メルカリの中途採用の状況</h2>
+        <div className="glass-card p-6 mb-8">
+          <p className="text-sm text-text-secondary mb-4">
+            メルカリは
+            <a
+              href="https://careers.mercari.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:underline"
+            >
+              公式採用サイト（Mercari Careers）
+            </a>
+            で通年の職種別採用を行っています（新卒採用は別ページ）。応募は公式採用サイトの求人検索ページに掲載された各求人からのWebエントリーで、履歴書・職務経歴書の書式は自由（日本語/英語可）とされています。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>募集職種カテゴリ（公式カテゴリ表記のまま・2026年7月31日確認時点）: 「エンジニアリング（Engineering Positions）」「プロダクト・ビジネス（Product &amp; Business Positions）」「コーポレート（Corporate Positions）」の3大カテゴリ</li>
+            <li>勤務地: 東京本社（Mercari Base Tokyo）、大阪、福岡オフィス。働き方は「Hybrid Workstyle」（週2日以上のオフィス出社が基本ポリシー）・フルフレックス（コアタイムなし）で、海外からのリモートワークは原則不可とされています</li>
+            <li>選考では一部職種で技術課題があり、面接はミッション共感・バリュー体現・カルチャーフィットをSTAR形式で評価すると公式に記載されています。選考途中でリファレンスチェックが実施される場合があります</li>
+            <li>正社員の試用期間は3カ月。社員インタビューは公式採用サイトや社内報「メルカン」で継続的に発信されています</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
+        </div>
+
         {/* 選考フロー */}
-        <h2>メルカリの選考フロー</h2>
+        <h2>メルカリの選考フロー（公式記載）</h2>
         <div className="space-y-5 mb-8">
           {[
             {
               step: 1,
-              title: "書類選考",
-              desc: "履歴書・職務経歴書を提出。専門分野での具体的な実績と、メルカリで実現したいことが評価されます。エンジニア職はGitHubやポートフォリオの提出も推奨されます。",
+              title: "応募",
+              desc: "公式採用サイトの各求人からWebエントリーします。履歴書・職務経歴書の書式は自由で、日本語・英語のいずれでも提出可能とされています。",
             },
             {
               step: 2,
-              title: "面接（2〜3回）",
-              desc: "現場マネージャーやチームメンバーとの面接が2〜3回行われます。スキルの深掘りに加え、カルチャーフィット（バリューへの共感）が重点的に評価されます。エンジニア職はコーディングテストが含まれることもあります。",
+              title: "書類選考",
+              desc: "提出書類をもとに選考が行われます。",
             },
             {
               step: 3,
-              title: "カルチャーフィット面接",
-              desc: "メルカリのバリュー（Go Bold・All for One・Be a Pro）との適合性を確認する面接です。過去の行動事例をもとに、バリューを体現できる人材かどうかが判断されます。",
+              title: "技術課題（一部職種）",
+              desc: "一部の職種では技術課題が実施されるとされています。",
             },
             {
               step: 4,
-              title: "内定・条件交渉",
-              desc: "面接通過後、年収（基本給+RSU）・ポジション・入社日等の条件交渉が行われます。メルカリは実力主義のため、前職の年収ではなくスキルに応じた報酬が提示されます。",
+              title: "面接（複数回）",
+              desc: "面接ではミッションへの共感・バリューの体現・カルチャーフィットをSTAR形式で評価すると公式に記載されています。選考途中でリファレンスチェックが実施される場合があります。",
+            },
+            {
+              step: 5,
+              title: "オファー",
+              desc: "選考通過後、オファー（条件提示）となります。正社員の試用期間は3カ月とされています。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -159,6 +190,9 @@ export default function MercariCareer() {
             </div>
           ))}
         </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※公式採用ページ記載の流れ（2026年7月31日確認）
+        </p>
 
         {/* 面接対策ポイント */}
         <h2>メルカリ転職の面接対策ポイント</h2>

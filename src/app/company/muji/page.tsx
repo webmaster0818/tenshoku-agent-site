@@ -36,7 +36,7 @@ const faqData = [
   },
   {
     q: "良品計画の勤務地はどこですか？",
-    a: "本社は東京都豊島区にあります。全国・海外の店舗網を持つため、職種によって勤務地や異動の可能性が異なります。応募時に確認しましょう。",
+    a: "本社は東京都文京区（後楽・住友不動産飯田橋ファーストビル）にあります。全国・海外の店舗網を持つため、職種によって勤務地や異動の可能性が異なります。応募時に確認しましょう。",
   },
 ];
 
@@ -96,7 +96,7 @@ export default function MujiCareer() {
               {[
                 { label: "社名", value: "株式会社良品計画（RYOHIN KEIKAKU CO., LTD.）" },
                 { label: "証券コード", value: "7453（東証プライム）" },
-                { label: "本社", value: "東京都豊島区東池袋4-26-3" },
+                { label: "本社", value: "東京都文京区後楽2-5-1 住友不動産飯田橋ファーストビル" },
                 { label: "事業内容", value: "「無印良品」「MUJI」ブランドの衣料品・生活雑貨・食品などの企画・開発・製造・小売（国内外）" },
                 { label: "平均年間給与", value: "約670万円（2025年8月期・有価証券報告書／提出会社）※前期・2024年8月期は約643万円" },
                 { label: "平均年齢", value: "約36.9歳（2025年8月期・提出会社）" },
@@ -121,14 +121,15 @@ export default function MujiCareer() {
         <h2>良品計画の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
-            良品計画は国内外での店舗展開やEC・デジタル強化、地域連携などの取り組みを進めており、店舗運営職から本部の専門職まで幅広く中途採用を行っています。人気ブランドゆえ応募が集まりやすい一方、事業成長に伴い多様な人材ニーズがあります。
+            良品計画は<a href="https://careers.muji.com/jp/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイトの「キャリア採用」セクション</a>を常設し、<a href="https://careers.muji.com/jp/career/store/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">店舗キャリア採用</a>と<a href="https://careers.muji.com/jp/career/office/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">本部キャリア採用</a>の2区分で通年掲載しています。募集職種の一覧は公式案内先の<a href="https://hrmos.co/pages/muji" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOSページ</a>に掲載されます（2026年7月31日確認時点）。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>店舗運営・店長・エリアマネージャーなどの店舗系。</li>
-            <li>商品開発・MD・生産・品質などの商品系。</li>
-            <li>EC・デジタル、経営企画、海外事業、コーポレート（経理・人事等）などの本部系。</li>
-            <li>募集職種・要件は時期により変動するため、公式採用サイトでの最新確認が必須。</li>
+            <li>店舗キャリア採用：接客・販売・売場づくり、地域コミュニティづくりを担当。キャリアパスとして「店長 → ブロックマネージャー → エリアマネージャー（コミュニティマネージャー・地域事業部長）→ 本部スタッフ」を公式に明示。</li>
+            <li>本部キャリア採用の領域（公式表記）：出店、商品開発、素材開発、資源循環、ロジスティクス、事業開発、IoT・テクノロジー 等。HRMOS掲載の部門例：生活雑貨部、衣服雑貨部、食品部、売場開発部、店舗開発部、マーケティング部、ITサービス部、監査室、人事部、生産部、産地開発部、流通推進部、商品計画部 等（2026年7月31日確認時点）。</li>
+            <li>応募経路は2系統：HRMOSの「募集職種から応募」と、登録内容にマッチするポジションを企業側が提案する「キャリア登録」。</li>
+            <li>店舗職の勤務地は全国の無印良品店舗。具体勤務地は各求人ページ単位で確認する形（キャリア採用トップに一括記載なし）。本部キャリア採用では「第二創業」の変革をリードする人材募集と記載。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         {/* 求められる人材 */}
@@ -160,16 +161,16 @@ export default function MujiCareer() {
         </div>
 
         {/* 選考フロー */}
-        <h2>良品計画の選考フロー（一般的な流れ）</h2>
+        <h2>良品計画の選考フロー（公式記載・店舗キャリア採用）</h2>
         <p className="text-sm text-text-muted mb-4">
-          ※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。
+          ※公式採用サイトの店舗キャリア採用ページに記載の選考フローです（2026年7月31日確認時点）。本部キャリア採用など他の職種の選考ステップは各求人ページでご確認ください。
         </p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書を提出。応募職種で求められる経験・スキルとの適合性が確認されます。公式採用サイトまたは転職エージェント経由で応募します。" },
-            { step: 2, title: "一次面接", desc: "現場の担当者・マネージャーとの面接。実務経験や応募動機、ブランドへの理解が問われます。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。価値観への共感やカルチャーフィット、長期的なキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "エントリー", desc: "応募経路は2系統。HRMOSの「募集職種から応募」するか、「キャリア登録」でマッチするポジションの提案を受けます。" },
+            { step: 2, title: "書類選考", desc: "公式記載では、書類選考の結果は10日以内に通知されます。" },
+            { step: 3, title: "面接（最大3回・全てオンライン）", desc: "公式記載では、面接は最大3回で全てオンラインで実施されます。" },
+            { step: 4, title: "内定・入社", desc: "内定後、入社時期は個別調整のうえ入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

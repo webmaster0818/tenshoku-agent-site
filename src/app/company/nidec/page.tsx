@@ -121,14 +121,17 @@ export default function NidecCareer() {
         <h2>ニデックの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
-            ニデックはEV向け駆動モーターなど成長分野への投資を進めており、グループ全体で技術系を中心に中途採用を継続しています。M&Aで多様な事業を取り込んでいるため、応募先の会社・事業によって求められるスキルや働き方が異なるのが特徴です。
+            ニデックは<a href="https://www.nidec.com/jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用情報サイト</a>内にキャリア採用情報を常設しています。公式の<a href="https://www.nidec.com/jp/recruit/career-recruit/requirements/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用募集要項</a>によると、募集職種は「製品開発・設計」「生産技術」「研究」「品質保証・管理」「営業」「企画」「管理部門」など幅広い部署・職種にわたります（公式表記）。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>モーター設計、電気・機械・制御、材料、生産技術などの技術・研究職。</li>
-            <li>車載・産業向けの法人営業、事業企画、購買・SCMなどの職種。</li>
-            <li>経理・財務・法務・人事・情報システムなどのコーポレート職。</li>
-            <li>応募先の会社・募集職種は時期により変動するため、公式採用サイトでの最新確認が必須。</li>
+            <li>応募方法は公式に3ルート：（1）エントリー＝各職種の応募フォームから直接応募、（2）キャリア登録＝簡易登録後、合致するポジション募集時に案内（中長期で検討する人向け）、（3）カムバック制度・社員紹介＝元従業員の再入社／社員紹介経由の応募。</li>
+            <li>選考フローは書類選考→面接1〜2回程度（WEB適性検査含む）→内定提示→入社（原則月初）。書類選考は1〜2週間程度（公式記載）。</li>
+            <li>勤務地は本社（京都市南区）、中央開発技術研究所（京都府向日市）、新川崎テクノロジーセンター（川崎市）、けいはんなテクノロジーセンター（京都府精華町）、東京オフィス（品川区）など。全職種において全国・海外勤務の可能性あり（公式記載）。</li>
+            <li>元従業員向けのカムバック制度を公式に明記している点も特徴。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+          </p>
         </div>
 
         {/* 求められる人材 */}
