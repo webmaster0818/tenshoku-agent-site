@@ -112,13 +112,14 @@ export default function CompanyCareer() {
 
         <h2>村田製作所の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">村田製作所は、材料開発・プロセス開発・回路／モジュール設計・生産技術などでキャリア採用を行うことがあります（募集の有無・職種は時期により変動）。材料・電子部品・半導体・通信などの専門経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">村田製作所は<a href="https://recruit.murata.com/ja-jp/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">専用のキャリア採用サイト</a>を常設しており、<a href="https://joblist.recruit.murata.com/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">求人一覧</a>からの募集職種エントリーと「キャリア登録」の2本立てで採用を行っています。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>材料・プロセス・設計・生産技術など技術職が中心。</li>
-            <li>セラミックス・材料・回路・高周波・通信の経験が評価されやすい。</li>
-            <li>研究所・工場・事業部で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種（求人一覧の公式表記例）：無線通信機能搭載製品開発 / 電源IC、パワーマネジメントIC開発 / 電源IC、電源モジュール開発 / IT基盤エンジニア/ネットワークシステム / DX推進 / 品質保証システムエンジニア / 営業/営業系エンジニア(FAE) / 経営管理（2026年7月31日確認時点）。区分として総合職・一般職（関東地区／京都・大阪地区）あり。</li>
+            <li>応募方法（公式FAQ記載）：(1)公式応募サイトへ直接登録、(2)人材紹介会社（転職エージェント）経由——の2ルート。面接は原則オンライン。</li>
+            <li>「キャリア登録」制度あり：すぐに応募しなくても登録しておくと、ポジション発生時に個別連絡を受けられる仕組み。</li>
+            <li>キャリア入社者向けコンテンツが充実：中堅社員座談会（キャリア採用）・管理職座談会（キャリア採用）・社員インタビュー・グローバルビジネス座談会・新規事業技術開発座談会などを公式掲載。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>村田製作所で求められる人材</h2>
@@ -136,14 +137,16 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>村田製作所の選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>村田製作所の選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。公式FAQでは書類提出から内定通知までの期間は「おおよそ1〜2ヶ月」とされています。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "書類選考", desc: "公式応募サイトへの直接登録、または人材紹介会社経由で応募し、書類選考が行われます。" },
+            { step: 2, title: "適性検査", desc: "書類選考通過後、適性検査が実施されます。" },
+            { step: 3, title: "一次面接", desc: "面接は原則オンラインで実施と公式FAQに記載されています。" },
+            { step: 4, title: "二次面接（最終）", desc: "二次面接が最終面接となります。" },
+            { step: 5, title: "内定通知・条件提示", desc: "選考通過後、内定通知・条件提示が行われます。" },
+            { step: 6, title: "入社", desc: "条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

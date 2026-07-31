@@ -112,12 +112,12 @@ export default function CompanyCareer() {
 
         <h2>信越化学工業の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">信越化学工業は、研究開発・生産技術・プロセス開発・設備技術などでキャリア採用を行うことがあります（募集の有無・職種は時期により変動）。化学・材料・半導体プロセスなどの専門経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">信越化学工業の<a href="https://www.shinetsu.co.jp/jp/recruit/recruitment/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用情報ページ</a>で中途採用の募集が明記されているのは「プラントエンジニアリング職（機械・電気・計装・プロセス）」（対象：大学（高専専攻科）卒業者以上）です。全社横断のキャリア採用専用サイトは確認できず、中途採用はメールや工場窓口への問い合わせが入口になります。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>研究開発・生産技術・プロセス／設備技術など技術職が中心。</li>
-            <li>化学・材料・半導体シリコン・シリコーン等の専門経験が評価されやすい。</li>
-            <li>工場（現場）勤務と研究所勤務で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>プラントエンジニアリング職は「ご興味のある方は、jinji@shinetsu.jpまでお問い合わせください」と案内されている。</li>
+            <li>製造オペレーターは各工場窓口への問い合わせ。武生工場は「採用に関するお問い合わせ」から募集の有無を確認する形式で、ハローワーク等の求人サイトにも掲載と案内。</li>
+            <li>武生工場サイトの社員紹介には、2023年・2024年にキャリア採用で入社した社員の事例が掲載されている。</li>
+            <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
         </div>
 

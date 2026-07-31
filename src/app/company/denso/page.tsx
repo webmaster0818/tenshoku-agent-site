@@ -112,12 +112,12 @@ export default function CompanyCareer() {
 
         <h2>デンソーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">デンソーは、ソフトウェア・電子・機械・生産技術・材料などの幅広い領域でキャリア採用を行っています（募集の有無・職種は時期により変動）。自動車・電機・ソフトウェアなどの実務経験が活かしやすく、採用規模が大きいのが特徴です。</p>
+          <p className="text-sm text-text-secondary mb-4">デンソーは専用の<a href="https://careers.denso.com/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用サイト</a>を運営しています。応募は、募集中の職種を検索してエントリーする「ジョブサーチ」と、簡易登録で適切なポジションの紹介を受ける「キャリア登録」の2ルートで、選考は原則WEB（WEBカメラ使用）での面談・面接です。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>ソフト・電子・機械・生産技術など幅広い技術職で採用。</li>
-            <li>電動化・車載ソフト・半導体・ADAS領域の経験が評価されやすい。</li>
-            <li>刈谷を中心とした拠点と、多様な事業領域がある。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>キャリア採用サイトに記載の職種例（公式表記）：商品企画/マーケティング、ソフト・ハード開発、UXリサーチ。ソフトウェア職向けの専用採用サイトも別途ある。</li>
+            <li>勤務地は国内・海外各拠点で、転勤や駐在の可能性ありと記載。</li>
+            <li>試用期間は3ヶ月（勤務・賃金制度は変更なし）。</li>
+            <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
         </div>
 

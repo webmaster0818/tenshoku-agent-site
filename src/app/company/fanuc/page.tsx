@@ -112,12 +112,12 @@ export default function CompanyCareer() {
 
         <h2>ファナックの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">ファナックは、制御ソフト開発・機械設計・電気設計・サービスエンジニアなどでキャリア採用を行うことがあります（募集の有無・職種は時期により変動）。制御・ロボット・工作機械などの実務経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">ファナックは公式に「経験者採用」を行っており、<a href="https://www.fanuc.co.jp/ja/employ/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">経験者採用ページ</a>と<a href="https://www.fanuc.co.jp/ja/employ/infomation/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧</a>が公開されています。募集は「研究開発」「セールス・サービス」「製造」「コーポレート・その他」の4カテゴリで、応募は当社メールアドレス（recruit@fanuc.co.jp）宛に履歴書・職務経歴書を送付するエントリー方式です。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>制御・ソフト・機械／電気設計・サービスエンジニアなど技術職が中心。</li>
-            <li>制御工学・ロボット・工作機械・自動化の経験が評価されやすい。</li>
-            <li>山梨県忍野村を中心とした勤務地の特性がある。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>研究開発：サーボアンプ・パルスコーダ開発業務／ハードウェア開発業務／機械設計業務／ソフトウェア開発業務／ロボカット加工技術開発業務／品質管理業務 ほか。</li>
+            <li>セールス・サービス：ロボットセールス業務／ロボット技術サポート業務／FAセールス推進業務／フィールドサービスエンジニア。</li>
+            <li>製造：ロボットの組立工程改善業務／ロボットの試験工程改善業務／機械加工部技術業務。コーポレート・その他：アプリケーション開発業務／Web開発業務／人事制度企画・運用業務／購買・調達業務 ほか。</li>
+            <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
         </div>
 
@@ -136,14 +136,16 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ファナックの選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>ファナックの選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。詳細・最新情報は公式採用サイトでご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "エントリー", desc: "当社メールアドレス（recruit@fanuc.co.jp）宛に履歴書・職務経歴書を送付します。" },
+            { step: 2, title: "書類選考", desc: "送付した履歴書・職務経歴書をもとに選考が行われます。" },
+            { step: 3, title: "適性検査（Web）", desc: "Web形式の適性検査を受検します。" },
+            { step: 4, title: "面接", desc: "複数回実施されます（回数は部署により異なります）。基本はオンラインでの実施です。" },
+            { step: 5, title: "最終面接", desc: "原則、本社（山梨県忍野村）にて対面面接となります。" },
+            { step: 6, title: "内定", desc: "選考通過後、内定となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

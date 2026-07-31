@@ -104,13 +104,14 @@ export default function CompanyCareer() {
 
         <h2>タカラトミーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">タカラトミーは生産・品質管理・研究開発・営業などの職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。食品業界の経験や、製造業での生産技術・品質保証の経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">タカラトミーグループは公式に「タカラトミーグループではキャリア採用をおこなっております。」と明記しており、<a href="https://www.takaratomy.co.jp/company/recruit/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用ページ</a>からエントリーできます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>生産技術・品質保証・研究開発など企画・開発・営業などの職種が中心。</li>
-            <li>海外展開・トレカ事業の伸長でグローバルに関わる可能性もある。</li>
-            <li>企画系と生産管理系で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種：キャリア採用ページ上で具体的な職種名の常時掲載は少なく、タカラトミー本体・タカラトミーアーツは応募フォームで希望部門を選択する方式。2026年7月31日確認時点で職種名の明記があったのはタカラトミーマーケティング「ロジスティクス管理」のみ。</li>
+            <li>応募方法：キャリア採用ページ内の「エントリー」から応募フォームへ進み、希望部門を選択して応募。</li>
+            <li>勤務地（公式記載）：立石本社ビル（東京都葛飾区）・青戸オフィス（東京都葛飾区）・市川ロジスティクスセンター（タカラトミーマーケティング）。</li>
+            <li><a href="https://www.takaratomy.co.jp/company/recruit/jobreturn.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「ジョブリターン」制度</a>あり：やむを得ない事情やキャリアアップを理由に退職した社員の再雇用制度。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>タカラトミーで求められる人材</h2>
@@ -128,14 +129,17 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>タカラトミーの選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2>タカラトミーの選考フロー（公式記載）</h2>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種・時期により異なる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "WEBエントリー", desc: "キャリア採用ページの「エントリー」から応募フォームへ進み、希望部門を選択して応募します。" },
+            { step: 2, title: "書類選考", desc: "エントリー内容をもとに書類選考が行われます。" },
+            { step: 3, title: "1次面接", desc: "書類選考通過後、1次面接が行われます。" },
+            { step: 4, title: "適性検査", desc: "1次面接の後に適性検査が実施されます。" },
+            { step: 5, title: "面接1、2回", desc: "適性検査の後、面接が1〜2回行われます。" },
+            { step: 6, title: "処遇面談", desc: "面接通過後、処遇面談が行われます。" },
+            { step: 7, title: "内定", desc: "処遇面談を経て内定となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

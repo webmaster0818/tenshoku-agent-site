@@ -104,13 +104,13 @@ export default function CompanyCareer() {
 
         <h2>カシオ計算機の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">カシオ計算機は商品企画・設計開発・品質保証・営業などの職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。電機・精密機器など、製造業での専門経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">カシオ計算機は<a href="https://www.casio.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>から<a href="https://hrmos.co/pages/casio" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用ページ（HRMOS）</a>にリンクしており、「様々な分野で活躍する経験豊富な方を積極的に募集」と公式に記載されています。2026年7月31日確認時点の掲載求人は20件でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>商品企画・設計開発・品質保証などメーカーの定番職種が中心。</li>
-            <li>時計から電子楽器まで製品群が幅広く、携われる領域も多様。</li>
-            <li>本社勤務の職種と拠点勤務の職種で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種（求人一覧の公式表記例）：企業法務 / グローバルマーケティングスペシャリスト / プロジェクトマーケティングプランナー / マーケティングテクノロジーエンジニア / 営業職 / 海外管理責任者 / 海外ビジネスプロセス改革業務担当 / 社内システムエンジニア／セキュリティー担当者 / 決算/税務担当者(リーダークラス)（2026年7月31日確認時点）。カテゴリ区分は営業職（海外／国内）・コーポレート職・IT職（DX／社内SE）。</li>
+            <li>勤務地：初台本社（東京）が大多数。営業職に仙台オフィス・福岡支店、海外赴任ポジション（シンガポール、中国・上海、メキシコシティ、米ニュージャージー、インド・ニューデリー）の掲載もあり（2026年7月31日確認時点）。</li>
+            <li>応募方法：HRMOSの各求人ページから応募する形式。選考プロセスの一覧的な公式記載は確認したページでは見当たらず。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>カシオ計算機で求められる人材</h2>

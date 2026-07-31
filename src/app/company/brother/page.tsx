@@ -104,13 +104,14 @@ export default function CompanyCareer() {
 
         <h2>ブラザー工業の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">ブラザー工業は設計開発・生産技術・品質保証・営業などの職種でキャリア採用を行っています（募集の有無・職種は時期により変動）。機械・電気・ソフトウェアなど、製造業での専門経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">ブラザー工業は採用ポータルに「CAREER RECRUITING 経験者採用」セクションを常設しており、<a href="https://www.brother.co.jp/corporate/bil/recruit/portal/career/index.aspx" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式の経験者採用ページ</a>と<a href="https://brother-recruit.snar.jp/index.aspx" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧・エントリーサイト</a>から応募できます。2026年7月31日確認時点では、工作機械（マシナリー）関連の掲載が中心でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>設計開発・生産技術・品質保証などメーカーの定番職種が中心。</li>
-            <li>プリンティングから工作機械・ギアまで事業が幅広く、職種の選択肢も多様。</li>
-            <li>工場・拠点勤務の職種と本社勤務の職種で働き方が異なる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種（募集職種一覧の公式表記）：工作機械の国内営業 / 工作機械の加工技術エンジニア / 工作機械の据付・調整および操作説明業務 / NC工作機械のハードウェア設計技術者 / NC工作機械及びその周辺装置のソフトウェア開発者（2026年7月31日確認時点）。</li>
+            <li>応募方法：(1)経験者採用ページの募集職種一覧（JOB TYPE）から、(2)外部採用サイト（brother-recruit.snar.jp）のエントリーボタンから——の2ルート。</li>
+            <li>経験者採用社員インタビュー9名分を公式掲載（入社年度・部門・職種・入社の決め手・仕事内容・ブラザーの魅力）。</li>
+            <li>ブラザー販売株式会社（別法人）にも独自のキャリア採用ページあり。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>ブラザー工業で求められる人材</h2>

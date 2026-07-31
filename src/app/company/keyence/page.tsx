@@ -112,13 +112,13 @@ export default function CompanyCareer() {
 
         <h2>キーエンスの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">キーエンスは技術営業（コンサルティング営業）・アプリケーションエンジニア・商品企画・ソフト／ハード開発などでキャリア採用を行うことがあります（募集の有無・職種は時期により変動）。顧客の課題を製品で解決する提案力と、専門領域の知見が活きやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">キーエンスは公式の<a href="https://www.keyence.co.jp/jobs/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用情報ページ</a>に「キャリア採用情報」のリンクを設けており、そこから<a href="https://axol.jp/zw/c/keyence/public/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用求人一覧（応募システム）</a>へ進んで応募する方式です。2026年7月31日確認時点では、技術系（開発・デザイン）中心の掲載でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>技術営業・アプリケーションエンジニアなど提案型職種が中心。</li>
-            <li>商品企画・開発（ソフト・ハード）も対象になり得る。</li>
-            <li>成果・スピードを重んじる文化との相性が問われる。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>募集職種（求人一覧ページの公式表記）：ソフトウェア開発 / 商品デザイン(UX/UI・プロダクトデザイン) / ソフト開発リーダー(マネージャ) / ソフト開発リーダー(アーキテクト) / ソフト開発エンジニア / ＡＩエンジニア / 光学/構造/機構開発(クリエイター) / 光学/構造/機構開発(エンジニア) / 回路/システム開発（2026年7月31日確認時点）。</li>
+            <li>応募方法：公式採用情報ページからリンクされるキャリア採用求人一覧（応募システム）経由で応募。</li>
+            <li>確認したページ（採用情報トップ・求人一覧）には選考プロセスの記載はなし。</li>
           </ul>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
         </div>
 
         <h2>キーエンスで求められる人材</h2>

@@ -112,12 +112,12 @@ export default function CompanyCareer() {
 
         <h2>東京エレクトロンの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">東京エレクトロンは、プロセス／装置エンジニア・フィールドサービスエンジニア・ソフト／ハード開発などでキャリア採用を行うことがあります（募集の有無・職種は時期により変動）。半導体・精密機器・制御などの実務経験が活かしやすい採用構造です。</p>
+          <p className="text-sm text-text-secondary mb-4">東京エレクトロンは専用の<a href="https://careers-tel.jp/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用サイト</a>を運営しており、<a href="https://careers-tel.jp/description/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集要項ページ</a>から募集中の求人を確認できます。募集職種は8つの職種カテゴリーに分かれ、採用はグループ各社単位で行われます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>装置開発・プロセスエンジニア・フィールドサービスなど技術職が中心。</li>
-            <li>半導体・精密・制御・ソフトの経験が評価されやすい。</li>
-            <li>グローバル顧客対応のため語学が活きる職種もある。</li>
-            <li>募集職種・要件は時期により変動するため公式採用サイトで最新確認を。</li>
+            <li>職種カテゴリー（公式表記）：ビジネス（営業・マーケティング）／エンジニア（研究開発）／デジタル（エンジニア・データサイエンス）／生産・製造（工場）／フィールド／情報システム・情報セキュリティ／コーポレート／物流・施設管理。</li>
+            <li>掲載グループ会社：東京エレクトロン テクノロジーソリューションズ／東京エレクトロン九州／東京エレクトロン宮城／東京エレクトロンFE／東京エレクトロンBP。</li>
+            <li>応募ルートは通常応募のほか、社員紹介制度・カムバック採用・障がい者採用・キャリア登録（簡易登録による適職マッチング）が用意されている。</li>
+            <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
         </div>
 
