@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ゲーム会社の年収ランキング【2026年・有価証券報告書】転職難易度もあわせて解説",
   description:
-    "大手ゲーム会社の平均年収を有価証券報告書の記載値（決算期明記）でランキング。任天堂982万円・カプコン985万円・コーエーテクモ903万円・セガサミー884万円・コナミ850万円。持株会社単体と開発現場の数値の違い、中途採用の入口、転職難易度まで一次データで解説します。",
+    "大手ゲーム会社の平均年収を有価証券報告書の記載値（決算期明記）でランキング。カプコン985万円・バンダイナムコHD984万円・任天堂982万円・コーエーテクモ903万円・セガサミー884万円・コナミ850万円。持株会社単体と開発現場の数値の違い、中途採用の入口、転職難易度まで一次データで解説します。",
   openGraph: {
     title: "ゲーム会社の年収ランキング【2026年・有価証券報告書】",
     description: "大手ゲーム会社の平均年収を有報記載値でランキング。転職難易度も解説。",
@@ -15,10 +15,11 @@ export const metadata: Metadata = {
 // 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "capcom", name: "カプコン", salary: "約985万円", term: "2026年3月期", note: "前期約919万円から上昇。業績好調が平均給与に反映。モンハン・バイオ等の看板IPを持つ大阪本社のメーカー", hd: false },
-  { rank: 2, slug: "nintendo", name: "任天堂", salary: "約982万円", term: "2026年3月期", note: "平均勤続約14.6年と長期雇用型。Switch 2時代もハード・ソフト一体開発の総本山", hd: false },
-  { rank: 3, slug: "koei-tecmo", name: "コーエーテクモHD", salary: "約903万円", term: "2026年3月期", note: "持株会社単体（121名）の数値。開発の中核はコーエーテクモゲームス等の事業会社", hd: true },
-  { rank: 4, slug: "sega-sammy", name: "セガサミーHD", salary: "約884万円", term: "2026年3月期", note: "持株会社単体（408名）の数値。ゲームはセガ、遊技機はサミーが担う", hd: true },
-  { rank: 5, slug: "konami", name: "コナミグループ", salary: "約850万円", term: "2026年3月期", note: "持株会社単体（259名）の数値。ゲームはKONAMIデジタルエンタテインメント等が担う", hd: true },
+  { rank: 2, slug: "bandai-namco", name: "バンダイナムコHD", salary: "約984万円", term: "2026年3月期", note: "純粋持株会社単体（約80名・本社機能のみ）の数値。ゲーム・玩具はバンダイナムコエンターテインメント・バンダイ等の事業会社が担う", hd: true },
+  { rank: 3, slug: "nintendo", name: "任天堂", salary: "約982万円", term: "2026年3月期", note: "平均勤続約14.6年と長期雇用型。Switch 2時代もハード・ソフト一体開発の総本山", hd: false },
+  { rank: 4, slug: "koei-tecmo", name: "コーエーテクモHD", salary: "約903万円", term: "2026年3月期", note: "持株会社単体（121名）の数値。開発の中核はコーエーテクモゲームス等の事業会社", hd: true },
+  { rank: 5, slug: "sega-sammy", name: "セガサミーHD", salary: "約884万円", term: "2026年3月期", note: "持株会社単体（408名）の数値。ゲームはセガ、遊技機はサミーが担う", hd: true },
+  { rank: 6, slug: "konami", name: "コナミグループ", salary: "約850万円", term: "2026年3月期", note: "持株会社単体（259名）の数値。ゲームはKONAMIデジタルエンタテインメント等が担う", hd: true },
 ];
 
 const faqData = [
