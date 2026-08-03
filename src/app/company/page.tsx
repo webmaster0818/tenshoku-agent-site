@@ -42,6 +42,8 @@ const companies = [
   { slug: "bandai-namco", name: "バンダイナムコHD", salary: "約984万円（有報・持株）", tag: "ゲーム・玩具" },
   { slug: "yamaha-motor", name: "ヤマハ発動機", salary: "約835万円（有報）", tag: "輸送機器" },
   { slug: "rohm", name: "ローム", salary: "約804万円（有報）", tag: "半導体" },
+  { slug: "screen-hd", name: "SCREEN HD", salary: "約1,080万円（有報・持株）", tag: "半導体装置" },
+  { slug: "tokyo-seimitsu", name: "東京精密", salary: "約828万円（有報）", tag: "半導体装置" },
   { slug: "pigeon", name: "ピジョン", salary: "約827万円（有報・単体）", tag: "育児用品" },
   { slug: "brother", name: "ブラザー工業", salary: "約805万円（有報）", tag: "電機・機械" },
   { slug: "yamaha", name: "ヤマハ", salary: "約794万円（有報）", tag: "楽器・音響" },

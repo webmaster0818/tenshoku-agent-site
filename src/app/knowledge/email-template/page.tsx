@@ -3,11 +3,11 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "転職エージェントへのお礼メール例文｜面談後・内定後・辞退・断り方【コピペ可】",
+  title: "転職エージェントへのお礼メール例文｜面談後・内定後・辞退・返信の書き方【コピペ可】",
   description:
     "転職エージェントへのメール例文を場面別に紹介。初回挨拶、面談後のお礼、求人紹介へのお礼、面接辞退、内定辞退、利用終了の連絡、担当者変更の依頼など、コピペで使えるテンプレートを完全網羅。",
   openGraph: {
-    title: "転職エージェントへのお礼メール例文｜面談後・内定後・辞退・断り方【コピペ可】",
+    title: "転職エージェントへのお礼メール例文｜面談後・内定後・辞退・返信の書き方【コピペ可】",
     description: "転職エージェントへの場面別メール例文集。コピペで使えるテンプレートを紹介。",
   },
 };
@@ -80,6 +80,10 @@ export default function EmailTemplatePage() {
             <li><a href="#ex7" className="text-teal hover:underline">7. 内定辞退</a></li>
             <li><a href="#ex8" className="text-teal hover:underline">8. 利用終了の連絡</a></li>
             <li><a href="#ex9" className="text-teal hover:underline">9. 担当者変更の依頼</a></li>
+            <li><a href="#ex10" className="text-teal hover:underline">10. エージェントからのメールへの返信</a></li>
+            <li><a href="#ex11" className="text-teal hover:underline">11. 内定承諾・お礼</a></li>
+            <li><a href="#ex12" className="text-teal hover:underline">12. 初回面談前の事前連絡</a></li>
+            <li><a href="#ex13" className="text-teal hover:underline">13. 件名・署名の書き方</a></li>
           </ol>
         </div>
 
@@ -239,6 +243,61 @@ export default function EmailTemplatePage() {
             <p>転職先としてIT業界を第一志望としており、<br />より専門的なアドバイスをいただきたいと考えております。</p>
             <p>お手数をおかけしますが、ご検討のほどよろしくお願いいたします。</p>
             <p>山田太郎<br />TEL: 090-XXXX-XXXX<br />Email: yamada@example.com</p>
+          </div>
+        </div>
+
+        <h3 id="ex10" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">10. エージェントからのメールへの返信（基本形）</h3>
+        <p className="text-sm text-text-secondary mb-3">求人紹介・確認連絡など、エージェントからのメールに返信するときの基本形です。<strong>結論(返答)を最初の2行で伝える</strong>のがポイントで、長文は不要です。</p>
+        <div className="bg-warm-gray rounded-2xl p-5 mb-6">
+          <p className="text-xs text-text-muted mb-2">件名：Re: （元の件名のまま変更しない）</p>
+          <div className="text-sm text-text-secondary space-y-2">
+            <p>○○様</p>
+            <p>お世話になっております。山田太郎です。</p>
+            <p>ご連絡いただいた件、承知いたしました。<br />（例：ご紹介いただいた△△社の求人、ぜひ応募を進めていただけますと幸いです。）</p>
+            <p>ご不明点などございましたら、お知らせください。<br />引き続きよろしくお願いいたします。</p>
+            <p>山田太郎</p>
+          </div>
+        </div>
+        <p className="text-sm text-text-secondary mb-6">返信のコツ: ①件名は「Re:」のまま変えない(スレッドが追いやすい) ②24時間以内の返信を心がける(選考スピードに直結) ③迷っている場合も「○日までに回答します」と一次返信を入れる。</p>
+
+        <h3 id="ex11" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">11. 内定承諾のお礼メール</h3>
+        <div className="bg-warm-gray rounded-2xl p-5 mb-6">
+          <p className="text-xs text-text-muted mb-2">件名：内定承諾のご連絡とお礼（山田太郎）</p>
+          <div className="text-sm text-text-secondary space-y-2">
+            <p>○○様</p>
+            <p>お世話になっております。山田太郎です。</p>
+            <p>このたびは△△社の内定にあたり、多大なご支援をいただき<br />誠にありがとうございました。</p>
+            <p>検討の結果、内定をお受けすることにいたしました。<br />承諾のご連絡と入社手続きについて、ご教示いただけますと幸いです。</p>
+            <p>○○様のサポートのおかげで納得のいく転職ができました。<br />心より感謝申し上げます。今後ともよろしくお願いいたします。</p>
+            <p>山田太郎</p>
+          </div>
+        </div>
+
+        <h3 id="ex12" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">12. 初回面談前の事前連絡メール</h3>
+        <p className="text-sm text-text-secondary mb-3">面談前に希望条件や状況を先に伝えておくと、当日の面談の質が上がります。必須ではありませんが、送っておくと担当者の準備が変わります。</p>
+        <div className="bg-warm-gray rounded-2xl p-5 mb-6">
+          <p className="text-xs text-text-muted mb-2">件名：○月○日の面談について（山田太郎）</p>
+          <div className="text-sm text-text-secondary space-y-2">
+            <p>○○様</p>
+            <p>お世話になっております。○月○日に面談を予定しております山田太郎です。</p>
+            <p>当日の相談をスムーズにするため、事前に状況を共有いたします。</p>
+            <p>・現職：SIerでシステム開発（経験8年）<br />・希望：自社開発企業のバックエンドエンジニア<br />・時期：3ヶ月以内を希望<br />・重視点：リモート可・年収は現状維持以上</p>
+            <p>当日はどうぞよろしくお願いいたします。</p>
+            <p>山田太郎</p>
+          </div>
+        </div>
+
+        <h3 id="ex13" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">13. 件名・署名の書き方（全メール共通）</h3>
+        <div className="glass-card p-6 mb-6">
+          <p className="text-sm text-text-secondary mb-3"><strong>件名の原則</strong>: 「用件＋氏名」を10〜20字で。担当者は1日に大量のメールを処理するため、開かなくても内容がわかる件名が最も親切です。</p>
+          <ul className="space-y-1.5 text-sm text-text-secondary mb-4">
+            <li>・良い例: 「面談のお礼（山田太郎）」「【日程変更のお願い】○月○日の面接について（山田太郎）」</li>
+            <li>・避けたい例: 「お世話になっております」「ご連絡」（用件が不明）／件名なし</li>
+            <li>・返信時は「Re:」を消さずそのまま返す</li>
+          </ul>
+          <p className="text-sm text-text-secondary mb-2"><strong>署名はシンプルで十分</strong>です。凝った飾り線は不要で、氏名＋連絡先だけを揃えます。</p>
+          <div className="bg-warm-gray rounded-xl p-4 text-sm text-text-secondary">
+            <p>――――――――――<br />山田 太郎（やまだ たろう）<br />TEL: 090-XXXX-XXXX<br />Email: yamada@example.com<br />――――――――――</p>
           </div>
         </div>
 
