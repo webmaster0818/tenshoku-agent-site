@@ -174,6 +174,7 @@ export default function NewmaReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>コンサル特化の別エージェントとも比較したい人 →<Link href="/review/myvision/" className="text-teal underline">MyVision（未経験8割・コンサル特化）</Link>との併用が候補です</li>
               <li>コンサル・M&amp;A以外の職種も幅広く見たい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型が向きます</li>
               <li>スカウト型でハイクラス求人を待ちたい人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>が候補です</li>
               <li>20〜30代の成長企業志向でコンサル以外も比較したい人 →<Link href="/review/assign/" className="text-teal underline">ASSIGN（アサイン）</Link>も選択肢になります</li>

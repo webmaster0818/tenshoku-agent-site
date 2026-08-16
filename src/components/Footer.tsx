@@ -13,6 +13,7 @@ const footerLinks = {
     { label: 'ユニゾンキャリア（IT）', href: '/review/unison-career/' },
     { label: 'デジレカ（マーケ）', href: '/review/digireka/' },
     { label: 'NewMA（コンサル・M&A）', href: '/review/newma/' },
+    { label: 'MyVision（コンサル）', href: '/review/myvision/' },
     { label: 'type女性の転職エージェント', href: '/review/type-woman/' },
     { label: 'ASSIGN（アサイン）', href: '/review/assign/' },
     { label: '転職AGENT Navi', href: '/review/agent-navi/' },
