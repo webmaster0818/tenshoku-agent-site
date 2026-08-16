@@ -299,8 +299,8 @@ export default function HomePage() {
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
             {[
-              { href: "/company/maker-salary/", title: "メーカー年収ランキング", desc: "キーエンス・ディスコなど大手39社を一次データで比較" },
-              { href: "/company/semiconductor-salary/", title: "半導体業界の年収ランキング", desc: "装置メーカー中心に8社を比較" },
+              { href: "/company/maker-salary/", title: "メーカー年収ランキング", desc: "キーエンス・ディスコなど大手43社を一次データで比較" },
+              { href: "/company/semiconductor-salary/", title: "半導体業界の年収ランキング", desc: "装置・デバイス9社を比較" },
               { href: "/company/it-consultant-salary/", title: "ITコンサル・SIer年収ランキング", desc: "NRI・ベイカレントなど大手7社を比較" },
               { href: "/company/game-salary/", title: "ゲーム会社の年収ランキング", desc: "任天堂系からセガサミーまで6社を比較" },
             ].map((c) => (
@@ -311,7 +311,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center">
-            <Link href="/company/" className="btn-primary text-sm px-8 py-3">全57社の企業別ガイド一覧を見る</Link>
+            <Link href="/company/" className="btn-primary text-sm px-8 py-3">全61社の企業別ガイド一覧を見る</Link>
           </div>
         </div>
       </section>

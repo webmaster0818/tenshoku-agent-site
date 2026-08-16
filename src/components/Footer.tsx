@@ -18,7 +18,7 @@ const footerLinks = {
     { label: '転職AGENT Navi', href: '/review/agent-navi/' },
   ],
   '企業年収DB・ランキング': [
-    { label: '企業別ガイド一覧（57社）', href: '/company/' },
+    { label: '企業別ガイド一覧（61社）', href: '/company/' },
     { label: 'メーカー年収ランキング', href: '/company/maker-salary/' },
     { label: '半導体業界の年収ランキング', href: '/company/semiconductor-salary/' },
     { label: 'ITコンサル・SIer年収ランキング', href: '/company/it-consultant-salary/' },

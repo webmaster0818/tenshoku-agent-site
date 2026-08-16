@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど27社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど61社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -46,6 +46,10 @@ const companies = [
   { slug: "nabtesco", name: "ナブテスコ", salary: "約715万円（有報）", tag: "精密機器" },
   { slug: "taiyo-yuden", name: "太陽誘電", salary: "約661万円（有報）", tag: "電子部品" },
   { slug: "thk", name: "THK", salary: "約648万円（有報）", tag: "機械要素部品" },
+  { slug: "azbil", name: "アズビル", salary: "約918万円（有報）", tag: "計測・制御" },
+  { slug: "ricoh", name: "リコー", salary: "約906万円（有報）", tag: "事務機器" },
+  { slug: "konica-minolta", name: "コニカミノルタ", salary: "約844万円（有報）", tag: "精密機器" },
+  { slug: "renesas", name: "ルネサスエレクトロニクス", salary: "約749万円（有報・12月期）", tag: "半導体" },
   { slug: "disco", name: "ディスコ", salary: "約1,879万円（有報）", tag: "半導体装置" },
   { slug: "lasertec", name: "レーザーテック", salary: "約1,681万円（有報）", tag: "半導体装置" },
   { slug: "advantest", name: "アドバンテスト", salary: "約1,098万円（有報）", tag: "半導体装置" },
