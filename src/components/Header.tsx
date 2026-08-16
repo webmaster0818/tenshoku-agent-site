@@ -5,9 +5,10 @@ import Link from 'next/link';
 
 const navItems = [
   { label: 'ランキング', href: '/#ranking' },
-  { label: '年代別', href: '/#age-guide' },
-  { label: '業界別', href: '/#purpose-guide' },
-  { label: 'お役立ち', href: '/#faq' },
+  { label: '特化型を探す', href: '/#specialized' },
+  { label: '企業年収DB', href: '/company/' },
+  { label: '年収ランキング', href: '/company/maker-salary/' },
+  { label: '活用ガイド', href: '/knowledge/' },
 ];
 
 export default function Header() {

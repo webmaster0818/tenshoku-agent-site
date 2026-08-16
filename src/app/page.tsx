@@ -58,7 +58,7 @@ const agents = [
     pros: ["ハイクラス・高年収求人が豊富", "ヘッドハンターの質が高い", "自分の市場価値を把握できる"],
     cons: ["一部有料プランがある", "年収が低いとスカウトが少ない場合がある"],
     recommend: "年収600万円以上でキャリアアップを目指す方",
-    href: "#",
+    href: "/review/bizreach/",
   },
   {
     rank: 5,
@@ -70,7 +70,7 @@ const agents = [
     pros: ["外資系・グローバル企業の求人が豊富", "コンサルタントが業界に精通している", "年収交渉力が高い"],
     cons: ["求人数は大手総合型より少ない", "経験が浅いと紹介が少ない場合がある"],
     recommend: "外資系企業やグローバル企業への転職を考えている方",
-    href: "#",
+    href: "/review/jac/",
   },
 ];
 
@@ -255,19 +255,90 @@ export default function HomePage() {
 
       {/* Purpose Quick Guide */}
       <section id="purpose-guide" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="section-title section-title--center" id="age-guide">目的別クイックガイド</h2>
+        <h2 className="section-title section-title--center" id="age-guide">年代別・目的別ガイド</h2>
+        <p className="text-center text-text-secondary text-sm mb-8 -mt-4">あなたの状況に合わせた選び方と詳細ガイドへ進めます。</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
-            { label: "20代・第二新卒", desc: "マイナビエージェント＋リクルートエージェントの2社登録がおすすめ。手厚いサポートと豊富な求人で初めての転職も安心。", color: "bg-teal/10 border-teal/20" },
-            { label: "30代・キャリアアップ", desc: "リクルートエージェント＋dodaの2社登録がおすすめ。豊富な求人とスカウト機能でキャリアアップの可能性を広げる。", color: "bg-blue-50 border-blue-200" },
-            { label: "ハイクラス転職", desc: "ビズリーチ＋JACリクルートメントがおすすめ。年収600万円以上の方はスカウト型で自分の市場価値を確認。", color: "bg-amber-50 border-amber-200" },
-            { label: "IT・エンジニア", desc: "doda＋リクルートエージェントがおすすめ。IT業界に精通したアドバイザーが多く、技術職の転職に強い。", color: "bg-purple-50 border-purple-200" },
-            { label: "未経験からの転職", desc: "リクルートエージェント＋マイナビエージェントがおすすめ。未経験歓迎の求人が豊富で、キャリアチェンジをサポート。", color: "bg-green-50 border-green-200" },
+            { label: "20代・第二新卒", desc: "マイナビ＋リクルートの2社登録が定番。手厚いサポートと豊富な求人で初めての転職も安心。", color: "bg-teal/10 border-teal/20", href: "/age/20s/", links: [{ t: "第二新卒ガイド", h: "/type/second-new-grad/" }] },
+            { label: "30代・キャリアアップ", desc: "リクルート＋dodaの2社登録がおすすめ。豊富な求人とスカウトで可能性を広げる。", color: "bg-blue-50 border-blue-200", href: "/age/30s/", links: [{ t: "40代はこちら", h: "/age/40s/" }, { t: "50代はこちら", h: "/age/50s/" }] },
+            { label: "ハイクラス転職", desc: "ビズリーチ＋JACがおすすめ。年収600万円以上の方はスカウト型で市場価値を確認。", color: "bg-amber-50 border-amber-200", href: "/type/high-class/", links: [{ t: "ビズリーチの評判", h: "/review/bizreach/" }, { t: "JACの評判", h: "/review/jac/" }] },
+            { label: "IT・エンジニア", desc: "IT特化型の併用が近道。レバテック・ユニゾンキャリアなど専門エージェントの比較へ。", color: "bg-purple-50 border-purple-200", href: "/type/it-engineer/", links: [{ t: "レバテックの評判", h: "/review/levtech/" }, { t: "ユニゾンキャリアの評判", h: "/review/unison-career/" }] },
+            { label: "未経験からの転職", desc: "未経験歓迎求人の多い総合型＋対象特化型の組み合わせでキャリアチェンジを支援。", color: "bg-green-50 border-green-200", href: "/type/inexperienced/", links: [{ t: "20代の入口: 転職AGENT Navi", h: "/review/agent-navi/" }] },
+            { label: "女性の転職", desc: "ライフイベントを見据えた相談は女性特化型が強い。女性向けエージェントの選び方へ。", color: "bg-rose-50 border-rose-200", href: "/type/women/", links: [{ t: "type女性の転職エージェント", h: "/review/type-woman/" }] },
           ].map((g) => (
             <div key={g.label} className={`rounded-2xl border p-6 ${g.color}`}>
-              <h3 className="font-extrabold text-navy text-lg mb-2">{g.label}</h3>
-              <p className="text-sm text-text-secondary leading-relaxed">{g.desc}</p>
+              <Link href={g.href} className="group">
+                <h3 className="font-extrabold text-navy text-lg mb-2 group-hover:underline">{g.label} →</h3>
+              </Link>
+              <p className="text-sm text-text-secondary leading-relaxed mb-3">{g.desc}</p>
+              <div className="flex flex-wrap gap-x-4 gap-y-1">
+                {g.links.map((l) => (
+                  <Link key={l.h} href={l.h} className="text-xs font-semibold text-teal underline">{l.t}</Link>
+                ))}
+              </div>
             </div>
+          ))}
+        </div>
+        <div className="mt-6 text-center text-sm text-text-secondary">
+          エリアから探す:
+          <Link href="/area/tokyo/" className="text-teal underline mx-2">東京</Link>
+          <Link href="/area/osaka/" className="text-teal underline mx-2">大阪</Link>
+          <Link href="/area/nagoya/" className="text-teal underline mx-2">名古屋</Link>
+          <Link href="/area/fukuoka/" className="text-teal underline mx-2">福岡</Link>
+          <span className="mx-2 text-black/20">|</span>
+          <Link href="/type/freelance/" className="text-teal underline mx-2">フリーランス</Link>
+        </div>
+      </section>
+
+      {/* Company Salary DB */}
+      <section id="company-db" className="bg-warm-gray py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="section-title section-title--center">企業年収データベース【有価証券報告書ベース】</h2>
+          <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
+            上場企業の平均年収を有価証券報告書の一次データで整理。業界ランキングと企業別の転職ガイドを公開しています。
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+            {[
+              { href: "/company/maker-salary/", title: "メーカー年収ランキング", desc: "キーエンス・ディスコなど大手39社を一次データで比較" },
+              { href: "/company/semiconductor-salary/", title: "半導体業界の年収ランキング", desc: "装置メーカー中心に8社を比較" },
+              { href: "/company/it-consultant-salary/", title: "ITコンサル・SIer年収ランキング", desc: "NRI・ベイカレントなど大手7社を比較" },
+              { href: "/company/game-salary/", title: "ゲーム会社の年収ランキング", desc: "任天堂系からセガサミーまで6社を比較" },
+            ].map((c) => (
+              <Link key={c.href} href={c.href} className="card-hover p-5 block bg-white">
+                <h3 className="font-bold text-navy mb-1 text-sm">{c.title}</h3>
+                <p className="text-xs text-text-secondary leading-relaxed">{c.desc}</p>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link href="/company/" className="btn-primary text-sm px-8 py-3">全57社の企業別ガイド一覧を見る</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Specialized Agents */}
+      <section id="specialized" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+        <h2 className="section-title section-title--center">特化型エージェントを探す</h2>
+        <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
+          職種・業界が決まっているなら、専門特化型エージェントの併用が近道です。
+        </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {[
+            { href: "/review/levtech/", title: "レバテックキャリア", tag: "ITエンジニア", desc: "IT・Web業界の大手特化型" },
+            { href: "/review/unison-career/", title: "ユニゾンキャリア", tag: "ITエンジニア", desc: "厳選紹介型。経験者・未経験の両窓口" },
+            { href: "/review/digireka/", title: "デジレカ", tag: "マーケティング", desc: "マーケ職特化。全員がマーケ経験者" },
+            { href: "/review/newma/", title: "NewMA", tag: "コンサル・M&A", desc: "DX・戦略・AIコンサルとM&A領域特化" },
+            { href: "/review/type-woman/", title: "type女性の転職エージェント", tag: "女性", desc: "東証プライム上場CDC運営の女性特化型" },
+            { href: "/review/assign/", title: "ASSIGN（アサイン）", tag: "20-30代ハイエンド", desc: "価値観からキャリアプランを設計" },
+            { href: "/review/agent-navi/", title: "転職AGENT Navi", tag: "20代・既卒", desc: "相性でエージェントを紹介するマッチング型" },
+            { href: "/review/bizreach/", title: "ビズリーチ", tag: "ハイクラス", desc: "スカウト型。年収600万円以上向け" },
+            { href: "/review/jac/", title: "JACリクルートメント", tag: "外資・グローバル", desc: "外資系・海外転職に強い" },
+          ].map((a) => (
+            <Link key={a.href} href={a.href} className="card-hover p-5 block">
+              <span className="inline-block text-[11px] font-bold text-teal bg-teal/10 rounded-full px-2.5 py-0.5 mb-2">{a.tag}</span>
+              <h3 className="font-bold text-navy mb-1 text-sm">{a.title}</h3>
+              <p className="text-xs text-text-secondary leading-relaxed">{a.desc}</p>
+            </Link>
           ))}
         </div>
       </section>
@@ -293,6 +364,33 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Guides */}
+      <section id="guides" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+        <h2 className="section-title section-title--center">転職エージェント活用ガイド</h2>
+        <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
+          登録から内定までの実務は、ステップ別ガイドにまとめています。
+        </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+          {[
+            { href: "/knowledge/how-to-choose/", title: "選び方 7つのポイント" },
+            { href: "/knowledge/flow/", title: "使い方・流れ 8ステップ" },
+            { href: "/knowledge/interview-prep/", title: "面談の準備・服装・流れ" },
+            { href: "/knowledge/email-template/", title: "お礼メール例文13選" },
+            { href: "/knowledge/resume/", title: "職務経歴書の書き方" },
+            { href: "/knowledge/multiple/", title: "複数利用・掛け持ちのコツ" },
+            { href: "/compare/agent-vs-site/", title: "エージェントvs転職サイト" },
+            { href: "/compare/recruit-vs-doda/", title: "リクルートvs doda比較" },
+          ].map((g) => (
+            <Link key={g.href} href={g.href} className="card-hover p-4 block text-center">
+              <span className="text-sm font-bold text-navy">{g.title}</span>
+            </Link>
+          ))}
+        </div>
+        <div className="text-center">
+          <Link href="/knowledge/" className="btn-primary text-sm px-8 py-3">ガイド一覧を見る</Link>
         </div>
       </section>
 

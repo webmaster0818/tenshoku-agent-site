@@ -1,15 +1,43 @@
 import Link from 'next/link';
 
 const footerLinks = {
-  'エージェント一覧': [
+  '総合型エージェント': [
     { label: 'リクルートエージェント', href: '/review/recruit-agent/' },
     { label: 'doda（デューダ）', href: '/review/doda/' },
     { label: 'マイナビエージェント', href: '/review/mynavi/' },
+    { label: 'ビズリーチ', href: '/review/bizreach/' },
+    { label: 'JACリクルートメント', href: '/review/jac/' },
   ],
-  'お役立ち情報': [
-    { label: 'ランキング', href: '/#ranking' },
-    { label: '目的別ガイド', href: '/#purpose-guide' },
-    { label: 'よくある質問', href: '/#faq' },
+  '特化型エージェント': [
+    { label: 'レバテックキャリア（IT）', href: '/review/levtech/' },
+    { label: 'ユニゾンキャリア（IT）', href: '/review/unison-career/' },
+    { label: 'デジレカ（マーケ）', href: '/review/digireka/' },
+    { label: 'NewMA（コンサル・M&A）', href: '/review/newma/' },
+    { label: 'type女性の転職エージェント', href: '/review/type-woman/' },
+    { label: 'ASSIGN（アサイン）', href: '/review/assign/' },
+    { label: '転職AGENT Navi', href: '/review/agent-navi/' },
+  ],
+  '企業年収DB・ランキング': [
+    { label: '企業別ガイド一覧（57社）', href: '/company/' },
+    { label: 'メーカー年収ランキング', href: '/company/maker-salary/' },
+    { label: '半導体業界の年収ランキング', href: '/company/semiconductor-salary/' },
+    { label: 'ITコンサル・SIer年収ランキング', href: '/company/it-consultant-salary/' },
+    { label: 'ゲーム会社の年収ランキング', href: '/company/game-salary/' },
+  ],
+  '年代・目的別': [
+    { label: '20代の転職', href: '/age/20s/' },
+    { label: '30代の転職', href: '/age/30s/' },
+    { label: '40代の転職', href: '/age/40s/' },
+    { label: 'ITエンジニアの転職', href: '/type/it-engineer/' },
+    { label: 'ハイクラス転職', href: '/type/high-class/' },
+    { label: '女性の転職', href: '/type/women/' },
+  ],
+  '活用ガイド': [
+    { label: 'ガイド一覧', href: '/knowledge/' },
+    { label: '選び方 7つのポイント', href: '/knowledge/how-to-choose/' },
+    { label: 'お礼メール例文13選', href: '/knowledge/email-template/' },
+    { label: '職務経歴書の書き方', href: '/knowledge/resume/' },
+    { label: 'よくある質問', href: '/faq/' },
   ],
   'サイト情報': [
     { label: '利用規約', href: '/terms/' },
