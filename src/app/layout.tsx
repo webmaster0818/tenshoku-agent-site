@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Zen_Kaku_Gothic_New } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AutoToc from "@/components/AutoToc";
 import "./globals.css";
 
 const zenKaku = Zen_Kaku_Gothic_New({
@@ -53,6 +54,7 @@ export default function RootLayout({
 
         <Header />
         <main className="flex-1">{children}</main>
+        <AutoToc />
         <Footer />
       </body>
     </html>
