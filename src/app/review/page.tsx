@@ -31,6 +31,7 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
       { href: "/review/levtech/", name: "レバテックキャリア", tag: "IT特化大手" },
       { href: "/review/techclips/", name: "TechClipsエージェント", tag: "SIer/SES脱出" },
       { href: "/review/pit-career/", name: "PIT(ピット)", tag: "若手エンジニア" },
+      { href: "/review/pro-jin/", name: "@PRO人", tag: "IT厳選提案型" },
       { href: "/review/sap-tenshoku/", name: "SAPテンショク", tag: "SAP特化" },
       { href: "/review/security-pro/", name: "セキュリティプロ・フリーランス", tag: "セキュリティ案件" },
       { href: "/review/eba-freelance/", name: "EBAフリーランス", tag: "高単価案件" },
@@ -55,6 +56,7 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
       { href: "/review/rework/", name: "Re:WORKエージェント", tag: "未経験専門" },
       { href: "/review/caricon/", name: "キャリコン", tag: "エージェント紹介" },
       { href: "/review/deaeru-agent/", name: "出会えるエージェント診断", tag: "診断型" },
+      { href: "/review/career-ticket-tenshoku/", name: "キャリアチケット転職", tag: "20-30代・成長軸" },
     ],
   },
   {
@@ -76,6 +78,8 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
       { href: "/review/hupro/", name: "ヒュープロ", tag: "士業・管理部門" },
       { href: "/review/keiri-jobs/", name: "経理Jobs", tag: "経理特化" },
       { href: "/review/randstad-challenged/", name: "ランスタッド(障がい者転職)", tag: "障がい者雇用" },
+      { href: "/review/jobsoelu/", name: "ジョブソエル", tag: "医療・介護求人" },
+      { href: "/review/doctor-net/", name: "ドクターネットエージェント", tag: "放射線科" },
     ],
   },
   {
@@ -88,6 +92,11 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
       { href: "/review/rsg-fudosan/", name: "RSG", tag: "建設・不動産" },
       { href: "/review/agent-navi/", name: "転職AGENT Navi", tag: "マッチング" },
       { href: "/review/r4career/", name: "R4CAREER", tag: "名古屋・東海" },
+      { href: "/review/oishiru-career/", name: "オイシルキャリア", tag: "スーパー・生鮮" },
+      { href: "/review/zeicari/", name: "ゼイキャリ", tag: "税理士ハイクラス" },
+      { href: "/review/susucari/", name: "サスキャリ", tag: "ESG・サステナ" },
+      { href: "/review/security-work/", name: "セキュリティーワーク", tag: "警備員" },
+      { href: "/review/realestate-works/", name: "リアルエステートWORKS", tag: "不動産" },
     ],
   },
   {
