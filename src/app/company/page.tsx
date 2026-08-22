@@ -88,6 +88,7 @@ const companies = [
   { slug: "amazon", name: "Amazon Japan", salary: "参考値（外資）", tag: "外資IT" },
   { slug: "google", name: "Google Japan", salary: "参考値（外資）", tag: "外資IT" },
   { slug: "accenture", name: "アクセンチュア", salary: "参考値（外資）", tag: "コンサル" },
+  { slug: "ebisu-fudousan", name: "恵比寿不動産", salary: "公式採用ページ掲載（成果報酬型）", tag: "不動産" },
 ];
 
 export default function CompanyIndexPage() {

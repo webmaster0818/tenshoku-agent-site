@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "東京でおすすめの転職エージェント5選｜都内の求人事情と活用法",
@@ -104,6 +105,16 @@ export default function TokyoPage() {
             </ul>
           </div>
         </div>
+
+        <h2>東京で企業に直接応募する選択肢</h2>
+        <p className="mb-8 text-sm text-text-secondary">
+          エージェント経由だけでなく、採用情報を公開している企業への直接応募も併用できます。
+          例えば恵比寿の<FelmatTextLink slug="ebisu-fudousan" text="恵比寿不動産" />
+          は、都心8区特化の完全反響営業（飛び込みなし）と履歴書不要のカジュアル面談を公式採用ページで公開しています
+          （<Link href="/company/ebisu-fudousan/" className="text-teal underline">当サイトの解説記事</Link>）。
+          そのほか<Link href="/company/" className="text-teal underline">企業別転職ガイド</Link>では、有価証券報告書ベースで東京本社の大手企業を解説しています。
+          <span className="text-xs text-text-muted">（※テキストリンクはプロモーション（PR）を含みます）</span>
+        </p>
 
         <h2>東京の転職エージェント よくある質問</h2>
         <div className="mb-8">

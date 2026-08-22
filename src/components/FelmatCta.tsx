@@ -14,6 +14,14 @@ const FELMAT_TAGS: Record<string, string> = {
     '<a href="https://t.felmat.net/fmcl?ak=J10963H.1.V157493Y.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/J10963H.V157493Y.J1389963" width="300" height="250" alt="" border="0" /></a>',
   "agent-navi":
     '<a href="https://t.felmat.net/fmcl?ak=E8947Q.1.I133234A.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/E8947Q.I133234A.J1389963" width="300" height="250" alt="" border="0" /></a>',
+  "inshoku-agent":
+    '<a href="https://t.felmat.net/fmcl?ak=C11998X.1.9164868W.J1389963" target="_blank" rel="nofollow noopener">飲食業界特化の転職エージェント「飲食店ドットコムエージェント」</a><img src="https://t.felmat.net/fmimp/C11998X.9164868W.J1389963" width="1" height="1" alt="" style="border:none;" />',
+  rework:
+    '<a href="https://t.felmat.net/fmcl?ak=I11924T.1.U163459N.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/I11924T.U163459N.J1389963" width="300" height="250" alt="" border="0" /></a>',
+  "ebisu-fudousan":
+    '<a href="https://t.felmat.net/fmcl?ak=C11879J.1.9163258L.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/C11879J.9163258L.J1389963" width="300" height="250" alt="" border="0" /></a>',
+  "realme-career":
+    '<a href="https://t.felmat.net/fmcl?ak=L10947D.1.B152393L.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/L10947D.B152393L.J1389963" width="300" height="250" alt="" border="0" /></a>',
 };
 
 // テキストリンク用: バナーと同一のfmcl計測URL(URL文字列は変更しない)
@@ -24,6 +32,10 @@ const FELMAT_CLICK_URLS: Record<string, string> = {
   "unison-ex": "https://t.felmat.net/fmcl?ak=K11110T.1.5153898C.J1389963",
   "unison-entry": "https://t.felmat.net/fmcl?ak=J10963H.1.V157493Y.J1389963",
   "agent-navi": "https://t.felmat.net/fmcl?ak=E8947Q.1.I133234A.J1389963",
+  "inshoku-agent": "https://t.felmat.net/fmcl?ak=C11998X.1.9164868W.J1389963",
+  rework: "https://t.felmat.net/fmcl?ak=I11924T.1.U163459N.J1389963",
+  "ebisu-fudousan": "https://t.felmat.net/fmcl?ak=C11879J.1.9163258L.J1389963",
+  "realme-career": "https://t.felmat.net/fmcl?ak=L10947D.1.B152393L.J1389963",
 };
 
 export function FelmatTextLink({ slug, text }: { slug: string; text: string }) {

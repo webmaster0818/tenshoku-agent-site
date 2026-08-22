@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "女性におすすめの転職エージェント5選｜評判・選び方とライフバランス両立",
@@ -104,6 +105,19 @@ export default function WomenPage() {
             </div>
           ))}
         </div>
+
+        {/* 育児と両立: 時短特化 */}
+        <h2>育児と両立したい人は「時短正社員特化」も選択肢</h2>
+        <p className="mb-4">
+          総合型エージェントの求人はフルタイム前提が中心です。育児中で「転職後すぐに時短勤務したい」場合は、
+          時短正社員の求人に特化した<Link href="/review/realme-career/" className="text-teal underline">リアルミーキャリア</Link>のような特化型が候補になります。
+          時短勤務・フレックス・リモートなど柔軟な働き方ができる正社員求人を扱い、育児中のアドバイザーが面談から条件交渉までサポートすると公式に公表されています（利用無料）。
+        </p>
+        <p className="text-sm mb-4">
+          → <FelmatTextLink slug="realme-career" text="リアルミーキャリア公式サイトで時短正社員の求人を相談する" />
+          <span className="text-xs text-text-muted">（※本リンクはプロモーション（PR）です）</span>
+        </p>
+        <FelmatCta slug="realme-career" heading="時短正社員のまま転職したい方はこちら" note="ワーママ・パパ向けの転職相談は無料です。" />
 
         {/* 女性のキャリア */}
         <h2>女性がキャリアを築くためのポイント</h2>

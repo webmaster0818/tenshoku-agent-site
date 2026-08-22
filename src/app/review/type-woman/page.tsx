@@ -213,6 +213,16 @@ export default function TypeWomanReview() {
 
         <FelmatCta slug="type-woman" heading="type女性の転職エージェント公式サイトで無料カウンセリングを予約する" note="登録・キャリアカウンセリングは無料です。" />
 
+        <div className="bg-warm-gray rounded-2xl p-5 sm:p-6 mt-8">
+          <p className="font-bold text-navy mb-2">育児と両立しながらの転職を考えている方へ</p>
+          <p className="text-sm text-text-secondary leading-relaxed">
+            「転職後すぐに時短勤務したい」というワーママ・パパには、時短正社員の求人に特化した
+            <FelmatTextLink slug="realme-career" text="リアルミーキャリア" />（PR）という選択肢もあります。
+            時短・フレックス・リモート求人に絞った特化型で、キャリアアップ軸のtype女性の転職エージェントとは補完関係です。
+            詳しくは<Link href="/review/realme-career/" className="text-teal underline">リアルミーキャリアの解説記事</Link>をご覧ください。
+          </p>
+        </div>
+
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">type女性の転職エージェントを他社と比較・併用する</h3>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">

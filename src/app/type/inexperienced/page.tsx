@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "未経験向け転職エージェントおすすめ5選｜未経験可の求人の探し方",
@@ -78,6 +79,28 @@ export default function InexperiencedPage() {
             </div>
           ))}
         </div>
+
+        {/* 未経験特化型という選択肢 */}
+        <h2>「未経験特化型」エージェントという選択肢</h2>
+        <p className="mb-4">
+          上記の総合型に加えて、未経験からの転職だけを専門に扱うエージェントもあります。
+          <Link href="/review/rework/" className="text-teal underline">Re:WORKエージェント</Link>は「未経験からの転職専門」を掲げ、
+          未経験応募OKの求人を中心に紹介可能求人数39,652件以上（公式表記・2026年8月22日確認）。
+          接客業からIT業界へ、工場勤務から一般事務へといった異業種チャレンジを専属アドバイザーが伴走すると公表しています（利用無料）。
+        </p>
+        <p className="text-sm mb-4">
+          → <FelmatTextLink slug="rework" text="Re:WORKエージェント公式サイトで未経験転職を無料相談する" />
+          <span className="text-xs text-text-muted">（※本リンクはプロモーション（PR）です）</span>
+        </p>
+        <FelmatCta slug="rework" heading="未経験からの転職を専門エージェントに相談する" note="キャリアの方向性が決まっていない段階の相談も歓迎と公式に記載されています。" />
+        <p className="mb-8 text-sm text-text-secondary">
+          目指す業界が決まっている場合は業界特化型も有力です。飲食業界なら
+          <FelmatTextLink slug="inshoku-agent" text="飲食店ドットコムエージェント" />
+          （東証プライム上場シンクロ・フード運営・未経験歓迎求人あり／<Link href="/review/inshoku-agent/" className="text-teal underline">詳細解説はこちら</Link>）、
+          不動産営業なら<Link href="/company/ebisu-fudousan/" className="text-teal underline">恵比寿不動産</Link>のような
+          研修体制を公開している企業への直接応募も選択肢になります。
+          <span className="text-xs text-text-muted">（※テキストリンクはプロモーション（PR）を含みます）</span>
+        </p>
 
         {/* 未経験可の求人の探し方 */}
         <h2>未経験可の求人を見つける方法</h2>
