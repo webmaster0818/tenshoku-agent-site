@@ -3,12 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】大手7社を一次データで比較",
+  title: "ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】大手10社を一次データで比較",
   description:
-    "大手ITコンサル・SIerの平均年収を有価証券報告書の記載値（決算期明記）でランキング。野村総研1,332万円・ベイカレント1,331万円・オービック1,129万円・電通総研1,125万円ほか7社。持株会社単体と事業会社の違い、中途採用の入口、転職難易度まで一次データで解説します。",
+    "大手ITコンサル・SIerの平均年収を有価証券報告書の記載値（決算期明記）でランキング。野村総研1,332万円・ベイカレント1,331万円・オービック1,129万円・電通総研1,125万円ほか10社。持株会社単体と事業会社の違い、中途採用の入口、転職難易度まで一次データで解説します。",
   openGraph: {
     title: "ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】",
-    description: "大手ITコンサル・SIer7社の平均年収を有報記載値でランキング。転職難易度も解説。",
+    description: "大手ITコンサル・SIer10社の平均年収を有報記載値でランキング。転職難易度も解説。",
   },
 };
 
@@ -18,15 +18,18 @@ const ranking = [
   { rank: 2, slug: "baycurrent", name: "ベイカレント", salary: "約1,331万円", term: "2026年2月期", note: "平均31.3歳でこの水準。総合コンサル。持株会社化で単体母集団は変動（要注記）", hd: true, field: "総合コンサル" },
   { rank: 3, slug: "obic", name: "オービック", salary: "約1,129万円", term: "2026年3月期", note: "業務ソフト「OBIC7」の開発・導入。高収益で知られるSIer", hd: false, field: "SI・業務ソフト" },
   { rank: 4, slug: "dentsu-soken", name: "電通総研", salary: "約1,125万円", term: "2025年12月期", note: "旧・電通国際情報サービス。コンサル＋システム開発", hd: false, field: "コンサル・SI" },
-  { rank: 5, slug: "simplex", name: "シンプレクスHD", salary: "約938万円", term: "2026年3月期", note: "金融領域のフロントに強い。持株会社単体146名の値", hd: true, field: "金融IT" },
-  { rank: 6, slug: "future", name: "フューチャー", salary: "約794万円", term: "2025年12月期", note: "ITコンサルを掲げる独立系。上流から実装まで一気通貫", hd: false, field: "ITコンサル・SI" },
-  { rank: 7, slug: "shift", name: "SHIFT", salary: "約684万円", term: "2025年8月期", note: "ソフトウェアテスト起点の急成長企業。単体6,201名・未経験育成枠あり", hd: false, field: "品質保証・SI" },
+  { rank: 5, slug: "otsuka-shokai", name: "大塚商会", salary: "約1,027万円", term: "2025年12月期", note: "IT機器・システム販売とサポートの独立系大手。937万→992万→1,027万円と3年連続上昇で1,000万円台到達(12月決算)", hd: false, field: "IT商社・SI" },
+  { rank: 6, slug: "simplex", name: "シンプレクスHD", salary: "約938万円", term: "2026年3月期", note: "金融領域のフロントに強い。持株会社単体146名の値", hd: true, field: "金融IT" },
+  { rank: 7, slug: "obc", name: "オービックビジネスコンサルタント", salary: "約831万円", term: "2026年3月期", note: "勘定奉行シリーズの業務ソフト大手。平均34.7歳と若い構成で831万円。オービック(4684)とは別会社", hd: false, field: "業務ソフト" },
+  { rank: 8, slug: "scsk", name: "SCSK", salary: "約796万円", term: "2026年3月期", note: "住友商事グループの大手SIer。764万→787万→796万円と3年連続上昇・平均勤続16.7年の長期就業型", hd: false, field: "SIer" },
+  { rank: 9, slug: "future", name: "フューチャー", salary: "約794万円", term: "2025年12月期", note: "ITコンサルを掲げる独立系。上流から実装まで一気通貫", hd: false, field: "ITコンサル・SI" },
+  { rank: 10, slug: "shift", name: "SHIFT", salary: "約684万円", term: "2025年8月期", note: "ソフトウェアテスト起点の急成長企業。単体6,201名・未経験育成枠あり", hd: false, field: "品質保証・SI" },
 ];
 
 const faqData = [
   {
     q: "ITコンサル・SIerで平均年収が一番高いのはどこですか？",
-    a: "当サイトが有価証券報告書で確認した大手7社では、野村総研が約1,332万円（2026年3月期）とベイカレント約1,331万円（2026年2月期）がほぼ並んでトップです。ただしベイカレントは持株会社化で単体母集団が変動しており、少数精鋭の値である点に注意が必要です。",
+    a: "当サイトが有価証券報告書で確認した大手10社では、野村総研が約1,332万円（2026年3月期）とベイカレント約1,331万円（2026年2月期）がほぼ並んでトップです。ただしベイカレントは持株会社化で単体母集団が変動しており、少数精鋭の値である点に注意が必要です。",
   },
   {
     q: "持株会社（HD）の平均年収はなぜ参考程度なのですか？",
@@ -80,7 +83,7 @@ export default function ItConsultantSalaryRanking() {
             ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
-            大手ITコンサル・SIer7社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。コンサル・SI・品質保証まで、持株会社単体と事業会社の違い、中途採用の入口もあわせて解説します。
+            大手ITコンサル・SIer10社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。コンサル・SI・品質保証まで、持株会社単体と事業会社の違い、中途採用の入口もあわせて解説します。
           </p>
         </div>
 
@@ -141,7 +144,7 @@ export default function ItConsultantSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">決算期・業績連動で変動</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">コンサル・SIは業績連動賞与の比率が高く、好業績の期は平均給与が上振れする例があります。決算期の併記を確認しましょう。7社の決算期は同一ではありません。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">コンサル・SIは業績連動賞与の比率が高く、好業績の期は平均給与が上振れする例があります。決算期の併記を確認しましょう。10社の決算期は同一ではありません。</p>
           </div>
         </div>
 
