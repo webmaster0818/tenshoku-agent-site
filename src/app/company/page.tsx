@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど94社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど102社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -105,6 +105,14 @@ const companies = [
   { slug: "olympus", name: "オリンパス", salary: "約1,005万円（有報）", tag: "医療機器" },
   { slug: "terumo", name: "テルモ", salary: "約821万円（有報）", tag: "医療機器" },
   { slug: "epson", name: "セイコーエプソン", salary: "約808万円（有報）", tag: "精密機器" },
+  { slug: "honda", name: "ホンダ(本田技研工業)", salary: "約932万円（有報）", tag: "自動車" },
+  { slug: "nissan", name: "日産自動車", salary: "約857万円（有報）", tag: "自動車" },
+  { slug: "suzuki", name: "スズキ", salary: "約827万円（有報）", tag: "自動車" },
+  { slug: "mazda", name: "マツダ", salary: "約711万円（有報）", tag: "自動車" },
+  { slug: "subaru", name: "SUBARU", salary: "約764万円（有報）", tag: "自動車" },
+  { slug: "mitsubishi-heavy", name: "三菱重工業", salary: "約1,072万円（有報）", tag: "重工" },
+  { slug: "kawasaki-heavy", name: "川崎重工業", salary: "約910万円（有報）", tag: "重工" },
+  { slug: "ihi", name: "IHI", salary: "約1,000万円（有報）", tag: "重工" },
 ];
 
 export default function CompanyIndexPage() {
