@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど61社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど94社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -97,6 +97,14 @@ const companies = [
   { slug: "google", name: "Google Japan", salary: "参考値（外資）", tag: "外資IT" },
   { slug: "accenture", name: "アクセンチュア", salary: "参考値（外資）", tag: "コンサル" },
   { slug: "ebisu-fudousan", name: "恵比寿不動産", salary: "公式採用ページ掲載（成果報酬型）", tag: "不動産" },
+  { slug: "fujifilm", name: "富士フイルムHD", salary: "約1,085万円（有報・持株単体）", tag: "精密・ヘルスケア" },
+  { slug: "recruit", name: "リクルートHD", salary: "約1,162万円（有報・持株単体）", tag: "IT・人材" },
+  { slug: "mitsubishi-electric", name: "三菱電機", salary: "約913万円（有報）", tag: "総合電機" },
+  { slug: "komatsu", name: "コマツ（小松製作所）", salary: "約902万円（有報）", tag: "建設機械" },
+  { slug: "kubota", name: "クボタ", salary: "約860万円（有報・12月期）", tag: "農業機械" },
+  { slug: "olympus", name: "オリンパス", salary: "約1,005万円（有報）", tag: "医療機器" },
+  { slug: "terumo", name: "テルモ", salary: "約821万円（有報）", tag: "医療機器" },
+  { slug: "epson", name: "セイコーエプソン", salary: "約808万円（有報）", tag: "精密機器" },
 ];
 
 export default function CompanyIndexPage() {
