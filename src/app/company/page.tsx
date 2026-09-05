@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど102社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど110社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -113,6 +113,14 @@ const companies = [
   { slug: "mitsubishi-heavy", name: "三菱重工業", salary: "約1,072万円（有報）", tag: "重工" },
   { slug: "kawasaki-heavy", name: "川崎重工業", salary: "約910万円（有報）", tag: "重工" },
   { slug: "ihi", name: "IHI", salary: "約1,000万円（有報）", tag: "重工" },
+  { slug: "mitsubishi-corp", name: "三菱商事", salary: "約2,112万円（有報）", tag: "総合商社" },
+  { slug: "mitsui-bussan", name: "三井物産", salary: "約2,058万円（有報）", tag: "総合商社" },
+  { slug: "itochu", name: "伊藤忠商事", salary: "約1,991万円（有報）", tag: "総合商社" },
+  { slug: "sumitomo-corp", name: "住友商事", salary: "約1,840万円（有報）", tag: "総合商社" },
+  { slug: "marubeni", name: "丸紅", salary: "約1,784万円（有報）", tag: "総合商社" },
+  { slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円（有報）", tag: "総合商社" },
+  { slug: "sojitz", name: "双日", salary: "約1,257万円（有報）", tag: "総合商社" },
+  { slug: "kanematsu", name: "兼松", salary: "約1,201万円（有報）", tag: "専門商社" },
 ];
 
 export default function CompanyIndexPage() {
