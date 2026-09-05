@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど110社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど118社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -121,6 +121,14 @@ const companies = [
   { slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円（有報）", tag: "総合商社" },
   { slug: "sojitz", name: "双日", salary: "約1,257万円（有報）", tag: "総合商社" },
   { slug: "kanematsu", name: "兼松", salary: "約1,201万円（有報）", tag: "専門商社" },
+  { slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円（有報・持株単体）", tag: "証券" },
+  { slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円（有報・持株単体）", tag: "損害保険" },
+  { slug: "nomura", name: "野村HD", salary: "約1,420万円（有報・持株単体）", tag: "証券" },
+  { slug: "sompo", name: "SOMPOホールディングス", salary: "約1,259万円（有報・持株単体）", tag: "損害保険" },
+  { slug: "ms-ad", name: "MS&ADインシュアランスGHD", salary: "約1,237万円（有報・持株単体）", tag: "損害保険" },
+  { slug: "smfg", name: "三井住友FG", salary: "約1,180万円（有報・持株単体）", tag: "銀行" },
+  { slug: "mufg", name: "三菱UFJ FG", salary: "約1,170万円（有報・持株単体）", tag: "銀行" },
+  { slug: "mizuho-fg", name: "みずほFG", salary: "約1,166万円（有報・持株単体）", tag: "銀行" },
 ];
 
 export default function CompanyIndexPage() {
