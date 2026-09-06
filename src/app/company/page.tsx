@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど118社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど126社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -129,6 +129,14 @@ const companies = [
   { slug: "smfg", name: "三井住友FG", salary: "約1,180万円（有報・持株単体）", tag: "銀行" },
   { slug: "mufg", name: "三菱UFJ FG", salary: "約1,170万円（有報・持株単体）", tag: "銀行" },
   { slug: "mizuho-fg", name: "みずほFG", salary: "約1,166万円（有報・持株単体）", tag: "銀行" },
+  { slug: "chugai", name: "中外製薬", salary: "約1,350万円（有報）", tag: "製薬" },
+  { slug: "takeda", name: "武田薬品工業", salary: "約1,144万円（有報）", tag: "製薬" },
+  { slug: "astellas", name: "アステラス製薬", salary: "約1,131万円（有報）", tag: "製薬" },
+  { slug: "eisai", name: "エーザイ", salary: "約1,123万円（有報）", tag: "製薬" },
+  { slug: "daiichisankyo", name: "第一三共", salary: "約1,097万円（有報）", tag: "製薬" },
+  { slug: "ono-yakuhin", name: "小野薬品工業", salary: "約1,093万円（有報）", tag: "製薬" },
+  { slug: "shionogi", name: "塩野義製薬", salary: "約1,030万円（有報）", tag: "製薬" },
+  { slug: "otsuka-hd", name: "大塚ホールディングス", salary: "約1,000万円（有報・持株単体）", tag: "製薬" },
 ];
 
 export default function CompanyIndexPage() {
