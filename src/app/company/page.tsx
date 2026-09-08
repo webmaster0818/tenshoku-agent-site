@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど126社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど132社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -137,6 +137,12 @@ const companies = [
   { slug: "ono-yakuhin", name: "小野薬品工業", salary: "約1,093万円（有報）", tag: "製薬" },
   { slug: "shionogi", name: "塩野義製薬", salary: "約1,030万円（有報）", tag: "製薬" },
   { slug: "otsuka-hd", name: "大塚ホールディングス", salary: "約1,000万円（有報・持株単体）", tag: "製薬" },
+  { slug: "asahi-ghd", name: "アサヒグループHD", salary: "約1,335万円（有報・持株単体）", tag: "食品・飲料" },
+  { slug: "suntory-bf", name: "サントリー食品インターナショナル", salary: "約1,170万円（有報）", tag: "食品・飲料" },
+  { slug: "ajinomoto", name: "味の素", salary: "約1,061万円（有報）", tag: "食品・飲料" },
+  { slug: "kirin-hd", name: "キリンHD", salary: "約998万円（有報・持株単体）", tag: "食品・飲料" },
+  { slug: "meiji-hd", name: "明治HD", salary: "約938万円（有報・持株単体）", tag: "食品・飲料" },
+  { slug: "nissin-hd", name: "日清食品HD", salary: "約842万円（有報・持株単体）", tag: "食品・飲料" },
 ];
 
 export default function CompanyIndexPage() {
