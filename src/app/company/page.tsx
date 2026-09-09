@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど132社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど140社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -143,6 +143,14 @@ const companies = [
   { slug: "kirin-hd", name: "キリンHD", salary: "約998万円（有報・持株単体）", tag: "食品・飲料" },
   { slug: "meiji-hd", name: "明治HD", salary: "約938万円（有報・持株単体）", tag: "食品・飲料" },
   { slug: "nissin-hd", name: "日清食品HD", salary: "約842万円（有報・持株単体）", tag: "食品・飲料" },
+  { slug: "hankyu-hanshin", name: "阪急阪神HD", salary: "約919万円（有報・持株単体）", tag: "鉄道" },
+  { slug: "tokyu", name: "東急", salary: "約903万円（有報・持株単体）", tag: "鉄道" },
+  { slug: "jr-central", name: "JR東海", salary: "約860万円（有報）", tag: "鉄道" },
+  { slug: "tokyo-metro", name: "東京メトロ", salary: "約836万円（有報）", tag: "鉄道" },
+  { slug: "odakyu", name: "小田急電鉄", salary: "約827万円（有報）", tag: "鉄道" },
+  { slug: "kintetsu-ghd", name: "近鉄グループHD", salary: "約822万円（有報・持株単体）", tag: "鉄道" },
+  { slug: "jr-east", name: "JR東日本", salary: "約819万円（有報）", tag: "鉄道" },
+  { slug: "jr-west", name: "JR西日本", salary: "約727万円（有報）", tag: "鉄道" },
 ];
 
 export default function CompanyIndexPage() {
