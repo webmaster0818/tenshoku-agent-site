@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有報準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど140社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど148社を掲載中。",
   alternates: { canonical: "/company/" },
 };
 
@@ -151,6 +151,14 @@ const companies = [
   { slug: "kintetsu-ghd", name: "近鉄グループHD", salary: "約822万円（有報・持株単体）", tag: "鉄道" },
   { slug: "jr-east", name: "JR東日本", salary: "約819万円（有報）", tag: "鉄道" },
   { slug: "jr-west", name: "JR西日本", salary: "約727万円（有報）", tag: "鉄道" },
+  { slug: "mitsubishi-chemical", name: "三菱ケミカルグループ", salary: "約1,188万円（有報・持株単体）", tag: "化学" },
+  { slug: "resonac", name: "レゾナックHD", salary: "約1,131万円（有報・持株単体）", tag: "化学" },
+  { slug: "sumitomo-chemical", name: "住友化学", salary: "約958万円（有報）", tag: "化学" },
+  { slug: "mitsui-chemicals", name: "三井化学", salary: "約871万円（有報）", tag: "化学" },
+  { slug: "asahi-kasei", name: "旭化成", salary: "約848万円（有報）", tag: "化学" },
+  { slug: "nitto-denko", name: "日東電工", salary: "約843万円（有報）", tag: "化学" },
+  { slug: "toray", name: "東レ", salary: "約838万円（有報）", tag: "化学" },
+  { slug: "tosoh", name: "東ソー", salary: "約828万円（有報）", tag: "化学" },
 ];
 
 export default function CompanyIndexPage() {
