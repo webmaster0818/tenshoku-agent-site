@@ -159,6 +159,15 @@ const companies = [
   { slug: "nitto-denko", name: "日東電工", salary: "約843万円（有報）", tag: "化学" },
   { slug: "toray", name: "東レ", salary: "約838万円（有報）", tag: "化学" },
   { slug: "tosoh", name: "東ソー", salary: "約828万円（有報）", tag: "化学" },
+  { slug: "kajima", name: "鹿島建設", salary: "約1,245万円（有報）", tag: "建設" },
+  { slug: "obayashi", name: "大林組", salary: "約1,239万円（有報）", tag: "建設" },
+  { slug: "taisei", name: "大成建設", salary: "約1,191万円（有報）", tag: "建設" },
+  { slug: "nishimatsu", name: "西松建設", salary: "約1,061万円（有報）", tag: "建設" },
+  { slug: "shimizu", name: "清水建設", salary: "約1,043万円（有報）", tag: "建設" },
+  { slug: "haseko", name: "長谷工コーポレーション", salary: "約1,039万円（有報）", tag: "建設" },
+  { slug: "toda", name: "戸田建設", salary: "約1,038万円（有報）", tag: "建設" },
+  { slug: "penta-ocean", name: "五洋建設", salary: "約935万円（有報）", tag: "建設" },
+  { slug: "kumagai", name: "熊谷組", salary: "約917万円（有報）", tag: "建設" },
 ];
 
 export default function CompanyIndexPage() {
@@ -202,6 +211,7 @@ export default function CompanyIndexPage() {
             <li><Link href="/company/game-salary/" className="text-navy underline">ゲーム会社の年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/maker-salary/" className="text-navy underline">メーカーの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/it-consultant-salary/" className="text-navy underline">ITコンサル・SIerの年収ランキング【有報準拠】</Link></li>
+            <li><Link href="/company/kensetsu-salary/" className="text-navy underline">建設ゼネコンの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/review/levtech/" className="text-navy underline">レバテックキャリアの評判（IT・エンジニア特化）</Link></li>
             <li><Link href="/review/recruit-agent/" className="text-navy underline">リクルートエージェントの評判（求人数最大級）</Link></li>
             <li><Link href="/review/jac/" className="text-navy underline">JACリクルートメントの評判（ハイクラス）</Link></li>
