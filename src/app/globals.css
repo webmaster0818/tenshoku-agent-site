@@ -24,6 +24,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 見出しはセリフ体(明朝系)で品位を出す(参考: assign-inc.com のトーン) */
+h1, h2, h3,
+.section-title {
+  font-family: var(--font-serif), "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+
 /* --- Design System Utility Classes --- */
 
 .glass-card {
@@ -217,9 +225,9 @@ body {
   flex-shrink: 0;
 }
 
-.rank-badge--1 { background: linear-gradient(135deg, #F59E0B, #D97706); }
-.rank-badge--2 { background: linear-gradient(135deg, #94A3B8, #64748B); }
-.rank-badge--3 { background: linear-gradient(135deg, #B45309, #92400E); }
+.rank-badge--1 { background: var(--color-teal); }
+.rank-badge--2 { background: var(--color-teal-dark); }
+.rank-badge--3 { background: var(--color-navy); }
 .rank-badge--4 { background: var(--color-navy); }
 .rank-badge--5 { background: var(--color-navy-light); }
 

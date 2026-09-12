@@ -1,15 +1,23 @@
 import type { Metadata } from "next";
-import { Zen_Kaku_Gothic_New } from "next/font/google";
+import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AutoToc from "@/components/AutoToc";
 import "./globals.css";
 
-const zenKaku = Zen_Kaku_Gothic_New({
+const notoSans = Noto_Sans_JP({
   weight: ["400", "500", "700"],
   subsets: ["latin"],
   display: "swap",
   preload: true,
+});
+
+const notoSerif = Noto_Serif_JP({
+  weight: ["600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  preload: false,
+  variable: "--font-serif",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +30,7 @@ export const metadata: Metadata = {
   },
   description:
     "転職エージェントを徹底比較。リクルートエージェント、doda、マイナビエージェント、ビズリーチ、JACリクルートメントなど人気5社を厳選。求人数・特徴・年代別おすすめを詳しく解説します。",
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://tenshoku-agent-lab.com"),
   openGraph: {
     type: "website",
     locale: "ja_JP",
@@ -41,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" className={`${zenKaku.className} h-full antialiased`}>
+    <html lang="ja" className={`${notoSans.className} ${notoSerif.variable} h-full antialiased`}>
       <head>
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />

@@ -109,21 +109,28 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="bg-navy relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light/30 to-navy" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24 text-center">
-          <p className="text-teal-light font-bold text-sm tracking-widest mb-4">TENSHOKU AGENT NAVI 2026</p>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
-            あなたのキャリアに最適な<br className="hidden sm:block" />
-            転職エージェントが見つかる
-          </h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-            業界のプロが厳選した転職エージェント5社を徹底比較。<br className="hidden sm:block" />
-            求人数・サポート内容・得意分野から、あなたに最適な1社が見つかります。
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#ranking" className="btn-accent text-lg px-8 py-4">ランキングを見る</a>
-            <a href="#comparison" className="btn-primary bg-white/10 border border-white/20 text-lg px-8 py-4">比較表を見る</a>
+      <section className="relative overflow-hidden bg-warm-gray">
+        <img
+          src="/hero-businessman.jpg"
+          alt="スーツのネクタイを整えるビジネスパーソン"
+          className="absolute inset-0 h-full w-full object-cover object-right"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-white/10" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
+          <div className="max-w-xl">
+            <p className="text-teal font-bold text-xs tracking-[0.3em] mb-5">TENSHOKU AGENT LAB 2026</p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl text-navy leading-tight mb-6">
+              あなたのキャリアに、<br />
+              最適な選択を。
+            </h1>
+            <p className="text-text-secondary text-base sm:text-lg mb-10 leading-relaxed">
+              転職エージェント5社を、求人数・サポート内容・得意分野の一次情報で徹底比較。
+              有価証券報告書にもとづく企業別の年収データも公開しています。
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href="#ranking" className="btn-accent text-lg px-8 py-4">ランキングを見る</a>
+              <a href="#comparison" className="btn-primary text-lg px-8 py-4">比較表を見る</a>
+            </div>
           </div>
         </div>
       </section>
@@ -207,12 +214,12 @@ export default function HomePage() {
                       ))}
                     </ul>
                   </div>
-                  <div className="bg-red-50 rounded-xl p-4">
-                    <p className="font-bold text-red-500 text-sm mb-2">デメリット</p>
+                  <div className="bg-warm-gray rounded-xl p-4">
+                    <p className="font-bold text-navy-light text-sm mb-2">デメリット</p>
                     <ul className="space-y-1.5">
                       {a.cons.map((c, i) => (
                         <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                          <span className="text-red-400 mt-0.5 flex-shrink-0">&#9651;</span>{c}
+                          <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{c}
                         </li>
                       ))}
                     </ul>
@@ -260,11 +267,11 @@ export default function HomePage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
             { label: "20代・第二新卒", desc: "マイナビ＋リクルートの2社登録が定番。手厚いサポートと豊富な求人で初めての転職も安心。", color: "bg-teal/10 border-teal/20", href: "/age/20s/", links: [{ t: "第二新卒ガイド", h: "/type/second-new-grad/" }] },
-            { label: "30代・キャリアアップ", desc: "リクルート＋dodaの2社登録がおすすめ。豊富な求人とスカウトで可能性を広げる。", color: "bg-blue-50 border-blue-200", href: "/age/30s/", links: [{ t: "40代はこちら", h: "/age/40s/" }, { t: "50代はこちら", h: "/age/50s/" }] },
-            { label: "ハイクラス転職", desc: "ビズリーチ＋JACがおすすめ。年収600万円以上の方はスカウト型で市場価値を確認。", color: "bg-amber-50 border-amber-200", href: "/type/high-class/", links: [{ t: "ビズリーチの評判", h: "/review/bizreach/" }, { t: "JACの評判", h: "/review/jac/" }] },
-            { label: "IT・エンジニア", desc: "IT特化型の併用が近道。レバテック・ユニゾンキャリアなど専門エージェントの比較へ。", color: "bg-purple-50 border-purple-200", href: "/type/it-engineer/", links: [{ t: "レバテックの評判", h: "/review/levtech/" }, { t: "ユニゾンキャリアの評判", h: "/review/unison-career/" }] },
-            { label: "未経験からの転職", desc: "未経験歓迎求人の多い総合型＋対象特化型の組み合わせでキャリアチェンジを支援。", color: "bg-green-50 border-green-200", href: "/type/inexperienced/", links: [{ t: "20代の入口: 転職AGENT Navi", h: "/review/agent-navi/" }] },
-            { label: "女性の転職", desc: "ライフイベントを見据えた相談は女性特化型が強い。女性向けエージェントの選び方へ。", color: "bg-rose-50 border-rose-200", href: "/type/women/", links: [{ t: "type女性の転職エージェント", h: "/review/type-woman/" }] },
+            { label: "30代・キャリアアップ", desc: "リクルート＋dodaの2社登録がおすすめ。豊富な求人とスカウトで可能性を広げる。", color: "bg-white border-border", href: "/age/30s/", links: [{ t: "40代はこちら", h: "/age/40s/" }, { t: "50代はこちら", h: "/age/50s/" }] },
+            { label: "ハイクラス転職", desc: "ビズリーチ＋JACがおすすめ。年収600万円以上の方はスカウト型で市場価値を確認。", color: "bg-white border-border", href: "/type/high-class/", links: [{ t: "ビズリーチの評判", h: "/review/bizreach/" }, { t: "JACの評判", h: "/review/jac/" }] },
+            { label: "IT・エンジニア", desc: "IT特化型の併用が近道。レバテック・ユニゾンキャリアなど専門エージェントの比較へ。", color: "bg-white border-border", href: "/type/it-engineer/", links: [{ t: "レバテックの評判", h: "/review/levtech/" }, { t: "ユニゾンキャリアの評判", h: "/review/unison-career/" }] },
+            { label: "未経験からの転職", desc: "未経験歓迎求人の多い総合型＋対象特化型の組み合わせでキャリアチェンジを支援。", color: "bg-white border-border", href: "/type/inexperienced/", links: [{ t: "20代の入口: 転職AGENT Navi", h: "/review/agent-navi/" }] },
+            { label: "女性の転職", desc: "ライフイベントを見据えた相談は女性特化型が強い。女性向けエージェントの選び方へ。", color: "bg-white border-border", href: "/type/women/", links: [{ t: "type女性の転職エージェント", h: "/review/type-woman/" }] },
           ].map((g) => (
             <div key={g.label} className={`rounded-2xl border p-6 ${g.color}`}>
               <Link href={g.href} className="group">
