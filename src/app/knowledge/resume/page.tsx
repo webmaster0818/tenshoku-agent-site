@@ -137,7 +137,7 @@ export default function ResumePage() {
             <h3 className="font-bold text-teal mb-3">1. 実績の数値化</h3>
             <div className="space-y-2 text-sm">
               <div className="flex items-start gap-2">
-                <span className="text-red-400 flex-shrink-0">Before:</span>
+                <span className="text-text-muted flex-shrink-0">Before:</span>
                 <span className="text-text-secondary">「売上向上に貢献しました」</span>
               </div>
               <div className="flex items-start gap-2">
@@ -151,7 +151,7 @@ export default function ResumePage() {
             <h3 className="font-bold text-teal mb-3">2. 成果ベースの表現</h3>
             <div className="space-y-2 text-sm">
               <div className="flex items-start gap-2">
-                <span className="text-red-400 flex-shrink-0">Before:</span>
+                <span className="text-text-muted flex-shrink-0">Before:</span>
                 <span className="text-text-secondary">「顧客対応を行っていました」</span>
               </div>
               <div className="flex items-start gap-2">
@@ -208,7 +208,7 @@ export default function ResumePage() {
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
               <div className="flex items-start gap-2 mb-2">
-                <span className="text-red-400 font-bold text-sm flex-shrink-0">NG:</span>
+                <span className="text-text-muted font-bold text-sm flex-shrink-0">NG:</span>
                 <p className="text-sm text-text-secondary">{item.fail}</p>
               </div>
               <div className="flex items-start gap-2">

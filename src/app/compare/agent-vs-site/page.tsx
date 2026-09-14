@@ -115,8 +115,8 @@ export default function AgentVsSitePage() {
               ))}
             </ul>
           </div>
-          <div className="bg-blue-50 rounded-2xl p-5 border border-blue-100">
-            <h3 className="font-bold text-blue-600 mb-3">転職サイトが向いている人</h3>
+          <div className="bg-warm-gray rounded-2xl p-5 border border-border">
+            <h3 className="font-bold text-navy mb-3">転職サイトが向いている人</h3>
             <ul className="space-y-2">
               {[
                 "自分のペースで転職活動したい方",
@@ -127,7 +127,7 @@ export default function AgentVsSitePage() {
                 "担当者とのやり取りが煩わしい方",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                  <span className="text-blue-500 mt-0.5 flex-shrink-0">&#10003;</span>{m}
+                  <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}
                 </li>
               ))}
             </ul>

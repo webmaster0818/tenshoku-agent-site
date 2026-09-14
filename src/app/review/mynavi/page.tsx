@@ -139,7 +139,7 @@ export default function MynaviReview() {
             </ul>
           </div>
           <div className="glass-card p-5">
-            <p className="font-bold text-amber-700 mb-2">気になる評判の傾向</p>
+            <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
               <li>ハイクラス・高年収の求人は相対的に少なめ</li>
               <li>求人総数はリクルート・dodaに劣る</li>
@@ -208,8 +208,8 @@ export default function MynaviReview() {
               ))}
             </ul>
           </div>
-          <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
-            <h3 className="font-bold text-red-500 mb-3">デメリット</h3>
+          <div className="bg-warm-gray rounded-2xl p-5 border border-border">
+            <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
                 "30代後半以降の求人は大手に比べると少なめ",
@@ -218,7 +218,7 @@ export default function MynaviReview() {
                 "地方の求人は都市部と比べると限定的",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                  <span className="text-red-400 mt-0.5 flex-shrink-0">&#9651;</span>{d}
+                  <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
                 </li>
               ))}
             </ul>

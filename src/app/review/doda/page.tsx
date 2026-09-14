@@ -163,7 +163,7 @@ export default function DodaReview() {
             </ul>
           </div>
           <div className="glass-card p-5">
-            <p className="font-bold text-amber-700 mb-2">気になる評判の傾向</p>
+            <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
               <li>メール・電話が多すぎると感じる場合がある</li>
               <li>希望と合わない求人・重複求人の紹介</li>
@@ -201,7 +201,7 @@ export default function DodaReview() {
             },
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
-              <p className="font-bold text-amber-700 mb-1 text-sm">噂：{item.fear}</p>
+              <p className="font-bold text-teal-dark mb-1 text-sm">噂：{item.fear}</p>
               <p className="text-sm text-text-secondary leading-relaxed">実態：{item.truth}</p>
             </div>
           ))}
@@ -286,8 +286,8 @@ export default function DodaReview() {
               ))}
             </ul>
           </div>
-          <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
-            <h3 className="font-bold text-red-500 mb-3">デメリット</h3>
+          <div className="bg-warm-gray rounded-2xl p-5 border border-border">
+            <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
                 "メール・スカウトの配信量が多くなりがち",
@@ -297,7 +297,7 @@ export default function DodaReview() {
                 "エリアによっては求人数に差がある",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                  <span className="text-red-400 mt-0.5 flex-shrink-0">&#9651;</span>{d}
+                  <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
                 </li>
               ))}
             </ul>

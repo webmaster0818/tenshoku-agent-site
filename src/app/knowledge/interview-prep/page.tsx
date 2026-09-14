@@ -96,8 +96,8 @@ export default function InterviewPrepPage() {
               ))}
             </ul>
           </div>
-          <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
-            <h3 className="font-bold text-red-500 mb-3">避けたほうがいい服装</h3>
+          <div className="bg-warm-gray rounded-2xl p-5 border border-border">
+            <h3 className="font-bold text-navy-light mb-3">避けたほうがいい服装</h3>
             <ul className="space-y-2">
               {[
                 "短パン、サンダル、ダメージジーンズ",
@@ -106,7 +106,7 @@ export default function InterviewPrepPage() {
                 "シワだらけの服、汚れた靴",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                  <span className="text-red-400 mt-0.5 flex-shrink-0">&#9651;</span>{d}
+                  <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
                 </li>
               ))}
             </ul>

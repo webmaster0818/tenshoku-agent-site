@@ -137,7 +137,7 @@ export default function RecruitAgentReview() {
             </ul>
           </div>
           <div className="glass-card p-5">
-            <p className="font-bold text-amber-700 mb-2">気になる評判の傾向</p>
+            <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
               <li>希望と異なる求人が紹介されることがある</li>
               <li>担当者の対応にばらつき・サポート期限が約3か月</li>
@@ -217,8 +217,8 @@ export default function RecruitAgentReview() {
               ))}
             </ul>
           </div>
-          <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
-            <h3 className="font-bold text-red-500 mb-3">デメリット</h3>
+          <div className="bg-warm-gray rounded-2xl p-5 border border-border">
+            <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
                 "担当者の質にばらつきがある場合がある",
@@ -227,7 +227,7 @@ export default function RecruitAgentReview() {
                 "ハイクラス特化ではないため、年収800万円以上の求人は専門エージェントに劣る場合も",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                  <span className="text-red-400 mt-0.5 flex-shrink-0">&#9651;</span>{d}
+                  <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
                 </li>
               ))}
             </ul>

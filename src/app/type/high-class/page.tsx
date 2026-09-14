@@ -159,8 +159,8 @@ export default function HighClassPage() {
               ))}
             </ul>
           </div>
-          <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
-            <h3 className="font-bold text-red-500 mb-3">デメリット</h3>
+          <div className="bg-warm-gray rounded-2xl p-5 border border-border">
+            <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
                 "一定のスキル・経験がないと利用しにくい",
@@ -169,7 +169,7 @@ export default function HighClassPage() {
                 "選考の難易度が高い求人が多い",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
-                  <span className="text-red-400 mt-0.5 flex-shrink-0">&#9651;</span>{d}
+                  <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
                 </li>
               ))}
             </ul>
