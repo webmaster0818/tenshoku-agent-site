@@ -168,6 +168,15 @@ const companies = [
   { slug: "toda", name: "戸田建設", salary: "約1,038万円（有報）", tag: "建設" },
   { slug: "penta-ocean", name: "五洋建設", salary: "約935万円（有報）", tag: "建設" },
   { slug: "kumagai", name: "熊谷組", salary: "約917万円（有報）", tag: "建設" },
+  { slug: "jpower", name: "電源開発(J-POWER)", salary: "約1,188万円（有報）", tag: "電力・ガス" },
+  { slug: "chubu-electric", name: "中部電力", salary: "約945万円（有報）", tag: "電力・ガス" },
+  { slug: "kepco", name: "関西電力", salary: "約938万円（有報）", tag: "電力・ガス" },
+  { slug: "tepco", name: "東京電力HD", salary: "約882万円（有報・持株単体）", tag: "電力・ガス" },
+  { slug: "tohoku-electric", name: "東北電力", salary: "約872万円（有報）", tag: "電力・ガス" },
+  { slug: "osaka-gas", name: "大阪ガス", salary: "約845万円（有報）", tag: "電力・ガス" },
+  { slug: "kyuden", name: "九州電力", salary: "約842万円（有報）", tag: "電力・ガス" },
+  { slug: "tokyo-gas", name: "東京ガス", salary: "約784万円（有報）", tag: "電力・ガス" },
+  { slug: "toho-gas", name: "東邦ガス", salary: "約733万円（有報）", tag: "電力・ガス" },
 ];
 
 export default function CompanyIndexPage() {
@@ -212,6 +221,7 @@ export default function CompanyIndexPage() {
             <li><Link href="/company/maker-salary/" className="text-navy underline">メーカーの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/it-consultant-salary/" className="text-navy underline">ITコンサル・SIerの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/kensetsu-salary/" className="text-navy underline">建設ゼネコンの年収ランキング【有報準拠】</Link></li>
+            <li><Link href="/company/denryoku-gas-salary/" className="text-navy underline">電力・ガスの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/review/levtech/" className="text-navy underline">レバテックキャリアの評判（IT・エンジニア特化）</Link></li>
             <li><Link href="/review/recruit-agent/" className="text-navy underline">リクルートエージェントの評判（求人数最大級）</Link></li>
             <li><Link href="/review/jac/" className="text-navy underline">JACリクルートメントの評判（ハイクラス）</Link></li>
