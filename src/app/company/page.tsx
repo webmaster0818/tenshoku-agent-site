@@ -121,6 +121,7 @@ const companies = [
   { slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円（有報）", tag: "総合商社" },
   { slug: "sojitz", name: "双日", salary: "約1,257万円（有報）", tag: "総合商社" },
   { slug: "kanematsu", name: "兼松", salary: "約1,201万円（有報）", tag: "専門商社" },
+  { slug: "hanwa", name: "阪和興業", salary: "約997万円（有報）", tag: "専門商社" },
   { slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円（有報・持株単体）", tag: "証券" },
   { slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円（有報・持株単体）", tag: "損害保険" },
   { slug: "nomura", name: "野村HD", salary: "約1,420万円（有報・持株単体）", tag: "証券" },
