@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -67,18 +68,35 @@ export default function NidecCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/nidec.jpg" alt="ニデックの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">ニデック 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             ニデック（証券コード6594、旧・日本電産）は、精密小型モーターで世界トップシェアを持ち、車載・産業・家電向けなど幅広くモーター技術を展開するグローバルメーカーです。
             本記事では、有価証券報告書などの公開一次データをもとに、ニデックの平均年収・中途採用の状況・選考フロー・求められる人材を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：ニデック転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">ニデックの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">ニデックの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">ニデックで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">ニデックの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">ニデックの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">ニデック転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">ニデック転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
         {/* 結論 */}
-        <h2>結論：ニデック転職のポイント</h2>
+        <h2 id="s1">結論：ニデック転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体・持株会社）の平均年間給与は<strong className="text-navy">約760万円（2025年3月期・有価証券報告書）</strong>。前期（2024年3月期）は約720万円。</li>
@@ -89,7 +107,7 @@ export default function NidecCareer() {
         </div>
 
         {/* 基本データ（有報） */}
-        <h2>ニデックの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">ニデックの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -118,7 +136,7 @@ export default function NidecCareer() {
         </p>
 
         {/* 中途採用の状況 */}
-        <h2>ニデックの中途採用の状況</h2>
+        <h2 id="s3">ニデックの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             ニデックは<a href="https://www.nidec.com/jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用情報サイト</a>内にキャリア採用情報を常設しています。公式の<a href="https://www.nidec.com/jp/recruit/career-recruit/requirements/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用募集要項</a>によると、募集職種は「製品開発・設計」「生産技術」「研究」「品質保証・管理」「営業」「企画」「管理部門」など幅広い部署・職種にわたります（公式表記）。
@@ -132,10 +150,11 @@ export default function NidecCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でニデックのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
         {/* 求められる人材 */}
-        <h2>ニデックで求められる人材</h2>
+        <h2 id="s4">ニデックで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
@@ -163,7 +182,9 @@ export default function NidecCareer() {
         </div>
 
         {/* 選考フロー */}
-        <h2>ニデックの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">ニデックの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">
           ※以下は中途採用における一般的な選考の流れの一例です。応募先の会社・職種・時期により異なります。
         </p>
@@ -185,7 +206,7 @@ export default function NidecCareer() {
         </div>
 
         {/* 年収の考え方 */}
-        <h2>ニデックの年収の考え方</h2>
+        <h2 id="s6">ニデックの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-3">
             有価証券報告書における提出会社（持株会社・単体）の平均年間給与は約760万円（2025年3月期）です。ただしこれは<strong className="text-navy">提出会社の全社員平均</strong>であり、次の点に注意が必要です。
@@ -202,7 +223,7 @@ export default function NidecCareer() {
         </div>
 
         {/* おすすめ転職エージェント */}
-        <h2>ニデック転職で活用したい転職エージェント</h2>
+        <h2 id="s7">ニデック転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
           メーカーの技術・グローバル求人は非公開で扱われることが多いため、複数のエージェントに登録して情報を広く集めるのが有効です。
         </p>
@@ -226,7 +247,7 @@ export default function NidecCareer() {
         </div>
 
         {/* FAQ */}
-        <h2>ニデック転職 よくある質問</h2>
+        <h2 id="s8">ニデック転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

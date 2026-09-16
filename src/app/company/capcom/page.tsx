@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "カプコンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -67,18 +68,35 @@ export default function CapcomCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             カプコンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/capcom.jpg" alt="カプコンの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">カプコン 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             カプコン（証券コード9697）は『モンスターハンター』『バイオハザード』『ストリートファイター』など世界的な自社IPを持つゲームメーカーです。
             本記事では、有価証券報告書などの公開一次データをもとに、カプコンの平均年収・中途採用の状況・選考フロー・求められる人材を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：カプコン転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">カプコンの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">カプコンの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">カプコンで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">カプコンの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">カプコンの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">カプコン転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">カプコン転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
         {/* 結論 */}
-        <h2>結論：カプコン転職のポイント</h2>
+        <h2 id="s1">結論：カプコン転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約985万円（2026年3月期・有価証券報告書）</strong>。前期（2025年3月期）の約919万円から上昇。</li>
@@ -89,7 +107,7 @@ export default function CapcomCareer() {
         </div>
 
         {/* 基本データ（有報） */}
-        <h2>カプコンの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">カプコンの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -118,7 +136,7 @@ export default function CapcomCareer() {
         </p>
 
         {/* 中途採用の状況 */}
-        <h2>カプコンの中途採用の状況</h2>
+        <h2 id="s3">カプコンの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             カプコンはキャリア採用（中途採用）を実施しており、<a href="https://www.capcom.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>から<a href="https://hrmos.co/pages/capcom" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOS上のキャリア採用求人一覧</a>へ案内されています。確認時点で約80件超の求人が掲載されており（正社員中心・一部契約社員等）、応募は各求人ページから行う形式です。
@@ -132,10 +150,11 @@ export default function CapcomCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
         </div>
 
         {/* 求められる人材 */}
-        <h2>カプコンで求められる人材</h2>
+        <h2 id="s4">カプコンで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
@@ -163,7 +182,9 @@ export default function CapcomCareer() {
         </div>
 
         {/* 選考フロー */}
-        <h2>カプコンの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
+
+        <h2 id="s5">カプコンの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">
           ※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。
         </p>
@@ -185,7 +206,7 @@ export default function CapcomCareer() {
         </div>
 
         {/* 年収の考え方 */}
-        <h2>カプコンの年収の考え方</h2>
+        <h2 id="s6">カプコンの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-3">
             有価証券報告書における提出会社の平均年間給与は約985万円（2026年3月期）です。ただしこれは<strong className="text-navy">全社員を含む平均</strong>であり、次の点に注意が必要です。
@@ -202,7 +223,7 @@ export default function CapcomCareer() {
         </div>
 
         {/* おすすめ転職エージェント */}
-        <h2>カプコン転職で活用したい転職エージェント</h2>
+        <h2 id="s7">カプコン転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
           ゲーム業界の開発職は非公開求人や業界特化の求人が多いため、複数のエージェントに登録して情報を広く集めるのが有効です。
         </p>
@@ -226,7 +247,7 @@ export default function CapcomCareer() {
         </div>
 
         {/* FAQ */}
-        <h2>カプコン転職 よくある質問</h2>
+        <h2 id="s8">カプコン転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "三菱電機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -61,17 +62,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "三菱電機" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             三菱電機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/mitsubishi-electric.jpg" alt="三菱電機の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">三菱電機 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             三菱電機（証券コード6503）は、FA機器・ビルシステム（昇降機）・電力・防衛宇宙・空調・半導体デバイスまで手がける総合電機メーカーです。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：三菱電機転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">三菱電機の基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">三菱電機の中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">三菱電機で求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">三菱電機の選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">三菱電機の年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">三菱電機転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">三菱電機転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：三菱電機転職のポイント</h2>
+        <h2 id="s1">結論：三菱電機転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約913万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員平均。</li>
@@ -81,7 +99,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>三菱電機の基本データ（有価証券報告書）</h2>
+        <h2 id="s2">三菱電機の基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -107,7 +125,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年9月2日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>三菱電機の中途採用の状況</h2>
+        <h2 id="s3">三菱電機の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年9月2日時点で、<a href="https://www.mitsubishielectric.co.jp/saiyo/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式経験者採用ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -115,9 +133,10 @@ export default function CompanyCareer() {
             <li>リファラル採用・アルムナイ採用・キャリア登録の制度も公式に案内されています。</li>
             <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱電機のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>三菱電機で求められる人材</h2>
+        <h2 id="s4">三菱電機で求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "FA・電力・ビルなどインフラ領域の専門性", desc: "事業部門が幅広く、FA機器・受配電・昇降機・空調など各インフラ領域の実務経験がそのまま適合先になります。" },
@@ -132,7 +151,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>三菱電機の選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">三菱電機の選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -151,7 +172,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>三菱電機の年収の考え方</h2>
+        <h2 id="s6">三菱電機の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約913万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
@@ -162,7 +183,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>三菱電機転職で活用したい転職エージェント</h2>
+        <h2 id="s7">三菱電機転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -181,7 +202,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>三菱電機転職 よくある質問</h2>
+        <h2 id="s8">三菱電機転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

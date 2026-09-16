@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { FelmatTextLink } from "@/components/FelmatCta";
+import A8Cta from "@/components/A8Cta";
 
 export const metadata: Metadata = {
   title: 'ベイカレントへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
@@ -52,17 +54,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: 'ベイカレント' }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ベイカレントへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/baycurrent.jpg" alt="ベイカレントの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">ベイカレント 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             ベイカレント（証券コード6532（東証プライム））は、特定の業界・領域に縛られず、戦略からITまで一気通貫で支援する総合コンサルティングファームです。急成長を続け、若手でも高年収に到達しやすいのが特徴です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：ベイカレント転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">ベイカレントの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">ベイカレントの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">ベイカレントで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">ベイカレントの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">ベイカレントの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">ベイカレント転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">ベイカレント転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：ベイカレント転職のポイント</h2>
+        <h2 id="s1">結論：ベイカレント転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,331万円（2026年2月期・有報／単体866名）。平均31.3歳でこの水準は業界屈指。</li>
@@ -72,7 +91,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>ベイカレントの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">ベイカレントの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -98,7 +117,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>ベイカレントの中途採用の状況</h2>
+        <h2 id="s3">ベイカレントの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             ベイカレントは
@@ -114,9 +133,10 @@ export default function CompanyCareer() {
             <li>「キャリアストーリー」ページに、大手広告代理店・外資系IT企業出身者など中途入社の事例が複数掲載されています。選考ステップの詳細や中途採用比率の数値は、募集要項ページ上では確認できませんでした。</li>
           </ul>
           <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-sm text-text-secondary mt-4">20代でコンサル・大手企業への転職を考えるなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで職務経歴書の壁打ちから始めるのも近道です。</p>
         </div>
 
-        <h2>ベイカレントで求められる人材</h2>
+        <h2 id="s4">ベイカレントで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
           {
@@ -139,7 +159,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ベイカレントの選考フロー（一般的な流れ）</h2>
+        <A8Cta slug="myvision" heading="コンサル業界特化の転職支援(無料)" />
+
+        <h2 id="s5">ベイカレントの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -158,7 +180,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ベイカレントの年収の考え方</h2>
+        <h2 id="s6">ベイカレントの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,331万円（2026年2月期）は単体全社員の平均。等級・役職で水準は大きく異なる。</li>
@@ -167,7 +189,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>ベイカレント転職で活用したい転職エージェント</h2>
+        <h2 id="s7">ベイカレント転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -186,7 +208,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ベイカレント転職 よくある質問</h2>
+        <h2 id="s8">ベイカレント転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "浜松ホトニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -69,17 +70,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "浜松ホトニクス" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             浜松ホトニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/hamamatsu-photonics.jpg" alt="浜松ホトニクスの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">浜松ホトニクス 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             浜松ホトニクス（証券コード6965）は、光電子増倍管・イメージ機器・光源・光半導体素子・画像処理計測装置・レーザ装置などを手がける浜松本社の光技術メーカーです。公式採用情報にはキャリア採用のセクションがあるものの、確認時点では募集掲載がありませんでした。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：浜松ホトニクス転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">浜松ホトニクスの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">浜松ホトニクスの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">浜松ホトニクスで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">浜松ホトニクスの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">浜松ホトニクスの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">浜松ホトニクス転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">浜松ホトニクス転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：浜松ホトニクス転職のポイント</h2>
+        <h2 id="s1">結論：浜松ホトニクス転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約728万円（2025年9月期・有価証券報告書。IR BANK掲載値・2026年8月12日確認）。提出会社単体4,262名の全従業員平均。</li>
@@ -89,7 +107,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>浜松ホトニクスの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">浜松ホトニクスの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -116,7 +134,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年8月12日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>浜松ホトニクスの中途採用の状況</h2>
+        <h2 id="s3">浜松ホトニクスの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年8月12日時点で、浜松ホトニクスの<a href="https://www.hamamatsu.com/jp/ja/our-company/recruit.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式サイトの採用情報ページ</a>にはキャリア採用（中途採用）のセクションが設けられていますが、確認時点では募集情報の掲載はありませんでした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -126,9 +144,10 @@ export default function CompanyCareer() {
             <li>キャリア採用のセクション自体は常設されているため、募集が開始された場合は同ページに掲載されるとみられる。中途で入社するルートとしては、転職エージェント経由の求人の有無を確認するのも一つの方法。</li>
             <li>※募集状況は変動するため、最新は公式サイトでご確認ください。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で浜松ホトニクスのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>浜松ホトニクスで求められる人材</h2>
+        <h2 id="s4">浜松ホトニクスで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "光技術・光デバイスの専門性", desc: "光電子増倍管や光半導体素子など光技術に特化した製品を手がけるため、光学・半導体・電子デバイス分野の専門経験が評価されます。" },
@@ -143,7 +162,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>浜松ホトニクスの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">浜松ホトニクスの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※確認時点では中途採用の募集掲載がなく、公式の中途選考フローは確認できませんでした。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -162,7 +183,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>浜松ホトニクスの年収の考え方</h2>
+        <h2 id="s6">浜松ホトニクスの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約728万円（2025年9月期）は提出会社単体・全従業員4,262名の平均であり、職種・年代・役職により実際の水準は異なります。</li>
@@ -173,7 +194,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>浜松ホトニクス転職で活用したい転職エージェント</h2>
+        <h2 id="s7">浜松ホトニクス転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">確認時点で公式のキャリア採用募集がないため、エージェント経由で求人の有無を確認し情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -192,7 +213,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>浜松ホトニクス転職 よくある質問</h2>
+        <h2 id="s8">浜松ホトニクス転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

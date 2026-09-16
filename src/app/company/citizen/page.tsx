@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "シチズン時計への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -56,17 +57,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "シチズン時計" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             シチズン時計への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/citizen.jpg" alt="シチズン時計の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">シチズン時計 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             シチズン時計（証券コード7762）は東京都西東京市に本社を置く時計メーカーです。時計類とその部品の製造販売を行うとともに、事業持株会社としてグループ経営戦略の策定・推進等を担っており、連結従業員は14,254名（2025年9月末）にのぼります。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：シチズン時計転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">シチズン時計の基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">シチズン時計の中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">シチズン時計で求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">シチズン時計の選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">シチズン時計の年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">シチズン時計転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">シチズン時計転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：シチズン時計転職のポイント</h2>
+        <h2 id="s1">結論：シチズン時計転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約789万円（2026年3月期・有価証券報告書・提出会社）。ただし事業持株会社のため、単体770名（本社機能中心）の値であり、製造子会社（シチズン時計マニュファクチャリング等）の従業員は含まれない。グループ全体の実態より高めに出る点に注意。</li>
@@ -77,7 +95,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>シチズン時計の基本データ（有価証券報告書）</h2>
+        <h2 id="s2">シチズン時計の基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -103,7 +121,7 @@ export default function CompanyCareer() {
           ※シチズン時計は事業持株会社です。平均年間給与 約789万円は単体770名（本社機能中心）の平均であり、シチズン時計マニュファクチャリング等の製造子会社の従業員は含まれません。そのため、グループ全体の給与実態よりも高めに出る点にご注意ください。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>シチズン時計の中途採用の状況</h2>
+        <h2 id="s3">シチズン時計の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             シチズン時計は公式採用サイトに<a href="https://www.citizen.co.jp/recruit/info/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用情報</a>ページを常設しており、<strong className="text-navy">中途採用比率は2025年度で50%</strong>（出典：公式採用サイト。2023〜2025年度の比率を公式開示）と、採用の半分を中途が占めます。応募は<a href="https://citizen-recruit.snar.jp/index.aspx?id=mLqGGGMpvyg" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">エントリーサイト</a>で現在募集中の職種を確認し、職種ごとの「エントリー」から行う形式です。
@@ -117,9 +135,10 @@ export default function CompanyCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でシチズン時計のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>シチズン時計で求められる人材</h2>
+        <h2 id="s4">シチズン時計で求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "時計・精密機器業界での実務経験", desc: "時計類の企画・開発・マーケティングなど、時計または近接する精密機器業界での経験が評価されやすい構造です。" },
@@ -134,7 +153,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>シチズン時計の選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">シチズン時計の選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -153,7 +174,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>シチズン時計の年収の考え方</h2>
+        <h2 id="s6">シチズン時計の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約789万円（2026年3月期）は事業持株会社であるシチズン時計単体770名（本社機能中心）の平均。製造子会社（シチズン時計マニュファクチャリング等）の従業員は含まれず、グループ全体の給与実態より高めに出る。</li>
@@ -165,7 +186,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>シチズン時計転職で活用したい転職エージェント</h2>
+        <h2 id="s7">シチズン時計転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -184,7 +205,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>シチズン時計転職 よくある質問</h2>
+        <h2 id="s8">シチズン時計転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

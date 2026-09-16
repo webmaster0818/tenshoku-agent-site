@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -67,18 +68,35 @@ export default function MujiCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/muji.jpg" alt="良品計画（無印良品）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">良品計画（無印良品） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             良品計画（証券コード7453）は「無印良品」「MUJI」ブランドを国内外で展開する小売・製造小売（SPA）企業です。
             本記事では、有価証券報告書などの公開一次データをもとに、良品計画の平均年収・中途採用の状況・選考フロー・求められる人材を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：良品計画転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">良品計画の基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">良品計画の中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">良品計画で求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">良品計画の選考フロー（公式記載・店舗キャリア採用）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">良品計画の年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">良品計画転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">良品計画転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
         {/* 結論 */}
-        <h2>結論：良品計画転職のポイント</h2>
+        <h2 id="s1">結論：良品計画転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約670万円（2025年8月期・有価証券報告書）</strong>。前期（2024年8月期）の約643万円から上昇傾向。</li>
@@ -89,7 +107,7 @@ export default function MujiCareer() {
         </div>
 
         {/* 基本データ（有報） */}
-        <h2>良品計画の基本データ（有価証券報告書）</h2>
+        <h2 id="s2">良品計画の基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -118,7 +136,7 @@ export default function MujiCareer() {
         </p>
 
         {/* 中途採用の状況 */}
-        <h2>良品計画の中途採用の状況</h2>
+        <h2 id="s3">良品計画の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             良品計画は<a href="https://careers.muji.com/jp/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイトの「キャリア採用」セクション</a>を常設し、<a href="https://careers.muji.com/jp/career/store/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">店舗キャリア採用</a>と<a href="https://careers.muji.com/jp/career/office/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">本部キャリア採用</a>の2区分で通年掲載しています。募集職種の一覧は公式案内先の<a href="https://hrmos.co/pages/muji" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOSページ</a>に掲載されます（2026年7月31日確認時点）。
@@ -130,10 +148,11 @@ export default function MujiCareer() {
             <li>店舗職の勤務地は全国の無印良品店舗。具体勤務地は各求人ページ単位で確認する形（キャリア採用トップに一括記載なし）。本部キャリア採用では「第二創業」の変革をリードする人材募集と記載。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で良品計画（無印良品）のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
         {/* 求められる人材 */}
-        <h2>良品計画で求められる人材</h2>
+        <h2 id="s4">良品計画で求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
@@ -161,7 +180,9 @@ export default function MujiCareer() {
         </div>
 
         {/* 選考フロー */}
-        <h2>良品計画の選考フロー（公式記載・店舗キャリア採用）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">良品計画の選考フロー（公式記載・店舗キャリア採用）</h2>
         <p className="text-sm text-text-muted mb-4">
           ※公式採用サイトの店舗キャリア採用ページに記載の選考フローです（2026年7月31日確認時点）。本部キャリア採用など他の職種の選考ステップは各求人ページでご確認ください。
         </p>
@@ -183,7 +204,7 @@ export default function MujiCareer() {
         </div>
 
         {/* 年収の考え方 */}
-        <h2>良品計画の年収の考え方</h2>
+        <h2 id="s6">良品計画の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-3">
             有価証券報告書における提出会社の平均年間給与は約670万円（2025年8月期）です。ただしこれは<strong className="text-navy">店舗・本部を含む全社員の平均</strong>であり、次の点に注意が必要です。
@@ -200,7 +221,7 @@ export default function MujiCareer() {
         </div>
 
         {/* おすすめ転職エージェント */}
-        <h2>良品計画転職で活用したい転職エージェント</h2>
+        <h2 id="s7">良品計画転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
           小売・SPA・消費財の求人は非公開で扱われることも多いため、複数のエージェントに登録して情報を広く集めるのが有効です。
         </p>
@@ -224,7 +245,7 @@ export default function MujiCareer() {
         </div>
 
         {/* FAQ */}
-        <h2>良品計画転職 よくある質問</h2>
+        <h2 id="s8">良品計画転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

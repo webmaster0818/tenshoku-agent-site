@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "ヤマハへの転職は難しい？中途採用・平均年収794万円・選考を徹底解説【2026年】",
@@ -56,18 +57,35 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "ヤマハ" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ヤマハへの転職は難しい？中途採用・平均年収794万円・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/yamaha.jpg" alt="ヤマハの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">ヤマハ 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             ヤマハ（証券コード7951）は1897年設立、静岡県浜松市に本社を置く楽器・音響機器メーカーです。ピアノ・電子楽器・管弦打楽器などの楽器事業と、コンシューマー／プロ／モビリティ向けの音響機器事業を軸に、子会社61社とともにグローバルに事業を展開しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
             なお、バイク等で知られるヤマハ発動機（証券コード7272）は別の法人であり、本記事はヤマハ（7951・楽器/音響機器）のみを扱います。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：ヤマハ転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">ヤマハの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">ヤマハの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">ヤマハで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">ヤマハの選考フロー（公式記載）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">ヤマハの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">ヤマハ転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">ヤマハ転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：ヤマハ転職のポイント</h2>
+        <h2 id="s1">結論：ヤマハ転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約794万円（2026年3月期・有価証券報告書・提出会社）。楽器・音響機器メーカーとして高めの水準。</li>
@@ -78,7 +96,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>ヤマハの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">ヤマハの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -105,7 +123,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>ヤマハの中途採用の状況</h2>
+        <h2 id="s3">ヤマハの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             ヤマハは公式採用情報サイトに<a href="https://www.yamaha.com/ja/recruitment/mid-career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用</a>ページを常設し、「多種多様なご経験の方々を求めて、多くの中途採用募集を行っています」（公式記載）。応募は<a href="https://yamaha-recruiting.snar.jp/index.aspx/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧（エントリーサイト）</a>から希望職種を選択し「応募」から必要情報を送信する形式で、書類選考の結果は全応募者に連絡されます（公式記載）。
@@ -119,9 +137,10 @@ export default function CompanyCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でヤマハのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>ヤマハで求められる人材</h2>
+        <h2 id="s4">ヤマハで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "音響・電気・製造業での実務経験", desc: "設計開発・品質保証・生産技術など、音響機器・電機または近接する製造業での経験が評価されやすい構造です。" },
@@ -136,7 +155,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハの選考フロー（公式記載）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">ヤマハの選考フロー（公式記載）</h2>
         <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -157,7 +178,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハの年収の考え方</h2>
+        <h2 id="s6">ヤマハの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約794万円（2026年3月期）は提出会社（単体3,449名）の全社平均。職種（開発・工場・営業）で水準は異なる。</li>
@@ -167,7 +188,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>ヤマハ転職で活用したい転職エージェント</h2>
+        <h2 id="s7">ヤマハ転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -186,7 +207,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハ転職 よくある質問</h2>
+        <h2 id="s8">ヤマハ転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

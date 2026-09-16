@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -65,18 +66,35 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "NTT" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/ntt.jpg" alt="NTT（持株会社）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">NTT（持株会社） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             NTT株式会社（証券コード9432）は、NTTグループの持株会社として研究開発（IOWN・AI等）とグループ経営を担う企業です。
             「NTTの平均年収」として広く引用される数値はこの持株会社単体のもので、ドコモやNTTデータなど事業会社とは別である点が最重要ポイントです。
             本記事では、有価証券報告書などの公開一次データをもとに客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：NTT転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">NTT（持株会社）の基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">NTTの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">NTT（持株会社・R&D）で求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">NTTグループの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">NTTの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">NTTグループ転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">NTT転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：NTT転職のポイント</h2>
+        <h2 id="s1">結論：NTT転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,056万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月19日確認）。提出会社＝持株会社単体2,606名の平均。</li>
@@ -87,7 +105,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>NTT（持株会社）の基本データ（有価証券報告書）</h2>
+        <h2 id="s2">NTT（持株会社）の基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -114,7 +132,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK・日経会社情報掲載値・2026年8月19日確認）に基づく提出会社（持株会社）単体・全従業員の平均です。事業会社の給与水準・採用条件は各社の公式情報でご確認ください。
         </p>
 
-        <h2>NTTの中途採用の状況</h2>
+        <h2 id="s3">NTTの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>採用情報は公式サイトの採用ページ（group.ntt/jp/careers/）に集約されており、グループ各社の採用・研究開発（R&D）採用への入口になっている（2026年8月19日確認）。</li>
@@ -122,9 +140,10 @@ export default function CompanyCareer() {
             <li>「NTTに転職したい」場合、実際の応募先はドコモ・NTTデータ・NTT東西・NTTコミュニケーションズ等の事業会社であるケースが大半。志望する事業領域から会社を特定するのが第一歩。</li>
             <li>各社で採用サイト・選考プロセスが異なるため、募集要項は応募先各社の公式情報で確認が必要。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
         </div>
 
-        <h2>NTT（持株会社・R&D）で求められる人材</h2>
+        <h2 id="s4">NTT（持株会社・R&D）で求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "研究開発の専門性と実績", desc: "IOWN・AI・ネットワーク基盤などの研究領域では、論文・学会発表・OSS等のアウトプットが専門性の証明として評価されやすい環境です。" },
@@ -139,7 +158,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>NTTグループの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
+
+        <h2 id="s5">NTTグループの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※選考は応募先の会社・職種により異なります。以下は一般的な流れの一例です。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -158,7 +179,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>NTTの年収の考え方</h2>
+        <h2 id="s6">NTTの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,056万円（2026年3月期）は持株会社単体・全従業員2,606名の平均で、管理職・上位等級を含みます。</li>
@@ -168,7 +189,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>NTTグループ転職で活用したい転職エージェント</h2>
+        <h2 id="s7">NTTグループ転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">グループ各社の採用ページへの直接応募に加えて、エージェント経由で会社別の求人情報を集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -187,7 +208,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>NTT転職 よくある質問</h2>
+        <h2 id="s8">NTT転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

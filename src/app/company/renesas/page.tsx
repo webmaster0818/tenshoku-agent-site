@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -65,18 +66,35 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "ルネサスエレクトロニクス" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/renesas.jpg" alt="ルネサスエレクトロニクスの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">ルネサスエレクトロニクス 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             ルネサスエレクトロニクス（証券コード6723）は、マイコン（MCU）を中心に各種半導体の研究・開発・設計・製造・販売を手がける半導体大手です。
             採用はグローバル共通の採用サイトに一本化されており、職種・勤務地から検索して応募する方式です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：ルネサスエレクトロニクス転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">ルネサスエレクトロニクスの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">ルネサスエレクトロニクスの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">ルネサスエレクトロニクスで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">ルネサスエレクトロニクスの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">ルネサスエレクトロニクスの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">ルネサス転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">ルネサスエレクトロニクス転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：ルネサスエレクトロニクス転職のポイント</h2>
+        <h2 id="s1">結論：ルネサスエレクトロニクス転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約749万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年8月16日確認）。提出会社単体6,025名の全従業員平均。</li>
@@ -87,7 +105,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>ルネサスエレクトロニクスの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">ルネサスエレクトロニクスの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -116,7 +134,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年8月16日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>ルネサスエレクトロニクスの中途採用の状況</h2>
+        <h2 id="s3">ルネサスエレクトロニクスの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年8月16日時点で、採用は<a href="https://jobs.renesas.com/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">グローバル共通の採用サイト</a>（日本語版はcareer.renesas.com）に一本化されています。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -125,9 +143,10 @@ export default function CompanyCareer() {
             <li>グローバル一体の採用システムのため、募集要項・応募画面が英語表記のポジションも多い。職務経歴書に加え英文レジュメを用意しておくと応募がスムーズ。</li>
             <li>※2026年8月16日に採用サイトで確認。募集状況は変動するため最新は同サイトでご確認ください。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でルネサスエレクトロニクスのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>ルネサスエレクトロニクスで求められる人材</h2>
+        <h2 id="s4">ルネサスエレクトロニクスで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "半導体分野の専門性", desc: "MCU・SoC・アナログ・パワーなど半導体の設計・開発・プロセス・品質関連の実務経験が、Engineeringカテゴリの求人との適合を示しやすい領域です。" },
@@ -142,7 +161,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ルネサスエレクトロニクスの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">ルネサスエレクトロニクスの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -161,7 +182,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ルネサスエレクトロニクスの年収の考え方</h2>
+        <h2 id="s6">ルネサスエレクトロニクスの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約749万円（2025年12月期）は提出会社単体・全従業員6,025名の平均であり、職種・年代・役職により実際の水準は異なります。</li>
@@ -172,7 +193,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>ルネサス転職で活用したい転職エージェント</h2>
+        <h2 id="s7">ルネサス転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">公式採用サイトへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -191,7 +212,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ルネサスエレクトロニクス転職 よくある質問</h2>
+        <h2 id="s8">ルネサスエレクトロニクス転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

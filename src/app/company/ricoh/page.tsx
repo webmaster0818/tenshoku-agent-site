@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "リコーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -69,18 +70,35 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "リコー" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             リコーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/ricoh.jpg" alt="リコーの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">リコー 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             リコー（証券コード7752）は、オフィス向けデジタルサービスを中核に、デジタルプロダクツ・商用印刷・産業ソリューションなどを展開する大手メーカーです。
             公式サイトにキャリア採用の常設ページがあり、10ステップの選考プロセスとキャリア登録制度が公開されています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：リコー転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">リコーの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">リコーの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">リコーで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">リコーの選考フロー（公式公開の10ステップ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">リコーの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">リコー転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">リコー転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：リコー転職のポイント</h2>
+        <h2 id="s1">結論：リコー転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約906万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月16日確認）。提出会社単体4,596名の全従業員平均で、前期860万円から上昇。</li>
@@ -91,7 +109,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>リコーの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">リコーの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -119,7 +137,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年8月16日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>リコーの中途採用の状況</h2>
+        <h2 id="s3">リコーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年8月16日時点で、<a href="https://jp.ricoh.com/jobs/recruit/careers" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式サイトのキャリア採用ページ</a>に中途採用の常設窓口があります。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -129,9 +147,10 @@ export default function CompanyCareer() {
             <li>今すぐ転職しない人向けの「キャリア登録」制度があり、経歴を登録するとマッチするポジションが出た際に会社側からアプローチされる仕組み。</li>
             <li>※グループのリコージャパン（販売会社）は別法人で採用窓口も別。応募先の会社がどちらかは募集要項で確認を。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でリコーのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>リコーで求められる人材</h2>
+        <h2 id="s4">リコーで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "デジタルサービスへの事業転換を担う力", desc: "オフィス機器からデジタルサービス中心への転換を進めており、IT・ソフトウェア・クラウド関連の経験が事業方向と合致します。" },
@@ -146,7 +165,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>リコーの選考フロー（公式公開の10ステップ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">リコーの選考フロー（公式公開の10ステップ）</h2>
         <p className="text-sm text-text-muted mb-4">公式キャリア採用ページで公開されている流れです（2026年8月16日確認）。職種・時期により変わる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -165,7 +186,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>リコーの年収の考え方</h2>
+        <h2 id="s6">リコーの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約906万円（2026年3月期）は提出会社単体・全従業員4,596名の平均であり、職種・年代・役職により実際の水準は異なります。</li>
@@ -176,7 +197,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>リコー転職で活用したい転職エージェント</h2>
+        <h2 id="s7">リコー転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">公式窓口への直接応募・キャリア登録に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -195,7 +216,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>リコー転職 よくある質問</h2>
+        <h2 id="s8">リコー転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "東京エレクトロンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -64,17 +65,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "東京エレクトロン" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             東京エレクトロンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/tokyo-electron.jpg" alt="東京エレクトロンの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">東京エレクトロン 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             東京エレクトロン（証券コード8035）は、半導体製造装置とFPD（フラットパネルディスプレイ）製造装置を手がける、半導体製造装置で世界トップクラスのメーカーです。世界の半導体投資拡大を追い風に成長を続けています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：東京エレクトロン転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">東京エレクトロンの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">東京エレクトロンの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">東京エレクトロンで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">東京エレクトロンの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">東京エレクトロンの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">東京エレクトロン転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">東京エレクトロン転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：東京エレクトロン転職のポイント</h2>
+        <h2 id="s1">結論：東京エレクトロン転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,380万円（2026年3月期・有価証券報告書・単体）。装置メーカーとして高水準。</li>
@@ -84,7 +102,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>東京エレクトロンの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">東京エレクトロンの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -110,7 +128,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>東京エレクトロンの中途採用の状況</h2>
+        <h2 id="s3">東京エレクトロンの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">東京エレクトロンは専用の<a href="https://careers-tel.jp/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用サイト</a>を運営しており、<a href="https://careers-tel.jp/description/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集要項ページ</a>から募集中の求人を確認できます。募集職種は8つの職種カテゴリーに分かれ、採用はグループ各社単位で行われます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -119,9 +137,10 @@ export default function CompanyCareer() {
             <li>応募ルートは通常応募のほか、社員紹介制度・カムバック採用・障がい者採用・キャリア登録（簡易登録による適職マッチング）が用意されている。</li>
             <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東京エレクトロンのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>東京エレクトロンで求められる人材</h2>
+        <h2 id="s4">東京エレクトロンで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "半導体・精密の技術理解", desc: "装置・プロセス・材料など半導体関連の技術理解が中核職種で強く求められます。" },
@@ -136,7 +155,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>東京エレクトロンの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">東京エレクトロンの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -155,7 +176,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>東京エレクトロンの年収の考え方</h2>
+        <h2 id="s6">東京エレクトロンの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,380万円（2026年3月期）は単体全社員の平均。職種・役職で水準は異なる。</li>
@@ -165,7 +186,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>東京エレクトロン転職で活用したい転職エージェント</h2>
+        <h2 id="s7">東京エレクトロン転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -184,7 +205,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>東京エレクトロン転職 よくある質問</h2>
+        <h2 id="s8">東京エレクトロン転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

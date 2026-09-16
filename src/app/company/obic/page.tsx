@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "オービックへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -56,17 +57,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "オービック" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             オービックへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/obic.jpg" alt="オービックの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">オービック 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             オービック（証券コード4684）は統合業務ソフト「OBIC7」を自社開発・直販するシステムインテグレーターで、平均年間給与約1,129万円（2026年3月期・有報）とSIer業界で屈指の高水準です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：オービック転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">オービックの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">オービックの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">オービックで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">オービックの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">オービックの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">オービック転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">オービック転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：オービック転職のポイント</h2>
+        <h2 id="s1">結論：オービック転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,129万円（2026年3月期・有価証券報告書・単体2,030名）、平均年齢約35.8歳と、若くして高年収の代表的SIer。</li>
@@ -76,7 +94,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>オービックの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">オービックの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -102,7 +120,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>オービックの中途採用の状況</h2>
+        <h2 id="s3">オービックの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年7月31日時点で、オービックの<a href="https://www.obic.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>は新卒採用・インターンシップが中心で、中途採用（キャリア採用）の常設窓口は掲載されていません。中途で入るルートは公式掲載外の求人が中心になるとみられ、確実な情報は公式採用ページの更新を確認するのがおすすめです。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -115,9 +133,10 @@ export default function CompanyCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
         </div>
 
-        <h2>オービックで求められる人材</h2>
+        <h2 id="s4">オービックで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "業務システムの知見", desc: "会計・人事・販売管理などの業務知識とシステム化経験は、ERP領域で最も評価される資産です。" },
@@ -132,7 +151,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>オービックの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
+
+        <h2 id="s5">オービックの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -151,7 +172,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>オービックの年収の考え方</h2>
+        <h2 id="s6">オービックの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,129万円（2026年3月期）は単体全社員の平均。平均年齢35.8歳でこの水準は上場SIerでも屈指。</li>
@@ -161,7 +182,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>オービック転職で活用したい転職エージェント</h2>
+        <h2 id="s7">オービック転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -180,7 +201,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>オービック転職 よくある質問</h2>
+        <h2 id="s8">オービック転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "カルビーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -56,17 +57,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "カルビー" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             カルビーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/calbee.jpg" alt="カルビーの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">カルビー 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             カルビー（証券コード2229）はポテトチップス・じゃがりこ・かっぱえびせん・フルグラなどで知られる大手菓子・食品メーカーです。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：カルビー転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">カルビーの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">カルビーの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">カルビーで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">カルビーの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">カルビーの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">カルビー転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">カルビー転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：カルビー転職のポイント</h2>
+        <h2 id="s1">結論：カルビー転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約685万円（2026年3月期・有価証券報告書・提出会社）。同期に単体従業員が3,711名へ+1,421名増加しており、前期の約819万円からの低下は算入範囲の変化（工場勤務の無期契約社員を正社員等級体系へ統合する人事制度変更と整合）によるもの。「年収が下がった会社」ではない点に注意。</li>
@@ -76,7 +94,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>カルビーの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">カルビーの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -102,7 +120,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。カルビーは2026年3月期に単体従業員が3,711名へ+1,421名増加しており（工場勤務の無期契約社員を正社員等級体系へ統合する人事制度変更と整合）、平均年間給与が前期の約819万円から約685万円へ変化したのは算入範囲の変化によるものです。待遇の引き下げを意味するものではありません。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>カルビーの中途採用の状況</h2>
+        <h2 id="s3">カルビーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             カルビー本体の<a href="https://www.calbee.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>は新卒向けの内容で、中途採用（キャリア採用）専用ページや直接応募の窓口は確認できませんでした（2026年7月31日確認時点）。公式FAQには「カルビーでは、既卒（中途）採用に関するお問合せを受け付けておりません。」と明記されており、中途の求人については「求人サイトや情報誌等」を確認のうえ、掲載元の採用エージェントに直接問い合わせるよう案内されています。つまりカルビー本体の中途採用は、エージェント（求人掲載元）経由が公式に案内された応募ルートという、大手メーカーでは珍しい形です。
@@ -114,9 +132,10 @@ export default function CompanyCareer() {
             <li>エージェント経由が公式に案内されたルートのため、複数エージェントへの登録がカルビー本体の求人に出会う現実的な方法。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でカルビーのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>カルビーで求められる人材</h2>
+        <h2 id="s4">カルビーで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "食品・製造業での実務経験", desc: "研究開発・生産技術・品質保証など、食品または近接する製造業での経験が最も評価されます。" },
@@ -131,7 +150,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>カルビーの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">カルビーの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -150,7 +171,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>カルビーの年収の考え方</h2>
+        <h2 id="s6">カルビーの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約685万円（2026年3月期）は単体3,711名の平均。前期（約819万円・単体約2,290名）から数値が変化したのは、工場勤務の無期契約社員を正社員等級体系へ統合する人事制度変更と整合する算入範囲の拡大によるもので、待遇の引き下げではない。</li>
@@ -160,7 +181,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>カルビー転職で活用したい転職エージェント</h2>
+        <h2 id="s7">カルビー転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -179,7 +200,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>カルビー転職 よくある質問</h2>
+        <h2 id="s8">カルビー転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

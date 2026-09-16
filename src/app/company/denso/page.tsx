@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "デンソーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -64,17 +65,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "デンソー" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             デンソーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/denso.jpg" alt="デンソーの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">デンソー 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             デンソー（証券コード6902）は、熱マネジメント・パワトレイン・エレクトロニクスなど幅広い自動車部品を手がける、世界トップクラスの自動車部品メーカーです。トヨタグループの中核企業として、電動化・先進安全領域にも注力しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：デンソー転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">デンソーの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">デンソーの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">デンソーで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">デンソーの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">デンソーの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">デンソー転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">デンソー転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：デンソー転職のポイント</h2>
+        <h2 id="s1">結論：デンソー転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約915万円（2026年3月期・有価証券報告書・単体）。自動車部品大手として高めの水準。</li>
@@ -84,7 +102,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>デンソーの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">デンソーの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -110,7 +128,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>デンソーの中途採用の状況</h2>
+        <h2 id="s3">デンソーの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">デンソーは専用の<a href="https://careers.denso.com/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用サイト</a>を運営しています。応募は、募集中の職種を検索してエントリーする「ジョブサーチ」と、簡易登録で適切なポジションの紹介を受ける「キャリア登録」の2ルートで、選考は原則WEB（WEBカメラ使用）での面談・面接です。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -119,9 +137,10 @@ export default function CompanyCareer() {
             <li>試用期間は3ヶ月（勤務・賃金制度は変更なし）。</li>
             <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でデンソーのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>デンソーで求められる人材</h2>
+        <h2 id="s4">デンソーで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "車載領域の技術力", desc: "車載ソフト・電子・機械など、応募領域に沿った技術力が中核職種で重視されます。" },
@@ -136,7 +155,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>デンソーの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">デンソーの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -155,7 +176,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>デンソーの年収の考え方</h2>
+        <h2 id="s6">デンソーの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約915万円（2026年3月期）は単体全社員の平均。職種・年代・役職で水準は異なる。</li>
@@ -165,7 +186,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>デンソー転職で活用したい転職エージェント</h2>
+        <h2 id="s7">デンソー転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -184,7 +205,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>デンソー転職 よくある質問</h2>
+        <h2 id="s8">デンソー転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

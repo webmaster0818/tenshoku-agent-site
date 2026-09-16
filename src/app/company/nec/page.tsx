@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "NECへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -65,17 +66,32 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "NEC" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             NECへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/nec.jpg" alt="NECの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">NEC 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             NEC（証券コード6701）は、官公庁・社会インフラ系のITサービスと生体認証・通信技術に強みを持つ大手です。平均年収は2年で110万円超上昇しており、ジョブ型人材マネジメントへの移行を進めています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：NEC転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">NECの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">NECで求められる人材</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">NECの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">NEC転職で活用したい転職エージェント</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">NEC転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：NEC転職のポイント</h2>
+        <h2 id="s1">結論：NEC転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約994万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月21日確認）。提出会社単体21,934名の全従業員平均。</li>
@@ -86,7 +102,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>NECの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">NECの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -112,7 +128,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK・日経会社情報掲載値・2026年8月21日確認）に基づく提出会社単体・全従業員の平均です。職種・等級・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>NECで求められる人材</h2>
+        <h2 id="s3">NECで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "社会インフラ案件の経験", desc: "官公庁・金融・通信など大規模で高信頼性が求められるシステムの構築・運用経験は、NECの主力領域と直接適合します。" },
@@ -127,7 +143,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>NECの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
+
+        <h2 id="s4">NECの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -146,7 +164,8 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>NEC転職で活用したい転職エージェント</h2>
+        <h2 id="s5">NEC転職で活用したい転職エージェント</h2>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -165,7 +184,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>NEC転職 よくある質問</h2>
+        <h2 id="s6">NEC転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "サイバーエージェントに転職するには？年収・面接対策・おすすめエージェント",
@@ -67,22 +68,39 @@ export default function CyberAgentCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <div className="flex items-center gap-3 mb-3">
+        <div className="flex items-center gap-3 mb-3">
             <span className="rank-badge rank-badge--1">A</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
               サイバーエージェントに転職するには？年収・面接対策・おすすめエージェント
             </h1>
           </div>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/cyberagent.jpg" alt="サイバーエージェントの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">サイバーエージェント 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             サイバーエージェントは、インターネット広告事業・メディア事業（AbemaTV）・ゲーム事業を展開する国内有数のIT企業です。
             「21世紀を代表する会社を創る」をビジョンに掲げ、挑戦を重視する社風で知られています。
             本記事では、サイバーエージェントへの転職難易度・年収・面接対策・おすすめエージェントを詳しく解説します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">サイバーエージェントの会社概要</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">サイバーエージェントの転職難易度</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">サイバーエージェントの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">サイバーエージェントの選考フロー</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">サイバーエージェント転職の面接対策ポイント</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">サイバーエージェント転職におすすめの転職エージェント5社</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">サイバーエージェント転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
         {/* 会社概要 */}
-        <h2>サイバーエージェントの会社概要</h2>
+        <h2 id="s1">サイバーエージェントの会社概要</h2>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -109,7 +127,7 @@ export default function CyberAgentCareer() {
         </p>
 
         {/* 転職難易度 */}
-        <h2>サイバーエージェントの転職難易度</h2>
+        <h2 id="s2">サイバーエージェントの転職難易度</h2>
         <div className="glass-card p-6 mb-8">
           <div className="flex items-center gap-4 mb-4">
             <span className="text-4xl font-extrabold text-teal">A級</span>
@@ -126,7 +144,7 @@ export default function CyberAgentCareer() {
         </div>
 
         {/* 中途採用の状況 */}
-        <h2>サイバーエージェントの中途採用の状況</h2>
+        <h2 id="s3">サイバーエージェントの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             サイバーエージェントは「キャリア採用」の名称で中途採用を実施しており、
@@ -161,7 +179,9 @@ export default function CyberAgentCareer() {
         </div>
 
         {/* 選考フロー */}
-        <h2>サイバーエージェントの選考フロー</h2>
+        <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
+
+        <h2 id="s4">サイバーエージェントの選考フロー</h2>
         <div className="space-y-5 mb-8">
           {[
             {
@@ -201,7 +221,7 @@ export default function CyberAgentCareer() {
         </div>
 
         {/* 面接対策ポイント */}
-        <h2>サイバーエージェント転職の面接対策ポイント</h2>
+        <h2 id="s5">サイバーエージェント転職の面接対策ポイント</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
@@ -229,7 +249,7 @@ export default function CyberAgentCareer() {
         </div>
 
         {/* おすすめ転職エージェント */}
-        <h2>サイバーエージェント転職におすすめの転職エージェント5社</h2>
+        <h2 id="s6">サイバーエージェント転職におすすめの転職エージェント5社</h2>
         <div className="space-y-4 mb-8">
           {[
             {
@@ -274,7 +294,7 @@ export default function CyberAgentCareer() {
         </div>
 
         {/* FAQ */}
-        <h2>サイバーエージェント転職 よくある質問</h2>
+        <h2 id="s7">サイバーエージェント転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

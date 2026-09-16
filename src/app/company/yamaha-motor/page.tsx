@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "ヤマハ発動機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -68,17 +69,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "ヤマハ発動機" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ヤマハ発動機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/yamaha-motor.jpg" alt="ヤマハ発動機の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">ヤマハ発動機 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             ヤマハ発動機（証券コード7272）は、二輪車・マリン（船外機）・ロボティクスなどを手がける静岡県磐田市本社の輸送用機器メーカーです。楽器・音響のヤマハ株式会社（7951）とは別の上場法人（1955年に分離独立）で、12月決算という点も特徴です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：ヤマハ発動機転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">ヤマハ発動機の基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">ヤマハ発動機の中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">ヤマハ発動機で求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">ヤマハ発動機の選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">ヤマハ発動機の年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">ヤマハ発動機転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">ヤマハ発動機転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：ヤマハ発動機転職のポイント</h2>
+        <h2 id="s1">結論：ヤマハ発動機転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は834万7,789円（2025年12月期・有価証券報告書・提出会社単体。賞与及び基準外賃金を含む）。有報に珍しく円単位まで開示されている。</li>
@@ -89,7 +107,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>ヤマハ発動機の基本データ（有価証券報告書）</h2>
+        <h2 id="s2">ヤマハ発動機の基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -116,7 +134,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（第91期・2026年3月23日提出）の提出会社データに基づく全社平均です。単体従業員数は前期末から1,153名増で、有報によれば2025年1月1日付のヤマハモーターエレクトロニクスの吸収合併等が主因です。直近5期の推移（万円丸め）は726万円→795万円→812万円→817万円→834万円（2021年12月期〜2025年12月期）。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>ヤマハ発動機の中途採用の状況</h2>
+        <h2 id="s3">ヤマハ発動機の中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年8月1日時点で、ヤマハ発動機の<a href="https://global.yamaha-motor.com/jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>には<a href="https://global.yamaha-motor.com/jp/recruit/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用ページ</a>がありますが、「現在、キャリア採用の募集は行っておりません。募集再開の際は、当サイトにてご案内いたします。」と案内されていました。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -125,9 +143,10 @@ export default function CompanyCareer() {
             <li>募集再開時に備え、キャリア登録やエージェント経由での情報収集を先行させておくのが現実的な動き方。</li>
             <li>※2026年8月1日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でヤマハ発動機のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         </div>
 
-        <h2>ヤマハ発動機で求められる人材</h2>
+        <h2 id="s4">ヤマハ発動機で求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "輸送用機器・機械系の実務経験", desc: "二輪車・マリン・ロボティクスなど機械×電子の製品群を持つため、設計開発・生産技術・品質保証などの経験が評価されやすい領域です。" },
@@ -142,7 +161,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハ発動機の選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s5">ヤマハ発動機の選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※2026年8月1日時点でキャリア採用は募集停止中のため、公式の中途向け選考フローは確認できませんでした。以下は中途採用における一般的な選考の流れの一例です。募集再開時の職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -161,7 +182,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハ発動機の年収の考え方</h2>
+        <h2 id="s6">ヤマハ発動機の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>834万7,789円（2025年12月期）は単体全社員の平均で、賞与及び基準外賃金を含む値。職種（開発・製造・営業・スタッフ）で水準は異なる。</li>
@@ -172,7 +193,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>ヤマハ発動機転職で活用したい転職エージェント</h2>
+        <h2 id="s7">ヤマハ発動機転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">公式のキャリア採用が停止中の時期は、非公開求人や再開情報をエージェント経由で押さえるのが有効です。複数登録で情報を広く集めましょう。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -191,7 +212,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>ヤマハ発動機転職 よくある質問</h2>
+        <h2 id="s8">ヤマハ発動機転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

@@ -66,10 +66,10 @@ export default function EbisuFudousanCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "恵比寿不動産" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             恵比寿不動産の求人・採用は？完全反響営業の不動産転職を徹底解説【2026年】
           </h1>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             恵比寿不動産（運営：株式会社ライフアドバンス）は、恵比寿を拠点に都心8区の賃貸・売買仲介を手がける不動産会社です。
             不動産営業といえば「飛び込み・テレアポ・激務」のイメージがありますが、同社は自社集客による完全反響営業と
@@ -77,8 +77,20 @@ export default function EbisuFudousanCareer() {
             本記事では、公式採用ページ・会社概要で確認できる一次情報をもとに、求人内容・給与体系・選考の入口を整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：恵比寿不動産の採用のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">恵比寿不動産の基本データ【2026年8月22日確認】</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">募集職種と給与体系（公式採用ページより）</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">未経験でも大丈夫？研修体制</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">向いている人・向いていない人</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">恵比寿不動産の採用 よくある質問</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">まとめ：反響営業×都心特化の不動産転職</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：恵比寿不動産の採用のポイント</h2>
+        <h2 id="s1">結論：恵比寿不動産の採用のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
@@ -102,7 +114,7 @@ export default function EbisuFudousanCareer() {
 
         <FelmatCta slug="ebisu-fudousan" heading="恵比寿不動産のカジュアル面談を申し込む" note="履歴書・職務経歴書不要と公式採用ページに記載されています。" />
 
-        <h2>恵比寿不動産の基本データ【2026年8月22日確認】</h2>
+        <h2 id="s2">恵比寿不動産の基本データ【2026年8月22日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -123,7 +135,7 @@ export default function EbisuFudousanCareer() {
           給与・年収はすべて公式採用ページ掲載値で、個人の成果・職種により変動します。当サイトでは口コミ・数値の創作は行っていません。
         </p>
 
-        <h2>募集職種と給与体系（公式採用ページより）</h2>
+        <h2 id="s3">募集職種と給与体系（公式採用ページより）</h2>
         <div className="space-y-4 mb-8">
           {[
             {
@@ -146,7 +158,7 @@ export default function EbisuFudousanCareer() {
           ))}
         </div>
 
-        <h2>未経験でも大丈夫？研修体制</h2>
+        <h2 id="s4">未経験でも大丈夫？研修体制</h2>
         <p className="mb-4">
           公式採用ページによると、動画教育ツールの導入、レベル別研修、状況設定ランダムのロープレ、先輩への同行、
           専属の先輩によるマンツーマン指導が用意されており、「本番に近い状態のロープレにより多くの先輩が1ヶ月以内に成約」と記載されています。
@@ -154,7 +166,7 @@ export default function EbisuFudousanCareer() {
           未経験からの転職全般の進め方は<Link href="/type/inexperienced/" className="text-teal underline">未経験向け転職ガイド</Link>も参考にしてください。
         </p>
 
-        <h2>向いている人・向いていない人</h2>
+        <h2 id="s5">向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">向いている人</h3>
@@ -175,7 +187,9 @@ export default function EbisuFudousanCareer() {
           </div>
         </div>
 
-        <h2>恵比寿不動産の採用 よくある質問</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s6">恵比寿不動産の採用 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">
@@ -185,7 +199,7 @@ export default function EbisuFudousanCareer() {
           ))}
         </div>
 
-        <h2>まとめ：反響営業×都心特化の不動産転職</h2>
+        <h2 id="s7">まとめ：反響営業×都心特化の不動産転職</h2>
         <p>
           恵比寿不動産（株式会社ライフアドバンス）は、都心8区特化の集客力を土台にした完全反響営業と、
           成果の還元が明確な給与設計を公式に掲げる不動産会社です。

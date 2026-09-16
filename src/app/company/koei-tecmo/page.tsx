@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "コーエーテクモへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -56,17 +57,34 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "コーエーテクモ" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             コーエーテクモへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/koei-tecmo.jpg" alt="コーエーテクモHDの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">コーエーテクモHD 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             コーエーテクモホールディングス（証券コード3635）は「信長の野望」「三國無双」「アトリエ」シリーズなどで知られるゲーム大手です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：コーエーテクモ転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">コーエーテクモの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">コーエーテクモの中途採用の状況</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">コーエーテクモで求められる人材</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">コーエーテクモの選考フロー（公式記載）</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">コーエーテクモの年収の考え方</a></li>
+            <li><a href="#s7" className="text-teal hover:underline">コーエーテクモ転職で活用したい転職エージェント</a></li>
+            <li><a href="#s8" className="text-teal hover:underline">コーエーテクモ転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：コーエーテクモ転職のポイント</h2>
+        <h2 id="s1">結論：コーエーテクモ転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体）の平均年間給与は約903万円（2026年3月期・有価証券報告書）。ただし持株会社単体121名の数値で、開発現場（コーエーテクモゲームス等）とは別物である点に注意。</li>
@@ -76,7 +94,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>コーエーテクモの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">コーエーテクモの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -102,7 +120,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（提出会社）に基づく全社平均です。職種・年代・役職により実際の年収は異なります。コーエーテクモホールディングスは持株会社であり、有報の数値は提出会社（単体・121名）＝本社機能スタッフの平均です。ゲーム開発の中核はコーエーテクモゲームス等の事業会社で、給与水準・働き方は事業会社ごとに異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>コーエーテクモの中途採用の状況</h2>
+        <h2 id="s3">コーエーテクモの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">コーエーテクモグループの中途採用は公式表記で「経験者採用」と呼ばれ、「当グループではゲーム開発に関する職種はもちろん様々な事業分野で、経験者の方を積極的に募集しております」と公式に明記されています。採用窓口は事業会社ではなく<strong className="text-navy">株式会社コーエーテクモホールディングス</strong>で、選考を経て各事業会社・事業部へ配属されるグループ一括のキャリア採用です。詳細は<a href="https://www.koeitecmo.co.jp/recruit/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用ページ</a>でご確認ください。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
@@ -115,9 +133,10 @@ export default function CompanyCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
         </div>
 
-        <h2>コーエーテクモで求められる人材</h2>
+        <h2 id="s4">コーエーテクモで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "ゲーム開発の実務経験", desc: "プログラマーならC++等での開発経験、デザイナーなら3DCG制作実績など、応募職種に直結する経験・ポートフォリオが評価されます。" },
@@ -132,7 +151,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>コーエーテクモの選考フロー（公式記載）</h2>
+        <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
+
+        <h2 id="s5">コーエーテクモの選考フロー（公式記載）</h2>
         <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種・時期により変わる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -152,7 +173,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>コーエーテクモの年収の考え方</h2>
+        <h2 id="s6">コーエーテクモの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>有報の約903万円は持株会社単体（121名・本社機能）の平均で、開発現場の水準を直接示すものではない。</li>
@@ -162,7 +183,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
 
-        <h2>コーエーテクモ転職で活用したい転職エージェント</h2>
+        <h2 id="s7">コーエーテクモ転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -181,7 +202,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>コーエーテクモ転職 よくある質問</h2>
+        <h2 id="s8">コーエーテクモ転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

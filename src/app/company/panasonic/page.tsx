@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   title: "パナソニックHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
@@ -65,17 +66,32 @@ export default function CompanyCareer() {
       <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "パナソニックHD" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             パナソニックHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
           </h1>
+        <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
+          <img src="/company-ss/panasonic.jpg" alt="パナソニックHDの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-text-muted mb-6">パナソニックHD 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
+        <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             パナソニック ホールディングス（証券コード6752）は、事業会社群を束ねる持株会社です。有価証券報告書の平均年収は持株会社単体（1,431名）の数値で、家電や電池など事業会社の給与水準とは別である点が読み解きの最重要ポイントです。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
+        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+          <p className="font-bold text-navy mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal hover:underline">結論：パナソニックHD転職のポイント</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">パナソニックHDの基本データ（有価証券報告書）</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">パナソニックHDで求められる人材</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">パナソニックHDの選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">パナソニックHD転職で活用したい転職エージェント</a></li>
+            <li><a href="#s6" className="text-teal hover:underline">パナソニックHD転職 よくある質問</a></li>
+          </ol>
+        </nav>
 
-        <h2>結論：パナソニックHD転職のポイント</h2>
+        <h2 id="s1">結論：パナソニックHD転職のポイント</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約988万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月21日確認）。提出会社持株会社単体1,431名の全従業員平均。</li>
@@ -86,7 +102,7 @@ export default function CompanyCareer() {
           </ul>
         </div>
 
-        <h2>パナソニックHDの基本データ（有価証券報告書）</h2>
+        <h2 id="s2">パナソニックHDの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -112,7 +128,7 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK・日経会社情報掲載値・2026年8月21日確認）に基づく提出会社持株会社単体・全従業員の平均です。職種・等級・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2>パナソニックHDで求められる人材</h2>
+        <h2 id="s3">パナソニックHDで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "応募先事業会社の特定", desc: "くらし・車載・エナジー・コネクトなど事業会社ごとに技術も処遇も異なるため、どの会社のどの職種かを最初に特定することが最重要です。" },
@@ -127,7 +143,9 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>パナソニックHDの選考フロー（一般的な流れ）</h2>
+        <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
+
+        <h2 id="s4">パナソニックHDの選考フロー（一般的な流れ）</h2>
         <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
@@ -146,7 +164,8 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>パナソニックHD転職で活用したい転職エージェント</h2>
+        <h2 id="s5">パナソニックHD転職で活用したい転職エージェント</h2>
+        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でパナソニックHDのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
@@ -165,7 +184,7 @@ export default function CompanyCareer() {
           ))}
         </div>
 
-        <h2>パナソニックHD転職 よくある質問</h2>
+        <h2 id="s6">パナソニックHD転職 よくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">
