@@ -71,7 +71,7 @@ export default function CompanyCareer() {
             なお、バイク等で知られるヤマハ発動機（証券コード7272）は別の法人であり、本記事はヤマハ（7951・楽器/音響機器）のみを扱います。
           </p>
         </div>
-        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+        <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">結論：ヤマハ転職のポイント</a></li>

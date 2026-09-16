@@ -80,7 +80,7 @@ export default function CompanyCareer() {
             本記事では、有価証券報告書などの公開一次データをもとに客観的に整理します。
           </p>
         </div>
-        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+        <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">結論：MIXI転職のポイント</a></li>

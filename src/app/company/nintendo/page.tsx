@@ -85,7 +85,7 @@ export default function NintendoCareer() {
             本記事では、任天堂への転職難易度・年収・面接対策・おすすめエージェントを詳しく解説します。
           </p>
         </div>
-        <nav className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
+        <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">任天堂の会社概要</a></li>
