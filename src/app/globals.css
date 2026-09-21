@@ -284,3 +284,27 @@ h1, h2, h3,
   color: var(--color-text-secondary);
   margin-bottom: 0.5rem;
 }
+
+/* ------------------------------------------------------------------
+   ダーク背景(.bg-navy)の箱の中は白抜きにする。
+   .prose-custom h2/p/li の文字色指定(navy・text-secondary)が
+   Tailwindの text-white より詳細度で勝ってしまい、
+   紺地に紺文字=隠しテキスト状態になっていた不具合の修正(2026-09-22)。
+   ------------------------------------------------------------------ */
+.prose-custom .bg-navy h2,
+.prose-custom .bg-navy h3,
+.prose-custom .bg-navy h4 {
+  color: #ffffff;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.prose-custom .bg-navy p,
+.prose-custom .bg-navy li {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.prose-custom .bg-navy a:not([class*="btn-"]) {
+  color: #ffffff;
+  text-decoration: underline;
+}
