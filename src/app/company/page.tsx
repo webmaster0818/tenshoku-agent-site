@@ -127,6 +127,10 @@ const companies = [
   { slug: "kawasaki-kisen", name: "川崎汽船", salary: "約1,450万円（有報）", tag: "海運" },
   { slug: "iino-kaiun", name: "飯野海運", salary: "約1,285万円（有報）", tag: "海運" },
   { slug: "nsunited", name: "NSユナイテッド海運", salary: "約1,196万円（有報）", tag: "海運" },
+  { slug: "jal", name: "日本航空(JAL)", salary: "約1,011万円（有報）", tag: "空運" },
+  { slug: "ana-hd", name: "ANAホールディングス", salary: "約770万円（有報・持株単体）", tag: "空運" },
+  { slug: "starflyer", name: "スターフライヤー", salary: "約696万円（有報）", tag: "空運" },
+  { slug: "skymark", name: "スカイマーク", salary: "約593万円（有報）", tag: "空運" },
   { slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円（有報・持株単体）", tag: "証券" },
   { slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円（有報・持株単体）", tag: "損害保険" },
   { slug: "nomura", name: "野村HD", salary: "約1,420万円（有報・持株単体）", tag: "証券" },
@@ -229,6 +233,7 @@ export default function CompanyIndexPage() {
             <li><Link href="/company/kensetsu-salary/" className="text-navy underline">建設ゼネコンの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/denryoku-gas-salary/" className="text-navy underline">電力・ガスの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/kaiun-salary/" className="text-navy underline">海運会社の年収ランキング【有報準拠】</Link></li>
+            <li><Link href="/company/kuuun-salary/" className="text-navy underline">航空会社(空運)の年収ランキング【有報準拠】</Link></li>
             <li><Link href="/review/levtech/" className="text-navy underline">レバテックキャリアの評判（IT・エンジニア特化）</Link></li>
             <li><Link href="/review/recruit-agent/" className="text-navy underline">リクルートエージェントの評判（求人数最大級）</Link></li>
             <li><Link href="/review/jac/" className="text-navy underline">JACリクルートメントの評判（ハイクラス）</Link></li>
