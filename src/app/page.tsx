@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "転職エージェント比較ラボ【2026年最新】厳選5社を徹底解説",
+  title: "転職エージェント比較ラボ【2026年最新】59サービス＋企業年収184社を一次情報で比較",
   description:
-    "2026年最新の転職エージェントおすすめランキング。リクルートエージェント・doda・マイナビエージェント・ビズリーチ・JACリクルートメントの5社を徹底比較。求人数・特徴・年代別の選び方まで詳しく解説。",
+    "転職エージェント・転職サービス59件を、求人数・得意分野・対応年代の公表情報で比較。あわせて有価証券報告書にもとづく企業別の平均年収を184社ぶん公開し、15業界の年収ランキングにまとめています。年代別・目的別の選び方も解説。",
   openGraph: {
     title: "転職エージェント比較ラボ【2026年最新】",
-    description: "人気転職エージェント5社を徹底比較。あなたに最適なエージェントが見つかります。",
+    description: "転職エージェント59サービスと、有報準拠の企業年収184社を比較できるサイトです。",
   },
 };
 
@@ -124,8 +124,8 @@ export default function HomePage() {
               最適な選択を。
             </h1>
             <p className="text-text-secondary text-base sm:text-lg mb-10 leading-relaxed">
-              転職エージェント5社を、求人数・サポート内容・得意分野の一次情報で徹底比較。
-              有価証券報告書にもとづく企業別の年収データも公開しています。
+              転職エージェント・転職サービス<strong>59件</strong>を、求人数・サポート内容・得意分野の公表情報で比較。
+              あわせて<strong>有価証券報告書にもとづく企業別の平均年収を184社</strong>ぶん公開しています。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#ranking" className="btn-accent text-lg px-8 py-4">ランキングを見る</a>
@@ -140,10 +140,10 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { num: "5社", label: "厳選エージェント" },
-              { num: "60万件+", label: "最大求人数" },
-              { num: "全年代", label: "対応" },
-              { num: "完全無料", label: "利用料金" },
+              { num: "59件", label: "掲載エージェント・サービス" },
+              { num: "184社", label: "企業別の年収データ(有報)" },
+              { num: "15業界", label: "年収ランキング" },
+              { num: "完全無料", label: "エージェント利用料金" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="text-2xl sm:text-3xl font-extrabold text-teal">{stat.num}</p>
@@ -156,7 +156,12 @@ export default function HomePage() {
 
       {/* Comparison Table */}
       <section id="comparison" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="section-title section-title--center">転職エージェント5社 比較表</h2>
+        <h2 className="section-title section-title--center">まず押さえたい大手・ハイクラス系5社の比較表</h2>
+        <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
+          当サイトは59サービスを掲載しています。下表はそのうち、求人数や知名度の面で最初の比較対象になりやすい5社です。
+          順番は掲載順で、優劣の順位ではありません。
+          <Link href="/review/" className="text-teal underline ml-1">59サービスの一覧を見る</Link>
+        </p>
         <div className="overflow-x-auto -mx-4 sm:mx-0">
           <table className="comparison-table min-w-[700px]">
             <thead>
@@ -190,7 +195,10 @@ export default function HomePage() {
       {/* Ranking Detail */}
       <section id="ranking" className="bg-warm-gray py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h2 className="section-title section-title--center">転職エージェント おすすめTOP5 詳細ランキング</h2>
+          <h2 className="section-title section-title--center">大手・ハイクラス系5社の詳細</h2>
+          <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
+            番号は掲載順です。当サイトで順位付けは行っていません。求人数は各社の公表値で、更新日は各詳細ページに記載しています。
+          </p>
           <div className="space-y-8">
             {agents.map((a) => (
               <article key={a.rank} className="card-hover p-6 sm:p-8">
@@ -230,30 +238,11 @@ export default function HomePage() {
                   <span className="font-bold text-navy">こんな方におすすめ：</span>{a.recommend}
                 </p>
 
-                {a.href !== "#" ? (
-                  <div className="flex flex-col sm:flex-row gap-3">
-                    <Link href={a.href} className="btn-primary text-sm px-6 py-3">
-                      詳細レビューを読む
-                    </Link>
-                    <a
-                      href="#"
-                      className="btn-accent text-sm px-6 py-3"
-                      rel="noopener noreferrer nofollow"
-                      target="_blank"
-                    >
-                      公式サイトへ
-                    </a>
-                  </div>
-                ) : (
-                  <a
-                    href="#"
-                    className="btn-accent text-sm px-6 py-3"
-                    rel="noopener noreferrer nofollow"
-                    target="_blank"
-                  >
-                    公式サイトへ
-                  </a>
-                )}
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link href={a.href} className="btn-primary text-sm px-6 py-3">
+                    詳細レビューを読む
+                  </Link>
+                </div>
               </article>
             ))}
           </div>
@@ -306,9 +295,9 @@ export default function HomePage() {
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
             {[
-              { href: "/company/maker-salary/", title: "メーカー年収ランキング", desc: "キーエンス・ディスコなど大手43社を一次データで比較" },
+              { href: "/company/maker-salary/", title: "メーカー年収ランキング", desc: "キーエンス・ディスコなど大手61社を一次データで比較" },
               { href: "/company/semiconductor-salary/", title: "半導体業界の年収ランキング", desc: "装置・デバイス9社を比較" },
-              { href: "/company/it-consultant-salary/", title: "ITコンサル・SIer年収ランキング", desc: "NRI・ベイカレントなど大手7社を比較" },
+              { href: "/company/it-consultant-salary/", title: "ITコンサル・SIer年収ランキング", desc: "NRI・ベイカレントなど大手10社を比較" },
               { href: "/company/game-salary/", title: "ゲーム会社の年収ランキング", desc: "任天堂系からセガサミーまで6社を比較" },
             ].map((c) => (
               <Link key={c.href} href={c.href} className="card-hover p-5 block bg-white">
@@ -318,7 +307,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center">
-            <Link href="/company/" className="btn-primary text-sm px-8 py-3">全61社の企業別ガイド一覧を見る</Link>
+            <Link href="/company/" className="btn-primary text-sm px-8 py-3">全184社の企業別ガイド一覧を見る</Link>
           </div>
         </div>
       </section>

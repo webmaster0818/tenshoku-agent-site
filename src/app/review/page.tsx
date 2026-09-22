@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "転職エージェント・転職サービス解説一覧【2026年】総合型から業界特化まで50サービス",
+  title: "転職エージェント・転職サービス解説一覧【2026年】総合型から業界特化まで59サービス",
   description:
     "転職エージェント比較ラボが公式一次情報ベースで解説する転職エージェント・転職サービスの一覧。総合型・IT/エンジニア・クリエイター・20代/未経験・女性/ライフステージ・医療/専門職・業界特化・フリーランス・退職支援まで50サービスを網羅しています。",
   alternates: { canonical: "/review/" },
@@ -66,6 +66,7 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
       { href: "/review/realme-career/", name: "リアルミーキャリア", tag: "時短正社員" },
       { href: "/review/tokihana-career/", name: "トキハナキャリア", tag: "結婚・両立" },
       { href: "/review/newma/", name: "NewMA(ニューマ)", tag: "コンサル・M&A" },
+      { href: "/review/myvision/", name: "MyVision(マイビジョン)", tag: "コンサル特化" },
     ],
   },
   {
