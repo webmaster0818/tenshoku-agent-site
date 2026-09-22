@@ -131,6 +131,14 @@ const companies = [
   { slug: "ana-hd", name: "ANAホールディングス", salary: "約770万円（有報・持株単体）", tag: "空運" },
   { slug: "starflyer", name: "スターフライヤー", salary: "約696万円（有報）", tag: "空運" },
   { slug: "skymark", name: "スカイマーク", salary: "約593万円（有報）", tag: "空運" },
+  { slug: "yamato-hd", name: "ヤマトホールディングス", salary: "約1,248万円（有報・持株単体）", tag: "陸運・物流" },
+  { slug: "mitsubishi-logistics", name: "三菱倉庫", salary: "約943万円（有報）", tag: "陸運・物流" },
+  { slug: "sumitomo-soko", name: "住友倉庫", salary: "約844万円（有報）", tag: "陸運・物流" },
+  { slug: "nippon-express", name: "NIPPON EXPRESS HD", salary: "約833万円（有報・持株単体/12月期）", tag: "陸運・物流" },
+  { slug: "sg-holdings", name: "SGホールディングス", salary: "約786万円（有報・持株単体）", tag: "陸運・物流" },
+  { slug: "sankyu", name: "山九", salary: "約730万円（有報）", tag: "陸運・物流" },
+  { slug: "seino-hd", name: "セイノーホールディングス", salary: "約711万円（有報・持株単体）", tag: "陸運・物流" },
+  { slug: "kamigumi", name: "上組", salary: "約703万円（有報）", tag: "陸運・物流" },
   { slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円（有報・持株単体）", tag: "証券" },
   { slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円（有報・持株単体）", tag: "損害保険" },
   { slug: "nomura", name: "野村HD", salary: "約1,420万円（有報・持株単体）", tag: "証券" },
@@ -234,6 +242,7 @@ export default function CompanyIndexPage() {
             <li><Link href="/company/denryoku-gas-salary/" className="text-navy underline">電力・ガスの年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/kaiun-salary/" className="text-navy underline">海運会社の年収ランキング【有報準拠】</Link></li>
             <li><Link href="/company/kuuun-salary/" className="text-navy underline">航空会社(空運)の年収ランキング【有報準拠】</Link></li>
+            <li><Link href="/company/butsuryu-salary/" className="text-navy underline">陸運・物流の年収ランキング【有報準拠】</Link></li>
             <li><Link href="/review/levtech/" className="text-navy underline">レバテックキャリアの評判（IT・エンジニア特化）</Link></li>
             <li><Link href="/review/recruit-agent/" className="text-navy underline">リクルートエージェントの評判（求人数最大級）</Link></li>
             <li><Link href="/review/jac/" className="text-navy underline">JACリクルートメントの評判（ハイクラス）</Link></li>
