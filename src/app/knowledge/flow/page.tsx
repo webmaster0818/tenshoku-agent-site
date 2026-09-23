@@ -51,6 +51,11 @@ export default function FlowPage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントの使い方・流れ｜登録から内定まで8ステップ
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-flow.jpg" alt="転職活動の流れをイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントを利用する流れを、登録から内定・入社まで8つのステップでわかりやすく解説します。
             各ステップで何をすべきか、どう準備すればよいかを具体的に紹介します。

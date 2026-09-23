@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   },
 };
 
+// affiliate に提携リンクを入れたサービスだけ、公式サイトへのCTAを表示する。
+// 提携のないサービスには出さない(計測できない外部送客を増やさないため)。
+// 画像引用元としての公式サイトリンクは、提携の有無にかかわらず nofollow で設置する。
 const agents = [
   {
     rank: 1,
@@ -23,6 +26,9 @@ const agents = [
     cons: ["担当者の質にばらつきがある", "求人数が多く情報の取捨選択が必要"],
     recommend: "できるだけ多くの求人から選びたい方、初めて転職エージェントを利用する方",
     href: "/review/recruit-agent/",
+    slug: "recruit-agent",
+    official: "https://www.r-agent.com/",
+    affiliate: null as string | null,
   },
   {
     rank: 2,
@@ -35,6 +41,9 @@ const agents = [
     cons: ["メールの量が多くなりがち", "ハイクラス求人はやや少ない"],
     recommend: "自分でも求人を探しつつエージェントのサポートも受けたい方",
     href: "/review/doda/",
+    slug: "doda",
+    official: "https://doda.jp/",
+    affiliate: null as string | null,
   },
   {
     rank: 3,
@@ -47,6 +56,9 @@ const agents = [
     cons: ["30代後半以降の求人は少なめ", "大手と比べると求人総数はやや少ない"],
     recommend: "20代で初めて転職する方、手厚いサポートを求める方",
     href: "/review/mynavi/",
+    slug: "mynavi",
+    official: "https://mynavi-agent.jp/",
+    affiliate: null as string | null,
   },
   {
     rank: 4,
@@ -59,6 +71,9 @@ const agents = [
     cons: ["一部有料プランがある", "年収が低いとスカウトが少ない場合がある"],
     recommend: "年収600万円以上でキャリアアップを目指す方",
     href: "/review/bizreach/",
+    slug: "bizreach",
+    official: "https://www.bizreach.jp/",
+    affiliate: null as string | null,
   },
   {
     rank: 5,
@@ -71,6 +86,9 @@ const agents = [
     cons: ["求人数は大手総合型より少ない", "経験が浅いと紹介が少ない場合がある"],
     recommend: "外資系企業やグローバル企業への転職を考えている方",
     href: "/review/jac/",
+    slug: "jac",
+    official: "https://www.jac-recruitment.jp/",
+    affiliate: null as string | null,
   },
 ];
 
@@ -205,10 +223,25 @@ export default function HomePage() {
                 <div className="flex items-start gap-4 mb-5">
                   <span className={`rank-badge rank-badge--${a.rank}`}>{a.rank}</span>
                   <div>
-                    <h3 className="text-xl font-extrabold text-navy">{a.name}</h3>
+                    <h3 className="text-xl font-extrabold text-navy">
+                      <Link href={a.href} className="hover:text-teal transition-colors">{a.name}</Link>
+                    </h3>
                     <p className="text-sm text-text-muted mt-1">求人数：{a.jobs} ／ 対応年代：{a.age}</p>
                   </div>
                 </div>
+                <Link href={a.href} className="block rounded-xl overflow-hidden border border-border mb-5 hover:border-teal transition-colors">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/agent-ss/ss-${a.slug}.jpg`}
+                    alt={`${a.name} 公式サイト`}
+                    className="w-full h-auto"
+                    loading="lazy"
+                  />
+                  <p className="text-[10px] text-text-muted px-3 py-2 text-right">
+                    画像引用: <a href={a.official} target="_blank" rel="nofollow noopener noreferrer" className="underline">{a.name} 公式サイト</a>（2026年9月24日時点）
+                  </p>
+                </Link>
+
                 <p className="text-text-secondary leading-relaxed mb-5">{a.feature}</p>
 
                 <div className="grid sm:grid-cols-2 gap-4 mb-5">
@@ -242,6 +275,17 @@ export default function HomePage() {
                   <Link href={a.href} className="btn-primary text-sm px-6 py-3">
                     詳細レビューを読む
                   </Link>
+                  {a.affiliate && (
+                    <a
+                      href={a.affiliate}
+                      target="_blank"
+                      rel="nofollow sponsored noopener noreferrer"
+                      className="btn-accent text-sm px-6 py-3 text-center"
+                    >
+                      公式サイトで無料登録
+                      <span className="ml-1.5 text-[10px] font-normal opacity-80">PR</span>
+                    </a>
+                  )}
                 </div>
               </article>
             ))}

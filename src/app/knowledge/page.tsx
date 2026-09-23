@@ -34,6 +34,11 @@ export default function KnowledgeHub() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェント活用ガイド一覧
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-knowledge.jpg" alt="転職の情報収集をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントを最大限活用するための実践ガイドです。登録前の選び方から、面談・書類・メールの実務、
             うまくいかないときの対処法まで、転職活動のステップ順に整理しています。

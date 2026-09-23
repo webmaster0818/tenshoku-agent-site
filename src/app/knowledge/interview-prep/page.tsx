@@ -51,6 +51,11 @@ export default function InterviewPrepPage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントとの面談｜準備・服装・当日の流れを完全解説
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-interview-prep.jpg" alt="面談の準備をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントとの初回面談は、転職成功への第一歩です。
             面談前に準備すべきこと、当日の服装、面談の流れ、聞かれる質問まで、初めての方でも安心できるよう詳しく解説します。

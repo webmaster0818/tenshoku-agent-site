@@ -51,6 +51,11 @@ export default function EmailTemplatePage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントへのメール例文集｜登録・お礼・辞退・断り方
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-email-template.jpg" alt="お礼メールの作成をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントとのやり取りで、どう書けばいいか迷うメール。
             場面別にコピペで使える例文テンプレートと、メールマナーのポイントを紹介します。

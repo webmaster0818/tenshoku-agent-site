@@ -51,6 +51,11 @@ export default function ResumePage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             職務経歴書の書き方｜職務要約の例文・テンプレートと通過するコツ
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-resume.jpg" alt="職務経歴書の作成をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             職務経歴書の完成度は書類選考の通過率に直結します。
             このページでは、基本構成と各項目の書き方、そのまま参考にできる<strong className="text-navy">職務要約の例文</strong>を職種別に紹介します。

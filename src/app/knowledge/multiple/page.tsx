@@ -51,6 +51,11 @@ export default function MultiplePage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントの複数利用・掛け持ち
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-multiple.jpg" alt="複数サービスの併用をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントは複数利用するのが一般的です。
             メリット・デメリット、おすすめの組み合わせ、注意点を解説します。

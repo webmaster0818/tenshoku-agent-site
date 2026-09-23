@@ -51,6 +51,11 @@ export default function WhenToStartPage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントはいつ登録すべき？最適なタイミングと活動期間
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-when-to-start.jpg" alt="転職のタイミングをイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントへの登録タイミングは、転職活動の成否を左右する重要な要素です。
             求人が増えるベストシーズン、必要な活動期間、在職中と退職後それぞれの特徴を解説します。

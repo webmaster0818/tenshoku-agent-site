@@ -51,6 +51,11 @@ export default function UselessPage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントが使えないと感じたら？対処法と上手な活用術
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-useless.jpg" alt="転職エージェントの利用を検討する様子をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             転職エージェントを利用してみたものの「使えない」「役に立たない」と感じている方は少なくありません。
             その原因を理解し、適切に対処することで、転職活動を大きく改善できます。

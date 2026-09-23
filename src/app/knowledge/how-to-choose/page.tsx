@@ -52,6 +52,11 @@ export default function HowToChoosePage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職エージェントの選び方｜失敗しない7つのポイント
           </h1>
+
+          <div className="rounded-xl overflow-hidden my-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/column-img/ts-how-to-choose.jpg" alt="転職エージェントの選び方をイメージした静物" className="w-full h-auto" />
+          </div>
           <p className="text-text-secondary leading-relaxed">
             数ある転職エージェントの中から、自分に合ったサービスを選ぶための7つのポイントを解説します。
             選び方を間違えると、ミスマッチな求人ばかり紹介される原因にもなります。
