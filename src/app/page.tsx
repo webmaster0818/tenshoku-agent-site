@@ -364,22 +364,52 @@ export default function HomePage() {
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
-            { href: "/review/levtech/", title: "レバテックキャリア", tag: "ITエンジニア", desc: "IT・Web業界の大手特化型" },
-            { href: "/review/unison-career/", title: "ユニゾンキャリア", tag: "ITエンジニア", desc: "厳選紹介型。経験者・未経験の両窓口" },
-            { href: "/review/digireka/", title: "デジレカ", tag: "マーケティング", desc: "マーケ職特化。全員がマーケ経験者" },
-            { href: "/review/newma/", title: "NewMA", tag: "コンサル・M&A", desc: "DX・戦略・AIコンサルとM&A領域特化" },
-            { href: "/review/myvision/", title: "MyVision", tag: "コンサル", desc: "未経験8割。コンサル特化の選考対策" },
-            { href: "/review/type-woman/", title: "type女性の転職エージェント", tag: "女性", desc: "東証プライム上場CDC運営の女性特化型" },
-            { href: "/review/assign/", title: "ASSIGN（アサイン）", tag: "20-30代ハイエンド", desc: "価値観からキャリアプランを設計" },
-            { href: "/review/agent-navi/", title: "転職AGENT Navi", tag: "20代・既卒", desc: "相性でエージェントを紹介するマッチング型" },
-            { href: "/review/bizreach/", title: "ビズリーチ", tag: "ハイクラス", desc: "スカウト型。年収600万円以上向け" },
-            { href: "/review/jac/", title: "JACリクルートメント", tag: "外資・グローバル", desc: "外資系・海外転職に強い" },
+            { href: "/review/levtech/", slug: "levtech", title: "レバテックキャリア", tag: "ITエンジニア", desc: "IT・Web業界の大手特化型", official: "https://career.levtech.jp/", affiliate: null as string | null },
+            { href: "/review/unison-career/", slug: "unison-career", title: "ユニゾンキャリア", tag: "ITエンジニア", desc: "厳選紹介型。経験者・未経験の両窓口", official: "https://unison-career.jp/", affiliate: null as string | null },
+            { href: "/review/digireka/", slug: "digireka", title: "デジレカ", tag: "マーケティング", desc: "マーケ職特化。全員がマーケ経験者", official: "https://digireka.jp/", affiliate: null as string | null },
+            { href: "/review/newma/", slug: "newma", title: "NewMA", tag: "コンサル・M&A", desc: "DX・戦略・AIコンサルとM&A領域特化", official: "https://newma.co.jp/", affiliate: null as string | null },
+            { href: "/review/myvision/", slug: "myvision", title: "MyVision", tag: "コンサル", desc: "未経験8割。コンサル特化の選考対策", official: "https://my-vision.co.jp/", affiliate: null as string | null },
+            { href: "/review/type-woman/", slug: "type-woman", title: "type女性の転職エージェント", tag: "女性", desc: "東証プライム上場CDC運営の女性特化型", official: "https://type.woman-agent.jp/", affiliate: null as string | null },
+            { href: "/review/assign/", slug: "assign", title: "ASSIGN（アサイン）", tag: "20-30代ハイエンド", desc: "価値観からキャリアプランを設計", official: "https://assign-inc.com/", affiliate: null as string | null },
+            { href: "/review/agent-navi/", slug: "agent-navi", title: "転職AGENT Navi", tag: "20代・既卒", desc: "相性でエージェントを紹介するマッチング型", official: "https://service.circus-group.jp/circus/agentnavi/", affiliate: null as string | null },
+            { href: "/review/bizreach/", slug: "bizreach", title: "ビズリーチ", tag: "ハイクラス", desc: "スカウト型。年収600万円以上向け", official: "https://www.bizreach.jp/", affiliate: null as string | null },
+            { href: "/review/jac/", slug: "jac", title: "JACリクルートメント", tag: "外資・グローバル", desc: "外資系・海外転職に強い", official: "https://www.jac-recruitment.jp/", affiliate: null as string | null },
           ].map((a) => (
-            <Link key={a.href} href={a.href} className="card-hover p-5 block">
-              <span className="inline-block text-[11px] font-bold text-teal bg-teal/10 rounded-full px-2.5 py-0.5 mb-2">{a.tag}</span>
-              <h3 className="font-bold text-navy mb-1 text-sm">{a.title}</h3>
-              <p className="text-xs text-text-secondary leading-relaxed">{a.desc}</p>
-            </Link>
+            <div key={a.href} className="card-hover flex flex-col overflow-hidden">
+              <Link href={a.href} className="block border-b border-border">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`/agent-ss/ss-${a.slug}.jpg`}
+                  alt={`${a.title} 公式サイト`}
+                  className="w-full h-auto"
+                  loading="lazy"
+                />
+              </Link>
+              <div className="flex flex-1 flex-col p-5">
+                <span className="inline-block self-start text-[11px] font-bold text-teal bg-teal/10 rounded-full px-2.5 py-0.5 mb-2">{a.tag}</span>
+                <h3 className="font-bold text-navy mb-1 text-sm">
+                  <Link href={a.href} className="hover:text-teal transition-colors">{a.title}</Link>
+                </h3>
+                <p className="text-xs text-text-secondary leading-relaxed">{a.desc}</p>
+                <div className="mt-auto pt-4 flex flex-wrap items-center gap-3">
+                  <Link href={a.href} className="text-xs font-bold text-teal">詳細レビューを読む →</Link>
+                  {a.affiliate && (
+                    <a
+                      href={a.affiliate}
+                      target="_blank"
+                      rel="nofollow sponsored noopener noreferrer"
+                      className="ml-auto btn-accent text-xs px-4 py-2"
+                    >
+                      公式サイトで無料登録
+                      <span className="ml-1 text-[10px] font-normal opacity-80">PR</span>
+                    </a>
+                  )}
+                </div>
+                <p className="mt-3 text-[10px] text-text-muted">
+                  画像引用: <a href={a.official} target="_blank" rel="nofollow noopener noreferrer" className="underline">{a.title} 公式サイト</a>（2026年9月24日時点）
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       </section>
