@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "退職代行ヤメドキの評判は？後払い対応の退職代行サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">退職代行ヤメドキは、株式会社25Hが運営する退職代行サービスです。料金24,000円(税込)の全部コミコミ・追加料金なしで、退職日決定後7日以内に支払う「後払いOK」方式を採用しています。転職の前段階である「辞められない」を解決するサービスとして、公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="yamedoki" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

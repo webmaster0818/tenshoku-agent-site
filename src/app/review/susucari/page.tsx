@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "サスキャリの評判は？サステナビリティ・ESG特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">サスキャリは、株式会社リバースネットが運営するサステナビリティ領域特化の求人・転職支援サービスです。ESG・SX(サステナビリティ・トランスフォーメーション)領域のハイクラス転職を掲げ、コンサルファームから事業会社のサステナビリティ推進、中央省庁・国際機関・NPOまで幅広い職種区分に対応しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="susucari" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

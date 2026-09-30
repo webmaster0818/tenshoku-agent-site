@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "トキハナキャリアの評判は？結婚・ライフステージ特化の転職支援サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">トキハナキャリアは、株式会社トキハナが運営する「結婚やライフステージの変化に合わせた」転職支援サービスです。「結婚後も今と同じように働けるか不安」「土日勤務が辛い」「ブランクがあるから転職できないかも」といった悩みを起点に、女性が活躍しやすい業界の求人で支援します。ブライダル業界特化の転職支援(A8プログラム紹介文)としても展開されています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="tokihana-career" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

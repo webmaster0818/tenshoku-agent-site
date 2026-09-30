@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "ランスタッドの障がい者転職支援とは？世界最大級人材サービスの専門サポートを解説【2026年】",
@@ -53,6 +55,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">ランスタッド(ランスタッド株式会社)は、世界最大級の総合人材サービスです。日本では人材派遣・人材紹介を幅広く展開しており、障がいのある方向けの転職支援サービスも提供しています。「誰もが自分らしく挑戦できるフィールド」を掲げる同社の障がい者転職支援について、公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="randstad-challenged" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
@@ -134,6 +139,8 @@ export default function Page() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="randstad-challenged" agentName="ランスタッド" />
+
       </article>
     </>
   );

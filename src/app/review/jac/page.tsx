@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
@@ -92,6 +94,9 @@ export default function JacReview() {
             メリット・デメリット、向いている人を整理します。
           </p>
         </div>
+
+        <AgentHero slug="jac" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
@@ -357,6 +362,8 @@ export default function JacReview() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="jac" agentName="JACリクルートメント" />
+
       </article>
     </>
   );

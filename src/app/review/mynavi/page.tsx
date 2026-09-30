@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
@@ -66,6 +67,9 @@ export default function MynaviReview() {
             非公開求人を多数保有しており、IT・メーカー・営業職の転職に定評があります。
           </p>
         </div>
+
+        <AgentHero slug="mynavi" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">

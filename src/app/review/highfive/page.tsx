@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "HIGH-FIVE(ハイファイブ)の評判は？クリエイター専門転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">HIGH-FIVE(ハイファイブ)は、株式会社クリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェントです。「量より質。」をコンセプトに、価値観に合う求人・企業だけを紹介するスタイルを掲げています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
+
+        <AgentHero slug="highfive" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

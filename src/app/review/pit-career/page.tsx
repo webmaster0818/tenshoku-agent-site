@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "PIT(ピット)の評判は？若手エンジニア専門の転職アプリ・エージェントを解説【2026年】",
@@ -53,6 +55,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">PIT(ピット)は、株式会社ラストデータが運営する若手エンジニア専門の転職サービスです。アプリを起点に、自社開発・上流工程の求人紹介やカジュアル面談への接続を行う設計で、エージェント型の転職支援(PITキャリア)も展開しています。この記事では公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
+
+        <AgentHero slug="pit-career" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
@@ -134,6 +139,8 @@ export default function Page() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="pit-career" agentName="PIT(ピット)" />
+
       </article>
     </>
   );

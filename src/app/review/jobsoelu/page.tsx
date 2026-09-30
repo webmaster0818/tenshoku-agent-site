@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ジョブソエルの評判は？医療・介護・福祉特化の求人サイトを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">ジョブソエルは、株式会社HIROグローバルホールディングスが運営する医療・介護・福祉特化の求人サイトです。医科歯科(医師・薬剤師・看護師・技師等)から介護福祉(介護職・ケアマネ等)まで、医療福祉領域の職種を幅広くカバーし、スカウト・メッセージ機能を備えています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="jobsoelu" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

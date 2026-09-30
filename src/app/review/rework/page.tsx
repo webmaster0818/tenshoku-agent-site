@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "Re:WORKエージェントの評判は？未経験からの転職専門エージェントを徹底解説【2026年】",
@@ -72,6 +73,9 @@ export default function ReworkReview() {
             この記事では、特徴・運営会社情報・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
+
+        <AgentHero slug="rework" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

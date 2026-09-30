@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "マイナビクリエイターの評判は？Web・ゲーム・IT特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">マイナビクリエイター(現名称: マイナビ転職クリエイターエージェント)は、株式会社マイナビワークスが運営するWeb・ゲーム・IT業界のクリエイター専門転職エージェントです。ポートフォリオ作成サービス「MATCHBOX」を提供しているのが大きな特徴です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="mynavi-creator" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

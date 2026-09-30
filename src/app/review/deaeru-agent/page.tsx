@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "出会えるエージェント診断とは？自分に合う転職エージェントを診断するサービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">出会えるエージェント診断は、株式会社Winovaが運営する診断型の転職エージェント紹介サービスです。「1000人以上の中からあなたに合うエージェントをご紹介」を掲げ、診断を通じて転職サポートのプロ(キャリアアドバイザー)とマッチングする形態です。公式情報をもとに仕組みを整理します。</p>
         </div>
+
+        <AgentHero slug="deaeru-agent" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "type女性の転職エージェントの評判は？女性特化の老舗エージェントを徹底解説【2026年】",
@@ -75,6 +77,9 @@ export default function TypeWomanReview() {
             この記事では、特徴・実績・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
+
+        <AgentHero slug="type-woman" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
@@ -240,6 +245,8 @@ export default function TypeWomanReview() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="type-woman" agentName="type女性の転職エージェント" />
+
       </article>
     </>
   );

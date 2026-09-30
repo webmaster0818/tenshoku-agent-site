@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "わたしNEXTの評判は？女性専門の退職代行サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">わたしNEXT〈女性の退職代行〉は、労働組合toNEXTユニオンが運営する女性専門の退職代行サービスです。労働組合が運営するため会社との交渉(退職日・有給消化等の調整)が可能な形態で、「女性退職代行サービス5冠達成」を公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="watashi-next" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

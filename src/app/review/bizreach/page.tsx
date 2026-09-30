@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "ビズリーチの評判・口コミは？「やばい」噂の真相とメリット・デメリット",
@@ -91,6 +93,9 @@ export default function BizreachReview() {
             メリット・デメリット、向いている人を整理します。
           </p>
         </div>
+
+        <AgentHero slug="bizreach" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
@@ -353,6 +358,8 @@ export default function BizreachReview() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="bizreach" agentName="ビズリーチ" />
+
       </article>
     </>
   );

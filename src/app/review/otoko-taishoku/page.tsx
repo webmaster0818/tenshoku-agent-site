@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "男の退職代行の評判は？男性専門の退職代行サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">男の退職代行は、労働組合toNEXTユニオンが運営する男性専門の退職代行サービスです。「日本初！男性専門の退職代行サービス」を掲げ、成功率100%・男性退職代行サービス3冠(対応スピード・20代30代男性が選ぶ・顧客満足度)を公式に表記しています。女性向けの「わたしNEXT」と同じ労働組合の運営です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="otoko-taishoku" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

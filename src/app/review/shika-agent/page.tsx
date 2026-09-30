@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "歯科医師求人ナビ(PECORI)の評判は？歯科医師専門の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">歯科医師求人ナビは、株式会社PECORIが運営する歯科医師専門の転職サービスです。PECORIは「医療人材不足、待機児童問題」の解決を掲げる医療人材ベンチャーで、歯科衛生士専門の「歯科転職ナビ」、介護専門の「介護求人pecori」も展開しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="shika-agent" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

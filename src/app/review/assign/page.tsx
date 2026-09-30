@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title:
@@ -83,6 +84,9 @@ export default function AssignReview() {
             公式公表情報にもとづいて整理します。
           </p>
         </div>
+
+        <AgentHero slug="assign" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">

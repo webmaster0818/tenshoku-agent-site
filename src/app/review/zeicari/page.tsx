@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ゼイキャリの評判は？税理士業界特化のハイクラス転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">ゼイキャリは、マルゴト株式会社が運営する税理士業界特化のハイクラス転職エージェントです。「プロフェッショナルにこそ、選べる未来がある。」を掲げ、国内大手税理士法人・会計事務所を中心とした年収600〜1,500万円のハイクラス求人を扱います。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="zeicari" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

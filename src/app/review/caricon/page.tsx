@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "キャリコンの評判は？20代専門の転職エージェント紹介サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">キャリコンは、Crown_Cat株式会社が運営する20代専門の「転職エージェント紹介サービス」です。求人を直接紹介するのではなく、20代の転職者一人ひとりに合った転職エージェントを無料で複数紹介するという、エージェント選びを支援する形態のサービスです。公式情報をもとに仕組みを整理します。</p>
         </div>
+
+        <AgentHero slug="caricon" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

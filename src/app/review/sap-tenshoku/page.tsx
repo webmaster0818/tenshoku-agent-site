@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "SAPテンショクの評判は？SAP特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">SAPテンショクは、株式会社スプラッシュエンジニアリングが運営するSAPエンジニア/SAPコンサルタント特化の転職エージェントです。「SAPで生きる、を支援する。」を掲げ、SAP業界とプロジェクトを熟知したコンサルタントによる支援を打ち出しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="sap-tenshoku" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

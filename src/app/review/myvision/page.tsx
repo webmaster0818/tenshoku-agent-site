@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Cta from "@/components/A8Cta";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説【2026年】",
@@ -90,6 +92,9 @@ export default function MyvisionReview() {
             この記事では、特徴・会社情報・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
+
+        <AgentHero slug="myvision" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
@@ -235,6 +240,8 @@ export default function MyvisionReview() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="myvision" agentName="MyVision(マイビジョン)" />
+
       </article>
     </>
   );

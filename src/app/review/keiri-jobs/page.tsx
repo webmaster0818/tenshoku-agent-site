@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "経理Jobs(経理ジョブズ)の評判は?経理特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">経理Jobs(経理ジョブズ)は、株式会社ミツカルプロフェッショナルが運営する経理特化の転職エージェントです。経理・財務領域に対象を絞った専門特化型として、経理人材の転職支援を行っています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
+
+        <AgentHero slug="keiri-jobs" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

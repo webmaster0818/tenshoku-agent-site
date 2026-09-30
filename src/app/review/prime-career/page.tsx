@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "プライムキャリアの評判は？不動産・設備・建設専門の転職支援サイトを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">プライムキャリア(Prime Career)は、ジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイトです。仕入・開発から売買/賃貸仲介、PM(プロパティマネジメント)・AM・FM、マンション設備点検・ビルメンテナンスまで、不動産・建物管理領域の職種を細かく網羅しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="prime-career" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

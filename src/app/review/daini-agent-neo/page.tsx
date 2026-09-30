@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "第二新卒エージェントneoの評判は？20代・既卒・高卒対応の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">第二新卒エージェントneoは、株式会社ネオキャリアが運営する20代向けの就活・転職支援サービスです。第二新卒だけでなく、既卒・フリーター・高卒・中退など、学歴や就業状況を問わない幅広い受け入れを明確に打ち出しているのが特徴です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="daini-agent-neo" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

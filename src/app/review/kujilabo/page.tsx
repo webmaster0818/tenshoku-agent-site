@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "クジラボの評判は？教員・公務員特化のキャリア支援サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">クジラボ(株式会社クジラボ)は、教員をはじめとする公共系専門職向けのキャリア支援サービスです。教員向け・自治体職員向け・公安職員向け・看護師向け・介護福祉職員向けのキャリアプログラムを展開し、「誰かの正解より、自分の納得を。」を掲げています。一般的な転職エージェント(求人紹介型)ではなく、キャリアプログラム・コーチング型のサービスである点が特徴です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="kujilabo" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

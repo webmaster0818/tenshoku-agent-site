@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "マイナビジョブ20'sの評判は？20代・第二新卒特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">マイナビジョブ20'sは、株式会社マイナビワークス(マイナビグループ)が運営する20代・第二新卒・既卒向けの転職エージェントです。未経験OK求人76%以上・入社後3ヶ月の定着率94.6%・利用者数64万人と公式に掲げています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
+
+        <AgentHero slug="mynavi-job20s" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

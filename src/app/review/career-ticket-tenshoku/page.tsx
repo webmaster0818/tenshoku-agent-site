@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "キャリアチケット転職(転職エージェント)の評判は？レバレジーズの20代向け転職支援を解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">キャリアチケット転職は、レバレジーズ株式会社が展開する20代・30代向けの転職支援サービスです。「成長したい！」を叶える仕事探しプラットフォームを掲げており、量より質の就活支援で知られる新卒向け「キャリアチケット就職」の系譜にある転職版サービスです。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="career-ticket-tenshoku" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

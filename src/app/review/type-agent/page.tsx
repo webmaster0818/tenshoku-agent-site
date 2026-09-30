@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "type転職エージェントの評判は？老舗キャリアデザインセンターの総合型エージェントを解説【2026年】",
@@ -53,6 +55,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">type転職エージェントは、株式会社キャリアデザインセンター(東証プライム上場)が運営する総合型の転職エージェントです。転職サイト「type」ブランドの老舗で、20代の転職・ITの転職・ハイキャリアの転職・営業の転職を主要領域として掲げています。女性専門の「type女性の転職エージェント」も同社の運営です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="type-agent" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
@@ -135,6 +140,8 @@ export default function Page() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="type-agent" agentName="type転職エージェント" />
+
       </article>
     </>
   );

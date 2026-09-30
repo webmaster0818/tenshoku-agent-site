@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "ファミキャリ!の評判は？ゲーム業界専門の転職エージェントを解説【2026年】",
@@ -53,6 +55,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">ファミキャリ!は、株式会社クリーク・アンド・リバー社が運営するゲーム業界専門の転職サービスです(サイトはファミ通ブランドのcareer.famitsu.com)。ゲーム業界の求人6,000件以上(非公開求人含む)・利用者2万人以上と公式に掲げています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
+
+        <AgentHero slug="famicari" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
@@ -135,6 +140,8 @@ export default function Page() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="famicari" agentName="ファミキャリ!" />
+
       </article>
     </>
   );

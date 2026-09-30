@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "オイシルキャリアの評判は？スーパー・生鮮業界特化の転職サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">オイシルキャリアは、株式会社オイシルが運営するスーパー・生鮮業界特化の求人サイト・転職支援サービスです。スーパーマーケット・生鮮部門(精肉・鮮魚・青果等)の経験者を主対象に、全国の求人を扱いLINEでの無料転職相談にも対応しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="oishiru-career" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

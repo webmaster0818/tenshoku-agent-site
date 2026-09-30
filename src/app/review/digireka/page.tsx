@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "デジレカの評判は？マーケティング職特化の転職エージェントを徹底解説【2026年】",
@@ -77,6 +78,9 @@ export default function DigirekaReview() {
             この記事では、デジレカの特徴・料金・サポート内容・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
+
+        <AgentHero slug="digireka" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">

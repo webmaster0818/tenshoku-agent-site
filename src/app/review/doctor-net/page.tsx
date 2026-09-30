@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ドクターネットエージェントの評判は？放射線科特化の転職サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">ドクターネットエージェントは、株式会社ドクターネットが運営する放射線科領域特化の転職・求人サービスです。運営元は放射線診断専門医による遠隔読影サービス(Tele-RAD等)を手がける業界大手で、その専門性を土台に放射線科医・診療放射線技師・臨床検査技師などの人材紹介を行っています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="doctor-net" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

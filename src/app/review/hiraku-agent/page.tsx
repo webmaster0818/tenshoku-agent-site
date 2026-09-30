@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "Hiraku agentの評判は？ゲーム業界経験者向け転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">Hiraku agentは、株式会社Hiraku agentが運営するゲーム業界経験者向けの転職エージェントです。転職支援に加えて人材派遣・業務委託支援も展開しており、「“真剣”にゲームへ向き合う人たちを支えたい」を掲げています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
+
+        <AgentHero slug="hiraku-agent" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

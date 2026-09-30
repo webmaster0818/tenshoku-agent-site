@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "リアルエステートWORKSの評判は？不動産業界特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">リアルエステートWORKSは、不動産業界に特化した利用無料の転職エージェントです。求人紹介から内定まで不動産業界を熟知したキャリアパートナーが一貫サポートすることを掲げ、「転職成功者の3人に2人が上場企業へ」「面倒な書類作成が一切不要」という強みを公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="realestate-works" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

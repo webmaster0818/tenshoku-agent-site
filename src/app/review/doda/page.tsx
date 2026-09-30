@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
+import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "doda（デューダ）の評判・口コミは？やばい噂の真相とメリット・デメリット",
@@ -91,6 +93,9 @@ export default function DodaReview() {
             「やばい」と言われる理由の実態、メリット・デメリット、向いている人を実データに基づき整理します。
           </p>
         </div>
+
+        <AgentHero slug="doda" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
@@ -385,6 +390,8 @@ export default function DodaReview() {
             </Link>
           </div>
         </div>
+        <AgentClients slug="doda" agentName="doda（デューダ）" />
+
       </article>
     </>
   );

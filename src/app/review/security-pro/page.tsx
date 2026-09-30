@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "セキュリティプロ・フリーランスの評判は？セキュリティ特化の案件紹介サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">セキュリティプロ・フリーランスは、株式会社スプラッシュエンジニアリングが運営するセキュリティ領域特化のフリーランス案件紹介サービスです。「高いスキルや経験が必ずしも正当な評価や報酬に結びついていない」というセキュリティ専門家の課題を掲げ、専門特化エージェントによるキャリア支援を打ち出しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="security-pro" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

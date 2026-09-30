@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "UZUZ(ウズウズ)の評判は？第二新卒・既卒・フリーター特化の就職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">UZUZ(ウズウズ)は、20代の第二新卒・既卒・フリーター向けの就職・転職エージェントです。サービスサイト「第二の就活」を通じて、完全無料の「あなた専用の就活サポート」を掲げています。学習サービス「ウズウズカレッジ」も展開しており、IT系への就職支援に強みがあります。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="uzuz" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

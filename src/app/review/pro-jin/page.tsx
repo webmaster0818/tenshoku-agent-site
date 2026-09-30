@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "@PRO人(アットプロジン)の評判は？IT専門転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">@PRO人(アットプロジン)は、株式会社エスアイアイーが運営するIT専門の転職エージェントです。「たくさんの求人はいらない。私のための求人があればいい。」をキャッチコピーに、大量紹介ではなく徹底したヒアリングからの提案型支援をモットーとしています。未経験者向けの登録窓口も用意されています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="pro-jin" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

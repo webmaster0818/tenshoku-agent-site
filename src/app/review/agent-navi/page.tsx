@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "転職AGENT Naviの評判は？エージェントとのマッチングサービスを徹底解説【2026年】",
@@ -76,6 +77,9 @@ export default function AgentNaviReview() {
             この記事では、仕組み・特徴・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
+
+        <AgentHero slug="agent-navi" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

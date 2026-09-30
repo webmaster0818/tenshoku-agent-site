@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "お仕事ラボの評判は？薬剤師特化の転職・派遣サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">お仕事ラボは、株式会社AXISが運営する薬剤師専門の転職・派遣サービスです。正社員・パート・派遣と雇用形態を横断して薬剤師の職場探しを支援し、公開求人は12,524件(2026年8月21日更新時点・当サイト8月22日確認)、非公開求人も多数と公式に掲げています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="oshigoto-lab" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

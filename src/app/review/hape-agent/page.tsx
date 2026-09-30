@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "hape Agent(エイプエージェント)の評判は？営業職特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">hape Agent(エイプエージェント)は、株式会社hapeが運営する営業職特化型の転職エージェントです。「業種による営業の違いがわからない」「自分の営業職としての強みがわからない」といった営業特有の悩みへの専門対応を掲げ、顧客満足度98%と公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="hape-agent" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

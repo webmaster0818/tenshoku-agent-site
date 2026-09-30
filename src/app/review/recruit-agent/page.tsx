@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "リクルートエージェントの評判・口コミは？ITエンジニア転職での実力も徹底解説",
@@ -66,6 +67,9 @@ export default function RecruitAgentReview() {
             転職支援実績も豊富で、初めての転職から経験者のキャリアアップまで対応可能です。
           </p>
         </div>
+
+        <AgentHero slug="recruit-agent" />
+
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">

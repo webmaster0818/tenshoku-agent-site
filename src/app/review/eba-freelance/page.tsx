@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "EBAフリーランスの評判は？高単価特化のITフリーランス案件サービスを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">EBAフリーランスは、EBAテック株式会社が運営するITフリーランス向けの案件提案サービスです。「年収1000万超えを実現できる高単価案件に特化したプレミアムな案件提案サービス」を掲げ、最高単価180万円・エンド直案件90%・リモートワーク50%以上(2026年2月末時点)と公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="eba-freelance" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

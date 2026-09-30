@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ヒュープロの評判は？士業・管理部門特化の転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">ヒュープロは、株式会社ヒュープロが運営する士業・管理部門特化の転職エージェントです。税理士・税務スタッフ・公認会計士・社会保険労務士・弁護士といった士業から、経理・財務・人事・労務・法務・知財などの管理部門、M&A・FAS領域までをカバーします。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="hupro" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

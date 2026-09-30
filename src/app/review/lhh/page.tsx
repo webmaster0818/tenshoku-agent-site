@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "LHH転職エージェントの評判は？アデコ運営のハイクラス転職エージェントを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">LHH転職エージェントは、世界的人材サービスAdeccoグループのブランド「LHH」として、アデコ株式会社が日本で展開する転職エージェントです。人材紹介から再就職支援・キャリアコンサルティングまでを担うグローバルブランドで、「年収以外にもこだわるハイクラス転職」を打ち出しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="lhh" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>

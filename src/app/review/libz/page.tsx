@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "LIBZ(リブズ)の評判は？逆求人型転職エージェントの仕組みを解説【2026年】",
@@ -53,6 +54,9 @@ export default function Page() {
           </h1>
           <p className="text-text-secondary leading-relaxed">LIBZ(リブズ)は、株式会社リブが運営する逆求人型の転職エージェントです。従来の「企業が出した求人に応募する」仕組みではなく、転職者が希望条件を登録・公開し、それに応えられる企業だけが面談に立候補するという「転職者ファースト」の設計を掲げています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
+
+        <AgentHero slug="libz" />
+
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
