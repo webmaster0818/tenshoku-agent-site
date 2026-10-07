@@ -308,3 +308,39 @@ h1, h2, h3,
   color: #ffffff;
   text-decoration: underline;
 }
+
+/* ==========================================================================
+   スクロールの動き（2026-10-07）
+   非表示の初期状態は ScrollMotion.tsx がJSで付ける。
+   JSが動かない環境ではセレクタが一致しないので、常に表示されたままになる。
+   動かすのは transform と opacity だけなのでレイアウトは動かない。
+   ========================================================================== */
+@media (prefers-reduced-motion: no-preference) {
+  [data-rv=""] {
+    opacity: 0;
+    transform: translate3d(0, 16px, 0);
+  }
+  [data-rv="in"] {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  [data-rv-item=""] {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0);
+  }
+  [data-rv-item="in"] {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1) var(--rv-delay, 0ms),
+                transform 0.55s cubic-bezier(0.16, 1, 0.3, 1) var(--rv-delay, 0ms);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-rv], [data-rv-item] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

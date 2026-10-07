@@ -17,6 +17,8 @@ const guides = [
   { href: "/knowledge/resume/", title: "職務経歴書の書き方", desc: "職務要約の例文・テンプレートと書類通過のコツ" },
   { href: "/knowledge/multiple/", title: "複数利用・掛け持ちのコツ", desc: "メリット・デメリットとおすすめの組み合わせ" },
   { href: "/knowledge/useless/", title: "「使えない」と感じたら", desc: "担当変更・切り替えなどの対処法と上手な活用術" },
+  { href: "/knowledge/agent-briefing/", title: "エージェントへの伝え方", desc: "仕事内容の具体化と条件の優先順位。紹介求人の精度が変わる3点" },
+  { href: "/knowledge/job-history/", title: "転職回数と職歴の見られ方", desc: "何回から気にされるか。コンサルタント243人調査と採用側の本音" },
 ];
 
 const compares = [

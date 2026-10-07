@@ -3,6 +3,7 @@ import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AutoToc from "@/components/AutoToc";
+import ScrollMotion from "@/components/ScrollMotion";
 import "./globals.css";
 
 const notoSans = Noto_Sans_JP({
@@ -63,6 +64,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <AutoToc />
+        <ScrollMotion />
         <Footer />
       </body>
     </html>
