@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { DODA, STATS_CONFIRMED_AT } from "@/data/stats";
 
 export const metadata: Metadata = {
   title: "転職エージェントの複数利用・掛け持ち｜メリデメとおすすめ組み合わせ",
@@ -57,8 +58,52 @@ export default function MultiplePage() {
             <img src="/column-img/ts-multiple.jpg" alt="複数サービスの併用をイメージした静物" className="w-full h-auto" />
           </div>
           <p className="text-text-secondary leading-relaxed">
-            転職エージェントは複数利用するのが一般的です。
-            メリット・デメリット、おすすめの組み合わせ、注意点を解説します。
+            「複数登録したほうがいい」とよく言われますが、理由まで書かれていることは多くありません。
+            理由は求人の好みではなく、<strong>必要な応募数</strong>です。
+            dodaの公表値では、転職成功者の平均応募社数は<strong>{DODA.avgApplications}社</strong>、
+            書類通過率は約{DODA.docPassPct}%、応募からの内定率は約{DODA.offerPct}%。
+            <strong>1社の内定を得るのに、およそ{DODA.appsPerOffer}社の応募が必要</strong>になる計算です。
+            この数を1社のエージェントの保有求人だけで埋められるかどうか——
+            それが、複数登録するかどうかの実質的な判断基準になります。
+          </p>
+        </div>
+
+        {/* 承：なぜ母数が要るのか（2026-10-08 追加） */}
+        <h2>なぜ「2〜3社」と言われるのか</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-5">
+          {[
+            { v: `${DODA.avgApplications}社`, l: "転職成功者の平均応募社数" },
+            { v: `約${DODA.docPassPct}%`, l: "書類選考の通過率" },
+            { v: `約${DODA.offerPct}%`, l: "応募からの内定率" },
+            { v: `${DODA.appsPerOffer}社`, l: "内定1社に必要な応募数" },
+          ].map((x) => (
+            <div key={x.l} className="glass-card p-4 text-center">
+              <p className="text-xl font-extrabold text-teal">{x.v}</p>
+              <p className="text-xs text-text-muted mt-1 leading-relaxed">{x.l}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-xs text-text-muted mb-6">出典：{DODA.source}（{STATS_CONFIRMED_AT}に当サイトで確認）。</p>
+        <p className="text-text-secondary leading-relaxed mb-5">
+          応募したい求人が20〜30社ぶん必要で、そのうち「条件に本当に合うもの」だけを選ぶとなると、
+          紹介の母数はその数倍いります。1社のエージェントで足りることもありますが、
+          <strong>職種が限定的なほど足りなくなります</strong>。
+          複数登録は「保険」ではなく、<strong>母数を確保するための手段</strong>です。
+        </p>
+        <div className="glass-card p-5 mb-10">
+          <p className="font-bold text-navy mb-2">年代が上がるほど、必要な社数は減る</p>
+          <div className="flex flex-wrap gap-5">
+            {DODA.byAge.map((a) => (
+              <div key={a.age}>
+                <p className="text-xs text-text-muted">{a.age}</p>
+                <p className="text-lg font-extrabold text-navy">平均{a.n}社</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-text-secondary mt-3 leading-relaxed">
+            40代になると平均{DODA.byAge[2].n}社です。数を打つより、
+            <strong>応募する1社ごとの精度</strong>が結果を決める段階に入ります。
+            この年代では、エージェントを増やすより「自分の経験を正確に理解してくれる1〜2社」に絞るほうが機能することがあります。
           </p>
         </div>
 

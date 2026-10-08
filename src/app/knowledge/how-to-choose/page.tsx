@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { DODA, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
 import { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
@@ -58,10 +59,52 @@ export default function HowToChoosePage() {
             <img src="/column-img/ts-how-to-choose.jpg" alt="転職エージェントの選び方をイメージした静物" className="w-full h-auto" />
           </div>
           <p className="text-text-secondary leading-relaxed">
-            数ある転職エージェントの中から、自分に合ったサービスを選ぶための7つのポイントを解説します。
-            選び方を間違えると、ミスマッチな求人ばかり紹介される原因にもなります。
+            エージェント選びは「どこが一番いいか」を決める作業ではありません。
+            <strong>自分がどの戦い方をするかを決める作業</strong>です。
+            dodaの公表値では、転職成功者の平均応募社数は{DODA.avgApplications}社。
+            一方で年代別に見ると20代{DODA.byAge[0].n}社・30代{DODA.byAge[1].n}社・40代{DODA.byAge[2].n}社と、
+            <strong>年代が上がるほど応募できる求人そのものが絞られます</strong>。
+            数を打てる人と、1社ごとの精度で勝負する人とでは、選ぶべきエージェントが変わります。
+            以下の7つは、その前提のうえで見る項目です。
           </p>
         </div>
+
+        {/* 起：まず自分がどちらの戦い方かを決める（2026-10-08 追加） */}
+        <h2>先に決めること：数で戦うか、精度で戦うか</h2>
+        <div className="overflow-x-auto mb-5">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-warm-gray text-left">
+                <th className="border-b border-border p-3">　</th>
+                <th className="border-b border-border p-3">数で戦う</th>
+                <th className="border-b border-border p-3">精度で戦う</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { k: "当てはまりやすい人", a: "20代〜30代前半／職種を変えたい／未経験分野に挑戦したい", b: "30代後半以降／専門職／年収を上げたい／ポジションが限られる" },
+                { k: "応募社数の目安", a: `${DODA.byAge[0].n}社前後（20代の平均）`, b: `${DODA.byAge[2].n}社前後（40代の平均）` },
+                { k: "選ぶべきエージェント", a: "求人数の多い大手総合型を軸に、2〜3社", b: "業界・職種に特化した1〜2社。ハイクラス向けを含む" },
+                { k: "力を入れるところ", a: "応募のペースを落とさないこと", b: "職務経歴書と面接準備の精度" },
+              ].map((r) => (
+                <tr key={r.k}>
+                  <td className="border-b border-border p-3 font-bold whitespace-nowrap">{r.k}</td>
+                  <td className="border-b border-border p-3 text-text-secondary">{r.a}</td>
+                  <td className="border-b border-border p-3 text-text-secondary">{r.b}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-5">
+          ※応募社数は{DODA.source}の公表値（{STATS_CONFIRMED_AT}確認）。当サイトの推計ではありません。
+          どちらか一方に決めきる必要はなく、活動の途中で比重が変わることもあります。
+        </p>
+        <p className="text-text-secondary leading-relaxed mb-10">
+          なお、厚生労働省の調査では、転職した人の{MHLW.under6mPct}%が<strong>6ヶ月未満</strong>で決めています。
+          長期戦を覚悟するより、<strong>3ヶ月で一度やりきる前提で組む</strong>ほうが実態に合います。
+          その3ヶ月で何社に応募できるかが、エージェント選びの実質的な評価軸です。
+        </p>
 
         {/* 7つのポイント */}
         <h2>転職エージェントを選ぶ7つのポイント</h2>

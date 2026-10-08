@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { DODA, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
 
 export const metadata: Metadata = {
   title: "転職エージェント活用ガイド一覧｜使い方・面談・メール例文・書類対策【2026年】",
@@ -42,8 +43,33 @@ export default function KnowledgeHub() {
             <img src="/column-img/ts-knowledge.jpg" alt="転職の情報収集をイメージした静物" className="w-full h-auto" />
           </div>
           <p className="text-text-secondary leading-relaxed">
-            転職エージェントを最大限活用するための実践ガイドです。登録前の選び方から、面談・書類・メールの実務、
-            うまくいかないときの対処法まで、転職活動のステップ順に整理しています。
+            転職活動は、だいたい3ヶ月で終わります。
+            dodaの調査では活動開始から内定までの平均が約{DODA.avgMonths}ヶ月、
+            厚生労働省の実態調査でも転職した人の{MHLW.under6mPct}%が6ヶ月未満で決めています。
+            問題は、その3ヶ月の<strong>どこでつまずくかが決まっている</strong>ことです。
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-6">
+            {[
+              { v: `約${DODA.avgMonths}ヶ月`, l: "活動開始から内定まで" },
+              { v: `${DODA.avgApplications}社`, l: "転職成功者の平均応募社数" },
+              { v: `約${DODA.docPassPct}%`, l: "書類選考の通過率" },
+              { v: `${DODA.appsPerOffer}社`, l: "内定1社に必要な応募数" },
+            ].map((x) => (
+              <div key={x.l} className="glass-card p-4 text-center">
+                <p className="text-lg font-extrabold text-teal">{x.v}</p>
+                <p className="text-[11px] text-text-muted mt-1 leading-relaxed">{x.l}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-text-secondary leading-relaxed">
+            書類が3割しか通らず、1社の内定に{DODA.appsPerOffer}社前後の応募が要るとすると、
+            時間を食うのは面接ではなく<strong>応募を積み上げるところ</strong>です。
+            そして応募が積み上がらない原因は、たいてい
+            <strong>①希望を言語化できていない ②書類を使い回している ③求人の母数が足りない</strong>の3つに絞られます。
+            以下のガイドは、この3つを順番につぶすために並べています。
+          </p>
+          <p className="text-xs text-text-muted mt-3">
+            出典：{DODA.source}／{MHLW.source}（いずれも{STATS_CONFIRMED_AT}に当サイトで確認）。
           </p>
         </div>
 
