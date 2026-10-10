@@ -344,3 +344,16 @@ h1, h2, h3,
     transition: none !important;
   }
 }
+
+/* ========== 見出しの折り返し（2026-10-10 施主指示） ==========
+   「大手・ハイクラス系5社の比較表」が単語の途中で改行されていたため、
+   日本語を文節単位で折るようにする。
+   - word-break: auto-phrase … 文節で折る(Chrome系)
+   - text-wrap: balance      … 行の長さを揃え、最終行だけ極端に短くなるのを防ぐ
+   Safariは auto-phrase 未対応だが balance は効くので段階的に改善される。 */
+h1, h2, h3, h4,
+.section-title {
+  word-break: auto-phrase;
+  text-wrap: balance;
+  overflow-wrap: normal;
+}

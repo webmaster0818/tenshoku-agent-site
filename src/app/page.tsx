@@ -174,7 +174,7 @@ export default function HomePage() {
 
       {/* Comparison Table */}
       <section id="comparison" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="section-title section-title--center">まず押さえたい大手・ハイクラス系5社の比較表</h2>
+        <h2 className="section-title section-title--center"><span className="inline-block">まず押さえたい</span><span className="inline-block">大手・ハイクラス系</span><span className="inline-block">5社の比較表</span></h2>
         <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
           当サイトは59サービスを掲載しています。下表はそのうち、求人数や知名度の面で最初の比較対象になりやすい5社です。
           順番は掲載順で、優劣の順位ではありません。
@@ -213,7 +213,7 @@ export default function HomePage() {
       {/* Ranking Detail */}
       <section id="ranking" className="bg-warm-gray py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h2 className="section-title section-title--center">大手・ハイクラス系5社の詳細</h2>
+          <h2 className="section-title section-title--center"><span className="inline-block">大手・ハイクラス系</span><span className="inline-block">5社の詳細</span></h2>
           <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
             番号は掲載順です。当サイトで順位付けは行っていません。求人数は各社の公表値で、更新日は各詳細ページに記載しています。
           </p>
@@ -295,7 +295,7 @@ export default function HomePage() {
 
       {/* Purpose Quick Guide */}
       <section id="purpose-guide" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="section-title section-title--center" id="age-guide">年代別・目的別ガイド</h2>
+        <h2 className="section-title section-title--center" id="age-guide"><span className="inline-block">年代別・</span><span className="inline-block">目的別ガイド</span></h2>
         <p className="text-center text-text-secondary text-sm mb-8 -mt-4">あなたの状況に合わせた選び方と詳細ガイドへ進めます。</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
@@ -333,7 +333,7 @@ export default function HomePage() {
       {/* Company Salary DB */}
       <section id="company-db" className="bg-warm-gray py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h2 className="section-title section-title--center">企業年収データベース【有価証券報告書ベース】</h2>
+          <h2 className="section-title section-title--center"><span className="inline-block">企業年収データベース</span><span className="inline-block">【有価証券報告書ベース】</span></h2>
           <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
             上場企業の平均年収を有価証券報告書の一次データで整理。業界ランキングと企業別の転職ガイドを公開しています。
           </p>
@@ -358,7 +358,7 @@ export default function HomePage() {
 
       {/* Specialized Agents */}
       <section id="specialized" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="section-title section-title--center">特化型エージェントを探す</h2>
+        <h2 className="section-title section-title--center"><span className="inline-block">特化型エージェントを</span><span className="inline-block">探す</span></h2>
         <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
           職種・業界が決まっているなら、専門特化型エージェントの併用が近道です。
         </p>
@@ -417,7 +417,7 @@ export default function HomePage() {
       {/* 5 Steps */}
       <section className="bg-warm-gray py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="section-title section-title--center">転職エージェントの選び方 5ステップ</h2>
+          <h2 className="section-title section-title--center"><span className="inline-block">転職エージェントの選び方</span><span className="inline-block ml-[.35em]">5ステップ</span></h2>
           <div className="space-y-8">
             {[
               { step: 1, title: "転職の目的を明確にする", desc: "キャリアチェンジ、ワークライフバランス改善、待遇の見直しなど、転職の目的を明確にしましょう。目的によって最適なエージェントが変わります。", img: "/step-1-mokuteki.jpg", alt: "窓際の机でノートに向かい、転職の目的を考えている人" },
@@ -453,7 +453,7 @@ export default function HomePage() {
 
       {/* Guides */}
       <section id="guides" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="section-title section-title--center">転職エージェント活用ガイド</h2>
+        <h2 className="section-title section-title--center"><span className="inline-block">転職エージェント</span><span className="inline-block">活用ガイド</span></h2>
         <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
           登録から内定までの実務は、ステップ別ガイドにまとめています。
         </p>
