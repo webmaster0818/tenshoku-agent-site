@@ -418,19 +418,32 @@ export default function HomePage() {
       <section className="bg-warm-gray py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="section-title section-title--center">転職エージェントの選び方 5ステップ</h2>
-          <div className="space-y-6">
+          <div className="space-y-8">
             {[
-              { step: 1, title: "転職の目的を明確にする", desc: "キャリアチェンジ、ワークライフバランス改善、待遇の見直しなど、転職の目的を明確にしましょう。目的によって最適なエージェントが変わります。" },
-              { step: 2, title: "2〜3社のエージェントに登録する", desc: "1社だけでなく複数のエージェントに登録することで、求人の選択肢が広がり、担当者の比較もできます。" },
-              { step: 3, title: "キャリアアドバイザーとの面談", desc: "各エージェントのキャリアアドバイザーと面談し、自分の希望や経歴を伝えましょう。相性の良いアドバイザーを見つけることが重要です。" },
-              { step: 4, title: "求人を比較検討する", desc: "紹介された求人を比較し、自分の条件に合うものを厳選しましょう。疑問点はアドバイザーに積極的に質問してください。" },
-              { step: 5, title: "メインのエージェントを決める", desc: "面談や求人の質を比較した上で、メインで利用するエージェントを1〜2社に絞りましょう。サブとして他社も並行利用するのが効果的です。" },
+              { step: 1, title: "転職の目的を明確にする", desc: "キャリアチェンジ、ワークライフバランス改善、待遇の見直しなど、転職の目的を明確にしましょう。目的によって最適なエージェントが変わります。", img: "/step-1-mokuteki.jpg", alt: "窓際の机でノートに向かい、転職の目的を考えている人" },
+              { step: 2, title: "2〜3社のエージェントに登録する", desc: "1社だけでなく複数のエージェントに登録することで、求人の選択肢が広がり、担当者の比較もできます。", img: "/step-2-touroku.jpg", alt: "机の上のノートパソコンに手を置き、登録を進めている手元" },
+              { step: 3, title: "キャリアアドバイザーとの面談", desc: "各エージェントのキャリアアドバイザーと面談し、自分の希望や経歴を伝えましょう。相性の良いアドバイザーを見つけることが重要です。", img: "/step-3-mendan.jpg", alt: "明るい面談スペースでテーブル越しに話す2人" },
+              { step: 4, title: "求人を比較検討する", desc: "紹介された求人を比較し、自分の条件に合うものを厳選しましょう。疑問点はアドバイザーに積極的に質問してください。", img: "/step-4-hikaku.jpg", alt: "机に広げた複数の書類を1枚ずつ見比べている手元" },
+              { step: 5, title: "メインのエージェントを決める", desc: "面談や求人の質を比較した上で、メインで利用するエージェントを1〜2社に絞りましょう。サブとして他社も並行利用するのが効果的です。", img: "/step-5-kimeru.jpg", alt: "複数の書類から1枚だけを手元に引き寄せている様子" },
             ].map((s) => (
-              <div key={s.step} className="flex gap-5 items-start">
-                <span className="step-number">{s.step}</span>
-                <div>
-                  <h3 className="font-bold text-navy text-lg">{s.title}</h3>
-                  <p className="text-sm text-text-secondary mt-1 leading-relaxed">{s.desc}</p>
+              <div key={s.step} className="sm:flex sm:gap-6 sm:items-start">
+                <div className="mb-4 overflow-hidden rounded-lg sm:mb-0 sm:w-56 sm:shrink-0">
+                  <img
+                    src={s.img}
+                    alt={s.alt}
+                    width={800}
+                    height={600}
+                    loading="lazy"
+                    decoding="async"
+                    className="aspect-[4/3] h-full w-full object-cover"
+                  />
+                </div>
+                <div className="flex gap-5 items-start">
+                  <span className="step-number">{s.step}</span>
+                  <div>
+                    <h3 className="font-bold text-navy text-lg">{s.title}</h3>
+                    <p className="text-sm text-text-secondary mt-1 leading-relaxed">{s.desc}</p>
+                  </div>
                 </div>
               </div>
             ))}
