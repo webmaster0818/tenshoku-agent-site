@@ -6,21 +6,32 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/inshoku-agent/" },
-  title: "飲食店ドットコムエージェントの評判は？飲食業界特化の転職エージェントを徹底解説【2026年】",
+  title: "飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】",
   description:
-    "飲食店ドットコムエージェントは、東証プライム上場の株式会社シンクロ・フードが運営する飲食業界特化の転職エージェント。飲食特化20年以上・累計掲載求人7万件以上の「求人飲食店ドットコム」と併用でき、未経験歓迎求人もあり。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
+    "飲食店ドットコムエージェントの口コミ・評判を出典つきで整理。東証プライム上場シンクロ・フード運営（許可番号13-ユ-301534）の飲食業界特化エージェントの特徴・注意点・利用の流れを公式情報で解説。利用は無料。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "飲食店ドットコムエージェントの評判は？飲食業界特化の転職エージェントを徹底解説【2026年】",
+    title: "飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】",
     description:
-      "東証プライム上場シンクロ・フード運営の飲食特化転職エージェントの特徴・料金・向いている人を公式情報ベースで解説。利用は無料です。",
+      "飲食店ドットコムエージェントの口コミ・評判の傾向と、東証プライム上場シンクロ・フード運営の飲食特化転職エージェントの特徴・注意点を公式情報ベースで解説。",
   },
+};
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】",
+  dateModified: "2026-10-14",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/inshoku-agent/" },
+  inLanguage: "ja",
 };
 
 const faqData = [
   {
     q: "飲食店ドットコムエージェントの利用に費用はかかりますか？",
-    a: "求職者の方は、すべてのサービスを無料で利用できます。面談・求人紹介・履歴書添削・面接対策など、すべて無料でサポートすると公式サイトに明記されています（2026年8月22日確認）。",
+    a: "求職者の方は、すべてのサービスを無料で利用できます。面談・求人紹介・履歴書添削・面接対策など、すべて無料でサポートすると公式サイトに明記されています（2026年10月14日確認）。",
   },
   {
     q: "飲食業界の経験がなくても利用できますか？",
@@ -38,6 +49,22 @@ const faqData = [
     q: "エージェント以外の探し方もできますか？",
     a: "できます。登録すると、同社が10年以上運営する求人サイト「求人飲食店ドットコム」（累計掲載求人7万件以上）も利用でき、気になる求人に自分で応募する・エージェントに相談する・スカウトを待つ、の3通りを自由に使い分けられると公式に記載されています。",
   },
+  {
+    q: "飲食店ドットコムエージェントはやばい・怪しいサービスですか？",
+    a: "運営会社の株式会社シンクロ・フードは東京証券取引所プライム市場上場（証券コード3963）の企業で、同社の会社概要に有料職業紹介事業の許可番号「13-ユ-301534」が記載されています（2026年10月14日確認）。国の許可を受けた職業紹介事業者が運営するサービスです。",
+  },
+  {
+    q: "電話はしつこいですか？",
+    a: "公式FAQでは、登録後はまず専任スタッフから希望条件確認の電話があり、その後の求人紹介や日程調整はメールなど希望の手段で対応すると説明されています。電話が苦手な場合は、最初のヒアリング時に連絡手段の希望を伝えておくのが確実です。",
+  },
+  {
+    q: "アルバイト・パートの求人も紹介してもらえますか？",
+    a: "公式FAQによると、エージェントでは正社員・契約社員の求人を中心に紹介しています。アルバイト・パートを探す場合は、同社の求人サイト「求人飲食店ドットコム」で自分で探す形になります。",
+  },
+  {
+    q: "登録したらすぐに転職しなければいけませんか？",
+    a: "公式FAQに「いいえ、その必要はありません」と明記されており、自分のペースで転職活動を進められます。情報収集やキャリア相談だけの利用も歓迎とされています。",
+  },
 ];
 
 const faqJsonLd = {
@@ -53,6 +80,7 @@ const faqJsonLd = {
 export default function InshokuAgentReview() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -63,20 +91,21 @@ export default function InshokuAgentReview() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "飲食店ドットコムエージェントの評判・特徴" },
+          { name: "飲食店ドットコムエージェントの口コミ・評判" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            飲食店ドットコムエージェントの評判は？飲食業界特化の転職エージェントを徹底解説【2026年】
+            飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】
           </h1>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式情報を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             飲食店ドットコムエージェントは、東証プライム上場の株式会社シンクロ・フードが運営する、飲食業界特化の正社員転職・就職エージェントです。
             飲食店の出店から運営・退店までを支える「飲食店ドットコム」を約20年運営してきた同社ならではの業界ネットワークが強みで、
             店舗の雰囲気や経営者の人柄まで把握したうえでのマッチングを掲げています。
-            この記事では、特徴・料金・サポート内容・向いている人を、公式サイトで確認できる情報をもとに整理します。
+            この記事では、口コミ・評判の傾向（出典つき）と、特徴・料金・サポート内容・注意点・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
 
@@ -128,21 +157,26 @@ export default function InshokuAgentReview() {
           ))}
         </div>
 
-        <h2>飲食店ドットコムエージェントの基本データ【2026年8月22日確認】</h2>
+        <h2>飲食店ドットコムエージェントの基本データ【2026年10月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">飲食店ドットコムエージェント（飲食業界特化の正社員転職・就職エージェント）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社シンクロ・フード（東京証券取引所プライム市場上場・証券コード3963）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都渋谷区恵比寿南1-7-8（東京本社）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都渋谷区恵比寿南1-7-8 恵比寿サウスワン（本社）／大阪支社：大阪府大阪市北区梅田3-4-5 毎日新聞ビル8階</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立・代表者</th><td className="px-3 py-2 border-b">2003年4月24日設立／代表取締役 大久保俊</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">許可番号</th><td className="px-3 py-2 border-b">有料職業紹介事業 13-ユ-301534（運営会社の会社概要に記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">雇用形態</th><td className="px-3 py-2 border-b">正社員・契約社員の求人が中心（アルバイト・パートは求人サイト「求人飲食店ドットコム」側で探す形）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人ジャンル</th><td className="px-3 py-2 border-b">居酒屋・カフェ・レストラン・ホテル内レストラン・高級店・チェーン店など（公式FAQより）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象職種</th><td className="px-3 py-2 border-b">サービス・ホール／調理・キッチン／店長候補・マネージャー／料理長候補／パティシエ／本部スタッフ・SVなど飲食業界の職種全般</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／求人紹介／履歴書添削／面接対策／条件交渉・スケジュール調整代行／入社後フォロー</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談方法</th><td className="px-3 py-2 border-b">電話ヒアリング（最短当日）・オンラインやメールでの対応も可</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">問い合わせ先</th><td className="px-3 py-2 border-b">03-5734-1866／06-7639-0137（公式サービス紹介ページに記載）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（企業側の成功報酬モデル）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：飲食店ドットコムエージェント公式サービス紹介ページ（job.inshokuten.com/about/agent_service）および株式会社シンクロ・フード会社概要（synchro-food.co.jp）、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：飲食店ドットコムエージェント公式サービス紹介ページ（job.inshokuten.com/about/agent_service）および株式会社シンクロ・フード会社概要（<a href="https://www.synchro-food.co.jp/company/overview" rel="nofollow noopener" target="_blank" className="text-teal underline">synchro-food.co.jp/company/overview</a>）、2026年10月14日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>飲食店ドットコムエージェントの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
@@ -176,6 +210,49 @@ export default function InshokuAgentReview() {
         </div>
 
         <FelmatCta slug="inshoku-agent" heading="飲食店ドットコムエージェントに無料相談する" note="飲食業界特化のキャリア相談は無料です。" />
+
+        <h2>飲食店ドットコムエージェントの口コミ・評判（出典つきの傾向）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          2026年10月14日に、Web検索で「飲食店ドットコムエージェント 口コミ」「飲食店ドットコムエージェント 評判」を調べたところ、
+          <strong>エージェントサービスそのものについての利用者の公開口コミは確認できませんでした</strong>（検索上位に出るのは運営会社や同社の別サービスの情報が中心）。
+          運営元の求人サイト「求人飲食店ドットコム」やM&amp;Aサービスの評価は別サービスのものなので、本記事では評判として扱っていません。
+          そのため、当サイトでは架空の体験談や点数は載せず、公式仕様から読み取れる「良い点として挙がりやすい要素」と「起こりうる注意点」を事実ベースで整理します。
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判につながりやすい点（公式仕様より）</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>運営が東証プライム上場企業で、有料職業紹介の許可番号（13-ユ-301534）も公開されている</li>
+              <li>飲食業界に特化し、店の雰囲気・人柄まで把握したうえでの紹介を掲げている</li>
+              <li>登録は最短1分、面談はオンライン・電話・メールに対応し、在職中でも進めやすい</li>
+              <li>料理長候補・マネジメント職などキャリアアップ求人や、月給38万円以上の求人例も公式に掲載</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点になりうる点（公式仕様より）</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>紹介は正社員・契約社員中心。アルバイト・パート希望は自分で求人サイトから探す形</li>
+              <li>飲食業界特化のため、異業種への転職相談には向かない</li>
+              <li>登録後はまず電話でのヒアリングがある（その後はメール等の希望手段に対応と公式に記載）</li>
+              <li>対応エリアは公式ページに明記がなく、連絡先は東京（03）・大阪（06）。地方求人の量は面談で確認が必要</li>
+              <li>公開口コミがまだ少なく、利用者の評判を事前に比較しにくい</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-sm text-text-secondary mb-2">
+          <strong>当サイトの見方：</strong>運営元の信頼性（上場企業・許可事業者）と飲食業界での実績は公式情報で確認できます。一方、エージェントとしての利用者の声はまだ見えにくいため、
+          飲食業界の転職なら<Link href="/review/oishiru-career/" className="text-teal underline">オイシルキャリア</Link>などの飲食特化サービスや総合型と併用し、担当者との相性や紹介求人の質を自分で比べるのがおすすめです。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：Web検索結果（2026年10月14日確認）。エージェント本体の公開口コミは確認できず、他社の転職比較記事は一次情報でないため出典にしていません。仕様は飲食店ドットコムエージェント公式サービス紹介ページ（<a href="https://job.inshokuten.com/about/agent_service" rel="nofollow noopener" target="_blank" className="text-teal underline">job.inshokuten.com/about/agent_service</a>）、2026年10月14日確認。</p>
+
+        <h2>飲食店ドットコムエージェントの利用の流れ</h2>
+        <ol className="list-decimal pl-6 space-y-1 text-sm text-text-secondary mb-3">
+          <li><strong>無料相談に登録</strong>：公式サイトで基本情報を入力（最短1分）</li>
+          <li><strong>電話ヒアリング</strong>：専任スタッフから希望条件確認の電話（最短当日）</li>
+          <li><strong>書類サポート・面接対策</strong>：履歴書添削や面接アドバイス</li>
+          <li><strong>内定・入社決定</strong>：給与などの条件交渉やスケジュール調整を代行</li>
+        </ol>
+        <p className="text-xs text-text-muted mb-8">※公式サイトでは、状況や応募先企業によって流れが異なる場合があり、求人への応募は任意と説明されています（2026年10月14日確認）。</p>
 
         <h2>飲食店ドットコムエージェントが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-4">

@@ -6,18 +6,41 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/agent-navi/" },
-  title: "転職AGENT Naviの評判は？エージェントとのマッチングサービスを徹底解説【2026年】",
+  title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
   description:
-    "転職AGENT Navi(circus株式会社運営)は、300名以上のアドバイザーから相性の良い転職エージェント担当者を紹介するマッチングサービス。20代の既卒・第二新卒・フリーターが主対象。仕組み・特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+    "転職AGENT Navi（転職エージェントナビ）の口コミ・評判を出典つきで整理。circus株式会社運営（許可番号13-ユ-317371）、300名以上のアドバイザーから相性の良い担当者を紹介する無料サービスの仕組み・注意点を公式情報で解説。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "転職AGENT Naviの評判は？エージェントとのマッチングサービスを徹底解説【2026年】",
+    title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
     description:
-      "転職エージェントとのマッチングサービス「転職AGENT Navi」の仕組み・向いている人を公式情報ベースで解説。利用は無料です。",
+      "転職AGENT Navi（転職エージェントナビ）の口コミ・評判の傾向と、仕組み・注意点を公式情報ベースで解説。利用は無料です。",
   },
 };
 
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
+  dateModified: "2026-10-14",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/agent-navi/" },
+  inLanguage: "ja",
+};
+
 const faqData = [
+  {
+    q: "転職エージェントナビはやばい？怪しいサービスではない？",
+    a: "運営会社のcircus株式会社(2017年7月設立、東京都中央区京橋)は、厚生労働大臣の有料職業紹介事業許可(許可番号13-ユ-317371)を会社概要で公表しています。求職者は完全無料で、費用は紹介先企業によってまかなわれる仕組みと公式に案内されています。ただし転職AGENT Navi自体は求人を直接紹介するのではなく、提携する転職エージェントの担当者を紹介するサービスである点は理解しておきましょう。",
+  },
+  {
+    q: "ほかの転職サービスと併用しても大丈夫？",
+    a: "公式FAQでは「問題ございません」とし、効率的に活動を進めるために複数のサービスを利用することをすすめています。紹介された転職エージェントと合わないと感じた場合は、別の転職エージェントの紹介も可能と案内されています。",
+  },
+  {
+    q: "最初の面談はどれくらいかかる？どうやって予約する？",
+    a: "公式の利用の流れでは、LINE上のカレンダーから都合の良い時間を予約し、転職エージェントナビの担当者が現在の状況や希望を15分程度ヒアリングするとされています。その後、紹介された転職エージェントと改めて面談する流れです。",
+  },
   {
     q: "転職AGENT Naviの利用に費用はかかりますか？",
     a: "求職者の利用は完全無料と公式に案内されています。人材紹介の標準的なビジネスモデルとして企業側が費用を負担する仕組みのため、面談・エージェント紹介・転職支援に費用はかかりません。",
@@ -36,7 +59,7 @@ const faqData = [
   },
   {
     q: "利用の流れを教えてください。",
-    a: "公式案内では、①エントリー②面談予約③ナビ担当と面談④紹介されたエージェントと面談⑤転職支援開始〜内定、という流れです。最初の面談で希望条件・状況を整理してからエージェントに接続されます。",
+    a: "公式案内では、①エントリー・LINEで面談予約②ナビ担当と面談(15分程度)③紹介されたエージェントと面談④転職支援スタート(職務経歴書・面接対策・応募)⑤内定、という流れです。困りごとがあれば転職エージェントナビが間に入ってサポートすると案内されています。",
   },
 ];
 
@@ -59,21 +82,28 @@ export default function AgentNaviReview() {
           __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
 
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "転職AGENT Naviの評判・特徴" },
+          { name: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            転職AGENT Naviの評判は？エージェントとのマッチングサービスを徹底解説【2026年】
+            転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】
           </h1>
+          <p className="text-xs text-text-muted mb-2">最終更新: 2026年10月14日</p>
           <p className="text-text-secondary leading-relaxed">
-            転職AGENT Naviは、circus株式会社が運営する「求職者と転職エージェントのマッチングサービス」です。
+            転職AGENT Navi（転職エージェントナビ）は、circus株式会社が運営する「求職者と転職エージェントのマッチングサービス」です。
             自分で複数のエージェントに登録して比較する代わりに、面談を通じて300名以上のアドバイザーから相性の良い担当者を紹介してもらう仕組みで、
             20代の既卒・第二新卒・フリーターを主な対象としています。
             この記事では、仕組み・特徴・向いている人を、公式サイトで確認できる情報をもとに整理します。
@@ -121,23 +151,63 @@ export default function AgentNaviReview() {
           ))}
         </div>
 
-        <h2>転職AGENT Naviの基本データ【2026年8月16日確認】</h2>
+        <h2>転職AGENT Navi（転職エージェントナビ）の基本データ【2026年10月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">転職AGENT Navi(転職エージェントナビ)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">circus株式会社</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都中央区京橋1-13-1 WORK VILLA KYOBASHI 9F</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">矢部 貴志</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役 矢部 貴志</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2017年7月</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金</th><td className="px-3 py-2 border-b">29,560,000円（資本準備金含む）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介許可番号</th><td className="px-3 py-2 border-b">13-ユ-317371（運営会社の会社概要に記載）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">求職者と転職エージェント(担当アドバイザー)のマッチングプラットフォーム</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">規模(公称)</th><td className="px-3 py-2 border-b">転職アドバイザー300名以上／求人10万件以上</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な対象</th><td className="px-3 py-2 border-b">20代の既卒・第二新卒・フリーター・ニート</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">利用の流れ</th><td className="px-3 py-2 border-b">エントリー→面談予約→ナビ担当と面談→紹介エージェントと面談→転職支援開始→内定</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">利用の流れ</th><td className="px-3 py-2 border-b">エントリー・LINEで面談予約→ナビ担当と面談(15分程度)→紹介エージェントと面談→転職支援スタート→内定</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">希望勤務地の選択肢</th><td className="px-3 py-2 border-b">東京23区／首都圏(東京・神奈川・千葉・埼玉)／大阪／名古屋／札幌／福岡／広島／仙台／静岡／その他（公式エントリーフォームの選択肢）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料（費用は紹介先企業がまかなう仕組みと公式FAQで案内）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：転職AGENT Navi公式LP(service.circus-group.jp)、2026年8月16日確認。有料職業紹介事業許可番号はLP内に記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">
+          出典：
+          <a href="https://service.circus-group.jp/circus/agentnavi/" rel="nofollow noopener" target="_blank" className="underline">転職AGENT Navi公式LP</a>
+          ・
+          <a href="https://www.circus-group.jp/company" rel="nofollow noopener" target="_blank" className="underline">circus株式会社 会社概要</a>
+          （いずれも2026年10月14日確認）。許可番号はLP内には記載がなく、運営会社の会社概要ページの記載を掲載しています。当サイトでは口コミ・数値の創作は行っていません。
+        </p>
+
+        <h2>転職AGENT Navi（転職エージェントナビ）の口コミ・評判（出典つきの傾向）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          2026年10月14日時点で、転職AGENT Naviについて<strong>利用者本人が投稿した公開口コミとして確認できたものは少数</strong>でした（転職サービスの口コミ掲載サイト「コエテコキャリア」の同サービスページにもユーザー投稿の口コミは掲載されていませんでした）。
+          そのため当サイトでは体験談や点数を作らず、公式が公表している評価と、公式仕様から読み取れるポイントを分けて整理します。
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判につながりやすい点（公式公表ベース）</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>公式LPでは、日本マーケティングリサーチ機構による「2025年1月期_ブランドのイメージ調査」（Webアンケート、n=100）で No.1 を獲得したと掲載。ただし公式注記のとおり<strong>ブランドのイメージに関する調査で、利用有無は聴取しておらず、効果効能や優位性を保証するものではありません</strong>。</li>
+              <li>担当者が合わないと感じたら別の転職エージェントを紹介してもらえる（公式FAQ）。</li>
+              <li>困りごとや相談は転職エージェントナビが間に入ってサポートすると案内（公式の利用の流れ）。</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点になりやすい点（公式仕様から）</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>ナビ担当との面談後、<strong>紹介された転職エージェントと改めて面談が必要</strong>。求人紹介はその後になるため、すぐ求人を見たい人には手間に感じられる可能性があります。</li>
+              <li>紹介される担当者との相性は、実際に面談するまでわかりません（再紹介は可能）。</li>
+              <li>主な利用者は20代の既卒・第二新卒・フリーター・ニートと公式に案内されており、30代以上や専門職・ハイクラスの人には合う求人が少ない可能性があります。</li>
+              <li>予約はLINE上で行う設計のため、LINEを使わない人には向きません。</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-sm text-text-secondary mb-2">
+          <strong>当サイトの見方：</strong>
+          転職AGENT Naviは「求人を紹介するエージェント」ではなく「エージェントの担当者を紹介する入口」です。評判を判断する際は、ナビ自体よりも<strong>紹介された先のエージェント・担当者の質</strong>が満足度を左右する点に注意しましょう。合わなければ遠慮なく再紹介を依頼するのが公式どおりの使い方です。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：転職AGENT Navi公式LP（No.1表記の注記・FAQ・利用の流れ）、コエテコキャリア（2026年10月14日確認）。他社の比較記事に掲載された口コミは一次情報でないため出典にしていません。</p>
 
         <h2>転職AGENT Naviの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">

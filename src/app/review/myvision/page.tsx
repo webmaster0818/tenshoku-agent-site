@@ -7,13 +7,13 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/myvision/" },
-  title: "MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説【2026年】",
+  title: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
   description:
-    "MyVision(株式会社MyVision運営)はコンサル業界特化の転職エージェント。利用者の8割がコンサル業界未経験、厚労省人材サービス総合サイトに基づく支援実績数比較でコンサル特化No.1(公称・出典明記)。特徴・会社情報・向いている人を公式情報ベースで解説します。利用は無料。",
+    "MyVision(マイビジョン)の口コミ・評判を出典つきで整理。Google口コミ★4.8(公称)の中身、悪い評判(担当者差・求人のミスマッチ)、未経験8割・支援実績No.1の根拠、会社情報を2026年10月14日に公式で確認。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説【2026年】",
-    description: "コンサル特化転職エージェント「MyVision」の特徴・向いている人を公式情報ベースで解説。利用は無料です。",
+    title: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
+    description: "MyVision(マイビジョン)の口コミ・評判を出典つきで整理。良い評判・悪い評判の傾向と公式データを2026年10月14日に確認。",
   },
 };
 
@@ -36,7 +36,15 @@ const faqData = [
   },
   {
     q: "どこの会社が運営していますか？",
-    a: "株式会社MyVision(東京都港区虎ノ門4-1-1 神谷町トラストタワー24階)が運営しています。有料職業紹介事業許可番号は13-ユ-314719、資本金1億円・従業員388名です(2026年8月16日に公式会社概要で確認)。",
+    a: "株式会社MyVision(2022年6月設立、東京都港区虎ノ門4-1-1 神谷町トラストタワー24階)が運営しています。有料職業紹介事業許可番号は13-ユ-314719、資本金1億円です。従業員数は同社の採用ページで423名(2026年10月現在)と掲載されています(2026年10月14日確認)。",
+  },
+  {
+    q: "MyVisionは「やばい」「断られる」という評判は本当ですか？",
+    a: "公式サイトの評判ページ(2026年9月3日更新)では、Google口コミの中に「担当者によって対応に差がある」「希望と合わない求人を勧められた」といった否定的な声もあることを自ら紹介しています。また「経験とかけ離れた求人を希望している人」「希望条件が多く現実的なバランスが取れていない人」には合わない可能性があると明記しています。コンサルファームの選考は職歴・論理力が問われるため、経歴によっては紹介できる求人が限られる点は理解しておきましょう。",
+  },
+  {
+    q: "Google口コミ★4.8は信頼できますか？",
+    a: "★4.8は公式サイトが「2025年9月16日時点」として掲げる公称値です。Googleの口コミは誰でも投稿でき、件数・時期で変動します。当サイトでは数値をそのまま評価に使わず、公式ページで紹介されている口コミの内容(良い点・悪い点)の傾向を要約して掲載しています。",
   },
   {
     q: "「今は転職しない」相談でも大丈夫ですか？",
@@ -47,8 +55,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説",
-  dateModified: "2026-08-16",
+  headline: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
+  dateModified: "2026-10-14",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/myvision/" },
@@ -79,15 +87,16 @@ export default function MyvisionReview() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "MyVisionの評判・特徴" },
+          { name: "MyVisionの口コミ・評判" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説【2026年】
+            MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】
           </h1>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイト・会社情報を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             MyVisionは、株式会社MyVisionが運営するコンサルティング業界特化の転職エージェントです。
             利用者の8割がコンサル業界未経験と公表しており、業界説明からケース面接対策までを未経験者前提で支援するのが特徴です。
@@ -126,7 +135,7 @@ export default function MyvisionReview() {
           {[
             { label: "特化領域", value: "コンサル" },
             { label: "未経験比率（公称）", value: "8割" },
-            { label: "従業員数", value: "388名" },
+            { label: "Google口コミ（公称）", value: "★4.8" },
             { label: "料金", value: "無料" },
           ].map((s) => (
             <div key={s.label} className="glass-card p-4 text-center">
@@ -136,7 +145,7 @@ export default function MyvisionReview() {
           ))}
         </div>
 
-        <h2>MyVisionの基本データ【2026年8月16日確認】</h2>
+        <h2>MyVisionの基本データ【2026年10月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -144,7 +153,7 @@ export default function MyvisionReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社MyVision</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都港区虎ノ門4-1-1 神谷町トラストタワー24階</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役社長 山口 翔平／代表取締役CEO 岡﨑 健斗</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金・従業員</th><td className="px-3 py-2 border-b">資本金1億円・従業員388名</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金・従業員</th><td className="px-3 py-2 border-b">資本金1億円・従業員423名(2026年10月現在・同社採用ページ)／設立2022年6月</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">13-ユ-314719</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象領域</th><td className="px-3 py-2 border-b">戦略コンサル／総合コンサル／ITコンサル／シンクタンク等のコンサルティングファーム</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／業界・個社説明／求人紹介／選考対策(ケース面接・Webテスト対策等)</td></tr>
@@ -152,14 +161,59 @@ export default function MyvisionReview() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイト(my-vision.co.jp)の会社概要・トップページ、2026年8月16日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイト(my-vision.co.jp)のトップページ・評判ページ、同社採用ページ(HRMOS)の会社情報、2026年10月14日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+
+        <h2>MyVision(マイビジョン)の口コミ・評判（出典つきの傾向）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          公式サイトはトップで「Google口コミ★4.8」(2025年9月16日時点・公称)を掲げ、評判ページ(2026年9月3日更新)でGoogle口コミを良い声・悪い声の両方とも引用しています。
+          当サイトがその引用25件(良い声18件・否定的な声7件)をテーマ別に数えると、次の傾向でした。本文の転載ではなく要約です。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">テーマ</th><th className="bg-gray-50 text-left px-3 py-2 border-b">良い声</th><th className="bg-gray-50 text-left px-3 py-2 border-b">否定的な声</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">面接・ケース面接対策</td><td className="px-3 py-2 border-b">7件</td><td className="px-3 py-2 border-b">2件</td></tr>
+              <tr><td className="px-3 py-2 border-b">担当者の対応・伴走</td><td className="px-3 py-2 border-b">5件</td><td className="px-3 py-2 border-b">3件</td></tr>
+              <tr><td className="px-3 py-2 border-b">求人提案・マッチング</td><td className="px-3 py-2 border-b">3件</td><td className="px-3 py-2 border-b">2件</td></tr>
+              <tr><td className="px-3 py-2 border-b">未経験からの転職</td><td className="px-3 py-2 border-b">4件</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">年収アップ</td><td className="px-3 py-2 border-b">3件</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">スケジュール調整</td><td className="px-3 py-2 border-b">2件</td><td className="px-3 py-2 border-b">1件</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-4">※1件が複数テーマにまたがる場合は重複して数えています。出典：MyVision公式「評判」ページ(my-vision.co.jp/myvision-reputation、2026年9月3日更新)に引用されたGoogle口コミ、2026年10月14日に当サイトが集計。</p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判で多い指摘</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>ケース面接・面接対策が具体的で役に立った</li>
+              <li>コンサル未経験でも業界の説明から丁寧に伴走してくれた</li>
+              <li>年収アップにつながった(公式は平均年収UP額156万円と公称。2026年1月の内定承諾者が対象)</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点で多い指摘</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>担当者によって対応に差がある</li>
+              <li>希望と合わない求人を勧められた</li>
+              <li>面接対策が十分でないと感じた／人気の担当者は日程調整が難しいことがある</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-sm text-text-secondary mb-8">
+          <strong>当サイトの見方：</strong>否定的な声も公式が自ら掲載している点は透明性があります。一方で、公式ページに載る口コミは同社が選んだものなので、全体の比率を表すものではありません。
+          「担当者差」はどのエージェントでも起きうるため、合わないと感じたら担当変更を申し出るか、<Link href="/review/newma/" className="text-teal underline">NewMA</Link>など別のコンサル特化エージェントと併用して比べるのが現実的です。
+          なお、検索上位の比較記事には「経歴がないと断られる」という声の紹介もありますが、出典が自社アンケート等で確認できないため、当サイトでは採用していません。
+        </p>
 
         <h2>MyVisionの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
           {[
             {
               title: "利用者の8割がコンサル業界未経験",
-              desc: "「ご支援する求職者様の8割はコンサル業界未経験の方」と公式に明記。わかりやすい業界・個社説明から始まり、選考対策までのノウハウが未経験者前提で蓄積されています。",
+              desc: "「ご支援する求職者様の8割はコンサル業界未経験の方」と公式に明記(トップページでは82%、2025年1〜12月の支援実績の統計と脚注)。わかりやすい業界・個社説明から始まり、選考対策までのノウハウが未経験者前提で蓄積されています。",
             },
             {
               title: "公的データ出典つきの支援実績数No.1(公称)",
@@ -206,7 +260,7 @@ export default function MyvisionReview() {
           コンサル業界全体の転職事情は<Link href="/industry/consulting/" className="text-teal underline">コンサル業界の転職ガイド</Link>もご覧ください。
         </p>
 
-        <h2>MyVision よくある質問</h2>
+        <h2>MyVision(マイビジョン)の口コミ・評判に関するよくある質問</h2>
         <div className="mb-8">
           {faqData.map((item, i) => (
             <details key={i} className="faq-item">

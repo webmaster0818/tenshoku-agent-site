@@ -6,15 +6,26 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/newma/" },
-  title: "NewMA(ニューマ)の評判は？コンサル・M&A特化の転職エージェントを徹底解説【2026年】",
+  title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
   description:
-    "NewMA(NewMA株式会社運営)はDX・戦略・AIコンサルやM&A仲介・FAS・PEファンドなどに特化した転職エージェント。業界経験者による書類・面接対策と内定後までのフォローが特徴。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
+    "NewMA(ニューマ)の口コミ・評判を出典つきで整理。コンサル・M&A特化の転職エージェントの特徴、運営会社NewMA株式会社(許可番号27-ユ-304092)、利用の流れ、注意点を公式情報で解説。利用は無料。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "NewMA(ニューマ)の評判は？コンサル・M&A特化の転職エージェントを徹底解説【2026年】",
+    title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
     description:
-      "コンサル・M&A領域特化の転職エージェント「NewMA」の特徴・向いている人を公式情報ベースで解説。利用は無料です。",
+      "NewMA(ニューマ)の口コミ・評判を出典つきで整理。コンサル・M&A特化の転職エージェントの特徴・運営会社・注意点を公式情報で解説。",
   },
+};
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
+  dateModified: "2026-10-14",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/newma/" },
+  inLanguage: "ja",
 };
 
 const faqData = [
@@ -36,7 +47,19 @@ const faqData = [
   },
   {
     q: "どこの会社が運営していますか？",
-    a: "NewMA株式会社(大阪市北区中之島3-6-32 ダイビル本館16階)が運営しています。有料職業紹介事業許可番号は27-ユ-304092です(2026年8月16日に公式サイトで確認)。",
+    a: "NewMA株式会社(大阪市中央区淡路町三丁目1番8号 淡路町七福ビル2階)が運営しています。代表取締役は林 健太郎氏で、公式サイトでは中之島キャピタルグループと紹介されています。有料職業紹介事業許可番号は27-ユ-304092です(2026年10月14日に公式サイトで確認)。",
+  },
+  {
+    q: "NewMAはやばい？怪しい会社ではない？",
+    a: "公式サイトで運営会社(NewMA株式会社)・所在地・代表者・有料職業紹介事業許可番号(27-ユ-304092)が公開されており、厚生労働大臣の許可を受けて職業紹介を行う事業者であることが確認できます(2026年10月14日確認)。一方で大手総合型と比べると公開口コミはまだ少数のため、面談で担当者の業界知見や紹介求人の質を自分で確かめるのが確実です。",
+  },
+  {
+    q: "NewMAの利用の流れは？",
+    a: "公式サイトでは①フォームから無料相談に申し込む②専任アドバイザーとのキャリア相談・企業に合わせた面接対策③求人の紹介、の3ステップと案内されています(2026年10月14日確認)。",
+  },
+  {
+    q: "NewMAの求人の勤務地や年収帯は？",
+    a: "公式サイトに掲載の求人例は、上場準備中企業のM&Aアドバイザリー(大阪府・年収500万〜1,200万円)、外資系大手ファームのDXコンサルタント(東京都・年収700万〜1,500万円)、M&A経験者向け管理職(東京都・年収1,200万〜2,500万円)です。求人の総数は公式サイトで公開されていません(2026年10月14日確認)。",
   },
 ];
 
@@ -53,6 +76,7 @@ const faqJsonLd = {
 export default function NewmaReview() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd).replace(/</g, "\\u003c") }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -63,15 +87,16 @@ export default function NewmaReview() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "NewMAの評判・特徴" },
+          { name: "NewMA(ニューマ)の口コミ・評判" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            NewMA(ニューマ)の評判は？コンサル・M&amp;A特化の転職エージェントを徹底解説【2026年】
+            NewMA(ニューマ)の口コミ・評判は？コンサル・M&amp;A特化の転職エージェントを解説【2026年10月】
           </h1>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイト・公開口コミを同日確認）</p>
           <p className="text-text-secondary leading-relaxed">
             NewMAは、NewMA株式会社が運営するコンサルティング・M&amp;A領域特化型の転職エージェントです。
             DX・戦略・AIコンサルタントに加え、M&amp;A仲介・FAS・経営企画・PEファンドといったハイエンド領域の求人を対象に、
@@ -121,22 +146,70 @@ export default function NewmaReview() {
           ))}
         </div>
 
-        <h2>NewMAの基本データ【2026年8月16日確認】</h2>
+        <h2>NewMA(ニューマ)の口コミ・評判（出典つきの傾向）</h2>
+        <p>
+          NewMAは2023年8月に代表が就任した比較的新しいサービスで、公開されている利用者の口コミはまだ<strong>少数</strong>です。
+          当サイトでは口コミの創作は行わず、確認できた公開情報の傾向だけを要約します。
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判の傾向</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>口コミサイト「コエテコキャリア」に、サービス利用証明済みと表示された口コミが<strong>2件</strong>掲載（同サイト表示の総合評価は4.8／5）。</li>
+              <li>内容の傾向は「担当者が親身」「キャリアの棚卸しにつながった」「初回面談から求人紹介・書類・面接まで一貫して手厚い」というサポート面への評価。</li>
+              <li>「ワンキャリア転職」のエージェントプロフィールでは、代表・林 健太郎氏の支援実績として33件が表示されており、M&amp;Aアドバイザリーファームや戦略コンサルへのオファー事例が公開されています。</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点の傾向</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>確認できた公開口コミには、悪い点の具体的な記載はありませんでした。ただし件数が2件と少なく、評判の判断材料としては限定的です。</li>
+              <li>公式仕様から読める注意点：対象はM&amp;A・コンサル・経営企画・PEファンドなどに限られ、<strong>それ以外の職種の求人はほぼ期待できません</strong>。</li>
+              <li>公式サイト掲載の求人例は大阪府・東京都の案件で、<strong>求人総数は非公開</strong>。地方勤務や求人数の多さを重視する人は総合型との併用が前提です。</li>
+            </ul>
+          </div>
+        </div>
+        <div className="bg-warm-gray rounded-xl p-4 mb-3 text-sm text-text-secondary">
+          <p className="font-bold text-navy mb-1">当サイトの見方</p>
+          <p>
+            公開口コミは高評価ですが、2件だけでは「評判が良い」と断定できません。運営会社・許可番号・代表者の経歴（未経験からM&amp;A業界に入った実務経験者）は公式で確認できるため、
+            <strong>怪しいサービスではない一方、担当者との相性が結果を左右しやすい少人数型</strong>と考えるのが妥当です。
+            無料面談で業界の内情をどこまで具体的に話してくれるかを確かめ、大手エージェントと並行して使うのがおすすめです。
+          </p>
+        </div>
+        <p className="text-xs text-text-muted mb-8">
+          出典: コエテコキャリア（coeteco.jp）のNewMA口コミページ（2件）・ワンキャリア転職（plus.onecareer.jp）のNewMAエージェントページの公開情報（2026年10月14日確認）の傾向を当サイトが要約。Web検索の範囲では、Googleマップ等の他の口コミは見つかりませんでした。
+        </p>
+
+        <h2>NewMAの基本データ【2026年10月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">NewMA(コンサル・M&amp;A領域特化型の転職エージェント)</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">NewMA株式会社</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">大阪市北区中之島3-6-32 ダイビル本館16階</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">林 健太郎</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">NewMA株式会社（中之島キャピタルグループ）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">〒541-0047 大阪市中央区淡路町三丁目1番8号 淡路町七福ビル2階</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役 林 健太郎（2023年8月就任。金融・人材系企業を経て2021年に中之島キャピタル入社、M&amp;Aアドバイザリーを経験）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">27-ユ-304092</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象領域</th><td className="px-3 py-2 border-b">DX・戦略・AIコンサル／M&amp;A仲介／FAS／人事組織コンサル／経営企画／PEファンド 等</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／求人紹介／書類・面接対策／条件交渉／内定後・入社後フォロー</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料(企業側の成功報酬モデル)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人例(公式)</th><td className="px-3 py-2 border-b">M&amp;Aアドバイザリー(大阪府・年収500万〜1,200万円)／外資系大手ファームのDXコンサル(東京都・700万〜1,500万円)／M&amp;A経験者向け管理職(東京都・1,200万〜2,500万円)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公式サイトでは非公開</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">問い合わせ</th><td className="px-3 py-2 border-b">電話 06-6444-4150(月〜金 10:00〜19:00)</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：NewMA公式サイト(newma.co.jp)および同社コンサル転職LP、2026年8月16日確認。支援実績数・決定率などの数値は公式サイトに記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://newma.co.jp/" rel="nofollow noopener" target="_blank" className="underline">NewMA公式サイト(newma.co.jp)</a>、2026年10月14日確認（所在地は前回確認時の記載から公式の現行表記に更新）。支援実績数・決定率などの数値は公式サイトに記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
+
+        <h2>NewMAの利用の流れ</h2>
+        <ol className="list-decimal pl-5 space-y-2 text-sm text-text-secondary mb-4">
+          <li><strong>無料相談に申し込む</strong>：公式サイトのフォームに必要事項を入力して送信します。</li>
+          <li><strong>キャリア相談・面接対策</strong>：専任アドバイザーと面談し、志望企業に合わせた書類・面接対策を受けます。</li>
+          <li><strong>求人の紹介</strong>：一般の求人票には載らない業務の実情なども含めて求人が紹介されます。内定後の条件交渉・入社後のフォローまで対応すると案内されています。</li>
+        </ol>
+        <p className="text-sm text-text-secondary mb-8">
+          退会（利用停止）の手続き方法は公式サイトに明記がありません。個人情報の開示・訂正・削除は本人確認のうえ対応すると公式に記載されているため、利用をやめたい場合は担当者または公式の問い合わせ窓口に連絡するのが確実です（2026年10月14日確認）。
+        </p>
 
         <h2>NewMAの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">

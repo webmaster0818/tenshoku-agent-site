@@ -6,15 +6,26 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/realme-career/" },
-  title: "リアルミーキャリアの評判は？時短正社員・ワーママ特化の転職エージェントを徹底解説【2026年】",
+  title: "リアルミーキャリアの口コミ・評判は？時短正社員ワーママ向け転職エージェントを解説【2026年10月】",
   description:
-    "リアルミーキャリアは、株式会社リアルミーが運営する時短正社員のワーママ・パパ向け転職エージェント。入社直後から時短勤務できる正社員求人に特化し、登録者は毎月2,000名以上（公式表記）。育児中アドバイザーのサポート・特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+    "リアルミーキャリアの口コミ・評判を、みん評など公開口コミの傾向と公式情報で整理。時短正社員特化の特徴、対象エリア（東京23区・大阪市中心）、利用の流れ、未経験は難しい等の注意点、許可番号まで解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "リアルミーキャリアの評判は？時短正社員・ワーママ特化の転職エージェントを徹底解説【2026年】",
+    title: "リアルミーキャリアの口コミ・評判は？時短正社員ワーママ向け転職エージェントを解説【2026年10月】",
     description:
-      "時短正社員特化の転職エージェント「リアルミーキャリア」の特徴・向いている人を公式情報ベースで解説。利用は無料です。",
+      "リアルミーキャリアの口コミ・評判の傾向と、時短正社員特化の特徴・対象エリア・注意点を公式情報ベースで解説。利用は無料です。",
   },
+};
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "リアルミーキャリアの口コミ・評判は？時短正社員ワーママ向け転職エージェントを解説【2026年10月】",
+  dateModified: "2026-10-14",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/realme-career/" },
+  inLanguage: "ja",
 };
 
 const faqData = [
@@ -24,19 +35,31 @@ const faqData = [
   },
   {
     q: "本当に転職直後から時短勤務できますか？",
-    a: "リアルミーキャリアは「転職後すぐに時短正社員として勤務が可能」な求人を扱うことを公式に掲げるサービスです（2026年8月22日確認）。取り扱い求人は正社員の時短勤務・フレックス・リモートなど柔軟な働き方ができるものが中心と公式FAQに記載されています。個別の求人条件は面談時にご確認ください。",
+    a: "公式FAQでは、紹介求人は基本的に入社時から時短勤務（週5日・1日6〜7時間）が可能な正社員求人と説明されています（2026年10月14日確認）。ただし入社時期・経験・既存メンバーとの業務バランスによっては、企業側が時短勤務者の配置は難しいと判断する場合もあると明記されています。個別の求人条件は面談時にご確認ください。",
   },
   {
     q: "どんな職種の求人がありますか？",
-    a: "公式サイトの求人カテゴリには、フルリモートOK・営業・エンジニア・デザイナー・WEBマーケティング・経理・労務・採用・事務・管理部門その他が並んでいます（2026年8月22日確認）。都市部のオフィスワーク系職種が中心の構成です。",
+    a: "公式サイトの求人カテゴリには、フルリモートOK・営業・エンジニア・デザイナー・WEBマーケティング・経理・労務・採用・事務・管理部門その他が並んでいます（2026年10月14日確認）。公式FAQではIT・WEB・人材系の中小企業が多めと説明されています。なお週5日フルリモートの求人は営業・エンジニア・WEBマーケティングの一部職種に限られるとされています。",
   },
   {
-    q: "パパ（男性）でも利用できますか？",
-    a: "利用できます。公式FAQに「育児中のワーママ&パパや、今後の出産や育児を見据えてワークライフバランスを整えたい方向けの転職エージェントサービス」と明記されており、対象は女性に限定されていません。",
+    q: "パパ（男性）や子どもがいない人でも利用できますか？",
+    a: "利用できます。公式FAQで男性の利用が可能で成約実績もあること、子どもがいない人でも介護との両立を目指す方や将来の出産・育児を見据えて働き方を考える方は利用できることが明記されています（2026年10月14日確認）。",
   },
   {
     q: "育休中でも相談できますか？",
-    a: "リアルミーキャリアは公式サイトで「育休明けの転職・退職」「育休中の転職・退職」に関する情報発信を行っており、育休中・育休明けの転職相談に対応しています。復帰後の働き方に不安がある段階での情報収集にも使えます。",
+    a: "公式FAQでは、子どもの預け先が決まっている（またはほぼ決まる見込みがある）うえで半年以内に入社できる場合は面談可能とされています。預け先が未確定の場合は、転職活動を始めるまでLINEで相談できると案内されています（2026年10月14日確認）。",
+  },
+  {
+    q: "リアルミーキャリアはやばい？評判が悪いって本当？",
+    a: "厚生労働大臣の有料職業紹介許可（許可番号13-ユ-308876、公式サイト表記）を得て運営されている転職エージェントです。公開口コミでは時短に理解のある求人を紹介してもらえたという声がある一方、選考連絡の遅さを指摘する声や低評価の投稿もあり、評価は分かれています。対象エリアが東京23区・大阪市内中心で、未経験職種への応募はほとんどないと公式FAQに明記されているため、条件が合わないと満足度が下がりやすい点は理解しておきましょう。",
+  },
+  {
+    q: "リアルミーキャリアで断られることはありますか？",
+    a: "あり得ます。公式FAQには、状況や求人の状況によっては面談や求人の提供が難しい場合があると記載されています。入社直後から時短で働く即戦力採用のため未経験から応募できる求人はほとんどないこと、育休中は預け先と半年以内の入社見込みが面談の条件になることも明記されています。",
+  },
+  {
+    q: "連絡がしつこくないですか？退会・配信停止はできますか？",
+    a: "公式FAQによると、連絡手段はLINEかメールのみで、マイページはありません。メール配信は専用フォームから停止でき、退会はLINEまたはメールで希望を伝えると個人情報が削除されると案内されています（2026年10月14日確認）。",
   },
 ];
 
@@ -59,24 +82,26 @@ export default function RealmeCareerReview() {
           __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
 
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "リアルミーキャリアの評判・特徴" },
+          { name: "リアルミーキャリアの口コミ・評判" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            リアルミーキャリアの評判は？時短正社員・ワーママ特化の転職エージェントを徹底解説【2026年】
+            リアルミーキャリアの口コミ・評判は？時短正社員ワーママ向け転職エージェントを解説【2026年10月】
           </h1>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイトの情報を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             リアルミーキャリアは、株式会社リアルミーが運営する「時短正社員のワーママ向け転職エージェント」です。
             マミートラック・時短期限切れ・小1の壁といった育児と仕事の両立の悩みに対して、
             入社直後から時短勤務・フレックス・リモートで働ける正社員求人の紹介に特化しています。
-            この記事では、特徴・対象職種・向いている人を、公式サイトで確認できる情報をもとに整理します。
+            この記事では、公開口コミで見られる評判の傾向と、特徴・対象エリア・注意点・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
 
@@ -121,21 +146,83 @@ export default function RealmeCareerReview() {
           ))}
         </div>
 
-        <h2>リアルミーキャリアの基本データ【2026年8月22日確認】</h2>
+        <h2>リアルミーキャリアの基本データ【2026年10月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">リアルミーキャリア（時短正社員のワーママ向け転職エージェント）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社リアルミー（Real Me Inc.）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象者</th><td className="px-3 py-2 border-b">育児中のワーママ・パパ／今後の出産・育児を見据えてワークライフバランスを整えたい人</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">取り扱い求人</th><td className="px-3 py-2 border-b">正社員の時短勤務・フレックス・リモートなど柔軟な働き方ができる求人（フルリモートOK／営業／エンジニア／デザイナー／WEBマーケティング／経理／労務／採用／事務／管理部門）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">面談／求人紹介／選考対策／条件交渉（育児中のアドバイザーが担当と公式表記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都港区西新橋2-2-7 マリソルビル3階（公式サイト表記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介許可番号</th><td className="px-3 py-2 border-b">13-ユ-308876（公式サイト表記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象者</th><td className="px-3 py-2 border-b">育児中のワーママ・パパ／介護と仕事の両立を目指す人／今後の出産・育児を見据えて働き方を考える人（子どもがいなくても利用可）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象エリア</th><td className="px-3 py-2 border-b">東京23区・大阪市内の求人が中心（それ以外の地域は拡大を目指していると公式FAQに記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">取り扱い求人</th><td className="px-3 py-2 border-b">正社員の時短勤務・フレックス・リモートなど柔軟な働き方ができる求人。基本は入社時から週5日・1日6〜7時間の時短勤務が可能な求人（フルリモートOK／営業／エンジニア／デザイナー／WEBマーケティング／経理／労務／採用／事務／管理部門）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">面談／求人紹介／書類作成（職務経歴書の作成代行あり）／オンライン面接対策／条件交渉（育児中のアドバイザーが担当と公式表記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談・連絡方法</th><td className="px-3 py-2 border-b">面談は電話またはGoogle Meetで約30分（平日9時〜18時30分開始まで、土日祝・19時以降は対応なし）。連絡はLINEまたはメール</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">コンテンツ</th><td className="px-3 py-2 border-b">時短勤務の給与シミュレーター／ワーママ転職ノウハウ記事／時短転職の体験談</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（企業側の成功報酬モデル）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：リアルミーキャリア公式サイト（realme-career.com）および株式会社リアルミー会社サイト（realme.co.jp）、2026年8月22日確認。「時短正社員の転職支援実績No.1」「登録者数毎月2,000名以上」は公式サイト表記（注記条件は公式サイト参照）。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://www.realme-career.com/" rel="nofollow noopener" target="_blank" className="underline">リアルミーキャリア公式サイト</a>・<a href="https://www.realme-career.com/faq" rel="nofollow noopener" target="_blank" className="underline">公式よくある質問</a>、2026年10月14日確認。「時短正社員の転職支援実績No.1」「登録者数毎月2,000名以上」は公式サイト表記（No.1は「時短正社員向けに職業紹介業を営む事業者の転職支援実績を厚労省が運営する人材サービス総合サイトから収集（当社調べ）」と注記）。当サイトでは口コミ・数値の創作は行っていません。</p>
+
+        <h2>リアルミーキャリアの口コミ・評判（出典つきの傾向）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          口コミサイト「みん評」に掲載されている公開口コミを中心に、良い評判・悪い評判で見られる傾向を当サイトが要約しました。口コミ本文の転載や、当サイト独自の点数付けは行っていません。
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判の傾向</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>時短勤務が可能で、子育てに理解のある企業の求人を紹介してもらえた</li>
+              <li>聞きたいことに答えてもらえた、というアドバイザー対応への好意的な声</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点の傾向</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>選考結果などの連絡が遅い、問い合わせへの返答が簡素だったという不満</li>
+              <li>「おすすめしない」とする低評価もあり、評価は分かれている</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-xs text-text-muted mb-4">
+          出典：みん評「リアルミーキャリア」の公開口コミ（2026年10月14日、検索結果に表示された投稿の範囲で確認。確認できた投稿は一部のため、傾向は限定的な要約です）を当サイトが要約。評価点・件数は最新の掲載ページでご確認ください。Googleマップ等その他の口コミは、確認できた公開口コミが少数のため要約対象にしていません。
+        </p>
+        <div className="bg-teal/5 rounded-2xl p-5 mb-10 border border-teal/15">
+          <p className="font-bold text-teal mb-2">当サイトの見方</p>
+          <p className="text-sm text-text-secondary leading-relaxed">
+            評価が分かれる背景は、公式FAQに書かれているサービス仕様からある程度説明できます。求人は<strong>東京23区・大阪市内が中心</strong>で、<strong>IT・WEB・人材系の中小企業が多め</strong>、入社直後から時短で働く即戦力採用のため<strong>未経験から応募できる求人はほとんどない</strong>とされています。
+            また連絡は平日の営業時間内にLINEで順次返信される仕組みです。都市部在住で実務経験があり、時短正社員という条件を最優先にしたい人には合いやすい一方、地方在住・未経験職種への挑戦・求人数重視の人は満足しにくい可能性があります。
+            求人の幅を確保したい場合は総合型エージェントとの併用がおすすめです。
+          </p>
+        </div>
+
+        <h2>リアルミーキャリアの利用の流れと退会方法</h2>
+        <ol className="space-y-2 text-sm text-text-secondary list-decimal pl-5 mb-4">
+          <li>公式サイトで会員登録（約1分）</li>
+          <li>LINE登録とアンケート回答</li>
+          <li>アドバイザーとの面談（電話またはGoogle Meetで約30分）</li>
+          <li>LINEで1対1のやり取りをしながら求人紹介 → 応募（リアルミーから企業へ推薦）</li>
+          <li>オンライン面接対策 → 内定・条件交渉 → 入社</li>
+        </ol>
+        <p className="text-sm text-text-secondary mb-2">
+          求人検索ページはなく、面談で希望をヒアリングしたうえで求人が案内される仕組みです。ログイン用のマイページもなく、やり取りはLINEかメールで行います。
+        </p>
+        <p className="text-sm text-text-secondary mb-2">
+          <strong>退会方法：</strong>LINEまたはメールで退会希望を伝えると個人情報が削除されます。メール配信のみ止めたい場合は専用フォームから配信停止できます。
+        </p>
+        <p className="text-xs text-text-muted mb-10">出典：リアルミーキャリア公式「よくある質問」（2026年10月14日確認）。</p>
+
+        <h2>リアルミーキャリアのデメリット・注意点（公式情報から）</h2>
+        <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5 mb-10">
+          <li><strong>対象エリアが限られる：</strong>東京23区・大阪市内の求人が中心。</li>
+          <li><strong>未経験職種への転職は難しい：</strong>即戦力採用のため、未経験から応募できる求人はほとんどないと公式FAQに明記。</li>
+          <li><strong>週2〜4日勤務は基本対象外：</strong>求人は基本的に週5日勤務。週2〜4日の求人はまれで、その場合もパート・アルバイト等の雇用形態がほとんど。</li>
+          <li><strong>フルリモートは一部職種のみ：</strong>週5日フルリモートは営業・エンジニア・WEBマーケティングの一部に限られる。</li>
+          <li><strong>時短でも配置が難しいと判断される場合がある：</strong>入社時期・経験・既存メンバーとの業務バランス次第で企業が時短配置を難しいと判断するケースもある。</li>
+          <li><strong>面談は平日日中のみ：</strong>平日9時〜18時30分開始までで、土日祝・19時以降は対応なし。</li>
+        </ul>
 
         <h2>リアルミーキャリアの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
@@ -181,7 +268,8 @@ export default function RealmeCareerReview() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>フルタイムで女性のキャリアアップ転職を目指す人 →<Link href="/review/type-woman/" className="text-teal underline">type女性の転職エージェント</Link>など女性特化型</li>
               <li>幅広い求人から選びたい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>との併用</li>
-              <li>地方在住で在宅以外の勤務を希望する人 →求人が都市部中心のため総合型で選択肢を確保</li>
+              <li>東京23区・大阪市内以外で通勤勤務を希望する人 →求人が都市部中心のため総合型で選択肢を確保</li>
+              <li>未経験職種に挑戦したい人 →即戦力採用中心のため総合型・未経験向けサービスを検討</li>
             </ul>
           </div>
         </div>

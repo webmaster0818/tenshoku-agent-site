@@ -7,18 +7,45 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/type-woman/" },
-  title: "type女性の転職エージェントの評判は？女性特化の老舗エージェントを徹底解説【2026年】",
+  title: "type女性の転職エージェントの口コミ・評判は？やばい？求人の地域差・注意点を公式データで検証【2026年10月】",
   description:
-    "type女性の転職エージェント（株式会社キャリアデザインセンター運営・東証プライム上場）は女性の転職に特化したエージェント。年間登録者数15,000名以上、年収UP希望者の約79%が年収アップ（公称）。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
+    "type女性の転職エージェント（タイプ女性）の口コミ・評判を、出典つきの傾向と公式データで検証。求人総数37,615件・東京と大阪の求人数の差、運営会社・許可番号、利用の流れ、やばい？等のFAQまで解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "type女性の転職エージェントの評判は？女性特化の老舗エージェントを徹底解説【2026年】",
+    title: "type女性の転職エージェントの口コミ・評判は？やばい？求人の地域差・注意点を公式データで検証【2026年10月】",
     description:
-      "女性の転職に特化した「type女性の転職エージェント」の特徴・実績・向いている人を公式情報ベースで解説。利用は無料です。",
+      "type女性の転職エージェント（タイプ女性）の口コミ・評判を出典つきで整理。求人数・地域差・運営会社・利用の流れを公式情報で確認しました。",
   },
 };
 
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "type女性の転職エージェントの口コミ・評判は？やばい？求人の地域差・注意点を公式データで検証【2026年10月】",
+  dateModified: "2026-10-14",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/type-woman/" },
+  inLanguage: "ja",
+};
+
 const faqData = [
+  {
+    q: "type女性の転職エージェントはやばい・怪しいサービスですか？",
+    a: "運営は東証プライム上場の株式会社キャリアデザインセンター(1993年7月8日設立・東京都港区赤坂)で、厚生労働大臣許可(13-ユ-040429)を受けて人材紹介事業を行っています(運営会社の公式「運営会社について」ページ、2026年10月14日確認)。同社は「type」「女の転職type」「type転職エージェント」なども運営しており、許可を受けた正規の転職エージェントです。求職者の利用は無料です。",
+  },
+  {
+    q: "type女性の転職エージェントで求人を紹介してもらえない・断られることはありますか？",
+    a: "公式サイトのFAQでも、エージェントには「不得意分野がある点には注意が必要」と案内されています。求人は勤務地に偏りがあり、2026年10月14日時点で東京都勤務地の検索結果は公開8,682件・非公開22,468件、大阪府は公開1,170件・非公開2,578件でした(公式求人検索)。希望の勤務地・職種の求人が少ない場合は紹介が限られる可能性があるため、総合型エージェントとの併用をおすすめします。",
+  },
+  {
+    q: "地方在住でも利用できますか？",
+    a: "公式の求人検索では全国の都道府県と海外を勤務地として選べ、カウンセリングは電話面談で受けられます。ただし求人の多くは首都圏に集中しており(上記の東京都・大阪府の件数を参照)、首都圏・関西以外の地域では紹介できる求人が少ない可能性があります。地方の求人は地域に強い総合型エージェントと併用して比較するのが現実的です。",
+  },
+  {
+    q: "「女の転職type」と「type女性の転職エージェント」は同じサービスですか？",
+    a: "どちらも株式会社キャリアデザインセンターが運営していますが、運営会社の公式サイトでは別サービスとして掲載されています。「女の転職type」は自分で求人を探して応募する転職サイト、「type女性の転職エージェント」はキャリアアドバイザーが面談・求人紹介・面接対策・条件交渉などを支援する転職エージェントです。口コミを調べる際は、どちらのサービスに対する評価かを確認してください。",
+  },
   {
     q: "type女性の転職エージェントの利用に費用はかかりますか？",
     a: "求職者の利用は無料です。人材紹介サービスの標準的なビジネスモデルとして、採用が決まった際に企業側が成功報酬を支払う仕組みのため、求職者がキャリアカウンセリング・求人紹介・面接対策などの費用を負担することはありません。",
@@ -60,21 +87,28 @@ export default function TypeWomanReview() {
           __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
 
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "type女性の転職エージェントの評判・特徴" },
+          { name: "type女性の転職エージェントの口コミ・評判" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            type女性の転職エージェントの評判は？女性特化の老舗エージェントを徹底解説【2026年】
+            type女性の転職エージェントの口コミ・評判は？やばい？求人の地域差・注意点を公式データで検証【2026年10月】
           </h1>
+          <p className="text-xs text-text-muted mb-2">最終更新: 2026年10月14日（公式サイトの求人数・運営会社情報を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
-            type女性の転職エージェントは、東証プライム上場の株式会社キャリアデザインセンターが運営する、女性の転職に特化した転職エージェントです。
+            type女性の転職エージェント（「type女性」「タイプ女性の転職エージェント」とも検索されます）は、東証プライム上場の株式会社キャリアデザインセンターが運営する、女性の転職に特化した転職エージェントです。
             転職経験や子育て経験を生かしたキャリアアドバイザーによるサポートを掲げ、年間登録者数15,000名以上(2024年実績・公称)の規模で運営されています。
             この記事では、特徴・実績・向いている人を、公式サイトで確認できる情報をもとに整理します。
           </p>
@@ -92,7 +126,7 @@ export default function TypeWomanReview() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>年間登録者数15,000名以上(2024年実績・公称)</strong>。求人総数38,301件・非公開求人約7割(2026年8月16日時点の公式表記)と、女性特化型として大きな求人規模です。</span>
+              <span><strong>年間登録者数15,000名以上(2024年実績・公称)</strong>。求人総数37,615件・非公開求人26,786件(約7割、2026年10月14日時点の公式表記)と、女性特化型として大きな求人規模です。ただし求人は東京都勤務地に集中しています。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -121,7 +155,7 @@ export default function TypeWomanReview() {
           ))}
         </div>
 
-        <h2>type女性の転職エージェントの基本データ【2026年8月16日確認】</h2>
+        <h2>type女性の転職エージェントの基本データ【2026年10月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -130,14 +164,63 @@ export default function TypeWomanReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都港区赤坂3-21-20 赤坂ロングビーチビル</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">1993年7月8日</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">13-ユ-040429</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">求人総数38,301件・非公開求人約7割(23,379件)【2026年8月16日時点の公式表記】</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">求人総数37,615件・非公開求人26,786件(約7割)【2026年10月14日時点の公式表記】</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">勤務地別の求人数</th><td className="px-3 py-2 border-b">東京都: 公開8,682件・非公開22,468件／大阪府: 公開1,170件・非公開2,578件【2026年10月14日の公式求人検索の表示件数】</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役社長兼会長 多田 弘實</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談方法</th><td className="px-3 py-2 border-b">電話面談(来社不要)。オンラインの転職相談会も開催</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象</th><td className="px-3 py-2 border-b">転職を考える女性(デザイナー・マーケティング・営業・ITエンジニア・コンサルティング等の複数職種)</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">電話面談によるキャリアカウンセリング／求人紹介／応募企業ごとの面接対策／条件交渉の代行／入社後フォロー</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">電話面談によるキャリアカウンセリング／求人紹介／応募書類の作成支援／応募企業ごとの面接対策／面接日程の調整／入社日などの条件交渉の代行／入社後フォロー／女性管理職比率・産育休取得率などの企業情報の確認</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料(企業側の成功報酬モデル)</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：type女性の転職エージェント公式サイト(type.woman-agent.jp)および株式会社キャリアデザインセンター会社概要、2026年8月16日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://type.woman-agent.jp/" rel="nofollow noopener" target="_blank" className="underline">type女性の転職エージェント公式サイト</a>(求人数・サポート内容・勤務地別の検索件数)および<a href="https://type.career-agent.jp/aboutus/" rel="nofollow noopener" target="_blank" className="underline">運営会社について(株式会社キャリアデザインセンター)</a>(所在地・設立・代表者・許可番号)、2026年10月14日確認。勤務地別の件数は複数勤務地の求人が重複して数えられる場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
+
+        <h2>type女性の転職エージェントの口コミ・評判（出典つきの傾向）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          type女性の転職エージェントの口コミ・評判を、当サイトで確認できた範囲で整理します。
+          ネット上の「評判」記事の多くは転職サービスの比較・紹介メディア（アフィリエイト掲載を含む）によるもので一次情報ではないため、当サイトでは口コミの出典にしていません。
+          口コミサイト「みん評」は当サイトの確認環境から閲覧できず(2026年10月14日)、一次の公開口コミとして内容を確認できたものは少数でした。そのため以下は、公式が公表する評価データと、公式仕様から読み取れる事実をもとにまとめています。
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判につながる公表データ</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>面談時のカウンセリングで89.4%が高評価(公称。サービス推奨度0〜10で9・10と回答した378名のアンケートを集計、調査期間2025年1月〜2026年3月)</li>
+              <li>年収UP希望者の約79%が年収アップ(公称・自社調べ、2021年10月1日〜2025年3月31日)</li>
+              <li>アドバイザー全員が結婚・出産など女性特有のキャリアとライフプランの悩みに精通していると公式FAQで案内</li>
+              <li>女性管理職比率・産育休取得率など、求人票だけでは分かりにくい企業情報を確認してくれる</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点になりうる点</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>求人は東京都勤務地に集中(東京都: 公開8,682件・非公開22,468件、大阪府: 公開1,170件・非公開2,578件)。首都圏以外では紹介求人が少ない可能性</li>
+              <li>公式FAQ自身が「エージェントごとの不得意分野がある」と注意喚起しており、希望条件次第で紹介が限られることがある</li>
+              <li>面談は電話中心のため、対面で相談したい人には合わない場合がある</li>
+              <li>上記の満足度・年収UP率は自社集計の数値で、第三者の検証値ではない</li>
+            </ul>
+          </div>
+        </div>
+        <div className="bg-warm-gray rounded-2xl p-5 mb-3">
+          <p className="font-bold text-navy mb-1 text-sm">当サイトの見方</p>
+          <p className="text-sm text-text-secondary leading-relaxed">
+            運営基盤(東証プライム上場・厚生労働大臣許可13-ユ-040429)と女性のキャリア相談への特化は明確で、「やばい」と言える根拠は確認できませんでした。
+            一方で求人の地域差ははっきりしており、首都圏で働きたい女性には有力な選択肢、地方や関西以外での転職を考える人は総合型エージェントとの併用が前提、というのが当サイトの評価です。
+          </p>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：type女性の転職エージェント公式サイトの公表データ・FAQ・求人検索(2026年10月14日確認)。公開口コミサイトの本文の転載・独自の点数付けは行っていません。</p>
+
+        <h2>type女性の転職エージェントの利用の流れ</h2>
+        <ol className="list-decimal pl-5 space-y-1 text-sm text-text-secondary mb-3">
+          <li><strong>登録</strong>：公式サイトから無料登録</li>
+          <li><strong>面談</strong>：電話でキャリアカウンセリング(来社不要)</li>
+          <li><strong>求人紹介</strong>：非公開求人を含めて希望に合う求人を紹介</li>
+          <li><strong>応募</strong>：マイページから応募。応募書類の作成もサポート</li>
+          <li><strong>面接</strong>：日程調整の代行と応募企業ごとの面接対策</li>
+          <li><strong>内定</strong>：入社日などの条件交渉の代行、入社後のフォロー</li>
+        </ol>
+        <p className="text-xs text-text-muted mb-8">出典：type女性の転職エージェント公式サイト(2026年10月14日確認)。退会方法は公式サイト上のFAQでは確認できなかったため、利用を止めたい場合は担当アドバイザーに連絡してください。</p>
 
         <h2>type女性の転職エージェントの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
@@ -152,7 +235,7 @@ export default function TypeWomanReview() {
             },
             {
               title: "非公開求人が約7割",
-              desc: "求人総数38,301件のうち約7割(23,379件)が非公開求人と公表されています(2026年8月16日時点)。登録することで一般公開されていない求人に出会えます。",
+              desc: "求人総数37,615件のうち約7割(26,786件)が非公開求人と公表されています(2026年10月14日時点)。登録することで一般公開されていない求人に出会えます。",
             },
             {
               title: "年収UP希望者の約79%が年収アップ(公称)",
