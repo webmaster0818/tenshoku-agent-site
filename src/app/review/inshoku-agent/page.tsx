@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/inshoku-agent/" },
   title: "飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】",
   description:
-    "飲食店ドットコムエージェントの口コミ・評判を出典つきで整理。東証プライム上場シンクロ・フード運営（許可番号13-ユ-301534）の飲食業界特化エージェントの特徴・注意点・利用の流れを公式情報で解説。利用は無料。",
+    "飲食店ドットコムエージェントの口コミ・評判を出典つきで整理。2026年3月開始、東証プライム上場シンクロ・フード運営（許可番号13-ユ-301534）の飲食業界特化エージェントの特徴・注意点・利用の流れを解説。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】",
@@ -48,6 +48,14 @@ const faqData = [
   {
     q: "エージェント以外の探し方もできますか？",
     a: "できます。登録すると、同社が10年以上運営する求人サイト「求人飲食店ドットコム」（累計掲載求人7万件以上）も利用でき、気になる求人に自分で応募する・エージェントに相談する・スカウトを待つ、の3通りを自由に使い分けられると公式に記載されています。",
+  },
+  {
+    q: "飲食店ドットコムエージェントの口コミが少ないのはなぜ？",
+    a: "運営会社のプレスリリース（2026年3月2日掲載）によると、飲食店ドットコムエージェントは2026年3月に提供を開始したばかりのサービスです。そのため2026年10月14日時点では、エージェント本体についての利用者の公開口コミはまだ見当たりません。「求人飲食店ドットコム」や「飲食店ドットコム」（物件・M&Aなど）は同じ会社の別サービスなので、口コミを調べるときは混同しないよう注意してください。",
+  },
+  {
+    q: "どんなお店の求人が多いですか？",
+    a: "提供開始時のプレスリリースでは、個人店・専門店から大手企業まで幅広く扱い、中心は個店から10店舗規模の飲食企業、海鮮・フレンチ・イタリアン・鉄板焼きなどの専門店や高単価業態も含むと説明されています。大手チェーンだけでなく、個店・専門店で技術を磨きたい人も相談しやすい構成です。",
   },
   {
     q: "飲食店ドットコムエージェントはやばい・怪しいサービスですか？",
@@ -162,6 +170,8 @@ export default function InshokuAgentReview() {
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">飲食店ドットコムエージェント（飲食業界特化の正社員転職・就職エージェント）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">提供開始</th><td className="px-3 py-2 border-b">2026年3月（運営会社のプレスリリースより）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な求人先</th><td className="px-3 py-2 border-b">個店〜10店舗規模の飲食企業が中心。海鮮・フレンチ・イタリアン・鉄板焼きなどの専門店や高単価業態も含み、大手企業も扱う（提供開始時のプレスリリースより）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社シンクロ・フード（東京証券取引所プライム市場上場・証券コード3963）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都渋谷区恵比寿南1-7-8 恵比寿サウスワン（本社）／大阪支社：大阪府大阪市北区梅田3-4-5 毎日新聞ビル8階</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立・代表者</th><td className="px-3 py-2 border-b">2003年4月24日設立／代表取締役 大久保俊</td></tr>
@@ -214,7 +224,8 @@ export default function InshokuAgentReview() {
         <h2>飲食店ドットコムエージェントの口コミ・評判（出典つきの傾向）</h2>
         <p className="text-sm text-text-secondary mb-4">
           2026年10月14日に、Web検索で「飲食店ドットコムエージェント 口コミ」「飲食店ドットコムエージェント 評判」を調べたところ、
-          <strong>エージェントサービスそのものについての利用者の公開口コミは確認できませんでした</strong>（検索上位に出るのは運営会社や同社の別サービスの情報が中心）。
+          <strong>エージェントサービスそのものについての利用者の公開口コミは確認できませんでした</strong>（検索上位に出るのは運営会社や同社の別サービスの情報が中心で、エージェント本体を独自に検証した第三者の比較記事も見当たりませんでした）。
+          背景として、このサービスは<strong>2026年3月に提供が始まったばかり</strong>です（運営会社のプレスリリース、2026年3月2日掲載）。
           運営元の求人サイト「求人飲食店ドットコム」やM&amp;Aサービスの評価は別サービスのものなので、本記事では評判として扱っていません。
           そのため、当サイトでは架空の体験談や点数は載せず、公式仕様から読み取れる「良い点として挙がりやすい要素」と「起こりうる注意点」を事実ベースで整理します。
         </p>
@@ -243,7 +254,16 @@ export default function InshokuAgentReview() {
           <strong>当サイトの見方：</strong>運営元の信頼性（上場企業・許可事業者）と飲食業界での実績は公式情報で確認できます。一方、エージェントとしての利用者の声はまだ見えにくいため、
           飲食業界の転職なら<Link href="/review/oishiru-career/" className="text-teal underline">オイシルキャリア</Link>などの飲食特化サービスや総合型と併用し、担当者との相性や紹介求人の質を自分で比べるのがおすすめです。
         </p>
-        <p className="text-xs text-text-muted mb-8">出典：Web検索結果（2026年10月14日確認）。エージェント本体の公開口コミは確認できず、他社の転職比較記事は一次情報でないため出典にしていません。仕様は飲食店ドットコムエージェント公式サービス紹介ページ（<a href="https://job.inshokuten.com/about/agent_service" rel="nofollow noopener" target="_blank" className="text-teal underline">job.inshokuten.com/about/agent_service</a>）、2026年10月14日確認。</p>
+        <div className="rounded-xl border border-border p-4 mb-4 text-sm text-text-secondary">
+          <strong>口コミを探すときの注意（同じ会社の別サービス）：</strong>
+          <ul className="list-disc pl-5 mt-1 space-y-1">
+            <li>求人飲食店ドットコム：求人サイト（自分で応募する形）。エージェントとは使い方が異なる</li>
+            <li>飲食店ドットコム：店舗物件探し・開業支援など飲食店経営者向けのサービス</li>
+            <li>飲食店ドットコム M&amp;A：飲食店の事業譲渡の仲介</li>
+          </ul>
+          <p className="mt-1">これらの評判は、エージェント（転職支援）の評判とは別物です。今後エージェント本体の口コミが出てきたら、投稿日と「担当者からの紹介だったか」を確認して読むのがおすすめです。</p>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：Web検索結果（2026年10月14日確認）・運営会社プレスリリース（Koubo掲載、2026年3月2日）。エージェント本体の公開口コミは確認できず、他社の転職比較記事は一次情報でないため出典にしていません。仕様は飲食店ドットコムエージェント公式サービス紹介ページ（<a href="https://job.inshokuten.com/about/agent_service" rel="nofollow noopener" target="_blank" className="text-teal underline">job.inshokuten.com/about/agent_service</a>）、2026年10月14日確認。</p>
 
         <h2>飲食店ドットコムエージェントの利用の流れ</h2>
         <ol className="list-decimal pl-6 space-y-1 text-sm text-text-secondary mb-3">

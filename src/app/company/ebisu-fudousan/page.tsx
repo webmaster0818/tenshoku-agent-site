@@ -6,7 +6,7 @@ import FelmatCta from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "恵比寿不動産の口コミ・評判（採用・働き方）は？年収・残業・研修を公式情報で解説【2026年10月】",
   description:
-    "恵比寿不動産（株式会社ライフアドバンス）の口コミ・評判を採用・働き方の観点で整理。完全反響営業、月給30万円〜、みなし残業45時間分込み、年間休日115日以上、社員64名など公式採用ページの事実と注意点を解説。",
+    "恵比寿不動産（株式会社ライフアドバンス）の口コミ・評判を採用・働き方の観点で整理。エン カイシャの評判（17人・スコア3.7・平均残業32時間）と、完全反響営業・みなし残業45時間分込みなど公式採用情報から注意点を解説。",
   alternates: { canonical: "/company/ebisu-fudousan/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
@@ -18,7 +18,11 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "恵比寿不動産はやばい？ブラック？",
-    a: "公開口コミで傾向を判断できるだけの件数は確認できませんでした（2026年10月14日時点）。公式採用ページでは、飛び込み営業なしの完全反響営業、残業月20時間以内、年間休日115日以上、育児休暇取得実績100%（2025年度）と記載される一方、月給にはみなし残業45時間分が含まれ、休日はローテーション制です。条件はカジュアル面談で職種ごとに確認するのがおすすめです。",
+    a: "社員口コミサイト「エン カイシャの評判」では、社員・元社員17人の回答による評判スコアが3.7、掲載口コミは5件で、社員同士の協力やコミュニケーションの活発さを評価する声がある一方、成果が出ない人は苦しむという指摘もあります（2026年10月14日確認）。件数が少ないため、これだけで判断するのは難しい状況です。公式採用ページでは、飛び込み営業なしの完全反響営業、残業月20時間以内、年間休日115日以上、育児休暇取得実績100%（2025年度）と記載される一方、月給にはみなし残業45時間分が含まれ、休日はローテーション制です。条件はカジュアル面談で職種ごとに確認するのがおすすめです。",
+  },
+  {
+    q: "恵比寿不動産の残業は本当に月20時間以内？",
+    a: "公式採用ページは「残業月20時間以内」と記載していますが、エン カイシャの評判では回答者17人の平均残業時間が32時間（納得度85%）でした。同サイトは「回答者の平均値になるため、実際の平均値とは異なります」と注記しています（2026年10月14日確認）。月給にはみなし残業45時間分が含まれるため、希望職種の実際の残業時間はカジュアル面談で確認するのが確実です。",
   },
   {
     q: "恵比寿不動産の休日・勤務時間は？",
@@ -133,12 +137,11 @@ export default function EbisuFudousanCareer() {
         </p>
         <div className="grid sm:grid-cols-2 gap-4 mb-4">
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2">社員口コミ（働き方）の確認状況</h3>
+            <h3 className="font-bold text-navy mb-2">社員口コミ（働き方）：エン カイシャの評判</h3>
             <p className="text-sm text-text-secondary leading-relaxed">
-              2026年10月14日時点で、当サイトがWeb検索で確認した範囲では、恵比寿不動産（株式会社ライフアドバンス）の社員・元社員による公開口コミは
-              <strong>件数・内容を確認できるものが少数</strong>で、傾向として要約できるだけの量を確認できませんでした。
-              OpenWork・転職会議・エン ライトハウス・Indeed企業ページ等で「ライフアドバンス」または「恵比寿不動産」と社名検索し、
-              投稿日（新しいものか）と職種（賃貸・売買・管理のどれか）を確認したうえで参考にすることをおすすめします。
+              エン・ジャパンの社員口コミサイト「エン カイシャの評判」の株式会社ライフアドバンス（恵比寿不動産）ページでは、社員・元社員<strong>17人の回答による評判スコアが3.7</strong>、
+              回答者の平均年収642万円（17人・平均30歳、納得度81%）、平均残業時間32時間（納得度85%）と表示されています（2026年10月14日確認）。
+              同サイトは「回答者の平均値になるため、実際の平均値とは異なります」と注記しています。
             </p>
           </div>
           <div className="card-hover p-5">
@@ -150,16 +153,51 @@ export default function EbisuFudousanCareer() {
             </p>
           </div>
         </div>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <caption className="text-left text-sm font-bold text-navy mb-2">エン カイシャの評判：項目別スコア（17人の回答）</caption>
+            <tbody>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">会社の成長性・将来性</th><td className="px-3 py-2 border-b">3.8</td><th className="bg-gray-50 text-left px-3 py-2 border-b">事業の優位性・独自性</th><td className="px-3 py-2 border-b">3.6</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">実力主義</th><td className="px-3 py-2 border-b">3.9</td><th className="bg-gray-50 text-left px-3 py-2 border-b">活気のある風土</th><td className="px-3 py-2 border-b">3.7</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">20代成長環境</th><td className="px-3 py-2 border-b">3.8</td><th className="bg-gray-50 text-left px-3 py-2 border-b">仕事を通じた社会貢献</th><td className="px-3 py-2 border-b">3.6</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">イノベーションへの挑戦</th><td className="px-3 py-2 border-b">3.7</td><th className="bg-gray-50 text-left px-3 py-2 border-b">経営陣の手腕</th><td className="px-3 py-2 border-b">3.6</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="grid sm:grid-cols-2 gap-4 mb-4">
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">良い評判の傾向（掲載口コミ5件から）</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>社員同士が協力し合い、日々のコミュニケーションが活発（2026年時点の情報・20代女性・現職・中途入社）</li>
+              <li>事業拡大中で、会社とともに成長できる環境に魅力（同上）</li>
+              <li>都心特化でエリアに詳しくなれ、高単価の顧客が多い。部署を超えて相談しやすい（2017年時点の情報・30代・退職済み・中途入社）</li>
+              <li>男女で待遇・働きやすさの差はなく、休日の希望が通らないことはほぼない。有給を取りにくい圧力も特にない（同上）</li>
+            </ul>
+          </div>
+          <div className="card-hover p-5">
+            <h3 className="font-bold text-navy mb-2">悪い評判・注意点の傾向（掲載口コミ5件から）</h3>
+            <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+              <li>都心は競合も多く強いため、自分の武器が必要。成果が出ない人はずっと苦しむ（ただし圧力や見捨てる雰囲気はないとも記載）（2017年時点の情報・退職者）</li>
+              <li>社員数がまだ多くなく、組織の基盤はこれから整う段階（2026年時点の情報・現職）</li>
+              <li>回答者の平均残業時間は32時間で、公式の「残業月20時間以内」より長い（回答者平均のため実際とは異なる場合あり）</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-xs text-text-muted mb-4">
+          出典：<a href="https://employment.en-japan.com/comp-85058/" rel="nofollow noopener" target="_blank" className="text-teal underline">エン転職「株式会社ライフアドバンス（恵比寿不動産）」企業ページ</a>内の「エン カイシャの評判」掲載データ・口コミ（口コミ投稿日2026年3月19日・5月20日、2026年10月14日確認）を当サイトが要約。
+          掲載口コミは5件と少なく、うち2件は2017年時点の情報です。同ページには採用担当者からの回答（2026年3月30日）も掲載されていますが、企業側のコメントのため傾向には含めていません。
+          OpenWork・転職会議・キャリコネは、2026年10月14日のWeb検索では同社の口コミページを確認できませんでした。
+        </p>
         <div className="glass-card p-5 mb-4">
           <h3 className="font-bold text-navy mb-2 text-sm">当サイトの見方</h3>
           <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
             <li>公開口コミが少ない会社では、数件の極端な投稿が印象を左右しやすいため、<strong>公式の募集要項の数字</strong>（給与・残業・休日）を軸に判断するのが安全です。</li>
-            <li>公式採用ページでは社員64名（20代36名・30代26名・40代2名）、未経験入社37名と公表されており、若手・未経験者中心の組織であることは事実ベースで読み取れます。</li>
+            <li>公式採用ページでは社員64名（20代36名・30代26名・40代2名）、未経験入社37名と公表されており、若手・未経験者中心の組織であることは事実ベースで読み取れます（エン転職の会社概要では54名・2026年3月時点。時点の違いとみられます）。口コミ回答者の平均年齢30歳とも整合します。</li>
             <li>「評判が良い／悪い」よりも、自分が希望する職種（賃貸・売買・管理）の休日・歩合・残業の条件をカジュアル面談で具体的に確認することが重要です。</li>
           </ul>
         </div>
         <p className="text-xs text-text-muted mb-4">
-          出典：Web検索による公開口コミの確認・恵比寿不動産公式サイト（2026年10月14日確認）。当サイトは口コミ本文の転載・創作、独自の点数付けは行っていません。
+          出典：エン カイシャの評判・Web検索による公開口コミの確認・恵比寿不動産公式サイト（2026年10月14日確認）。当サイトは口コミ本文の転載・創作、独自の点数付けは行っていません。
         </p>
         <div className="rounded-xl border border-border p-4 mb-8 text-sm text-text-secondary">
           <strong>同名・類似名の会社に注意：</strong>「恵比寿」を冠する不動産会社・店舗は複数存在しうるため、口コミを調べる際は

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/agent-navi/" },
   title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
   description:
-    "転職AGENT Navi（転職エージェントナビ）の口コミ・評判を出典つきで整理。circus株式会社運営（許可番号13-ユ-317371）、300名以上のアドバイザーから相性の良い担当者を紹介する無料サービスの仕組み・注意点を公式情報で解説。",
+    "転職AGENT Navi（転職エージェントナビ）の口コミ・評判を出典つきで整理。circus株式会社運営（許可番号13-ユ-317371）、2024年4月開始・300名以上のアドバイザーから相性の良い担当者を紹介する無料サービスの仕組み・注意点・上手な使い方を公式情報で解説。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
@@ -51,7 +51,11 @@ const faqData = [
   },
   {
     q: "どんな人が対象ですか？",
-    a: "公式LPでは20代の既卒・第二新卒・フリーター・ニートを主な対象として案内しています。経歴に自信がない段階で「どのエージェントに登録すべきか」から相談したい人に向く設計です。30代以上やハイクラス志向の場合は、総合型・特化型エージェントへの直接登録が近道になることがあります。",
+    a: "公式LPでは20代の既卒・第二新卒・フリーター・ニートを主な対象として案内しています。同時に「職歴の有無、年齢、学歴などで判断することは一切ございません」とも記載されています（2026年10月14日確認）。経歴に自信がない段階で「どのエージェントに登録すべきか」から相談したい人に向く設計です。30代以上やハイクラス志向で希望が明確な場合は、総合型・特化型エージェントへの直接登録が近道になることがあります。",
+  },
+  {
+    q: "転職AGENT Naviの口コミが少ないのはなぜ？",
+    a: "運営会社のプレスリリースによると、転職AGENT Naviのサービス開始は2024年4月1日で、比較的新しいサービスです。2026年10月14日時点で、コエテコキャリアの同サービスページには利用者投稿の口コミが掲載されておらず、OpenWork等の社員口コミサイトはサービス利用者の評価ではありません。口コミを参考にする際は、投稿日と「紹介された先のエージェント名」が書かれているかを確認すると判断しやすくなります。",
   },
   {
     q: "紹介されたエージェントが合わなかったらどうすればいいですか？",
@@ -162,8 +166,11 @@ export default function AgentNaviReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2017年7月</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金</th><td className="px-3 py-2 border-b">29,560,000円（資本準備金含む）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介許可番号</th><td className="px-3 py-2 border-b">13-ユ-317371（運営会社の会社概要に記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス開始</th><td className="px-3 py-2 border-b">2024年4月1日（運営会社のプレスリリースより）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">LINE友だち数</th><td className="px-3 py-2 border-b">サービス開始から1年で1万人突破、2026年7月に2万人突破と発表（いずれも運営会社発表）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">求職者と転職エージェント(担当アドバイザー)のマッチングプラットフォーム</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">規模(公称)</th><td className="px-3 py-2 border-b">転職アドバイザー300名以上／求人10万件以上</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">規模(公称)</th><td className="px-3 py-2 border-b">東京・大阪・名古屋・福岡など全国の、様々な会社に所属する転職アドバイザー300名以上／求人10万件以上。担当変更可能で「見つかるまで無料でマッチング」と記載</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">最初の面談</th><td className="px-3 py-2 border-b">コンシェルジュとLINE通話（公式LPは15分程度、プレスリリースは15分〜30分程度と記載）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な対象</th><td className="px-3 py-2 border-b">20代の既卒・第二新卒・フリーター・ニート</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">利用の流れ</th><td className="px-3 py-2 border-b">エントリー・LINEで面談予約→ナビ担当と面談(15分程度)→紹介エージェントと面談→転職支援スタート→内定</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">希望勤務地の選択肢</th><td className="px-3 py-2 border-b">東京23区／首都圏(東京・神奈川・千葉・埼玉)／大阪／名古屋／札幌／福岡／広島／仙台／静岡／その他（公式エントリーフォームの選択肢）</td></tr>
@@ -176,7 +183,7 @@ export default function AgentNaviReview() {
           <a href="https://service.circus-group.jp/circus/agentnavi/" rel="nofollow noopener" target="_blank" className="underline">転職AGENT Navi公式LP</a>
           ・
           <a href="https://www.circus-group.jp/company" rel="nofollow noopener" target="_blank" className="underline">circus株式会社 会社概要</a>
-          （いずれも2026年10月14日確認）。許可番号はLP内には記載がなく、運営会社の会社概要ページの記載を掲載しています。当サイトでは口コミ・数値の創作は行っていません。
+          ・運営会社プレスリリース（LINE友だち1万人突破／2万人突破の発表、VOIX掲載）（いずれも2026年10月14日確認）。許可番号はLP内には記載がなく、運営会社の会社概要ページの記載を掲載しています。当サイトでは口コミ・数値の創作は行っていません。
         </p>
 
         <h2>転職AGENT Navi（転職エージェントナビ）の口コミ・評判（出典つきの傾向）</h2>
@@ -188,7 +195,7 @@ export default function AgentNaviReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">良い評判につながりやすい点（公式公表ベース）</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>公式LPでは、日本マーケティングリサーチ機構による「2025年1月期_ブランドのイメージ調査」（Webアンケート、n=100）で No.1 を獲得したと掲載。ただし公式注記のとおり<strong>ブランドのイメージに関する調査で、利用有無は聴取しておらず、効果効能や優位性を保証するものではありません</strong>。</li>
+              <li>公式LPでは、日本マーケティングリサーチ機構による「2025年1月期_ブランドのイメージ調査」（Webアンケート、n=100）で No.1 を獲得したと掲載（2025年2月27日のプレスリリースでは「転職する際につかってみたいと思う」「初めての転職でも安心して利用できそうな」「採用面接官がお勧めしたいと思う」転職エージェント紹介サービスの3部門）。ただし公式注記のとおり<strong>ブランドのイメージに関する調査で、利用有無は聴取しておらず、効果効能や優位性を保証するものではありません</strong>。</li>
               <li>担当者が合わないと感じたら別の転職エージェントを紹介してもらえる（公式FAQ）。</li>
               <li>困りごとや相談は転職エージェントナビが間に入ってサポートすると案内（公式の利用の流れ）。</li>
             </ul>
@@ -198,7 +205,7 @@ export default function AgentNaviReview() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>ナビ担当との面談後、<strong>紹介された転職エージェントと改めて面談が必要</strong>。求人紹介はその後になるため、すぐ求人を見たい人には手間に感じられる可能性があります。</li>
               <li>紹介される担当者との相性は、実際に面談するまでわかりません（再紹介は可能）。</li>
-              <li>主な利用者は20代の既卒・第二新卒・フリーター・ニートと公式に案内されており、30代以上や専門職・ハイクラスの人には合う求人が少ない可能性があります。</li>
+              <li>主な利用者は20代の既卒・第二新卒・フリーター・ニートと公式に案内されています（年齢・職歴・学歴で判断しないとも記載）。30代以上や専門職・ハイクラスの人は、紹介先エージェントの得意分野を面談で確認したほうが確実です。</li>
               <li>予約はLINE上で行う設計のため、LINEを使わない人には向きません。</li>
             </ul>
           </div>
@@ -207,7 +214,27 @@ export default function AgentNaviReview() {
           <strong>当サイトの見方：</strong>
           転職AGENT Naviは「求人を紹介するエージェント」ではなく「エージェントの担当者を紹介する入口」です。評判を判断する際は、ナビ自体よりも<strong>紹介された先のエージェント・担当者の質</strong>が満足度を左右する点に注意しましょう。合わなければ遠慮なく再紹介を依頼するのが公式どおりの使い方です。
         </p>
-        <p className="text-xs text-text-muted mb-8">出典：転職AGENT Navi公式LP（No.1表記の注記・FAQ・利用の流れ）、コエテコキャリア（2026年10月14日確認）。他社の比較記事に掲載された口コミは一次情報でないため出典にしていません。</p>
+        <div className="glass-card p-5 mb-4">
+          <h3 className="font-bold text-navy mb-2 text-sm">運営会社が公表している利用者の声（第三者口コミではありません）</h3>
+          <p className="text-sm text-text-secondary leading-relaxed">
+            運営会社のプレスリリース（LINE友だち1万人突破の発表）には、大手人材サービス会社のカスタマーサクセス職に内定した26歳女性、WEBマーケティング会社のコンサルティング営業に内定した29歳女性の声が掲載されています。
+            内容はいずれも「面談で転職の軸が見つかった」「初回のLINE通話で的確なアドバイスを受けた」という趣旨です。運営会社が選んで掲載した声のため、良い面に偏る点を割り引いて読む必要があります。
+          </p>
+        </div>
+        <div className="rounded-xl border border-border p-4 mb-4 text-sm text-text-secondary">
+          <strong>口コミを探すときの注意：</strong>「転職エージェントナビ 口コミ」で検索すると、名前の似た「マイナビ転職AGENT」「マイナビ転職エージェントサーチ」の口コミが多く表示されます。いずれも別サービスです。
+          また、比較サイトに載っている口コミの多くは、調査主体や回答者数の詳細が書かれていない自社アンケートです。当サイトでは、投稿元と件数を確認できない口コミは傾向の根拠にしていません。
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：転職AGENT Navi公式LP（No.1表記の注記・FAQ・利用の流れ）、コエテコキャリア「転職エージェントナビ」ページ（利用者口コミの掲載なし）、運営会社プレスリリース（2025年2月27日・No.1の3部門／LINE友だち1万人突破）（いずれも2026年10月14日確認）。他社の比較記事に掲載された口コミは一次情報でないため出典にしていません。</p>
+
+        <h2>評判を踏まえた転職AGENT Naviの上手な使い方</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-sm text-text-secondary mb-3">
+          <li><strong>最初の面談で「希望業界」と「担当者に求めること」を具体的に伝える</strong>：公式LPは、性格・考え方・希望業界に強いかどうかで相性を見極めてマッチングすると説明しています。伝えた内容がそのまま紹介の材料になります。</li>
+          <li><strong>紹介先エージェントの社名と得意分野を確認する</strong>：アドバイザーは様々な会社に所属しています。実際の求人紹介や書類添削は紹介先の会社が行うので、どの会社の担当者なのかを把握しておくと比較しやすくなります。</li>
+          <li><strong>合わなければ早めに担当変更を依頼する</strong>：公式FAQでは、合わないと感じたら別の転職エージェントを紹介できると案内しています（担当変更可能）。</li>
+          <li><strong>求人をすぐ見たい人は総合型と併用する</strong>：紹介先との面談を経てから求人提案になるため、急ぐ場合は<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>などへの直接登録を並行すると時間を短縮できます。併用は公式FAQでもすすめられています。</li>
+        </ol>
+        <p className="text-xs text-text-muted mb-8">出典：転職AGENT Navi公式LP・FAQ（2026年10月14日確認）。</p>
 
         <h2>転職AGENT Naviの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
