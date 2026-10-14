@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "JR東海(東海旅客鉄道)（証券コード9022）への転職を有価証券報告書などの一次データで解説。平均年間給与は約860万円（2026年3月期・有報／提出会社）。東海道新幹線を中核とする鉄道会社のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/jr-central/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "JR東海(東海旅客鉄道)への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "JR東海(東海旅客鉄道)（9022）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

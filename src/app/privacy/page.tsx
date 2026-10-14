@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy/" },
   title: "プライバシーポリシー｜転職エージェント比較ラボ",
   description:
     "転職エージェント比較ラボのプライバシーポリシーです。個人情報の取扱い、Cookie、アクセス解析ツールの利用について説明しています。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "プライバシーポリシー｜転職エージェント比較ラボ",
     description:
       "転職エージェント比較ラボのプライバシーポリシーです。個人情報の取扱いについて説明しています。",

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "太陽誘電（証券コード6976）への転職を有価証券報告書などの一次データで解説。平均年間給与は661万円（2026年3月期・有報／提出会社）。キャリア採用の窓口、募集の傾向、選考プロセス、年収の考え方をまとめました。",
   alternates: { canonical: "/company/taiyo-yuden/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "太陽誘電への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "太陽誘電（6976）の平均年収・キャリア採用・選考プロセスを有価証券報告書ベースで解説。",
   },

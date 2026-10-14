@@ -5,10 +5,12 @@ import { DODA, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
 import { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/how-to-choose/" },
   title: "転職エージェントの選び方｜失敗しない7つのポイント",
   description:
     "転職エージェントの選び方を7つのポイントで解説。求人数、得意分野、サポート体制、口コミなど、自分に合ったエージェントを見つけるための判断基準を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントの選び方｜失敗しない7つのポイント",
     description: "転職エージェントの選び方を7つのポイントで解説。",
   },

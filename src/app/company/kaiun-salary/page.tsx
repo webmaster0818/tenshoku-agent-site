@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "海運会社の平均年収を有価証券報告書の記載値（2026年3月期）でランキング。商船三井1,659万円・日本郵船1,554万円・川崎汽船1,450万円の大手3社に、飯野海運・NSユナイテッド海運を加えた5社。市況で賞与が大きく振れる業界特性、キャリア採用の入口まで一次データで解説します。",
   alternates: { canonical: "/company/kaiun-salary/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "海運会社の年収ランキング【2026年・有価証券報告書】",
     description: "海運5社の平均年収を有報記載値でランキング。市況連動の読み方とキャリア採用の入口も解説。",
   },

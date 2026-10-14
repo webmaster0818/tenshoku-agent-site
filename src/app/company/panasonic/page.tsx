@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "パナソニックHD（証券コード6752）への転職を有価証券報告書などの一次データで解説。平均年間給与は約988万円（2026年3月期・有報／持株会社単体）。直近の年収推移・中途採用の状況・選考の考え方までまとめました。",
   alternates: { canonical: "/company/panasonic/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "パナソニックHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "パナソニックHD（6752）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

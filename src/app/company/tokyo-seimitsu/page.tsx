@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "東京精密（証券コード7729・ACCRETECH）への転職を有価証券報告書などの一次データで解説。平均年間給与は8,276,412円（2026年3月期・有報／提出会社単体1,428名・前事業年度比+5.7%）。プローバ・ウェーハダイシングなど半導体製造装置と精密測定機器のメーカー。中途採用の状況、選考の考え方をまとめました。",
   alternates: { canonical: "/company/tokyo-seimitsu/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "東京精密への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "東京精密（7729・ACCRETECH）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

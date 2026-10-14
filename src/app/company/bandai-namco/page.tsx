@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/bandai-namco/" },
   title: "バンダイナムコHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
   description:
     "バンダイナムコホールディングス（証券コード7832）への転職を有価証券報告書などの一次データで解説。平均年間給与は約983.8万円（2026年3月期・有報／提出会社）。ただし同社は純粋持株会社で単体は本社機能約80名のみ。事業会社との違い、中途採用の状況、選考の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "バンダイナムコHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "バンダイナムコホールディングス（7832）の平均年収・中途採用・持株会社と事業会社の違いを有価証券報告書ベースで解説。",
   },

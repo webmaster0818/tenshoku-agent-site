@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/agent-vs-site/" },
   title: "転職エージェントと転職サイトの違い｜12項目で比較・向いている人を解説",
   description:
     "転職エージェントと転職サイトの違いを12項目で徹底比較。それぞれのメリット・デメリット、向いている人の特徴、併用のコツを解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントと転職サイトの違い｜12項目で比較・向いている人を解説",
     description: "転職エージェントと転職サイトの違いを12項目で比較。",
   },

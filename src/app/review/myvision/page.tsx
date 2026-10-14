@@ -6,10 +6,12 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/myvision/" },
   title: "MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説【2026年】",
   description:
     "MyVision(株式会社MyVision運営)はコンサル業界特化の転職エージェント。利用者の8割がコンサル業界未経験、厚労省人材サービス総合サイトに基づく支援実績数比較でコンサル特化No.1(公称・出典明記)。特徴・会社情報・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "MyVision(マイビジョン)の評判は？コンサル特化転職エージェントを徹底解説【2026年】",
     description: "コンサル特化転職エージェント「MyVision」の特徴・向いている人を公式情報ベースで解説。利用は無料です。",
   },

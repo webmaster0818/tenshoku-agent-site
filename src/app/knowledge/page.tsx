@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { DODA, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/" },
   title: "転職エージェント活用ガイド一覧｜使い方・面談・メール例文・書類対策【2026年】",
   description:
     "転職エージェントの使い方・選び方から、面談準備、お礼メール例文、職務経歴書の書き方、複数利用のコツまで。転職活動の各ステップで役立つ実践ガイドの一覧ページです。",

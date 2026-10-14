@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/daifuku/" },
   title: "ダイフクへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
   description:
     "ダイフク（証券コード6383）への転職を有価証券報告書などの一次データで解説。平均年間給与は約917万円（2025年12月期・有報／提出会社）。マテハン世界最大手の中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ダイフクへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description:
       "ダイフク（6383）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "クボタ（証券コード6326）への転職を有価証券報告書などの一次データで解説。平均年間給与は約860万円（2025年12月期・有報／提出会社）。農業機械・エンジンで国内首位級、水環境インフラ（パイプ・ポンのキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/kubota/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "クボタへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "クボタ（6326）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

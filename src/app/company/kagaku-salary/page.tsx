@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/kagaku-salary/" },
   title: "化学業界の年収ランキング【2026年・有価証券報告書】大手9社を一次データで比較",
   description:
     "総合化学・機能材料大手9社の平均年収を有価証券報告書の記載値でランキング。三菱ケミカルG1,188万円・レゾナックHD1,131万円・住友化学958万円・信越化学898万円・三井化学871万円ほか。持株会社単体の数値の意味、年齢構成の注意、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "化学業界の年収ランキング【2026年・有価証券報告書】",
     description: "化学大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
   },

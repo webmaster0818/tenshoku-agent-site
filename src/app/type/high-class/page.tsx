@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/type/high-class/" },
   title: "ハイクラス向け転職エージェントおすすめ｜年収600万円以上のキャリアアップ",
   description:
     "ハイクラス転職におすすめのエージェントを厳選紹介。ビズリーチ、JACリクルートメント、リクルートエージェントなど、年収600万円以上のハイクラス求人に強いエージェントの特徴とスカウト活用法を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ハイクラス向け転職エージェントおすすめ｜年収600万円以上のキャリアアップ",
     description: "年収600万円以上のハイクラス転職に強いエージェントを厳選紹介。",
   },

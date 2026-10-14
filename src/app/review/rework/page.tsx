@@ -5,10 +5,12 @@ import FelmatCta from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/rework/" },
   title: "Re:WORKエージェントの評判は？未経験からの転職専門エージェントを徹底解説【2026年】",
   description:
     "Re:WORK（リワーク）エージェントは、株式会社Nexlyが運営する未経験からの転職専門エージェント。紹介可能求人数39,652件以上（公式表記）、適職診断や専属キャリアアドバイザーの伴走サポートが特徴。運営会社情報・特徴・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "Re:WORKエージェントの評判は？未経験からの転職専門エージェントを徹底解説【2026年】",
     description:
       "未経験からの転職専門エージェント「Re:WORK」の特徴・運営会社・向いている人を公式情報ベースで解説。利用は無料です。",

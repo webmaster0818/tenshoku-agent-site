@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "DeNA（ディー・エヌ・エー、証券コード2432）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,118万円（2026年3月期・有報）で前期883万円から大幅増。ゲーム・スポーツ・ヘルスケア等の事業領域と中途採用の状況をまとめました。",
   alternates: { canonical: "/company/dena/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "DeNAへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "DeNA（2432）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

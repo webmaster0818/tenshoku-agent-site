@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/consulting/" },
   title: "コンサル業界におすすめの転職エージェント｜ケース面接対策も解説",
   description:
     "コンサルティング業界への転職におすすめのエージェントを厳選紹介。JACリクルートメント、ビズリーチ、リクルートエージェントなど、コンサル転職に強いエージェントの特徴とケース面接対策を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "コンサル業界におすすめの転職エージェント｜ケース面接対策も解説",
     description: "コンサル業界の転職に強いエージェントとケース面接対策を解説。",
   },

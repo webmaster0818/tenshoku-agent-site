@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/useless/" },
   title: "転職エージェントが使えないと感じたら？対処法と上手な活用術",
   description:
     "転職エージェントが使えない・役に立たないと感じる原因と対処法を解説。担当変更の方法、複数社の併用戦略、希望条件の伝え方など、エージェントを上手に活用するための具体的なテクニックを紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントが使えないと感じたら？対処法と上手な活用術",
     description: "転職エージェントが使えないと感じる原因5つと具体的な対処法を解説。",
   },

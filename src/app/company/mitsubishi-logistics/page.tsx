@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "三菱倉庫（証券コード9301）への転職を有価証券報告書などの一次データで解説。平均年間給与は約943万円（2026年3月期・有報／提出会社）。倉庫・港湾運送と不動産を展開する総合物流企業のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/mitsubishi-logistics/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "三菱倉庫への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "三菱倉庫（9301）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

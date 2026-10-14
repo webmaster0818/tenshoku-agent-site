@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/kensetsu-salary/" },
   title: "建設ゼネコンの年収ランキング【2026年・有価証券報告書】大手9社を一次データで比較",
   description:
     "スーパーゼネコン・準大手9社の平均年収を有価証券報告書の記載値でランキング。鹿島建設1,245万円・大林組1,239万円・大成建設1,191万円・西松建設1,061万円・清水建設1,043万円ほか。2年で+227万円の急上昇組、年齢構成の注意、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "建設ゼネコンの年収ランキング【2026年・有価証券報告書】",
     description: "ゼネコン大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
   },

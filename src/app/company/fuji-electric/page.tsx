@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "富士電機（証券コード6504）への転職を有価証券報告書などの一次データで解説。平均年間給与は約840万円（2026年3月期・有報／提出会社）。重電システム・パワーエレクトロニクス・パワー半導体・自動販売のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/fuji-electric/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "富士電機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "富士電機（6504）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

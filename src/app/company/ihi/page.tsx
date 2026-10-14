@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "IHI（証券コード7013）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,000万円（2026年3月期・有報／提出会社）。航空エンジン・ターボチャージャ・橋梁・エネルギープラントを手のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/ihi/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "IHIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "IHI（7013）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/type/it-engineer/" },
   title: "ITエンジニアにおすすめの転職エージェント5選｜年収アップ・キャリア別の選び方【2026年】",
   description:
     "ITエンジニアの転職に強い転職エージェントを厳選紹介。リクルートエージェント・doda・マイナビエージェント・ビズリーチ・JACリクルートメントのIT求人の強みと、年収アップ・キャリアチェンジを成功させる選び方を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ITエンジニアにおすすめの転職エージェント5選｜選び方も解説【2026年】",
     description: "ITエンジニアの転職に強い転職エージェントを厳選紹介。年収アップの選び方も解説。",
   },

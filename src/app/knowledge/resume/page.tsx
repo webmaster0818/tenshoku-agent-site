@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/resume/" },
   title: "職務経歴書の書き方｜職務要約の例文・テンプレートと通過するコツ",
   description:
     "職務経歴書の書き方を例文つきで解説。職務要約の例文（IT・営業・管理部門）、基本構成、実績の数値化・自己PRの書き方、よくある失敗例と修正例まで。無料で使える転職エージェントの添削も紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "職務経歴書の書き方｜職務要約の例文・テンプレートと通過するコツ",
     description: "職務経歴書の書き方を職務要約の例文つきで解説。IT・営業・管理部門の例文と通過のコツ。",
   },

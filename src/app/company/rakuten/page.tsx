@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "楽天グループ（証券コード4755）への転職を有価証券報告書などの一次データで解説。平均年間給与は約851万円（2025年12月期・有報／単体・12月期決算）。直近の年収推移・中途採用の状況・選考の考え方までまとめました。",
   alternates: { canonical: "/company/rakuten/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "楽天グループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "楽天グループ（4755）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

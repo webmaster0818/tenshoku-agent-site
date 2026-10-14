@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/pigeon/" },
   title: "ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を徹底解説【2026年】",
   description:
     "ピジョン（証券コード7956）への転職を有価証券報告書などの一次データで解説。平均年間給与は約827万円（2025年12月期・有報／提出会社）。単体は本社機能中心の338名である点も含め、中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を徹底解説【2026年】",
     description: "ピジョン（7956）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

@@ -5,10 +5,12 @@ import FelmatCta from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/realme-career/" },
   title: "リアルミーキャリアの評判は？時短正社員・ワーママ特化の転職エージェントを徹底解説【2026年】",
   description:
     "リアルミーキャリアは、株式会社リアルミーが運営する時短正社員のワーママ・パパ向け転職エージェント。入社直後から時短勤務できる正社員求人に特化し、登録者は毎月2,000名以上（公式表記）。育児中アドバイザーのサポート・特徴・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "リアルミーキャリアの評判は？時短正社員・ワーママ特化の転職エージェントを徹底解説【2026年】",
     description:
       "時短正社員特化の転職エージェント「リアルミーキャリア」の特徴・向いている人を公式情報ベースで解説。利用は無料です。",

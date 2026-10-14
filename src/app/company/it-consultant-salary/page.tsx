@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/it-consultant-salary/" },
   title: "ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】大手10社を一次データで比較",
   description:
     "大手ITコンサル・SIerの平均年収を有価証券報告書の記載値（決算期明記）でランキング。野村総研1,332万円・ベイカレント1,331万円・オービック1,129万円・電通総研1,125万円ほか10社。持株会社単体と事業会社の違い、中途採用の入口、転職難易度まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】",
     description: "大手ITコンサル・SIer10社の平均年収を有報記載値でランキング。転職難易度も解説。",
   },

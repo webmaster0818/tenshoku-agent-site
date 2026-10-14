@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/interview-prep/" },
   title: "転職エージェントとの面談｜準備・服装・当日の流れを完全解説",
   description:
     "転職エージェントとの面談を徹底解説。事前に準備すべき5つのこと、服装ガイド、当日60〜90分の流れ、聞かれる質問と回答例、オンライン面談の注意点まで完全網羅。初めての面談でも安心です。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントとの面談｜準備・服装・当日の流れを完全解説",
     description: "転職エージェントとの面談で必要な準備・服装・当日の流れを完全解説。",
   },

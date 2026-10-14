@@ -4,11 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/assign/" },
   title:
     "アサイン(ASSIGN)の評判は？価値観からキャリアプランを描く若手ハイエンド向けキャリア支援【2026年】",
   description:
     "ASSIGN AGENT(アサイン)の特徴を徹底解説。初回面談では求人紹介をせず、経験・価値観・目指す将来像からキャリアプランを提案する「転職支援ではなくキャリア支援」が核。創業メンバー全員がコンサルファーム出身、DiSC認定資格に基づくオーダーメイド選考対策も。対象は20代〜30代前半の若手ハイエンド層、利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title:
       "アサイン(ASSIGN)の評判は？価値観からキャリアプランを描く若手ハイエンド向けキャリア支援【2026年】",
     description:

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "リコー（証券コード7752）への転職を有価証券報告書などの一次データで解説。平均年間給与は約906万円（2026年3月期・有報／提出会社）。公式キャリア採用の10ステップ選考、キャリア登録制度、単体従業員数の変化まで一次情報でまとめました。",
   alternates: { canonical: "/company/ricoh/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "リコーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "リコー（7752）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

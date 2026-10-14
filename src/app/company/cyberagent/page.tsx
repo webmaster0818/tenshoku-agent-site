@@ -4,40 +4,42 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/cyberagent/" },
   title: "サイバーエージェントに転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "サイバーエージェントへの転職を徹底解説。転職難易度A級の選考フロー、平均年収913万円（2025年9月期・有報）の実態、AbemaTV・広告事業の魅力、おすすめ転職エージェント5社を紹介します。",
+    "サイバーエージェントへの転職を解説。平均年収913万円・平均年齢33.8歳（2025年9月期・有報）、新規採用に占める中途採用51.9%（公式データ）、キャリア採用の応募方法、面接対策、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "サイバーエージェントに転職するには？年収・面接対策・おすすめエージェント",
     description:
-      "サイバーエージェント転職の難易度・年収・面接対策・おすすめエージェントを網羅的に解説。",
+      "サイバーエージェント転職の年収・中途採用データ・応募方法・面接対策・おすすめエージェントを、有価証券報告書と公式データをもとに解説。",
   },
 };
 
 const faqData = [
   {
     q: "サイバーエージェントの中途採用比率はどのくらいですか？",
-    a: "サイバーエージェントの中途採用比率は約40%です。新卒採用を重視する企業文化がありますが、即戦力となる中途人材も積極的に採用しています。",
+    a: "公式サイトの「データで見るサイバーエージェント」では、2025年9月末時点（連結）の新規採用比率を新卒採用48.1%・中途採用51.9%と公表しています。新卒採用を競争力と位置付けて毎年積極的に行う一方、事業の成長に合わせてキャリア採用も強化していると説明されています（2026年10月14日確認）。",
   },
   {
     q: "サイバーエージェントの面接は何回ありますか？",
-    a: "一般的に2〜3回です。一次面接（現場マネージャー）、二次面接（事業部長クラス）、最終面接（役員クラス）の流れが基本ですが、職種やポジションによって変わることがあります。",
+    a: "公式のキャリア採用ページ・HRMOSの採用ページには、選考プロセスの共通の記載がありません。面接の回数や内容は求人・部門によって異なるため、応募前に各求人票で確認しましょう。",
   },
   {
     q: "サイバーエージェントの年収は高いですか？",
-    a: "有価証券報告書によると平均年収は913万円（2025年9月期・有報）です。IT・インターネット業界ではトップクラスの水準で、業績連動のインセンティブや株式報酬制度もあります。",
+    a: "有価証券報告書（2025年9月期）によると、提出会社の平均年間給与は913万円、平均年齢は33.8歳、平均勤続年数は6.5年です。平均年間給与は2023年9月期806万円、2024年9月期882万円から2期連続で上昇しています（全社員平均で、職種別の数値ではありません）。",
   },
   {
-    q: "エンジニアとして転職する場合、どのようなスキルが求められますか？",
-    a: "Webアプリケーション開発経験（React、Next.js、Go、Python等）が基本です。AbemaTV関連ではストリーミング技術、AI事業部では機械学習の知識も求められます。",
+    q: "エンジニアやクリエイターの採用はありますか？",
+    a: "公式データによると、従業員の職種別割合はビジネス職59%、エンジニア職22%、クリエイター職19%（2025年9月末時点・連結）で、2006年から技術職の採用を強化してきたと説明されています。キャリア採用の募集職種はHRMOSの公式採用ページで事業部門ごとに確認できます。",
   },
   {
     q: "サイバーエージェントの社風はどのような感じですか？",
-    a: "「21世紀を代表する会社を創る」というビジョンのもと、挑戦を奨励する文化が特徴です。若手にも大きな裁量が与えられ、社内異動（キャリチャレ制度）も活発です。",
+    a: "「21世紀を代表する会社を創る」をビジョンに掲げています。公式のMission Statementには「能力の高さより一緒に働きたい人を集める。」「若手の台頭を喜ぶ組織で、年功序列は禁止。」「挑戦した敗者にはセカンドチャンスを。」といった項目が並んでおり、社風を知る手がかりになります。",
   },
   {
     q: "サイバーエージェントの勤務地はどこですか？",
-    a: "本社は東京都渋谷区のAbema Towers（渋谷スクランブルスクエア）です。大阪・名古屋・福岡にも拠点がありますが、多くのポジションは渋谷本社勤務です。",
+    a: "本社所在地は東京都渋谷区宇田川町40番1号 Abema Towersです（公式会社概要）。キャリア採用ページに勤務地の共通記載はないため、実際の勤務地は各求人票で確認してください。",
   },
 ];
 
@@ -69,7 +71,6 @@ export default function CyberAgentCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
-            <span className="rank-badge rank-badge--1">A</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
               サイバーエージェントに転職するには？年収・面接対策・おすすめエージェント
             </h1>
@@ -80,9 +81,9 @@ export default function CyberAgentCareer() {
         <p className="text-xs text-text-muted mb-6">サイバーエージェント 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            サイバーエージェントは、インターネット広告事業・メディア事業（AbemaTV）・ゲーム事業を展開する国内有数のIT企業です。
-            「21世紀を代表する会社を創る」をビジョンに掲げ、挑戦を重視する社風で知られています。
-            本記事では、サイバーエージェントへの転職難易度・年収・面接対策・おすすめエージェントを詳しく解説します。
+            サイバーエージェントは、メディア&amp;IP事業（「ABEMA」など）・インターネット広告事業・ゲーム事業・投資育成事業を展開するIT企業です。
+            「21世紀を代表する会社を創る」をビジョンに掲げ、公式のトップメッセージでは創業以来28期増収を続けていると説明されています。
+            本記事では、有価証券報告書と公式データをもとに、サイバーエージェントの年収・中途採用データ・応募方法・面接対策・おすすめエージェントを解説します。
           </p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
@@ -100,17 +101,17 @@ export default function CyberAgentCareer() {
 
         {/* 会社概要 */}
         <h2 id="s1">サイバーエージェントの会社概要</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border-collapse">
             <tbody>
               {[
                 { label: "社名", value: "株式会社サイバーエージェント（CyberAgent, Inc.）" },
                 { label: "本社", value: "東京都渋谷区宇田川町40-1 Abema Towers" },
-                { label: "設立", value: "1998年3月" },
-                { label: "従業員数", value: "約7,000人（連結、2024年9月期）" },
-                { label: "平均年収", value: "913万円（2025年9月期・有報）（2024年9月期有価証券報告書）" },
-                { label: "事業内容", value: "インターネット広告事業、メディア事業（AbemaTV、Ameba）、ゲーム事業（Cygames等）、AI事業" },
+                { label: "設立", value: "1998年3月18日" },
+                { label: "従業員数", value: "8,150人（連結、2025年9月末時点）" },
+                { label: "平均年収", value: "913万円（2025年9月期 有価証券報告書・提出会社）" },
+                { label: "事業内容", value: "メディア&IP事業、インターネット広告事業、ゲーム事業、投資育成事業" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">
@@ -123,24 +124,62 @@ export default function CyberAgentCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※最新情報は各社公式サイトでご確認ください
+          ※社名・本社・設立・事業内容は
+          <a href="https://www.cyberagent.co.jp/corporate/overview/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式会社概要</a>
+          、従業員数は
+          <a href="https://www.cyberagent.co.jp/sustainability/cadata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">データで見るサイバーエージェント</a>
+          、平均年収は有価証券報告書（
+          <a href="https://irbank.net/4751/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
+          ）による。2026年10月14日確認。最新情報は公式サイトでご確認ください。
         </p>
 
         {/* 転職難易度 */}
         <h2 id="s2">サイバーエージェントの転職難易度</h2>
         <div className="glass-card p-6 mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-4xl font-extrabold text-teal">A級</span>
-            <p className="text-text-secondary text-sm">
-              人気IT企業として高い競争率。特にエンジニア・クリエイティブ職は高スキルが求められます。
-            </p>
+          <p className="text-text-secondary text-sm mb-4">
+            転職の難しさを一律に格付けできる公的な指標はありません。ここでは、応募先を判断する材料として、有価証券報告書と公式データで確認できる数値を整理します。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-border">
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">決算期</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均年間給与</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均年齢</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均勤続年数</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">従業員数（提出会社）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { fy: "2023年9月期", pay: "806万円", age: "33.3歳", tenure: "5.9年", emp: "2,225名" },
+                  { fy: "2024年9月期", pay: "882万円", age: "33.7歳", tenure: "6.4年", emp: "2,364名" },
+                  { fy: "2025年9月期", pay: "913万円", age: "33.8歳", tenure: "6.5年", emp: "2,588名" },
+                ].map((r) => (
+                  <tr key={r.fy} className="border-b border-border">
+                    <td className="py-2 px-3 text-text-secondary">{r.fy}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.pay}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.age}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.tenure}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.emp}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>中途採用比率は約40%で、即戦力人材を積極採用</li>
-            <li>「素直でいいやつ」の人物像がカルチャーフィットとして重視される</li>
-            <li>事業のスピード感に対応できる主体性・当事者意識が必要</li>
-            <li>ゲーム事業（Cygames等）は別会社での選考となるケースも</li>
+            <li>平均年間給与は2期連続で上昇し、提出会社の従業員数も3期で2,225名から2,588名へ増えています（有価証券報告書）</li>
+            <li>連結従業員数は7,251人（2023年）→7,720人（2024年）→8,150人（2025年）と増加（各年9月末・公式データ）</li>
+            <li>新規採用比率は新卒採用48.1%・中途採用51.9%で、採用の半数超が中途採用（2025年9月末時点・連結・公式データ）</li>
+            <li>職種別の従業員割合はビジネス職59%・エンジニア職22%・クリエイター職19%、事業別ではゲーム事業37%・インターネット広告事業32%・メディア&amp;IP事業25%（2025年9月末時点・連結・公式データ）</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            出典：有価証券報告書（
+            <a href="https://irbank.net/4751/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
+            ）、
+            <a href="https://www.cyberagent.co.jp/sustainability/cadata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">データで見るサイバーエージェント</a>
+            （公式）。平均年間給与・平均年齢・平均勤続年数は提出会社（単体）の全社員平均で、職種別の数値ではありません。2026年10月14日確認。
+          </p>
         </div>
 
         {/* 中途採用の状況 */}
@@ -182,32 +221,30 @@ export default function CyberAgentCareer() {
         <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
 
         <h2 id="s4">サイバーエージェントの選考フロー</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          サイバーエージェントの公式キャリア採用ページ・HRMOSの採用ページには、選考プロセスの共通の記載がありません。以下は中途採用の一般的な進み方を整理したものです。面接の回数や課題の有無は求人・部門ごとに異なるため、応募前に各求人票で確認しましょう。
+        </p>
         <div className="space-y-5 mb-8">
           {[
             {
               step: 1,
-              title: "書類選考",
-              desc: "履歴書・職務経歴書を提出。エンジニアはGitHubやポートフォリオの提出が推奨されます。転職エージェント経由または公式サイトから応募可能です。",
+              title: "求人を探して応募",
+              desc: "募集職種はHRMOSの公式採用ページに事業部門単位で掲載されており、各求人からWebエントリーします。グループ会社の募集は、採用総合ページにある各社のキャリア採用ページから確認できます。",
             },
             {
               step: 2,
-              title: "一次面接",
-              desc: "現場マネージャーとの面接。これまでの経験・スキルの確認に加え、サイバーエージェントで何を実現したいかが問われます。カジュアル面談が先に設定されることもあります。",
+              title: "書類選考",
+              desc: "提出書類は求人票の案内に従って準備します。担当した事業・役割・成果を数字で示せるように整理しておくと、職務経歴が伝わりやすくなります。",
             },
             {
               step: 3,
-              title: "二次面接",
-              desc: "事業部長クラスとの面接。より深い業務理解やビジョンの共有が求められます。エンジニアの場合、技術課題やコーディングテストが実施される場合もあります。",
+              title: "面接・課題",
+              desc: "面接の回数や面接官、技術課題などの有無は求人によって異なります。求人票に記載がない場合は、応募時や面談の場で確認しておくと安心です。",
             },
             {
               step: 4,
-              title: "最終面接",
-              desc: "役員クラスとの面接。サイバーエージェントのビジョンへの共感、カルチャーフィット、中長期的なキャリアビジョンが確認されます。",
-            },
-            {
-              step: 5,
-              title: "内定・条件交渉",
-              desc: "最終面接通過後、条件提示・入社時期の調整が行われます。年収交渉では現年収と市場価値をベースに提示されます。",
+              title: "内定・条件確認",
+              desc: "内定後に提示される給与・勤務地・入社時期などの条件を確認し、入社の意思を決めます。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -225,20 +262,20 @@ export default function CyberAgentCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
-              title: "挑戦志向・当事者意識のアピール",
-              desc: "サイバーエージェントでは「自ら手を挙げて挑戦する姿勢」が重視されます。過去に自ら提案して実行した経験を具体的に準備しましょう。",
+              title: "Mission Statementを読み込む",
+              desc: "公式のMission Statementには「能力の高さより一緒に働きたい人を集める。」「若手の台頭を喜ぶ組織で、年功序列は禁止。」「挑戦した敗者にはセカンドチャンスを。」などが掲げられています。共感できる項目と、それを裏づける自分の経験をセットで話せるよう準備しましょう。",
             },
             {
               title: "事業理解の深さ",
-              desc: "AbemaTV、広告事業、AI事業など多角的な事業を理解し、志望する事業部で自分がどう貢献できるかを明確に語れるようにしましょう。",
+              desc: "事業はメディア&IP・インターネット広告・ゲーム・投資育成の4つで、従業員の約7割がゲーム事業と広告事業に所属しています（公式データ）。志望する事業部門で自分がどう貢献できるかを具体的に語れるようにしましょう。",
             },
             {
-              title: "カルチャーフィット",
-              desc: "「素直でいいやつ」という採用基準に合致する人物像を理解し、チームで成果を出した経験や素直に学んで成長した経験をアピールしましょう。",
+              title: "職種ごとの専門性を具体的に",
+              desc: "従業員の職種別割合はビジネス職59%・エンジニア職22%・クリエイター職19%です（公式データ）。担当したプロジェクトの役割・成果を数字や成果物で示せるようにしておくと、専門性が伝わりやすくなります。",
             },
             {
               title: "スピード感への対応力",
-              desc: "IT業界特有の変化の速さに対応できることを示しましょう。短期間で成果を出した経験や、環境変化に柔軟に適応した経験が効果的です。",
+              desc: "IT業界は環境の変化が速い業界です。短期間で成果を出した経験や、環境変化に柔軟に適応した経験を具体的なエピソードで準備しておきましょう。",
             },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -255,27 +292,27 @@ export default function CyberAgentCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "業界最大手でIT・Web業界への転職支援実績が豊富。サイバーエージェントとの取引実績も長く、非公開求人を紹介してもらえる可能性があります。",
+              desc: "幅広い業界・職種を扱う大手総合型の転職エージェント。IT・Web業界の求人を同業他社とあわせて比較しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス転職に特化。サイバーエージェントのマネージャー以上のポジションや、グループ会社の幹部候補ポジションが掲載されることもあります。",
+              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
               href: "/review/jac/",
-              desc: "ミドル・ハイクラス層に強み。IT・Web業界のマネジメントポジションに精通したコンサルタントが、サイバーエージェントグループ全体の求人を紹介してくれます。",
+              desc: "ミドル・ハイクラス層の転職支援に強みを持つ転職エージェント。マネジメント経験や専門性を活かしたキャリアアップを考えている方に向いています。",
             },
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "IT・Web業界の求人が非常に豊富。サイバーエージェントの求人だけでなく、同業他社との比較検討にも最適。エージェントと求人サイトの併用が可能です。",
+              desc: "大手総合型の転職サービス。転職サイトとエージェントサービスを併用できるため、IT・Web業界の各社を自分でも検索しながら効率よく情報収集できます。",
             },
             {
               name: "マイナビ転職エージェント",
               href: "/review/mynavi/",
-              desc: "20代〜30代のIT業界転職に強み。サイバーエージェントが求める若手人材のマッチングに実績があり、面接対策のサポートも手厚いです。",
+              desc: "20代〜30代の転職支援を得意とする総合型の転職エージェント。初めての転職で、書類作成や面接対策を丁寧に進めたい方に向いています。",
             },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">

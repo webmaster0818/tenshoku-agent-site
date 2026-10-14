@@ -5,10 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/unison-career/" },
   title: "ユニゾンキャリアの評判は？IT・Web業界特化エージェントを経験者/未経験別に解説【2026年】",
   description:
     "ユニゾンキャリア(株式会社ユニゾン・テクノロジー運営)はIT・Web業界専門の転職エージェント。Google口コミ4.8(470件・公称)、大量応募をしない厳選紹介が特徴。エンジニア経験者と未経験者で入口が分かれており、それぞれの窓口・特徴・向いている人を公式情報ベースで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ユニゾンキャリアの評判は？IT・Web業界特化エージェントを経験者/未経験別に解説【2026年】",
     description:
       "IT・Web業界専門の転職エージェント「ユニゾンキャリア」の特徴・向いている人を経験者/未経験者別に公式情報ベースで解説。利用は無料です。",

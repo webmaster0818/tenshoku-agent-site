@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/content-policy/" },
   title: "記事制作ポリシー｜転職エージェント比較ラボ",
   description:
     "転職エージェント比較ラボの記事制作ポリシーです。転職エージェントの評価基準、記事制作フロー、情報の正確性への取り組みを説明しています。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "記事制作ポリシー｜転職エージェント比較ラボ",
     description:
       "転職エージェント比較ラボの記事制作ポリシーです。評価基準と制作プロセスを公開しています。",

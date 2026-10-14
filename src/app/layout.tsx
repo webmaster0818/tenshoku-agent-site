@@ -33,6 +33,7 @@ export const metadata: Metadata = {
     "転職エージェントを徹底比較。リクルートエージェント、doda、マイナビエージェント、ビズリーチ、JACリクルートメントなど人気5社を厳選。求人数・特徴・年代別おすすめを詳しく解説します。",
   metadataBase: new URL("https://tenshoku-agent-lab.com"),
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     type: "website",
     locale: "ja_JP",
     siteName: "転職エージェント比較ラボ",

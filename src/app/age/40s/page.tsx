@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/40s/" },
   title: "40代におすすめの転職エージェント｜管理職・マネジメント経験を活かす",
   description:
     "40代におすすめの転職エージェントを厳選紹介。JACリクルートメント、ビズリーチ、リクルートエージェントなど、管理職・マネジメント経験を活かせるエージェントの特徴と活用法を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "40代におすすめの転職エージェント｜管理職・マネジメント経験を活かす",
     description: "40代の転職市場と管理職経験を活かせるエージェントを厳選紹介。",
   },

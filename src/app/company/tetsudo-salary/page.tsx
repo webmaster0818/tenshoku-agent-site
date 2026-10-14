@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/tetsudo-salary/" },
   title: "鉄道業界の年収ランキング【2026年・有価証券報告書】JR・大手私鉄8社を一次データで比較",
   description:
     "JR3社・大手私鉄・東京メトロの平均年収を有価証券報告書の記載値(2026年3月期)でランキング。阪急阪神HD919万円・東急903万円・JR東海860万円・東京メトロ836万円・小田急827万円ほか8社。全社が2年連続上昇という賃上げトレンド、持株会社単体の数値の意味、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "鉄道業界の年収ランキング【2026年・有価証券報告書】",
     description: "JR・大手私鉄8社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
   },

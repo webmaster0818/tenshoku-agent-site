@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/30s/" },
   title: "30代におすすめの転職エージェント｜キャリアアップ・年収UPを実現",
   description:
     "30代におすすめの転職エージェントを厳選紹介。リクルートエージェント、doda、JACリクルートメントなど、キャリアアップに強いエージェントの特徴、年収交渉のコツ、よくある質問を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "30代におすすめの転職エージェント｜キャリアアップ・年収UPを実現",
     description: "30代のキャリアアップに最適な転職エージェントを厳選紹介。",
   },

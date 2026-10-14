@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/type/second-new-grad/" },
   title: "第二新卒におすすめの転職エージェント5選｜20代特化の活用法を解説",
   description:
     "第二新卒の転職に強いエージェントを厳選紹介。マイナビエージェント、リクルートエージェント、doda、ビズリーチ、JACリクルートメントの特徴と、20代が転職を成功させるための活用法を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "第二新卒におすすめの転職エージェント5選｜20代特化の活用法を解説",
     description: "第二新卒の転職に強いエージェントを厳選紹介。20代特化の活用法を解説。",
   },

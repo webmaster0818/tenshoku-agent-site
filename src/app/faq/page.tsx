@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/faq/" },
   title: "転職エージェント よくある質問30選｜登録・利用・選び方の疑問を解決",
   description:
     "転職エージェントに関するよくある質問30問を6カテゴリで網羅的に回答。登録方法、利用の流れ、費用、担当者との付き合い方、選び方、退会方法まで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェント よくある質問30選｜登録・利用・選び方の疑問を解決",
     description: "転職エージェントに関するよくある質問30問を徹底回答。",
   },

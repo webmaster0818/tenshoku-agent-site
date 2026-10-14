@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/mynavi-vs-recruit/" },
   title: "マイナビエージェント vs リクルートエージェント 徹底比較【2026年】20代はどっち？",
   description:
     "マイナビエージェントとリクルートエージェントを10項目で徹底比較。求人数・サポートの手厚さ・対応年代の違いを整理し、20代・第二新卒はどちらが向くか、併用すべきかを解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "マイナビエージェント vs リクルートエージェント 徹底比較【2026年】",
     description: "マイナビとリクルートの違いを10項目で比較。20代はどちらが向くか解説。",
   },

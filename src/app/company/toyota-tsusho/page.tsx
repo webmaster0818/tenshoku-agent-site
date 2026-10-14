@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "豊田通商（証券コード8015）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,421万円（2026年3月期・有報／提出会社）。トヨタグループ唯一の商社のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/toyota-tsusho/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "豊田通商への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "豊田通商（8015）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

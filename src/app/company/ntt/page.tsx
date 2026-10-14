@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "NTT株式会社（証券コード9432・持株会社）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,056万円（2026年3月期・有報／提出会社＝持株単体）。ドコモ・NTTデータ等の事業会社と別である点、直近推移、採用の入口までまとめました。",
   alternates: { canonical: "/company/ntt/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "NTT（9432・持株会社）の平均年収・中途採用を有価証券報告書ベースで解説。",
   },

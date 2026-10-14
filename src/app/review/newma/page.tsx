@@ -5,10 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/newma/" },
   title: "NewMA(ニューマ)の評判は？コンサル・M&A特化の転職エージェントを徹底解説【2026年】",
   description:
     "NewMA(NewMA株式会社運営)はDX・戦略・AIコンサルやM&A仲介・FAS・PEファンドなどに特化した転職エージェント。業界経験者による書類・面接対策と内定後までのフォローが特徴。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "NewMA(ニューマ)の評判は？コンサル・M&A特化の転職エージェントを徹底解説【2026年】",
     description:
       "コンサル・M&A領域特化の転職エージェント「NewMA」の特徴・向いている人を公式情報ベースで解説。利用は無料です。",

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "電源開発(J-POWER)（証券コード9513）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,188万円（2026年3月期・有報／提出会社）。全国で発電(水力・石炭火力等)と送電を手がける卸電力の大手のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/jpower/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "電源開発(J-POWER)への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "電源開発(J-POWER)（9513）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

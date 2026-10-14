@@ -5,10 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/agent-navi/" },
   title: "転職AGENT Naviの評判は？エージェントとのマッチングサービスを徹底解説【2026年】",
   description:
     "転職AGENT Navi(circus株式会社運営)は、300名以上のアドバイザーから相性の良い転職エージェント担当者を紹介するマッチングサービス。20代の既卒・第二新卒・フリーターが主対象。仕組み・特徴・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職AGENT Naviの評判は？エージェントとのマッチングサービスを徹底解説【2026年】",
     description:
       "転職エージェントとのマッチングサービス「転職AGENT Navi」の仕組み・向いている人を公式情報ベースで解説。利用は無料です。",

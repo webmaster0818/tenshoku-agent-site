@@ -5,10 +5,12 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/levtech/" },
   title: "レバテックキャリアの評判・口コミは？「ひどい」噂の真相とIT転職での実力を徹底解説",
   description:
     "レバテックキャリアの評判・口コミを徹底調査。「ひどい」「電話がしつこい」と言われる理由と実態、IT・Webエンジニア／クリエイターに特化した強み、メリット・デメリット、向いている人をまとめました。登録は完全無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "レバテックキャリアの評判・口コミは？「ひどい」噂の真相とIT転職での実力を徹底解説",
     description:
       "レバテックキャリアの評判・口コミ、IT特化エージェントの実態、メリット・デメリット、向いている人を解説。",

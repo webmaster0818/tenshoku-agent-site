@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/seiyaku-salary/" },
   title: "製薬業界の年収ランキング【2026年・有価証券報告書】大手8社を一次データで比較",
   description:
     "大手製薬8社の平均年収を有価証券報告書の記載値でランキング。中外製薬1,350万円・武田薬品1,144万円・アステラス製薬1,131万円・エーザイ1,123万円・第一三共1,097万円ほか。決算期・平均勤続年数の違い、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "製薬業界の年収ランキング【2026年・有価証券報告書】",
     description: "大手製薬8社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
   },

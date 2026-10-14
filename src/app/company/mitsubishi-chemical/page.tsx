@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "三菱ケミカルグループ（証券コード4188）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,188万円（2026年3月期・有報／提出会社）。国内最大の総合化学グループの持株会社のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/mitsubishi-chemical/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "三菱ケミカルグループ（4188）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

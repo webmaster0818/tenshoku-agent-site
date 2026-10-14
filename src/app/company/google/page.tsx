@@ -4,40 +4,42 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/google/" },
   title: "Google（グーグル）に転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "Google（グーグル）への転職を徹底解説。転職難易度S級の選考フロー、平均年収1,200〜1,800万円の実態、書類選考からオンサイト面接4〜5回の対策ポイント、おすすめ転職エージェント5社を紹介します。",
+    "Google（グーグル）への転職を公式情報で解説。アセスメント・採用担当者との会話・構造化面接から審査・オファーまでの選考フロー（通常約6〜8週間）、公式の面接準備アドバイス、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "Google（グーグル）に転職するには？年収・面接対策・おすすめエージェント",
     description:
-      "Google転職の難易度・年収・面接対策・おすすめエージェントを網羅的に解説。",
+      "Google転職の選考フロー・面接準備・おすすめエージェントを公式の採用情報をもとに解説。",
   },
 };
 
 const faqData = [
   {
     q: "Googleの中途採用は未経験でも応募できますか？",
-    a: "職種によります。エンジニア職はCS学位または同等の実務経験が求められます。ビジネス職やマーケティング職は業界経験があれば応募可能ですが、いずれも高い専門性が必要です。",
+    a: "応募要件は求人ごとに異なります。Google公式の採用プロセスページでは、応募する職種の最小要件（MQ）を満たしていることを確認し、履歴書でMQとの整合性を明確に示すよう案内されています。まずは希望する求人の応募資格を確認しましょう。",
   },
   {
-    q: "Googleの面接は何回ありますか？",
-    a: "一般的に電話スクリーニング1回、オンサイト面接4〜5回の計5〜6回です。オンサイト面接では異なる面接官がそれぞれ別の観点から評価します。",
-  },
-  {
-    q: "Googleの面接で英語は必須ですか？",
-    a: "はい、基本的に英語力は必須です。面接自体が英語で行われることが多く、業務でも英語を日常的に使用します。TOEIC900点以上またはビジネスレベルの英語力が目安です。",
-  },
-  {
-    q: "Googleの年収はどのくらいですか？",
-    a: "職種・レベルにより異なります。エンジニア職の自己申告データ（levels.fyi・東京・株式報酬込み総報酬）では中央値約2,547万円（L3約1,579万・L4約2,204万・L5約3,040万）とされています。日本法人公式の給与開示は存在しないため参考値です。これに加えてRSU（譲渡制限付き株式）やボーナスが支給されるため、トータルコンペンセーションはさらに高くなります。",
-  },
-  {
-    q: "Googleに転職するためにおすすめの資格はありますか？",
-    a: "特定の資格は必須ではありませんが、エンジニア職ではGoogle Cloud認定資格、データサイエンス関連の資格が評価されます。それ以上に実務経験とプロジェクト実績が重視されます。",
+    q: "Googleの選考はどのような流れですか？",
+    a: "公式の採用プロセスページによると、職種やチームによって異なる点もありますが、アセスメント、採用担当者との電話またはビデオ通話での短時間の面談（通常1〜2回）、職種によってはプロジェクト課題、面接を経て、多くのメンバーが関わる審査で合否が決定され、オファーが連絡されます。面接は構造化面接で、オンラインまたは対面で行われます。",
   },
   {
     q: "Googleの選考期間はどのくらいですか？",
-    a: "応募から内定まで通常1〜2ヶ月程度です。Hiring Committeeによる審査プロセスがあるため、他社より時間がかかる傾向があります。",
+    a: "公式の採用プロセスページでは、面接プロセスは通常約6〜8週間かかると案内されています。具体的なスケジュールは選考の過程で採用チームの担当者から説明されます。",
+  },
+  {
+    q: "Googleには複数の求人に同時に応募できますか？",
+    a: "公式の採用FAQによると、30日ごとに最大3件の職種に応募できます。スキル・経験・関心にマッチする職種に絞り込むことが推奨されています。",
+  },
+  {
+    q: "不採用になった後、Googleに再応募できますか？",
+    a: "可能です。公式の採用FAQでは、同じ職種に再応募する前に、通常少なくとも1年間は経験を積むようお願いしていると案内されています。また、Google社員のほとんどは最終面接に進む前に他の職種に応募していたとも紹介されています。",
+  },
+  {
+    q: "Googleの面接ではどんな質問が出ますか？",
+    a: "公式の面接準備ページでは、「〜したときのことを話してください」「あなたならこの状況にどう対処しますか」といった、具体的なエピソードや思考プロセスを問う質問が多いと案内されています。創造力を試す超難問は現在は出題していないとされています。なお、面接中のGoogle検索やAIツールの使用は認められていません。",
   },
 ];
 
@@ -69,7 +71,6 @@ export default function GoogleCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
-            <span className="rank-badge rank-badge--1">S</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
               Google（グーグル）に転職するには？年収・面接対策・おすすめエージェント
             </h1>
@@ -80,16 +81,16 @@ export default function GoogleCareer() {
         <p className="text-xs text-text-muted mb-6">Google Japan 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            Googleは世界最大の検索エンジン企業であり、転職先として最も人気の高い企業のひとつです。
-            中途採用の難易度は極めて高いものの、年収・福利厚生・キャリア価値は最高水準です。
-            本記事では、Google転職の選考フロー・年収・面接対策・おすすめエージェントを詳しく解説します。
+            Google Japanは2001年9月、Googleとして初の海外拠点となるオフィスを渋谷に開設し、2026年に25周年を迎えました。
+            Googleの採用プロセスは公式サイトで詳しく公開されており、選考の流れや面接の準備方法を事前に把握したうえで応募できます。
+            本記事では、Googleの公式採用情報をもとに、選考フロー・面接準備・おすすめエージェントを解説します。
           </p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">Google（グーグル）の会社概要</a></li>
-            <li><a href="#s2" className="text-teal hover:underline">Googleの転職難易度</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">Google採用の基本データ</a></li>
             <li><a href="#s3" className="text-teal hover:underline">Googleの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">Googleの選考フロー</a></li>
             <li><a href="#s5" className="text-teal hover:underline">Google転職の面接対策ポイント</a></li>
@@ -104,12 +105,11 @@ export default function GoogleCareer() {
           <table className="w-full text-sm border-collapse">
             <tbody>
               {[
-                { label: "社名", value: "グーグル合同会社（Google LLC）" },
-                { label: "本社", value: "東京都渋谷区（日本法人） / カリフォルニア州マウンテンビュー（グローバル本社）" },
-                { label: "設立", value: "1998年（グローバル） / 2001年（日本法人）" },
-                { label: "従業員数", value: "約180,000人（グローバル） / 約2,000人（日本）" },
-                { label: "平均年収", value: "1,200〜1,800万円（+RSU・ボーナス）" },
-                { label: "事業内容", value: "検索エンジン、広告、クラウド（Google Cloud）、Android、YouTube、AI/ML" },
+                { label: "社名", value: "グーグル合同会社（日本法人） / 親会社グループ：Alphabet Inc." },
+                { label: "東京オフィス", value: "東京都渋谷区渋谷3-21-3 渋谷ストリーム" },
+                { label: "日本オフィス開設", value: "2001年9月（Googleとして初の海外拠点）" },
+                { label: "従業員数", value: "190,820人（Alphabet全体、2025年12月31日時点）" },
+                { label: "主な事業", value: "Google サービス（広告、Android、Chrome、Google マップ、Google Play、検索、YouTube など）、Google Cloud" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">
@@ -122,29 +122,38 @@ export default function GoogleCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※最新情報は各社公式サイトでご確認ください
+          ※出典：
+          <a href="https://about.google/intl/ja/locations/?region=asia-pacific" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Google オフィス所在地</a>
+          、
+          <a href="https://blog.google/intl/ja-jp/company-news/outreach-initiatives/google-japan-25-25/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Google Japan 公式ブログ（2026年9月28日）</a>
+          、
+          <a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Alphabet Inc. Form 10-K（2025年度）</a>
+          （確認日：2026年10月14日）。日本法人単独の従業員数・平均年収は公表されていません。
         </p>
 
-        {/* 転職難易度 */}
-        <h2 id="s2">Googleの転職難易度</h2>
+        {/* 採用の基本データ */}
+        <h2 id="s2">Google採用の基本データ</h2>
         <div className="glass-card p-6 mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-4xl font-extrabold text-teal">S級</span>
-            <p className="text-text-secondary text-sm">
-              国内外トップクラスの難易度。書類通過率は非常に低く、面接も高度な技術力・思考力が求められます。
-            </p>
-          </div>
+          <p className="text-text-secondary text-sm mb-4">
+            Google公式の採用プロセスページ・採用FAQで公表されている、応募前に押さえておきたいポイントです。
+          </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>応募者数が非常に多く、書類選考の通過率は約1%以下とも言われる</li>
-            <li>技術職はコーディング面接・システムデザイン面接が必須</li>
-            <li>全職種で「Googleyness（Googleらしさ）」が評価される</li>
-            <li>Hiring Committeeによる合議制の採用判断</li>
+            <li>応募できる数：30日ごとに最大3件の職種まで</li>
+            <li>選考期間の目安：面接プロセスは通常約6〜8週間</li>
+            <li>面接：すべての候補者を同じ観点から評価する構造化面接。オンラインまたは対面で実施</li>
+            <li>合否：応募書類や面接結果などに基づき、多くのメンバーが関わって総合的に審査</li>
+            <li>再応募：同じ職種へは、通常少なくとも1年間の経験を積んでから</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※出典：
+            <a href="https://www.google.com/about/careers/applications/how-we-hire/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Google Careers 採用プロセス</a>
+            （確認日：2026年10月14日）
+          </p>
         </div>
 
         {/* 中途採用の状況 */}
         <h2 id="s3">Googleの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             Googleの採用は新卒・中途という区分ではなく、公式の
@@ -168,7 +177,7 @@ export default function GoogleCareer() {
             >
               How we hire
             </a>
-            ページで案内されています（本記事作成時点では同ページの本文詳細までは確認できていないため、選考ステップの詳細は応募前に公式ページを直接ご確認ください）。
+            ページで案内されています。次の「選考フロー」で、同ページの内容をもとにステップごとに整理しています（2026年10月14日確認）。
           </p>
           <p className="text-xs text-text-muted">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
@@ -179,32 +188,32 @@ export default function GoogleCareer() {
         <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
 
         <h2 id="s4">Googleの選考フロー</h2>
-        <div className="space-y-5 mb-8">
+        <div className="space-y-5 mb-4">
           {[
             {
               step: 1,
-              title: "書類選考",
-              desc: "レジュメ（英語）を提出。過去の実績・スキル・学歴が総合的に評価されます。リクルーターからの連絡を受けるケースも多いです。",
+              title: "オンライン応募（履歴書）",
+              desc: "Google Careersで求人を検索して応募します。履歴書は希望する職種ごとに作成し、募集要項に合ったスキルや経験、最小要件（MQ）との整合性を、裏付けとなるデータとともに明確に示すことが推奨されています。カバーレターは必須ではありません。",
             },
             {
               step: 2,
-              title: "電話/ビデオ面接",
-              desc: "リクルーターとの電話スクリーニングの後、技術職はコーディング問題を含む技術面接が行われます。ビジネス職はケーススタディやビヘイビアル面接です。",
+              title: "アセスメント（評価）",
+              desc: "面接に進む前に、働き方のスキルを評価するGoogle採用アセスメントの受検を求められる場合があります。職種によっては、コーディング問題などの職種関連のアセスメントが追加されることもあります。",
             },
             {
               step: 3,
-              title: "オンサイト面接（4〜5回）",
-              desc: "Google オフィスで4〜5名の面接官と各45分程度の面接を実施。技術力、問題解決能力、リーダーシップ、Googleyness（Google文化との適合性）が評価されます。",
+              title: "採用担当者との会話",
+              desc: "詳細な面接の前に、通常、採用担当者と電話またはビデオ通話で1〜2回の短時間の面談を行います。職種に必要な主要スキルの評価に加え、組織やチームの情報共有、希望勤務地などの確認が行われます。",
             },
             {
               step: 4,
-              title: "Hiring Committee審査",
-              desc: "面接官のフィードバックをもとにHiring Committeeが合否を判断。面接官個人ではなく委員会による合議制で公平性を確保しています。",
+              title: "プロジェクト課題・面接",
+              desc: "職種によっては、ケーススタディの準備や文章・コードサンプルの提供など、小さなプロジェクト課題の提出を求められます。面接はGoogle社員が交代で面接官を務める構造化面接で、オンラインまたは対面で行われ、自由回答形式の質問で思考様式や協調性、強みが確認されます。",
             },
             {
               step: 5,
-              title: "オファー・条件交渉",
-              desc: "Hiring Committee通過後、報酬パッケージ（基本給+RSU+ボーナス）の提示・交渉が行われます。",
+              title: "審査・オファー",
+              desc: "応募書類や面接結果などに基づき、多くのメンバーが関わって総合的に合否が審査されます。採用と判断された場合は、担当者からオファーの連絡があり、賃金体系や福利厚生について説明されます。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -216,26 +225,31 @@ export default function GoogleCareer() {
             </div>
           ))}
         </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※出典：
+          <a href="https://www.google.com/about/careers/applications/how-we-hire/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Google Careers 採用プロセス</a>
+          （確認日：2026年10月14日）。手順は職種やチームによって異なる場合があり、具体的なスケジュールは採用チームから案内されます。
+        </p>
 
         {/* 面接対策ポイント */}
         <h2 id="s5">Google転職の面接対策ポイント</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
-              title: "コーディング力の強化",
-              desc: "LeetCode等でアルゴリズム・データ構造の問題を毎日練習。Medium〜Hard難易度を中心に200問以上は解いておきたいところです。",
+              title: "成果をデータで示す",
+              desc: "公式の面接準備ページでは「[Z] を実行したことにより、[Y] という指標で、[X] を達成した」という形で、成果のインパクトをデータで伝えることが勧められています。職務経歴の実績を数字で整理しておきましょう。",
             },
             {
-              title: "英語力の向上",
-              desc: "面接は英語で行われることが多いため、技術用語を英語で説明できるレベルが必要です。英語での模擬面接練習が効果的です。",
+              title: "STARメソッドでエピソードを準備",
+              desc: "行動面接の質問は具体的なエピソードを引き出すことが目的とされています。Situation（状況）・Task（課題）・Activity（行動）・Result（結果）の流れで、幅広いエピソードを簡潔に話せるよう準備しておくと効果的です。",
             },
             {
-              title: "行動面接（Behavioral Interview）対策",
-              desc: "STARメソッド（Situation, Task, Action, Result）で過去の経験を構造的に説明する練習を重ねましょう。リーダーシップ経験が重要視されます。",
+              title: "思考プロセスを言葉にする",
+              desc: "面接官は答えそのものよりも、そこにたどり着くまでの思考プロセスを見ていると案内されています。質問の意図を確認したり、考える時間をもらったりしても問題ありません。曖昧な状況への対処、チームとの連携、リーダーシップの経験も具体的に語れるようにしておきましょう。",
             },
             {
-              title: "Googleyness（Google文化の理解）",
-              desc: "チームワーク、曖昧さへの対処力、学習意欲など、Google独自の文化・価値観を理解し、自分の経験と紐づけて語れるようにしましょう。",
+              title: "逆質問を用意し、自分の考えで臨む",
+              desc: "面接は双方向のやり取りとされ、質問を用意しておくことが勧められています。なお、面接中のGoogle検索やAIツールの使用は認められていないため、自分自身の考えを伝える練習をしておきましょう。",
             },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -244,6 +258,11 @@ export default function GoogleCareer() {
             </div>
           ))}
         </div>
+        <p className="text-xs text-text-muted -mt-4 mb-8">
+          ※出典：
+          <a href="https://www.google.com/about/careers/applications/interview-tips/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Google Careers 面接準備</a>
+          （確認日：2026年10月14日）
+        </p>
 
         {/* おすすめ転職エージェント */}
         <h2 id="s6">Google転職におすすめの転職エージェント5社</h2>
@@ -252,27 +271,27 @@ export default function GoogleCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "業界最大手で求人数No.1。外資系IT企業への転職支援実績が豊富で、Google出身のアドバイザーが在籍している場合もあります。幅広い求人から比較検討したい方に最適です。",
+              desc: "幅広い業界・職種を扱う大手総合型の転職エージェント。IT業界の各社を比較検討しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス転職に特化したスカウト型サービス。年収1,000万円以上のポジションが充実しており、Googleのリクルーターから直接スカウトが届くこともあります。",
+              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
               href: "/review/jac/",
-              desc: "外資系・グローバル企業への転職に圧倒的な強み。英語面接対策や外資系特有の選考プロセスへのサポートが手厚く、Google転職を目指す方に特におすすめです。",
+              desc: "外資系企業・ハイクラス転職に強い転職エージェント。外資系企業の選考に慣れたコンサルタントに相談しながら、グローバル企業を中心に転職先を検討できます。",
             },
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "豊富な求人数と手厚いサポートが魅力。IT・Web業界の求人に強く、転職サイトとエージェントサービスを併用できるため、幅広く情報収集したい方に向いています。",
+              desc: "大手総合型の転職サービス。転職サイトとエージェントサービスを併用できるため、IT・Web業界の求人を自分でも検索しながら幅広く情報収集したい方に向いています。",
             },
             {
               name: "マイナビ転職エージェント",
               href: "/review/mynavi/",
-              desc: "20代〜30代のIT業界転職に強み。初めての外資系転職でも丁寧にサポートしてくれるため、Google転職が初めてのチャレンジという方におすすめです。",
+              desc: "20代〜30代の転職支援に強い総合型エージェント。初めての転職で応募書類や面接の準備から相談したい方に向いています。",
             },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">

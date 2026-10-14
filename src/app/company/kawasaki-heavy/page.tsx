@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "川崎重工業（証券コード7012）への転職を有価証券報告書などの一次データで解説。平均年間給与は約910万円（2026年3月期・有報／提出会社）。二輪(Kawasakiモーターサイクル)・航空宇宙・鉄道車両のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/kawasaki-heavy/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "川崎重工業への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "川崎重工業（7012）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

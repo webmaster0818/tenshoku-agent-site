@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/it-engineer/" },
   title: "ITエンジニアにおすすめの転職エージェント｜IT業界の転職成功ガイド",
   description:
     "ITエンジニア向けのおすすめ転職エージェントを厳選紹介。リクルートエージェント、doda、ビズリーチなど、IT業界の転職に強いエージェントの特徴、キャリアパス、よくある質問を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ITエンジニアにおすすめの転職エージェント｜IT業界の転職成功ガイド",
     description: "ITエンジニアの転職に強いエージェントを厳選紹介。",
   },

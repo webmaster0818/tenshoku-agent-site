@@ -4,40 +4,38 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/mercari/" },
   title: "メルカリに転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "メルカリへの転職を徹底解説。転職難易度A級の選考フロー、平均年収1,176万円（2025年6月期・有報）の実態、書類選考から面接2〜3回の対策ポイント、おすすめ転職エージェント5社を紹介します。",
+    "メルカリへの転職を解説。平均年収1,232万円・平均年齢37.2歳（2026年6月期・有報）、2026年度の中途採用比率86.8%（公式採用サイト）、公式に記載された選考フローと面接のポイント、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "メルカリに転職するには？年収・面接対策・おすすめエージェント",
     description:
-      "メルカリ転職の難易度・年収・面接対策・おすすめエージェントを網羅的に解説。",
+      "メルカリ転職の年収・中途採用比率・公式の選考フロー・面接対策・おすすめエージェントを、有価証券報告書と公式採用サイトをもとに解説。",
   },
 };
 
 const faqData = [
   {
     q: "メルカリの中途採用は未経験でも応募できますか？",
-    a: "メルカリは中途採用比率が85.6%と非常に高く、即戦力を求めています。未経験からの転職は難しいですが、関連分野での実務経験があれば異業種からの転職も可能です。特にIT・テック業界での経験が重視されます。",
+    a: "公式採用サイトの募集要項では、応募要件は「各採用ポジションによる」とされています。求められる経験は求人ごとに異なるため、募集職種一覧で確認しましょう。なお、新卒採用者と中途採用者の比率は2026年度で新卒13.2%・中途86.8%と公表されています（公式採用サイトFAQ・2026年7月1日更新）。",
   },
   {
     q: "メルカリの面接は何回ありますか？",
-    a: "一般的に書類選考→面接2〜3回の流れです。カルチャーフィット面接が重視され、メルカリのバリュー（Go Bold、All for One、Be a Pro）への共感が問われます。",
+    a: "公式採用サイトでは、選考は「応募→書類選考→技術課題（一部職種のみ）→面接（複数回）→オファー」の順と案内されており、具体的な回数の記載はありません。面接の所要時間は30分〜60分程度（通訳を入れる場合やケース面接は90分程度）で、選考は原則オンラインで実施されます。面接では「ミッションへの共感」「バリューの体現」「カルチャーフィット」の3点が見られます。",
   },
   {
     q: "メルカリの面接で英語は必要ですか？",
-    a: "必須ではありませんが推奨されています。メルカリは社内公用語を英語化しているチームもあり、外国籍社員も多いため、英語でのコミュニケーション能力があると有利です。",
+    a: "公式採用サイトによると、メルカリは社内公用語を制定しておらず、業務では日本語と英語が使われています。面接は日本語・英語、もしくは日英両言語で受けることができ、応募書類も日本語または英語で作成できます。ただし業務上必要な言語が決まっているチーム・職種もあり、その場合は言語が指定されます。",
   },
   {
     q: "メルカリの年収はどのくらいですか？",
-    a: "有価証券報告書（2025年6月期）記載の平均年間給与は1,176万円・平均年齢36.3歳です（全社員平均・職種別ではありません）。実力主義の報酬体系で、RSU（譲渡制限付き株式）も支給されます。 メルカリは実力主義の報酬体系で、成果に応じたインセンティブやRSU（譲渡制限付き株式）も支給されます。エンジニア職では1,200万円以上のケースもあります。",
+    a: "有価証券報告書（2026年6月期）によると、提出会社の平均年間給与は1,232万円、平均年齢は37.2歳、平均勤続年数は4.5年です（全社員平均で、職種別の数値ではありません）。公式採用サイトの正社員募集要項には、昇給年2回（4月・10月）、賞与年2回（3月・9月）、ストックオプション制度（一定職位以上）が記載されています。",
   },
   {
-    q: "メルカリに転職するためにおすすめの資格はありますか？",
-    a: "特定の資格は必須ではありません。エンジニア職ではプログラミングスキル（Go、Microservices等）やプロダクト開発経験が重要です。ビジネス職ではマーケティングやデータ分析の実績が評価されます。",
-  },
-  {
-    q: "メルカリの選考期間はどのくらいですか？",
-    a: "応募から内定まで通常2〜4週間程度です。スタートアップ文化を持つため、大手企業に比べて選考スピードが速いのが特徴です。",
+    q: "過去に選考を受けていても再応募できますか？",
+    a: "公式採用サイトのFAQによると、前回のエントリーから1年以上（インターンシップ選考は半年以上）経過していれば、同じポジションに再応募できます。他のポジションへの応募には期間の制限はありません。",
   },
 ];
 
@@ -69,7 +67,6 @@ export default function MercariCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
-            <span className="rank-badge rank-badge--1">A</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
               メルカリに転職するには？年収・面接対策・おすすめエージェント
             </h1>
@@ -80,9 +77,9 @@ export default function MercariCareer() {
         <p className="text-xs text-text-muted mb-6">メルカリ 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            メルカリは日本最大のフリマアプリを運営する、国内有数のテック企業です。
-            中途採用比率85.6%と中途採用に積極的ですが、即戦力の専門人材が求められるため難易度は高いです。
-            本記事では、メルカリ転職の選考フロー・年収・面接対策・おすすめエージェントを詳しく解説します。
+            メルカリは、フリマアプリ「メルカリ」を運営するテック企業です。グループにはスマホ決済サービス「メルペイ」を運営する株式会社メルペイ、株式会社メルコイン、米国のMercari, Inc.などがあります。
+            2026年度の採用者に占める中途採用の比率は86.8%と公表されており（公式採用サイト）、中途入社者が多く活躍している会社です。
+            本記事では、有価証券報告書と公式採用サイトをもとに、メルカリ転職の選考フロー・年収・面接対策・おすすめエージェントを解説します。
           </p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
@@ -107,9 +104,9 @@ export default function MercariCareer() {
                 { label: "社名", value: "株式会社メルカリ（Mercari, Inc.）" },
                 { label: "本社", value: "東京都港区六本木6-10-1 六本木ヒルズ森タワー" },
                 { label: "設立", value: "2013年2月1日" },
-                { label: "従業員数", value: "約2,200人（連結）" },
-                { label: "平均年収", value: "1,176万円（2025年6月期・有報）" },
-                { label: "事業内容", value: "フリマアプリ「メルカリ」、スマホ決済「メルペイ」、暗号資産「メルコイン」、米国版メルカリ" },
+                { label: "従業員数", value: "2,065人（連結社員数、2026年6月期）" },
+                { label: "平均年収", value: "1,232万円（2026年6月期 有価証券報告書・提出会社）" },
+                { label: "事業内容", value: "フリマアプリ「メルカリ」の企画・開発・運用（グループに株式会社メルペイ、株式会社メルコイン、Mercari, Inc.（US）など）" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">
@@ -122,29 +119,69 @@ export default function MercariCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※最新情報は各社公式サイトでご確認ください
+          ※社名・本社・設立・事業内容は
+          <a href="https://about.mercari.com/about/company/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式会社概要</a>
+          、従業員数は
+          <a href="https://about.mercari.com/sustainability/esg/esgdata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式ESGデータ</a>
+          、平均年収は有価証券報告書（
+          <a href="https://irbank.net/4385/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
+          ）による。2026年10月14日確認。最新情報は公式サイトでご確認ください。
         </p>
 
         {/* 転職難易度 */}
         <h2 id="s2">メルカリの転職難易度</h2>
         <div className="glass-card p-6 mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-4xl font-extrabold text-teal">A級</span>
-            <p className="text-text-secondary text-sm">
-              高い難易度。中途採用比率85.6%と中途採用に積極的ですが、即戦力としての専門性とカルチャーフィットが強く求められます。
-            </p>
+          <p className="text-text-secondary text-sm mb-4">
+            転職の難しさを一律に格付けできる公的な指標はありません。ここでは、応募先を判断する材料として、有価証券報告書と公式データで確認できる数値を整理します。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-border">
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">決算期</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均年間給与</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均年齢</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均勤続年数</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">従業員数（提出会社）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { fy: "2024年6月期", pay: "1,166万円", age: "36.0歳", tenure: "3.5年", emp: "1,417名" },
+                  { fy: "2025年6月期", pay: "1,176万円", age: "36.3歳", tenure: "3.8年", emp: "1,543名" },
+                  { fy: "2026年6月期", pay: "1,232万円", age: "37.2歳", tenure: "4.5年", emp: "1,345名" },
+                ].map((r) => (
+                  <tr key={r.fy} className="border-b border-border">
+                    <td className="py-2 px-3 text-text-secondary">{r.fy}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.pay}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.age}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.tenure}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.emp}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>中途採用比率85.6%で、ほぼ全員が中途入社の即戦力集団</li>
-            <li>「Go Bold」「All for One」「Be a Pro」の3つのバリューへの共感が必須</li>
-            <li>プロダクト志向が強く、ユーザー価値を考え抜ける人材が求められる</li>
-            <li>多国籍な環境で、英語でのコミュニケーション力も評価ポイント</li>
+            <li>平均年間給与は2024年6月期の1,166万円から2026年6月期の1,232万円へ2期連続で上昇（有価証券報告書）</li>
+            <li>全社員に占めるエンジニア職社員の割合は42.2%、外国籍社員の割合は32.0%、東京オフィスで働く社員の国籍数は52ヶ国（2026年6月期・公式ESGデータ）</li>
+            <li>年次有給休暇の取得率は83.4%、男性の育児休業等の取得割合は86.4%（2026年6月期・公式ESGデータ）</li>
+            <li>バリューは「Go Bold（大胆にやろう）」「All for One（全ては成功のために）」「Be a Pro（プロフェッショナルであれ）」「Move Fast（はやく動く）」の4つ（公式サイト）</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            出典：有価証券報告書（
+            <a href="https://irbank.net/4385/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
+            ）、
+            <a href="https://about.mercari.com/sustainability/esg/esgdata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">メルカリ ESGデータ</a>
+            、
+            <a href="https://about.mercari.com/about/about-us/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">私たちについて</a>
+            （公式）。平均年間給与・平均年齢・平均勤続年数は提出会社（単体）の全社員平均で、職種別の数値ではありません。2026年10月14日確認。
+          </p>
         </div>
 
         {/* 中途採用の状況 */}
         <h2 id="s3">メルカリの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             メルカリは
@@ -159,13 +196,19 @@ export default function MercariCareer() {
             で通年の職種別採用を行っています（新卒採用は別ページ）。応募は公式採用サイトの求人検索ページに掲載された各求人からのWebエントリーで、履歴書・職務経歴書の書式は自由（日本語/英語可）とされています。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
+            <li>
+              新卒採用者と中途採用者の比率（公式採用サイトFAQ・2026年7月1日更新）: 2024年度 中途90.0%、2025年度 中途85.6%、2026年度 中途86.8%。直近3年度とも採用の8割超が中途採用です（出典：
+              <a href="https://careers.mercari.com/faq/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">メルカリ採用情報 FAQ</a>
+              、2026年10月14日確認）
+            </li>
             <li>募集職種カテゴリ（公式カテゴリ表記のまま・2026年7月31日確認時点）: 「エンジニアリング（Engineering Positions）」「プロダクト・ビジネス（Product &amp; Business Positions）」「コーポレート（Corporate Positions）」の3大カテゴリ</li>
             <li>勤務地: 東京本社（Mercari Base Tokyo）、大阪、福岡オフィス。働き方は「Hybrid Workstyle」（週2日以上のオフィス出社が基本ポリシー）・フルフレックス（コアタイムなし）で、海外からのリモートワークは原則不可とされています</li>
             <li>選考では一部職種で技術課題があり、面接はミッション共感・バリュー体現・カルチャーフィットをSTAR形式で評価すると公式に記載されています。選考途中でリファレンスチェックが実施される場合があります</li>
-            <li>正社員の試用期間は3カ月。社員インタビューは公式採用サイトや社内報「メルカン」で継続的に発信されています</li>
+            <li>社内公用語は制定しておらず、業務では日本語と英語が使われています。日本語・英語の学習プログラムや通訳・翻訳チームによるサポートも用意されています（公式採用サイト「言語」）</li>
+            <li>正社員の試用期間は3カ月。社員インタビューは公式採用サイトや、メルカリの人を伝えるメディア「メルカン」で発信されています</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">
-            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+            ※2026年10月14日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
         </div>
 
@@ -193,7 +236,7 @@ export default function MercariCareer() {
             {
               step: 4,
               title: "面接（複数回）",
-              desc: "面接ではミッションへの共感・バリューの体現・カルチャーフィットをSTAR形式で評価すると公式に記載されています。選考途中でリファレンスチェックが実施される場合があります。",
+              desc: "面接ではミッションへの共感・バリューの体現・カルチャーフィットをSTAR形式で評価すると公式に記載されています。選考途中でリファレンスチェックや、メンバーとカジュアルに話す場が設けられる場合があります。面接の所要時間は30分〜60分程度で、選考は原則オンラインで実施されます。",
             },
             {
               step: 5,
@@ -211,7 +254,7 @@ export default function MercariCareer() {
           ))}
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※公式採用ページ記載の流れ（2026年7月31日確認）
+          ※公式採用ページ記載の流れ（2026年10月14日確認）
         </p>
 
         {/* 面接対策ポイント */}
@@ -219,20 +262,20 @@ export default function MercariCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
-              title: "バリューの体現エピソード",
-              desc: "「Go Bold（大胆にやろう）」「All for One（全ては成功のために）」「Be a Pro（プロフェッショナルであれ）」を自分の経験と紐づけて具体的に語れるようにしましょう。",
+              title: "4つのバリューの体現エピソード",
+              desc: "公式採用サイトでは、面接で「Go Bold（大胆にやろう）」「All for One（全ては成功のために）」「Be a Pro（プロフェッショナルであれ）」「Move Fast（はやく動く）」の4つのバリューに沿って、どれだけ大胆に挑戦したか、ステークホルダーをどう巻き込んだか、専門性をどう発揮したかを聞くと説明されています。自分の経験と紐づけて具体的に語れるようにしましょう。",
             },
             {
               title: "「循環型社会」への共感",
               desc: "メルカリのミッションは「あらゆる価値を循環させ、あらゆる人の可能性を広げる」です。サステナビリティや循環型経済への関心・ビジョンを語れるようにしましょう。",
             },
             {
-              title: "プロダクト志向のアピール",
-              desc: "メルカリはプロダクト中心の組織です。ユーザー視点でプロダクト改善を考え、データドリブンに意思決定した経験を具体的に示しましょう。",
+              title: "STAR形式で成果を定量的に",
+              desc: "メルカリの面接では、状況（Situation）・課題（Task）・行動（Action）・結果（Result）を掘り下げる「STAR」の手法が使われ、結果については「できる限り成果を定量化して」話すよう公式に案内されています。主要なプロジェクトごとにSTARの4要素と数字を整理しておきましょう。",
             },
             {
               title: "多様な環境での協働経験",
-              desc: "メルカリは約50カ国以上の社員が在籍するグローバルな環境です。多様なバックグラウンドのメンバーと協働した経験や、英語でのコミュニケーション力をアピールしましょう。",
+              desc: "東京オフィスで働く社員の国籍数は52ヶ国、外国籍社員の割合は32.0%です（2026年6月期・公式ESGデータ）。多様なバックグラウンドのメンバーと協働した経験を準備しておくと、働く姿を具体的にイメージしてもらいやすくなります。",
             },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -249,27 +292,27 @@ export default function MercariCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "業界最大手で求人数No.1。IT・Web業界への転職支援実績が豊富で、メルカリを含む有力テック企業の非公開求人も多数保有しています。",
+              desc: "幅広い業界・職種を扱う大手総合型の転職エージェント。IT・Web業界の求人を同業他社とあわせて比較しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス転職に特化したスカウト型サービス。年収800万円以上のテック企業ポジションが充実しており、メルカリの採用担当から直接スカウトが届くこともあります。",
+              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
               href: "/review/jac/",
-              desc: "グローバル企業への転職に強み。メルカリのようなグローバルテック企業への転職を目指す方に、英語面接対策を含めた手厚いサポートが受けられます。",
+              desc: "ミドル・ハイクラス層の転職支援に強みを持つ転職エージェント。外資系・グローバル企業も含めて、専門性を活かしたキャリアアップを考えている方に向いています。",
             },
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "豊富な求人数と手厚いサポートが魅力。IT・Web業界の求人に強く、メガベンチャーへの転職を幅広く検討したい方に最適です。",
+              desc: "大手総合型の転職サービス。転職サイトとエージェントサービスを併用できるため、IT・Web業界の各社を自分でも検索しながら効率よく情報収集できます。",
             },
             {
               name: "マイナビ転職エージェント",
               href: "/review/mynavi/",
-              desc: "20代〜30代のIT業界転職に強み。メガベンチャーへの転職サポートが充実しており、初めてのテック企業への転職という方にもおすすめです。",
+              desc: "20代〜30代の転職支援を得意とする総合型の転職エージェント。初めての転職で、書類作成や面接対策を丁寧に進めたい方に向いています。",
             },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">

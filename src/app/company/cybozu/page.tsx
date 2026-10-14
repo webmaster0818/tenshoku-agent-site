@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "サイボウズ（証券コード4776）への転職を有価証券報告書などの一次データで解説。平均年間給与は約718万円（2025年12月期・有報／提出会社）。kintone・サイボウズ Office・Garoonなどののキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/cybozu/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "サイボウズへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "サイボウズ（4776）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

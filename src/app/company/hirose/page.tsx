@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "ヒロセ電機（証券コード6806）への転職を有価証券報告書などの一次データで解説。平均年間給与は847万円（2026年3月期・有報／提出会社）。中途採用（キャリア採用）の状況、求められる人材、選考の考え方をまとめました。",
   alternates: { canonical: "/company/hirose/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ヒロセ電機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "ヒロセ電機（6806）の平均年収・中途採用・選考の考え方を有価証券報告書ベースで解説。",
   },

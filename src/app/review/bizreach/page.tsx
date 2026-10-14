@@ -5,10 +5,12 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/bizreach/" },
   title: "ビズリーチの評判・口コミは？「やばい」噂の真相とメリット・デメリット",
   description:
     "ビズリーチの評判・口コミを徹底調査。「ビズリーチはやばい」と言われる理由の実態、年収600万円以上のハイクラス向けスカウト型サービスの強み、無料・有料プランの違い、メリット・デメリット、向いている人をまとめました。登録は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ビズリーチの評判・口コミは？「やばい」噂の真相とメリット・デメリット",
     description:
       "ビズリーチの評判・口コミ、スカウトの実態、無料／有料プランの違い、メリット・デメリット、向いている人を解説。",

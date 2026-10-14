@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms/" },
   title: "利用規約｜転職エージェント比較ラボ",
   description:
     "転職エージェント比較ラボの利用規約です。当サイトをご利用いただく前に必ずお読みください。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "利用規約｜転職エージェント比較ラボ",
     description:
       "転職エージェント比較ラボの利用規約です。当サイトをご利用いただく前に必ずお読みください。",

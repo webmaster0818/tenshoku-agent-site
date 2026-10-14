@@ -5,10 +5,12 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/jac/" },
   title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
   description:
     "JACリクルートメントの評判・口コミを徹底調査。ハイクラス・外資系転職に強い理由、登録の「就職難易度」や審査の実態、コンサルタント一気通貫型の強み、メリット・デメリット、向いている人をまとめました。登録は完全無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
     description:
       "ハイクラス・外資系転職に強いJACリクルートメントの評判・口コミ、就職難易度の実態、メリット・デメリット、向いている人を解説。",

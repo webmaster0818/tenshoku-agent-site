@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/recruit-agent/" },
   title: "リクルートエージェントの評判・口コミは？ITエンジニア転職での実力も徹底解説",
   description:
     "リクルートエージェントの評判・口コミを徹底調査。業界最大級の求人数を保有し、IT・エンジニア転職にも強い。ITでの評判の実態、利用の流れ、メリット・デメリット、よくある質問をまとめました。登録は完全無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "リクルートエージェントの評判・口コミは？ITエンジニア転職での実力も徹底解説",
     description: "業界最大級の求人数とIT転職での評判を徹底レビュー。",
   },

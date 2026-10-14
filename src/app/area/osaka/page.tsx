@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/osaka/" },
   title: "大阪でおすすめの転職エージェント5選｜関西の求人事情と活用法",
   description:
     "大阪で転職を考えている方におすすめの転職エージェントを紹介。大阪・関西エリアの求人市場の特徴、業界別の求人傾向、エージェント活用のコツを解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "大阪でおすすめの転職エージェント5選｜関西の求人事情と活用法",
     description: "大阪での転職に強いエージェントを厳選紹介。",
   },

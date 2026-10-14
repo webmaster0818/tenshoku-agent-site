@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/recruit-vs-doda/" },
   title: "リクルートエージェント vs doda 徹底比較｜10項目で違いを解説",
   description:
     "リクルートエージェントとdodaを10項目で徹底比較。求人数、サポート体制、得意分野の違いを解説し、あなたに合ったエージェントの選び方を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "リクルートエージェント vs doda 徹底比較｜10項目で違いを解説",
     description: "リクルートエージェントとdodaの違いを10項目で比較。",
   },

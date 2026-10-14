@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "関西電力（証券コード9503）への転職を有価証券報告書などの一次データで解説。平均年間給与は約938万円（2026年3月期・有報／提出会社）。関西エリアを基盤とする電力大手のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/kepco/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "関西電力への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "関西電力（9503）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

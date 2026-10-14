@@ -5,10 +5,12 @@ import { FelmatTextLink } from "@/components/FelmatCta";
 import A8Cta from "@/components/A8Cta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/baycurrent/" },
   title: 'ベイカレントへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
   description:
     'ベイカレント（証券コード6532）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,331万円（2026年2月期・有報／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: 'ベイカレントへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
     description: "ベイカレントの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

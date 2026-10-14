@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "転職エージェントから届く求人がピントはずれなのは、伝え方が原因であることが多いです。仕事内容を「動詞＋対象＋規模＋成果」で具体化する方法、自分が力を発揮できる状況の言語化、条件に優先順位をつけて渡すやり方を、そのまま使えるメモの形で整理します。",
   alternates: { canonical: "/knowledge/agent-briefing/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントに何をどう伝えるか｜紹介求人が変わる3つの伝え方",
     description:
       "仕事内容の具体化・力を発揮できる状況の言語化・条件の優先順位。エージェントに渡す情報の粒度を上げる方法をまとめます。",

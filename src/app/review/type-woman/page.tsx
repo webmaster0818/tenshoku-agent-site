@@ -6,10 +6,12 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/type-woman/" },
   title: "type女性の転職エージェントの評判は？女性特化の老舗エージェントを徹底解説【2026年】",
   description:
     "type女性の転職エージェント（株式会社キャリアデザインセンター運営・東証プライム上場）は女性の転職に特化したエージェント。年間登録者数15,000名以上、年収UP希望者の約79%が年収アップ（公称）。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "type女性の転職エージェントの評判は？女性特化の老舗エージェントを徹底解説【2026年】",
     description:
       "女性の転職に特化した「type女性の転職エージェント」の特徴・実績・向いている人を公式情報ベースで解説。利用は無料です。",

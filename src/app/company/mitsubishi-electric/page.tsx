@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "三菱電機（証券コード6503）への転職を有価証券報告書などの一次データで解説。平均年間給与は約913万円（2026年3月期・有報／提出会社）。FA機器・ビルシステム（昇降機）・電力・防衛宇宙・空調・半導のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/mitsubishi-electric/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "三菱電機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "三菱電機（6503）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

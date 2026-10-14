@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "転職エージェント比較ラボ【2026年最新】59サービス＋企業年収184社を一次情報で比較",
   description:
     "転職エージェント・転職サービス59件を、求人数・得意分野・対応年代の公表情報で比較。あわせて有価証券報告書にもとづく企業別の平均年収を184社ぶん公開し、15業界の年収ランキングにまとめています。年代別・目的別の選び方も解説。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェント比較ラボ【2026年最新】",
     description: "転職エージェント59サービスと、有報準拠の企業年収184社を比較できるサイトです。",
   },

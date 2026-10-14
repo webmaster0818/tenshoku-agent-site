@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "陸運・物流8社の平均年収を有価証券報告書の記載値でランキング。ヤマトホールディングス1,248万円・三菱倉庫943万円・住友倉庫844万円・NIPPON EXPRESSホールディングス833万円ほか。持株会社単体値とドライバー職の水準が別物である点、2024年問題以降の推移まで一次データで解説します。",
   alternates: { canonical: "/company/butsuryu-salary/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "陸運・物流の年収ランキング【2026年・有価証券報告書】",
     description: "陸運・物流8社の平均年収を有報記載値でランキング。持株会社単体値の落とし穴とキャリア採用の入口も解説。",
   },

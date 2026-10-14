@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/type/women/" },
   title: "女性におすすめの転職エージェント5選｜評判・選び方とライフバランス両立",
   description:
     "女性におすすめの転職エージェントを厳選紹介。女性の転職支援に強いサービスの評判・選び方、ワークライフバランス重視の求人や女性管理職ポジション、育児中・ブランクありの活用法まで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "女性におすすめの転職エージェント5選｜評判・選び方とライフバランス両立",
     description: "女性の転職に強いエージェントの評判・選び方を厳選紹介。利用は無料。",
   },

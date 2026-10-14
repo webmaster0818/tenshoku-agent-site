@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/shosha-salary/" },
   title: "総合商社の年収ランキング【2026年・有価証券報告書】7大商社+専門商社を一次データで比較",
   description:
     "総合商社の平均年収を有価証券報告書の記載値（2026年3月期）でランキング。三菱商事2,112万円・三井物産2,058万円・伊藤忠商事1,991万円・住友商事1,840万円・丸紅1,784万円の5大商社に、豊田通商・双日・兼松を加えた9社。全従業員平均の意味、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "総合商社の年収ランキング【2026年・有価証券報告書】",
     description: "7大商社+専門商社9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
   },

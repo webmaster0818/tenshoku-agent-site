@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "阪和興業（証券コード8078）への転職を有価証券報告書などの一次データで解説。平均年間給与は約997万円（2026年3月期・有報／提出会社）。鉄鋼流通で国内最大級の独立系専門商社のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/hanwa/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "阪和興業への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "阪和興業（8078）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

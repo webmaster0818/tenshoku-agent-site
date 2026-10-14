@@ -4,40 +4,42 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/amazon/" },
   title: "Amazon（アマゾン）に転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "Amazon（アマゾン）への転職を徹底解説。転職難易度S級の選考フロー、平均年収1,000〜1,500万円+RSUの実態、Leadership Principles面接対策、おすすめ転職エージェント5社を紹介します。",
+    "Amazon（アマゾン）への転職を解説。公式採用サイト記載の選考フロー（オンライン申請→アセスメント→電話スクリーニング→インタビューループ）、Leadership Principlesに基づく面接とSTARメソッドの対策、日本の求人状況、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "Amazon（アマゾン）に転職するには？年収・面接対策・おすすめエージェント",
     description:
-      "Amazon転職の難易度・年収・面接対策・おすすめエージェントを網羅的に解説。",
+      "Amazon転職の選考フロー・面接対策・求人状況・おすすめエージェントを、公式採用サイトと年次報告書（Form 10-K）の情報をもとに解説。",
   },
 };
 
 const faqData = [
   {
     q: "AmazonのLeadership Principlesとは何ですか？",
-    a: "AmazonのLeadership Principles（LP）は、全社員に求められる16の行動指針です。「Customer Obsession（顧客へのこだわり）」「Ownership（オーナーシップ）」「Invent and Simplify（創造と簡略化）」などがあり、面接では全ての質問がLPに基づいて設計されています。",
+    a: "AmazonのLeadership Principles（LP）は、公式採用サイトで公開されている16の行動指針です。「Customer Obsession」「Ownership」「Invent and Simplify」「Dive Deep」などがあり、公式の面接ガイドでは「すべての候補者は、これらの原則に基づいて評価されます」と説明されています。",
   },
   {
     q: "Amazonの面接は何回ありますか？",
-    a: "一般的に電話スクリーニング1回、ループ面接（オンサイト）4〜6回の計5〜7回です。ループ面接では各面接官がそれぞれ異なるLeadership Principlesを評価します。",
+    a: "回数は職種によって異なります。公式の採用プロセスは「オンライン申請」「アセスメント」「電話スクリーニング」「インタビューループ」の流れで、インタビューループでは面接官と個別に面談します。公式ガイドによると、マネージャーやチームメイト、利害関係者、バーレイザーなど2〜7人と会うことが多く、1人あたりの面接時間は約45分〜1時間です。",
   },
   {
-    q: "Amazonの年収にはRSUが含まれますか？",
-    a: "はい、AmazonのTotal Compensationは基本給+サインオンボーナス+RSU（譲渡制限付き株式）で構成されます。RSUは4年間のべスティングスケジュール（1年目5%、2年目15%、3年目40%、4年目40%）で付与されるのが特徴です。",
+    q: "Amazonの面接ではどのような質問がされますか？",
+    a: "公式の面接ガイドによると、面接は行動に基づく質問（過去の経験から実際の例を共有してもらう質問）が中心で、会話はLeadership Principlesに基づいて行われます。回答の組み立て方として、Situation・Task・Action・Resultで話すSTARメソッドが公式に紹介されています。",
   },
   {
     q: "Amazon JapanとAWS Japanは同じ会社ですか？",
-    a: "どちらもAmazon.comの日本法人ですが、事業部が異なります。EC・物流関連はアマゾンジャパン合同会社、クラウドサービスはAWSジャパン合同会社として運営されており、採用プロセスも別々に行われます。",
+    a: "別の法人です。公式採用ポータルamazon.jobsの日本の求人には、Amazon Japan G.K.（アマゾンジャパン合同会社）、Amazon Web Services Japan GK（アマゾン ウェブ サービス ジャパン合同会社）、Amazon Data Services Japan G.K.などの法人名が表示されており、どの法人の求人もamazon.jobsから検索・応募できます。",
   },
   {
     q: "Amazonに転職するために英語力は必須ですか？",
-    a: "ポジションによります。AWS JapanやGlobal Teamのポジションは英語面接が実施され、ビジネスレベルの英語力が必須です。一方、日本市場向けのポジションでは日本語のみで完結する場合もあります。",
+    a: "ポジションによって異なります。amazon.jobsの各求人ページには必須要件（Basic Qualifications）と歓迎要件（Preferred Qualifications）が記載されています。2026年10月14日時点の日本の求人815件のうち575件で、これらの要件欄に「英語」または「English」の語が含まれていました（当サイト集計）。語学力の要件は応募する求人ごとに確認してください。",
   },
   {
-    q: "Amazonの「Bar Raiser」とは何ですか？",
-    a: "Bar Raiserは、採用基準を維持するために面接に参加する特別な面接官です。採用チームとは別部門から選ばれ、候補者が既存社員の上位50%以上の水準かどうかを客観的に判断する役割を担っています。",
+    q: "Amazonの「Bar Raiser（バーレイザー）」とは何ですか？",
+    a: "公式の面接ガイドでは、バーレイザーは「採用の質を重視する別のチームのメンバー」と説明されており、インタビューループで会う面接官の1人として挙げられています。面接官の役割に合わせて回答を変える必要はないとも案内されています。",
   },
 ];
 
@@ -69,7 +71,6 @@ export default function AmazonCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
-            <span className="rank-badge rank-badge--1">S</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
               Amazon（アマゾン）に転職するには？年収・面接対策・おすすめエージェント
             </h1>
@@ -80,8 +81,8 @@ export default function AmazonCareer() {
         <p className="text-xs text-text-muted mb-6">Amazon Japan 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            Amazonは、EC・AWS（クラウド）・Prime Video・Alexa・物流など多角的な事業を展開する世界最大級のテクノロジー企業です。
-            16のLeadership Principlesを基盤とした独自の企業文化と、高い報酬パッケージが特徴です。
+            Amazonは、EC・AWS（クラウド）・Prime Video・Alexa・物流など多角的な事業を展開する企業で、2025年末時点の従業員数は約1,576,000人（Form 10-K）。
+            日本の売上高は306億8,800万ドル（2025年）で、Form 10-Kで国別に開示されている米国・ドイツ・英国と並ぶ主要市場です。公式に公開されている16のLeadership Principlesが採用・面接の軸になっています。
             本記事では、Amazon転職の選考フロー・年収・面接対策・おすすめエージェントを詳しく解説します。
           </p>
         </div>
@@ -89,7 +90,7 @@ export default function AmazonCareer() {
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">Amazon（アマゾン）の会社概要</a></li>
-            <li><a href="#s2" className="text-teal hover:underline">Amazonの転職難易度</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">Amazonの転職難易度と面接の特徴</a></li>
             <li><a href="#s3" className="text-teal hover:underline">Amazonの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">Amazonの選考フロー（公式記載）</a></li>
             <li><a href="#s5" className="text-teal hover:underline">Amazon転職の面接対策ポイント</a></li>
@@ -104,11 +105,11 @@ export default function AmazonCareer() {
           <table className="w-full text-sm border-collapse">
             <tbody>
               {[
-                { label: "社名", value: "アマゾンジャパン合同会社 / アマゾン ウェブ サービス ジャパン合同会社" },
-                { label: "本社", value: "東京都目黒区（日本法人） / ワシントン州シアトル（グローバル本社）" },
-                { label: "設立", value: "1994年（グローバル） / 2000年（日本法人）" },
-                { label: "従業員数", value: "約1,540,000人（グローバル） / 約10,000人以上（日本）" },
-                { label: "平均年収", value: "1,000〜1,500万円（+RSU）※エンジニア職の総報酬中央値は約1,700万円（levels.fyi・東京・RSU込み参考値）" },
+                { label: "社名", value: "Amazon.com, Inc.（日本の主な求人掲載法人：アマゾンジャパン合同会社 / アマゾン ウェブ サービス ジャパン合同会社 / Amazon Data Services Japan G.K.）" },
+                { label: "本社", value: "米国ワシントン州シアトル（Amazon.com, Inc.）" },
+                { label: "創業", value: "1994年（Amazon.com）" },
+                { label: "従業員数", value: "約1,576,000人（グローバル・フルタイム及びパートタイム、2025年12月31日時点）" },
+                { label: "日本の売上高", value: "260億200万ドル（2023年）→274億100万ドル（2024年）→306億8,800万ドル（2025年）" },
                 { label: "事業内容", value: "EC（Amazon.co.jp）、クラウド（AWS）、Prime Video、Alexa/デバイス、物流、広告" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
@@ -122,29 +123,30 @@ export default function AmazonCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※最新情報は各社公式サイトでご確認ください
+          ※出典：Amazon.com, Inc. <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">2025年度Form 10-K（SEC提出）</a>（本社・創業・従業員数・国別売上高）、<a href="https://www.amazon.jobs/jp" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">amazon.jobs</a>の求人掲載法人名。日本法人は非上場のため、日本法人単体の平均年収・従業員数の公式開示は確認できませんでした。2026年10月14日確認。
         </p>
 
         {/* 転職難易度 */}
-        <h2 id="s2">Amazonの転職難易度</h2>
+        <h2 id="s2">Amazonの転職難易度と面接の特徴</h2>
         <div className="glass-card p-6 mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-4xl font-extrabold text-teal">S級</span>
-            <p className="text-text-secondary text-sm">
-              世界トップクラスの難易度。Leadership Principlesに基づく独特の面接プロセスが最大の関門です。
-            </p>
-          </div>
+          <p className="text-text-secondary text-sm mb-4">
+            Amazonは面接の進め方を公式採用サイトで詳しく公開しています。Leadership Principlesに沿った準備ができるかどうかが、選考を進めるうえでのポイントです。
+          </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>全ての面接がLeadership Principles（LP）に基づいて設計されている</li>
-            <li>Bar Raiser（採用基準の番人）が面接に参加し、高い基準を維持</li>
-            <li>技術職ではSystem Design面接やコーディング面接が必須</li>
-            <li>ループ面接で4〜6名の面接官全員の合意が必要</li>
+            <li>「すべての候補者は、これらの原則（Leadership Principles）に基づいて評価されます」と公式に記載</li>
+            <li>面接は行動に基づく質問が中心で、過去の経験から実際の例を共有する形式</li>
+            <li>インタビューループでは、マネージャー、チームメイト、利害関係者、バーレイザー（採用の質を重視する別のチームのメンバー）など2〜7人と会うことが多く、1人あたり約45分〜1時間</li>
+            <li>ソフトウェア開発エンジニア（SDE）はコーディングテストを含むオンラインアセスメントがあり、技術面接の多くでコーディングとシステム設計のホワイトボード演習が求められる</li>
+            <li>面接後は5営業日以内に連絡があると案内されている</li>
           </ul>
+          <p className="text-xs text-text-muted mt-4">
+            ※出典：<a href="https://www.amazon.jobs/content/jp/how-we-hire/interview-loop" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">インタビューループ（amazon.jobs公式）</a>、<a href="https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Software development topics（amazon.jobs公式）</a>。2026年10月14日確認。
+          </p>
         </div>
 
         {/* 中途採用の状況 */}
         <h2 id="s3">Amazonの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             Amazonの中途採用は、公式採用ポータル
@@ -156,7 +158,7 @@ export default function AmazonCareer() {
             >
               amazon.jobs
             </a>
-            で求人を検索して応募する方式です。公式検索では日本国内の求人が1,006件掲載されていました（2026年7月31日確認時点）。主要な募集カテゴリは、公式表記でFulfillment & Operations Management、Sales, Advertising, & Account Management、Solutions Architect、Software Developmentなど。勤務地は東京が最多で、大阪・名古屋・尼崎・堺・小田原のほか、全国のフルフィルメントセンター・物流拠点（埼玉・千葉・岐阜・奈良・岡山・佐賀など）でも募集があります。
+            で求人を検索して応募する方式です。国を日本に絞った公式検索では815件の求人が掲載されていました（2026年10月14日確認時点）。件数の多い募集カテゴリは、公式表記でFulfillment & Operations Management（201件）、Project/Program/Product Management--Non-Tech（110件）、Sales, Advertising, & Account Management（68件）、Solutions Architect（64件）など。勤務地は東京（503件）が最多で、大阪・名古屋（各19件）のほか、相模原・小田原・尼崎など各地の拠点でも募集があります。掲載法人はアマゾンジャパン合同会社が最多で、AWSジャパン、Amazon Data Services Japanの求人も含まれます。
           </p>
           <p className="text-sm text-text-secondary mb-4">
             選考プロセスは公式の
@@ -171,7 +173,7 @@ export default function AmazonCareer() {
             で「オンライン申請」→「アセスメント」→「電話スクリーニング」→「インタビューループ」と案内されており（職種により異なる旨の記載あり）、応募状況はamazon.jobsのマイページや専用アプリで確認できます。
           </p>
           <p className="text-xs text-text-muted">
-            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+            ※求人件数・カテゴリ・勤務地・掲載法人は2026年10月14日にamazon.jobsで確認（当サイト集計）。採用プロセスは2026年7月31日・10月14日に確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
         </div>
 
@@ -197,12 +199,12 @@ export default function AmazonCareer() {
             {
               step: 3,
               title: "電話スクリーニング",
-              desc: "電話でのスクリーニングが行われます。公式サイトには面接対策コンテンツ「面接の秘訣」やLeadership Principlesの説明ページが用意されています。",
+              desc: "電話でのスクリーニングが行われます。公式サイトにはインタビューループの準備方法やLeadership Principlesの説明ページが用意されています。",
             },
             {
               step: 4,
               title: "インタビューループ",
-              desc: "複数回の面接からなるインタビューループが実施されます。選考ステップの詳細は職種により異なるため、応募前に公式採用プロセスページをご確認ください。",
+              desc: "現在の従業員と個別に面談するインタビューループが実施されます。公式ガイドでは2〜7人と会うことが多く、1人あたり約45分〜1時間、面接後5営業日以内に連絡があると案内されています。選考ステップの詳細は職種により異なるため、応募前に公式採用プロセスページをご確認ください。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -220,20 +222,20 @@ export default function AmazonCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
-              title: "Leadership Principlesの徹底理解",
-              desc: "16のLPを暗記するだけでなく、各LPに対応する自分の経験エピソードを2〜3個ずつ用意しましょう。「Customer Obsession」「Ownership」「Dive Deep」は特に頻出です。",
+              title: "Leadership Principlesの理解",
+              desc: "公式採用サイトでは16のLPが公開されており、「すべての候補者は、これらの原則に基づいて評価されます」と明記されています。各LPを読み込み、自分の過去の経験と結びつくエピソードを整理しておきましょう。",
             },
             {
               title: "STARメソッドでの回答準備",
-              desc: "AmazonのBehavioral面接ではSTAR（Situation, Task, Action, Result）形式での回答が必須です。具体的な数字や成果を含めた回答を準備しましょう。",
+              desc: "公式の面接ガイドでは、Situation（状況）・Task（課題）・Action（行動）・Result（結果）の順に話すSTARメソッドが紹介されています。「私たち」ではなく「私」を主語に個人の貢献を語り、可能であればデータや数字で裏付けることが推奨されています。",
             },
             {
               title: "技術面接の対策（エンジニア職）",
-              desc: "System Design面接ではスケーラブルなシステム設計を議論します。コーディング面接ではLeetCode Medium〜Hard相当の問題が出題されます。",
+              desc: "公式のSDE向けページによると、コーディングテストを含むオンラインアセスメントがあり、技術面接の多くでコーディングとシステム設計のホワイトボード演習が行われます。データ構造・アルゴリズムなどの基礎を復習し、IDEを使わずにコードを書く練習が推奨されています。",
             },
             {
-              title: "「メカニズム」の理解",
-              desc: "Amazonでは個人の努力ではなく「仕組み（メカニズム）」で問題を解決する文化があります。過去に仕組みを作って継続的な改善を実現した経験を準備しましょう。",
+              title: "成功だけでなく失敗談も準備する",
+              desc: "公式ガイドでは「すべてのストーリーが成功である必要はない」とし、失敗から何を学び、どう成長したかが重要だと説明しています。リスクを取った経験や失敗した経験も、学びとセットで話せるように準備しましょう。",
             },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -242,6 +244,9 @@ export default function AmazonCareer() {
             </div>
           ))}
         </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※出典：<a href="https://www.amazon.jobs/content/jp/our-workplace/leadership-principles" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Leadership Principles</a>・<a href="https://www.amazon.jobs/content/jp/how-we-hire/interview-loop" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">インタビューループ</a>・<a href="https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">Software development topics</a>（いずれもamazon.jobs公式）。2026年10月14日確認。
+        </p>
 
         {/* おすすめ転職エージェント */}
         <h2 id="s6">Amazon転職におすすめの転職エージェント5社</h2>
@@ -250,27 +255,27 @@ export default function AmazonCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "業界最大手でAmazonへの転職支援実績が豊富。Amazon特有のLP面接対策や、ポジション選びのアドバイスが的確です。EC・AWS両方の求人を扱っています。",
+              desc: "幅広い業界・職種を扱う大手総合型エージェント。IT・EC・物流など多様な求人を比較でき、書類添削や面接対策のサポートも受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス転職に特化。Amazonのリクルーターやヘッドハンターから直接スカウトが届くことがあり、シニアポジションを狙う方に最適です。",
+              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録すると企業やヘッドハンターからスカウトが届く仕組みで、シニアポジションを狙う方に向いています。",
             },
             {
               name: "JACリクルートメント",
               href: "/review/jac/",
-              desc: "外資系企業への転職に圧倒的な強み。Amazon特有のLP面接や英語面接の対策サポートが充実しており、外資系転職のプロフェッショナルが担当してくれます。",
+              desc: "外資系・グローバル企業やミドル〜ハイクラス層の転職支援を得意とするエージェント。英文レジュメや外資系特有の選考に備えたい方におすすめです。",
             },
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "IT・Web業界の求人数が豊富。Amazonだけでなく競合他社（Google、Microsoft等）の求人も比較検討でき、幅広い選択肢から最適なポジションを見つけられます。",
+              desc: "転職サイトとエージェントサービスを1つのサービス内で併用できる大手総合型。自分で求人を探しながらキャリアアドバイザーの提案も受けられ、幅広い選択肢を比較したい方に向いています。",
             },
             {
               name: "マイナビ転職エージェント",
               href: "/review/mynavi/",
-              desc: "20代〜30代のIT業界転職に強み。初めての外資系企業への転職でも、英語レジュメの作成サポートや面接対策を丁寧に行ってくれます。",
+              desc: "20代〜30代の転職支援に力を入れる総合型エージェント。書類添削や面接対策などのサポートを受けながら進められるため、初めての転職でも安心です。",
             },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">

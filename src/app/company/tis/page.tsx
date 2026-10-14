@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "TIS（証券コード3626）への転職を有価証券報告書などの一次データで解説。平均年間給与は約829万円（2026年3月期・有報／単体）。直近の年収推移・中途採用の状況・選考の考え方までまとめました。",
   alternates: { canonical: "/company/tis/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "TISへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "TIS（3626）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

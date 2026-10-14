@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/koei-tecmo/" },
   title: "コーエーテクモへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
   description:
     "コーエーテクモ（証券コード3635）への転職を有価証券報告書などの一次データで解説。平均年間給与は約903万円（2026年3月期・有報／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "コーエーテクモへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "コーエーテクモ（3635）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

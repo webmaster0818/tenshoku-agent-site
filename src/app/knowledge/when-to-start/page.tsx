@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/when-to-start/" },
   title: "転職エージェントはいつ登録すべき？最適なタイミングと活動期間",
   description:
     "転職エージェントの登録タイミングを徹底解説。求人が増える1〜3月・7〜9月のベストシーズン、転職活動の平均期間3〜6ヶ月、在職中・退職後それぞれのメリデメ、年齢別のアドバイスまで完全網羅。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントはいつ登録すべき？最適なタイミングと活動期間",
     description: "転職エージェントの登録に最適なタイミングと転職活動の期間を徹底解説。",
   },

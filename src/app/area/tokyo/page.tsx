@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/tokyo/" },
   title: "東京でおすすめの転職エージェント5選｜都内の求人事情と活用法",
   description:
     "東京で転職を考えている方におすすめの転職エージェントを紹介。東京の求人市場の特徴、エリア別の求人傾向、エージェント活用のコツを解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "東京でおすすめの転職エージェント5選｜都内の求人事情と活用法",
     description: "東京での転職に強いエージェントを厳選紹介。",
   },

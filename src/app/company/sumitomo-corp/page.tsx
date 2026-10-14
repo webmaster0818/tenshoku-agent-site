@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "住友商事（証券コード8053）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,840万円（2026年3月期・有報／提出会社）。金属・輸送機・インフラ・メディアデジタルなど6事業部門を展開のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/sumitomo-corp/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "住友商事への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "住友商事（8053）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

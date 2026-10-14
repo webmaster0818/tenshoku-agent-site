@@ -5,10 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/inshoku-agent/" },
   title: "飲食店ドットコムエージェントの評判は？飲食業界特化の転職エージェントを徹底解説【2026年】",
   description:
     "飲食店ドットコムエージェントは、東証プライム上場の株式会社シンクロ・フードが運営する飲食業界特化の転職エージェント。飲食特化20年以上・累計掲載求人7万件以上の「求人飲食店ドットコム」と併用でき、未経験歓迎求人もあり。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "飲食店ドットコムエージェントの評判は？飲食業界特化の転職エージェントを徹底解説【2026年】",
     description:
       "東証プライム上場シンクロ・フード運営の飲食特化転職エージェントの特徴・料金・向いている人を公式情報ベースで解説。利用は無料です。",

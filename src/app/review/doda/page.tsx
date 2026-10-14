@@ -5,10 +5,12 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/doda/" },
   title: "doda（デューダ）の評判・口コミは？やばい噂の真相とメリット・デメリット",
   description:
     "doda（デューダ）の評判・口コミを徹底調査。「dodaはやばい」「電話がしつこい」と言われる理由と実態、エージェント／転職サイト／スカウト一体型の強み、メリット・デメリット、向いている人をまとめました。登録は完全無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "doda（デューダ）の評判・口コミは？やばい噂の真相とメリット・デメリット",
     description:
       "dodaの評判・口コミ、エージェントの実態、メリット・デメリット、向いている人を実データで解説。",

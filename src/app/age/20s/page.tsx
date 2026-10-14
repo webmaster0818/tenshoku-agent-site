@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/20s/" },
   title: "20代におすすめの転職エージェント｜第二新卒・若手向けランキング",
   description:
     "20代・第二新卒におすすめの転職エージェントを厳選紹介。マイナビエージェント、doda、リクルートエージェントなど、若手に強いエージェントの特徴と選び方、失敗しないポイントを解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "20代におすすめの転職エージェント｜第二新卒・若手向けランキング",
     description: "20代・第二新卒向けの転職エージェントおすすめランキング。",
   },

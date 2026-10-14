@@ -4,40 +4,42 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/toyota/" },
   title: "トヨタ自動車に転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "トヨタ自動車への転職を徹底解説。転職難易度S級の選考フロー、平均年収1,006万円（2026年3月期・有報）の実態、書類選考から面接2〜3回の対策ポイント、おすすめ転職エージェント5社を紹介します。",
+    "トヨタ自動車への転職を解説。公式採用サイト記載の選考フロー（書類選考→1次面接＋適性検査→最終面接）、平均年収1,006万円（2026年3月期・有報）、キャリア採用比率49%（2024年度・公式）、面接対策、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "トヨタ自動車に転職するには？年収・面接対策・おすすめエージェント",
     description:
-      "トヨタ転職の難易度・年収・面接対策・おすすめエージェントを網羅的に解説。",
+      "トヨタ転職の選考フロー・年収・キャリア採用比率・面接対策・おすすめエージェントを、有価証券報告書と公式採用サイトの情報をもとに解説。",
   },
 };
 
 const faqData = [
   {
-    q: "トヨタ自動車の中途採用は未経験でも応募できますか？",
-    a: "職種によります。技術系職種は自動車業界やモノづくり領域での実務経験が求められることが多いですが、IT・ソフトウェア系やビジネス職では異業種からの転職実績もあります。ただし、いずれも高い専門性と実績が必要です。",
+    q: "トヨタ自動車の中途採用は異業種からでも応募できますか？",
+    a: "応募できます。公式採用サイトのキャリア採用FAQでは「同業種はもちろん、異業種で活躍された方々も積極的に採用しており、半数以上の方が異業種から転職されています」と回答しています。公式の数値ページでも、キャリア入社者の約70%が他業界からの転職（2022〜2024年度平均）と紹介されています。",
+  },
+  {
+    q: "トヨタ自動車のキャリア採用（中途採用）比率はどのくらいですか？",
+    a: "公式採用サイト「数値で紐解く、トヨタのリアル」によると、採用に占めるキャリア採用の比率は2022年度47%、2023年度49%、2024年度49%です（当社実績数値として掲載）。",
   },
   {
     q: "トヨタ自動車の面接は何回ありますか？",
-    a: "一般的に書類選考→適性検査→面接2〜3回の流れです。面接ではトヨタウェイへの理解度や改善提案力が重点的に評価されます。",
-  },
-  {
-    q: "トヨタ自動車の面接で英語は必要ですか？",
-    a: "必須ではありませんが、TOEIC600点以上が推奨されています。グローバルポジションや海外事業部門ではビジネスレベルの英語力が求められます。",
+    a: "公式の選考プロセスページでは、書類選考の後に「1次面接＋適性検査」と「最終面接」の個別面接2回が案内されています。適性検査は面接日の3日前までにWEBで受験し、キャリア採用FAQでは一部職種でソフトウェア試験があるとされています。求人によって選考プロセスが異なる場合がある旨も記載されています。",
   },
   {
     q: "トヨタ自動車の年収はどのくらいですか？",
-    a: "有価証券報告書（2026年3月期）記載の平均年間給与は1,006万円・平均年齢40.5歳・平均勤続15.1年です（全社員平均）。 管理職になると1,000万円を超えるケースも多く、福利厚生も充実しています。住宅手当や家族手当、社員寮なども整備されています。",
+    a: "有価証券報告書（2026年3月期）記載の平均年間給与は1,006万円・平均年齢40.5歳・平均勤続15.1年です（提出会社の従業員平均）。キャリア採用の募集要項では、給与は「経験、能力等を考慮し、当社規定により支給」とされ、昇給は年1回、賞与は年2回と記載されています。",
   },
   {
-    q: "トヨタ自動車に転職するためにおすすめの資格はありますか？",
-    a: "技術系では自動車関連の資格（自動車整備士など）やCAD関連資格が評価されます。IT系ではAWS認定やAI関連資格も有利です。TOEIC600点以上の英語力も推奨されています。",
+    q: "トヨタ自動車の福利厚生にはどのようなものがありますか？",
+    a: "キャリア採用の募集要項には、施設として寮・社宅、スポーツ施設、保養所など、制度として選択型福利厚生制度・従業員持株会制度・財形貯蓄制度などが記載されています。手当は超過勤務手当、通勤補助などです。",
   },
   {
     q: "トヨタ自動車の選考期間はどのくらいですか？",
-    a: "応募から内定まで通常1〜2ヶ月程度です。書類選考に1〜2週間、面接が2〜3回あるため、スケジュールに余裕を持って臨むことをおすすめします。",
+    a: "公式のキャリア採用FAQでは、書類提出から合格まで1〜2ヶ月程度とされています。内定後は合格連絡から2〜3カ月後の入社で、入社日は毎月1日、具体的な入社月は面接時に相談して調整すると案内されています。",
   },
 ];
 
@@ -69,7 +71,6 @@ export default function ToyotaCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
-            <span className="rank-badge rank-badge--1">S</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
               トヨタ自動車に転職するには？年収・面接対策・おすすめエージェント
             </h1>
@@ -80,16 +81,16 @@ export default function ToyotaCareer() {
         <p className="text-xs text-text-muted mb-6">トヨタ自動車 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            トヨタ自動車は世界最大級の自動車メーカーであり、日本を代表するグローバル企業です。
-            中途採用の難易度は非常に高いものの、年収・福利厚生・キャリア価値はトップクラスです。
-            本記事では、トヨタ転職の選考フロー・年収・面接対策・おすすめエージェントを詳しく解説します。
+            トヨタ自動車は愛知県豊田市に本社を置く自動車メーカーで、連結従業員数は390,927人（2026年3月末）にのぼります。
+            公式採用サイトによると採用のおよそ半数をキャリア採用が占め（2024年度49%）、キャリア入社者の約70%は他業界からの転職です。
+            本記事では、有価証券報告書と公式採用サイトの情報をもとに、トヨタ転職の選考フロー・年収・面接対策・おすすめエージェントを解説します。
           </p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">トヨタ自動車の会社概要</a></li>
-            <li><a href="#s2" className="text-teal hover:underline">トヨタ自動車の転職難易度</a></li>
+            <li><a href="#s2" className="text-teal hover:underline">トヨタ自動車の転職難易度をデータで見る</a></li>
             <li><a href="#s3" className="text-teal hover:underline">トヨタ自動車の中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">トヨタ自動車の選考フロー（公式記載）</a></li>
             <li><a href="#s5" className="text-teal hover:underline">トヨタ転職の面接対策ポイント</a></li>
@@ -107,9 +108,11 @@ export default function ToyotaCareer() {
                 { label: "社名", value: "トヨタ自動車株式会社（Toyota Motor Corporation）" },
                 { label: "本社", value: "愛知県豊田市トヨタ町1番地" },
                 { label: "設立", value: "1937年8月28日" },
-                { label: "従業員数", value: "約375,000人（連結）" },
+                { label: "資本金", value: "6,354億円（2026年3月末）" },
+                { label: "従業員数", value: "73,133人（単体）／390,927人（連結）（2026年3月末）" },
                 { label: "平均年収", value: "1,006万円（2026年3月期・有報）" },
-                { label: "事業内容", value: "自動車の開発・製造・販売、モビリティサービス、金融事業、CASE（Connected・Autonomous・Shared・Electric）領域" },
+                { label: "平均年齢・平均勤続年数", value: "40.5歳・15.1年（2026年3月期・有報）" },
+                { label: "事業内容", value: "自動車の生産・販売" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">
@@ -122,24 +125,56 @@ export default function ToyotaCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※最新情報は各社公式サイトでご確認ください
+          ※出典：<a href="https://global.toyota/jp/company/profile/overview/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">トヨタ自動車 会社概要</a>（社名・本社・設立・資本金・従業員数・事業内容）、有価証券報告書（平均年収・平均年齢・平均勤続年数。<a href="https://irbank.net/7203/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK</a>で確認）。2026年10月14日確認。最新情報は公式サイトでご確認ください
         </p>
 
         {/* 転職難易度 */}
-        <h2 id="s2">トヨタ自動車の転職難易度</h2>
+        <h2 id="s2">トヨタ自動車の転職難易度をデータで見る</h2>
         <div className="glass-card p-6 mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-4xl font-extrabold text-teal">S級</span>
-            <p className="text-text-secondary text-sm">
-              国内最高レベルの難易度。中途採用比率は約45%と増加傾向にあるものの、求められるスキル・経験のハードルは非常に高いです。
-            </p>
-          </div>
-          <ul className="space-y-2 text-sm text-text-secondary">
-            <li>中途採用比率は約45%で、即戦力人材を積極的に採用</li>
-            <li>自動車業界やモノづくり領域での実務経験が重視される</li>
-            <li>「トヨタウェイ」への共感・理解が選考で重要視される</li>
-            <li>CASE領域（コネクテッド・自動運転・シェアリング・電動化）の知見がある人材は特に歓迎</li>
+          <p className="text-text-secondary text-sm mb-4">
+            トヨタ自動車は公式採用サイトでキャリア採用比率やキャリア入社者の出身業界を公開しています。採用の約半数がキャリア採用で、他業界からの転職者も多いことが数字から読み取れます。
+          </p>
+          <ul className="space-y-2 text-sm text-text-secondary mb-5">
+            <li>キャリア採用比率：2022年度47%、2023年度49%、2024年度49%</li>
+            <li>キャリア入社者の約70%が他業界からの転職（出身業界は自動車・自動車部品31%、電気・機械17%、IT・ソフトウェア12%、素材・化学9%、コンサル4%、その他27%。2022〜2024年度平均）</li>
+            <li>キャリア入社者の職種：技術系（ソフトウェア人材）49%、技術系（それ以外）19%、事務系32%（2022〜2024年度平均）</li>
+            <li>入社3年の定着率（事技・業務職、新卒＋キャリア）：97.7%（2021〜2024年度平均）</li>
           </ul>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-border">
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">決算期</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均年間給与</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均年齢</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">平均勤続年数</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">従業員数（単体）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { fy: "2026年3月期", pay: "1,006万円", age: "40.5歳", tenure: "15.1年", emp: "73,133人" },
+                  { fy: "2025年3月期", pay: "982万円", age: "40.7歳", tenure: "15.6年", emp: "71,515人" },
+                  { fy: "2024年3月期", pay: "899万円", age: "40.6歳", tenure: "16.0年", emp: "70,224人" },
+                  { fy: "2023年3月期", pay: "895万円", age: "40.6歳", tenure: "16.2年", emp: "70,056人" },
+                ].map((r) => (
+                  <tr key={r.fy} className="border-b border-border">
+                    <td className="py-2 px-3 text-text-secondary">{r.fy}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.pay}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.age}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.tenure}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.emp}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-text-secondary mt-4">
+            平均年間給与は直近3期で899万円から1,006万円へ上昇しています。
+          </p>
+          <p className="text-xs text-text-muted mt-4">
+            ※出典：キャリア採用比率・出身業界・職種・定着率は公式採用サイト<a href="https://recruit.toyota/figure/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「数値で紐解く、トヨタのリアル」</a>（当社実績数値として掲載。法定の「正規雇用労働者の中途採用比率」として明示された表記ではありません）。年収・年齢・勤続年数・従業員数は各期の有価証券報告書（<a href="https://irbank.net/7203/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK</a>で確認）。2026年10月14日確認。
+          </p>
         </div>
 
         {/* 中途採用の状況 */}
@@ -197,12 +232,12 @@ export default function ToyotaCareer() {
             {
               step: 3,
               title: "1次面接＋適性検査",
-              desc: "1次面接に進むと適性検査があり、面接の3日前までにWEBで受験するとされています。",
+              desc: "書類選考合格者に個別面接が実施されます。適性検査は面接日の3日前までにWEBで受験するとされ、キャリア採用FAQでは一部職種でソフトウェア試験があると案内されています。",
             },
             {
               step: 4,
               title: "最終面接",
-              desc: "1次面接通過後、最終面接が行われます。",
+              desc: "1次面接の合格者に個別面接が実施され、さらに詳細の確認が行われます。",
             },
             {
               step: 5,
@@ -212,7 +247,7 @@ export default function ToyotaCareer() {
             {
               step: 6,
               title: "内定",
-              desc: "合格連絡から2〜3カ月後に入社するスケジュールが公式ページに記載されています。",
+              desc: "提示された入社条件に同意すると正式内定となります。合格連絡から2〜3カ月後に入社するスケジュールで、入社日は毎月1日と公式ページに記載されています。",
             },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -225,7 +260,7 @@ export default function ToyotaCareer() {
           ))}
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※公式採用ページ記載の流れ（2026年7月31日確認）
+          ※出典：公式<a href="https://recruit.toyota/career/process/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">選考プロセス</a>・<a href="https://recruit.toyota/career/faq/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用FAQ</a>（2026年10月14日確認）。書類提出から合格までは1〜2ヶ月程度とされています。求人によって選考プロセスが異なる場合があります。
         </p>
 
         {/* 面接対策ポイント */}
@@ -233,20 +268,20 @@ export default function ToyotaCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {
-              title: "トヨタウェイの深い理解",
-              desc: "「カイゼン」「現地現物」「チャレンジ」「チームワーク」「リスペクト」の5つの価値観を理解し、自身の経験と紐づけて語れるようにしましょう。",
+              title: "トヨタフィロソフィー・トヨタウェイ2020の理解",
+              desc: "公式サイトでは「トヨタフィロソフィー」「トヨタウェイ2020」「トヨタ行動指針」が公開されています。面接前に目を通し、自身の仕事の進め方や価値観と重なる部分を具体的なエピソードで語れるようにしておきましょう。",
             },
             {
-              title: "改善提案力のアピール",
-              desc: "過去の業務で行った改善活動の具体例を準備しましょう。数値で成果を示せると説得力が増します。PDCAサイクルを回した経験は高く評価されます。",
+              title: "改善の実績を数字で語る",
+              desc: "公式採用サイトでは、社員が改善のアイデアを出す「創意くふう提案制度」の件数が1人あたり年14.0件（2024年度）と紹介されています。過去の業務で取り組んだ改善の内容と成果を、数値を交えて説明できるよう準備しましょう。",
             },
             {
-              title: "モビリティへの関心・ビジョン",
-              desc: "CASE領域やカーボンニュートラルなど、トヨタが注力する分野への関心と自分なりのビジョンを語れるようにしましょう。",
+              title: "ソフトウェア・技術領域での専門性",
+              desc: "キャリア入社者の49%が技術系（ソフトウェア人材）です（2022〜2024年度平均・公式）。ソフトウェア職種で応募する場合は、これまでの開発経験や技術スタックを、応募職種の業務内容と結びつけて整理しておきましょう。",
             },
             {
-              title: "チームワークとリーダーシップ",
-              desc: "トヨタは「全員参加の経営」を重視します。チームで成果を出した経験や、周囲を巻き込んだプロジェクト推進の事例を準備しましょう。",
+              title: "異業種での経験の活かし方",
+              desc: "キャリア入社者の約70%が他業界からの転職です（2022〜2024年度平均・公式）。前職の業界知識やスキルを、応募職種でどう活かせるかを自分の言葉で説明できるようにしておくと、面接での受け答えに一貫性が出ます。",
             },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -255,6 +290,9 @@ export default function ToyotaCareer() {
             </div>
           ))}
         </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※出典：<a href="https://global.toyota/jp/company/vision-and-philosophy/toyotaway_code-of-conduct/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">トヨタウェイ2020／トヨタ行動指針（公式）</a>、<a href="https://recruit.toyota/figure/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">数値で紐解く、トヨタのリアル（公式採用サイト）</a>。2026年10月14日確認。
+        </p>
 
         {/* おすすめ転職エージェント */}
         <h2 id="s6">トヨタ転職におすすめの転職エージェント5社</h2>
@@ -263,27 +301,27 @@ export default function ToyotaCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "業界最大手で求人数No.1。製造業・自動車業界への転職支援実績が豊富で、トヨタを含む大手メーカーとの太いパイプがあります。非公開求人も多数保有しています。",
+              desc: "幅広い業界・職種を扱う大手総合型エージェント。メーカーやIT職種を含む多数の求人から比較検討でき、非公開求人の紹介や書類・面接対策のサポートも受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス転職に特化したスカウト型サービス。年収800万円以上のポジションが充実しており、トヨタの管理職・専門職ポジションへのスカウトが届くこともあります。",
+              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録すると企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職として市場価値を確かめたい方に向いています。",
             },
             {
               name: "JACリクルートメント",
               href: "/review/jac/",
-              desc: "外資系・グローバル企業への転職に強み。トヨタのグローバルポジションや海外事業部門への転職を目指す方に特におすすめです。",
+              desc: "外資系・グローバル企業やミドル〜ハイクラス層の転職支援を得意とするエージェント。英語力や海外経験を活かしたいポジションを探す方におすすめです。",
             },
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "豊富な求人数と手厚いサポートが魅力。製造業・メーカー系の求人に強く、転職サイトとエージェントサービスを併用できるため、幅広く情報収集したい方に向いています。",
+              desc: "転職サイトとエージェントサービスを1つのサービス内で併用できる大手総合型。自分で求人を探しながらキャリアアドバイザーの提案も受けられるため、幅広く情報収集したい方に向いています。",
             },
             {
               name: "マイナビ転職エージェント",
               href: "/review/mynavi/",
-              desc: "20代〜30代の転職に強み。メーカー系企業への転職サポートが充実しており、初めての転職でも丁寧にサポートしてくれます。",
+              desc: "20代〜30代の転職支援に力を入れる総合型エージェント。書類添削や面接対策などのサポートを受けながら進められるため、初めての転職でも安心です。",
             },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">

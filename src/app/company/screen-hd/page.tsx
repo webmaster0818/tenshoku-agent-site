@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "SCREENホールディングス（証券コード7735）への転職を有価証券報告書などの一次データで解説。平均年間給与は10,802,000円（2026年3月期・有報／提出会社＝持株会社単体653名）。持株会社と事業会社（SCREENセミコンダクターソリューションズ等）の違い、中途採用の状況、選考の考え方をまとめました。",
   alternates: { canonical: "/company/screen-hd/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "SCREENホールディングスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "SCREENホールディングス（7735）の平均年収・中途採用・選考を有価証券報告書ベースで解説。持株会社単体の数値である点も注記。",
   },

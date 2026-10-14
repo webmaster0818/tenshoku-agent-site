@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/type/freelance/" },
   title: "フリーランスから正社員へ｜おすすめ転職エージェント5選と活用法",
   description:
     "フリーランスから正社員への転職を考えている方におすすめの転職エージェントを紹介。フリーランス経験の活かし方、正社員転職の注意点、よくある質問を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "フリーランスから正社員へ｜おすすめ転職エージェント5選と活用法",
     description: "フリーランスから正社員への転職に強いエージェントを紹介。",
   },

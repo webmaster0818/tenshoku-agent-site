@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/shift/" },
   title: 'SHIFTへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
   description:
     'SHIFT（証券コード3697）への転職を有価証券報告書などの一次データで解説。平均年間給与は約684万円（2025年8月期・有報／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: 'SHIFTへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
     description: "SHIFTの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

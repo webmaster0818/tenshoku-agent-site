@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/denryoku-gas-salary/" },
   title: "電力・ガス業界の年収ランキング【2026年・有価証券報告書】大手9社を一次データで比較",
   description:
     "電力・都市ガス大手9社の平均年収を有価証券報告書の記載値でランキング。J-POWER1,188万円・中部電力945万円・関西電力938万円・東京電力HD882万円・大阪ガス845万円ほか。2年で+143万円の急上昇組、持株会社単体の注意、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "電力・ガス業界の年収ランキング【2026年・有価証券報告書】",
     description: "電力・ガス大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
   },

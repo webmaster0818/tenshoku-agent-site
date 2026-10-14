@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "ディスコ（証券コード6146）への転職を有価証券報告書などの一次データで解説。平均年間給与は1,879万円（2026年3月期・有報／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   alternates: { canonical: "/company/disco/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ディスコへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "ディスコ（6146）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

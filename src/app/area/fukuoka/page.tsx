@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/fukuoka/" },
   title: "福岡でおすすめの転職エージェント5選｜九州エリアの求人事情と活用法",
   description:
     "福岡で転職を考えている方におすすめの転職エージェントを紹介。IT企業の進出が進む福岡・九州エリアの求人市場の特徴と活用法を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "福岡でおすすめの転職エージェント5選｜九州エリアの求人事情と活用法",
     description: "福岡での転職に強いエージェントを厳選紹介。",
   },

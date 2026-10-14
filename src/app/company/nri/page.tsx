@@ -5,10 +5,12 @@ import { FelmatTextLink } from "@/components/FelmatCta";
 import A8Cta from "@/components/A8Cta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/nri/" },
   title: 'NRIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
   description:
     '野村総合研究所（NRI）（証券コード4307）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,332万円（2026年3月期・有報／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: 'NRIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
     description: "NRIの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

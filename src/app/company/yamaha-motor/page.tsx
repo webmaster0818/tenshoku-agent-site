@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/yamaha-motor/" },
   title: "ヤマハ発動機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
   description:
     "ヤマハ発動機（証券コード7272）への転職を有価証券報告書などの一次データで解説。平均年間給与は834万7,789円（2025年12月期・有報／提出会社）。楽器のヤマハ（7951）とは別法人です。キャリア採用の状況、求められる人材、選考の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ヤマハ発動機への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "ヤマハ発動機（7272）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。楽器のヤマハとは別法人。",
   },

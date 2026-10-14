@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { MHLW, DODA, STATS_CONFIRMED_AT } from "@/data/stats";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/flow/" },
   title: "転職エージェントの使い方・流れ｜登録から内定まで8ステップ",
   description:
     "転職エージェントの利用の流れを登録から内定まで8ステップで解説。各ステップで準備すべきことや注意点、効果的な活用法をわかりやすく紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントの使い方・流れ｜登録から内定まで8ステップ",
     description: "転職エージェントの利用の流れを8ステップで解説。",
   },

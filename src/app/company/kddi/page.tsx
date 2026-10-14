@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "KDDI（証券コード9433）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,051万円（2026年3月期・有報／提出会社）で3年連続の上昇。ジョブ型人事のキャリア採用、通信×IT（5G・クラウド・データ・AI）の募集領域までまとめました。",
   alternates: { canonical: "/company/kddi/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "KDDIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "KDDI（9433）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

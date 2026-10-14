@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "丸紅（証券コード8002）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,784万円（2026年3月期・有報／提出会社）。食料・アグリ・電力など生活産業と資源のバランス型ポートフォリのキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/marubeni/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "丸紅への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "丸紅（8002）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

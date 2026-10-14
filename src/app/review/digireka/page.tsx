@@ -5,10 +5,12 @@ import FelmatCta from "@/components/FelmatCta";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/digireka/" },
   title: "デジレカの評判は？マーケティング職特化の転職エージェントを徹底解説【2026年】",
   description:
     "デジレカ（株式会社マルニ運営）はマーケティング領域特化型の転職エージェント。スタッフ全員がデジタルマーケティング経験者で、面談後決定率40%（公称）、未経験者向け無料講座も提供。特徴・料金・向いている人を公式情報ベースで解説します。利用は無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "デジレカの評判は？マーケティング職特化の転職エージェントを徹底解説【2026年】",
     description:
       "マーケティング領域特化型の転職エージェント「デジレカ」の特徴・料金・向いている人を公式情報ベースで解説。利用は無料です。",

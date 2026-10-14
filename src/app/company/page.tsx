@@ -16,7 +16,7 @@ const companies = [
   { slug: "toyota", name: "トヨタ自動車", salary: "1,006万円（有報）", tag: "自動車" },
   { slug: "capcom", name: "カプコン", salary: "約985万円（有報）", tag: "ゲーム" },
   { slug: "cyberagent", name: "サイバーエージェント", salary: "913万円（有報）", tag: "IT・広告" },
-  { slug: "mercari", name: "メルカリ", salary: "1,176万円（有報）", tag: "IT" },
+  { slug: "mercari", name: "メルカリ", salary: "1,232万円（有報）", tag: "IT" },
   { slug: "fujitsu", name: "富士通", salary: "約1,012万円（有報）", tag: "ITサービス" },
   { slug: "ntt", name: "NTT（持株会社）", salary: "約1,056万円（有報・持株単体）", tag: "通信" },
   { slug: "kddi", name: "KDDI", salary: "約1,051万円（有報）", tag: "通信" },

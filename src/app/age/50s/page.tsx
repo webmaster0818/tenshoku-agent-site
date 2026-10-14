@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/50s/" },
   title: "50代におすすめの転職エージェント｜シニア求人の探し方と成功の秘訣",
   description:
     "50代におすすめの転職エージェントを厳選紹介。JACリクルートメント、ビズリーチ、リクルートエージェントなど、シニア層の転職に強いエージェントの活用法と成功のポイントを解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "50代におすすめの転職エージェント｜シニア求人の探し方と成功の秘訣",
     description: "50代のシニア転職に強いエージェントの選び方と活用法を解説。",
   },

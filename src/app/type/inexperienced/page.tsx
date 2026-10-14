@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/type/inexperienced/" },
   title: "未経験向け転職エージェントおすすめ5選｜未経験可の求人の探し方",
   description:
     "未経験から新しい業界・職種に挑戦したい方におすすめの転職エージェントを紹介。未経験可の求人の探し方、エージェントの活用法、よくある質問を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "未経験向け転職エージェントおすすめ5選｜未経験可の求人の探し方",
     description: "未経験転職に強いエージェントと求人の探し方を解説。",
   },

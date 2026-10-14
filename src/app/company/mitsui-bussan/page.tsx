@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "三井物産（証券コード8031）への転職を有価証券報告書などの一次データで解説。平均年間給与は約2,058万円（2026年3月期・有報／提出会社）。鉄鉱石・エネルギーなど資源分野に強みを持ち、ヘルスケア・食料のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/mitsui-bussan/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "三井物産への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "三井物産（8031）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

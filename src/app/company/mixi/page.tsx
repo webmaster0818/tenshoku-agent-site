@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "MIXI（証券コード2121）への転職を有価証券報告書などの一次データで解説。平均年間給与は約847万円（2026年3月期・有報／単体）で3年連続上昇。モンスト・家族アルバム みてね等を支える技術職の中途採用状況までまとめました。",
   alternates: { canonical: "/company/mixi/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "MIXI（ミクシィ）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "MIXI（2121）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

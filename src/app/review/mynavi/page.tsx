@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/mynavi/" },
   title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
   description:
     "マイナビエージェントの評判・口コミを徹底調査。20代・第二新卒に強い手厚いサポートが特徴。年齢層は何歳まで使える？口コミの実態、メリット・デメリット、向いている人、FAQをまとめました。登録は完全無料。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
     description: "20代・第二新卒に強いマイナビエージェントの評判・口コミ・年齢層・メリット・デメリットを徹底レビュー。",
   },

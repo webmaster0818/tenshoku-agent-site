@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "コニカミノルタ（証券コード4902）への転職を有価証券報告書などの一次データで解説。平均年間給与は約844万円（2026年3月期・有報／提出会社）。キャリア採用の直接応募・キャリア登録・ジョブリターンの3ルート、SPI・英語力確認を含む選考フローまでまとめました。",
   alternates: { canonical: "/company/konica-minolta/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "コニカミノルタへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "コニカミノルタ（4902）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

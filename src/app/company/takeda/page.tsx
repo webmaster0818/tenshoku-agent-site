@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "武田薬品工業（証券コード4502）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,144万円（2026年3月期・有報／提出会社）。国内最大手・世界トップクラスの製薬会社のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/takeda/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "武田薬品工業への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "武田薬品工業（4502）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

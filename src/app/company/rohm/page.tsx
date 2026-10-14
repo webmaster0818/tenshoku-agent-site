@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/rohm/" },
   title: "ロームへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
   description:
     "ローム（証券コード6963）への転職を有価証券報告書などの一次データで解説。平均年間給与は約803.5万円（2026年3月期・有報／提出会社）。京都本社の半導体メーカーの中途採用（キャリア採用）の状況、求められる人材、選考の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ロームへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "ローム（6963）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

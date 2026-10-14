@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "日本郵船（証券コード9101）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,554万円（2026年3月期・有報／提出会社）。定期船から航空・物流まで手がける海運国内最大手のキャリア採用窓口・選考の考え方をまとめました。",
   alternates: { canonical: "/company/nippon-yusen/" },
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "日本郵船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
     description: "日本郵船（9101）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },

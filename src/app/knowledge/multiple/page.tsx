@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { DODA, STATS_CONFIRMED_AT } from "@/data/stats";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/multiple/" },
   title: "転職エージェントの複数利用・掛け持ち｜メリデメとおすすめ組み合わせ",
   description:
     "転職エージェントを複数掛け持ちで利用するメリット・デメリット、おすすめの組み合わせ、注意点を解説。効率的に転職活動を進める方法を紹介します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "転職エージェントの複数利用・掛け持ち｜メリデメとおすすめ組み合わせ",
     description: "転職エージェントの複数利用のメリデメとおすすめ組み合わせを解説。",
   },

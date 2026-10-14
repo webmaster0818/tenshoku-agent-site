@@ -4,10 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/yamaha/" },
   title: "ヤマハへの転職は難しい？中途採用・平均年収794万円・選考を徹底解説【2026年】",
   description:
     "ヤマハ（証券コード7951）への転職を有価証券報告書などの一次データで解説。平均年間給与は約794万円（2026年3月期・有報／提出会社）。楽器・音響機器メーカーとしての事業内容、中途採用の状況、選考フロー、年収の考え方をまとめました。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "ヤマハへの転職は難しい？中途採用・平均年収794万円・選考を徹底解説【2026年】",
     description: "ヤマハ（7951・楽器/音響機器）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },

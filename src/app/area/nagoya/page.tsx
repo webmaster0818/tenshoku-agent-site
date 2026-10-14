@@ -3,10 +3,12 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/nagoya/" },
   title: "名古屋でおすすめの転職エージェント5選｜東海エリアの求人事情と活用法",
   description:
     "名古屋・東海エリアで転職を考えている方におすすめの転職エージェントを紹介。自動車産業をはじめとする東海エリアの求人市場の特徴と活用法を解説します。",
   openGraph: {
+    images: ["/opengraph-image.jpg"],
     title: "名古屋でおすすめの転職エージェント5選｜東海エリアの求人事情と活用法",
     description: "名古屋での転職に強いエージェントを厳選紹介。",
   },
