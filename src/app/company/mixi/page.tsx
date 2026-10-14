@@ -232,6 +232,7 @@ export default function CompanyCareer() {
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
             <Link href="/company/dena/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">DeNA転職ガイド</Link>
             <Link href="/company/cyberagent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">サイバーエージェント転職ガイド</Link>
+            <Link href="/company/zozo/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">ZOZO転職ガイド</Link>
             <Link href="/company/game-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">ゲーム業界の年収ランキング</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>

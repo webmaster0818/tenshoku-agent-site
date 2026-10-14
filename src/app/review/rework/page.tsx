@@ -58,7 +58,7 @@ export default function ReworkReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "Re:WORKエージェントの評判・特徴" },
         ]}
       />

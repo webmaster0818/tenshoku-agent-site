@@ -74,7 +74,7 @@ export default function DodaReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "doda（デューダ）の評判・口コミ" },
         ]}
       />

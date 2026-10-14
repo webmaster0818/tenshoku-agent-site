@@ -62,7 +62,7 @@ export default function InshokuAgentReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "飲食店ドットコムエージェントの評判・特徴" },
         ]}
       />
@@ -230,6 +230,9 @@ export default function InshokuAgentReview() {
             </Link>
             <Link href="/review/doda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               dodaの詳細
+            </Link>
+            <Link href="/review/oishiru-career/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              オイシルキャリアの詳細
             </Link>
             <Link href="/type/inexperienced/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               未経験向けエージェント

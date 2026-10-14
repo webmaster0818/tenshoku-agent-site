@@ -62,7 +62,7 @@ export default function DigirekaReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "デジレカの評判・特徴" },
         ]}
       />

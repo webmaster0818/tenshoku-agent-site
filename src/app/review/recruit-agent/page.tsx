@@ -49,7 +49,7 @@ export default function RecruitAgentReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "リクルートエージェント" },
         ]}
       />

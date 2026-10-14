@@ -78,7 +78,7 @@ export default function MyvisionReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "MyVisionの評判・特徴" },
         ]}
       />

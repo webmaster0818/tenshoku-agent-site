@@ -62,7 +62,7 @@ export default function AgentNaviReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "転職AGENT Naviの評判・特徴" },
         ]}
       />

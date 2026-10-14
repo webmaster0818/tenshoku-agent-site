@@ -49,7 +49,7 @@ export default function MynaviReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "マイナビエージェント" },
         ]}
       />

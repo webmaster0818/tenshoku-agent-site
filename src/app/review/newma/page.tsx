@@ -62,7 +62,7 @@ export default function NewmaReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "NewMAの評判・特徴" },
         ]}
       />
@@ -223,6 +223,9 @@ export default function NewmaReview() {
             </Link>
             <Link href="/review/jac/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               JACリクルートメントの詳細
+            </Link>
+            <Link href="/review/susucari/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              サスキャリの詳細
             </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ

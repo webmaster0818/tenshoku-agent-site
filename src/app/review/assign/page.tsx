@@ -67,7 +67,7 @@ export default function AssignReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "アサイン(ASSIGN)の評判・特徴" },
         ]}
       />

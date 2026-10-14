@@ -207,8 +207,6 @@ export default function CompanyCareer() {
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
             <Link href="/company/nri/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">野村総合研究所転職ガイド</Link>
-            <Link href="/company/biprogy/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">BIPROGY転職ガイド</Link>
-            <Link href="/company/dts/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">DTS転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

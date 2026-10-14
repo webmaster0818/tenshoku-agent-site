@@ -159,6 +159,9 @@ export default function InexperiencedPage() {
             <Link href="/knowledge/flow/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               転職エージェントの使い方
             </Link>
+            <Link href="/review/security-work/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              警備員専門セキュリティーワークの詳細
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

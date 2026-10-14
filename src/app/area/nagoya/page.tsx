@@ -143,6 +143,9 @@ export default function NagoyaPage() {
             <Link href="/area/osaka/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               大阪の転職エージェント
             </Link>
+            <Link href="/review/r4career/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              名古屋・東海特化のR4CAREERの詳細
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

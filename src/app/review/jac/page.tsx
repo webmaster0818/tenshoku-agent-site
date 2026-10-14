@@ -74,7 +74,7 @@ export default function JacReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "JACリクルートメントの評判・口コミ" },
         ]}
       />
@@ -358,6 +358,9 @@ export default function JacReview() {
             </Link>
             <Link href="/review/doda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               dodaの詳細
+            </Link>
+            <Link href="/review/lhh/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              LHH転職エージェントの詳細
             </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ

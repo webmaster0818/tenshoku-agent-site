@@ -62,7 +62,7 @@ export default function RealmeCareerReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "リアルミーキャリアの評判・特徴" },
         ]}
       />
@@ -219,6 +219,12 @@ export default function RealmeCareerReview() {
             </Link>
             <Link href="/review/type-woman/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               type女性の転職エージェントの詳細
+            </Link>
+            <Link href="/review/tokihana-career/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              トキハナキャリアの詳細
+            </Link>
+            <Link href="/review/hoiku-musubi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              ほいくのむすびの詳細
             </Link>
             <Link href="/review/doda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               dodaの詳細

@@ -193,6 +193,9 @@ export default function HowToChoosePage() {
             <Link href="/knowledge/multiple/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               複数エージェントの活用法
             </Link>
+            <Link href="/review/randstad-challenged/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              障がい者の転職支援(ランスタッド)
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

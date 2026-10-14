@@ -43,7 +43,7 @@ export default function Page() {
       />
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "第二新卒エージェントneoの評判・特徴" },
         ]}
       />

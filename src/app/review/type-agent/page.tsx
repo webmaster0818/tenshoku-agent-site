@@ -44,7 +44,7 @@ export default function Page() {
       />
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "type転職エージェントの評判・特徴" },
         ]}
       />

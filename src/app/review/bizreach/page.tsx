@@ -74,7 +74,7 @@ export default function BizreachReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "ビズリーチの評判・口コミ" },
         ]}
       />

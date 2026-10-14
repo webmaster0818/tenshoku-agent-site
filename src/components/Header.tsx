@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const navItems = [
-  { label: 'ランキング', href: '/#ranking' },
+  { label: 'ランキング', href: '/review/' },
   { label: '特化型を探す', href: '/#specialized' },
   { label: '企業年収DB', href: '/company/' },
   { label: '年収ランキング', href: '/company/maker-salary/' },

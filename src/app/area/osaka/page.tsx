@@ -143,6 +143,9 @@ export default function OsakaPage() {
             <Link href="/area/nagoya/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               名古屋の転職エージェント
             </Link>
+            <Link href="/area/fukuoka/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              福岡の転職エージェント
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

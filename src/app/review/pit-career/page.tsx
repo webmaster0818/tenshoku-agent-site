@@ -44,7 +44,7 @@ export default function Page() {
       />
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "PIT(ピット)の評判・特徴" },
         ]}
       />

@@ -19,7 +19,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      ...(item.href ? { item: `https://example.com${item.href}` } : {}),
+      ...(item.href ? { item: `https://tenshoku-agent-lab.com${item.href}` } : {}),
     })),
   };
 

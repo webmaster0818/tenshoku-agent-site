@@ -43,7 +43,7 @@ export default function Page() {
       />
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "ジョブソエルの評判・特徴" },
         ]}
       />
@@ -130,6 +130,12 @@ export default function Page() {
             </Link>
             <Link href="/review/oshigoto-lab/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               お仕事ラボの詳細
+            </Link>
+            <Link href="/review/doctor-net/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              ドクターネットエージェントの詳細
+            </Link>
+            <Link href="/review/kujilabo/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              クジラボの詳細
             </Link>
             <Link href="/review/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               転職サービス解説一覧

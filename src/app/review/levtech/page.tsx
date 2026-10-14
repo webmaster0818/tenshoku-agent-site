@@ -74,7 +74,7 @@ export default function LevtechReview() {
 
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "レバテックキャリアの評判・口コミ" },
         ]}
       />

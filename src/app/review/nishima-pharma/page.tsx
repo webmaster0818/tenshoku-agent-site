@@ -43,7 +43,7 @@ export default function Page() {
       />
       <Breadcrumb
         items={[
-          { name: "エージェント一覧", href: "/#ranking" },
+          { name: "エージェント一覧", href: "/review/" },
           { name: "にしまファーマの評判・特徴" },
         ]}
       />
@@ -127,6 +127,9 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">
             <Link href="/review/oshigoto-lab/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               お仕事ラボ(薬剤師)の詳細
+            </Link>
+            <Link href="/review/shika-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              歯科医師求人ナビの詳細
             </Link>
             <Link href="/type/inexperienced/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               未経験向けエージェントまとめ
