@@ -4,14 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "九州電力への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円",
   description:
-    "九州電力（証券コード9508）への転職を有価証券報告書などの一次データで解説。平均年間給与は約842万円（2026年3月期・有報／提出会社）。九州を基盤とする電力大手のキャリア採用窓口・選考の考え方をまとめました。",
+    "九州電力の平均年収は約842万円（2026年3月期・有報）、2年で+90万円。経験者採用（キャリア）は原則45歳未満・前職不問、選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。高度専門採用との違いも整理。",
   alternates: { canonical: "/company/kyuden/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "九州電力への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
-    description: "九州電力（9508）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    title: "九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円",
+    description: "九州電力の平均年収約842万円（有報）とキャリア採用の応募資格・選考ステップ（公式・10/15確認）。",
   },
 };
 
@@ -22,11 +22,19 @@ const faqData = [
   },
   {
     q: "九州電力は中途採用を行っていますか？",
-    a: "はい。公式サイトの公式採用ページ（www.kyuden.co.jp/company/recruitment.html）でキャリア採用の情報を確認できます（2026年9月14日確認）。",
+    a: "はい。公式採用サイトに「経験者採用（キャリア）」「経験者採用（高度専門）」「ジョブ・リターン採用」などの窓口があります。キャリア採用は2027年4月入社向けの選考を2026年7月28日から募集しており、職種は事務職（エリア指定コース／エリア指定なし／都市開発事業／エネルギーコンサルティング）と技術職です（2026年10月15日確認）。",
   },
   {
     q: "九州電力はどんな会社ですか？",
-    a: "九州を基盤とする電力大手。原子力の再稼働率が高く、再エネ・海外事業も展開です。本社は福岡県福岡市にあります。",
+    a: "九州を基盤とする電力大手で、再エネ・海外事業も展開しています。本社は福岡県福岡市にあります。",
+  },
+  {
+    q: "九州電力の中途採用の難易度・倍率は？",
+    a: "倍率は公表されていません。公式の募集要項では、キャリア採用は原則として2026年4月1日時点で45歳未満の既卒者が対象で、「専攻学部・学科、前職の経験は問いません」と明記されています（大学等卒は卒業後3年超なら職務経験不問）。選考はエントリーシート→基礎能力検査→一次面接→最終面接です（2026年10月15日確認）。",
+  },
+  {
+    q: "キャリア採用と高度専門採用の違いは？",
+    a: "公式FAQによると、高度専門採用は特定の職種・業務の専門人材を不定期で募集するもので、キャリア採用は毎年4月1日入社を基本に各職種で広く募集するものです。キャリア採用には長期勤続によるキャリア形成の観点から年齢制限があり、その他の労働条件や処遇に違いはないとされています（2026年10月15日確認）。",
   },
   {
     q: "九州電力の平均勤続年数・平均年齢はどのくらいですか？",
@@ -37,8 +45,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "九州電力への転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-06",
+  headline: "九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円",
+  dateModified: "2026-10-15",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/kyuden/" },
@@ -64,7 +72,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            九州電力への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/kyuden.jpg" alt="九州電力の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -72,18 +80,29 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">九州電力 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            九州電力（証券コード9508）は、九州を基盤とする電力大手。原子力の再稼働率が高く、再エネ・海外事業も展開です。
-            本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
+            九州電力（証券コード9508）は、九州を基盤とする電力大手で、再エネ・海外事業も展開しています。
+            本記事では、有価証券報告書と公式採用サイトの募集要項をもとに、平均年収・中途採用（キャリア採用）の応募資格・選考を整理します。
           </p>
+        </div>
+        <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
+          <p className="font-bold text-navy mb-3">先に結論：九州電力の年収と中途採用（2026年10月15日確認）</p>
+          <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
+            <li><strong>平均年収：</strong>約842万円（2026年3月期・有価証券報告書／提出会社）。752万円→806万円→842万円と2年で+90万円。平均42.1歳・勤続20.8年。</li>
+            <li><strong>キャリア採用の応募資格：</strong>原則2026年4月1日時点で45歳未満の既卒者。専攻・前職の経験は不問（大学等卒は卒業後3年超なら職務経験不問）。</li>
+            <li><strong>職種：</strong>事務職（エリア指定コース／エリア指定なし／都市開発事業／エネルギーコンサルティング〈技術提案営業〉）、技術職。入社日は2027年4月1日（相談可）。</li>
+            <li><strong>選考：</strong>エントリーシート → 基礎能力検査 → 一次面接 → 最終面接 → 内定（2027年4月入社向けは11月中旬の内定予定）。倍率は非公表。</li>
+            <li><strong>高度専門採用：</strong>特定職種の専門人材を不定期で募集（年齢制限なし）。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">九州電力 経験者採用情報</a>／有価証券報告書（IR BANK掲載値）。募集時期・内容は変わるため、応募前に公式で最新をご確認ください。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">結論：九州電力転職のポイント</a></li>
             <li><a href="#s2" className="text-teal hover:underline">九州電力の基本データ（有価証券報告書）</a></li>
-            <li><a href="#s3" className="text-teal hover:underline">九州電力の中途採用の状況</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">九州電力の中途採用（キャリア採用の応募資格）</a></li>
             <li><a href="#s4" className="text-teal hover:underline">九州電力で求められる人材</a></li>
-            <li><a href="#s5" className="text-teal hover:underline">九州電力の選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">九州電力のキャリア採用の選考ステップ（公式）</a></li>
             <li><a href="#s6" className="text-teal hover:underline">九州電力の年収の考え方</a></li>
             <li><a href="#s7" className="text-teal hover:underline">九州電力転職で活用したい転職エージェント</a></li>
             <li><a href="#s8" className="text-teal hover:underline">九州電力転職 よくある質問</a></li>
@@ -95,7 +114,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約842万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員平均。</li>
             <li>752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移（2年連続上昇(計90万円)）。</li>
-            <li>キャリア採用は公式採用ページで確認可能（2026年9月14日確認）。</li>
+            <li>キャリア採用は原則45歳未満・前職不問。選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。</li>
             <li>全従業員平均であり、発電所・支社・本店で水準は異なります。</li>
           </ul>
         </div>
@@ -126,15 +145,17 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年9月14日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2 id="s3">九州電力の中途採用の状況</h2>
+        <h2 id="s3">九州電力の中途採用（キャリア採用の応募資格）</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">2026年9月14日時点で、<a href="https://www.kyuden.co.jp/company/recruitment.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>を確認できます。</p>
+          <p className="text-sm text-text-secondary mb-4"><a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイトの経験者採用情報</a>の内容です（2026年10月15日確認）。2027年4月入社向けの選考は2026年7月28日から募集されています。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>公式サイトの採用ページから新卒・キャリア採用の窓口を確認できます。</li>
-            <li>技術系(電気・機械・原子力・土木)と事務系の採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li><strong>応募資格：</strong>原則として2026年4月1日時点で45歳未満の既卒者。大学（院）・短大・専門学校卒は卒業後3年を超えていれば職務経験不問、卒業後3年以内は正社員経験が必要（ない場合は定期採用の対象）。高専・高校卒等は既卒であれば職務経験不問。専攻学部・学科、前職の経験は問いません。</li>
+            <li><strong>職種：</strong>事務職（エリア指定コース）、事務職（エリア指定なし）、事務職（都市開発事業）、事務職（エネルギーコンサルティング〈技術提案営業〉）、技術職。事務職は障がい者特別選考もあり。海外事業の採用は株式会社キューデン・インターナショナルが募集主体です。</li>
+            <li><strong>勤務地：</strong>九州管内の事業所および東京支社ほか。入社後は転居を伴う異動があります。</li>
+            <li><strong>勤務・待遇：</strong>8時50分〜17時30分（職種・勤務箇所によりスーパーフレックス・三交替あり）、給与は実務経験に応じ当社規定により決定、賞与年2回（6月・12月）、有給休暇20日（4月1日入社の場合）、リフレッシュ休日（年5日連続）、住宅手当・世帯手当、寮・社宅・家賃補助（地域による）。</li>
+            <li><strong>その他の窓口：</strong>経験者採用（高度専門）、カムバック制度、ジョブ・リターン採用。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で九州電力のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で九州電力のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
         <h2 id="s4">九州電力で求められる人材</h2>
@@ -154,14 +175,14 @@ export default function CompanyCareer() {
 
         <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
 
-        <h2 id="s5">九州電力の選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2 id="s5">九州電力のキャリア採用の選考ステップ（公式）</h2>
+        <p className="text-sm text-text-muted mb-4">2027年4月入社向けキャリア採用の公式スケジュールです（2026年10月15日確認・公式は「現時点でのスケジュール予定」と記載）。エントリーシートの入力期限（9月27日）は確認時点で過ぎています。次回の募集は公式でご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "採用ページからエントリー", desc: "公式採用ページで求人を確認し、希望ポジションにエントリーします。" },
-            { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を基に、応募求人の要件との適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等との面接。実務経験と応募職種の適合が中心です。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。経験・能力を考慮した条件が提示されます。" },
+            { step: 1, title: "エントリーシート入力", desc: "マイページ登録のうえ入力。入力期限は2026年9月27日（日）でした。" },
+            { step: 2, title: "基礎能力検査", desc: "エントリーシート提出者から順次案内。受験期限は2026年10月7日（水）。" },
+            { step: 3, title: "一次面接", desc: "受験期限は2026年10月24日（土）。" },
+            { step: 4, title: "最終面接", desc: "受験期限は2026年11月7日（土）。内定通知は2026年11月中旬の予定です。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

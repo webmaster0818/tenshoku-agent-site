@@ -4,14 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "日本郵船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円",
   description:
-    "日本郵船（証券コード9101）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,554万円（2026年3月期・有報／提出会社）。定期船から航空・物流まで手がける海運国内最大手のキャリア採用窓口・選考の考え方をまとめました。",
+    "日本郵船のキャリア採用（中途）は陸上職事務系・陸上職技術系・海上職の3職種＋リボーディング制度。応募資格「経験職務・業界は不問」、選考は書類と面接3回程度（公式募集要項・2026年10月15日確認）。平均年収約1,554万円（有報）も整理。",
   alternates: { canonical: "/company/nippon-yusen/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "日本郵船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
-    description: "日本郵船（9101）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    title: "日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円",
+    description: "日本郵船のキャリア採用3職種・応募資格・選考（公式・10/15確認）と平均年収約1,554万円（有報）。",
   },
 };
 
@@ -22,11 +22,19 @@ const faqData = [
   },
   {
     q: "日本郵船は中途採用を行っていますか？",
-    a: "はい。公式サイトの採用ページ（https://www.nyk.com/recruit/）でキャリア採用の情報を確認できます（2026年9月22日確認）。",
+    a: "はい。公式のキャリア採用サイト（https://www.nyk.com/recruit/career/）の募集要項に、陸上職事務系（総合職）・陸上職技術系（総合職）・海上職（航海士/機関士）と、元社員向けのリボーディング制度が掲載されています（2026年10月15日確認）。希望職種の募集がない場合の「キャリア登録」窓口もあります。",
   },
   {
     q: "日本郵船はどんな会社ですか？",
     a: "定期船・不定期専用船・航空運送・物流を展開する海運国内最大手です。本社は東京都千代田区丸の内二丁目3番2号にあります。",
+  },
+  {
+    q: "日本郵船の中途採用は未経験の業界からでも応募できますか？",
+    a: "陸上職事務系の応募資格は「四年制大学、大学院または高等専門学校を卒業され、就業経験のある方」で、「経験職務・業界は不問」と明記されています。陸上職技術系も「業界・職種経験は不問」（理系学部・大学院理系が対象）です。一方、海上職は航海士・機関士としての乗船履歴と三級海技士以上の海技免状などが必須です（公式募集要項・2026年10月15日確認）。",
+  },
+  {
+    q: "日本郵船の中途採用の選考は何回ですか？",
+    a: "公式募集要項では、陸上職事務系・技術系・海上職とも「書類選考及び面接（3回程度）」、リボーディング制度は「書類選考及び面接（2～3回程度）」です。応募はマイページ上のガイダンスに従って行います。なお、過去に応募した人も再応募できますが、1年間に複数回の応募はできません（2026年10月15日確認）。倍率は公表されていません。",
   },
   {
     q: "日本郵船の平均勤続年数・平均年齢はどのくらいですか？",
@@ -41,8 +49,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "日本郵船への転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-22",
+  headline: "日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円",
+  dateModified: "2026-10-15",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/nippon-yusen/" },
@@ -68,7 +76,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            日本郵船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/nippon-yusen.jpg" alt="日本郵船の採用サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -77,17 +85,28 @@ export default function CompanyCareer() {
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             日本郵船（証券コード9101）は、定期船・不定期専用船・航空運送・物流を展開する海運国内最大手です。
-            本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
+            本記事では、公式キャリア採用サイトの募集要項と有価証券報告書をもとに、中途採用の募集職種・応募資格・選考・平均年収を整理します。
           </p>
+        </div>
+        <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
+          <p className="font-bold text-navy mb-3">先に結論：日本郵船への転職（公式で確認・2026年10月15日）</p>
+          <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
+            <li><strong>募集職種：</strong>陸上職事務系（総合職）・陸上職技術系（総合職）・海上職（航海士/機関士）の3職種と、元社員向けのリボーディング制度。</li>
+            <li><strong>応募資格（陸上職事務系）：</strong>大学・大学院・高専卒で就業経験のある方。<strong>経験職務・業界は不問</strong>。歓迎条件に英語（TOEIC 750点以上）、海外折衝を含むPM/PL経験、ファイナンス・税務・IT戦略/DX・法務（弁護士資格・英文契約）など。</li>
+            <li><strong>選考：</strong>書類選考及び面接（3回程度）。マイページから応募。1年間に複数回の応募は不可。</li>
+            <li><strong>働き方：</strong>9:00〜17:00（フレックス・コアタイム11:00〜15:00）、勤務地は横浜・東京・国内支店・海外、3〜4年ごとのジョブローテーション。</li>
+            <li><strong>平均年収：</strong>約1,554万円（2026年3月期・有価証券報告書／提出会社。平均37.8歳・勤続13.9年）。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.nyk.com/recruit/career/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">日本郵船 キャリア採用 募集要項</a>。募集内容は変わることがあるため、応募前に公式で最新をご確認ください。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">結論：日本郵船転職のポイント</a></li>
             <li><a href="#s2" className="text-teal hover:underline">日本郵船の基本データ（有価証券報告書）</a></li>
-            <li><a href="#s3" className="text-teal hover:underline">日本郵船の中途採用の状況</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">日本郵船の中途採用（募集職種・応募資格）</a></li>
             <li><a href="#s4" className="text-teal hover:underline">日本郵船で求められる人材</a></li>
-            <li><a href="#s5" className="text-teal hover:underline">日本郵船の選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">日本郵船の中途採用の選考フロー（公式）</a></li>
             <li><a href="#s6" className="text-teal hover:underline">日本郵船の年収の考え方</a></li>
             <li><a href="#s7" className="text-teal hover:underline">日本郵船転職で活用したい転職エージェント</a></li>
             <li><a href="#s8" className="text-teal hover:underline">日本郵船転職 よくある質問</a></li>
@@ -99,7 +118,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,554万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員平均。</li>
             <li>1,378万円（2024年3月期）→1,435万円（2025年3月期）→1,554万円（2026年3月期）と推移。海運5社で唯一、直近3期とも上昇(1,378→1,435→1,554万円)。2年で計176万円。</li>
-            <li>キャリア採用は公式採用ページで確認可能（2026年9月22日確認）。</li>
+            <li>キャリア採用は陸上職事務系・技術系・海上職の3職種。陸上職は経験職務・業界不問、選考は書類＋面接3回程度（公式募集要項・2026年10月15日確認）。</li>
             <li>平均37.8歳・勤続13.9年。海運は市況で賞与が大きく振れるため、単年の平均額だけで判断しないのが安全です。</li>
           </ul>
         </div>
@@ -130,15 +149,40 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年9月22日確認）に基づく提出会社単体・全従業員の平均です。海運会社は陸上勤務職と海上職で働き方も処遇体系も異なり、提出会社に在籍する従業員の構成は会社ごとに違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2 id="s3">日本郵船の中途採用の状況</h2>
+        <h2 id="s3">日本郵船の中途採用（募集職種・応募資格）</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">2026年9月22日時点で、<a href="https://www.nyk.com/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>でキャリア採用の案内を確認できます。</p>
+          <p className="text-sm text-text-secondary mb-4"><a href="https://www.nyk.com/recruit/career/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用サイトの募集要項</a>の内容です（2026年10月15日確認）。</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">募集職種</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">主な業務</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">応募資格（要約）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { job: "陸上職事務系（総合職）", work: "航路管理・運航管理・蒐貨営業・企画・物流企画・法務・調査・財務・経理・客船・システム開発・海外勤務など", req: "大学・大学院・高専卒で就業経験のある方。経験職務・業界は不問" },
+                  { job: "陸上職技術系（総合職）", work: "造船計画・船舶試設計・工務監督・船舶保守/管理・新技術開発など", req: "大学・大学院卒（理系）で就業経験のある方。業界・職種経験は不問" },
+                  { job: "海上職（航海士/機関士）", work: "運航船舶の航海士・機関士、陸上での安全管理・船舶管理・技術開発など", req: "乗船履歴があり、三級海技士以上の海技免状（三級は二級筆記全科目合格が条件）等を保有" },
+                  { job: "リボーディング制度", work: "陸上職事務系・技術系・海上職（退職時と同じ職種）", req: "総合職として通算3年以上就労し、退職後10年以内でNYK Friend Club等に登録した方" },
+                ].map((r) => (
+                  <tr key={r.job} className="border-b border-border">
+                    <td className="py-2 px-3 font-bold text-navy">{r.job}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.work}</td>
+                    <td className="py-2 px-3 text-text-secondary">{r.req}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>公式サイトの採用ページから新卒採用とキャリア採用の窓口が分かれて案内されています。</li>
-            <li>海運各社は陸上勤務の総合職に加え、海技資格を持つ海上職の採用枠を設けている場合があります。</li>
-            <li>※募集職種・募集状況は変動するため、最新は公式採用ページでご確認ください。</li>
+            <li>陸上職は3〜4年ごとのジョブローテーションでさまざまな業務を経験します（公式募集要項）。</li>
+            <li>待遇の記載：昇給年1回、賞与は社内基準による、完全週休2日制（土・日）、有給休暇は初年度14日（以後1日ずつ増え20日まで）、夏季冬季休暇7日、独身寮・社宅など。</li>
+            <li>希望職種の募集がない場合は、公式の「キャリア登録」を利用できます。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で日本郵船のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で日本郵船のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
         <h2 id="s4">日本郵船で求められる人材</h2>
@@ -158,14 +202,14 @@ export default function CompanyCareer() {
 
         <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
 
-        <h2 id="s5">日本郵船の選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2 id="s5">日本郵船の中途採用の選考フロー（公式）</h2>
+        <p className="text-sm text-text-muted mb-4">公式募集要項の「選考方法」「応募方法」の記載です（2026年10月15日確認）。面接の回数は「程度」と書かれており、職種・時期で変わる可能性があります。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "採用ページからエントリー", desc: "公式採用ページで募集職種を確認し、希望ポジションにエントリーします。" },
-            { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を基に、応募求人の要件との適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等との面接。実務経験と応募職種の適合が中心です。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。経験・能力を考慮した条件が提示されます。" },
+            { step: 1, title: "マイページから応募", desc: "公式キャリア採用サイトのマイページ上のガイダンスに従って応募します。過去に応募した人も再応募できますが、1年間に複数回の応募はできません。" },
+            { step: 2, title: "書類選考", desc: "陸上職事務系・技術系・海上職とも書類選考があります。" },
+            { step: 3, title: "面接（3回程度）", desc: "公式の記載は「面接（3回程度）」。リボーディング制度は「面接（2～3回程度）」です。" },
+            { step: 4, title: "内定", desc: "給与・処遇は「当社規定により優遇」と記載されており、具体額は募集要項に掲載されていません。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>

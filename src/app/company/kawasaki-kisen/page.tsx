@@ -4,14 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "川崎汽船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "川崎汽船の転職難易度・中途採用【2026年10月】キャリア採用比率41.67%・応募資格・平均年収1,450万円",
   description:
-    "川崎汽船（証券コード9107）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,450万円（2026年3月期・有報／提出会社）。ドライバルクと自動車船が柱の海運大手のキャリア採用窓口・選考の考え方をまとめました。",
+    "川崎汽船の中途採用は陸上総合職（若干名・大卒以上・英語TOEIC730点目安）と海上職（二級海技士以上）。公式公表のキャリア採用比率は2025年度41.67%、選考は書類・適性検査・複数回面接（2026年10月15日確認）。平均年収約1,450万円（有報）。",
   alternates: { canonical: "/company/kawasaki-kisen/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "川崎汽船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
-    description: "川崎汽船（9107）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    title: "川崎汽船の転職難易度・中途採用【2026年10月】キャリア採用比率41.67%・応募資格・平均年収1,450万円",
+    description: "川崎汽船の中途採用の応募資格・選考・キャリア採用比率（公式・10/15確認）と平均年収（有報）。",
   },
 };
 
@@ -22,11 +22,19 @@ const faqData = [
   },
   {
     q: "川崎汽船は中途採用を行っていますか？",
-    a: "はい。公式サイトの採用ページ（https://www.kline.co.jp/ja/recruit.html）でキャリア採用の情報を確認できます（2026年9月22日確認）。",
+    a: "はい。公式の採用情報（https://www.kline.co.jp/ja/recruit.html）に「陸上職 キャリア採用」「海上職 キャリア採用」の窓口があり、陸上総合職は専用のキャリア採用サイト（https://www.kline-career.jp/）で募集要項を公開しています（2026年10月15日確認）。募集人数はいずれも若干名です。",
   },
   {
     q: "川崎汽船はどんな会社ですか？",
     a: "ドライバルク・自動車船・エネルギー資源輸送を柱とする海運大手です。本社は東京都千代田区内幸町二丁目1番1号(飯野ビルディング)にあります。",
+  },
+  {
+    q: "川崎汽船の中途採用の難易度は？",
+    a: "倍率は公表されていないため数字で難易度は示せません。公式が公表している指標では、陸上職のキャリア採用比率（キャリア採用数／新卒含む全採用数）は28.1%（2023年度）→33.33%（2024年度）→41.67%（2025年度）と上がっており、採用の4割強が中途です（公表日2026年4月24日）。一方で陸上総合職の応募資格は大学卒以上・英語中級以上（目安TOEIC730点以上）が必須で、募集人数は若干名です。",
+  },
+  {
+    q: "川崎汽船の中途採用の選考フローは？",
+    a: "陸上総合職は、履歴書・職務経歴書（自己PRと志望理由を記載）をエントリーフォームから提出し、書類選考、筆記試験（適性検査）、面接（複数回・オンラインまたは東京本社）の順です。海上職は履歴書・職務経歴書を郵送し、書類選考後に適性検査・面接の案内があります（公式・2026年10月15日確認）。",
   },
   {
     q: "川崎汽船の平均勤続年数・平均年齢はどのくらいですか？",
@@ -41,8 +49,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "川崎汽船への転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-22",
+  headline: "川崎汽船の転職難易度・中途採用【2026年10月】キャリア採用比率41.67%・応募資格・平均年収1,450万円",
+  dateModified: "2026-10-15",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/kawasaki-kisen/" },
@@ -68,7 +76,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            川崎汽船への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            川崎汽船の転職難易度・中途採用【2026年10月】キャリア採用比率41.67%・応募資格・平均年収1,450万円
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/kawasaki-kisen.jpg" alt="川崎汽船の採用サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -77,17 +85,28 @@ export default function CompanyCareer() {
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             川崎汽船（証券コード9107）は、ドライバルク・自動車船・エネルギー資源輸送を柱とする海運大手です。
-            本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
+            本記事では、公式の募集要項・キャリア採用比率と有価証券報告書をもとに、中途採用の難易度・応募資格・選考・平均年収を整理します。
           </p>
+        </div>
+        <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
+          <p className="font-bold text-navy mb-3">先に結論：川崎汽船への転職（公式で確認・2026年10月15日）</p>
+          <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
+            <li><strong>中途の割合：</strong>陸上職のキャリア採用比率は<strong>41.67%</strong>（2025年度。2023年度28.1%→2024年度33.33%）。キャリア採用社員の在籍比率は24.86%（同）。</li>
+            <li><strong>募集：</strong>陸上総合職（若干名）と海上職員（航海士・機関士、若干名）。</li>
+            <li><strong>陸上総合職の必須条件：</strong>大学卒以上・英語中級以上（目安TOEIC730点以上）。配属は営業・管理・技術部門など、入社後10年目程度までに3部署（機能）を経験するジョブローテーションあり。</li>
+            <li><strong>選考：</strong>書類選考 → 筆記試験（適性検査）→ 面接（複数回、オンラインまたは東京本社）。倍率は非公表。</li>
+            <li><strong>平均年収：</strong>約1,450万円（2026年3月期・有価証券報告書／提出会社。平均38.0歳・勤続13.4年）。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.kline.co.jp/ja/recruit/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">川崎汽船 陸上職キャリア採用情報</a>／<a href="https://www.kline-career.jp/recruit/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">陸上職キャリア採用サイト 募集要項</a>／<a href="https://www.kline.co.jp/ja/recruit/sea_career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">海上職キャリア採用情報</a>。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal hover:underline">結論：川崎汽船転職のポイント</a></li>
             <li><a href="#s2" className="text-teal hover:underline">川崎汽船の基本データ（有価証券報告書）</a></li>
-            <li><a href="#s3" className="text-teal hover:underline">川崎汽船の中途採用の状況</a></li>
+            <li><a href="#s3" className="text-teal hover:underline">川崎汽船の中途採用（難易度・応募資格）</a></li>
             <li><a href="#s4" className="text-teal hover:underline">川崎汽船で求められる人材</a></li>
-            <li><a href="#s5" className="text-teal hover:underline">川崎汽船の選考フロー（一般的な流れ）</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">川崎汽船の中途採用の選考フロー（公式）</a></li>
             <li><a href="#s6" className="text-teal hover:underline">川崎汽船の年収の考え方</a></li>
             <li><a href="#s7" className="text-teal hover:underline">川崎汽船転職で活用したい転職エージェント</a></li>
             <li><a href="#s8" className="text-teal hover:underline">川崎汽船転職 よくある質問</a></li>
@@ -99,7 +118,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,450万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員平均。</li>
             <li>1,394万円（2024年3月期）→1,222万円（2025年3月期）→1,450万円（2026年3月期）と推移。最新期に+228万円と海運5社で最大の上げ幅。前期の下げ(▼172万円)から反発。</li>
-            <li>キャリア採用は公式採用ページで確認可能（2026年9月22日確認）。</li>
+            <li>陸上職のキャリア採用比率は2025年度41.67%（公式公表）。陸上総合職は大卒以上・TOEIC730点目安が必須、選考は書類・適性検査・複数回面接（2026年10月15日確認）。</li>
             <li>平均38.0歳・勤続13.4年。海運は市況で賞与が大きく振れるため、単年の平均額だけで判断しないのが安全です。</li>
           </ul>
         </div>
@@ -130,15 +149,37 @@ export default function CompanyCareer() {
           ※数値は有価証券報告書（IR BANK掲載値・2026年9月22日確認）に基づく提出会社単体・全従業員の平均です。海運会社は陸上勤務職と海上職で働き方も処遇体系も異なり、提出会社に在籍する従業員の構成は会社ごとに違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
-        <h2 id="s3">川崎汽船の中途採用の状況</h2>
+        <h2 id="s3">川崎汽船の中途採用（難易度・応募資格）</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">2026年9月22日時点で、<a href="https://www.kline.co.jp/ja/recruit.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>でキャリア採用の案内を確認できます。</p>
-          <ul className="space-y-2 text-sm text-text-secondary">
-            <li>公式サイトの採用ページから新卒採用とキャリア採用の窓口が分かれて案内されています。</li>
-            <li>海運各社は陸上勤務の総合職に加え、海技資格を持つ海上職の採用枠を設けている場合があります。</li>
-            <li>※募集職種・募集状況は変動するため、最新は公式採用ページでご確認ください。</li>
+          <p className="text-sm text-text-secondary mb-4">公式の採用情報と陸上職キャリア採用サイトの内容です（2026年10月15日確認）。</p>
+          <h3 className="font-bold text-navy mb-2">キャリア採用の実績（公式公表・2026年4月24日）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">陸上職</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">2023年度</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">2024年度</th>
+                  <th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">2025年度</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">キャリア採用比率（キャリア採用数／新卒含む全採用数）</td><td className="py-2 px-3">28.1%</td><td className="py-2 px-3">33.33%</td><td className="py-2 px-3">41.67%</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">キャリア採用社員の在籍比率</td><td className="py-2 px-3">21.7%</td><td className="py-2 px-3">23.03%</td><td className="py-2 px-3">24.86%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h3 className="font-bold text-navy mb-2">陸上総合職（キャリア採用）の募集要項</h3>
+          <ul className="space-y-2 text-sm text-text-secondary mb-4">
+            <li><strong>業務：</strong>国内営業・海外営業、船舶の運航管理、コーポレート部門。配属例は営業部門（顧客対応／運航管理／船舶調達）、管理部門（経営企画・システム・法務・環境推進・財務・経理・総務・人事）、技術部門（造船計画・新技術開発）。</li>
+            <li><strong>応募資格（必須）：</strong>大学卒以上、英語中級以上（目安TOEIC730点以上）。求める人物像は「学習意欲が高く、様々な業務に前向きに取り組める方」「自ら率先して行動し、決断ができる方」「チームワークを発揮できる方」。</li>
+            <li><strong>募集人数：</strong>若干名。勤務地は本社（東京都千代田区内幸町）と国内外の各事業所、在宅勤務制度あり。</li>
+            <li><strong>勤務・待遇：</strong>9:00〜17:00（フレックスあり）、給与は経験・能力に応じ支給、賞与年2回（7月・12月）、住宅手当・退職金制度・社員持株会など。</li>
+            <li><strong>ジョブローテーション：</strong>入社後10年目程度までに、3部署もしくは営業・運航管理・事業管理・コーポレート関係のうち3つの機能を経験。専門分野を持つ人でも専門外の部署に配属されることがあると明記されています。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で川崎汽船のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <h3 className="font-bold text-navy mb-2">海上職（キャリア採用）</h3>
+          <p className="text-sm text-text-secondary mb-2">航海士・機関士を若干名募集。応募資格は学歴・年齢不問、二級海技士以上（航海もしくは機関）の資格保有者です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で川崎汽船のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
         <h2 id="s4">川崎汽船で求められる人材</h2>
@@ -158,14 +199,14 @@ export default function CompanyCareer() {
 
         <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
 
-        <h2 id="s5">川崎汽船の選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <h2 id="s5">川崎汽船の中途採用の選考フロー（公式）</h2>
+        <p className="text-sm text-text-muted mb-4">陸上総合職の募集要項に記載の選考方法です（2026年10月15日確認）。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "採用ページからエントリー", desc: "公式採用ページで募集職種を確認し、希望ポジションにエントリーします。" },
-            { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を基に、応募求人の要件との適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等との面接。実務経験と応募職種の適合が中心です。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。経験・能力を考慮した条件が提示されます。" },
+            { step: 1, title: "エントリーフォームから応募", desc: "履歴書（写真貼付）と職務経歴書（形式自由）に、自己PR（強みを発揮したエピソード等）と志望理由を記載して提出します。" },
+            { step: 2, title: "書類選考", desc: "提出書類による選考です。" },
+            { step: 3, title: "筆記試験（適性検査）", desc: "公式の記載は「筆記試験（適性検査）」です。" },
+            { step: 4, title: "面接（複数回）", desc: "オンライン、もしくは東京本社で実施されます。海上職も書類選考後に適性検査・面接の案内があります（書類は郵送）。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
