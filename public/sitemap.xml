@@ -15,18 +15,18 @@
   <url><loc>https://tenshoku-agent-lab.com/company/hoya/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/muji/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/nidec/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/amazon/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/amazon/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/cyberagent/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/google/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/mercari/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/nintendo/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/nintendo/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/sony/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/toyota/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/compare/agent-vs-site/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/compare/recruit-vs-doda/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/content-policy/</loc><lastmod>2026-04-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/faq/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/industry/consulting/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/industry/consulting/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/industry/it-engineer/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/knowledge/email-template/</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/knowledge/flow/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -47,9 +47,9 @@
   <url><loc>https://tenshoku-agent-lab.com/terms/</loc><lastmod>2026-04-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/type/freelance/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/type/high-class/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/type/inexperienced/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/type/inexperienced/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/type/second-new-grad/</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/type/women/</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/type/women/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/type/it-engineer/</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/compare/mynavi-vs-recruit/</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -920,7 +920,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url><loc>https://tenshoku-agent-lab.com/company/shosen-mitsui/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/shosen-mitsui/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/nippon-yusen/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/kawasaki-kisen/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/iino-kaiun/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -932,7 +932,7 @@
   <url><loc>https://tenshoku-agent-lab.com/company/skymark/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/kuuun-salary/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/yamato-hd/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/mitsubishi-logistics/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/mitsubishi-logistics/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/sumitomo-soko/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/nippon-express/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/sg-holdings/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>

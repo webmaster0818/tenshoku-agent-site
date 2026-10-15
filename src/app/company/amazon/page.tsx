@@ -5,14 +5,14 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/amazon/" },
-  title: "Amazon（アマゾン）に転職するには？年収・面接対策・おすすめエージェント",
+  title: "Amazon（アマゾン）の転職・面接【2026年10月】公式の選考フロー・面接の質問例・インタビューループ",
   description:
-    "Amazon（アマゾン）への転職を解説。公式採用サイト記載の選考フロー（オンライン申請→アセスメント→電話スクリーニング→インタビューループ）、Leadership Principlesに基づく面接とSTARメソッドの対策、日本の求人状況、おすすめ転職エージェント5社を紹介します。",
+    "Amazonの中途採用の面接は、オンライン申請→アセスメント→電話スクリーニング→インタビューループ（2〜7人・各約45分〜1時間、5営業日以内に連絡）。公式が挙げる面接の質問例5つ、STARメソッド、ライティングサンプル、日本の求人815件の内訳を公式情報（2026年10月確認）で整理。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "Amazon（アマゾン）に転職するには？年収・面接対策・おすすめエージェント",
+    title: "Amazon（アマゾン）の転職・面接【2026年10月】公式の選考フロー・面接の質問例・インタビューループ",
     description:
-      "Amazon転職の選考フロー・面接対策・求人状況・おすすめエージェントを、公式採用サイトと年次報告書（Form 10-K）の情報をもとに解説。",
+      "Amazon転職の選考フローと面接の質問例・準備を、amazon.jobs公式（10/15確認）とForm 10-Kで整理。",
   },
 };
 
@@ -30,6 +30,14 @@ const faqData = [
     a: "公式の面接ガイドによると、面接は行動に基づく質問（過去の経験から実際の例を共有してもらう質問）が中心で、会話はLeadership Principlesに基づいて行われます。回答の組み立て方として、Situation・Task・Action・Resultで話すSTARメソッドが公式に紹介されています。",
   },
   {
+    q: "Amazonの面接の質問例は？",
+    a: "公式のインタビューループのページでは、聞かれる質問の例として「複数の解決策が考えられる問題に直面したときのこと（何をすべきかを決めた経緯と結果）」「リスクを冒した・間違いを犯した・失敗したときのこと（何を学んだか）」「プロジェクトで主導権を握ったときの例」「グループのモチベーションを高めたり、チームでのコラボレーションを促したりするために何をしたか」「戦略の策定や意思決定でデータをどう活用したか」が挙げられています。「マンハッタンには窓がいくつあるの？」のような頭の体操型の質問は避けているとも明記されています（2026年10月15日確認）。",
+  },
+  {
+    q: "Amazonの日本法人の平均年収は公表されていますか？",
+    a: "アマゾンジャパン合同会社などの日本法人は非上場で、日本法人単体の平均年収の公式開示は確認できませんでした。給与は求人ごとに異なるため、応募する求人の条件を選考の中で確認してください。",
+  },
+  {
     q: "Amazon JapanとAWS Japanは同じ会社ですか？",
     a: "別の法人です。公式採用ポータルamazon.jobsの日本の求人には、Amazon Japan G.K.（アマゾンジャパン合同会社）、Amazon Web Services Japan GK（アマゾン ウェブ サービス ジャパン合同会社）、Amazon Data Services Japan G.K.などの法人名が表示されており、どの法人の求人もamazon.jobsから検索・応募できます。",
   },
@@ -42,6 +50,17 @@ const faqData = [
     a: "公式の面接ガイドでは、バーレイザーは「採用の質を重視する別のチームのメンバー」と説明されており、インタビューループで会う面接官の1人として挙げられています。面接官の役割に合わせて回答を変える必要はないとも案内されています。",
   },
 ];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Amazon（アマゾン）の転職・面接【2026年10月】公式の選考フロー・面接の質問例・インタビューループ",
+  dateModified: "2026-10-15",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/amazon/" },
+  inLanguage: "ja",
+};
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -56,6 +75,7 @@ const faqJsonLd = {
 export default function AmazonCareer() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
@@ -72,9 +92,10 @@ export default function AmazonCareer() {
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
-              Amazon（アマゾン）に転職するには？年収・面接対策・おすすめエージェント
+              Amazon（アマゾン）の転職・面接【2026年10月】公式の選考フロー・面接の質問例・インタビューループ
             </h1>
           </div>
+        <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月15日</p>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/amazon.jpg" alt="Amazon Japanの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -83,8 +104,19 @@ export default function AmazonCareer() {
           <p className="text-text-secondary leading-relaxed">
             Amazonは、EC・AWS（クラウド）・Prime Video・Alexa・物流など多角的な事業を展開する企業で、2025年末時点の従業員数は約1,576,000人（Form 10-K）。
             日本の売上高は306億8,800万ドル（2025年）で、Form 10-Kで国別に開示されている米国・ドイツ・英国と並ぶ主要市場です。公式に公開されている16のLeadership Principlesが採用・面接の軸になっています。
-            本記事では、Amazon転職の選考フロー・年収・面接対策・おすすめエージェントを詳しく解説します。
+            本記事では、Amazon転職の選考フロー・面接の質問例と準備・日本の求人状況を、公式採用サイトの記載をもとに解説します。
           </p>
+        </div>
+        <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
+          <p className="font-bold text-navy mb-3">先に結論：Amazonの転職面接（公式で確認・2026年10月15日）</p>
+          <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
+            <li><strong>流れ：</strong>オンライン申請 → アセスメント → 電話スクリーニング → インタビューループ（職種により異なる）。</li>
+            <li><strong>インタビューループ：</strong>マネージャー・チームメイト・利害関係者・バーレイザーなど<strong>2〜7人</strong>と個別に面接、1人あたり約45分〜1時間。面接後<strong>5営業日以内</strong>に連絡。</li>
+            <li><strong>質問：</strong>過去の実例を聞く「行動に基づく質問」が中心で、16のLeadership Principlesに基づいて評価。頭の体操型の質問は避けていると明記。</li>
+            <li><strong>準備：</strong>STARメソッド（状況・課題・行動・結果）で「私」を主語に。失敗談も可。職種によりライティングサンプルや役割別の演習あり。</li>
+            <li><strong>形式：</strong>オンライン（Zoom／Amazon Chime）または対面。対面なら15分前到着・写真付き身分証、服装はカジュアルで可。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.amazon.jobs/content/jp/how-we-hire/interview-loop" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">インタビューループ（amazon.jobs公式）</a>／<a href="https://www.amazon.jobs/content/jp/how-we-hire" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用プロセス（amazon.jobs公式）</a>。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -93,7 +125,7 @@ export default function AmazonCareer() {
             <li><a href="#s2" className="text-teal hover:underline">Amazonの転職難易度と面接の特徴</a></li>
             <li><a href="#s3" className="text-teal hover:underline">Amazonの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">Amazonの選考フロー（公式記載）</a></li>
-            <li><a href="#s5" className="text-teal hover:underline">Amazon転職の面接対策ポイント</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">Amazonの面接の質問例と対策ポイント</a></li>
             <li><a href="#s6" className="text-teal hover:underline">Amazon転職におすすめの転職エージェント5社</a></li>
             <li><a href="#s7" className="text-teal hover:underline">Amazon転職 よくある質問</a></li>
           </ol>
@@ -146,7 +178,7 @@ export default function AmazonCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">Amazonの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります（特徴は<Link href="/review/unison-career/" className="text-teal hover:underline">ユニゾンキャリアの口コミ・評判</Link>で確認できます）。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             Amazonの中途採用は、公式採用ポータル
@@ -218,7 +250,25 @@ export default function AmazonCareer() {
         </div>
 
         {/* 面接対策ポイント */}
-        <h2 id="s5">Amazon転職の面接対策ポイント</h2>
+        <h2 id="s5">Amazonの面接の質問例と対策ポイント</h2>
+        <div className="glass-card p-6 mb-6">
+          <h3 className="font-bold text-navy mb-2">公式が挙げる面接の質問例</h3>
+          <p className="text-sm text-text-secondary mb-3">公式のインタビューループのページに「聞かれる質問の例」として載っているものです（2026年10月15日確認）。</p>
+          <ol className="space-y-2 text-sm text-text-secondary list-decimal pl-5">
+            <li>複数の解決策が考えられる問題に直面したときのことを教えてください。何をすべきかを決めた経緯と、その結果はどうでしたか？</li>
+            <li>リスクを冒した、間違いを犯した、または失敗したときのことを説明してください。何が起きたのか、そこから何を学んだのか？</li>
+            <li>プロジェクトで主導権を握ったときの例を教えてください。</li>
+            <li>グループのモチベーションを高めたり、チームプロジェクトでのコラボレーションを促したりするために何をしましたか？</li>
+            <li>戦略の策定や意思決定の際に、データをどのように活用しましたか？</li>
+          </ol>
+          <ul className="space-y-2 text-sm text-text-secondary mt-4">
+            <li><strong>ライティングサンプル：</strong>職種によっては求められます。Amazonではスライドの代わりに1〜6ページのナラティブメモを書き、会議の冒頭で黙読するため、考えを書面で表現する力を重視していると説明されています。</li>
+            <li><strong>役割別の演習：</strong>簡単な評価や仕事関連の演習がある職種もあり、該当する場合は事前に知らされます。</li>
+            <li><strong>「なぜAmazonか」：</strong>よくある質問として挙げられており、その役割や面接するチームについて自分がワクワクする点を考えておくよう案内されています。</li>
+            <li><strong>逆質問：</strong>各面接の最後に質問の時間が数分あります。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.amazon.jobs/content/jp/how-we-hire/interview-loop" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">インタビューループ（amazon.jobs公式）</a>（2026年10月15日確認）。</p>
+        </div>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {

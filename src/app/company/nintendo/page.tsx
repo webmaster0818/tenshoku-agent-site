@@ -5,14 +5,14 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/nintendo/" },
-  title: "任天堂に転職するには？年収・面接対策・おすすめエージェント",
+  title: "任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%",
   description:
-    "任天堂への転職を解説。平均年間給与982万円・平均年齢40.5歳（2026年3月現在 正社員）、正規雇用労働者のキャリア採用比率34％（2025年度・公式）、公式の採用プロセス、面接対策、おすすめ転職エージェント5社を紹介します。",
+    "任天堂のキャリア採用の選考フローは、Web応募（結果連絡まで約1カ月）→作品選考（職種により）→面接（複数回・平日）→内定で、応募から内定まで2〜3か月程度（公式・2026年10月15日確認）。募集職種10カテゴリ、キャリア採用比率34％（2025年度）、平均年間給与982万円、面接で聞かれたことの公開体験談も整理。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "任天堂に転職するには？年収・面接対策・おすすめエージェント",
+    title: "任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%",
     description:
-      "任天堂転職の年収・キャリア採用比率・公式の採用プロセス・面接対策・おすすめエージェントを解説。",
+      "任天堂キャリア採用の選考フロー・面接・募集職種・キャリア採用比率を公式情報（10/15確認）で整理。",
   },
 };
 
@@ -38,10 +38,29 @@ const faqData = [
     a: "公式の採用プロセスでは、応募から内定まで2〜3か月程度とされています。Web応募の結果連絡までは約1カ月で、職種により作品選考があり、面接は複数回を予定と記載されています。",
   },
   {
+    q: "任天堂の中途採用に筆記試験・適性検査はありますか？",
+    a: "公式の採用プロセスに記載されているのは「Web応募」「作品選考（職種により必要性に応じて実施）」「面接（複数回を予定）」「内定」で、筆記試験や適性検査の記載はありません（2026年10月15日確認）。Q&Aでも「応募職種によって多少の違いがあります」とされているため、応募後の案内メールで確認してください。",
+  },
+  {
+    q: "任天堂の法務部などの管理部門は中途採用がありますか？",
+    a: "公式Q&Aでは、募集職種一覧以外の職種は募集しておらず、新たな職種は都度掲載、要員を満たした職種は一覧から削除するとされています。管理部門の募集も、公式の募集職種一覧に載っている時期だけです。なお、ワンキャリア転職の選考体験談（2026年10月15日閲覧）には、法務・コンプライアンス職や知的財産職の面接で、担当した訴訟案件や法務チームのマネジメント経験を聞かれたという投稿があります（投稿者個人の体験で、公式情報ではありません）。",
+  },
+  {
     q: "任天堂の求人に複数応募したり、再応募したりできますか？",
     a: "公式Q&Aでは、別の職種または事業所への重複応募は控えるよう案内されています。また、不合格後の再応募は1年以内は控えるよう記載されています。応募はホームページ上の応募フォームのみで受け付けています。",
   },
 ];
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%",
+  dateModified: "2026-10-15",
+  author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
+  publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/nintendo/" },
+  inLanguage: "ja",
+};
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -56,6 +75,7 @@ const faqJsonLd = {
 export default function NintendoCareer() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
@@ -72,9 +92,10 @@ export default function NintendoCareer() {
         {/* Header */}
         <div className="flex items-center gap-3 mb-3">
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
-              任天堂に転職するには？年収・面接対策・おすすめエージェント
+              任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%
             </h1>
           </div>
+        <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月15日</p>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/nintendo.jpg" alt="任天堂の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -82,8 +103,20 @@ export default function NintendoCareer() {
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             任天堂は、京都に本社を置き、ゲーム機・ゲームソフトを中心に「娯楽」を届ける会社です。
-            本記事では、任天堂が公式採用サイトで公表している社員データ・キャリア採用比率・採用プロセスをもとに、転職準備のポイントとおすすめエージェントを解説します。
+            本記事では、任天堂が公式採用サイトで公表している採用プロセス・募集要項・キャリア採用比率をもとに、中途採用の選考フローと面接の準備を解説します。
           </p>
+        </div>
+        <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
+          <p className="font-bold text-navy mb-3">先に結論：任天堂の中途採用の選考フロー（公式で確認・2026年10月15日）</p>
+          <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
+            <li><strong>流れ：</strong>キャリア採用Web応募 → 作品選考（職種により必要性に応じて実施）→ 面接（複数回を予定）→ 内定。</li>
+            <li><strong>期間：</strong>Web応募の結果連絡まで約1カ月、応募から内定まで2〜3か月程度。結果は合否にかかわらずメールで通知。</li>
+            <li><strong>面接：</strong>当社営業日（平日）に実施、日時はできる限り調整。筆記試験・適性検査は公式の採用プロセスに記載なし。</li>
+            <li><strong>応募条件：</strong>資格・年齢の制限は特になし、ゲーム業界の経験は必須ではない。別職種・別事業所への重複応募は不可、不合格後1年以内の再応募は控えるよう案内。</li>
+            <li><strong>募集：</strong>10カテゴリ×京都勤務／東京勤務。直近の掲載はデザイナー（京都勤務）の「グラフィックデザイナー（広告）」（2026年9月4日）・「立体造形物デザイナー（協業監修）」（8月28日）。</li>
+            <li><strong>中途の割合：</strong>正規雇用のキャリア採用比率は34％（2023年度）→45％（2024年度）→34％（2025年度）。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.nintendo.co.jp/jobs/career/process/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">任天堂 キャリア採用「採用プロセス」</a>／<a href="https://www.nintendo.co.jp/jobs/career/q_and_a/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「Q&amp;A」</a>／<a href="https://www.nintendo.co.jp/jobs/career/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「募集要項」</a>／<a href="https://www.nintendo.co.jp/jobs/environment/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「就業情報」</a>。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -91,8 +124,8 @@ export default function NintendoCareer() {
             <li><a href="#s1" className="text-teal hover:underline">任天堂の会社概要</a></li>
             <li><a href="#s2" className="text-teal hover:underline">任天堂の平均年収・キャリア採用比率</a></li>
             <li><a href="#s3" className="text-teal hover:underline">任天堂の中途採用の状況</a></li>
-            <li><a href="#s4" className="text-teal hover:underline">任天堂の選考フロー</a></li>
-            <li><a href="#s5" className="text-teal hover:underline">任天堂転職の面接対策ポイント</a></li>
+            <li><a href="#s4" className="text-teal hover:underline">任天堂の中途採用の選考フロー（公式）</a></li>
+            <li><a href="#s5" className="text-teal hover:underline">任天堂の面接で聞かれること・対策ポイント</a></li>
             <li><a href="#s6" className="text-teal hover:underline">任天堂転職におすすめの転職エージェント5社</a></li>
             <li><a href="#s7" className="text-teal hover:underline">任天堂転職 よくある質問</a></li>
           </ol>
@@ -172,7 +205,7 @@ export default function NintendoCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">任天堂の中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">任天堂への応募は公式の応募フォームから行います。あわせてIT・Web系の他社求人も非公開分まで含めて比較したいなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると効率的です。</p>
+        <p className="text-sm text-text-secondary mb-4">任天堂への応募は公式の応募フォームから行います。あわせてIT・Web系の他社求人も非公開分まで含めて比較したいなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると効率的です（特徴は<Link href="/review/unison-career/" className="text-teal hover:underline">ユニゾンキャリアの口コミ・評判</Link>で確認できます）。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             任天堂は「キャリア採用」の名称で中途採用を実施しており、
@@ -190,7 +223,14 @@ export default function NintendoCareer() {
             <li>募集職種カテゴリ（公式表記のまま・2026年10月14日確認時点）: 「デザイナー」「ソフトウェアエンジニア」「コーポレートIT」「ハードウェアエンジニア」「プランナー／ディレクター／プロダクトマネージャー」「サウンドクリエイター」「プロジェクトマネージャー」「マーケティング／プロモーション／ブランディング」「ウェブサイト企画・制作・運営」「コーポレートスタッフ」の全10カテゴリ</li>
             <li>各職種とも「京都勤務」「東京勤務」の2区分で掲載されています。2026年10月14日確認時点で募集中だったのはデザイナー（京都勤務）の「グラフィックデザイナー（広告）」「立体造形物デザイナー（協業監修）」でした。募集職種は随時更新されるため、こまめにチェックしておきましょう</li>
             <li>公式の採用プロセスでは、Web応募の結果連絡まで約1カ月、応募から内定までは2〜3か月程度とされています。職種により作品選考があり、面接は複数回を予定と記載されています</li>
-            <li>「現在任天堂グループに在籍中の方のご応募はご遠慮ください」の注記があります。職種別説明会の情報が掲載されることもあります</li>
+            <li>「現在任天堂グループに在籍中の方のご応募はご遠慮ください」の注記があります。職種別説明会の情報が掲載されることもあり、2026年9月18日にはデザイナー職のキャリア採用説明会の情報が掲載されました</li>
+          </ul>
+          <h3 className="font-bold text-navy mt-5 mb-2">募集要項の例：グラフィックデザイナー（広告）・京都勤務（2026年10月15日確認）</h3>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li><strong>業務：</strong>任天堂および任天堂商品の広告宣伝物（ポスター・店頭冊子・POP、交通/雑誌/デジタル広告、キャンペーンビジュアルやロゴ）、イベントの会場装飾・パンフレット・ノベルティ、アプリ『Nintendo Today!』のグラフィックデザイン。広告宣伝物の多くを社内で制作していると記載。</li>
+            <li><strong>適性：</strong>広告代理店やデザイン制作会社でのグラフィックデザイン実務経験とDTPの入稿データ制作経験が豊富な方、ゲームに限らないエンターテインメント分野での実務経験。Adobe Illustrator・Photoshopは習得必須、日本語ネイティブまたはJLPT N1相当以上。</li>
+            <li><strong>作品の提出：</strong>応募フォームとあわせて、実力をアピールできる作品と作品の説明資料（作品説明・制作期間・担当箇所）を提出。提出方法はエントリー時にメールで案内。</li>
+            <li><strong>勤務：</strong>フレックスタイム制（標準7時間45分・コアタイム10:00〜15:00）、対面のコミュニケーションを重視し原則出社。年間休日125日（2026年度）。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">
             ※2026年10月14日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
@@ -200,7 +240,7 @@ export default function NintendoCareer() {
         {/* 選考フロー */}
         <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
 
-        <h2 id="s4">任天堂の選考フロー</h2>
+        <h2 id="s4">任天堂の中途採用の選考フロー（公式）</h2>
         <div className="space-y-5 mb-8">
           {[
             {
@@ -242,7 +282,17 @@ export default function NintendoCareer() {
         </p>
 
         {/* 面接対策ポイント */}
-        <h2 id="s5">任天堂転職の面接対策ポイント</h2>
+        <h2 id="s5">任天堂の面接で聞かれること・対策ポイント</h2>
+        <div className="glass-card p-6 mb-6">
+          <p className="text-sm text-text-secondary mb-3">任天堂は面接の質問内容を公表していません。第三者の体験談として、ワンキャリア転職の任天堂の選考体験談ページ（2026年10月15日閲覧）には面接に関する投稿が21件掲載されており、閲覧できる範囲では次のような傾向でした。</p>
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>選考の段階は「一次面接 → 最終面接」の投稿が多く、海外営業では二次面接を含む投稿もある</li>
+            <li>法務・コンプライアンス職では、海外訴訟で担当した案件の詳細や、法務チームのマネジメント経験を聞かれたという投稿がある</li>
+            <li>知的財産職では、弁護士として関わった知的財産管理の案件について聞かれたという投稿がある</li>
+            <li>総務職では、これまでの経歴を踏まえて任天堂でどう働くかを聞かれたという投稿がある</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://plus.onecareer.jp/companies/40/selection_reports/interview" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">ワンキャリア転職「任天堂の面接」</a>。投稿者個人の体験で、職種・時期により異なります。質問と回答の全文は会員限定のため、ここでは閲覧できた範囲の傾向のみ記載しています。</p>
+        </div>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             {

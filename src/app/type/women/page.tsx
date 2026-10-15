@@ -5,13 +5,13 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/type/women/" },
-  title: "女性におすすめの転職エージェント5選｜評判・選び方とライフバランス両立",
+  title: "女性におすすめの転職エージェント｜type女性・リアルミーキャリアの比較と選び方",
   description:
-    "女性におすすめの転職エージェントを厳選紹介。女性の転職支援に強いサービスの評判・選び方、ワークライフバランス重視の求人や女性管理職ポジション、育児中・ブランクありの活用法まで解説します。利用は無料。",
+    "女性におすすめの転職エージェントを紹介。女性特化のtype女性の転職エージェント（求人37,615件・東京中心）と時短正社員特化のリアルミーキャリア（東京23区・大阪市中心）を、公式の確認値（2026年10月14日）で比較。育児中・ブランクありの活用法まで解説します。利用は無料。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "女性におすすめの転職エージェント5選｜評判・選び方とライフバランス両立",
-    description: "女性の転職に強いエージェントの評判・選び方を厳選紹介。利用は無料。",
+    title: "女性におすすめの転職エージェント｜type女性・リアルミーキャリアの比較と選び方",
+    description: "女性の転職エージェントの選び方と、type女性・リアルミーキャリアの比較（公式確認値・10/14）。利用は無料。",
   },
 };
 
@@ -120,6 +120,35 @@ export default function WomenPage() {
           <span className="text-xs text-text-muted">（※本リンクはプロモーション（PR）です）</span>
         </p>
         <FelmatCta slug="realme-career" heading="時短正社員のまま転職したい方はこちら" note="ワーママ・パパ向けの転職相談は無料です。" />
+
+        {/* 提携先の女性向け比較 */}
+        <h2>女性向けの2サービスを比較：type女性の転職エージェントとリアルミーキャリア</h2>
+        <p className="mb-4">
+          女性向けをうたう転職エージェントでも、対象と求人の性格は大きく違います。フルタイムでキャリアアップを狙うのか、入社時から時短勤務で働きたいのかで選ぶサービスが変わります。
+        </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr><th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">項目</th><th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy"><Link href="/review/type-woman/" className="text-teal hover:underline">type女性の転職エージェント</Link></th><th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy"><Link href="/review/realme-career/" className="text-teal hover:underline">リアルミーキャリア</Link></th></tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">向いている人</td><td className="py-2 px-3 align-top">転職を考える女性全般（デザイナー・マーケティング・営業・ITエンジニア・コンサルティング等の複数職種）</td><td className="py-2 px-3 align-top">育児中のワーママ・パパ、介護と仕事を両立したい人、今後の出産・育児を見据えて働き方を考える人（子どもがいなくても利用可）</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">求人</td><td className="py-2 px-3 align-top">求人総数37,615件・非公開求人26,786件（約7割）</td><td className="py-2 px-3 align-top">入社時から週5日・1日6〜7時間の時短勤務が可能な正社員求人が基本（フレックス・リモートなど）</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">地域</td><td className="py-2 px-3 align-top">東京都に集中（東京都：公開8,682件・非公開22,468件／大阪府：公開1,170件・非公開2,578件）</td><td className="py-2 px-3 align-top">東京23区・大阪市内の求人が中心</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">面談・連絡</td><td className="py-2 px-3 align-top">電話面談（来社不要）。オンラインの転職相談会も開催</td><td className="py-2 px-3 align-top">電話またはGoogle Meetで約30分（平日9時〜18時30分開始まで）。連絡はLINEまたはメール</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">サポート内容</td><td className="py-2 px-3 align-top">キャリアカウンセリング／求人紹介／応募書類の作成支援／面接対策／日程調整／条件交渉の代行／入社後フォロー</td><td className="py-2 px-3 align-top">面談／求人紹介／書類作成（職務経歴書の作成代行あり）／オンライン面接対策／条件交渉（育児中のアドバイザーが担当と公式表記）</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">公式の実績表記</td><td className="py-2 px-3 align-top">年間登録者数15,000名以上（2024年実績）、年収アップ希望者の約79%が年収アップ（2021年10月〜2025年3月）</td><td className="py-2 px-3 align-top">登録者毎月2,000名以上、時短正社員の転職支援実績No.1（当社調べと注記）</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">運営会社・許可番号</td><td className="py-2 px-3 align-top">株式会社キャリアデザインセンター（東証プライム）・13-ユ-040429</td><td className="py-2 px-3 align-top">株式会社リアルミー・13-ユ-308876</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">料金</td><td className="py-2 px-3 align-top">無料</td><td className="py-2 px-3 align-top">無料</td></tr>
+              </tbody>
+            </table>
+          </div>
+        <p className="text-xs text-text-muted mb-4">出典：各社公式サイト・公式FAQ・求人検索の表示件数（2026年10月14日確認）。実績値は各社の公式表記（集計条件は各社の注記による）で、当サイトの集計ではありません。詳しくは<Link href="/review/type-woman/" className="text-teal hover:underline">type女性の転職エージェントの口コミ・評判</Link>・<Link href="/review/realme-career/" className="text-teal hover:underline">リアルミーキャリアの口コミ・評判</Link>で整理しています。</p>
+        <ul className="space-y-2 text-sm text-text-secondary mb-8">
+          <li><strong>首都圏でフルタイムのまま年収・キャリアを上げたい</strong> → 求人規模の大きい<FelmatTextLink slug="type-woman" text="type女性の転職エージェント(PR)" /></li>
+          <li><strong>育児・介護と両立するため、入社時から時短で働きたい</strong> → 時短正社員に特化したリアルミーキャリア</li>
+          <li>どちらも東京・大阪の求人が中心です。その他の地域で探す場合は、総合型エージェントとの併用が前提になります</li>
+        </ul>
 
         {/* 女性のキャリア */}
         <h2>女性がキャリアを築くためのポイント</h2>

@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { FelmatTextLink } from "@/components/FelmatCta";
+import A8Cta from "@/components/A8Cta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/consulting/" },
-  title: "コンサル業界におすすめの転職エージェント｜ケース面接対策も解説",
+  title: "コンサル転職エージェントおすすめ｜特化型MyVision・NewMAの比較とケース面接対策",
   description:
-    "コンサルティング業界への転職におすすめのエージェントを厳選紹介。JACリクルートメント、ビズリーチ、リクルートエージェントなど、コンサル転職に強いエージェントの特徴とケース面接対策を解説します。",
+    "コンサル業界への転職におすすめのエージェントを紹介。JACリクルートメント・ビズリーチ・リクルートエージェントに加え、コンサル特化型のMyVisionとNewMAを対象領域・未経験の扱い・サポート内容・許可番号で比較（2026年10月14日確認）。ケース面接対策も解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "コンサル業界におすすめの転職エージェント｜ケース面接対策も解説",
-    description: "コンサル業界の転職に強いエージェントとケース面接対策を解説。",
+    title: "コンサル転職エージェントおすすめ｜特化型MyVision・NewMAの比較とケース面接対策",
+    description: "コンサル転職のエージェント選びと、MyVision・NewMAの比較（公式確認値・10/14）。",
   },
 };
 
@@ -54,6 +56,7 @@ export default function ConsultingPage() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             コンサル業界におすすめの転職エージェント
           </h1>
+          <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月15日</p>
           <p className="text-text-secondary leading-relaxed">
             コンサルティング業界への転職には、業界の採用プロセスや選考基準を熟知したエージェントの活用が不可欠です。
             ケース面接対策からファーム選びまで、コンサル転職を成功させるためのエージェントと対策を紹介します。
@@ -95,6 +98,34 @@ export default function ConsultingPage() {
             </div>
           ))}
         </div>
+
+        {/* 提携先のコンサル特化型比較 */}
+        <h2>コンサル特化型の2サービスを比較：MyVisionとNewMA</h2>
+        <p className="mb-4">
+          総合型・ハイクラス型と併用しやすいのが、コンサル業界に絞った特化型エージェントです。戦略・総合・ITコンサルのファームを狙うのか、M&amp;A・FASなど財務寄りの領域も含めて考えるのかで向き不向きが分かれます。
+        </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr><th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy">項目</th><th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy"><Link href="/review/myvision/" className="text-teal hover:underline">MyVision</Link></th><th className="text-left py-2 px-3 bg-warm-gray font-bold text-navy"><Link href="/review/newma/" className="text-teal hover:underline">NewMA</Link></th></tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">対象領域</td><td className="py-2 px-3 align-top">戦略コンサル／総合コンサル／ITコンサル／シンクタンク等のコンサルティングファーム</td><td className="py-2 px-3 align-top">DX・戦略・AIコンサル／M&amp;A仲介／FAS／人事組織コンサル／経営企画／PEファンド 等</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">未経験の扱い</td><td className="py-2 px-3 align-top">「ご支援する求職者様の8割はコンサル業界未経験の方」と公式に記載</td><td className="py-2 px-3 align-top">未経験者から経験者まで対応と公式LPに記載</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">サポート内容</td><td className="py-2 px-3 align-top">キャリア相談／業界・個社説明／求人紹介／選考対策（ケース面接・Webテスト対策等）</td><td className="py-2 px-3 align-top">キャリア相談／求人紹介／書類・面接対策／条件交渉／内定後・入社後フォロー</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">求人の例・規模</td><td className="py-2 px-3 align-top">求人数の確認値なし</td><td className="py-2 px-3 align-top">M&amp;Aアドバイザリー（大阪府・年収500万〜1,200万円）、外資系大手ファームのDXコンサル（東京都・700万〜1,500万円）など。求人数は非公開</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">公開口コミの確認状況</td><td className="py-2 px-3 align-top">公式の評判ページが引用するGoogle口コミ25件を当サイトでテーマ別に集計（良い声18件・否定的な声7件）</td><td className="py-2 px-3 align-top">コエテコキャリアの利用証明済み口コミ2件</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">運営会社・許可番号</td><td className="py-2 px-3 align-top">株式会社MyVision（東京都港区・設立2022年6月・従業員423名）・13-ユ-314719</td><td className="py-2 px-3 align-top">NewMA株式会社（中之島キャピタルグループ・大阪市中央区）・27-ユ-304092</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy align-top">料金</td><td className="py-2 px-3 align-top">無料</td><td className="py-2 px-3 align-top">無料</td></tr>
+              </tbody>
+            </table>
+          </div>
+        <p className="text-xs text-text-muted mb-4">出典：各社公式サイト・公式LP・会社情報（2026年10月14日確認。MyVisionの未経験8割は2026年8月16日確認）、コエテコキャリア（同日確認）。口コミの件数は当サイトが確認できた範囲です。詳しくは<Link href="/review/myvision/" className="text-teal hover:underline">MyVisionの口コミ・評判</Link>・<Link href="/review/newma/" className="text-teal hover:underline">NewMAの口コミ・評判</Link>で整理しています。</p>
+        <ul className="space-y-2 text-sm text-text-secondary mb-6">
+          <li><strong>事業会社からコンサルファームへ初めて挑戦する</strong> → 業界・個社の説明からケース面接対策まで未経験前提で支援するMyVision</li>
+          <li><strong>M&amp;A仲介・FAS・PEファンドなども視野に入れる</strong> → コンサルとM&amp;A領域を扱う<FelmatTextLink slug="newma" text="NewMA(PR)" /></li>
+        </ul>
+        <A8Cta slug="myvision" heading="MyVision公式サイトで無料転職相談を予約する" note="コンサル業界のキャリア相談は無料です。" />
 
         {/* コンサル業界の転職事情 */}
         <h2>コンサル業界の転職事情</h2>
