@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>セキュリティエンジニア・セキュリティコンサルタント向けのフリーランス案件紹介</strong>に特化したサービスです。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>セキュリティ領域特化のエージェントがキャリアを支援</strong>。単なる案件紹介でなく専門家としてのキャリア最大化を掲げています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>セキュリティプロ・フリーランスは、セキュリティ専門人材の案件紹介に特化した希少なサービスです。専門性の正当な評価を軸にした支援が特徴で、利用は無料。正社員転職も視野に入れる場合はIT特化の転職エージェントと併用して選択肢を比較しましょう。</p>
+        <p>セキュリティプロ・フリーランスは、セキュリティ専門人材の案件紹介に特化した希少なサービスです。専門性の正当な評価を軸にした支援が特徴で、利用は無料です。正社員転職も視野に入れる場合はIT特化の転職エージェントと併用して選択肢を比較しましょう。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

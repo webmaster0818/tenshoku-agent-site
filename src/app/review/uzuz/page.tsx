@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代の第二新卒・既卒・フリーター専門</strong>の就職・転職エージェント。正社員求人多数・完全無料と公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「あなた専用の就活サポート」のオーダーメイド型</strong>。面接・自己分析・書類などの対策コンテンツも公式サイトに豊富です。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>UZUZは、経歴に不安のある20代に特化したオーダーメイド型の就職・転職エージェントです。学習サービスとの組み合わせでIT系への未経験就職ルートも用意されており、利用は無料。同じ20代特化のマイナビジョブ20's・第二新卒エージェントneoと併用し、サポートの相性で選ぶのがおすすめです。</p>
+        <p>UZUZは、経歴に不安のある20代に特化したオーダーメイド型の就職・転職エージェントです。学習サービスとの組み合わせでIT系への未経験就職ルートも用意されており、利用は無料です。同じ20代特化のマイナビジョブ20's・第二新卒エージェントneoと併用し、サポートの相性で選ぶのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

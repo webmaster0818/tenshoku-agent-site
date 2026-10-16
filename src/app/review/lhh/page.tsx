@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>世界的人材サービスAdeccoグループの転職エージェントブランド</strong>。日本ではアデコ株式会社が展開しています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>IT・クリエイティブ・マーケティング・営業・エンジニア(電気/電子/機械)など幅広い職種</strong>をカバーする総合型に近い設計です。</span></li>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>LHH転職エージェントは、Adeccoグループのグローバル基盤を持つハイクラス志向の転職エージェントです。職種別の専門体制と外資系含む求人アクセスが特徴で、利用は無料。ビズリーチ・JAC等のハイクラス系と併用して比較するのがおすすめです。</p>
+        <p>LHH転職エージェントは、Adeccoグループのグローバル基盤を持つハイクラス志向の転職エージェントです。職種別の専門体制と外資系含む求人アクセスが特徴で、利用は無料です。ビズリーチ・JAC等のハイクラス系と併用して比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

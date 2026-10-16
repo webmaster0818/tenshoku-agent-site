@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "RSGの評判は？建設・不動産専門の転職エージェントを解説【2026年】",
-  description: "株式会社RSGは建設・不動産専門の人材紹介・転職支援会社。収入UP率99.4%・月収/年収1.2倍〜1.5倍(いずれも公式表記)を掲げ、業界経験者のキャリアアップ転職を支援。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "株式会社RSGは建設・不動産専門の人材紹介・転職支援会社。収入UP率99.4%・月収/年収1.2倍〜1.5倍(いずれも公式表記)を掲げ、業界経験者のキャリアアップ転職を支援。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/rsg-fudosan/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>建設・不動産業界専門の転職エージェント</strong>。業界経験者(建設業界経験者・不動産業界経験者)を主対象としています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>収入UP率99.4%・月収/年収1.2倍〜1.5倍へ</strong>(いずれも公式サイト表記・2026年8月22日確認)。年収アップ軸の支援を強く打ち出しています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>RSGは、建設・不動産の業界経験者に特化し、年収アップ軸の転職支援を掲げるエージェントです。業界専門の市場価値査定が受けられ、利用は無料。管理系職種はプライムキャリア、総合型との併用で選択肢を広げるのがおすすめです。</p>
+        <p>RSGは、建設・不動産の業界経験者に特化し、年収アップ軸の転職支援を掲げるエージェントです。業界専門の市場価値査定が受けられ、利用は無料です。管理系職種はプライムキャリア、総合型との併用で選択肢を広げるのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

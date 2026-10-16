@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "リコーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "リコーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "リコー（証券コード7752）への転職を有価証券報告書などの一次データで解説。平均年間給与は約906万円（2026年3月期・有報／提出会社）。公式キャリア採用の10ステップ選考、キャリア登録制度、単体従業員数の変化まで一次情報でまとめました。",
+    "リコー（証券コード7752）への転職を有価証券報告書などの一次データで解説。平均年間給与は約906万円（2026年3月期・有価証券報告書／提出会社）。公式キャリア採用の10ステップ選考、キャリア登録制度、単体従業員数の変化まで一次情報でまとめました。",
   alternates: { canonical: "/company/ricoh/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "リコーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "リコーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "リコー（7752）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "リコーの単体従業員数が減っているのはなぜですか？",
-    a: "有価証券報告書ベースでは提出会社単体の従業員数は7,282名（2024年3月期）→5,041名→4,596名（2026年3月期）と推移しています（IR BANK掲載値・2026年8月16日確認)。有報の記載範囲では要因を特定できないため当サイトでは理由を断定しませんが、単体の母集団が変わると平均年間給与の比較にも影響するため、数値を読む際の前提として記載しています。連結従業員は75,635名（2026年3月31日時点・公式会社概要）です。",
+    a: "有価証券報告書ベースでは提出会社単体の従業員数は7,282名（2024年3月期）→5,041名→4,596名（2026年3月期）と推移しています（IR BANK掲載値・2026年8月16日確認)。有価証券報告書の記載範囲では要因を特定できないため当サイトでは理由を断定しませんが、単体の母集団が変わると平均年間給与の比較にも影響するため、数値を読む際の前提として記載しています。連結従業員は75,635名（2026年3月31日時点・公式会社概要）です。",
   },
   {
     q: "リコーの平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            リコーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            リコーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/ricoh.jpg" alt="リコーの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -88,7 +88,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：リコー転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">リコー転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">リコーの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">リコーの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">リコーで求められる人材</a></li>
@@ -99,7 +99,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：リコー転職のポイント</h2>
+        <h2 id="s1">リコー転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約906万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月16日確認）。提出会社単体4,596名の全従業員平均で、前期860万円から上昇。</li>
@@ -148,7 +148,7 @@ export default function CompanyCareer() {
             <li>今すぐ転職しない人向けの「キャリア登録」制度があり、経歴を登録するとマッチするポジションが出た際に会社側からアプローチされる仕組み。</li>
             <li>※グループのリコージャパン（販売会社）は別法人で採用窓口も別。応募先の会社がどちらかは募集要項で確認を。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でリコーのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でリコーのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">リコーで求められる人材</h2>
@@ -191,7 +191,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約906万円（2026年3月期）は提出会社単体・全従業員4,596名の平均であり、職種・年代・役職により実際の水準は異なります。</li>
-            <li>単体従業員数が直近3年で7,282名→4,596名と大きく変化しているため、平均給与の年度間比較は母集団の変化を織り込んで読む必要があります（変化の要因は有報の記載範囲では特定できないため当サイトでは断定しません）。</li>
+            <li>単体従業員数が直近3年で7,282名→4,596名と大きく変化しているため、平均給与の年度間比較は母集団の変化を織り込んで読む必要があります（変化の要因は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません）。</li>
             <li>公式の募集要項では給与は「スキル・経験・面接評価をもとに個別決定」と明記されており、中途入社時の提示額はポジション次第です。</li>
             <li>販売会社のリコージャパン等グループ会社は労働条件が異なるため、応募先法人の募集要項での確認が重要です。</li>
           </ul>
@@ -202,10 +202,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式窓口への直接応募・キャリア登録に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手メーカー・ITサービスの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手メーカー・ITサービスの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -229,7 +229,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">リコー転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式キャリア採用ページ(キャリア登録含む)とエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式キャリア採用ページ(キャリア登録含む)と転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/nidec/" },
-  title: "ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "ニデック（旧日本電産／証券コード6594）への転職を有価証券報告書などの一次データで解説。平均年間給与は約760万円（2025年3月期・有報／提出会社）。精密モーター世界最大手の中途採用、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "ニデック（旧日本電産／証券コード6594）への転職を有価証券報告書などの一次データで解説。平均年間給与は約760万円（2025年3月期・有価証券報告書／提出会社）。精密モーター世界最大手の中途採用、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description:
       "ニデック（6594）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     q: "ニデックの勤務地はどこですか？",
-    a: "本社は京都市南区にあります。国内外に多数の拠点・グループ会社があり、応募先の会社・職種によって勤務地や転勤の可能性が異なります。応募時に確認しましょう。",
+    a: "本社は京都市南区にあります。国内外に多数の拠点・グループ会社があり、応募先の会社・職種によって勤務地や転勤の可能性が異なります。応募時にご確認ください。",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function NidecCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            ニデック（旧日本電産）への転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/nidec.jpg" alt="ニデックの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -86,7 +86,7 @@ export default function NidecCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：ニデック転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">ニデック転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">ニデックの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">ニデックの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">ニデックで求められる人材</a></li>
@@ -98,7 +98,7 @@ export default function NidecCareer() {
         </nav>
 
         {/* 結論 */}
-        <h2 id="s1">結論：ニデック転職のポイント</h2>
+        <h2 id="s1">ニデック転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体・持株会社）の平均年間給与は<strong className="text-navy">約760万円（2025年3月期・有価証券報告書）</strong>。前期（2024年3月期）は約720万円。</li>
@@ -108,7 +108,7 @@ export default function NidecCareer() {
           </ul>
         </div>
 
-        {/* 基本データ（有報） */}
+        {/* 基本データ（有価証券報告書） */}
         <h2 id="s2">ニデックの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
@@ -152,7 +152,7 @@ export default function NidecCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でニデックのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でニデックのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         {/* 求められる人材 */}
@@ -192,10 +192,10 @@ export default function NidecCareer() {
         </p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書を提出。応募職種で求められる専門経験・スキルとの適合性が確認されます。公式採用サイトまたは転職エージェント経由で応募します。" },
+            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書を提出します。応募職種で求められる専門経験・スキルとの適合性が確認されます。公式採用サイトまたは転職エージェント経由で応募します。" },
             { step: 2, title: "一次面接", desc: "現場の技術者・マネージャーとの面接。これまでの実務経験や専門スキル、応募動機が問われます。" },
             { step: 3, title: "二次面接・最終面接", desc: "部門長・役員クラスとの面接。カルチャーフィットや長期的なキャリアビジョン、グローバル・変化への適応が確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -217,7 +217,7 @@ export default function NidecCareer() {
             <li>ニデックは持株会社体制のため、提出会社の数値はグループ全体を代表するものではなく、応募先のグループ会社によって年収・条件が異なる。</li>
             <li>職種・役職によって年収レンジは大きく異なる。</li>
             <li>平均年齢が約42.2歳・平均勤続約13.3年で、年齢・役職が上がるほど平均は上振れする。</li>
-            <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まる。</li>
+            <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">
             正確な想定年収は、応募先の会社・ポジションごとに転職エージェントを通じて確認するのが確実です。
@@ -231,10 +231,10 @@ export default function NidecCareer() {
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業や技術系専門職に強み。ニデックのようなグローバルメーカーの専門ポジションと相性が良いです。" },
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。メーカー・自動車・電機系の求人を幅広く扱い、非公開求人の紹介も期待できます。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業や技術系専門職に強みがあります。ニデックのようなグローバルメーカーの専門ポジションと相性が良いです。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。メーカー・自動車・電機系の求人を幅広く扱い、非公開求人の紹介も期待できます。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用でき、メーカー・エンジニア求人が充実。同業他社も含めて比較できます。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス・スカウト型。管理職や専門性の高いポジションの情報収集に向いています。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス向けのスカウト型サービスです。管理職や専門性の高いポジションの情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

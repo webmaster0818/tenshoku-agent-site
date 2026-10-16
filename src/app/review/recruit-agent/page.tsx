@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/recruit-agent/" },
   title: "リクルートエージェントの評判・口コミは？ITエンジニア転職での実力も徹底解説",
   description:
-    "リクルートエージェントの評判・口コミを徹底調査。業界最大級の求人数を保有し、IT・エンジニア転職にも強い。ITでの評判の実態、利用の流れ、メリット・デメリット、よくある質問をまとめました。登録は完全無料。",
+    "リクルートエージェントの評判・口コミを徹底調査。業界最大級の求人数を保有し、IT・エンジニア転職にも強い。ITでの評判の実態、利用の流れ、メリット・デメリット、よくある質問をまとめました。登録は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "リクルートエージェントの評判・口コミは？ITエンジニア転職での実力も徹底解説",
@@ -75,7 +75,7 @@ export default function RecruitAgentReview() {
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -267,7 +267,7 @@ export default function RecruitAgentReview() {
             リクルートエージェントで転職活動を始めよう
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            業界最大級の求人数であなたのキャリアの可能性を広げましょう。登録は完全無料です。
+            業界最大級の求人数であなたのキャリアの可能性を広げましょう。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

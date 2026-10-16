@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>薬剤師専門の転職・派遣サービス</strong>。正社員・パート・派遣の3形態に対応しています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>公開求人12,524件</strong>(公式サイト2026年8月21日更新表示・当サイト8月22日確認)+非公開求人多数。</span></li>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>お仕事ラボは、正社員・パート・派遣を横断できる薬剤師専門の転職サービスです。1.2万件超の公開求人と許可番号の公開が確認でき、利用は無料。薬剤師の転職では特化型を2社併用して求人の重なりと担当者の質を比較するのがおすすめです。</p>
+        <p>お仕事ラボは、正社員・パート・派遣を横断できる薬剤師専門の転職サービスです。1.2万件超の公開求人と許可番号の公開が確認でき、利用は無料です。薬剤師の転職では特化型を2社併用して求人の重なりと担当者の質を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

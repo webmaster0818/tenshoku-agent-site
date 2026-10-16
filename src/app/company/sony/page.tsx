@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sony/" },
   title: "ソニーに転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "ソニーへの転職を解説。平均年収1,155万円・平均年齢42.7歳（ソニーグループ株式会社・2026年3月期 有報）、ソニー株式会社公式の経験者採用プロセス（書類選考→面接〈通常2回程度〉→最終面接〈人事面接・適性検査〉）、面接対策、おすすめ転職エージェント5社を紹介します。",
+    "ソニーへの転職を解説。平均年収1,155万円・平均年齢42.7歳（ソニーグループ株式会社・2026年3月期 有価証券報告書）、ソニー株式会社公式の経験者採用プロセス（書類選考→面接〈通常2回程度〉→最終面接〈人事面接・適性検査〉）、面接対策、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "ソニーに転職するには？年収・面接対策・おすすめエージェント",
@@ -103,8 +103,8 @@ export default function SonyCareer() {
                 { label: "社名", value: "ソニーグループ株式会社（Sony Group Corporation）" },
                 { label: "本社", value: "東京都港区港南1-7-1" },
                 { label: "設立", value: "1946年5月7日" },
-                { label: "従業員数", value: "2,166名（ソニーグループ株式会社単体・2026年3月期 有報）／ソニー株式会社 約8,000名（2025年4月時点・同社公式）" },
-                { label: "平均年収", value: "1,155万円（ソニーグループ株式会社単体・2026年3月期 有報）" },
+                { label: "従業員数", value: "2,166名（ソニーグループ株式会社単体・2026年3月期 有価証券報告書）／ソニー株式会社 約8,000名（2025年4月時点・同社公式）" },
+                { label: "平均年収", value: "1,155万円（ソニーグループ株式会社単体・2026年3月期 有価証券報告書）" },
                 { label: "事業内容", value: "ゲーム（PlayStation）、音楽、映画、エレクトロニクス、半導体（イメージセンサー）など" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
@@ -162,7 +162,7 @@ export default function SonyCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">ソニーの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でソニーグループのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でソニーグループのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             ソニーは「経験者採用」の名称で中途採用を実施しています。ソニー株式会社の
@@ -283,7 +283,7 @@ export default function SonyCareer() {
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、専門職・管理職の求人を探したい方に向いています。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、専門職・管理職の求人を探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
@@ -333,7 +333,7 @@ export default function SonyCareer() {
             ソニー転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

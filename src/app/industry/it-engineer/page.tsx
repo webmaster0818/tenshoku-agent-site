@@ -167,7 +167,7 @@ export default function ItEngineerPage() {
             ITエンジニアとしてのキャリアアップを実現しよう
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            IT業界に精通したエージェントがあなたの転職をサポートします。登録は完全無料です。
+            IT業界に精通したエージェントがあなたの転職をサポートします。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

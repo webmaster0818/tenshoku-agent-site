@@ -6,12 +6,12 @@ import A8Cta from "@/components/A8Cta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/nri/" },
-  title: 'NRIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
+  title: 'NRIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
   description:
-    '野村総合研究所（NRI）（証券コード4307）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,332万円（2026年3月期・有報／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
+    '野村総合研究所（NRI）（証券コード4307）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,332万円（2026年3月期・有価証券報告書／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: 'NRIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
+    title: 'NRIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
     description: "NRIの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -27,15 +27,15 @@ const faqData = [
   },
   {
     "q": 'NRIの転職難易度は高いですか？',
-    "a": '人気企業のため選考の競争はありますが、コンサル/IT/特定ドメインの実務経験があれば十分にチャンスがあります。等級ごとに求められる水準が異なります。'
+    "a": '人気企業のため選考には競争がありますが、コンサル/IT/特定ドメインの実務経験は評価の対象となります。等級ごとに求められる水準が異なります。'
   },
   {
     "q": 'NRIの平均年齢・勤続年数は？',
-    "a": '有報では平均年齢約39.7歳・平均勤続約13.7年（2026年3月期）です。'
+    "a": '有価証券報告書では平均年齢約39.7歳・平均勤続約13.7年（2026年3月期）です。'
   },
   {
     "q": '未経験から転職できますか？',
-    "a": '職種によります。ポテンシャル採用や育成前提の枠がある場合もありますが、多くは実務経験者が中心です。まずはエージェントで想定レンジと可能性を確認するのが確実です。'
+    "a": '職種によります。ポテンシャル採用や育成前提の枠がある場合もありますが、多くは実務経験者が中心です。想定年収のレンジや応募の可能性は、転職エージェントを通じて確認することをおすすめします。'
   }
 ];
 
@@ -57,7 +57,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            NRIへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            NRIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/nri.jpg" alt="野村総合研究所（NRI）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：NRI転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">NRI転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">NRIの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">NRIの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">NRIで求められる人材</a></li>
@@ -83,10 +83,10 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：NRI転職のポイント</h2>
+        <h2 id="s1">NRI転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,332万円（2026年3月期・有報／単体7,982名）。単体の母集団が大きく、代表性の高い高水準。</li>
+            <li>平均年間給与は約1,332万円（2026年3月期・有価証券報告書／単体7,982名）。単体の母集団が大きく、代表性の高い高水準。</li>
             <li>平均勤続約13.7年・平均年齢39.9歳で、コンサル業界では定着率が高い部類。</li>
             <li>コンサルタント（経営・業務・IT）とアプリケーションエンジニアの双方で中途採用が活発。</li>
             <li>論理的思考力と、金融・公共などドメイン知識×ITの掛け算が評価されやすい。</li>
@@ -135,7 +135,7 @@ export default function CompanyCareer() {
             <li>勤務地：キャリア採用サイトで「福岡開発センター」「札幌開発センター」の記載を確認（求人により異なるため各求人でご確認ください）。</li>
           </ul>
           <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
-          <p className="text-sm text-text-secondary mt-4">20代でコンサル・大手企業への転職を考えるなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで職務経歴書の壁打ちから始めるのも近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代でコンサル・大手企業への転職を検討する場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、職務経歴書の添削から始める方法もあります。</p>
         </div>
 
         <h2 id="s4">NRIで求められる人材</h2>
@@ -168,9 +168,9 @@ export default function CompanyCareer() {
         <div className="space-y-5 mb-8">
           {[
             { step: 1, title: "書類選考", desc: "職務経歴書で、コンサル/IT/ドメインの経験と応募職種の適合性が確認されます。" },
-            { step: 2, title: "一次面接・ケース", desc: "現場マネージャー等との面接。論理的思考や実務経験、ケース面接が課される場合もあります。" },
-            { step: 3, title: "二次・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットとキャリアビジョンを確認。" },
-            { step: 4, title: "内定・条件提示", desc: "等級・オファー年収の提示。条件確認を経て入社となります。" },
+            { step: 2, title: "一次面接・ケース", desc: "現場マネージャー等による面接が行われます。論理的思考や実務経験、ケース面接が課される場合もあります。" },
+            { step: 3, title: "二次・最終面接", desc: "部門責任者・役員クラスによる面接が行われます。カルチャーフィットとキャリアビジョンが確認されます。" },
+            { step: 4, title: "内定・条件提示", desc: "等級とオファー年収が提示されます。条件確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -185,9 +185,9 @@ export default function CompanyCareer() {
         <h2 id="s6">NRIの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約1,332万円（2026年3月期）は単体全社員の平均。等級・役職で水準は大きく異なる。</li>
-            <li>ITコンサル/SIは年齢より等級・案件責任で年収が決まるため、昇格が年収アップの鍵。</li>
-            <li>中途入社時の提示額はポジション・経験によるため、エージェント経由での確認が確実。</li>
+            <li>約1,332万円（2026年3月期）は単体全社員の平均。等級・役職により水準は大きく異なります。</li>
+            <li>ITコンサル/SIでは年齢よりも等級・案件責任によって年収が決まるため、昇格が年収に大きく影響します。</li>
+            <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
         </div>
 
@@ -195,10 +195,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: 'レバテックキャリア', href: '/review/levtech/', desc: 'IT・エンジニア特化。ITコンサル・SIの専門性を評価してもらいやすく、非公開求人も豊富。' },
-            { name: 'リクルートエージェント', href: '/review/recruit-agent/', desc: '求人数業界最大級。大手IT・コンサルから幅広くカバー。' },
-            { name: 'doda', href: '/review/doda/', desc: 'エージェントと求人サイトの両方。同業比較・年収レンジの把握がしやすい。' },
-            { name: 'ビズリーチ', href: '/review/bizreach/', desc: 'スカウト型。ハイクラスのコンサル・IT求人が集まる。' },
+            { name: 'レバテックキャリア', href: '/review/levtech/', desc: 'ITエンジニアに特化したエージェントです。ITコンサル・SIの専門性を評価されやすく、非公開求人も多く扱っています。' },
+            { name: 'リクルートエージェント', href: '/review/recruit-agent/', desc: '業界最大級の求人数を有するエージェントです。大手IT・コンサルから幅広い求人を扱っています。' },
+            { name: 'doda', href: '/review/doda/', desc: 'エージェントサービスと求人サイトの両方を利用できます。同業比較・年収レンジの把握がしやすい点が特長です。' },
+            { name: 'ビズリーチ', href: '/review/bizreach/', desc: 'スカウト型のサービスです。ハイクラスのコンサル・IT求人が多く集まります。' },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -222,7 +222,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">NRI転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/it-consultant-salary/" className="btn-outline px-8 py-3">ITコンサル年収ランキングを見る</Link>
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキング</Link>

@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>医療・介護・福祉に特化した求人サイト</strong>。看護師20,109件・介護職34,539件・薬剤師2,141件など職種別の求人を掲載(2026年8月22日確認時点の公式表示)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スカウト・メッセージ・キープ機能</strong>を備えた求人サイト型で、自分のペースで探せる設計です。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ジョブソエルは、医療・介護・福祉の職種を横断してカバーする求人サイトです。スカウト機能と豊富な職種区分が特徴で、利用は無料。エージェント型の医療特化サービスと併用すると、検索型と伴走型の両輪で職場を探せます。</p>
+        <p>ジョブソエルは、医療・介護・福祉の職種を横断してカバーする求人サイトです。スカウト機能と豊富な職種区分が特徴で、利用は無料です。エージェント型の医療特化サービスと併用すると、検索型と伴走型の両輪で職場を探せます。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

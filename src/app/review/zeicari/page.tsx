@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ゼイキャリの評判は？税理士業界特化のハイクラス転職エージェントを解説【2026年】",
-  description: "ゼイキャリ(マルゴト株式会社運営)は税理士業界特化・ハイクラス転職エージェント。年収600〜1,500万円の厳選求人・国内大手税理士法人代表からの推薦・業務委託案件の取扱いが特徴。公式情報ベースで解説します。利用は無料。",
+  description: "ゼイキャリ(マルゴト株式会社運営)は税理士業界特化・ハイクラス転職エージェント。年収600〜1,500万円の厳選求人・国内大手税理士法人代表からの推薦・業務委託案件の取扱いが特徴。公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/zeicari/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>税理士業界特化×ハイクラスの転職エージェント</strong>。年収600〜1,500万円の求人を多数と公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>国内大手税理士法人の代表から推薦</strong>を受けていることを公式サイトで実名掲載(クリフィックス税理士法人・あいわ税理士法人の代表コメント)。</span></li>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ゼイキャリは、大手税理士法人に絞った厳選×ハイクラス路線の税理士業界特化エージェントです。業務委託を含む柔軟なキャリア提案が特徴で、利用は無料。士業全般をカバーするヒュープロと併用し、求人の質と幅を両取りするのがおすすめです。</p>
+        <p>ゼイキャリは、大手税理士法人に絞った厳選×ハイクラス路線の税理士業界特化エージェントです。業務委託を含む柔軟なキャリア提案が特徴で、利用は無料です。士業全般をカバーするヒュープロと併用し、求人の質と幅を両取りするのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>高単価案件に特化したITフリーランス向けサービス</strong>。年収1000万円以上を目指す層が対象です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>エンド直案件90%・最高単価180万円・リモート50%以上</strong>(いずれも公式表記・2026年2月末時点)。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>EBAフリーランスは、エンド直×高単価に特化したITフリーランス案件サービスです。リード級人材の単価最大化に焦点を当てた設計で、利用は無料。フリーランスの案件探しは2〜3サービス併用が基本なので、専門特化型と大手を組み合わせるのがおすすめです。</p>
+        <p>EBAフリーランスは、エンド直×高単価に特化したITフリーランス案件サービスです。リード級人材の単価最大化に焦点を当てた設計で、利用は無料です。フリーランスの案件探しは2〜3サービス併用が基本なので、専門特化型と大手を組み合わせるのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

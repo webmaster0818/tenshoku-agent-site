@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "食品・飲料業界の年収ランキング【2026年・有価証券報告書】",
-    description: "食品・飲料大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "食品・飲料大手9社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "asahi-ghd", name: "アサヒグループHD", salary: "約1,335万円", term: "2025年12月期", note: "直近期に+117万円で収録9社トップ。海外ビール事業が柱のグローバル持株会社", hd: true, field: "酒類・飲料" },
   { rank: 2, slug: "suntory-bf", name: "サントリー食品インターナショナル", salary: "約1,170万円", term: "2025年12月期", note: "天然水・BOSSの清涼飲料大手。2年連続上昇", hd: false, field: "清涼飲料" },
@@ -34,15 +34,15 @@ const faqData = [
   },
   {
     q: "持株会社(HD)の年収と事業会社の年収は違うのですか？",
-    a: "違います。有報の平均年間給与は「提出会社単体」の数値で、持株会社の場合は本社機能に勤める社員中心の平均です。アサヒビールやキリンビールなど事業会社の全社員平均とは別物です(事業会社単体の有報は提出されないため公表値がありません)。グループの給与水準を示す指標として見てください。",
+    a: "違います。有価証券報告書の平均年間給与は「提出会社単体」の数値で、持株会社の場合は本社機能に勤める社員中心の平均です。アサヒビールやキリンビールなど事業会社の全社員平均とは別物です(事業会社単体の有価証券報告書は提出されないため公表値がありません)。グループの給与水準を示す指標として見てください。",
   },
   {
     q: "ビール3社(アサヒ・キリン・サントリー)の年収に差はありますか？",
-    a: "比較できる範囲では、アサヒGHD約1,335万円(HD単体)・サントリー食品約1,170万円(清涼飲料事業会社)・キリンHD約998万円(HD単体)です(2025年12月期)。ただしサントリーホールディングス本体は非上場で有報の公表値がなく、3社とも母集団が異なるため、水準感の目安として見るのが適切です。",
+    a: "比較できる範囲では、アサヒGHD約1,335万円(HD単体)・サントリー食品約1,170万円(清涼飲料事業会社)・キリンHD約998万円(HD単体)です(2025年12月期)。ただしサントリーホールディングス本体は非上場で有価証券報告書の公表値がなく、3社とも母集団が異なるため、水準感の目安として見るのが適切です。",
   },
   {
     q: "食品業界の年収は上がっていますか？",
-    a: "会社により分かれます(2026年9月8日・IR BANK掲載の有報値で確認)。アサヒGHD(+117万円)・サントリー食品(+9万円で2年連続上昇)・味の素(+25万円)は上昇した一方、日清食品HDは微減でした。カルビーは前期比134万円低下していますが、これは無期契約社員を正社員等級体系へ統合し単体従業員が+1,421名となった算入範囲の変化によるもので、待遇の引き下げを意味しません。業績連動と制度変更の両方が数値を動かす業界のため、単年でなく推移と注記で見るのがおすすめです。",
+    a: "会社により分かれます(2026年9月8日・IR BANK掲載の有価証券報告書の数値で確認)。アサヒGHD(+117万円)・サントリー食品(+9万円で2年連続上昇)・味の素(+25万円)は上昇した一方、日清食品HDは微減でした。カルビーは前期比134万円低下していますが、これは無期契約社員を正社員等級体系へ統合し単体従業員が+1,421名となった算入範囲の変化によるもので、待遇の引き下げを意味しません。業績連動と制度変更の両方が数値を動かす業界のため、単年でなく推移と注記で見るのがおすすめです。",
   },
   {
     q: "食品大手の中途採用はどこに応募すればいいですか？",
@@ -88,7 +88,7 @@ export default function ShokuhinSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 食品・飲料業界年収ランキング</h2>
+        <h2>有価証券報告書準拠 食品・飲料業界年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -96,7 +96,7 @@ export default function ShokuhinSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">主領域</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -137,11 +137,11 @@ export default function ShokuhinSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有報値は本社機能スタッフ中心の平均です。事業会社(アサヒビール・キリンビール等)の職種別水準は求人票・エージェント経由で確認しましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は本社機能スタッフ中心の平均です。事業会社(アサヒビール・キリンビール等)の職種別水準は求人票・エージェント経由で確認しましょう。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">食品は平均勤続15〜19年の長期就業型が多く(味の素18.9年・明治18年)、全社員平均は高く出ます。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">食品は平均勤続15〜19年の長期就業型が多く(味の素18.9年・明治18年)、全社員平均は高く出ます。中途入社時の提示額とは異なります。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">業績連動・決算期で変動</h3>
@@ -151,14 +151,14 @@ export default function ShokuhinSalaryRanking() {
 
         <h2>食品・飲料業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          食品大手は研究・生産技術・マーケの専門職採用が中心で、非公開求人も多い業界です。複数登録で求人と情報を広く集めましょう。
+          食品大手は研究・生産技術・マーケの専門職採用が中心で、非公開求人も多い業界です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。食品メーカーの研究開発から営業・本社機能まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。メーカー系の同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。ブランドマーケ・経営企画などハイクラス職の市場価値把握に。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強み。グローバル食品メーカーの管理職ポジションに。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。食品メーカーの研究開発から営業・本社機能まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。メーカー系の同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。ブランドマーケ・経営企画などハイクラス職の市場価値の把握に適しています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル食品メーカーの管理職ポジションに。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -182,7 +182,7 @@ export default function ShokuhinSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">食品・飲料業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/seiyaku-salary/" className="btn-outline px-8 py-3">製薬の年収ランキングも見る</Link>
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>

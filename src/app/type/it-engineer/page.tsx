@@ -63,7 +63,7 @@ export default function ItEngineerPage() {
             { rank: 2, name: "doda", href: "/review/doda/", desc: "転職サイトとエージェントの両機能を持ち、自分で求人を探しつつスカウトも受けられます。IT・Web系の求人が充実し、エンジニア向けの特集や年収査定も利用できます。" },
             { rank: 3, name: "マイナビエージェント", href: "/review/mynavi/", desc: "20代・第二新卒のIT転職に強く、丁寧なサポートが特徴。未経験からエンジニアを目指す若手や、初めての転職に寄り添う支援を求める方に向いています。" },
             { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型で、スキルの高いエンジニアに企業・ヘッドハンターから直接オファーが届きます。ハイクラス転職を狙うエンジニアにおすすめです。" },
-            { rank: 5, name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業のIT求人に強み。語学力を活かしたい、高年収の上流ポジションを狙うエンジニアに向いています。" },
+            { rank: 5, name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業のIT求人に強みがあります。語学力を活かしたい、高年収の上流ポジションを狙うエンジニアに向いています。" },
           ].map((agent) => (
             <div key={agent.rank} className="card-hover p-5">
               <div className="flex items-center gap-3 mb-2">

@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/muji/" },
-  title: "良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "良品計画（無印良品／証券コード7453）への転職を有価証券報告書などの一次データで解説。平均年間給与は約670万円（2025年8月期・有報／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "良品計画（無印良品／証券コード7453）への転職を有価証券報告書などの一次データで解説。平均年間給与は約670万円（2025年8月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description:
       "良品計画（7453）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     q: "良品計画の勤務地はどこですか？",
-    a: "本社は東京都文京区（後楽・住友不動産飯田橋ファーストビル）にあります。全国・海外の店舗網を持つため、職種によって勤務地や異動の可能性が異なります。応募時に確認しましょう。",
+    a: "本社は東京都文京区（後楽・住友不動産飯田橋ファーストビル）にあります。全国・海外の店舗網を持つため、職種によって勤務地や異動の可能性が異なります。応募時にご確認ください。",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function MujiCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            良品計画（無印良品）への転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/muji.jpg" alt="良品計画（無印良品）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -86,7 +86,7 @@ export default function MujiCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：良品計画転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">良品計画転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">良品計画の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">良品計画の中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">良品計画で求められる人材</a></li>
@@ -98,7 +98,7 @@ export default function MujiCareer() {
         </nav>
 
         {/* 結論 */}
-        <h2 id="s1">結論：良品計画転職のポイント</h2>
+        <h2 id="s1">良品計画転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約670万円（2025年8月期・有価証券報告書）</strong>。前期（2024年8月期）の約643万円から上昇傾向。</li>
@@ -108,7 +108,7 @@ export default function MujiCareer() {
           </ul>
         </div>
 
-        {/* 基本データ（有報） */}
+        {/* 基本データ（有価証券報告書） */}
         <h2 id="s2">良品計画の基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
@@ -150,7 +150,7 @@ export default function MujiCareer() {
             <li>店舗職の勤務地は全国の無印良品店舗。具体勤務地は各求人ページ単位で確認する形（キャリア採用トップに一括記載なし）。本部キャリア採用では「第二創業」の変革をリードする人材募集と記載。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で良品計画（無印良品）のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で良品計画（無印良品）のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         {/* 求められる人材 */}
@@ -215,7 +215,7 @@ export default function MujiCareer() {
             <li>店舗系と本部系、職種・役職によって年収レンジは異なる。</li>
             <li>平均年齢が約36.9歳と比較的若く、年齢・役職が上がるほど平均は上振れする。</li>
             <li>近年は処遇改善が進み、前期（643万円）から上昇している点も参考になる。</li>
-            <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まる。</li>
+            <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">
             正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。
@@ -231,8 +231,8 @@ export default function MujiCareer() {
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級で、小売・消費財・本部系の求人も幅広く扱います。非公開求人の紹介も期待できます。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用でき、小売・EC・商品開発など幅広い求人を比較できます。" },
-            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強み。小売・サービス業の求人も多く、初めての業界転職でも相談しやすいです。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス・スカウト型。本部の専門職・管理職ポジションの情報収集に向いています。" },
+            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強みがあります。小売・サービス業の求人も多く、初めての業界転職でも相談しやすいです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス向けのスカウト型サービスです。本部の専門職・管理職ポジションの情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

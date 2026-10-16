@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/toyo-suisan/" },
-  title: "東洋水産への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "東洋水産への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "東洋水産（証券コード2875）への転職を有価証券報告書などの一次データで解説。平均年間給与は約698万円（2026年3月期・有報／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "東洋水産（証券コード2875）への転職を有価証券報告書などの一次データで解説。平均年間給与は約698万円（2026年3月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "東洋水産への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "東洋水産への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "東洋水産（2875）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     "q": "定着率は高いですか？",
-    "a": "有報の平均勤続年数は約16.8年（2026年3月期）と、上場企業の中でも長い部類です。長く働く社員が多い企業文化がうかがえます。"
+    "a": "有価証券報告書の平均勤続年数は約16.8年（2026年3月期）と、上場企業の中でも長い部類です。長く働く社員が多い企業文化がうかがえます。"
   }
 ];
 
@@ -60,7 +60,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            東洋水産への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            東洋水産への転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/toyo-suisan.jpg" alt="東洋水産（マルちゃん）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -75,7 +75,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：東洋水産転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">東洋水産転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">東洋水産の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">東洋水産の中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">東洋水産で求められる人材</a></li>
@@ -86,7 +86,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：東洋水産転職のポイント</h2>
+        <h2 id="s1">東洋水産転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約698万円（2026年3月期・有価証券報告書・単体2,192名）。食品メーカーとして標準〜やや高めの水準。</li>
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
             <li>書類選考の結果は合否に関わらずメールで連絡と公式に記載。給与は「経験・能力を考慮し、当社規定による」（参考：30歳モデル賃金366,000円・35歳モデル賃金412,000円）。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東洋水産（マルちゃん）のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東洋水産（マルちゃん）のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">東洋水産で求められる人材</h2>
@@ -158,10 +158,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出します。応募職種で求められる経験・スキルとの適合性が確認されます。" },
+            { step: 2, title: "一次面接", desc: "現場のマネージャー等による面接が行われます。実務経験・専門スキル・応募動機が中心です。" },
+            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスによる面接が行われます。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -176,9 +176,9 @@ export default function CompanyCareer() {
         <h2 id="s6">東洋水産の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約698万円（2026年3月期）は単体全社員の平均。職種（本社・工場・営業）で水準は異なる。</li>
+            <li>約698万円（2026年3月期）は単体全社員の平均。職種（本社・工場・営業）により水準は異なります。</li>
             <li>平均勤続16.8年・平均年齢41.7歳と長期雇用型のため、平均値は在籍年数の長さを反映している。</li>
-            <li>中途入社時の提示額はポジション・経験によるため、エージェント経由での確認が確実。</li>
+            <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
@@ -187,10 +187,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -214,7 +214,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">東洋水産転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "GMOインターネットグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "GMOインターネットグループへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "GMOインターネットグループ（証券コード9449）への転職を有価証券報告書などの一次データで解説。平均年間給与は約841万円（2025年12月期・有報／提出会社）。インターネットインフラ（ドメイン・サーバー・決済等）を中核とのキャリア採用窓口・選考の考え方をまとめました。",
+    "GMOインターネットグループ（証券コード9449）への転職を有価証券報告書などの一次データで解説。平均年間給与は約841万円（2025年12月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/gmo/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "GMOインターネットグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "GMOインターネットグループへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "GMOインターネットグループ（9449）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -64,7 +64,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            GMOインターネットグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            GMOインターネットグループへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/gmo.jpg" alt="GMOインターネットグループの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -79,7 +79,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：GMO転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">GMO転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">GMOの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">GMOの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">GMOで求められる人材</a></li>
@@ -90,13 +90,13 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：GMO転職のポイント</h2>
+        <h2 id="s1">GMO転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約841万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員平均。</li>
+            <li>平均年間給与は約841万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>677万円（2023年12月期）→693万円（2024年12月期）→841万円（2025年12月期）と推移（直近1年で148万円の大幅上昇）。</li>
             <li>キャリア採用はグループ各社の採用ページで職種別に募集（グループ採用サイトは新卒中心・2026年8月29日確認）。</li>
-            <li>12月決算のため最新値は2025年12月期です。提出会社単体の平均であり、グループ各社とは別の数値です。1年で148万円の大幅上昇ですが、上昇の内訳は有報の記載範囲では特定できないため当サイトでは断定しません。</li>
+            <li>12月決算のため最新値は2025年12月期です。提出会社単体の平均であり、グループ各社とは別の数値です。1年で148万円の大幅上昇ですが、上昇の内訳は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません。</li>
           </ul>
         </div>
 
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
             <li>キャリア採用はグループ各社（GMOインターネットグループ株式会社を含む）の採用情報ページで職種別に募集される形のため、希望領域の会社の採用ページを確認するのが確実です。</li>
             <li>※募集体制は変動するため最新は公式でご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">GMOで求められる人材</h2>
@@ -160,8 +160,8 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "採用ページからエントリー", desc: "公式採用ページで求人を確認し、希望ポジションにエントリーします。" },
             { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を基に、応募求人の要件との適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等との面接。実務経験と応募職種の適合が中心です。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。経験・能力を考慮した条件が提示されます。" },
+            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等による面接が行われます。主に実務経験と応募職種との適合性が確認されます。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。経験・能力を考慮した条件が提示されます。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -178,7 +178,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約841万円（2025年12月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
-            <li>12月決算のため最新値は2025年12月期です。提出会社単体の平均であり、グループ各社とは別の数値です。1年で148万円の大幅上昇ですが、上昇の内訳は有報の記載範囲では特定できないため当サイトでは断定しません。</li>
+            <li>12月決算のため最新値は2025年12月期です。提出会社単体の平均であり、グループ各社とは別の数値です。1年で148万円の大幅上昇ですが、上昇の内訳は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
@@ -188,10 +188,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からベンチャーまで幅広い求人を扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -215,7 +215,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">GMO転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

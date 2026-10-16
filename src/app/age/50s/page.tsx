@@ -79,7 +79,7 @@ export default function Age50sPage() {
             {
               rank: 3,
               name: "リクルートエージェント",
-              desc: "業界最大級の求人数で、50代でも応募できる求人を幅広くカバー。全国対応で地方の求人も豊富です。",
+              desc: "業界最大級の求人数で、50代でも応募できる求人を幅広く扱っています。全国対応で地方の求人も豊富です。",
               href: "/review/recruit-agent/",
             },
           ].map((agent) => (
@@ -144,7 +144,7 @@ export default function Age50sPage() {
             50代の豊富な経験を活かした転職を
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            シニア転職に強いエージェントがあなたのキャリアをサポートします。登録は完全無料です。
+            シニア転職に強いエージェントがあなたのキャリアをサポートします。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

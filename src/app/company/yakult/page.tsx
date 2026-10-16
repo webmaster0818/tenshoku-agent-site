@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/yakult/" },
-  title: "ヤクルト本社への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "ヤクルト本社への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "ヤクルト本社（証券コード2267）への転職を有価証券報告書などの一次データで解説。平均年間給与は約854万円（2026年3月期・有報／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "ヤクルト本社（証券コード2267）への転職を有価証券報告書などの一次データで解説。平均年間給与は約854万円（2026年3月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ヤクルト本社への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "ヤクルト本社への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "ヤクルト本社（2267）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     "q": "ヤクルトレディの募集とは違うのですか？",
-    "a": "本ページはヤクルト本社（メーカー）の社員採用に関する解説です。宅配のヤクルトレディは各地の販売会社との契約で、本社の有報平均年収（約854万円）とは雇用形態・待遇が全く異なります。"
+    "a": "本ページはヤクルト本社（メーカー）の社員採用に関する解説です。宅配のヤクルトレディは各地の販売会社との契約で、本社の有価証券報告書に記載の平均年収（約854万円）とは雇用形態・待遇が全く異なります。"
   },
   {
     "q": "勤務地はどこですか？",
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     "q": "定着率は高いですか？",
-    "a": "有報の平均勤続年数は約17.7年（2026年3月期）と、上場企業の中でも長い部類です。長く働く社員が多い企業文化がうかがえます。"
+    "a": "有価証券報告書の平均勤続年数は約17.7年（2026年3月期）と、上場企業の中でも長い部類です。長く働く社員が多い企業文化がうかがえます。"
   }
 ];
 
@@ -60,7 +60,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ヤクルト本社への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            ヤクルト本社への転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/yakult.jpg" alt="ヤクルト本社の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -75,7 +75,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：ヤクルト本社転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">ヤクルト本社転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">ヤクルト本社の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">ヤクルト本社の中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">ヤクルト本社で求められる人材</a></li>
@@ -86,7 +86,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：ヤクルト本社転職のポイント</h2>
+        <h2 id="s1">ヤクルト本社転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約854万円（2026年3月期・有価証券報告書・単体2,912名）。食品・飲料メーカーとして高めの水準。</li>
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
             <li>採用に関する問い合わせはメールのみ（電話不可）。ヤクルトグループ関連会社や販売会社でも社員やヤクルトスタッフの募集を行っている場合がある（詳細は各社へ直接問い合わせ）。ヤクルトレディ募集は別枠。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でヤクルト本社のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でヤクルト本社のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">ヤクルト本社で求められる人材</h2>
@@ -176,9 +176,9 @@ export default function CompanyCareer() {
         <h2 id="s6">ヤクルト本社の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約854万円（2026年3月期）は単体全社員の平均。職種（本社・工場・営業）で水準は異なる。</li>
+            <li>約854万円（2026年3月期）は単体全社員の平均。職種（本社・工場・営業）により水準は異なります。</li>
             <li>平均勤続17.7年・平均年齢41.7歳と長期雇用型のため、平均値は在籍年数の長さを反映している。</li>
-            <li>中途入社時の提示額はポジション・経験によるため、エージェント経由での確認が確実。</li>
+            <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
@@ -187,10 +187,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -214,7 +214,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ヤクルト本社転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

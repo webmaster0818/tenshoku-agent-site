@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "NTT株式会社（証券コード9432・持株会社）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,056万円（2026年3月期・有報／提出会社＝持株単体）。ドコモ・NTTデータ等の事業会社と別である点、直近推移、採用の入口までまとめました。",
+    "NTT株式会社（証券コード9432・持株会社）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,056万円（2026年3月期・有価証券報告書／提出会社＝持株単体）。ドコモ・NTTデータ等の事業会社と別である点、直近推移、採用の入口までまとめました。",
   alternates: { canonical: "/company/ntt/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "NTT（9432・持株会社）の平均年収・中途採用を有価証券報告書ベースで解説。",
   },
 };
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            NTT（持株会社）への転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/ntt.jpg" alt="NTT（持株会社）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -84,7 +84,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：NTT転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">NTT転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">NTT（持株会社）の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">NTTの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">NTT（持株会社・R&D）で求められる人材</a></li>
@@ -95,7 +95,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：NTT転職のポイント</h2>
+        <h2 id="s1">NTT転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,056万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月19日確認）。提出会社＝持株会社単体2,606名の平均。</li>
@@ -141,7 +141,7 @@ export default function CompanyCareer() {
             <li>「NTTに転職したい」場合、実際の応募先はドコモ・NTTデータ・NTT東西・NTTコミュニケーションズ等の事業会社であるケースが大半。志望する事業領域から会社を特定するのが第一歩。</li>
             <li>各社で採用サイト・選考プロセスが異なるため、募集要項は応募先各社の公式情報で確認が必要。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">NTT（持株会社・R&D）で求められる人材</h2>
@@ -167,7 +167,7 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "応募先の会社・職種を特定", desc: "group.ntt/jp/careers/から志望領域の会社の採用ページへ進み、募集ポジションを確認します。" },
             { step: 2, title: "応募・書類選考", desc: "各社の採用システムから応募。職務経歴・研究実績と募集要件の適合が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "配属予定部門との面接。研究職は研究内容のプレゼンや技術ディスカッションが含まれる場合があります。" },
+            { step: 3, title: "面接（複数回）", desc: "配属予定部門による面接が行われます。研究職は研究内容のプレゼンや技術ディスカッションが含まれる場合があります。" },
             { step: 4, title: "内定・条件提示", desc: "応募先会社の制度に基づき条件が提示され、確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -184,7 +184,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,056万円（2026年3月期）は持株会社単体・全従業員2,606名の平均で、管理職・上位等級を含みます。</li>
-            <li>直近期は1,069万円→1,056万円と微減ですが、平均年間給与には賞与等の変動要素が含まれます（変動理由は有報の記載範囲では特定できないため断定しません）。</li>
+            <li>直近期は1,069万円→1,056万円と微減ですが、平均年間給与には賞与等の変動要素が含まれます（変動理由は有価証券報告書の記載範囲では特定できないため断定しません）。</li>
             <li>事業会社（ドコモ・データ・東西等）の給与水準はこの数値とは別で、各社の開示・求人情報での確認が必要です。</li>
             <li>中途入社時の提示額は応募先会社・等級・役割で決まるため、エージェント経由で会社別・ポジション別の実勢を確認するのが確実です。</li>
           </ul>
@@ -194,10 +194,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">グループ各社の採用ページへの直接応募に加えて、エージェント経由で会社別の求人情報を集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。NTTグループ各社・通信大手の求人も幅広く扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。グループ各社の求人を横並びで比較しやすいのが強みです。" },
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニア特化。ネットワーク・クラウド・R&D系ポジションの要件読み解きに強みがあります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。通信・ITの管理職・専門職クラスの市場価値の把握と情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。NTTグループ各社・通信大手の求人も幅広く扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。グループ各社の求人を横並びで比較しやすい点が強みです。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。ネットワーク・クラウド・R&D系ポジションの要件読み解きに強みがあります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。通信・ITの管理職・専門職クラスの市場価値の把握と情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

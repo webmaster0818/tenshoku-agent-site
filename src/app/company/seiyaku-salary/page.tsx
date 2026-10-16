@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "製薬業界の年収ランキング【2026年・有価証券報告書】",
-    description: "大手製薬8社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "大手製薬8社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "chugai", name: "中外製薬", salary: "約1,350万円", term: "2025年12月期", note: "直近期に+143万円の大幅上昇で製薬収録8社トップ。ロシュ傘下で抗体医薬に強み", hd: false, field: "バイオ・抗体" },
   { rank: 2, slug: "takeda", name: "武田薬品工業", salary: "約1,144万円", term: "2026年3月期", note: "国内最大手のグローバル製薬。2年連続で上昇", hd: false, field: "総合・グローバル" },
@@ -29,15 +29,15 @@ const ranking = [
 const faqData = [
   {
     q: "製薬業界で平均年収が一番高いのはどこですか？",
-    a: "有価証券報告書(IR BANK掲載値を2026年9月6日確認)では、中外製薬が約1,350万円(2025年12月期)でトップです。武田薬品工業 約1,144万円、アステラス製薬 約1,131万円、エーザイ 約1,123万円が続きます。中外製薬は直近期に143万円上昇しており、業績連動賞与の影響が大きいと考えられます(有報記載の範囲では内訳を断定しません)。",
+    a: "有価証券報告書(IR BANK掲載値を2026年9月6日確認)では、中外製薬が約1,350万円(2025年12月期)でトップです。武田薬品工業 約1,144万円、アステラス製薬 約1,131万円、エーザイ 約1,123万円が続きます。中外製薬は直近期に143万円上昇しており、業績連動賞与の影響が大きいと考えられます(有価証券報告書に記載の範囲では内訳を断定しません)。",
   },
   {
     q: "この数値はMR・研究職の平均年収ですか？",
-    a: "いいえ。有報の平均年間給与は提出会社の全従業員平均で、研究職・MR・工場・本社スタッフを合算した数値です。職種・年代・役職により実際の水準は異なります。大塚ホールディングスのみ持株会社単体(本社機能中心・平均勤続3.3年)の数値で、大塚製薬など事業会社の平均とは別物です。",
+    a: "いいえ。有価証券報告書の平均年間給与は提出会社の全従業員平均で、研究職・MR・工場・本社スタッフを合算した数値です。職種・年代・役職により実際の水準は異なります。大塚ホールディングスのみ持株会社単体(本社機能中心・平均勤続3.3年)の数値で、大塚製薬など事業会社の平均とは別物です。",
   },
   {
     q: "製薬業界の年収は上がっていますか？",
-    a: "収録8社のうち6社が直近期に上昇しています(2026年9月6日・IR BANK掲載の有報値で確認)。特に中外製薬(+143万円)・エーザイ(+68万円)・小野薬品(+76万円)・武田薬品(+41万円)の上昇が目立ちます。一方で第一三共・大塚HDは微減で、会社による差があります。",
+    a: "収録8社のうち6社が直近期に上昇しています(2026年9月6日・IR BANK掲載の有価証券報告書の数値で確認)。特に中外製薬(+143万円)・エーザイ(+68万円)・小野薬品(+76万円)・武田薬品(+41万円)の上昇が目立ちます。一方で第一三共・大塚HDは微減で、会社による差があります。",
   },
   {
     q: "未経験から製薬業界へ転職できますか？",
@@ -87,7 +87,7 @@ export default function SeiyakuSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 製薬業界年収ランキング</h2>
+        <h2>有価証券報告書準拠 製薬業界年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -95,7 +95,7 @@ export default function SeiyakuSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">主領域</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -140,7 +140,7 @@ export default function SeiyakuSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">製薬は平均勤続15〜20年の長期就業型が多く(第一三共19.9年・エーザイ18.5年)、全社員平均は高く出ます。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">製薬は平均勤続15〜20年の長期就業型が多く(第一三共19.9年・エーザイ18.5年)、全社員平均は高く出ます。中途入社時の提示額とは異なります。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">業績連動・決算期で変動</h3>
@@ -150,14 +150,14 @@ export default function SeiyakuSalaryRanking() {
 
         <h2>製薬業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          製薬は専門職の非公開求人が多い業界です。複数登録で求人と情報を広く集めましょう。
+          製薬は専門職の非公開求人が多い業界です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。研究開発からMR・本社機能まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。メディカル系ハイクラス・専門職の市場価値把握に。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強み。グローバル製薬の専門職ポジションに。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。研究開発からMR・本社機能まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。メディカル系ハイクラス・専門職の市場価値の把握に適しています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル製薬の専門職ポジションに。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -181,7 +181,7 @@ export default function SeiyakuSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">製薬業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/kinyu-salary/" className="btn-outline px-8 py-3">金融の年収ランキングも見る</Link>
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>

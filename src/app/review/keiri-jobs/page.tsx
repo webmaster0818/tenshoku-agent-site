@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "経理Jobs(経理ジョブズ)の評判は?経理特化の転職エージェントを解説【2026年】",
-  description: "経理Jobs(経理ジョブズ)は株式会社ミツカルプロフェッショナルが運営する経理特化の転職エージェント。経理・財務領域の求人紹介と転職支援を専門に扱います。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "経理Jobs(経理ジョブズ)は株式会社ミツカルプロフェッショナルが運営する経理特化の転職エージェント。経理・財務領域の求人紹介と転職支援を専門に扱います。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/keiri-jobs/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>経理領域に特化した転職エージェント</strong>。経理・財務のキャリアを専門に扱います。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>2026年開始の新しいサービス</strong>(A8プログラム開始日2026年6月・当サイト確認)。特化領域を絞った専門支援が特徴です。</span></li>
@@ -118,7 +118,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>経理Jobsは、経理・財務領域だけに絞った特化型転職エージェントです。経理特有のスキルセットを前提にした専門支援が特徴で、利用は無料。求人の幅はヒュープロや総合型との併用で確保しつつ、専門的な相談窓口として活用するのがおすすめです。</p>
+        <p>経理Jobsは、経理・財務領域だけに絞った特化型転職エージェントです。経理特有のスキルセットを前提にした専門支援が特徴で、利用は無料です。求人の幅はヒュープロや総合型との併用で確保しつつ、専門的な相談窓口として活用するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>IT専門の転職エージェント</strong>。IT技術・業界に精通する専門カウンセラーによる提案型支援を掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>大量紹介ではない厳選提案スタイル</strong>。「他社で多数の求人を紹介され困った」人向けの設計を明示しています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>@PRO人は、厳選提案型のIT専門エージェントです。大量紹介が合わない人・上流志向のエンジニアに向いた設計で、利用は無料。IT特化型はTechClips・ユニゾンキャリア等と2〜3社併用し、提案の質を比較するのがおすすめです。</p>
+        <p>@PRO人は、厳選提案型のIT専門エージェントです。大量紹介が合わない人・上流志向のエンジニアに向いた設計で、利用は無料です。IT特化型はTechClips・ユニゾンキャリア等と2〜3社併用し、提案の質を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

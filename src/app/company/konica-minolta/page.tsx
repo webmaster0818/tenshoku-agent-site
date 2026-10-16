@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "コニカミノルタへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "コニカミノルタへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "コニカミノルタ（証券コード4902）への転職を有価証券報告書などの一次データで解説。平均年間給与は約844万円（2026年3月期・有報／提出会社）。キャリア採用の直接応募・キャリア登録・ジョブリターンの3ルート、SPI・英語力確認を含む選考フローまでまとめました。",
+    "コニカミノルタ（証券コード4902）への転職を有価証券報告書などの一次データで解説。平均年間給与は約844万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の直接応募・キャリア登録・ジョブリターンの3ルート、SPI・英語力確認を含む選考フローまでまとめました。",
   alternates: { canonical: "/company/konica-minolta/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "コニカミノルタへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "コニカミノルタへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "コニカミノルタ（4902）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            コニカミノルタへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            コニカミノルタへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/konica-minolta.jpg" alt="コニカミノルタの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -88,7 +88,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：コニカミノルタ転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">コニカミノルタ転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">コニカミノルタの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">コニカミノルタの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">コニカミノルタで求められる人材</a></li>
@@ -99,7 +99,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：コニカミノルタ転職のポイント</h2>
+        <h2 id="s1">コニカミノルタ転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約844万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月16日確認）。提出会社単体3,888名の全従業員平均で、3年連続上昇（799→821→844万円）。</li>
@@ -148,7 +148,7 @@ export default function CompanyCareer() {
             <li>待遇面は、給与はスキル・経験による個別決定、年間休日125日、有給20日（入社1年後）、所定労働7時間40分、住宅補助・育児手当・401k等が公式に案内されている。</li>
             <li>※2026年8月16日に公式サイトで確認。募集状況は変動するため最新は採用ポータルでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でコニカミノルタのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でコニカミノルタのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">コニカミノルタで求められる人材</h2>
@@ -191,7 +191,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約844万円（2026年3月期）は提出会社単体・全従業員3,888名の平均であり、職種・年代・役職により実際の水準は異なります。</li>
-            <li>3年連続で上昇していますが、同期間に単体従業員数は4,269名→3,888名と減少しており、母集団の変化も平均値に影響し得ます（要因は有報の記載範囲では特定できないため当サイトでは断定しません）。</li>
+            <li>3年連続で上昇していますが、同期間に単体従業員数は4,269名→3,888名と減少しており、母集団の変化も平均値に影響し得ます（要因は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません）。</li>
             <li>平均年齢46.4歳・平均勤続20.7年という長期勤続の構成での平均値である点も踏まえて読む必要があります。</li>
             <li>公式の募集要項では給与はスキル・経験による個別決定と明記されており、中途入社時の提示額はポジション次第です。</li>
           </ul>
@@ -202,10 +202,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式の3ルート（直接応募・キャリア登録・ジョブリターン）に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。精密機器・電機メーカーの求人も幅広く扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。英語選考のある企業への転職支援にも慣れています。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。精密機器・電機メーカーの求人も幅広く扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。英語選考のある企業への転職支援にも慣れています。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -229,7 +229,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">コニカミノルタ転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ポータル(キャリア登録含む)とエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ポータル(キャリア登録含む)と転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

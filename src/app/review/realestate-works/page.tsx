@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "リアルエステートWORKSの評判は？不動産業界特化の転職エージェントを解説【2026年】",
-  description: "リアルエステートWORKSは不動産業界特化の転職エージェント。転職成功者の3人に2人が上場企業へ・面倒な書類作成が一切不要(いずれも公式表記)。不動産営業からPM・BM・AM、建築・設計まで対応。公式情報ベースで解説します。利用は無料。",
+  description: "リアルエステートWORKSは不動産業界特化の転職エージェント。転職成功者の3人に2人が上場企業へ・面倒な書類作成が一切不要(いずれも公式表記)。不動産営業からPM・BM・AM、建築・設計まで対応。公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/realestate-works/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>不動産業界特化の転職エージェント</strong>。不動産営業・管理(PM/BM/AM)・事務・建築設計まで対応します。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>転職成功者の3人に2人が上場企業へ</strong>(公式サイト表記)。独自資料での面接対策・書類作成不要も掲げています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>リアルエステートWORKSは、上場企業への転職実績と書類作成不要の負担軽減を掲げる不動産特化エージェントです。営業から管理系まで職種カバーが広く、利用は無料。RSG・プライムキャリアなど同業界の特化型と併用し、提案求人を比較するのがおすすめです。</p>
+        <p>リアルエステートWORKSは、上場企業への転職実績と書類作成不要の負担軽減を掲げる不動産特化エージェントです。営業から管理系まで職種カバーが広く、利用は無料です。RSG・プライムキャリアなど同業界の特化型と併用し、提案求人を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

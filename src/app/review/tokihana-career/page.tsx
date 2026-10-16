@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "トキハナキャリアの評判は？結婚・ライフステージ特化の転職支援サービスを解説【2026年】",
-  description: "トキハナキャリアは株式会社トキハナが運営する、結婚やライフステージの変化に合わせた転職支援サービス。女性が活躍しやすい業界の求人に強みを持ち、土日勤務からの転換や家庭との両立転職を支援。公式情報ベースで解説します。利用は無料。",
+  description: "トキハナキャリアは株式会社トキハナが運営する、結婚やライフステージの変化に合わせた転職支援サービス。女性が活躍しやすい業界の求人に強みを持ち、土日勤務からの転換や家庭との両立転職を支援。公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/tokihana-career/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>結婚・ライフステージの変化を起点にした転職支援サービス</strong>。ブライダル業界特化の転職エージェントとしても紹介されています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>女性が活躍しやすい業界に強み</strong>と公式に掲げ、土日勤務からの転換・家庭との両立転職を支援します。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>トキハナキャリアは、結婚・ライフステージの変化を起点にした転職支援サービスです。土日勤務からの転換や両立転職の相談に向いた設計で、利用は無料。時短特化のリアルミーキャリアや女性特化のtype女性と目的別に使い分けるのがおすすめです。</p>
+        <p>トキハナキャリアは、結婚・ライフステージの変化を起点にした転職支援サービスです。土日勤務からの転換や両立転職の相談に向いた設計で、利用は無料です。時短特化のリアルミーキャリアや女性特化のtype女性と目的別に使い分けるのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

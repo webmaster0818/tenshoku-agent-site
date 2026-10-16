@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "ナブテスコへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "ナブテスコへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "ナブテスコ（証券コード6268）への転職を有価証券報告書などの一次データで解説。平均年間給与は715万円（2025年12月期・有報／提出会社）。キャリア採用の募集要項、選考プロセス、年収の考え方をまとめました。",
+    "ナブテスコ（証券コード6268）への転職を有価証券報告書などの一次データで解説。平均年間給与は715万円（2025年12月期・有価証券報告書／提出会社）。キャリア採用の募集要項、選考プロセス、年収の考え方をまとめました。",
   alternates: { canonical: "/company/nabtesco/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ナブテスコへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "ナブテスコへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "ナブテスコ（6268）の平均年収・キャリア採用・選考プロセスを有価証券報告書ベースで解説。",
   },
 };
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ナブテスコへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            ナブテスコへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/nabtesco.jpg" alt="ナブテスコの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -87,7 +87,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：ナブテスコ転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">ナブテスコ転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">ナブテスコの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">ナブテスコの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">ナブテスコで求められる人材</a></li>
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：ナブテスコ転職のポイント</h2>
+        <h2 id="s1">ナブテスコ転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は715万円（2025年12月期・有価証券報告書、IR BANK掲載値・2026年8月12日確認）。提出会社単体2,186名の全従業員平均。</li>
@@ -121,7 +121,7 @@ export default function CompanyCareer() {
                 { label: "平均年齢", value: "42.6歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "16.9年（同・提出会社）" },
                 { label: "従業員数", value: "2,186名（提出会社単体）／連結8,472人（2025年12月末・公式サイト会社概要）" },
-                { label: "決算期", value: "12月末決算（最新有報は2025年12月期）" },
+                { label: "決算期", value: "12月末決算（最新の有価証券報告書は2025年12月期）" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -145,7 +145,7 @@ export default function CompanyCareer() {
             <li>キャリア採用のほかに、一度退職した社員を対象とするカムバック採用の案内もある。</li>
             <li>※2026年8月12日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でナブテスコのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でナブテスコのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">ナブテスコで求められる人材</h2>
@@ -199,10 +199,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式のキャリア採用窓口に加えて、非公開求人も含めて情報を広く集めるため、複数のエージェントに登録するのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -226,7 +226,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ナブテスコ転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スーパー・生鮮業界に特化した求人・転職支援サービス</strong>。業界経験を正しく評価するニッチ特化型です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>全国の求人に対応</strong>し、都道府県・市区単位で検索できます。</span></li>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>オイシルキャリアは、スーパー・生鮮業界という明確なニッチに特化した転職サービスです。業界経験の正当な評価と労働条件改善が軸で、利用は無料。小売業界の転職では総合型と併用しつつ、専門特化の求人を確認するのがおすすめです。</p>
+        <p>オイシルキャリアは、スーパー・生鮮業界という明確なニッチに特化した転職サービスです。業界経験の正当な評価と労働条件改善が軸で、利用は無料です。小売業界の転職では総合型と併用しつつ、専門特化の求人を確認するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

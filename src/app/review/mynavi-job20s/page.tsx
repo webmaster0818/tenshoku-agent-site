@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "マイナビジョブ20'sの評判は？20代・第二新卒特化の転職エージェントを解説【2026年】",
-  description: "マイナビジョブ20'sは、マイナビワークスが運営する20代・第二新卒・既卒専門の転職エージェント。未経験OK求人76%以上・定着率94.6%・利用者数64万人(いずれも公式表記)。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "マイナビジョブ20'sは、マイナビワークスが運営する20代・第二新卒・既卒専門の転職エージェント。未経験OK求人76%以上・定着率94.6%・利用者数64万人(いずれも公式表記)。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/mynavi-job20s/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代・第二新卒・既卒に特化した転職エージェント</strong>。マイナビグループの20代専門サービスです。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験OK求人76%以上・定着率94.6%・利用者数64万人</strong>(いずれも公式サイト表記・2026年8月22日確認)。</span></li>

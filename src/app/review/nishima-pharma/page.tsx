@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "にしまファーマの評判は？医療業界特化の転職エージェントを解説【2026年】",
-  description: "にしまファーマ株式会社は医療業界向けの転職エージェント。医療業界出身のコンサルタントが支援し、未経験からの医療業界転職にも対応。有料職業紹介事業許可番号13-ユ-315534。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "にしまファーマ株式会社は医療業界向けの転職エージェント。医療業界出身のコンサルタントが支援し、未経験からの医療業界転職にも対応。有料職業紹介事業許可番号13-ユ-315534。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/nishima-pharma/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>医療業界向けの転職エージェント</strong>。医療業界出身のコンサルタントによる支援を公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験から医療業界を目指す人の相談にも対応</strong>する設計が公式サイトに明示されています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>にしまファーマは、医療業界出身コンサルタントによる専門支援を掲げる医療特化エージェントです。業界内転職から未経験挑戦まで対応し、利用は無料。医療系の転職では職種特化型(薬剤師・技師等)との併用で求人の幅を確保するのがおすすめです。</p>
+        <p>にしまファーマは、医療業界出身コンサルタントによる専門支援を掲げる医療特化エージェントです。業界内転職から未経験挑戦まで対応し、利用は無料です。医療系の転職では職種特化型(薬剤師・技師等)との併用で求人の幅を確保するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

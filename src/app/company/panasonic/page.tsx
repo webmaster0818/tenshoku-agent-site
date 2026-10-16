@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "パナソニックHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "パナソニックHDへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "パナソニックHD（証券コード6752）への転職を有価証券報告書などの一次データで解説。平均年間給与は約988万円（2026年3月期・有報／持株会社単体）。直近の年収推移・中途採用の状況・選考の考え方までまとめました。",
+    "パナソニックHD（証券コード6752）への転職を有価証券報告書などの一次データで解説。平均年間給与は約988万円（2026年3月期・有価証券報告書／持株会社単体）。直近の年収推移・中途採用の状況・選考の考え方までまとめました。",
   alternates: { canonical: "/company/panasonic/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "パナソニックHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "パナソニックHDへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "パナソニックHD（6752）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            パナソニックHDへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            パナソニックHDへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/panasonic.jpg" alt="パナソニックHDの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -83,7 +83,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：パナソニックHD転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">パナソニックHD転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">パナソニックHDの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">パナソニックHDで求められる人材</a></li>
             <li><a href="#s4" className="text-teal hover:underline">パナソニックHDの選考フロー（一般的な流れ）</a></li>
@@ -92,14 +92,14 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：パナソニックHD転職のポイント</h2>
+        <h2 id="s1">パナソニックHD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約988万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月21日確認）。提出会社持株会社単体1,431名の全従業員平均。</li>
-            <li>推移は930万円（2024年3月期）→956万円（2025年3月期）→988万円（2026年3月期）（有報ベース）。</li>
+            <li>推移は930万円（2024年3月期）→956万円（2025年3月期）→988万円（2026年3月期）（有価証券報告書ベース）。</li>
             <li>3年連続上昇(930→956→988万円)。ただし持株会社単体の数値。</li>
             <li>グループ採用サイト（recruit.jpn.panasonic.com）に集約され、事業会社横断でポジションを検索して応募する方式(2026年8月21日確認)。</li>
-            <li>平均年齢44.1歳。数値は全従業員平均で、提示額はポジション・等級により個別に決まる。</li>
+            <li>平均年齢44.1歳。数値は全従業員の平均であり、提示額はポジション・等級により個別に決まります。</li>
           </ul>
         </div>
 
@@ -152,7 +152,7 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "採用ページから応募", desc: "公式採用ページでポジションを確認し、オンラインで応募します。" },
             { step: 2, title: "書類選考", desc: "職務経歴と応募ポジションの要件適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "配属予定部門との面接。専門領域の深掘りが中心です。" },
+            { step: 3, title: "面接（複数回）", desc: "配属予定部門による面接が行われます。専門領域の深掘りが中心です。" },
             { step: 4, title: "内定・条件提示", desc: "職務・等級に応じた条件が提示され、確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -166,14 +166,14 @@ export default function CompanyCareer() {
         </div>
 
         <h2 id="s5">パナソニックHD転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でパナソニックHDのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でパナソニックHDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手IT・メーカーの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。グローバル企業の選考に慣れており英文レジュメの相談もしやすいです。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。管理職・専門職クラスの市場価値の把握と情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手IT・メーカーの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。グローバル企業の選考に慣れており英文レジュメの相談もしやすいです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・専門職クラスの市場価値の把握と情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -197,7 +197,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">パナソニックHD転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

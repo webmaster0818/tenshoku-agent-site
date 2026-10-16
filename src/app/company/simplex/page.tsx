@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/simplex/" },
-  title: 'シンプレクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
+  title: 'シンプレクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
   description:
-    'シンプレクス・ホールディングス（証券コード4373）への転職を有価証券報告書などの一次データで解説。平均年間給与は約938万円（2026年3月期・有報／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
+    'シンプレクス・ホールディングス（証券コード4373）への転職を有価証券報告書などの一次データで解説。平均年間給与は約938万円（2026年3月期・有価証券報告書／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: 'シンプレクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】',
+    title: 'シンプレクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
     description: "シンプレクスの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -26,15 +26,15 @@ const faqData = [
   },
   {
     "q": 'シンプレクスの転職難易度は高いですか？',
-    "a": '人気企業のため選考の競争はありますが、コンサル/IT/特定ドメインの実務経験があれば十分にチャンスがあります。等級ごとに求められる水準が異なります。'
+    "a": '人気企業のため選考には競争がありますが、コンサル/IT/特定ドメインの実務経験は評価の対象となります。等級ごとに求められる水準が異なります。'
   },
   {
     "q": 'シンプレクスの平均年齢・勤続年数は？',
-    "a": '有報では平均年齢約33.6歳・平均勤続約4.4年（2026年3月期）です。'
+    "a": '有価証券報告書では平均年齢約33.6歳・平均勤続約4.4年（2026年3月期）です。'
   },
   {
     "q": '未経験から転職できますか？',
-    "a": '職種によります。ポテンシャル採用や育成前提の枠がある場合もありますが、多くは実務経験者が中心です。まずはエージェントで想定レンジと可能性を確認するのが確実です。'
+    "a": '職種によります。ポテンシャル採用や育成前提の枠がある場合もありますが、多くは実務経験者が中心です。想定年収のレンジや応募の可能性は、転職エージェントを通じて確認することをおすすめします。'
   }
 ];
 
@@ -56,7 +56,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            シンプレクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            シンプレクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/simplex.jpg" alt="シンプレクスHDの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -71,7 +71,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：シンプレクス転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">シンプレクス転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">シンプレクスの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">シンプレクスの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">シンプレクスで求められる人材</a></li>
@@ -82,10 +82,10 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：シンプレクス転職のポイント</h2>
+        <h2 id="s1">シンプレクス転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約938万円（2026年3月期・有報／持株会社単体146名）。</li>
+            <li>平均年間給与は約938万円（2026年3月期・有価証券報告書／持株会社単体146名）。</li>
             <li>※持株会社単体（本社機能）の値で、開発の中核はシンプレクス株式会社等の事業会社。</li>
             <li>金融フロント領域のコンサルタント・エンジニアを事業会社で中途採用。</li>
             <li>金融知識×技術力（低レイテンシ・トレーディング等）の掛け算が高く評価される。</li>
@@ -136,7 +136,7 @@ export default function CompanyCareer() {
             <li>「中途入社者 対談」（Vol.1・Vol.2）や中途入社者の個別インタビューが複数掲載されています。中途採用比率の数値記載は確認できませんでした。</li>
           </ul>
           <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">シンプレクスで求められる人材</h2>
@@ -185,9 +185,9 @@ export default function CompanyCareer() {
         <h2 id="s6">シンプレクスの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約938万円（2026年3月期）は持株会社単体（本社機能中心）の平均。等級・役職で水準は大きく異なる。</li>
-            <li>ITコンサル/SIは年齢より等級・案件責任で年収が決まるため、昇格が年収アップの鍵。</li>
-            <li>中途入社時の提示額はポジション・経験によるため、エージェント経由での確認が確実。</li>
+            <li>約938万円（2026年3月期）は持株会社単体（本社機能中心）の平均。等級・役職により水準は大きく異なります。</li>
+            <li>ITコンサル/SIでは年齢よりも等級・案件責任によって年収が決まるため、昇格が年収に大きく影響します。</li>
+            <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
         </div>
 
@@ -195,10 +195,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: 'レバテックキャリア', href: '/review/levtech/', desc: 'IT・エンジニア特化。ITコンサル・SIの専門性を評価してもらいやすく、非公開求人も豊富。' },
-            { name: 'リクルートエージェント', href: '/review/recruit-agent/', desc: '求人数業界最大級。大手IT・コンサルから幅広くカバー。' },
-            { name: 'doda', href: '/review/doda/', desc: 'エージェントと求人サイトの両方。同業比較・年収レンジの把握がしやすい。' },
-            { name: 'ビズリーチ', href: '/review/bizreach/', desc: 'スカウト型。ハイクラスのコンサル・IT求人が集まる。' },
+            { name: 'レバテックキャリア', href: '/review/levtech/', desc: 'ITエンジニアに特化したエージェントです。ITコンサル・SIの専門性を評価されやすく、非公開求人も多く扱っています。' },
+            { name: 'リクルートエージェント', href: '/review/recruit-agent/', desc: '業界最大級の求人数を有するエージェントです。大手IT・コンサルから幅広い求人を扱っています。' },
+            { name: 'doda', href: '/review/doda/', desc: 'エージェントサービスと求人サイトの両方を利用できます。同業比較・年収レンジの把握がしやすい点が特長です。' },
+            { name: 'ビズリーチ', href: '/review/bizreach/', desc: 'スカウト型のサービスです。ハイクラスのコンサル・IT求人が多く集まります。' },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -222,7 +222,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">シンプレクス転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/it-consultant-salary/" className="btn-outline px-8 py-3">ITコンサル年収ランキングを見る</Link>
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキング</Link>

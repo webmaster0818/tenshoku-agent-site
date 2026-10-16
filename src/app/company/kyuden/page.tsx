@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円",
   description:
-    "九州電力の平均年収は約842万円（2026年3月期・有報）、2年で+90万円。経験者採用（キャリア）は原則45歳未満・前職不問、選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。高度専門採用との違いも整理。",
+    "九州電力の平均年収は約842万円（2026年3月期・有価証券報告書）、2年で+90万円。経験者採用（キャリア）は原則45歳未満・前職不問、選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。高度専門採用との違いも整理。",
   alternates: { canonical: "/company/kyuden/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円",
-    description: "九州電力の平均年収約842万円（有報）とキャリア採用の応募資格・選考ステップ（公式・10/15確認）。",
+    description: "九州電力の平均年収約842万円（有価証券報告書）とキャリア採用の応募資格・選考ステップ（公式・10/15確認）。",
   },
 };
 
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：九州電力転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">九州電力転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">九州電力の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">九州電力の中途採用（キャリア採用の応募資格）</a></li>
             <li><a href="#s4" className="text-teal hover:underline">九州電力で求められる人材</a></li>
@@ -109,10 +109,10 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：九州電力転職のポイント</h2>
+        <h2 id="s1">九州電力転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約842万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員平均。</li>
+            <li>平均年間給与は約842万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移（2年連続上昇(計90万円)）。</li>
             <li>キャリア採用は原則45歳未満・前職不問。選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。</li>
             <li>全従業員平均であり、発電所・支社・本店で水準は異なります。</li>
@@ -155,7 +155,7 @@ export default function CompanyCareer() {
             <li><strong>勤務・待遇：</strong>8時50分〜17時30分（職種・勤務箇所によりスーパーフレックス・三交替あり）、給与は実務経験に応じ当社規定により決定、賞与年2回（6月・12月）、有給休暇20日（4月1日入社の場合）、リフレッシュ休日（年5日連続）、住宅手当・世帯手当、寮・社宅・家賃補助（地域による）。</li>
             <li><strong>その他の窓口：</strong>経験者採用（高度専門）、カムバック制度、ジョブ・リターン採用。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で九州電力のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で九州電力のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
         <h2 id="s4">九州電力で求められる人材</h2>
@@ -209,10 +209,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からベンチャーまで幅広い求人を扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -236,7 +236,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">九州電力転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

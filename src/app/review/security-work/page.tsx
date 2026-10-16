@@ -59,7 +59,7 @@ export default function Page() {
         </div>
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>警備員専門の求人・転職サイト</strong>。施設警備・交通誘導・機械警備の業務内容別に探せます。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>60歳以上活躍中・ブランクOK・日払い週払い可</strong>などシニア・未経験にも開かれた条件検索が特徴です。</span></li>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>セキュリティーワークは、警備員に特化した全国対応の求人・転職サイトです。業務内容別・条件別の検索とシニアへの開かれた設計が特徴で、利用は無料。警備業界内での転職・定年後の再就職の起点として使いやすいサービスです。</p>
+        <p>セキュリティーワークは、警備員に特化した全国対応の求人・転職サイトです。業務内容別・条件別の検索とシニアへの開かれた設計が特徴で、利用は無料です。警備業界内での転職・定年後の再就職の起点として使いやすいサービスです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -94,7 +94,7 @@ export default function HighClassPage() {
             {
               rank: 3,
               name: "リクルートエージェント",
-              desc: "業界最大級の求人数を活かし、ハイクラスポジションも幅広くカバー。管理職・幹部候補の求人も多数保有しています。",
+              desc: "業界最大級の求人数を活かし、ハイクラスポジションも幅広く扱っています。管理職・幹部候補の求人も多数保有しています。",
               href: "/review/recruit-agent/",
             },
           ].map((agent) => (

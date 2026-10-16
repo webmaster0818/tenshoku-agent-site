@@ -10,17 +10,17 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "建設ゼネコンの年収ランキング【2026年・有価証券報告書】",
-    description: "ゼネコン大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "ゼネコン大手9社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "kajima", name: "鹿島建設", salary: "約1,245万円", term: "2026年3月期", note: "収録9社トップ。3年連続上昇。北米中心の海外開発事業も柱", field: "スーパーゼネコン" },
   { rank: 2, slug: "obayashi", name: "大林組", salary: "約1,239万円", term: "2026年3月期", note: "2年で+173万円と急伸し鹿島と6万円差。建築・土木のバランス型", field: "スーパーゼネコン" },
   { rank: 3, slug: "taisei", name: "大成建設", salary: "約1,191万円", term: "2026年3月期", note: "直近期+133万円の大幅上昇。平均勤続17.0年", field: "スーパーゼネコン" },
   { rank: 4, slug: "nishimatsu", name: "西松建設", salary: "約1,061万円", term: "2026年3月期", note: "2年で+227万円=収録9社最大の伸び。ダム・トンネルの土木名門", field: "準大手" },
-  { rank: 5, slug: "shimizu", name: "清水建設", salary: "約1,043万円", term: "2026年3月期", note: "スーパーゼネコンの一角。3年連続上昇", field: "スーパーゼネコン" },
+  { rank: 5, slug: "shimizu", name: "清水建設", salary: "約1,043万円", term: "2026年3月期", note: "スーパーゼネコンの一つ。3年連続上昇", field: "スーパーゼネコン" },
   { rank: 6, slug: "haseko", name: "長谷工コーポレーション", salary: "約1,039万円", term: "2026年3月期", note: "マンション建設特化。平均39.4歳=収録9社最年少", field: "マンション特化" },
   { rank: 7, slug: "toda", name: "戸田建設", salary: "約1,038万円", term: "2026年3月期", note: "2年で+197万円。医療・教育建築の実績で知られる", field: "準大手" },
   { rank: 8, slug: "penta-ocean", name: "五洋建設", salary: "約935万円", term: "2026年3月期", note: "港湾・海洋土木(マリコン)の国内最大手。洋上風力に強み", field: "マリコン" },
@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     q: "ゼネコンの年収は上がっていますか？",
-    a: "収録9社のうち8社が直近期に上昇しています(2026年9月12日・IR BANK掲載の有報値で確認)。特に西松建設(2年で+227万円)・戸田建設(2年で+197万円)・大林組(2年で+173万円)・大成建設(直近期+133万円)の伸びが大きく、建設需要と処遇改善が反映されています。唯一、長谷工コーポレーションは直近期▼18万円ですが、その前期に+94万円上昇していました。",
+    a: "収録9社のうち8社が直近期に上昇しています(2026年9月12日・IR BANK掲載の有価証券報告書の数値で確認)。特に西松建設(2年で+227万円)・戸田建設(2年で+197万円)・大林組(2年で+173万円)・大成建設(直近期+133万円)の伸びが大きく、建設需要と処遇改善が反映されています。唯一、長谷工コーポレーションは直近期▼18万円ですが、その前期に+94万円上昇していました。",
   },
   {
     q: "この数値は施工管理の平均年収ですか？",
@@ -88,7 +88,7 @@ export default function KensetsuSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 建設ゼネコン年収ランキング</h2>
+        <h2>有価証券報告書準拠 建設ゼネコン年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -96,7 +96,7 @@ export default function KensetsuSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">区分</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -116,7 +116,7 @@ export default function KensetsuSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）。IR BANK掲載値を2026年9月12日に確認。いずれも2026年3月期で時点が揃っています。竹中工務店は非上場のため有報ベースの比較対象外です。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）。IR BANK掲載値を2026年9月12日に確認。いずれも2026年3月期で時点が揃っています。竹中工務店は非上場のため有価証券報告書ベースの比較対象外です。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -144,20 +144,20 @@ export default function KensetsuSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">賃上げ局面の途中経過</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">西松+227万円・戸田+197万円(いずれも2年計)など急上昇中の会社が多く、単年の数値はすぐ古くなります。推移と最新の有報で見るのがおすすめです。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">西松+227万円・戸田+197万円(いずれも2年計)など急上昇中の会社が多く、単年の数値はすぐ古くなります。推移と最新の有価証券報告書で見るのがおすすめです。</p>
           </div>
         </div>
 
         <h2>建設業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          ゼネコンは施工管理・設計の専門職採用が中心で、非公開求人も多い業界です。複数登録で求人と情報を広く集めましょう。
+          ゼネコンは施工管理・設計の専門職採用が中心で、非公開求人も多い業界です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。ゼネコンの施工管理から本社機能まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。建設業界の同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。所長級・技術系マネジメントなどハイクラス職の市場価値把握に。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強み。海外工事・プラント系のスペシャリスト・管理職に。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。ゼネコンの施工管理から本社機能まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。建設業界の同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。所長級・技術系マネジメントなどハイクラス職の市場価値の把握に適しています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強みがあります。海外工事・プラント系のスペシャリスト・管理職に。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -181,7 +181,7 @@ export default function KensetsuSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">建設業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/tetsudo-salary/" className="btn-outline px-8 py-3">鉄道の年収ランキングも見る</Link>
             <Link href="/company/kagaku-salary/" className="btn-outline px-8 py-3">化学の年収ランキングも見る</Link>

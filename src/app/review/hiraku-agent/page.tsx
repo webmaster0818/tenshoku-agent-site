@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "Hiraku agentの評判は？ゲーム業界経験者向け転職エージェントを解説【2026年】",
-  description: "Hiraku agent(ヒラクエージェント)はゲーム業界経験者向けの転職エージェント・人材サービス。ゲームクリエイターの転職支援・キャリア相談を専門に扱います。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "Hiraku agent(ヒラクエージェント)はゲーム業界経験者向けの転職エージェント・人材サービス。ゲームクリエイターの転職支援・キャリア相談を専門に扱います。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/hiraku-agent/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ゲーム業界経験者に特化した転職エージェント</strong>。ゲームクリエイターの転職支援・キャリア相談を専門としています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>転職だけでなく派遣・業務委託の支援も展開</strong>。正社員転職以外の働き方も相談できる体制です。</span></li>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>Hiraku agentは、ゲーム業界経験者専門の転職エージェントです。転職・派遣・業務委託を横断してキャリア相談できるのが特徴で、利用は無料。ゲーム業界の転職では、求人ボリュームの大きいファミキャリ!等と併用して選択肢を確保するのがおすすめです。</p>
+        <p>Hiraku agentは、ゲーム業界経験者専門の転職エージェントです。転職・派遣・業務委託を横断してキャリア相談できるのが特徴で、利用は無料です。ゲーム業界の転職では、求人ボリュームの大きいファミキャリ!等と併用して選択肢を確保するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

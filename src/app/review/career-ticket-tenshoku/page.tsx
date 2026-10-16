@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代・30代向けの転職支援サービス</strong>。「成長したい！」を叶える仕事探しプラットフォームを掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営はレバレジーズ</strong>。IT特化のレバテックや新卒向けキャリアチケット就職を展開する人材大手グループです。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>キャリアチケット転職は、レバレジーズが展開する成長軸の20代・30代向け転職支援サービスです。量より質のブランド方針が特徴で、利用は無料。同世代特化のマイナビジョブ20's・UZUZ等と併用し、支援スタイルの相性で選ぶのがおすすめです。</p>
+        <p>キャリアチケット転職は、レバレジーズが展開する成長軸の20代・30代向け転職支援サービスです。量より質のブランド方針が特徴で、利用は無料です。同世代特化のマイナビジョブ20's・UZUZ等と併用し、支援スタイルの相性で選ぶのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

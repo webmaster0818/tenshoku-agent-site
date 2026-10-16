@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "HIGH-FIVE(ハイファイブ)の評判は？クリエイター専門転職エージェントを解説【2026年】",
-  description: "HIGH-FIVE(ハイファイブ)はクリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェント。「量より質」を掲げ、UI/UXデザイナーやWebディレクター等の求人を扱います。特徴を公式情報ベースで解説。利用は無料。",
+  description: "HIGH-FIVE(ハイファイブ)はクリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェント。「量より質」を掲げ、UI/UXデザイナーやWebディレクター等の求人を扱います。特徴を公式情報ベースで解説。利用は無料です。",
   alternates: { canonical: "/review/highfive/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>デザイナー・クリエイター専門の転職エージェント</strong>。UI/UXデザイナー・Webディレクター・アートディレクター・フロントエンドエンジニア等が対象です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「量より質」を掲げ、価値観に合う求人だけを紹介</strong>する方針を公式に打ち出しています。</span></li>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>HIGH-FIVEは、「量より質」を掲げるクリエイター専門転職エージェントです。クリエイティブ職種の網羅性と大手運営の基盤が特徴で、利用は無料。クリエイターの転職では、同系のマイナビクリエイター等と2社併用して提案の質を比較するのがおすすめです。</p>
+        <p>HIGH-FIVEは、「量より質」を掲げるクリエイター専門転職エージェントです。クリエイティブ職種の網羅性と大手運営の基盤が特徴で、利用は無料です。クリエイターの転職では、同系のマイナビクリエイター等と2社併用して提案の質を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

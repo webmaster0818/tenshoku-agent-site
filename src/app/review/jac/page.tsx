@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/jac/" },
   title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
   description:
-    "JACリクルートメントの評判・口コミを徹底調査。ハイクラス・外資系転職に強い理由、登録の「就職難易度」や審査の実態、コンサルタント一気通貫型の強み、メリット・デメリット、向いている人をまとめました。登録は完全無料。",
+    "JACリクルートメントの評判・口コミを徹底調査。ハイクラス・外資系転職に強い理由、登録の「就職難易度」や審査の実態、コンサルタント一気通貫型の強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
@@ -102,7 +102,7 @@ export default function JacReview() {
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -332,7 +332,7 @@ export default function JacReview() {
             JACリクルートメントでキャリアアップを実現しよう
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            ハイクラス・外資系転職に精通したコンサルタントがあなたの転職を支援します。登録は完全無料です。
+            ハイクラス・外資系転職に精通したコンサルタントがあなたの転職を支援します。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

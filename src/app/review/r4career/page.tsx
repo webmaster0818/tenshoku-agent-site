@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>名古屋を拠点に東海3県(愛知・岐阜・三重)特化</strong>の転職エージェント。地域密着の求人で支援します。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>書類合格率43.7%</strong>(公式サイト表記・2026年8月22日確認)。求人条件の提案と面接準備アドバイスを強みに掲げています。</span></li>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>R4CAREERは、東海3県に絞った地域密着型の転職エージェントです。書類合格率の公開と選考支援の手厚さが特徴で、利用は無料。名古屋圏での転職では、全国系エージェントと併用して地域求人の深さと網羅性を両取りするのがおすすめです。</p>
+        <p>R4CAREERは、東海3県に絞った地域密着型の転職エージェントです。書類合格率の公開と選考支援の手厚さが特徴で、利用は無料です。名古屋圏での転職では、全国系エージェントと併用して地域求人の深さと網羅性を両取りするのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

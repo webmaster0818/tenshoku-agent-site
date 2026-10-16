@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>サステナビリティ・ESG領域特化</strong>の転職支援サービス。SXコンサル・事業会社の両方をカバーします。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>転職後の平均年収: 20代730万/30代860万/40代1030万円</strong>(公式表記・2023〜2024年の外資系SXコンサル・事業会社複数社における実績)。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>サスキャリは、拡大するESG・サステナビリティ人材市場に特化した希少な転職支援サービスです。コンサル・事業会社・公共セクターを横断できるのが特徴で、利用は無料。コンサル特化型やハイクラス型と併用してキャリアの選択肢を比較するのがおすすめです。</p>
+        <p>サスキャリは、拡大するESG・サステナビリティ人材市場に特化した希少な転職支援サービスです。コンサル・事業会社・公共セクターを横断できるのが特徴で、利用は無料です。コンサル特化型やハイクラス型と併用してキャリアの選択肢を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

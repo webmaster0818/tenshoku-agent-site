@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>SAPエンジニア・SAPコンサルタントに特化した転職エージェント</strong>。ERP人材のニッチ領域に絞った専門サービスです。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>キャリアコンサルタント全員がSAP経験者</strong>と公式に明記。スキルと経験を正確に評価できる体制を掲げています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>SAPテンショクは、SAP経験者だけのコンサルタント体制を掲げるニッチ特化型エージェントです。専門性の正確な評価と入社後フォローまでの一貫支援が特徴で、利用は無料。SAP人材は市場価値が高いため、総合型・IT特化型とも併用して条件を比較するのがおすすめです。</p>
+        <p>SAPテンショクは、SAP経験者だけのコンサルタント体制を掲げるニッチ特化型エージェントです。専門性の正確な評価と入社後フォローまでの一貫支援が特徴で、利用は無料です。SAP人材は市場価値が高いため、総合型・IT特化型とも併用して条件を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

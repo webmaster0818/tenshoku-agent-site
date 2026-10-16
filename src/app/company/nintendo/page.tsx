@@ -141,7 +141,7 @@ export default function NintendoCareer() {
                 { label: "本社", value: "京都府京都市南区上鳥羽鉾立町11-1" },
                 { label: "設立", value: "1889年（創業） / 1947年（株式会社設立）" },
                 { label: "従業員数", value: "3,084名（2026年3月現在 正社員・任天堂株式会社）" },
-                { label: "平均年収", value: "982万円（2026年3月現在 正社員・2026年3月期 有報）" },
+                { label: "平均年収", value: "982万円（2026年3月現在 正社員・2026年3月期 有価証券報告書）" },
                 { label: "事業内容", value: "家庭用ゲーム機・ソフトウェアの開発・製造・販売（Nintendo Switch、ゲームソフト、モバイルアプリ等）" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
@@ -183,7 +183,7 @@ export default function NintendoCareer() {
             <li>2024年度（2024/4-2025/3）：45％</li>
             <li>2025年度（2025/4-2026/3）：34％</li>
           </ul>
-          <p className="text-sm font-bold text-navy mb-2">平均年間給与・従業員数の推移（各年3月期 有報）</p>
+          <p className="text-sm font-bold text-navy mb-2">平均年間給与・従業員数の推移（各年3月期 有価証券報告書）</p>
           <ul className="space-y-1 text-sm text-text-secondary">
             <li>2022年3月期：988万円（従業員数2,634名）</li>
             <li>2023年3月期：985万円（従業員数2,779名）</li>
@@ -339,7 +339,7 @@ export default function NintendoCareer() {
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、自分の市場価値を確かめながら情報収集できます。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、自分の市場価値を確かめながら情報収集できます。",
             },
             {
               name: "JACリクルートメント",
@@ -389,7 +389,7 @@ export default function NintendoCareer() {
             任天堂転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

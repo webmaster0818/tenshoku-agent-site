@@ -207,7 +207,7 @@ export default function ConsultingPage() {
             コンサル業界への転職を実現しよう
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            コンサル転職に精通したエージェントがあなたの選考対策をサポートします。登録は完全無料です。
+            コンサル転職に精通したエージェントがあなたの選考対策をサポートします。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

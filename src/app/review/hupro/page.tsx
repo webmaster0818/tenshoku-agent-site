@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>士業・管理部門に特化した転職エージェント</strong>。税理士・会計士・社労士・弁護士や経理・財務・人事・法務が対象です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>税理士・会計業界専門求人サイトとして公開求人数No.1</strong>(公式サイト表記・調査概要は公式参照)。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ヒュープロは、士業と管理部門を横断してカバーする特化型エージェントです。税理士・会計業界の求人ボリュームと専門メディアの情報力が特徴で、利用は無料。士業・管理部門の転職では、領域特化型を2社併用して求人の重なりと違いを見るのがおすすめです。</p>
+        <p>ヒュープロは、士業と管理部門を横断してカバーする特化型エージェントです。税理士・会計業界の求人ボリュームと専門メディアの情報力が特徴で、利用は無料です。士業・管理部門の転職では、領域特化型を2社併用して求人の重なりと違いを見るのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -178,7 +178,7 @@ export default function AmazonCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">Amazonの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります（特徴は<Link href="/review/unison-career/" className="text-teal hover:underline">ユニゾンキャリアの口コミ・評判</Link>で確認できます）。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります（特徴は<Link href="/review/unison-career/" className="text-teal hover:underline">ユニゾンキャリアの口コミ・評判</Link>で確認できます）。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             Amazonの中途採用は、公式採用ポータル
@@ -310,7 +310,7 @@ export default function AmazonCareer() {
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録すると企業やヘッドハンターからスカウトが届く仕組みで、シニアポジションを狙う方に向いています。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録すると企業やヘッドハンターからスカウトが届く仕組みで、シニアポジションを狙う方に向いています。",
             },
             {
               name: "JACリクルートメント",
@@ -360,7 +360,7 @@ export default function AmazonCareer() {
             Amazon転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

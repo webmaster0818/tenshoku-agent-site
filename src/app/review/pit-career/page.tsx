@@ -6,7 +6,7 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "PIT(ピット)の評判は？若手エンジニア専門の転職アプリ・エージェントを解説【2026年】",
-  description: "PIT(ピット)は株式会社ラストデータが運営する若手エンジニア専門の転職アプリ・転職エージェント。自社開発・上流工程の求人が豊富で、履歴書なしでカジュアル面談に進める設計が特徴。公式情報ベースで特徴・向いている人を解説します。利用は無料。",
+  description: "PIT(ピット)は株式会社ラストデータが運営する若手エンジニア専門の転職アプリ・転職エージェント。自社開発・上流工程の求人が豊富で、履歴書なしでカジュアル面談に進める設計が特徴。公式情報ベースで特徴・向いている人を解説します。利用は無料です。",
   alternates: { canonical: "/review/pit-career/" },
 };
 
@@ -60,7 +60,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>若手エンジニアに特化した転職アプリ・エージェント</strong>。自社開発/上流工程の求人が豊富と公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>履歴書・職務経歴書なしでカジュアル面談に進める</strong>設計が公式サイトで紹介されています。SESから自社開発へ移りたい層を意識した構成です。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>PIT(ピット)は、自社開発・上流工程の求人に強みを持つ若手エンジニア専門の転職アプリ・エージェントです。書類不要でカジュアル面談から始められる手軽さが特徴で、利用は無料。SESからのステップアップを考えている若手エンジニアは、IT特化の他エージェントと併用しつつ選択肢に加える価値があります。</p>
+        <p>PIT(ピット)は、自社開発・上流工程の求人に強みを持つ若手エンジニア専門の転職アプリ・エージェントです。書類不要でカジュアル面談から始められる手軽さが特徴で、利用は無料です。SESからのステップアップを考えている若手エンジニアは、IT特化の他エージェントと併用しつつ選択肢に加える価値があります。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -55,7 +55,7 @@ export default function Page() {
         </div>
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>SaaS業界特化の転職支援サービス</strong>。特に営業職(IS・FS・CS)への転職を主対象としています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験からのSaaS転職の「準備」を重視</strong>。ポジション・プロダクトごとに求められるスキルの違いを踏まえた支援を掲げています。</span></li>
@@ -116,7 +116,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>SaaSfieldは、SaaS営業職への転職を「準備」から支援する業界特化サービスです。ポジション別適性を踏まえたじっくり型の伴走が特徴で、利用は無料。SaaS転職では営業特化のhape Agentや総合型と併用して選択肢を広げるのがおすすめです。</p>
+        <p>SaaSfieldは、SaaS営業職への転職を「準備」から支援する業界特化サービスです。ポジション別適性を踏まえたじっくり型の伴走が特徴で、利用は無料です。SaaS転職では営業特化のhape Agentや総合型と併用して選択肢を広げるのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

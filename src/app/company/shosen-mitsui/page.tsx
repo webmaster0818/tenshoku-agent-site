@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "商船三井の転職・中途採用【2026年10月】キャリア採用は年110名で採用の過半（公式データ）・平均年収1,659万円",
   description:
-    "商船三井（単体）のキャリア採用は2025年度110名で、新規雇用194名の過半（公式 社会データ）。陸上職員1,300名・海上職員633名、自発的離職率1.6%。平均年収は約1,659万円（2026年3月期・有報）。公式採用サイトのキャリア向け案内の状況も2026年10月15日に確認。",
+    "商船三井（単体）のキャリア採用は2025年度110名で、新規雇用194名の過半（公式 社会データ）。陸上職員1,300名・海上職員633名、自発的離職率1.6%。平均年収は約1,659万円（2026年3月期・有価証券報告書）。公式採用サイトのキャリア向け案内の状況も2026年10月15日に確認。",
   alternates: { canonical: "/company/shosen-mitsui/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "商船三井の転職・中途採用【2026年10月】キャリア採用は年110名で採用の過半（公式データ）・平均年収1,659万円",
-    description: "商船三井のキャリア採用人数・比率（公式 社会データ）と平均年収（有報）、公式採用サイトの状況（10/15確認）。",
+    description: "商船三井のキャリア採用人数・比率（公式 社会データ）と平均年収（有価証券報告書）、公式採用サイトの状況（10/15確認）。",
   },
 };
 
@@ -42,7 +42,7 @@ const faqData = [
   },
   {
     q: "海運会社の平均年収が高いのはなぜですか？",
-    a: "有報の平均年間給与は賞与を含む値で、海運は市況（運賃・傭船料）の影響で業績が大きく振れるため賞与の変動も大きくなります。実際、商船三井も1,675万円→1,436万円→1,659万円と年ごとに動いています。高水準の年だけを見て将来も同じとは考えず、複数年の推移で見るのが実態に近い読み方です。",
+    a: "有価証券報告書の平均年間給与は賞与を含む値で、海運は市況（運賃・傭船料）の影響で業績が大きく振れるため賞与の変動も大きくなります。実際、商船三井も1,675万円→1,436万円→1,659万円と年ごとに動いています。単年の水準だけで判断せず、複数年の推移を確認することをおすすめします。",
   },
 ];
 
@@ -98,12 +98,12 @@ export default function CompanyCareer() {
             <li><strong>定着：</strong>単体の自発的離職率1.6%、新卒3年以内離職率は陸上職員0.7%（2025年度）。</li>
             <li><strong>平均年収：</strong>約1,659万円（2026年3月期・有価証券報告書／提出会社。平均38.4歳・勤続12.9年）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.mol.co.jp/sustainability/data/pdf/social/data.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 社会データ（PDF）</a>／<a href="https://www.mol.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 採用サイト</a>／<a href="https://irbank.net/9104/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK（有報の従業員データ）</a>。比率は公式の人数から当サイトが算出。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.mol.co.jp/sustainability/data/pdf/social/data.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 社会データ（PDF）</a>／<a href="https://www.mol.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 採用サイト</a>／<a href="https://irbank.net/9104/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK（有価証券報告書の従業員データ）</a>。比率は公式の人数から当サイトが算出。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：商船三井転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">商船三井転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">商船三井の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">商船三井の中途採用（人数・比率・応募窓口）</a></li>
             <li><a href="#s4" className="text-teal hover:underline">商船三井で求められる人材</a></li>
@@ -114,13 +114,13 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：商船三井転職のポイント</h2>
+        <h2 id="s1">商船三井転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,659万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員平均。</li>
+            <li>平均年間給与は約1,659万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>1,675万円（2024年3月期）→1,436万円（2025年3月期）→1,659万円（2026年3月期）と推移。海運5社で最高。2025年3月期にいったん▼239万円下げた後、最新期に+223万円と大きく反発。</li>
             <li>単体のキャリア採用は2025年度110名（新規雇用194名の約57%）。ただし公式採用サイトにキャリア採用の募集要項は表示されていません（2026年10月15日確認）。</li>
-            <li>平均38.4歳・勤続12.9年。海運は市況で賞与が大きく振れるため、単年の平均額だけで判断しないのが安全です。</li>
+            <li>平均38.4歳・勤続12.9年。海運は市況により賞与が大きく変動するため、単年の平均額だけで判断しないことをおすすめします。</li>
           </ul>
         </div>
 
@@ -179,7 +179,7 @@ export default function CompanyCareer() {
             <li>単体の従業員は1,933名（陸上職員1,300名・海上職員633名、2025年度末）。</li>
             <li><strong>応募窓口：</strong>2026年10月15日時点で、<a href="https://www.mol.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>は新卒向けの採用メッセージ・社員インタビュー・キャリアパスが中心で、キャリア採用の募集要項・応募フォームは表示されていません。コーポレートサイトの採用ページ（https://www.mol.co.jp/recruit/）の「新卒・キャリア採用情報」もこの採用サイトにつながります。募集職種を知りたい場合は、転職エージェント経由で求人の有無を確認するのが現実的です。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で商船三井のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で商船三井のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
         <h2 id="s4">商船三井で求められる人材</h2>
@@ -223,10 +223,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からベンチャーまで幅広い求人を扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -250,7 +250,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">商船三井転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

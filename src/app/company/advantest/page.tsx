@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "アドバンテストへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "アドバンテストへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "アドバンテスト（証券コード6857）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,097万円（2026年3月期・有報／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "アドバンテスト（証券コード6857）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,097万円（2026年3月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   alternates: { canonical: "/company/advantest/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "アドバンテストへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "アドバンテストへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "アドバンテスト（6857）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     "q": "アドバンテストの平均年収はいくらですか？",
-    "a": "有価証券報告書によると平均年間給与は10,977,033円（約1,097万円・2026年3月期・提出会社単体）です。対前事業年度増減率は+4.6%でした。有報注記のとおり税込み支給額で基準外給与及び賞与を含む数値であり、単体2,033名の全従業員平均です。職種・年代・役職により実際のレンジは異なります。"
+    "a": "有価証券報告書によると平均年間給与は10,977,033円（約1,097万円・2026年3月期・提出会社単体）です。対前事業年度増減率は+4.6%でした。有価証券報告書の注記のとおり税込み支給額で基準外給与及び賞与を含む数値であり、単体2,033名の全従業員平均です。職種・年代・役職により実際のレンジは異なります。"
   },
   {
     "q": "アドバンテストは中途採用を行っていますか？",
@@ -30,11 +30,11 @@ const faqData = [
   },
   {
     "q": "アドバンテストの平均勤続年数はどのくらいですか？",
-    "a": "有報の平均勤続年数は20.16年、平均年齢は45.68歳（2026年3月期・提出会社）で、長期就業の傾向が読み取れます。"
+    "a": "有価証券報告書の平均勤続年数は20.16年、平均年齢は45.68歳（2026年3月期・提出会社）で、長期就業の傾向が読み取れます。"
   },
   {
     "q": "単体の平均年収はグループ全体の水準と同じですか？",
-    "a": "異なります。有報では連結従業員7,241名に対し提出会社単体は2,033名で、単体はグループの約3割弱にあたる国内中核部分です。平均年間給与約1,097万円はこの単体・全従業員の平均であり、グループ全体の水準を示すものではありません。"
+    "a": "異なります。有価証券報告書では連結従業員7,241名に対し提出会社単体は2,033名で、単体はグループの約3割弱にあたる国内中核部分です。平均年間給与約1,097万円はこの単体・全従業員の平均であり、グループ全体の水準を示すものではありません。"
   },
   {
     "q": "アドバンテストの本社はどこですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            アドバンテストへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            アドバンテストへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/advantest.jpg" alt="アドバンテストの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -87,7 +87,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：アドバンテスト転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">アドバンテスト転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">アドバンテストの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">アドバンテストの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">アドバンテストで求められる人材</a></li>
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：アドバンテスト転職のポイント</h2>
+        <h2 id="s1">アドバンテスト転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は10,977,033円・約1,097万円（2026年3月期・有価証券報告書）。提出会社単体2,033名の全従業員平均で、対前事業年度増減率は+4.6%。</li>
@@ -118,7 +118,7 @@ export default function CompanyCareer() {
                 { label: "本社", value: "東京都千代田区丸の内1丁目6番2号" },
                 { label: "事業内容", value: "半導体テストシステム（SoC・メモリ試験装置）およびメカトロニクス関連製品の製造・販売（事業会社）" },
                 { label: "平均年間給与", value: "10,977,033円（2026年3月期・有価証券報告書／提出会社。税込み支給額で基準外給与及び賞与を含む）" },
-                { label: "決算期", value: "3月末決算（最新有報は第84期・2026年3月期、2026年6月26日提出）" },
+                { label: "決算期", value: "3月末決算（最新の有価証券報告書は第84期・2026年3月期、2026年6月26日提出）" },
                 { label: "平均年齢", value: "45.68歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "20.16年（同・提出会社）" },
                 { label: "従業員数", value: "2,033名（提出会社単体・臨時雇用者 年平均290名を外数）／連結7,241名" },
@@ -144,7 +144,7 @@ export default function CompanyCareer() {
             <li>コーポレート系：販売支援／人事 など。</li>
             <li>※2026年8月1日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でアドバンテストのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でアドバンテストのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">アドバンテストで求められる人材</h2>
@@ -168,10 +168,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">※以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。詳細は公式キャリア採用サイトでご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等との面接。実務経験・専門スキル・応募動機が中心です。" },
-            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスとの面接。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出します。応募職種で求められる経験・スキルとの適合性が確認されます。" },
+            { step: 2, title: "一次面接", desc: "現場のマネージャー等による面接が行われます。実務経験・専門スキル・応募動機が中心です。" },
+            { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスによる面接が行われます。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -186,7 +186,7 @@ export default function CompanyCareer() {
         <h2 id="s6">アドバンテストの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約1,097万円（2026年3月期）は提出会社単体・全従業員2,033名の平均。有報注記のとおり税込み支給額で基準外給与及び賞与を含む。</li>
+            <li>約1,097万円（2026年3月期）は提出会社単体・全従業員2,033名の平均。有価証券報告書の注記のとおり税込み支給額で基準外給与及び賞与を含む。</li>
             <li>単体は連結7,241名の約3割弱にあたる国内中核部分。グループ全体の水準を示す数値ではない。</li>
             <li>IRBANK集計の推移では2022年3月期1,019万円→2023年3月期1,010万円→2024年3月期1,005万円→2025年3月期1,049万円→2026年3月期1,097万円。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、エージェント経由での確認が有効。</li>
@@ -198,10 +198,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -225,7 +225,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">アドバンテスト転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

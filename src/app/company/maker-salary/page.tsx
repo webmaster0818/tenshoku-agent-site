@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "メーカー年収ランキング2026【有価証券報告書】大手61社の平均年収",
-    description: "大手メーカー61社の平均年収を有報記載値でランキング。転職難易度も解説。",
+    description: "大手メーカー61社の平均年収を有価証券報告書の記載値でランキング。転職難易度も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "keyence", name: "キーエンス", salary: "約2,178万円", term: "2026年3月期", note: "センサ・測定器等のFA（ファクトリーオートメーション）機器で高収益。上場メーカーでも最高水準の平均年収。平均年齢35.0歳と若く成果連動の性格が強い", hd: false, field: "FA機器（センサ）" },
-  { rank: 2, slug: "disco", name: "ディスコ", salary: "約1,879万円", term: "2026年3月期", note: "半導体の切断・研削・研磨装置で世界トップシェア。有報実額1,879万円は上場メーカーで最高水準クラス。個人・チームの成果を賞与に反映するWill会計と呼ばれる独自制度が有報にも記載", hd: false, field: "半導体精密加工装置" },
-  { rank: 3, slug: "lasertec", name: "レーザーテック", salary: "約1,681万円", term: "2025年6月期", note: "EUVマスク検査装置で世界シェアの大半を占める。6月決算のため最新確定値は2025年6月期(2026年6月期有報は2026年9月提出予定)。少数精鋭の単体従業員構成", hd: false, field: "半導体検査装置" },
+  { rank: 2, slug: "disco", name: "ディスコ", salary: "約1,879万円", term: "2026年3月期", note: "半導体の切断・研削・研磨装置で世界トップシェア。有価証券報告書の実額1,879万円は上場メーカーで最高水準クラス。個人・チームの成果を賞与に反映するWill会計と呼ばれる独自制度が有価証券報告書にも記載", hd: false, field: "半導体精密加工装置" },
+  { rank: 3, slug: "lasertec", name: "レーザーテック", salary: "約1,681万円", term: "2025年6月期", note: "EUVマスク検査装置で世界シェアの大半を占める。6月決算のため最新確定値は2025年6月期(2026年6月期の有価証券報告書は2026年9月提出予定)。少数精鋭の単体従業員構成", hd: false, field: "半導体検査装置" },
   { rank: 4, slug: "tokyo-electron", name: "東京エレクトロン", salary: "約1,380万円", term: "2026年3月期", note: "半導体製造装置で国内首位・世界トップクラス。世界の半導体投資拡大が追い風。製造・開発は国内子会社が担う事業会社（純粋持株会社ではない）", hd: false, field: "半導体製造装置" },
   { rank: 5, slug: "sony", name: "ソニーグループ", salary: "約1,155万円", term: "2026年3月期", note: "持株会社（ソニーグループ株式会社）単体の数値で、本社機能中心の平均。エレクトロニクス・ゲーム・金融・エンタメを束ねるコングロマリット", hd: true, field: "電機・エンタメ" },
   { rank: 6, slug: "fanuc", name: "ファナック", salary: "約1,144万円", term: "2026年3月期", note: "工作機械用CNC・産業用ロボットで世界トップクラス。山梨県忍野村の拠点を軸にした高収益・独自文化のメーカー", hd: false, field: "FA・ロボット" },
@@ -90,7 +90,7 @@ const faqData = [
   },
   {
     q: "メーカーの年収は業種でどのくらい差がありますか？",
-    a: "有報ベースで見ると、FA・半導体製造装置（キーエンス2,178万・東京エレクトロン1,380万・ファナック1,144万円）が突出し、電機・自動車・精密（ソニー1,155万〜HOYA970万円）が上位、化学・電子部品・食品・家電・製造小売（信越化学898万〜良品計画670万円）が中位に分布します。高収益のFA・半導体・精密は付加価値とグローバル比率の高さ、食品は国内安定志向という違いが給与水準に表れています。",
+    a: "有価証券報告書ベースで見ると、FA・半導体製造装置（キーエンス2,178万・東京エレクトロン1,380万・ファナック1,144万円）が突出し、電機・自動車・精密（ソニー1,155万〜HOYA970万円）が上位、化学・電子部品・食品・家電・製造小売（信越化学898万〜良品計画670万円）が中位に分布します。高収益のFA・半導体・精密は付加価値とグローバル比率の高さ、食品は国内安定志向という違いが給与水準に表れています。",
   },
   {
     q: "メーカーへの転職難易度は高いですか？",
@@ -156,7 +156,7 @@ export default function MakerSalaryRanking() {
           </ul>
         </div>
 
-        <h2>有報準拠 メーカー年収ランキング</h2>
+        <h2>有価証券報告書準拠 メーカー年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -164,7 +164,7 @@ export default function MakerSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">分野</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -205,28 +205,28 @@ export default function MakerSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有報値は本社機能スタッフ中心の平均。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">ヤクルト（平均勤続約17.7年）のような長期雇用型は平均値が高く出ます。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">ヤクルト（平均勤続約17.7年）のような長期雇用型は平均値が高く出ます。中途入社時の提示額とは異なります。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">決算期・業績連動で変動</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">タカラトミーのように業績好調で平均給与が上昇する例があり、決算期の併記を確認しましょう。61社の決算期は同一ではありません。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">タカラトミーのように業績好調で平均給与が上昇する例があり、決算期の併記をご確認ください。61社の決算期は同一ではありません。</p>
           </div>
         </div>
 
         <h2>メーカー転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          メーカーの技術系は非公開求人が多く、専門性の見せ方が選考を左右します。複数登録で求人と情報を広く集めましょう。
+          メーカーの技術系は非公開求人が多く、専門性の見せ方が選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手メーカーから中堅まで幅広くカバー。技術系・事務系の両方に強い。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。メーカーの同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。管理職・高度専門職クラスの市場価値把握に。ハイクラスのメーカー求人が集まる。" },
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・エンジニア特化。メーカーの車載ソフト・組込・DX系の技術職に。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手メーカーから中堅まで幅広い求人を扱っています。技術系・事務系の両方に強い。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。メーカーの同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・高度専門職クラスの市場価値の把握に適しています。ハイクラスのメーカー求人が多く集まります。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。メーカーの車載ソフト・組込・DX系の技術職に。" },
             { name: "ユニゾンキャリア", href: "/review/unison-career/", desc: "IT特化の転職エージェント。メーカーを含め、IT職での転職を考える人の比較候補に。" },
             { name: "転職AGENT Navi", href: "/review/agent-navi/", desc: "20代の既卒・第二新卒が主な対象。メーカーへの初めての転職で、どのエージェントに登録すべきかから相談したい人に。" },
           ].map((agent) => (
@@ -252,7 +252,7 @@ export default function MakerSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">メーカーへの転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/game-salary/" className="btn-outline px-8 py-3">ゲーム会社の年収ランキングも見る</Link>
             <Link href="/company/it-consultant-salary/" className="btn-outline px-8 py-3">ITコンサル・SIerの年収ランキングも見る</Link>

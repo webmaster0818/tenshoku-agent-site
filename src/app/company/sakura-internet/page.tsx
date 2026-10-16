@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "さくらインターネットへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "さくらインターネットへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "さくらインターネット（証券コード3778）への転職を有価証券報告書などの一次データで解説。平均年間給与は約741万円（2026年3月期・有報）で2年で120万円超の上昇。国産クラウド・GPUインフラを支える技術職の中途採用状況までまとめました。",
+    "さくらインターネット（証券コード3778）への転職を有価証券報告書などの一次データで解説。平均年間給与は約741万円（2026年3月期・有価証券報告書）で2年で120万円超の上昇。国産クラウド・GPUインフラを支える技術職の中途採用状況までまとめました。",
   alternates: { canonical: "/company/sakura-internet/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "さくらインターネットへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "さくらインターネットへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "さくらインターネット（3778）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "さくらインターネットの年収はなぜ上がっているのですか？",
-    a: "有報ベースで2年間に120万円超の増加です（IR BANK・日経会社情報掲載値・2026年8月19日確認）。平均年間給与には賞与等の変動要素が含まれ、増加の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは理由を断定しません。従業員数も677名（2024年3月期）→934名（2026年3月期）と拡大しており、成長投資期にあることは公開データから読み取れます。",
+    a: "有価証券報告書ベースで2年間に120万円超の増加です（IR BANK・日経会社情報掲載値・2026年8月19日確認）。平均年間給与には賞与等の変動要素が含まれ、増加の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは理由を断定しません。従業員数も677名（2024年3月期）→934名（2026年3月期）と拡大しており、成長投資期にあることは公開データから読み取れます。",
   },
   {
     q: "さくらインターネットは中途採用を行っていますか？",
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            さくらインターネットへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            さくらインターネットへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/sakura-internet.jpg" alt="さくらインターネットの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -84,7 +84,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：さくらインターネット転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">さくらインターネット転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">さくらインターネットの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">さくらインターネットの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">さくらインターネットで求められる人材</a></li>
@@ -95,7 +95,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：さくらインターネット転職のポイント</h2>
+        <h2 id="s1">さくらインターネット転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約741万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月19日確認）。全社員934名の平均。</li>
@@ -138,10 +138,10 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>採用情報は公式サイトの採用ページ（www.sakura.ad.jp/recruit/）に集約（2026年8月19日確認）。</li>
             <li>データセンター・ネットワーク・クラウド基盤・SRE・GPUインフラなど、インフラ領域の技術職が中心。</li>
-            <li>従業員数が2年で1.4倍近くに拡大しており、採用拡大フェーズにあることが有報の従業員数推移から読み取れる。</li>
+            <li>従業員数が2年で1.4倍近くに拡大しており、採用拡大フェーズにあることが有価証券報告書の従業員数推移から読み取れる。</li>
             <li>最新の募集職種・勤務条件（リモート可否等）は公式採用ページで要確認。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">さくらインターネットで求められる人材</h2>
@@ -167,7 +167,7 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "採用ページから応募", desc: "公式採用ページでポジションを確認し、オンラインで応募します。" },
             { step: 2, title: "書類選考", desc: "職務経歴と応募ポジションの要件適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "配属予定チームとの面接。インフラ運用の実務経験・障害対応の考え方などの深掘りが中心です。" },
+            { step: 3, title: "面接（複数回）", desc: "配属予定チームによる面接が行われます。インフラ運用の実務経験・障害対応の考え方などの深掘りが中心です。" },
             { step: 4, title: "内定・条件提示", desc: "グレード・役割に応じた条件が提示され、確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -184,7 +184,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約741万円（2026年3月期）は全社員934名の平均であり、技術職に限らない数値です。</li>
-            <li>2年間で120万円超の上昇傾向は事実ですが、平均年間給与には賞与等の変動要素が含まれます（増加の内訳は有報の記載範囲では特定できません）。</li>
+            <li>2年間で120万円超の上昇傾向は事実ですが、平均年間給与には賞与等の変動要素が含まれます（増加の内訳は有価証券報告書の記載範囲では特定できません）。</li>
             <li>専門性の高いインフラ・SRE・GPU基盤ポジションでは、全社平均と異なる水準が提示される場合があります。</li>
             <li>実額は個別求人・面談で確認するのが確実です。</li>
           </ul>
@@ -194,10 +194,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニア特化。インフラ・SRE系ポジションの要件読み解きと選考対策に強みがあります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。クラウド・インフラ系の同業比較がしやすいのが強みです。" },
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大阪・関西圏の勤務地条件でも探しやすいです。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。インフラ専門職・マネジメント職の市場価値の把握に向いています。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。インフラ・SRE系ポジションの要件読み解きと選考対策に強みがあります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。クラウド・インフラ系の同業比較がしやすい点が強みです。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大阪・関西圏の勤務地条件でも探しやすいです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。インフラ専門職・マネジメント職の市場価値の把握に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -221,7 +221,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">さくらインターネット転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

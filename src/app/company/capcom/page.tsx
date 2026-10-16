@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/capcom/" },
-  title: "カプコンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "カプコンへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "カプコン（証券コード9697）への転職を有価証券報告書などの一次データで解説。平均年間給与は約985万円（2026年3月期・有報／提出会社）。人気ゲームメーカーの中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "カプコン（証券コード9697）への転職を有価証券報告書などの一次データで解説。平均年間給与は約985万円（2026年3月期・有価証券報告書／提出会社）。人気ゲームメーカーの中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "カプコンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "カプコンへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description:
       "カプコン（9697）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     q: "カプコンの勤務地はどこですか？",
-    a: "本社は大阪市中央区にあり、東京にも開発拠点があります。職種によって勤務地が異なり、転勤の可能性もあるため応募時に確認しましょう。",
+    a: "本社は大阪市中央区にあり、東京にも開発拠点があります。職種によって勤務地が異なり、転勤の可能性もあるため応募時にご確認ください。",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function CapcomCareer() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* Header */}
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            カプコンへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            カプコンへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/capcom.jpg" alt="カプコンの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -86,7 +86,7 @@ export default function CapcomCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：カプコン転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">カプコン転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">カプコンの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">カプコンの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">カプコンで求められる人材</a></li>
@@ -98,7 +98,7 @@ export default function CapcomCareer() {
         </nav>
 
         {/* 結論 */}
-        <h2 id="s1">結論：カプコン転職のポイント</h2>
+        <h2 id="s1">カプコン転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約985万円（2026年3月期・有価証券報告書）</strong>。前期（2025年3月期）の約919万円から上昇。</li>
@@ -108,7 +108,7 @@ export default function CapcomCareer() {
           </ul>
         </div>
 
-        {/* 基本データ（有報） */}
+        {/* 基本データ（有価証券報告書） */}
         <h2 id="s2">カプコンの基本データ（有価証券報告書）</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
@@ -152,7 +152,7 @@ export default function CapcomCareer() {
           <p className="text-xs text-text-muted mt-4">
             ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
           </p>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         {/* 求められる人材 */}
@@ -192,10 +192,10 @@ export default function CapcomCareer() {
         </p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書・ポートフォリオ（開発職）を提出。応募職種で求められる制作実績・スキルとの適合性が確認されます。公式採用サイトまたは転職エージェント経由で応募します。" },
+            { step: 1, title: "書類選考", desc: "履歴書・職務経歴書・ポートフォリオ（開発職）を提出します。応募職種で求められる制作実績・スキルとの適合性が確認されます。公式採用サイトまたは転職エージェント経由で応募します。" },
             { step: 2, title: "適性検査・課題（職種による）", desc: "職種によっては適性検査や実技課題（プログラミング・制作課題等）が課される場合があります。" },
             { step: 3, title: "面接（複数回）", desc: "現場のリーダー・マネージャーとの面接から始まり、部門責任者・役員クラスとの面接へと進みます。スキル・実績に加え、志望動機やカルチャーフィットが確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -217,7 +217,7 @@ export default function CapcomCareer() {
             <li>職種（開発・管理部門等）や役職によって年収レンジは異なる。</li>
             <li>業績連動の賞与や、近年の賃上げ・処遇改善が平均を押し上げている面がある（前期は約919万円）。</li>
             <li>平均年齢が約38.1歳・平均勤続約11.2年で、年齢・役職が上がるほど平均は上振れする。</li>
-            <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まる。</li>
+            <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">
             正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。
@@ -233,8 +233,8 @@ export default function CapcomCareer() {
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級で、ゲーム・IT業界の求人も豊富。人気企業への推薦力があり、非公開求人の紹介も期待できます。" },
             { name: "doda", href: "/review/doda/", desc: "IT・Web・ゲーム業界の求人が充実。エージェントと求人サイトの両方を使え、同業他社も含めて比較できます。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス・スカウト型。リードクラスやマネジメントのポジションの情報収集に向いています。" },
-            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強み。ゲーム・IT業界のアドバイザーが在籍し、初めての業界転職でも相談しやすいです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス向けのスカウト型サービスです。リードクラスやマネジメントのポジションの情報収集に向いています。" },
+            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強みがあります。ゲーム・IT業界のアドバイザーが在籍し、初めての業界転職でも相談しやすいです。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

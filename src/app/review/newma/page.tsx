@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/newma/" },
   title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
   description:
-    "NewMA(ニューマ)の口コミ・評判を出典つきで整理。コンサル・M&A特化の転職エージェントの特徴、運営会社NewMA株式会社(許可番号27-ユ-304092)、利用の流れ、注意点を公式情報で解説。利用は無料。",
+    "NewMA(ニューマ)の口コミ・評判を出典つきで整理。コンサル・M&A特化の転職エージェントの特徴、運営会社NewMA株式会社(許可番号27-ユ-304092)、利用の流れ、注意点を公式情報で解説。利用は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
@@ -109,7 +109,7 @@ export default function NewmaReview() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>

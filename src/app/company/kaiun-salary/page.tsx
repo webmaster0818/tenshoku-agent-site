@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "海運会社の年収ランキング【2026年・有価証券報告書】",
-    description: "海運5社の平均年収を有報記載値でランキング。市況連動の読み方とキャリア採用の入口も解説。",
+    description: "海運5社の平均年収を有価証券報告書の記載値でランキング。市況連動の読み方とキャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "shosen-mitsui", name: "商船三井", salary: "約1,659万円", term: "2026年3月期", note: "LNG船・タンカーなどエネルギー輸送と海洋事業に強み。前期に▼239万円下げた後、最新期は+223万円と大きく反発", field: "海運大手" },
   { rank: 2, slug: "nippon-yusen", name: "日本郵船", salary: "約1,554万円", term: "2026年3月期", note: "定期船から航空・物流まで手がける国内最大手。5社で唯一、直近3期とも上昇(1,378→1,435→1,554万円)", field: "海運大手" },
@@ -30,11 +30,11 @@ const faqData = [
   },
   {
     q: "海運の年収はなぜ高いのですか？",
-    a: "有報の平均年間給与は賞与を含む値です。海運は運賃・傭船料の市況とコンテナ船事業(ONE)の持分損益で業績が大きく振れるため、好調期は賞与が大きく積み上がります。実際、商船三井は1,675万円(2024年3月期)→1,436万円(2025年3月期)→1,659万円(2026年3月期)、川崎汽船は1,394→1,222→1,450万円と、1年で200万円以上動く年もあります。「高い年の数字」だけを見ず、複数年の推移で判断するのが実態に近い読み方です。",
+    a: "有価証券報告書の平均年間給与は賞与を含む値です。海運は運賃・傭船料の市況とコンテナ船事業(ONE)の持分損益で業績が大きく振れるため、好調期は賞与が大きく積み上がります。実際、商船三井は1,675万円(2024年3月期)→1,436万円(2025年3月期)→1,659万円(2026年3月期)、川崎汽船は1,394→1,222→1,450万円と、1年で200万円以上動く年もあります。「高い年の数字」だけを見ず、複数年の推移で判断するのが実態に近い読み方です。",
   },
   {
     q: "海運の平均年収は海上職(船員)も含んだ数字ですか？",
-    a: "有報の平均年間給与は提出会社に在籍する従業員の平均です。海運会社は陸上勤務職と海上職(海技資格を持つ船員)で処遇体系が異なり、提出会社に在籍する従業員の構成は会社ごとに違います。当サイトでは各社の有報記載値をそのまま掲載しており、内訳の推計は行っていません。職種別の水準は募集要項やエージェント経由で確認してください。",
+    a: "有価証券報告書の平均年間給与は提出会社に在籍する従業員の平均です。海運会社は陸上勤務職と海上職(海技資格を持つ船員)で処遇体系が異なり、提出会社に在籍する従業員の構成は会社ごとに違います。当サイトでは各社の有価証券報告書の記載値をそのまま掲載しており、内訳の推計は行っていません。職種別の水準は募集要項やエージェント経由で確認してください。",
   },
   {
     q: "海運会社への転職は未経験でも可能ですか？",
@@ -85,7 +85,7 @@ export default function KaiunSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 海運会社年収ランキング</h2>
+        <h2>有価証券報告書準拠 海運会社年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -93,7 +93,7 @@ export default function KaiunSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">分野</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -148,7 +148,7 @@ export default function KaiunSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※同じ有報値の推移。2025年3月期に大手3社のうち商船三井・川崎汽船が下げ、翌期に反発しています。海運の平均年収は「毎年この水準」ではなく市況に連動して動く点が、他業界との最大の違いです。
+          ※同じ有価証券報告書の数値の推移。2025年3月期に大手3社のうち商船三井・川崎汽船が下げ、翌期に反発しています。海運の平均年収は「毎年この水準」ではなく市況に連動して動く点が、他業界との最大の違いです。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -172,24 +172,24 @@ export default function KaiunSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">陸上職と海上職で体系が違う</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">海技資格が必要な海上職と、陸上勤務の総合職では働き方も処遇も異なります。有報の平均は在籍者全体の平均で、職種別の水準ではありません。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">海技資格が必要な海上職と、陸上勤務の総合職では働き方も処遇も異なります。有価証券報告書の平均は在籍者全体の平均で、職種別の水準ではありません。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。5社では平均37.8〜40.2歳の幅があります。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。5社では平均37.8〜40.2歳の幅があります。中途入社時の提示額とは異なります。</p>
           </div>
         </div>
 
         <h2>海運会社への転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          海運の陸上総合職は募集が絞られやすく、非公開求人・スカウト経由の比率も高い領域です。複数登録で求人と情報を広く集めましょう。
+          海運の陸上総合職は募集が絞られやすく、非公開求人・スカウト経由の比率も高い領域です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。海運・物流領域の求人も幅広くカバー。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強み。英語を使う海外系ポジションの紹介に定評。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職ポジションの情報収集に。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社との年収レンジ比較がしやすい。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。海運・物流領域の求人も幅広く扱っています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強みがあります。英語を使う海外系ポジションの紹介に定評。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職ポジションの情報収集に適しています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社との年収レンジ比較がしやすい点が特長です。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -213,7 +213,7 @@ export default function KaiunSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">海運会社への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/shosha-salary/" className="btn-outline px-8 py-3">総合商社の年収ランキングも見る</Link>
             <Link href="/company/denryoku-gas-salary/" className="btn-outline px-8 py-3">電力・ガスの年収ランキングも見る</Link>

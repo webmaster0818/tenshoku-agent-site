@@ -156,7 +156,7 @@ export default function Age30sPage() {
             30代のキャリアアップを始めよう
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            経験を活かしてキャリアアップを実現しましょう。登録は完全無料です。
+            経験を活かしてキャリアアップを実現しましょう。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

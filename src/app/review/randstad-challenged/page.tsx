@@ -6,7 +6,7 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "ランスタッドの障がい者転職支援とは？世界最大級人材サービスの専門サポートを解説【2026年】",
-  description: "ランスタッドは世界最大級の総合人材サービス。障がい者(チャレンジド)向けの転職支援では、専門コンサルタントによる求人紹介・就業サポートを提供しています。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "ランスタッドは世界最大級の総合人材サービス。障がい者(チャレンジド)向けの転職支援では、専門コンサルタントによる求人紹介・就業サポートを提供しています。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/randstad-challenged/" },
 };
 
@@ -60,7 +60,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>世界最大級の総合人材サービスによる障がい者向け転職支援</strong>。グローバル企業の運営基盤があります。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>障がい者求人・身体障がい者求人などの専門求人</strong>を扱い、オーダーメイド求人にも言及があります(A8プログラム関連キーワードより)。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ランスタッドの障がい者転職支援は、世界最大級の人材サービスの基盤で専門サポートを受けられるのが特徴です。利用は無料。障がい者雇用の転職では、専門エージェントを2社程度併用し、求人の質と配慮のすり合わせ力を比較するのがおすすめです。</p>
+        <p>ランスタッドの障がい者転職支援は、世界最大級の人材サービスの基盤で専門サポートを受けられるのが特徴です。利用は無料です。障がい者雇用の転職では、専門エージェントを2社程度併用し、求人の質と配慮のすり合わせ力を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

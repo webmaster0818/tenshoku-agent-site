@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円",
   description:
-    "日本郵船のキャリア採用（中途）は陸上職事務系・陸上職技術系・海上職の3職種＋リボーディング制度。応募資格「経験職務・業界は不問」、選考は書類と面接3回程度（公式募集要項・2026年10月15日確認）。平均年収約1,554万円（有報）も整理。",
+    "日本郵船のキャリア採用（中途）は陸上職事務系・陸上職技術系・海上職の3職種＋リボーディング制度。応募資格「経験職務・業界は不問」、選考は書類と面接3回程度（公式募集要項・2026年10月15日確認）。平均年収約1,554万円（有価証券報告書）も整理。",
   alternates: { canonical: "/company/nippon-yusen/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円",
-    description: "日本郵船のキャリア採用3職種・応募資格・選考（公式・10/15確認）と平均年収約1,554万円（有報）。",
+    description: "日本郵船のキャリア採用3職種・応募資格・選考（公式・10/15確認）と平均年収約1,554万円（有価証券報告書）。",
   },
 };
 
@@ -42,7 +42,7 @@ const faqData = [
   },
   {
     q: "海運会社の平均年収が高いのはなぜですか？",
-    a: "有報の平均年間給与は賞与を含む値で、海運は市況（運賃・傭船料）の影響で業績が大きく振れるため賞与の変動も大きくなります。実際、日本郵船も1,378万円→1,435万円→1,554万円と年ごとに動いています。高水準の年だけを見て将来も同じとは考えず、複数年の推移で見るのが実態に近い読み方です。",
+    a: "有価証券報告書の平均年間給与は賞与を含む値で、海運は市況（運賃・傭船料）の影響で業績が大きく振れるため賞与の変動も大きくなります。実際、日本郵船も1,378万円→1,435万円→1,554万円と年ごとに動いています。単年の水準だけで判断せず、複数年の推移を確認することをおすすめします。",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：日本郵船転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">日本郵船転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">日本郵船の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">日本郵船の中途採用（募集職種・応募資格）</a></li>
             <li><a href="#s4" className="text-teal hover:underline">日本郵船で求められる人材</a></li>
@@ -113,13 +113,13 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：日本郵船転職のポイント</h2>
+        <h2 id="s1">日本郵船転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,554万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員平均。</li>
+            <li>平均年間給与は約1,554万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>1,378万円（2024年3月期）→1,435万円（2025年3月期）→1,554万円（2026年3月期）と推移。海運5社で唯一、直近3期とも上昇(1,378→1,435→1,554万円)。2年で計176万円。</li>
             <li>キャリア採用は陸上職事務系・技術系・海上職の3職種。陸上職は経験職務・業界不問、選考は書類＋面接3回程度（公式募集要項・2026年10月15日確認）。</li>
-            <li>平均37.8歳・勤続13.9年。海運は市況で賞与が大きく振れるため、単年の平均額だけで判断しないのが安全です。</li>
+            <li>平均37.8歳・勤続13.9年。海運は市況により賞与が大きく変動するため、単年の平均額だけで判断しないことをおすすめします。</li>
           </ul>
         </div>
 
@@ -182,7 +182,7 @@ export default function CompanyCareer() {
             <li>待遇の記載：昇給年1回、賞与は社内基準による、完全週休2日制（土・日）、有給休暇は初年度14日（以後1日ずつ増え20日まで）、夏季冬季休暇7日、独身寮・社宅など。</li>
             <li>希望職種の募集がない場合は、公式の「キャリア登録」を利用できます。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で日本郵船のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で日本郵船のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
         <h2 id="s4">日本郵船で求められる人材</h2>
@@ -236,10 +236,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からベンチャーまで幅広い求人を扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -263,7 +263,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">日本郵船転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

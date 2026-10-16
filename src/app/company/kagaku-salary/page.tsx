@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "化学業界の年収ランキング【2026年・有価証券報告書】",
-    description: "化学大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "化学大手9社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "mitsubishi-chemical", name: "三菱ケミカルグループ", salary: "約1,188万円", term: "2026年3月期", note: "国内最大の総合化学。HD単体は平均50.2歳・勤続24.3年と年齢構成が高い点に注意", hd: true, field: "総合化学" },
   { rank: 2, slug: "resonac", name: "レゾナックHD", salary: "約1,131万円", term: "2025年12月期", note: "旧昭和電工×旧日立化成。半導体後工程材料で世界トップクラス", hd: true, field: "半導体材料" },
@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     q: "化学業界の年収は上がっていますか？",
-    a: "収録9社のうち8社が直近期に上昇しています(2026年9月10日・IR BANK掲載の有報値で確認)。特に住友化学(+140万円)・三菱ケミカルG(+129万円)・レゾナックHD(+106万円)の上昇が大きく、業績回復と賃上げの両方が反映されています。",
+    a: "収録9社のうち8社が直近期に上昇しています(2026年9月10日・IR BANK掲載の有価証券報告書の数値で確認)。特に住友化学(+140万円)・三菱ケミカルG(+129万円)・レゾナックHD(+106万円)の上昇が大きく、業績回復と賃上げの両方が反映されています。",
   },
   {
     q: "この数値は研究職の平均年収ですか？",
@@ -88,7 +88,7 @@ export default function KagakuSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 化学業界年収ランキング</h2>
+        <h2>有価証券報告書準拠 化学業界年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -96,7 +96,7 @@ export default function KagakuSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">主領域</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -151,14 +151,14 @@ export default function KagakuSalaryRanking() {
 
         <h2>化学業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          化学は研究・生産技術の専門職採用が中心で、非公開求人も多い業界です。複数登録で求人と情報を広く集めましょう。
+          化学は研究・生産技術の専門職採用が中心で、非公開求人も多い業界です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。化学メーカーの研究開発からプラント・本社機能まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。メーカー系の同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。R&Dマネジメント・事業企画などハイクラス職の市場価値把握に。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強み。グローバル化学メーカーの管理職・スペシャリストに。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。化学メーカーの研究開発からプラント・本社機能まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。メーカー系の同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。R&Dマネジメント・事業企画などハイクラス職の市場価値の把握に適しています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル化学メーカーの管理職・スペシャリストに。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -182,7 +182,7 @@ export default function KagakuSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">化学業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>
             <Link href="/company/tetsudo-salary/" className="btn-outline px-8 py-3">鉄道の年収ランキングも見る</Link>

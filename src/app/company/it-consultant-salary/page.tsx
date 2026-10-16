@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "ITコンサル・SIerの年収ランキング【2026年・有価証券報告書】",
-    description: "大手ITコンサル・SIer10社の平均年収を有報記載値でランキング。転職難易度も解説。",
+    description: "大手ITコンサル・SIer10社の平均年収を有価証券報告書の記載値でランキング。転職難易度も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "nri", name: "野村総合研究所（NRI）", salary: "約1,332万円", term: "2026年3月期", note: "コンサル＋SIの国内最大手級。単体7,982名と母集団が大きく代表性が高い", hd: false, field: "コンサル・SI" },
   { rank: 2, slug: "baycurrent", name: "ベイカレント", salary: "約1,331万円", term: "2026年2月期", note: "平均31.3歳でこの水準。総合コンサル。持株会社化で単体母集団は変動（要注記）", hd: true, field: "総合コンサル" },
@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     q: "ITコンサルとSIerでは年収にどのくらい差がありますか？",
-    a: "有報ベースで見ると、総合・IT系コンサルを掲げる企業（野村総研約1,332万・ベイカレント約1,331万・電通総研約1,125万円）が上位に、SI・品質保証系（シンプレクスHD約938万・フューチャー約794万・SHIFT約684万円）が中位に分布します。上流の企画・戦略に関わるコンサル領域ほど付加価値が高く給与に表れやすい傾向があります。一方でオービック約1,129万円のように、高収益なSIerは業種の枠を超えて高水準となる例もあり、分野だけで一概に決まるわけではありません。",
+    a: "有価証券報告書ベースで見ると、総合・IT系コンサルを掲げる企業（野村総研約1,332万・ベイカレント約1,331万・電通総研約1,125万円）が上位に、SI・品質保証系（シンプレクスHD約938万・フューチャー約794万・SHIFT約684万円）が中位に分布します。上流の企画・戦略に関わるコンサル領域ほど付加価値が高く給与に表れやすい傾向があります。一方でオービック約1,129万円のように、高収益なSIerは業種の枠を超えて高水準となる例もあり、分野だけで一概に決まるわけではありません。",
   },
   {
     q: "未経験からITコンサル・SIerへ転職できますか？",
@@ -89,7 +89,7 @@ export default function ItConsultantSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 ITコンサル・SIer年収ランキング</h2>
+        <h2>有価証券報告書準拠 ITコンサル・SIer年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -97,7 +97,7 @@ export default function ItConsultantSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">分野</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -138,28 +138,28 @@ export default function ItConsultantSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有報値は本社機能スタッフ中心の平均。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">勤続年数が長く平均年齢が高い企業ほど、全社員平均は高く出ます。中途入社時の提示額とは別物と考えましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">勤続年数が長く平均年齢が高い企業ほど、全社員平均は高く出ます。中途入社時の提示額とは異なる点にご留意ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">決算期・業績連動で変動</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">コンサル・SIは業績連動賞与の比率が高く、好業績の期は平均給与が上振れする例があります。決算期の併記を確認しましょう。10社の決算期は同一ではありません。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">コンサル・SIは業績連動賞与の比率が高く、好業績の期は平均給与が上振れする例があります。決算期の併記をご確認ください。10社の決算期は同一ではありません。</p>
           </div>
         </div>
 
         <h2>ITコンサル・SIer転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          ITコンサル・SIerは非公開求人が多く、専門性の見せ方が選考を左右します。複数登録で求人と情報を広く集めましょう。
+          ITコンサル・SIerは非公開求人が多く、専門性の見せ方が選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手ITコンサル・SIerから中堅まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。ITコンサル・SIerの同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。管理職・高度専門職クラスの市場価値把握に。ハイクラスのITコンサル・SIer求人が集まる。" },
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・エンジニア特化。SIer・ITコンサルのエンジニア・DX系の技術職に。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手ITコンサル・SIerから中堅まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。ITコンサル・SIerの同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・高度専門職クラスの市場価値の把握に適しています。ハイクラスのITコンサル・SIer求人が多く集まります。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。SIer・ITコンサルのエンジニア・DX系の技術職に。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -183,7 +183,7 @@ export default function ItConsultantSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ITコンサル・SIerへの転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>
             <Link href="/company/game-salary/" className="btn-outline px-8 py-3">ゲーム会社の年収ランキングも見る</Link>

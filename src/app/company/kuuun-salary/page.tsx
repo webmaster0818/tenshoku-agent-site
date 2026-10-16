@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "航空会社(空運)の年収ランキング【2026年・有価証券報告書】",
-    description: "空運4社の平均年収を有報記載値でランキング。コロナ後の回復幅とキャリア採用の入口も解説。",
+    description: "空運4社の平均年収を有価証券報告書の記載値でランキング。コロナ後の回復幅とキャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "jal", name: "日本航空(JAL)", salary: "約1,011万円", term: "2026年3月期", note: "国内・国際線を運航するフルサービスキャリア。4社で唯一1,000万円台に到達し、2022年3月期702万円から4年で309万円増と回復幅が最大", field: "FSC" },
   { rank: 2, slug: "ana-hd", name: "ANAホールディングス", salary: "約770万円", term: "2026年3月期", note: "ANAを中核とする航空グループの持株会社。持株会社単体の値で、平均勤続2.9年と極端に短い点に注意", field: "持株会社" },
@@ -29,15 +29,15 @@ const faqData = [
   },
   {
     q: "航空会社の年収はコロナ禍からどれくらい回復しましたか？",
-    a: "有報の記載値では、日本航空は702万円(2022年3月期)→1,011万円(2026年3月期)で4年間に309万円増、ANAホールディングスは495万円→770万円で275万円増、スターフライヤーは500万円(2023年3月期)→696万円で196万円増です。旅客需要の減少で大きく落ち込んだ時期があり、その後の回復局面にあることが数字に表れています。逆に言えば、需要が落ちれば再び下がりうる業界だということでもあります。",
+    a: "有価証券報告書の記載値では、日本航空は702万円(2022年3月期)→1,011万円(2026年3月期)で4年間に309万円増、ANAホールディングスは495万円→770万円で275万円増、スターフライヤーは500万円(2023年3月期)→696万円で196万円増です。旅客需要の減少で大きく落ち込んだ時期があり、その後の回復局面にあることが数字に表れています。逆に言えば、需要が落ちれば再び下がりうる業界だということでもあります。",
   },
   {
     q: "ANAホールディングスの平均勤続年数が2.9年と短いのはなぜですか？",
-    a: "有報の値は「提出会社」つまり持株会社単体の従業員を対象としています。ANAホールディングスは持株会社であり、在籍者の勤続年数は持株会社での在籍期間を反映するため、グループ全体の実態とは一致しません。平均年齢46.2歳に対し勤続2.9年という組み合わせが、その構造を示しています(2026年9月22日確認)。事業会社の水準は求人票やエージェント経由で確認するのが確実です。",
+    a: "有価証券報告書の値は「提出会社」つまり持株会社単体の従業員を対象としています。ANAホールディングスは持株会社であり、在籍者の勤続年数は持株会社での在籍期間を反映するため、グループ全体の実態とは一致しません。平均年齢46.2歳に対し勤続2.9年という組み合わせが、その構造を示しています(2026年9月22日確認)。事業会社の水準は求人票やエージェント経由で確認するのが確実です。",
   },
   {
     q: "航空会社の平均年収は客室乗務員やパイロットも含んだ数字ですか？",
-    a: "有報の平均年間給与は提出会社に在籍する従業員の平均です。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種によって処遇体系が異なり、提出会社に在籍する従業員の構成は会社ごとに違います。当サイトでは各社の有報記載値をそのまま掲載しており、職種別の内訳推計は行っていません。職種ごとの水準は募集要項やエージェント経由でご確認ください。",
+    a: "有価証券報告書の平均年間給与は提出会社に在籍する従業員の平均です。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種によって処遇体系が異なり、提出会社に在籍する従業員の構成は会社ごとに違います。当サイトでは各社の有価証券報告書の記載値をそのまま掲載しており、職種別の内訳推計は行っていません。職種ごとの水準は募集要項やエージェント経由でご確認ください。",
   },
   {
     q: "航空会社の中途採用はどこに応募すればいいですか？",
@@ -84,7 +84,7 @@ export default function KuuunSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 航空会社(空運)年収ランキング</h2>
+        <h2>有価証券報告書準拠 航空会社(空運)年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -92,7 +92,7 @@ export default function KuuunSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">分野</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -174,20 +174,20 @@ export default function KuuunSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。4社では平均36.5〜46.2歳と幅があります。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。4社では平均36.5〜46.2歳と幅があります。中途入社時の提示額とは異なります。</p>
           </div>
         </div>
 
         <h2>航空会社への転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          航空会社の総合職は募集が絞られやすく、非公開求人・スカウト経由の比率も高い領域です。複数登録で求人と情報を広く集めましょう。
+          航空会社の総合職は募集が絞られやすく、非公開求人・スカウト経由の比率も高い領域です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。航空・空港・旅客サービス領域の求人も幅広くカバー。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強み。国際線・海外拠点を持つ企業のポジション紹介に定評。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職ポジションの情報収集に。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社との年収レンジ比較がしやすい。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。航空・空港・旅客サービス領域の求人も幅広く扱っています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強みがあります。国際線・海外拠点を持つ企業のポジション紹介に定評。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職ポジションの情報収集に適しています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社との年収レンジ比較がしやすい点が特長です。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -211,7 +211,7 @@ export default function KuuunSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">航空会社への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/shosha-salary/" className="btn-outline px-8 py-3">総合商社の年収ランキングも見る</Link>
             <Link href="/company/kaiun-salary/" className="btn-outline px-8 py-3">海運会社の年収ランキングも見る</Link>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/mercari/" },
   title: "メルカリに転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "メルカリへの転職を解説。平均年収1,232万円・平均年齢37.2歳（2026年6月期・有報）、2026年度の中途採用比率86.8%（公式採用サイト）、公式に記載された選考フローと面接のポイント、おすすめ転職エージェント5社を紹介します。",
+    "メルカリへの転職を解説。平均年収1,232万円・平均年齢37.2歳（2026年6月期・有価証券報告書）、2026年度の中途採用比率86.8%（公式採用サイト）、公式に記載された選考フローと面接のポイント、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "メルカリに転職するには？年収・面接対策・おすすめエージェント",
@@ -181,7 +181,7 @@ export default function MercariCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">メルカリの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             メルカリは
@@ -292,12 +292,12 @@ export default function MercariCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "幅広い業界・職種を扱う大手総合型の転職エージェント。IT・Web業界の求人を同業他社とあわせて比較しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
+              desc: "幅広い業界・職種を扱う大手総合型の転職エージェントです。IT・Web業界の求人を同業他社とあわせて比較しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
@@ -307,7 +307,7 @@ export default function MercariCareer() {
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "大手総合型の転職サービス。転職サイトとエージェントサービスを併用できるため、IT・Web業界の各社を自分でも検索しながら効率よく情報収集できます。",
+              desc: "大手総合型の転職サービスです。転職サイトとエージェントサービスを併用できるため、IT・Web業界の各社を自分でも検索しながら効率よく情報収集できます。",
             },
             {
               name: "マイナビ転職エージェント",
@@ -347,7 +347,7 @@ export default function MercariCareer() {
             メルカリ転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>Web・ゲーム・IT業界のクリエイター専門</strong>。Webディレクター・Webデザイナー・ゲームプランナー・ゲームディレクター等が対象です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ポートフォリオ作成サービス「MATCHBOX」を提供</strong>。クリエイター転職で最大の関門であるポートフォリオを支援ツール付きで作れます。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>マイナビクリエイターは、ポートフォリオ支援ツールMATCHBOXを備えたWeb・ゲーム・IT特化の転職エージェントです。大手グループの基盤とイベントの豊富さが特徴で、利用は無料。クリエイター転職ではHIGH-FIVE等との2社併用で提案を比較するのがおすすめです。</p>
+        <p>マイナビクリエイターは、ポートフォリオ支援ツールMATCHBOXを備えたWeb・ゲーム・IT特化の転職エージェントです。大手グループの基盤とイベントの豊富さが特徴で、利用は無料です。クリエイター転職ではHIGH-FIVE等との2社併用で提案を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

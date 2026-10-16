@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/mynavi/" },
   title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
   description:
-    "マイナビエージェントの評判・口コミを徹底調査。20代・第二新卒に強い手厚いサポートが特徴。年齢層は何歳まで使える？口コミの実態、メリット・デメリット、向いている人、FAQをまとめました。登録は完全無料。",
+    "マイナビエージェントの評判・口コミを徹底調査。20代・第二新卒に強い手厚いサポートが特徴。年齢層は何歳まで使える？口コミの実態、メリット・デメリット、向いている人、FAQをまとめました。登録は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "マイナビエージェントの評判・口コミは？20代・第二新卒に強い理由とデメリット",
@@ -75,7 +75,7 @@ export default function MynaviReview() {
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -276,7 +276,7 @@ export default function MynaviReview() {
             マイナビエージェントで転職活動を始めよう
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            20代・第二新卒に特化した手厚いサポートで、あなたの転職を成功に導きます。登録は完全無料です。
+            20代・第二新卒に特化した手厚いサポートで、あなたの転職を成功に導きます。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

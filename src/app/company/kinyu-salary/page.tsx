@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "金融業界の年収ランキング【2026年・有価証券報告書】",
-    description: "メガバンク・証券・損保8グループの平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "メガバンク・証券・損保8グループの平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円", term: "2026年3月期", note: "2年で+494万円の急上昇。市況・業績連動の性格が強い持株単体値", hd: true, field: "証券" },
   { rank: 2, slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円", term: "2026年3月期", note: "国内最大級の損保グループ。1,400〜1,500万円台の高水準で推移", hd: true, field: "損害保険" },
@@ -33,11 +33,11 @@ const faqData = [
   },
   {
     q: "この数値は銀行員・証券マン全体の平均年収ですか？",
-    a: "いいえ。有報の平均年間給与は「提出会社(持株会社)単体」の数値で、本社機能に勤務する社員中心の平均です。三菱UFJ銀行や野村證券など事業会社の全行員・全社員の平均とは母集団が異なります(事業会社単体の有報は提出されないため公表値がありません)。グループの給与水準の高さを示す指標として見てください。",
+    a: "いいえ。有価証券報告書の平均年間給与は「提出会社(持株会社)単体」の数値で、本社機能に勤務する社員中心の平均です。三菱UFJ銀行や野村證券など事業会社の全行員・全社員の平均とは母集団が異なります(事業会社単体の有価証券報告書は提出されないため公表値がありません)。グループの給与水準の高さを示す指標として見てください。",
   },
   {
     q: "メガバンク3行の年収に差はありますか？",
-    a: "持株会社単体の有報値では、三井住友FG 約1,180万円・三菱UFJ FG 約1,170万円・みずほFG 約1,166万円と、3グループが1,100万円台後半にほぼ横並びです(2026年3月期)。3行とも2年連続で上昇しています。",
+    a: "持株会社単体の有価証券報告書の数値では、三井住友FG 約1,180万円・三菱UFJ FG 約1,170万円・みずほFG 約1,166万円と、3グループが1,100万円台後半にほぼ横並びです(2026年3月期)。3行とも2年連続で上昇しています。",
   },
   {
     q: "未経験から金融業界へ転職できますか？",
@@ -87,7 +87,7 @@ export default function ItConsultantSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 金融業界年収ランキング</h2>
+        <h2>有価証券報告書準拠 金融業界年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -95,7 +95,7 @@ export default function ItConsultantSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">分野</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -136,28 +136,28 @@ export default function ItConsultantSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有報値は本社機能スタッフ中心の平均。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">勤続年数が長く平均年齢が高い企業ほど、全社員平均は高く出ます。中途入社時の提示額とは別物と考えましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">勤続年数が長く平均年齢が高い企業ほど、全社員平均は高く出ます。中途入社時の提示額とは異なる点にご留意ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">決算期・業績連動で変動</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">金融は市況・業績に連動する賞与比率が高く、好業績の期は平均給与が大きく上振れします(大和証券Gの2年+494万円が典型例)。決算期の併記を確認しましょう。10社の決算期は同一ではありません。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">金融は市況・業績に連動する賞与比率が高く、好業績の期は平均給与が大きく上振れします(大和証券Gの2年+494万円が典型例)。決算期の併記をご確認ください。10社の決算期は同一ではありません。</p>
           </div>
         </div>
 
         <h2>金融業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          金融は非公開求人が多く、専門性の見せ方が選考を左右します。複数登録で求人と情報を広く集めましょう。
+          金融は非公開求人が多く、専門性の見せ方が選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。メガバンクから地銀・保険・証券まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。金融の同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。管理職・高度専門職クラスの市場価値把握に。金融ハイクラス求人が集まる。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・金融専門職に強み。銀行・証券・保険のミドル〜ハイクラスに。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。メガバンクから地銀・保険・証券まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。金融の同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・高度専門職クラスの市場価値の把握に適しています。金融ハイクラス求人が多く集まります。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・金融専門職に強みがあります。銀行・証券・保険のミドル〜ハイクラスに。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -181,7 +181,7 @@ export default function ItConsultantSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">金融業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>
             <Link href="/company/game-salary/" className="btn-outline px-8 py-3">ゲーム会社の年収ランキングも見る</Link>

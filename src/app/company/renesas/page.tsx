@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "ルネサスエレクトロニクス（証券コード6723）への転職を有価証券報告書などの一次データで解説。平均年間給与は約749万円（2025年12月期・有報／提出会社）。12月決算である点、直近3年の年収推移、グローバル採用サイト経由の中途採用の仕組みまでまとめました。",
+    "ルネサスエレクトロニクス（証券コード6723）への転職を有価証券報告書などの一次データで解説。平均年間給与は約749万円（2025年12月期・有価証券報告書／提出会社）。12月決算である点、直近3年の年収推移、グローバル採用サイト経由の中途採用の仕組みまでまとめました。",
   alternates: { canonical: "/company/renesas/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "ルネサスエレクトロニクス（6723）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            ルネサスエレクトロニクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/renesas.jpg" alt="ルネサスエレクトロニクスの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -84,7 +84,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：ルネサスエレクトロニクス転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">ルネサスエレクトロニクス転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">ルネサスエレクトロニクスの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">ルネサスエレクトロニクスの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">ルネサスエレクトロニクスで求められる人材</a></li>
@@ -95,12 +95,12 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：ルネサスエレクトロニクス転職のポイント</h2>
+        <h2 id="s1">ルネサスエレクトロニクス転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約749万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年8月16日確認）。提出会社単体6,025名の全従業員平均。</li>
             <li>同社は12月末決算のため、2025年12月期が本記事執筆時点の最新確定値。</li>
-            <li>直近3年は889万円→809万円→749万円と減少傾向（有報ベース）。年度間の変動が大きい点は正直にお伝えします。</li>
+            <li>直近3年は889万円→809万円→749万円と減少傾向（有価証券報告書ベース）。年度間の変動が大きい点は正直にお伝えします。</li>
             <li>中途採用はグローバル採用サイト（jobs.renesas.com／日本語版career.renesas.com）経由。Engineering・Sales & Marketing・Corporateの職種区分で通年検索できる（2026年8月16日確認）。</li>
             <li>平均年齢48.5歳・平均勤続23.4年と、勤続の長い年齢構成での平均値。</li>
           </ul>
@@ -144,7 +144,7 @@ export default function CompanyCareer() {
             <li>グローバル一体の採用システムのため、募集要項・応募画面が英語表記のポジションも多い。職務経歴書に加え英文レジュメを用意しておくと応募がスムーズ。</li>
             <li>※2026年8月16日に採用サイトで確認。募集状況は変動するため最新は同サイトでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でルネサスエレクトロニクスのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でルネサスエレクトロニクスのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">ルネサスエレクトロニクスで求められる人材</h2>
@@ -170,8 +170,8 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "採用サイトから応募", desc: "jobs.renesas.com（日本語版career.renesas.com）で求人を検索し、オンラインで応募します。英文レジュメの提出を求められる場合があります。" },
             { step: 2, title: "書類選考", desc: "応募ポジションの要件と経験・スキルの適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等との面接。技術職は専門領域の深掘りが中心で、ポジションによっては英語面接が含まれます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等による面接が行われます。技術職は専門領域の深掘りが中心で、ポジションによっては英語面接が含まれます。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -187,8 +187,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約749万円（2025年12月期）は提出会社単体・全従業員6,025名の平均であり、職種・年代・役職により実際の水準は異なります。</li>
-            <li>12月末決算のため、この数値は2025年12月31日現在のもの。2026年12月期の有報提出までは2025年12月期が最新確定値です。</li>
-            <li>直近3年で889万円→809万円→749万円と推移しており、年度間の変動が大きい点は応募前に知っておくべき事実です（変動の内訳は有報の記載範囲では特定できないため、当サイトでは理由を断定しません）。</li>
+            <li>12月末決算のため、この数値は2025年12月31日現在のもの。2026年12月期の有価証券報告書の提出までは2025年12月期が最新確定値です。</li>
+            <li>直近3年で889万円→809万円→749万円と推移しており、年度間の変動が大きい点は応募前に知っておくべき事実です（変動の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは理由を断定しません）。</li>
             <li>平均年齢48.5歳・平均勤続23.4年という長期勤続の構成での平均値である点も踏まえて読む必要があります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まるため、エージェント経由でポジション別レンジを確認するのが確実です。</li>
           </ul>
@@ -198,10 +198,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用サイトへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。半導体・電機メーカーの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。外資系・グローバル企業の選考に慣れており、英文レジュメの相談もしやすいです。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。半導体エンジニアの市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。半導体・電機メーカーの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。外資系・グローバル企業の選考に慣れており、英文レジュメの相談もしやすいです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。半導体エンジニアの市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

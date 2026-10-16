@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/rohm/" },
-  title: "ロームへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "ロームへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "ローム（証券コード6963）への転職を有価証券報告書などの一次データで解説。平均年間給与は約803.5万円（2026年3月期・有報／提出会社）。京都本社の半導体メーカーの中途採用（キャリア採用）の状況、求められる人材、選考の考え方をまとめました。",
+    "ローム（証券コード6963）への転職を有価証券報告書などの一次データで解説。平均年間給与は約803.5万円（2026年3月期・有価証券報告書／提出会社）。京都本社の半導体メーカーの中途採用（キャリア採用）の状況、求められる人材、選考の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ロームへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "ロームへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "ローム（6963）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -34,11 +34,11 @@ const faqData = [
   },
   {
     "q": "ロームの平均勤続年数はどのくらいですか？",
-    "a": "有報の平均勤続年数は14.0年（2026年3月期・提出会社）、平均年齢は42.4歳です。単体従業員数は4,199人、連結では21,756人の規模です。"
+    "a": "有価証券報告書の平均勤続年数は14.0年（2026年3月期・提出会社）、平均年齢は42.4歳です。単体従業員数は4,199人、連結では21,756人の規模です。"
   },
   {
     "q": "ロームの年収は近年どう推移していますか？",
-    "a": "IRBANK掲載の有報ベース（万円丸め）で、2022年3月期789万円、2023年3月期856万円、2024年3月期879万円、2025年3月期810万円、2026年3月期803万円と推移しています。"
+    "a": "IRBANK掲載の有価証券報告書ベース（万円丸め）で、2022年3月期789万円、2023年3月期856万円、2024年3月期879万円、2025年3月期810万円、2026年3月期803万円と推移しています。"
   }
 ];
 
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ロームへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            ロームへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/rohm.jpg" alt="ロームの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -87,7 +87,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：ローム転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">ローム転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">ロームの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">ロームの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">ロームで求められる人材</a></li>
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：ローム転職のポイント</h2>
+        <h2 id="s1">ローム転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約803.5万円（2026年3月期・有価証券報告書・提出会社単体。賞与及び基準外賃金を含む）。対前事業年度増減率は△0.8%。</li>
@@ -145,7 +145,7 @@ export default function CompanyCareer() {
             <li>採用区分は新卒採用・キャリア採用・留学生採用・グループ会社採用に分かれており、グループ会社の求人は別枠で案内されている。</li>
             <li>※2026年8月1日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でロームのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でロームのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">ロームで求められる人材</h2>
@@ -170,9 +170,9 @@ export default function CompanyCareer() {
         <div className="space-y-5 mb-8">
           {[
             { step: 1, title: "求人検索・応募", desc: "公式採用サイトからリンクされた求人検索システムで募集中の職種を確認し、応募します。" },
-            { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を提出。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャーや部門責任者との面接。技術職は専門領域の深掘りが中心になるとみられます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。入社時期や条件面の確認を経て入社となります。" },
+            { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を提出します。応募職種で求められる経験・スキルとの適合性が確認されます。" },
+            { step: 3, title: "面接（複数回）", desc: "現場マネージャーや部門責任者による面接が行われます。技術職は専門領域の深掘りが中心になるとみられます。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -187,10 +187,10 @@ export default function CompanyCareer() {
         <h2 id="s6">ロームの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約803.5万円（2026年3月期）は単体全社員の平均で、賞与及び基準外賃金を含む値。職種（開発・製造・営業・スタッフ）で水準は異なる。</li>
+            <li>約803.5万円（2026年3月期）は単体全社員の平均で、賞与及び基準外賃金を含む値。職種（開発・製造・営業・スタッフ）により水準は異なります。</li>
             <li>直近5期は789万円→856万円→879万円→810万円→803万円と、2024年3月期をピークに微減で推移。</li>
             <li>平均勤続14.0年・平均年齢42.4歳の長期雇用型。</li>
-            <li>中途入社時の提示額はポジション・経験によるため、エージェント経由での確認が確実。</li>
+            <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
         </div>
@@ -199,10 +199,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">半導体業界は非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -226,7 +226,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ローム転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

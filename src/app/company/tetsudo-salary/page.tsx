@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "鉄道業界の年収ランキング【2026年・有価証券報告書】",
-    description: "JR・大手私鉄8社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "JR・大手私鉄8社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "hankyu-hanshin", name: "阪急阪神HD", salary: "約919万円", term: "2026年3月期", note: "鉄道×不動産×エンタメ(宝塚・阪神)の複合グループ。2年連続上昇", hd: true, field: "私鉄(関西)" },
   { rank: 2, slug: "tokyu", name: "東急", salary: "約903万円", term: "2026年3月期", note: "渋谷再開発の不動産比重が高い事業持株会社。2年で+127万円", hd: true, field: "私鉄(関東)" },
@@ -33,11 +33,11 @@ const faqData = [
   },
   {
     q: "鉄道業界の年収は上がっていますか？",
-    a: "収録8社すべてが2年連続で上昇しています(2026年9月10日・IR BANK掲載の有報値で確認)。特にJR東海(2年で+100万円)・東急(+127万円)・JR東日本(+94万円)の上昇幅が大きく、全社的な賃上げトレンドが数字に表れています。",
+    a: "収録8社すべてが2年連続で上昇しています(2026年9月10日・IR BANK掲載の有価証券報告書の数値で確認)。特にJR東海(2年で+100万円)・東急(+127万円)・JR東日本(+94万円)の上昇幅が大きく、全社的な賃上げトレンドが数字に表れています。",
   },
   {
     q: "JR3社の年収に差はありますか？",
-    a: "2026年3月期の有報値では、JR東海 約860万円>JR東日本 約819万円>JR西日本 約727万円です。JR東海・JR西日本は平均年齢37歳台と若い構成のため、年齢を考慮した水準では差が縮まる点も踏まえて見てください(平均年収は年齢構成の影響を受けます)。",
+    a: "2026年3月期の有価証券報告書の数値では、JR東海 約860万円>JR東日本 約819万円>JR西日本 約727万円です。JR東海・JR西日本は平均年齢37歳台と若い構成のため、年齢を考慮した水準では差が縮まる点も踏まえて見てください(平均年収は年齢構成の影響を受けます)。",
   },
   {
     q: "この数値は運転士や駅係員の平均年収ですか？",
@@ -87,7 +87,7 @@ export default function TetsudoSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 鉄道業界年収ランキング</h2>
+        <h2>有価証券報告書準拠 鉄道業界年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -95,7 +95,7 @@ export default function TetsudoSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">区分</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -136,7 +136,7 @@ export default function TetsudoSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有報値は本社機能スタッフ中心の平均です。阪急電鉄・近畿日本鉄道など電鉄本体の現業職の水準とは別物です(東急は鉄道を東急電鉄へ分社済み)。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は本社機能スタッフ中心の平均です。阪急電鉄・近畿日本鉄道など電鉄本体の現業職の水準とは別物です(東急は鉄道を東急電鉄へ分社済み)。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均年齢の差に注意</h3>
@@ -150,14 +150,14 @@ export default function TetsudoSalaryRanking() {
 
         <h2>鉄道業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          鉄道は技術職に加え、不動産・デジタル・データ系の職種別採用が拡大中です。複数登録で求人と情報を広く集めましょう。
+          鉄道は技術職に加え、不動産・デジタル・データ系の職種別採用が拡大中です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。鉄道各社の技術職から本社系まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。インフラ系の同業比較がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。不動産開発・DX・経営企画などハイクラス職の市場価値把握に。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強み。鉄道グループの不動産・ホテル・国際物流ポジションにも。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。鉄道各社の技術職から本社系まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。インフラ系の同業比較がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。不動産開発・DX・経営企画などハイクラス職の市場価値の把握に適しています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強みがあります。鉄道グループの不動産・ホテル・国際物流ポジションにも。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -181,7 +181,7 @@ export default function TetsudoSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">鉄道業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/shokuhin-salary/" className="btn-outline px-8 py-3">食品・飲料の年収ランキングも見る</Link>
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>

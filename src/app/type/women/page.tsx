@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/type/women/" },
   title: "女性におすすめの転職エージェント｜type女性・リアルミーキャリアの比較と選び方",
   description:
-    "女性におすすめの転職エージェントを紹介。女性特化のtype女性の転職エージェント（求人37,615件・東京中心）と時短正社員特化のリアルミーキャリア（東京23区・大阪市中心）を、公式の確認値（2026年10月14日）で比較。育児中・ブランクありの活用法まで解説します。利用は無料。",
+    "女性におすすめの転職エージェントを紹介。女性特化のtype女性の転職エージェント（求人37,615件・東京中心）と時短正社員特化のリアルミーキャリア（東京23区・大阪市中心）を、公式の確認値（2026年10月14日）で比較。育児中・ブランクありの活用法まで解説します。利用は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "女性におすすめの転職エージェント｜type女性・リアルミーキャリアの比較と選び方",
-    description: "女性の転職エージェントの選び方と、type女性・リアルミーキャリアの比較（公式確認値・10/14）。利用は無料。",
+    description: "女性の転職エージェントの選び方と、type女性・リアルミーキャリアの比較（公式確認値・10/14）。利用は無料です。",
   },
 };
 
@@ -64,7 +64,7 @@ export default function WomenPage() {
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>

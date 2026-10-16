@@ -6,7 +6,7 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "TechClipsエージェントの評判は？ITエンジニア専門の転職エージェントを解説【2026年】",
-  description: "TechClipsエージェント(notari株式会社運営)はITエンジニア専門の転職エージェント。SIer/SESから自社サービス・ITコンサルタントへの転職実績を公式に掲げています。特徴・向いている人を公式情報ベースで解説。利用は無料。",
+  description: "TechClipsエージェント(notari株式会社運営)はITエンジニア専門の転職エージェント。SIer/SESから自社サービス・ITコンサルタントへの転職実績を公式に掲げています。特徴・向いている人を公式情報ベースで解説。利用は無料です。",
   alternates: { canonical: "/review/techclips/" },
 };
 
@@ -60,7 +60,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ITエンジニア専門の転職エージェント</strong>。SIer/SESから自社サービス・ITコンサルタントへの転職実績多数と公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>高マッチング率を強みとして訴求</strong>(公式サイト表記)。エンジニア経験者のキャリアアップ転職向けの設計です。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>TechClipsエージェントは、SIer/SESからのキャリアチェンジに強みを掲げるITエンジニア専門エージェントです。経験者向けの専門設計と年代別ガイドが特徴で、利用は無料。IT特化型は複数併用して求人の幅を確保するのがおすすめです。</p>
+        <p>TechClipsエージェントは、SIer/SESからのキャリアチェンジに強みを掲げるITエンジニア専門エージェントです。経験者向けの専門設計と年代別ガイドが特徴で、利用は無料です。IT特化型は複数併用して求人の幅を確保するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

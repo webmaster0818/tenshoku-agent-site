@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "DeNAへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "DeNAへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "DeNA（ディー・エヌ・エー、証券コード2432）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,118万円（2026年3月期・有報）で前期883万円から大幅増。ゲーム・スポーツ・ヘルスケア等の事業領域と中途採用の状況をまとめました。",
+    "DeNA（ディー・エヌ・エー、証券コード2432）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,118万円（2026年3月期・有価証券報告書）で前期883万円から大幅増。ゲーム・スポーツ・ヘルスケア等の事業領域と中途採用の状況をまとめました。",
   alternates: { canonical: "/company/dena/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "DeNAへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "DeNAへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "DeNA（2432）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            DeNAへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            DeNAへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/dena.jpg" alt="DeNAの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -84,7 +84,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：DeNA転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">DeNA転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">DeNAの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">DeNAの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">DeNAで求められる人材</a></li>
@@ -95,11 +95,11 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：DeNA転職のポイント</h2>
+        <h2 id="s1">DeNA転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,118万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月19日確認）。提出会社単体1,400名の全従業員平均。</li>
-            <li>前期約883万円から1年で230万円超の大幅増。ただし増加の内訳は有報の記載範囲では特定できないため理由は断定しない。</li>
+            <li>前期約883万円から1年で230万円超の大幅増。ただし増加の内訳は有価証券報告書の記載範囲では特定できないため理由は断定しない。</li>
             <li>採用は公式採用ページ（dena.com/jp/recruit/）から。エンジニア・ビジネス・デザイナー等の職種別採用（2026年8月19日確認）。</li>
             <li>平均年齢38.6歳と比較的若い組織。ゲーム・スポーツ・ヘルスケア等、事業の幅が広い。</li>
             <li>実力主義の評価で処遇が動きやすい環境のため、提示条件と評価制度は選考過程で個別確認が確実。</li>
@@ -141,7 +141,7 @@ export default function CompanyCareer() {
             <li>大規模サービスのサーバーサイド・クライアント開発、データ・AI、SREなど技術職の募集領域が広い。</li>
             <li>エンジニア選考では技術力の確認（コーディングテスト等）が課される場合があるため、実務から離れている領域は事前の準備が安心。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">DeNAで求められる人材</h2>
@@ -184,7 +184,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,118万円（2026年3月期）は提出会社単体・全従業員1,400名の平均であり、職種・等級で実際の水準は異なります。</li>
-            <li>前期から230万円超の大幅増ですが、平均年間給与には賞与等の変動要素が含まれ、増加の内訳は有報の記載範囲では特定できません。単年の平均値をそのまま自分の提示額の目安にしないことが大切です。</li>
+            <li>前期から230万円超の大幅増ですが、平均年間給与には賞与等の変動要素が含まれ、増加の内訳は有価証券報告書の記載範囲では特定できません。単年の平均値をそのまま自分の提示額の目安にしないことが大切です。</li>
             <li>実力主義の評価のため、入社後の処遇はパフォーマンスで動きます。評価制度・昇給の仕組みは面接で確認しておくと安心です。</li>
             <li>中途入社時の提示額はエージェント経由でポジション別の実勢を確認するのが確実です。</li>
           </ul>
@@ -194,10 +194,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニア特化。Web系メガベンチャーの技術選考対策と職務経歴書の添削に強みがあります。" },
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。Web・ゲーム業界の求人も幅広く扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めた比較検討がしやすいのが強みです。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。ハイクラス・専門職の市場価値の把握と情報収集に向いています。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。Web系メガベンチャーの技術選考対策と職務経歴書の添削に強みがあります。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。Web・ゲーム業界の求人も幅広く扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めた比較検討がしやすい点が強みです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。ハイクラス・専門職の市場価値の把握と情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -221,7 +221,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">DeNA転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

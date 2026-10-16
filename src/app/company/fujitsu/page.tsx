@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "富士通への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "富士通への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "富士通（証券コード6702）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,012万円（2026年3月期・有報）で、前期929万円から80万円超増えて1,000万円台に到達。ジョブ型人材マネジメント下のキャリア採用、直近3年の年収推移までまとめました。",
+    "富士通（証券コード6702）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,012万円（2026年3月期・有価証券報告書）で、前期929万円から80万円超増えて1,000万円台に到達。ジョブ型人材マネジメント下のキャリア採用、直近3年の年収推移までまとめました。",
   alternates: { canonical: "/company/fujitsu/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "富士通への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "富士通への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "富士通（6702）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            富士通への転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            富士通への転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/fujitsu.jpg" alt="富士通の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -84,7 +84,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：富士通転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">富士通転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">富士通の基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">富士通の中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">富士通で求められる人材</a></li>
@@ -95,12 +95,12 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：富士通転職のポイント</h2>
+        <h2 id="s1">富士通転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,012万円（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月19日確認）。提出会社単体32,224名の全従業員平均。</li>
             <li>前期929万円から80万円超の増加で、全社員平均が1,000万円台に到達したのが今期の最大トピック。</li>
-            <li>直近3年は965万円→929万円→1,012万円と推移（有報ベース）。</li>
+            <li>直近3年は965万円→929万円→1,012万円と推移（有価証券報告書ベース）。</li>
             <li>ジョブ型人材マネジメントのため、提示年収はポジション（ジョブディスクリプション）と等級で個別に決まる。</li>
             <li>平均年齢42.7歳とミドル層が中核。専門性が職務要件に合致すれば年齢より職務適合で評価されやすい制度設計。</li>
           </ul>
@@ -141,7 +141,7 @@ export default function CompanyCareer() {
             <li>クラウド・AI・セキュリティ・コンサルティング等のデジタル領域で経験者採用が継続的に行われている。</li>
             <li>応募時は「自分の経験がどのジョブディスクリプションに適合するか」を職務経歴書で具体的に示すことが重要。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">富士通で求められる人材</h2>
@@ -184,7 +184,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,012万円（2026年3月期）は提出会社単体・全従業員32,224名の平均であり、管理職・上位等級を含む数値です。</li>
-            <li>前期比+83万円の増加で1,000万円台に到達しましたが、平均年間給与には賞与等の変動要素が含まれます（増加の内訳は有報の記載範囲では特定できないため、当サイトでは理由を断定しません）。</li>
+            <li>前期比+83万円の増加で1,000万円台に到達しましたが、平均年間給与には賞与等の変動要素が含まれます（増加の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは理由を断定しません）。</li>
             <li>ジョブ型のため、実際の提示額は応募ジョブの等級・職責で決まります。全社平均をそのまま自分の提示額の目安にはできません。</li>
             <li>中途入社時は求人票（ジョブディスクリプション）に等級・レンジの記載がある場合が多く、エージェント経由でポジション別の実勢を確認するのが確実です。</li>
           </ul>
@@ -194,10 +194,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手SIer・ITサービスの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。NEC・日立など同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニア特化。クラウド・開発系ポジションの要件読み解きと職務経歴書の添削に強みがあります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。管理職・専門職クラスの市場価値の把握と、ジョブ型企業の等級レンジの情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手SIer・ITサービスの求人も幅広く、非公開求人の紹介を受けられる可能性があります。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。NEC・日立など同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。クラウド・開発系ポジションの要件読み解きと職務経歴書の添削に強みがあります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・専門職クラスの市場価値の把握と、ジョブ型企業の等級レンジの情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -221,7 +221,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">富士通転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式のジョブディスクリプションとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式のジョブディスクリプションと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

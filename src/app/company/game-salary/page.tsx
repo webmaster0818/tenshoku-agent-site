@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "ゲーム会社の年収ランキング【2026年・有価証券報告書】",
-    description: "大手ゲーム会社の平均年収を有報記載値でランキング。転職難易度も解説。",
+    description: "大手ゲーム会社の平均年収を有価証券報告書の記載値でランキング。転職難易度も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "capcom", name: "カプコン", salary: "約985万円", term: "2026年3月期", note: "前期約919万円から上昇。業績好調が平均給与に反映。モンハン・バイオ等の看板IPを持つ大阪本社のメーカー", hd: false },
   { rank: 2, slug: "bandai-namco", name: "バンダイナムコHD", salary: "約984万円", term: "2026年3月期", note: "純粋持株会社単体（約80名・本社機能のみ）の数値。ゲーム・玩具はバンダイナムコエンターテインメント・バンダイ等の事業会社が担う", hd: true },
@@ -35,7 +35,7 @@ const faqData = [
   },
   {
     q: "ゲーム会社の年収は他業界と比べて高いですか？",
-    a: "大手に限れば高水準です。有報ベースで比較すると、大手ゲーム5社（約850万〜985万円）は上場企業の平均を大きく上回り、当サイト掲載企業ではメルカリ（約1,232万円）やソニーグループ（約1,155万円）には及ばないものの、良品計画（約670万円）や東洋水産（約698万円）などの他業界大手を上回ります。ただし中小デベロッパーとの格差が大きい業界でもあります。",
+    a: "大手に限れば高水準です。有価証券報告書ベースで比較すると、大手ゲーム5社（約850万〜985万円）は上場企業の平均を大きく上回り、当サイト掲載企業ではメルカリ（約1,232万円）やソニーグループ（約1,155万円）には及ばないものの、良品計画（約670万円）や東洋水産（約698万円）などの他業界大手を上回ります。ただし中小デベロッパーとの格差が大きい業界でもあります。",
   },
   {
     q: "ゲーム業界への転職難易度は高いですか？",
@@ -85,14 +85,14 @@ export default function GameSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 ゲーム会社年収ランキング</h2>
+        <h2>有価証券報告書準拠 ゲーム会社年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
               <tr>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -132,28 +132,28 @@ export default function GameSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有報値は本社機能スタッフの平均。開発職の水準は事業会社の求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は本社機能スタッフの平均。開発職の水準は事業会社の求人票・エージェント経由で確認するのが確実です。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">任天堂（平均勤続約14.6年）のような長期雇用型は平均値が高く出ます。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">任天堂（平均勤続約14.6年）のような長期雇用型は平均値が高く出ます。中途入社時の提示額とは異なります。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">賞与・業績連動で変動</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">カプコンのように業績好調で平均給与が上昇する例があり、年度による変動があります。決算期の併記を確認しましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">カプコンのように業績好調で平均給与が上昇する例があり、年度による変動があります。決算期の併記をご確認ください。</p>
           </div>
         </div>
 
         <h2>ゲーム業界転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          ゲーム開発職は非公開求人が多く、ポートフォリオの見せ方も選考を左右します。複数登録で求人と情報を広く集めましょう。
+          ゲーム開発職は非公開求人が多く、ポートフォリオの見せ方も選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手ゲーム会社から中堅デベロッパーまで幅広くカバー。" },
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・エンジニア特化。ゲームプログラマー等の技術職の専門性を評価してもらいやすい。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。ゲーム業界の同業比較がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。リードクラス・マネジメント層の市場価値把握に。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手ゲーム会社から中堅デベロッパーまで幅広い求人を扱っています。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。ゲームプログラマー等の技術職の専門性を評価されやすい点が特長です。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。ゲーム業界の同業比較がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。リードクラス・マネジメント層の市場価値の把握に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -177,7 +177,7 @@ export default function GameSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ゲーム業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>
             <Link href="/company/it-consultant-salary/" className="btn-outline px-8 py-3">ITコンサル・SIerの年収ランキングも見る</Link>

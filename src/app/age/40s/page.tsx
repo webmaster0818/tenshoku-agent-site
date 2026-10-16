@@ -140,7 +140,7 @@ export default function Age40sPage() {
             40代の経験を活かしたキャリアアップを
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            管理職・専門職に強いエージェントがあなたの転職をサポートします。登録は完全無料です。
+            管理職・専門職に強いエージェントがあなたの転職をサポートします。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

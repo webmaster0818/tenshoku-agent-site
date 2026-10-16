@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/digireka/" },
   title: "デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】",
   description:
-    "デジレカ（株式会社マルニ運営）の口コミ・評判を出典つきで整理。マーケ経験者の担当、面談後決定率40%（公称）、面接対策5〜10回以上、未経験者向け無料講座、利用の流れ・退会方法・注意点まで公式情報で解説（2026年10月確認）。利用は無料。",
+    "デジレカ（株式会社マルニ運営）の口コミ・評判を出典つきで整理。マーケ経験者の担当、面談後決定率40%（公称）、面接対策5〜10回以上、未経験者向け無料講座、利用の流れ・退会方法・注意点まで公式情報で解説（2026年10月確認）。利用は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】",
@@ -111,7 +111,7 @@ export default function DigirekaReview() {
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>

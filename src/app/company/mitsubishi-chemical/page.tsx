@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "三菱ケミカルグループ（証券コード4188）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,188万円（2026年3月期・有報／提出会社）。国内最大の総合化学グループの持株会社のキャリア採用窓口・選考の考え方をまとめました。",
+    "三菱ケミカルグループ（証券コード4188）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,188万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/mitsubishi-chemical/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "三菱ケミカルグループ（4188）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -64,7 +64,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            三菱ケミカルグループへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/mitsubishi-chemical.jpg" alt="三菱ケミカルグループの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -79,7 +79,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：三菱ケミカルG転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">三菱ケミカルG転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">三菱ケミカルGの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">三菱ケミカルGの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">三菱ケミカルGで求められる人材</a></li>
@@ -90,10 +90,10 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：三菱ケミカルG転職のポイント</h2>
+        <h2 id="s1">三菱ケミカルG転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,188万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員平均。</li>
+            <li>平均年間給与は約1,188万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>973万円（2024年3月期）→1,059万円（2025年3月期）→1,188万円（2026年3月期）と推移（2年で計215万円上昇し化学収録9社トップ）。</li>
             <li>キャリア採用は三菱ケミカルの公式採用ページで確認可能（2026年9月10日確認）。</li>
             <li>提出会社は持株会社単体(平均年齢50.2歳・勤続24.3年)であり、三菱ケミカルなど事業会社の平均とは別の数値です。年齢構成が高い分、平均給与は上振れしやすい点にご注意ください。</li>
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
             <li>研究開発・生産技術・コーポレートなど職種別の採用です。</li>
             <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱ケミカルグループのような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱ケミカルグループのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">三菱ケミカルGで求められる人材</h2>
@@ -160,8 +160,8 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "採用ページからエントリー", desc: "公式採用ページで求人を確認し、希望ポジションにエントリーします。" },
             { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を基に、応募求人の要件との適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等との面接。実務経験と応募職種の適合が中心です。" },
-            { step: 4, title: "内定・条件提示", desc: "選考通過後に内定・条件提示。経験・能力を考慮した条件が提示されます。" },
+            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等による面接が行われます。主に実務経験と応募職種との適合性が確認されます。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。経験・能力を考慮した条件が提示されます。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -188,10 +188,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。大手からベンチャーまで幅広い求人を扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めて比較検討しやすいのが強みです。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強み。年収レンジの高いポジションの紹介に定評があります。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職の情報収集に向いています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -215,7 +215,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">三菱ケミカルG転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

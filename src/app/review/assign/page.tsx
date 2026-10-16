@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "アサイン(ASSIGN)の評判は？価値観からキャリアプランを描く若手ハイエンド向けキャリア支援【2026年】",
   description:
-    "ASSIGN AGENT(アサイン)の特徴を徹底解説。初回面談では求人紹介をせず、経験・価値観・目指す将来像からキャリアプランを提案する「転職支援ではなくキャリア支援」が核。創業メンバー全員がコンサルファーム出身、DiSC認定資格に基づくオーダーメイド選考対策も。対象は20代〜30代前半の若手ハイエンド層、利用は無料。",
+    "ASSIGN AGENT(アサイン)の特徴を徹底解説。初回面談では求人紹介をせず、経験・価値観・目指す将来像からキャリアプランを提案する「転職支援ではなくキャリア支援」が核。創業メンバー全員がコンサルファーム出身、DiSC認定資格に基づくオーダーメイド選考対策も。対象は20代〜30代前半の若手ハイエンド層、利用は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title:
@@ -92,7 +92,7 @@ export default function AssignReview() {
 
         {/* 結論ボックス（結論先出し） */}
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>

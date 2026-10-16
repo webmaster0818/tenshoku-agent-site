@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/toyota/" },
   title: "トヨタ自動車に転職するには？年収・面接対策・おすすめエージェント",
   description:
-    "トヨタ自動車への転職を解説。公式採用サイト記載の選考フロー（書類選考→1次面接＋適性検査→最終面接）、平均年収1,006万円（2026年3月期・有報）、キャリア採用比率49%（2024年度・公式）、面接対策、おすすめ転職エージェント5社を紹介します。",
+    "トヨタ自動車への転職を解説。公式採用サイト記載の選考フロー（書類選考→1次面接＋適性検査→最終面接）、平均年収1,006万円（2026年3月期・有価証券報告書）、キャリア採用比率49%（2024年度・公式）、面接対策、おすすめ転職エージェント5社を紹介します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "トヨタ自動車に転職するには？年収・面接対策・おすすめエージェント",
@@ -110,8 +110,8 @@ export default function ToyotaCareer() {
                 { label: "設立", value: "1937年8月28日" },
                 { label: "資本金", value: "6,354億円（2026年3月末）" },
                 { label: "従業員数", value: "73,133人（単体）／390,927人（連結）（2026年3月末）" },
-                { label: "平均年収", value: "1,006万円（2026年3月期・有報）" },
-                { label: "平均年齢・平均勤続年数", value: "40.5歳・15.1年（2026年3月期・有報）" },
+                { label: "平均年収", value: "1,006万円（2026年3月期・有価証券報告書）" },
+                { label: "平均年齢・平均勤続年数", value: "40.5歳・15.1年（2026年3月期・有価証券報告書）" },
                 { label: "事業内容", value: "自動車の生産・販売" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
@@ -179,7 +179,7 @@ export default function ToyotaCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">トヨタ自動車の中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でトヨタ自動車のような大手を目指すなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで求人の紹介と書類の壁打ちを受けるのが近道です。</p>
+        <p className="text-sm text-text-secondary mb-4">20代・第二新卒でトヨタ自動車のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             トヨタ自動車の公式採用サイトは
@@ -306,7 +306,7 @@ export default function ToyotaCareer() {
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録すると企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職として市場価値を確かめたい方に向いています。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録すると企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職として市場価値を確かめたい方に向いています。",
             },
             {
               name: "JACリクルートメント",
@@ -356,7 +356,7 @@ export default function ToyotaCareer() {
             トヨタ転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

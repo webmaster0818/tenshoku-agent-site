@@ -153,7 +153,7 @@ export default function GoogleCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">Googleの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
+        <p className="text-sm text-text-secondary mb-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェントを併用すると、応募先の候補を広げやすくなります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             Googleの採用は新卒・中途という区分ではなく、公式の
@@ -271,12 +271,12 @@ export default function GoogleCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "幅広い業界・職種を扱う大手総合型の転職エージェント。IT業界の各社を比較検討しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
+              desc: "幅広い業界・職種を扱う大手総合型の転職エージェントです。IT業界の各社を比較検討しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
@@ -286,7 +286,7 @@ export default function GoogleCareer() {
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "大手総合型の転職サービス。転職サイトとエージェントサービスを併用できるため、IT・Web業界の求人を自分でも検索しながら幅広く情報収集したい方に向いています。",
+              desc: "大手総合型の転職サービスです。転職サイトとエージェントサービスを併用できるため、IT・Web業界の求人を自分でも検索しながら幅広く情報収集したい方に向いています。",
             },
             {
               name: "マイナビ転職エージェント",
@@ -326,7 +326,7 @@ export default function GoogleCareer() {
             Google転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "電力・ガス業界の年収ランキング【2026年・有価証券報告書】",
-    description: "電力・ガス大手9社の平均年収を有報記載値でランキング。キャリア採用の入口も解説。",
+    description: "電力・ガス大手9社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "jpower", name: "電源開発(J-POWER)", salary: "約1,188万円", term: "2026年3月期", note: "収録9社トップ。全国区の卸電力(水力・石炭火力)+海外発電", field: "卸電力" },
   { rank: 2, slug: "chubu-electric", name: "中部電力", salary: "約945万円", term: "2026年3月期", note: "旧一般電気事業者で最高水準。火力はJERAに統合", field: "電力" },
@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     q: "電力・ガス業界の年収は上がっていますか？",
-    a: "収録9社のうち8社が直近期に上昇しています(2026年9月14日・IR BANK掲載の有報値で確認)。特に東邦ガス(2年で+143万円)・J-POWER(2年で+143万円)・大阪ガス(直近期+107万円)の伸びが大きく、電気・ガス料金の制度環境の変化と処遇改善が反映されています。唯一、関西電力は直近期▼35万円ですが、その前期に+142万円上昇していました。",
+    a: "収録9社のうち8社が直近期に上昇しています(2026年9月14日・IR BANK掲載の有価証券報告書の数値で確認)。特に東邦ガス(2年で+143万円)・J-POWER(2年で+143万円)・大阪ガス(直近期+107万円)の伸びが大きく、電気・ガス料金の制度環境の変化と処遇改善が反映されています。唯一、関西電力は直近期▼35万円ですが、その前期に+142万円上昇していました。",
   },
   {
     q: "この数値は技術職の平均年収ですか？",
@@ -88,7 +88,7 @@ export default function DenryokuGasSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 電力・ガス業界年収ランキング</h2>
+        <h2>有価証券報告書準拠 電力・ガス業界年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -96,7 +96,7 @@ export default function DenryokuGasSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">区分</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -151,14 +151,14 @@ export default function DenryokuGasSalaryRanking() {
 
         <h2>電力・ガス業界の転職で活用したいエージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          インフラは技術専門職の採用が中心で、非公開求人も多い業界です。複数登録で求人と情報を広く集めましょう。
+          インフラは技術専門職の採用が中心で、非公開求人も多い業界です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。電力・ガスの技術職から本社機能まで幅広くカバー。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。インフラ業界の同業比較・年収レンジ把握がしやすい。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。再エネ開発・新規事業などハイクラス職の市場価値把握に。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強み。海外エネルギー事業・プラント系のスペシャリスト・管理職に。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。電力・ガスの技術職から本社機能まで幅広い求人を扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。インフラ業界の同業比較・年収レンジ把握がしやすい点が特長です。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。再エネ開発・新規事業などハイクラス職の市場価値の把握に適しています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強みがあります。海外エネルギー事業・プラント系のスペシャリスト・管理職に。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -182,7 +182,7 @@ export default function DenryokuGasSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">電力・ガス業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/kensetsu-salary/" className="btn-outline px-8 py-3">建設の年収ランキングも見る</Link>
             <Link href="/company/tetsudo-salary/" className="btn-outline px-8 py-3">鉄道の年収ランキングも見る</Link>

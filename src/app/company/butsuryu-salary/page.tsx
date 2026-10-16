@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "陸運・物流の年収ランキング【2026年・有価証券報告書】",
-    description: "陸運・物流8社の平均年収を有報記載値でランキング。持株会社単体値の落とし穴とキャリア採用の入口も解説。",
+    description: "陸運・物流8社の平均年収を有価証券報告書の記載値でランキング。持株会社単体値の落とし穴とキャリア採用の入口も解説。",
   },
 };
 
-// 年収は各社ページ掲載の有報検証値（決算期付き）。各社ページと必ず一致させること。
+// 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
   { rank: 1, slug: "yamato-hd", name: "ヤマトホールディングス", salary: "約1,248万円", term: "2026年3月期", note: "宅急便のヤマト運輸を中核とする持株会社。8社で唯一1,000万円台だが持株会社単体の値で、平均36.4歳・勤続10.3年", field: "持株会社(宅配)" },
   { rank: 2, slug: "mitsubishi-logistics", name: "三菱倉庫", salary: "約943万円", term: "2026年3月期", note: "倉庫・港湾運送に不動産事業を併営。倉庫系で最高水準", field: "倉庫・不動産" },
@@ -33,14 +33,14 @@ const faqData = [
   },
   {
     q: "なぜ持株会社の平均年収は高く出るのですか？",
-    a: "有報の平均年間給与は「提出会社」に在籍する従業員が対象です。持株会社にはグループ運営に関わる本社機能のスタッフが中心に在籍し、現場職は事業会社側に所属します。そのため持株会社単体の平均は高く出やすくなります。今回の8社ではヤマトホールディングス・NIPPON EXPRESSホールディングス・SGホールディングス・セイノーホールディングスの4社が持株会社です。求人票の年収レンジと有報値がかけ離れて見えるのは、多くの場合この構造が理由です。",
+    a: "有価証券報告書の平均年間給与は「提出会社」に在籍する従業員が対象です。持株会社にはグループ運営に関わる本社機能のスタッフが中心に在籍し、現場職は事業会社側に所属します。そのため持株会社単体の平均は高く出やすくなります。今回の8社ではヤマトホールディングス・NIPPON EXPRESSホールディングス・SGホールディングス・セイノーホールディングスの4社が持株会社です。求人票の年収レンジと有価証券報告書の数値がかけ離れて見えるのは、多くの場合この構造が理由です。",
   },
   {
     q: "2024年問題のあと、物流の年収は上がっていますか？",
-    a: "8社中7社が直近3期で上昇しています。とくに山九は641万円→730万円と最新期だけで89万円増、上組は637→661→703万円、住友倉庫は790→814→844万円と連続して上昇しました。一方でNIPPON EXPRESSホールディングスは937万円(2023年12月期)→891→833万円と唯一減少しています。業界全体が一律に上がっているわけではない、というのが有報値から読み取れる実態です。",
+    a: "8社中7社が直近3期で上昇しています。とくに山九は641万円→730万円と最新期だけで89万円増、上組は637→661→703万円、住友倉庫は790→814→844万円と連続して上昇しました。一方でNIPPON EXPRESSホールディングスは937万円(2023年12月期)→891→833万円と唯一減少しています。業界全体が一律に上がっているわけではない、というのが有価証券報告書の数値から読み取れる実態です。",
   },
   {
-    q: "有報の平均年収はドライバー職も含んだ数字ですか？",
+    q: "有価証券報告書の平均年収はドライバー職も含んだ数字ですか？",
     a: "提出会社に在籍する従業員の平均です。持株会社(ヤマトHD・NX HD・SGHD・セイノーHD)の場合、ドライバー職は事業会社に所属するため基本的に含まれません。一方、山九・上組・三菱倉庫・住友倉庫のように事業会社そのものが上場している場合は現業職を含む平均になります。同じ「物流業界」でも数字の意味が違う点に注意してください。職種別の水準は募集要項やエージェント経由でご確認ください。",
   },
   {
@@ -88,7 +88,7 @@ export default function ButsuryuSalaryRanking() {
           </p>
         </div>
 
-        <h2>有報準拠 陸運・物流 年収ランキング</h2>
+        <h2>有価証券報告書準拠 陸運・物流 年収ランキング</h2>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -96,7 +96,7 @@ export default function ButsuryuSalaryRanking() {
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">順位</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">分野</th>
-                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有報）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与（有価証券報告書）</th>
                 <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">決算期</th>
               </tr>
             </thead>
@@ -154,7 +154,7 @@ export default function ButsuryuSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※NIPPON EXPRESSホールディングスは12月期決算のため、列の見出し(3月期)とは時点が異なります。山九の+89万円が最大の上げ幅で、NIPPON EXPRESSホールディングスの▲58万円が唯一の下落です。「2024年問題で物流は一律に給与が上がった」とは言えないことが、有報値から読み取れます。
+          ※NIPPON EXPRESSホールディングスは12月期決算のため、列の見出し(3月期)とは時点が異なります。山九の+89万円が最大の上げ幅で、NIPPON EXPRESSホールディングスの▲58万円が唯一の下落です。「2024年問題で物流は一律に給与が上がった」とは言えないことが、有価証券報告書の数値から読み取れます。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -174,7 +174,7 @@ export default function ButsuryuSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">持株会社か事業会社かで意味が違う</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">8社中4社が持株会社で、現場職は事業会社に所属します。求人票の年収と有報値がかけ離れて見える最大の理由がこれです。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">8社中4社が持株会社で、現場職は事業会社に所属します。求人票の年収と有価証券報告書の数値がかけ離れて見える最大の理由がこれです。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">決算期が揃っていない</h3>
@@ -182,20 +182,20 @@ export default function ButsuryuSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。8社では平均36.4〜47.5歳と幅があります。中途入社時の提示額とは別物です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。8社では平均36.4〜47.5歳と幅があります。中途入社時の提示額とは異なります。</p>
           </div>
         </div>
 
         <h2>陸運・物流業界への転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          物流業界は総合職と現業職で求人の出方が大きく違い、管理系ポジションは非公開求人の比率も高い領域です。複数登録で求人と情報を広く集めましょう。
+          物流業界は総合職と現業職で求人の出方が大きく違い、管理系ポジションは非公開求人の比率も高い領域です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。物流・倉庫・3PL領域の求人も幅広くカバー。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強み。国際線・海外拠点を持つ企業のポジション紹介に定評。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。市場価値の把握と、管理職・専門職ポジションの情報収集に。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社との年収レンジ比較がしやすい。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。物流・倉庫・3PL領域の求人も幅広く扱っています。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強みがあります。国際線・海外拠点を持つ企業のポジション紹介に定評。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職ポジションの情報収集に適しています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社との年収レンジ比較がしやすい点が特長です。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -219,7 +219,7 @@ export default function ButsuryuSalaryRanking() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">陸運・物流業界への転職を考えたら</h2>
-          <p className="text-white/70 text-sm mb-6">まずは各社の転職ガイドで一次データを確認し、エージェント経由でポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/shosha-salary/" className="btn-outline px-8 py-3">総合商社の年収ランキングも見る</Link>
             <Link href="/company/kuuun-salary/" className="btn-outline px-8 py-3">航空会社の年収ランキングも見る</Link>

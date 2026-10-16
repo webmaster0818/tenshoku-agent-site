@@ -169,7 +169,7 @@ export default function AccentureCareer() {
 
         {/* 中途採用の状況 */}
         <h2 id="s3">アクセンチュアの中途採用の状況</h2>
-        <p className="text-sm text-text-secondary mb-4">20代でコンサル・大手企業への転職を考えるなら、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />のような若手特化エージェントで職務経歴書の壁打ちから始めるのも近道です。</p>
+        <p className="text-sm text-text-secondary mb-4">20代でコンサル・大手企業への転職を検討する場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、職務経歴書の添削から始める方法もあります。</p>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
             アクセンチュアは中途採用を「経験者採用」として実施しており、
@@ -280,12 +280,12 @@ export default function AccentureCareer() {
             {
               name: "リクルートエージェント",
               href: "/review/recruit-agent/",
-              desc: "幅広い業界・職種を扱う大手総合型の転職エージェント。コンサル業界とあわせて事業会社の求人も比較しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
+              desc: "幅広い業界・職種を扱う大手総合型の転職エージェントです。コンサル業界とあわせて事業会社の求人も比較しながら、職務経歴書の作成や面接準備のサポートを受けられます。",
             },
             {
               name: "ビズリーチ",
               href: "/review/bizreach/",
-              desc: "ハイクラス向けのスカウト型転職サービス。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
+              desc: "ハイクラス向けのスカウト型転職サービスです。職務経歴を登録しておくと企業やヘッドハンターからスカウトが届く仕組みで、管理職・専門職のポジションを探したい方に向いています。",
             },
             {
               name: "JACリクルートメント",
@@ -295,7 +295,7 @@ export default function AccentureCareer() {
             {
               name: "doda",
               href: "/review/doda/",
-              desc: "大手総合型の転職サービス。転職サイトとエージェントサービスを併用できるため、コンサル業界の各社を自分でも検索しながら、効率的に情報収集できます。",
+              desc: "大手総合型の転職サービスです。転職サイトとエージェントサービスを併用できるため、コンサル業界の各社を自分でも検索しながら、効率的に情報収集できます。",
             },
             {
               name: "マイナビ転職エージェント",
@@ -335,7 +335,7 @@ export default function AccentureCareer() {
             アクセンチュア転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職エージェントを活用して、万全の準備で選考に臨みましょう。
+            転職エージェントを活用し、十分に準備したうえで選考に臨むことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

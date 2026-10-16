@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "歯科医師求人ナビ(PECORI)の評判は？歯科医師専門の転職エージェントを解説【2026年】",
-  description: "歯科医師求人ナビは株式会社PECORIが運営する歯科医師専門の転職サイト・エージェント。歯科業界専門で7年の実績を掲げ、歯科衛生士向け「歯科転職ナビ」・介護向けサービスも展開。特徴を公式情報ベースで解説します。利用は無料。",
+  description: "歯科医師求人ナビは株式会社PECORIが運営する歯科医師専門の転職サイト・エージェント。歯科業界専門で7年の実績を掲げ、歯科衛生士向け「歯科転職ナビ」・介護向けサービスも展開。特徴を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/shika-agent/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>歯科医師専門の転職サービス</strong>。急成長している歯科医師専門の転職サイトと公式に紹介されています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>歯科業界で7年の運営実績</strong>(A8プログラム上の紹介文・当サイト確認)。歯科衛生士向け・介護向けの姉妹サービスも展開しています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>歯科医師求人ナビは、歯科業界の人材サービスを複数展開するPECORIによる歯科医師専門の転職サービスです。専門職特化のマッチングが特徴で、利用は無料。歯科医師の転職は求人の地域偏在が大きいため、希望エリアの求人量を最初の相談で確認するのがポイントです。</p>
+        <p>歯科医師求人ナビは、歯科業界の人材サービスを複数展開するPECORIによる歯科医師専門の転職サービスです。専門職特化のマッチングが特徴で、利用は無料です。歯科医師の転職は求人の地域偏在が大きいため、希望エリアの求人量を最初の相談で確認するのがポイントです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

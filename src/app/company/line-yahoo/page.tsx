@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "LINEヤフーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+  title: "LINEヤフーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "LINEヤフー（証券コード4689）への転職を有価証券報告書などの一次データで解説。平均年間給与は約902万円（2026年3月期・有報集計値）で上昇傾向。LINE・Yahoo! JAPANを支える国内最大級のサービス開発と中途採用の状況をまとめました。",
+    "LINEヤフー（証券コード4689）への転職を有価証券報告書などの一次データで解説。平均年間給与は約902万円（2026年3月期・有価証券報告書集計値）で上昇傾向。LINE・Yahoo! JAPANを支える国内最大級のサービス開発と中途採用の状況をまとめました。",
   alternates: { canonical: "/company/line-yahoo/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "LINEヤフーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】",
+    title: "LINEヤフーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
     description: "LINEヤフー（4689）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
   },
 };
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            LINEヤフーへの転職は難しい？中途採用・平均年収・選考を徹底解説【2026年】
+            LINEヤフーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/line-yahoo.jpg" alt="LINEヤフーの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -84,7 +84,7 @@ export default function CompanyCareer() {
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
-            <li><a href="#s1" className="text-teal hover:underline">結論：LINEヤフー転職のポイント</a></li>
+            <li><a href="#s1" className="text-teal hover:underline">LINEヤフー転職の要点</a></li>
             <li><a href="#s2" className="text-teal hover:underline">LINEヤフーの基本データ（有価証券報告書）</a></li>
             <li><a href="#s3" className="text-teal hover:underline">LINEヤフーの中途採用の状況</a></li>
             <li><a href="#s4" className="text-teal hover:underline">LINEヤフーで求められる人材</a></li>
@@ -95,11 +95,11 @@ export default function CompanyCareer() {
           </ol>
         </nav>
 
-        <h2 id="s1">結論：LINEヤフー転職のポイント</h2>
+        <h2 id="s1">LINEヤフー転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約902万円（2026年3月期・有価証券報告書の集計値。IR BANK・日経会社情報掲載値・2026年8月19日確認）。提出会社10,577名の全職種平均。</li>
-            <li>819万円→884万円→902万円と上昇傾向（有報集計値ベース）。</li>
+            <li>819万円→884万円→902万円と上昇傾向（有価証券報告書集計値ベース）。</li>
             <li>採用はwww.lycorp.co.jp/ja/recruit/に集約。職種別のキャリア採用（2026年8月19日確認）。</li>
             <li>国内最大級トラフィックのサービス群（LINE・Yahoo! JAPAN）を扱える希少な環境。</li>
             <li>全職種平均であり、エンジニアのグレード別レンジは非公表。提示はオファーで個別確認が必要。</li>
@@ -141,7 +141,7 @@ export default function CompanyCareer() {
             <li>メッセージング・検索・コマース・広告・メディアなど、応募時に事業領域とポジションの対応を確認するのが基本。</li>
             <li>最新の募集状況・働き方の条件は公式採用ページで要確認。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開分まで含めて効率よく比較するなら、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />のような転職エージェント経由が実質的な入口になります。</p>
+          <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
         <h2 id="s4">LINEヤフーで求められる人材</h2>
@@ -167,7 +167,7 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "採用ページから応募", desc: "公式採用ページでポジションを確認し、オンラインで応募します。" },
             { step: 2, title: "書類選考", desc: "職務経歴と応募ポジションの要件適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）・技術選考", desc: "配属予定チームとの面接。エンジニア職は技術課題やコーディング確認が含まれる場合があります。" },
+            { step: 3, title: "面接（複数回）・技術選考", desc: "配属予定チームによる面接が行われます。エンジニア職は技術課題やコーディング確認が含まれる場合があります。" },
             { step: 4, title: "内定・条件提示", desc: "グレード・役割に応じた条件が提示され、確認を経て入社となります。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -194,10 +194,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニア特化。大規模Web系ポジションの技術要件の読み解きと選考対策に強みがあります。" },
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級。メガベンチャー・IT大手の求人も幅広く扱っています。" },
-            { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用可能。同業他社も含めた比較検討がしやすいのが強みです。" },
-            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型。ハイクラス・専門職の市場価値の把握と情報収集に向いています。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。大規模Web系ポジションの技術要件の読み解きと選考対策に強みがあります。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。メガベンチャー・IT大手の求人も幅広く扱っています。" },
+            { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めた比較検討がしやすい点が強みです。" },
+            { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。ハイクラス・専門職の市場価値の把握と情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -221,7 +221,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">LINEヤフー転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">まずは情報収集から。公式採用ページとエージェントの両方で、ポジションごとの実情を確かめましょう。</p>
+          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

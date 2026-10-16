@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>放射線科領域に特化した転職サービス</strong>。放射線科医・消化器科医・内視鏡専門医・診療放射線技師・臨床検査技師が対象です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営は遠隔読影サービス大手のドクターネット</strong>。東証上場企業のグループ会社と公式に記載されています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ドクターネットエージェントは、遠隔読影大手の業界知見を土台にした放射線科特化の転職サービスです。医師・技師の両方に対応し、利用は無料。放射線領域はニッチなため、医療系総合サービスと併用して求人の幅を確保するのがおすすめです。</p>
+        <p>ドクターネットエージェントは、遠隔読影大手の業界知見を土台にした放射線科特化の転職サービスです。医師・技師の両方に対応し、利用は無料です。放射線領域はニッチなため、医療系総合サービスと併用して求人の幅を確保するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

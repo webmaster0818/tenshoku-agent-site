@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職エージェント比較ラボ【2026年最新】",
-    description: "転職エージェント59サービスと、有報準拠の企業年収184社を比較できるサイトです。",
+    description: "転職エージェント59サービスと、有価証券報告書準拠の企業年収184社を比較できるサイトです。",
   },
 };
 
@@ -161,7 +161,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { num: "59件", label: "掲載エージェント・サービス" },
-              { num: "184社", label: "企業別の年収データ(有報)" },
+              { num: "184社", label: "企業別の年収データ(有価証券報告書)" },
               { num: "15業界", label: "年収ランキング" },
               { num: "完全無料", label: "エージェント利用料金" },
             ].map((stat) => (
@@ -374,7 +374,7 @@ export default function HomePage() {
             { href: "/review/type-woman/", slug: "type-woman", title: "type女性の転職エージェント", tag: "女性", desc: "東証プライム上場CDC運営の女性特化型", official: "https://type.woman-agent.jp/", affiliate: null as string | null },
             { href: "/review/assign/", slug: "assign", title: "ASSIGN（アサイン）", tag: "20-30代ハイエンド", desc: "価値観からキャリアプランを設計", official: "https://assign-inc.com/", affiliate: null as string | null },
             { href: "/review/agent-navi/", slug: "agent-navi", title: "転職AGENT Navi", tag: "20代・既卒", desc: "相性でエージェントを紹介するマッチング型", official: "https://service.circus-group.jp/circus/agentnavi/", affiliate: null as string | null },
-            { href: "/review/bizreach/", slug: "bizreach", title: "ビズリーチ", tag: "ハイクラス", desc: "スカウト型。年収600万円以上向け", official: "https://www.bizreach.jp/", affiliate: null as string | null },
+            { href: "/review/bizreach/", slug: "bizreach", title: "ビズリーチ", tag: "ハイクラス", desc: "スカウト型のサービスです。年収600万円以上向け", official: "https://www.bizreach.jp/", affiliate: null as string | null },
             { href: "/review/jac/", slug: "jac", title: "JACリクルートメント", tag: "外資・グローバル", desc: "外資系・海外転職に強い", official: "https://www.jac-recruitment.jp/", affiliate: null as string | null },
           ].map((a) => (
             <div key={a.href} className="card-hover flex flex-col overflow-hidden">

@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "プライムキャリアの評判は？不動産・設備・建設専門の転職支援サイトを解説【2026年】",
-  description: "プライムキャリア(Prime Career)はジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイト。売買仲介からPM・AM・FM・ビルメンテナンスまで業界職種を網羅。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "プライムキャリア(Prime Career)はジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイト。売買仲介からPM・AM・FM・ビルメンテナンスまで業界職種を網羅。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/prime-career/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>不動産・設備・建設の3領域専門</strong>の転職支援サイト。業界職種を細分化して求人検索できます。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>PM・AM・FM・設備管理などの管理系職種まで網羅</strong>。営業系だけでない不動産キャリアを探せます。</span></li>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>プライムキャリアは、不動産・設備・建設領域の職種を細かく網羅した業界特化の転職支援サイトです。管理系・技術系職種までカバーする検索性が特徴で、利用は無料。同じ業界特化のRSG等と併用し、求人の重なりと違いを比較するのがおすすめです。</p>
+        <p>プライムキャリアは、不動産・設備・建設領域の職種を細かく網羅した業界特化の転職支援サイトです。管理系・技術系職種までカバーする検索性が特徴で、利用は無料です。同じ業界特化のRSG等と併用し、求人の重なりと違いを比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

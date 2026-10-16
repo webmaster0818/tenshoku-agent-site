@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "hape Agent(エイプエージェント)の評判は？営業職特化の転職エージェントを解説【2026年】",
-  description: "hape Agent(エイプエージェント)は株式会社hapeが運営する営業職特化型の転職エージェント。顧客満足度98%(公式表記)を掲げ、営業職特有のキャリアの悩みに専門対応。特徴・向いている人を公式情報ベースで解説します。利用は無料。",
+  description: "hape Agent(エイプエージェント)は株式会社hapeが運営する営業職特化型の転職エージェント。顧客満足度98%(公式表記)を掲げ、営業職特有のキャリアの悩みに専門対応。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/hape-agent/" },
 };
 
@@ -59,7 +59,7 @@ export default function Page() {
 
 
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
-          <p className="font-bold text-teal mb-2 text-lg">この記事の結論</p>
+          <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>営業職に特化した転職エージェント</strong>。業種・職種・働き方など営業のキャリアを専門に扱います。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>顧客満足度98%</strong>(公式サイト表記・2026年8月22日確認)。初回サポートの手厚さを公式に強調しています。</span></li>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>hape Agentは、営業職のキャリアだけを専門に扱う特化型エージェントです。営業特有の悩みの言語化支援と実務的なナレッジ公開が特徴で、利用は無料。営業職の転職では総合型と1社ずつ併用し、提案される求人の質を比較するのがおすすめです。</p>
+        <p>hape Agentは、営業職のキャリアだけを専門に扱う特化型エージェントです。営業特有の悩みの言語化支援と実務的なナレッジ公開が特徴で、利用は無料です。営業職の転職では総合型と1社ずつ併用し、提案される求人の質を比較するのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
