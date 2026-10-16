@@ -117,14 +117,14 @@ export default function RecruitAgentReview() {
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社リクルート</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公開 約76万件／非公開 約27万件（公式・2026年5月30日時点）＝業界最大級</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公開 約82万件／非公開 約24万件（公式・2026年9月29日時点。表示件数は採用予定数）＝業界最大級</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトでは「完全無料」と明記）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">全年代対応の総合型（現スキル・経験を活かす転職に強い）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">専門部門「リクルートエージェントIT」あり。IT出身アドバイザーが対応し、リモート案件も豊富</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：リクルートエージェント公式（r-agent.com・公開76万/非公開27万件は2026年5月30日時点表示）、2026年6月21日確認。求人数は時期により変動します。</p>
+        <p className="text-xs text-text-muted mb-8">出典：リクルートエージェント公式（r-agent.com）。求人数（公開約82万/非公開約24万件・2026年9月29日時点の表示）は2026年10月17日確認、その他の項目は2026年6月21日確認です。求人数は時期により変動します。</p>
 
         {/* IT・口コミ（検索意図対応） */}
         <h2>ITエンジニア転職におけるリクルートエージェントの評判</h2>

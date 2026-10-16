@@ -75,7 +75,7 @@ const companies = [
   { slug: "konica-minolta", name: "コニカミノルタ", salary: "約844万円（有価証券報告書）", tag: "精密機器" },
   { slug: "renesas", name: "ルネサスエレクトロニクス", salary: "約749万円（有価証券報告書・12月期）", tag: "半導体" },
   { slug: "disco", name: "ディスコ", salary: "約1,879万円（有価証券報告書）", tag: "半導体装置" },
-  { slug: "lasertec", name: "レーザーテック", salary: "約1,681万円（有価証券報告書）", tag: "半導体装置" },
+  { slug: "lasertec", name: "レーザーテック", salary: "約1,881万円（有価証券報告書）", tag: "半導体装置" },
   { slug: "advantest", name: "アドバンテスト", salary: "約1,098万円（有価証券報告書）", tag: "半導体装置" },
   { slug: "bandai-namco", name: "バンダイナムコHD", salary: "約984万円（有価証券報告書・持株）", tag: "ゲーム・玩具" },
   { slug: "yamaha-motor", name: "ヤマハ発動機", salary: "約835万円（有価証券報告書）", tag: "輸送機器" },
