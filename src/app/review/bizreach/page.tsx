@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image.jpg"],
     title: "ビズリーチの評判・口コミは？「やばい」噂の真相とメリット・デメリット",
     description:
-      "ビズリーチの評判・口コミ、スカウトの実態、無料／有料プランの違い、メリット・デメリット、向いている人を解説。",
+      "ビズリーチの評判・口コミ、スカウトの実態、無料／有料プランの違い、メリット・デメリット、向いている人を解説します。",
   },
 };
 
@@ -163,19 +163,19 @@ export default function BizreachReview() {
           <div className="glass-card p-5">
             <p className="font-bold text-teal mb-2">良い評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>企業・ヘッドハンターから直接スカウトが届く</li>
-              <li>年収600万円以上の優良・非公開求人に出会える</li>
-              <li>自分の市場価値を客観的に把握できる</li>
-              <li>在職中でも自分のペースで活動できる</li>
+              <li>企業・ヘッドハンターからの直接スカウト</li>
+              <li>年収600万円以上の優良・非公開求人との出会い</li>
+              <li>市場価値の客観的な把握</li>
+              <li>在職中でも自分のペースで活動可能</li>
             </ul>
           </div>
           <div className="glass-card p-5">
             <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>スカウトメールの量が多いと感じる場合がある</li>
-              <li>年収600万円未満だとスカウトが届きにくい</li>
+              <li>スカウトメールの量の多さ</li>
+              <li>年収600万円未満ではスカウトが少なめ</li>
               <li>全機能を使うには有料プランが必要</li>
-              <li>ヘッドハンターの質・対応に差がある</li>
+              <li>ヘッドハンターの質・対応の差</li>
             </ul>
           </div>
         </div>
@@ -251,11 +251,11 @@ export default function BizreachReview() {
             <ul className="space-y-2">
               {[
                 "年収600万円以上のハイクラス求人に特化",
-                "企業やヘッドハンターから直接スカウトが届く",
-                "自分の市場価値を客観的に把握できる",
-                "非公開求人や独占求人にアクセスできる",
+                "企業やヘッドハンターからの直接スカウト",
+                "市場価値の客観的な把握",
+                "非公開求人・独占求人へのアクセス",
                 "管理職・経営幹部クラスの求人が豊富",
-                "在職中でも自分のペースで活動できる",
+                "在職中でも自分のペースで活動可能",
                 "登録は無料、無料プランでもプラチナスカウトに返信可能",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
@@ -268,10 +268,10 @@ export default function BizreachReview() {
             <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
-                "全機能を使うには有料プランが必要な場合がある",
+                "全機能の利用には有料プランが必要な場合あり",
                 "年収600万円未満の求人は少なめ",
-                "審査制のため経歴によっては利用しにくい",
-                "スカウトメールが多く届くことがある",
+                "審査制のため経歴によっては利用が難しい場合あり",
+                "スカウトメールが多く届く場合あり",
                 "総合型と比べると伴走サポートは手薄",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">

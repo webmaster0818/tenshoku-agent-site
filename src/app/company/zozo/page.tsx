@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "ZOZOへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "ZOZO（証券コード3092）への転職を有価証券報告書などの一次データで解説。平均年間給与は約856万円（2026年3月期・有価証券報告書）で、前期656万円から200万円の大幅増となりました。ZOZOTOWNを支える技術職の採用状況、千葉本社の働き方までまとめています。",
+    "ZOZO（証券コード3092）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約856万円（2026年3月期・有価証券報告書）で、前期656万円から200万円の大幅増となりました。ZOZOTOWNを支える技術職の採用状況、千葉本社の働き方までまとめています。",
   alternates: { canonical: "/company/zozo/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "ZOZOへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "ZOZO（3092）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "ZOZO（3092）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 

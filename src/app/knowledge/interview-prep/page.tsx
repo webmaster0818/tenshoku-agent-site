@@ -93,9 +93,9 @@ export default function InterviewPrepPage() {
               {[
                 "オフィスカジュアル（きれいめの私服）",
                 "襟付きシャツ＋チノパン・スラックス",
-                "ジャケットがあればなおよい",
+                "ジャケットがあればより好印象",
                 "清潔感のある靴（スニーカーも可）",
-                "オンライン面談は上半身のみ見えるので、トップスだけでも整える",
+                "オンライン面談ではトップスだけでも整えた服装",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}

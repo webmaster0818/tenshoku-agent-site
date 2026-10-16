@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "NSユナイテッド海運への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "NSユナイテッド海運（証券コード9110）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,196万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "NSユナイテッド海運（証券コード9110）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約1,196万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/nsunited/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "NSユナイテッド海運への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "NSユナイテッド海運（9110）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "NSユナイテッド海運（9110）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 

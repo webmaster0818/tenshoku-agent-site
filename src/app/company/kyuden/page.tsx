@@ -6,7 +6,7 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "九州電力の中途採用・年収【2026年10月】キャリア採用の応募資格・選考ステップ・平均年収842万円",
   description:
-    "九州電力の平均年収は約842万円（2026年3月期・有価証券報告書）、2年で+90万円。経験者採用（キャリア）は原則45歳未満・前職不問、選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。高度専門採用との違いも整理。",
+    "九州電力の平均年収は約842万円（2026年3月期・有価証券報告書）、2年で+90万円。経験者採用（キャリア）は原則45歳未満・前職不問、選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。高度専門採用との違いも整理しています。",
   alternates: { canonical: "/company/kyuden/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],

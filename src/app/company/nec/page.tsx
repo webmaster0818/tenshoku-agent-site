@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "NECへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "NEC（証券コード6701）への転職を有価証券報告書などの一次データで解説。平均年間給与は約994万円（2026年3月期・有価証券報告書／単体）。直近の年収推移・中途採用の状況・選考の考え方についてまとめています。",
+    "NEC（証券コード6701）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約994万円（2026年3月期・有価証券報告書／単体）。直近の年収推移・中途採用の状況・選考の考え方についてまとめています。",
   alternates: { canonical: "/company/nec/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "NECへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "NEC（6701）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "NEC（6701）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 

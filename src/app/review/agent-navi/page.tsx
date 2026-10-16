@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     images: ["/opengraph-image.jpg"],
     title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
     description:
-      "転職AGENT Navi（転職エージェントナビ）の口コミ・評判の傾向と、仕組み・注意点を公式情報ベースで解説。利用は無料です。",
+      "転職AGENT Navi（転職エージェントナビ）の口コミ・評判の傾向と、仕組み・注意点を公式情報ベースで解説します。利用は無料です。",
   },
 };
 

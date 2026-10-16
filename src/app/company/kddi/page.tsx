@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "KDDIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "KDDI（証券コード9433）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,051万円（2026年3月期・有価証券報告書／提出会社）で、3年連続で上昇しています。ジョブ型人事のもとでのキャリア採用や、通信×IT（5G・クラウド・データ・AI）の募集領域についてもまとめています。",
+    "KDDI（証券コード9433）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約1,051万円（2026年3月期・有価証券報告書／提出会社）で、3年連続で上昇しています。ジョブ型人事のもとでのキャリア採用や、通信×IT（5G・クラウド・データ・AI）の募集領域についてもまとめています。",
   alternates: { canonical: "/company/kddi/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "KDDIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "KDDI（9433）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "KDDI（9433）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 

@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/fukuoka/" },
   title: "福岡でおすすめの転職エージェント5選｜九州エリアの求人事情と活用法",
   description:
-    "福岡で転職を考えている方におすすめの転職エージェントを紹介。IT企業の進出が進む福岡・九州エリアの求人市場の特徴と活用法を解説します。",
+    "福岡で転職を考えている方におすすめの転職エージェントを紹介します。IT企業の進出が進む福岡・九州エリアの求人市場の特徴と活用法を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "福岡でおすすめの転職エージェント5選｜九州エリアの求人事情と活用法",
-    description: "福岡での転職に強いエージェントを厳選紹介。",
+    description: "福岡での転職に強いエージェントを厳選して紹介します。",
   },
 };
 
@@ -99,9 +99,9 @@ export default function FukuokaPage() {
             <ul className="space-y-1 text-sm text-text-secondary">
               <li>IT企業の進出・誘致が活発</li>
               <li>スタートアップ支援が充実</li>
-              <li>生活コストが東京より大幅に低い</li>
+              <li>東京より大幅に低い生活コスト</li>
               <li>コンパクトシティで通勤が快適</li>
-              <li>食やアクセスなど生活の質が高い</li>
+              <li>食やアクセスなど質の高い生活環境</li>
               <li>アジアに近く国際ビジネスに有利</li>
             </ul>
           </div>

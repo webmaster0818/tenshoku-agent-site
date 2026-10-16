@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/shosha-salary/" },
   title: "総合商社の年収ランキング【2026年・有価証券報告書】7大商社+専門商社を一次データで比較",
   description:
-    "総合商社の平均年収を有価証券報告書の記載値（2026年3月期）でランキング。三菱商事2,112万円・三井物産2,058万円・伊藤忠商事1,991万円・住友商事1,840万円・丸紅1,784万円の5大商社に、豊田通商・双日・兼松を加えた9社。全従業員平均の意味、キャリア採用の入口まで一次データで解説します。",
+    "総合商社の平均年収を有価証券報告書の記載値（2026年3月期）でランキングしています。三菱商事2,112万円・三井物産2,058万円・伊藤忠商事1,991万円・住友商事1,840万円・丸紅1,784万円の5大商社に、豊田通商・双日・兼松などを加えた9社を掲載し、全従業員平均の意味と採用の入口まで解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "総合商社の年収ランキング【2026年・有価証券報告書】",
-    description: "7大商社+専門商社9社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
+    description: "7大商社+専門商社9社の平均年収を有価証券報告書の記載値でランキングしています。キャリア採用の入口も解説します。",
   },
 };
 
@@ -140,7 +140,7 @@ export default function ItConsultantSalaryRanking() {
             <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票や転職エージェント経由で確認することをおすすめします。</p>
           </div>
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続年数で上振れする</h3>
+            <h3 className="font-bold text-navy mb-2 text-sm">年齢・勤続年数による平均値の上振れ</h3>
             <p className="text-xs text-text-secondary leading-relaxed">勤続年数が長く平均年齢が高い企業ほど、全社員平均は高く出ます。中途入社時の提示額とは異なる点にご留意ください。</p>
           </div>
           <div className="card-hover p-5">

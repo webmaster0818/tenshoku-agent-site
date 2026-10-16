@@ -140,16 +140,16 @@ export default function MynaviReview() {
             <p className="font-bold text-teal mb-2">良い評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
               <li>親身で丁寧なカウンセリング</li>
-              <li>書類添削・面接対策が手厚い</li>
-              <li>20代・第二新卒向けの求人が豊富で、ミスマッチが少ない</li>
+              <li>手厚い書類添削・面接対策</li>
+              <li>20代・第二新卒向けの豊富な求人と少ないミスマッチ</li>
             </ul>
           </div>
           <div className="glass-card p-5">
             <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
               <li>ハイクラス・高年収の求人は相対的に少なめ</li>
-              <li>求人総数はリクルート・dodaに劣る</li>
-              <li>担当者の質・相性にばらつきがある／連絡が多いと感じる場合がある</li>
+              <li>リクルート・dodaより少ない求人総数</li>
+              <li>担当者の質・相性のばらつき／連絡の多さ</li>
             </ul>
           </div>
         </div>
@@ -204,8 +204,8 @@ export default function MynaviReview() {
                 "20代・第二新卒向けの求人が豊富",
                 "キャリアアドバイザーの対応が丁寧",
                 "書類添削・面接対策のサポートが充実",
-                "IT・メーカー・営業職に強い",
-                "マイナビグループのネットワークを活かした独自求人がある",
+                "IT・メーカー・営業職に強み",
+                "マイナビグループのネットワークを活かした独自求人",
                 "初めての転職でも安心のサポート体制",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
@@ -219,8 +219,8 @@ export default function MynaviReview() {
             <ul className="space-y-2">
               {[
                 "30代後半以降の求人は大手に比べると少なめ",
-                "求人総数はリクルートエージェントやdodaに劣る",
-                "ハイクラス・管理職向けの求人は少ない",
+                "リクルートエージェントやdodaより少ない求人総数",
+                "ハイクラス・管理職向けの求人は少なめ",
                 "地方の求人は都市部と比べると限定的",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">

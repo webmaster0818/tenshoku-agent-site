@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "山九への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "山九（証券コード9065）への転職を有価証券報告書などの一次データで解説。平均年間給与は約730万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "山九（証券コード9065）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約730万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/sankyu/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "山九への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "山九（9065）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "山九（9065）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 

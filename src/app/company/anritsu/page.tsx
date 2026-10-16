@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "アンリツへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "アンリツ（証券コード6754）への転職を有価証券報告書などの一次データで解説。平均年間給与は約783万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "アンリツ（証券コード6754）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約783万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/anritsu/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "アンリツへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "アンリツ（6754）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "アンリツ（6754）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 

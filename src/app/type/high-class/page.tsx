@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/type/high-class/" },
   title: "ハイクラス向け転職エージェントおすすめ｜年収600万円以上のキャリアアップ",
   description:
-    "ハイクラス転職におすすめのエージェントを厳選紹介。ビズリーチ、JACリクルートメント、リクルートエージェントなど、年収600万円以上のハイクラス求人に強いエージェントの特徴とスカウト活用法を解説します。",
+    "ハイクラス転職におすすめのエージェントを厳選して紹介します。ビズリーチ、JACリクルートメント、リクルートエージェントなど、年収600万円以上のハイクラス求人に強いエージェントの特徴とスカウト活用法を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "ハイクラス向け転職エージェントおすすめ｜年収600万円以上のキャリアアップ",
-    description: "年収600万円以上のハイクラス転職に強いエージェントを厳選紹介。",
+    description: "年収600万円以上のハイクラス転職に強いエージェントを厳選して紹介します。",
   },
 };
 
@@ -151,9 +151,9 @@ export default function HighClassPage() {
               {[
                 "年収600万円以上の好条件求人に特化",
                 "非公開求人・独占求人へのアクセス",
-                "コンサルタントの質が高い",
-                "年収交渉のサポートが手厚い",
-                "経営層とのネットワークがある",
+                "質の高いコンサルタント",
+                "手厚い年収交渉サポート",
+                "経営層とのネットワーク",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}
@@ -165,10 +165,10 @@ export default function HighClassPage() {
             <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
-                "一定のスキル・経験がないと利用しにくい",
-                "求人数は総合型エージェントより少ない",
-                "有料プランが必要なサービスもある",
-                "選考の難易度が高い求人が多い",
+                "一定のスキル・経験が利用の前提",
+                "総合型エージェントより少ない求人数",
+                "一部サービスは有料プランが必要",
+                "選考難易度の高い求人が中心",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}

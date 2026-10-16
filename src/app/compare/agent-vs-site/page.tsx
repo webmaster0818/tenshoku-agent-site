@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職エージェントと転職サイトの違い｜12項目で比較・向いている人を解説",
-    description: "転職エージェントと転職サイトの違いを12項目で比較。",
+    description: "転職エージェントと転職サイトの違いを12項目で比較します。",
   },
 };
 
@@ -42,7 +42,7 @@ const comparisonItems = [
   { item: "年収交渉", agent: "代行してくれる", site: "自分で行う" },
   { item: "面接日程調整", agent: "代行してくれる", site: "自分で行う" },
   { item: "転職活動のペース", agent: "アドバイザーと相談", site: "自分のペースで自由" },
-  { item: "求人数の幅", agent: "非公開求人含め幅広い", site: "公開求人のみだが一覧性が高い" },
+  { item: "求人数の幅", agent: "非公開求人含め幅広い", site: "公開求人のみ（一覧性が高い）" },
   { item: "費用", agent: "無料", site: "無料" },
   { item: "向いている経験レベル", agent: "全レベル", site: "ある程度経験がある人" },
   { item: "転職活動の自由度", agent: "やや制約あり", site: "自由度が高い" },

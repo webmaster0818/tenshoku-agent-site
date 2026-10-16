@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "リクルートエージェント vs doda 比較｜10項目で違いを解説",
-    description: "リクルートエージェントとdodaの違いを10項目で比較。",
+    description: "リクルートエージェントとdodaの違いを10項目で比較します。",
   },
 };
 

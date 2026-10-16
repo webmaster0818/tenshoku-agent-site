@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/" },
   title: "転職エージェント活用ガイド一覧｜使い方・面談・メール例文・書類対策【2026年】",
   description:
-    "転職エージェントの使い方・選び方から、面談準備、お礼メール例文、職務経歴書の書き方、複数利用のコツまで。転職活動の各ステップで役立つ実践ガイドの一覧ページです。",
+    "転職エージェントの使い方・選び方から、面談準備、お礼メール例文、職務経歴書の書き方、複数利用のコツまで、転職活動の各ステップで役立つ実践ガイドの一覧ページです。",
 };
 
 const guides = [
@@ -24,7 +24,7 @@ const guides = [
 ];
 
 const compares = [
-  { href: "/compare/agent-vs-site/", title: "エージェント vs 転職サイト", desc: "12項目で違いを比較。向いているのはどちらか" },
+  { href: "/compare/agent-vs-site/", title: "エージェント vs 転職サイト", desc: "12項目で違いを比較します。向いているのはどちらか" },
   { href: "/compare/recruit-vs-doda/", title: "リクルート vs doda", desc: "2大エージェントを10項目で比較" },
   { href: "/compare/mynavi-vs-recruit/", title: "マイナビ vs リクルート", desc: "20代の定番2社を比較" },
 ];

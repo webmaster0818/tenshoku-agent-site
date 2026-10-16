@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/nagoya/" },
   title: "名古屋でおすすめの転職エージェント5選｜東海エリアの求人事情と活用法",
   description:
-    "名古屋・東海エリアで転職を考えている方におすすめの転職エージェントを紹介。自動車産業をはじめとする東海エリアの求人市場の特徴と活用法を解説します。",
+    "名古屋・東海エリアで転職を考えている方におすすめの転職エージェントを紹介します。自動車産業をはじめとする東海エリアの求人市場の特徴と活用法を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "名古屋でおすすめの転職エージェント5選｜東海エリアの求人事情と活用法",
-    description: "名古屋での転職に強いエージェントを厳選紹介。",
+    description: "名古屋での転職に強いエージェントを厳選して紹介します。",
   },
 };
 
@@ -99,7 +99,7 @@ export default function NagoyaPage() {
             <ul className="space-y-1 text-sm text-text-secondary">
               <li>製造業の技術職求人が豊富</li>
               <li>大手メーカーの本社・工場が集中</li>
-              <li>生活コストが東京より低い</li>
+              <li>東京より低い生活コスト</li>
               <li>有効求人倍率が全国平均より高い傾向</li>
               <li>交通アクセスが良好</li>
               <li>IT業界の求人も増加傾向</li>

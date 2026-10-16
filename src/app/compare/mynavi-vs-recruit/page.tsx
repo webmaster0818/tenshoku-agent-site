@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "マイナビエージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか",
-    description: "マイナビとリクルートの違いを10項目で比較。20代はどちらが向くか解説。",
+    description: "マイナビとリクルートの違いを10項目で比較します。20代はどちらが向くか解説します。",
   },
 };
 

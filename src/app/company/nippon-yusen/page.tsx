@@ -6,7 +6,7 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "日本郵船への転職【2026年10月】中途採用の募集職種・応募資格・選考と平均年収1,554万円",
   description:
-    "日本郵船のキャリア採用（中途）は陸上職事務系・陸上職技術系・海上職の3職種＋リボーディング制度。応募資格「経験職務・業界は不問」、選考は書類と面接3回程度（公式募集要項・2026年10月15日確認）。平均年収約1,554万円（有価証券報告書）も整理。",
+    "日本郵船のキャリア採用（中途）は陸上職事務系・陸上職技術系・海上職の3職種＋リボーディング制度。応募資格「経験職務・業界は不問」、選考は書類と面接3回程度（公式募集要項・2026年10月15日確認）。平均年収約1,554万円（有価証券報告書）も整理しています。",
   alternates: { canonical: "/company/nippon-yusen/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],

@@ -5,12 +5,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "陸運・物流の年収ランキング【2026年・有価証券報告書】ヤマト・日通ほか8社を一次データで比較",
   description:
-    "陸運・物流8社の平均年収を有価証券報告書の記載値でランキング。ヤマトホールディングス1,248万円・三菱倉庫943万円・住友倉庫844万円・NIPPON EXPRESSホールディングス833万円ほか。持株会社単体値とドライバー職の水準が異なる点、2024年問題以降の推移まで一次データで解説します。",
+    "陸運・物流8社の平均年収を有価証券報告書の記載値でランキングしています。ヤマトホールディングス1,248万円・三菱倉庫943万円・住友倉庫844万円・NIPPON EXPRESSホールディングス833万円ほかを掲載し、持株会社単体値とドライバー職の水準の違い、2024年問題以降の推移まで解説します。",
   alternates: { canonical: "/company/butsuryu-salary/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "陸運・物流の年収ランキング【2026年・有価証券報告書】",
-    description: "陸運・物流8社の平均年収を有価証券報告書の記載値でランキング。持株会社単体値の注意点とキャリア採用の入口も解説。",
+    description: "陸運・物流8社の平均年収を有価証券報告書の記載値でランキングしています。持株会社単体値の注意点とキャリア採用の入口も解説します。",
   },
 };
 
@@ -181,7 +181,7 @@ export default function ButsuryuSalaryRanking() {
             <p className="text-xs text-text-secondary leading-relaxed">NIPPON EXPRESSホールディングスだけが12月期決算です。同じ「最新期」でも時点が3ヶ月ずれるため、単純比較には注意が必要です。</p>
           </div>
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続年数で上振れする</h3>
+            <h3 className="font-bold text-navy mb-2 text-sm">年齢・勤続年数による平均値の上振れ</h3>
             <p className="text-xs text-text-secondary leading-relaxed">平均年齢が高く勤続が長い会社ほど全社員平均は高く出ます。8社では平均36.4〜47.5歳と幅があります。中途入社時の提示額とは異なります。</p>
           </div>
         </div>

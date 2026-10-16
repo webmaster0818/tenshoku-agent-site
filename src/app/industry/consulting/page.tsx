@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/consulting/" },
   title: "コンサル転職エージェントおすすめ｜特化型MyVision・NewMAの比較とケース面接対策",
   description:
-    "コンサル業界への転職におすすめのエージェントを紹介。JACリクルートメント・ビズリーチ・リクルートエージェントに加え、コンサル特化型のMyVisionとNewMAを対象領域・未経験の扱い・サポート内容・許可番号で比較（2026年10月14日確認）。ケース面接対策も解説します。",
+    "コンサル業界への転職におすすめのエージェントを紹介します。JACリクルートメント・ビズリーチ・リクルートエージェントに加え、コンサル特化型のMyVisionとNewMAを対象領域・未経験の扱い・サポート内容・許可番号で比較（2026年10月14日確認）。ケース面接対策も解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "コンサル転職エージェントおすすめ｜特化型MyVision・NewMAの比較とケース面接対策",
