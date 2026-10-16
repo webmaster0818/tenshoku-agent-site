@@ -85,7 +85,7 @@ export default function Page() {
 
         <h2>サスキャリの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ESG・サステナ領域という成長ニッチへの特化</h3><p className="text-sm text-text-secondary leading-relaxed">脱炭素・人的資本開示などで需要が拡大するサステナビリティ人材市場に絞った、希少な特化型サービスです。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ESG・サステナ領域という成長ニッチへの特化</h3><p className="text-sm text-text-secondary leading-relaxed">脱炭素・人的資本開示などで需要が拡大するサステナビリティ人材市場に絞った、数少ない特化型サービスです。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">コンサルと事業会社の横断比較</h3><p className="text-sm text-text-secondary leading-relaxed">外資系SXコンサルファームと事業会社のサステナ推進部門の両方をカバーし、キャリアパスを横断して比較できます。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">セクターを超えた職種区分</h3><p className="text-sm text-text-secondary leading-relaxed">民間だけでなく中央省庁・国際機関・地方自治体・NPO/NGOまで職種区分に含まれており、公共セクターも視野に入れられます。</p></div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>サスキャリは、拡大するESG・サステナビリティ人材市場に特化した希少な転職支援サービスです。コンサル・事業会社・公共セクターを横断できるのが特徴で、利用は無料です。コンサル特化型やハイクラス型と併用してキャリアの選択肢を比較することをおすすめします。</p>
+        <p>サスキャリは、拡大するESG・サステナビリティ人材市場に特化した数少ない転職支援サービスです。コンサル・事業会社・公共セクターを横断できるのが特徴で、利用は無料です。コンサル特化型やハイクラス型と併用してキャリアの選択肢を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

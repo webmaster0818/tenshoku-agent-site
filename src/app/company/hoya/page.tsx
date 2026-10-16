@@ -231,7 +231,7 @@ export default function HoyaCareer() {
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業や技術系専門職に強みがあります。HOYAのような高収益グローバルメーカーの専門ポジションと相性が良いです。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業や技術系専門職に強みがあります。HOYAのような高収益グローバルメーカーの専門ポジションの紹介に適しています。" },
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。メーカー・研究開発・医療機器など幅広い求人を扱い、非公開求人の紹介も期待できます。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス向けのスカウト型サービスです。管理職や専門性の高いポジションの情報収集に向いています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用でき、メーカー・技術系求人が充実しています。同業他社も含めて比較できます。" },

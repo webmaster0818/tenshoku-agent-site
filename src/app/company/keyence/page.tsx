@@ -134,7 +134,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">キーエンスは公式の<a href="https://www.keyence.co.jp/jobs/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用情報ページ</a>に「キャリア採用情報」のリンクを設けており、そこから<a href="https://axol.jp/zw/c/keyence/public/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用求人一覧（応募システム）</a>へ進んで応募する方式です。2026年7月31日確認時点では、技術系（開発・デザイン）中心の掲載でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種（求人一覧ページの公式表記）：ソフトウェア開発 / 商品デザイン(UX/UI・プロダクトデザイン) / ソフト開発リーダー(マネージャ) / ソフト開発リーダー(アーキテクト) / ソフト開発エンジニア / ＡＩエンジニア / 光学/構造/機構開発(クリエイター) / 光学/構造/機構開発(エンジニア) / 回路/システム開発（2026年7月31日確認時点）。</li>
+            <li>募集職種（求人一覧ページの公式表記）：ソフトウェア開発 / 商品デザイン(UX/UI・プロダクトデザイン) / ソフト開発リーダー(マネージャ) / ソフト開発リーダー(アーキテクト) / ソフト開発エンジニア / ＡＩエンジニア / 光学/構造/機構開発(クリエイター) / 光学/構造/機構開発(エンジニア) / 回路/システム開発などがあります（2026年7月31日確認時点）。</li>
             <li>応募方法：公式採用情報ページからリンクされるキャリア採用求人一覧（応募システム）経由で応募します。</li>
             <li>確認したページ（採用情報トップ・求人一覧）には選考プロセスの記載はありませんでした。</li>
           </ul>

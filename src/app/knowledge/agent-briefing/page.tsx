@@ -6,7 +6,7 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "転職エージェントに何をどう伝えるか｜紹介求人が変わる3つの伝え方",
   description:
-    "転職エージェントから届く求人が希望とずれている場合、伝え方が原因であることが多いです。仕事内容を「動詞＋対象＋規模＋成果」で具体化する方法、自分が力を発揮できる状況の言語化、条件に優先順位をつけて伝える方法を、そのまま使えるメモの形で整理しています。",
+    "転職エージェントから届く求人が希望とずれている場合、伝え方が原因である場合が多くあります。仕事内容を「動詞＋対象＋規模＋成果」で具体化する方法、自分が力を発揮できる状況の言語化、条件に優先順位をつけて伝える方法を、そのまま使えるメモの形で整理しています。",
   alternates: { canonical: "/knowledge/agent-briefing/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],

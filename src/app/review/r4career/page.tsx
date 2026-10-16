@@ -104,7 +104,7 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>東海3県以外での転職 →全国系の総合型へ</li>
+              <li>東海3県以外での転職 →全国系の総合型の利用をおすすめします</li>
               <li>大手メーカーの求人網羅性を最優先する人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>等との併用をおすすめします</li>
             </ul>
           </div>

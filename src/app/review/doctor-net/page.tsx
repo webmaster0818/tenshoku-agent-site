@@ -85,7 +85,7 @@ export default function Page() {
 
         <h2>ドクターネットエージェントの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">遠隔読影事業とつながる業界知見</h3><p className="text-sm text-text-secondary leading-relaxed">運営元は放射線診断専門医による遠隔読影サービス(Tele-RAD/Tele-DOC等)を展開しており、放射線科の現場・医療機関との日常的な接点を土台にした紹介ができる希少な体制です。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">遠隔読影事業とつながる業界知見</h3><p className="text-sm text-text-secondary leading-relaxed">運営元は放射線診断専門医による遠隔読影サービス(Tele-RAD/Tele-DOC等)を展開しており、放射線科の現場・医療機関との日常的な接点を土台にした紹介ができる体制です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">放射線領域の職種に限定した専門性</h3><p className="text-sm text-text-secondary leading-relaxed">放射線科医から技師(診療放射線技師・臨床検査技師)まで、放射線・検査領域の職種に対象を絞っています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">常勤・非常勤の両対応</h3><p className="text-sm text-text-secondary leading-relaxed">常勤転職だけでなく非常勤(スポット・兼業)の求人も扱っており、働き方の調整にも使えます。</p></div>
         </div>

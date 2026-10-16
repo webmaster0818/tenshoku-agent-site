@@ -276,7 +276,7 @@ export default function UnisonCareerReview() {
               <li>大手の求人数・実績データを重視する人 →<Link href="/review/levtech/" className="text-teal underline">レバテックキャリア</Link>との比較・併用が向きます</li>
               <li>IT以外の職種も幅広く見たい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型が候補です</li>
               <li>ハイクラスのスカウトを待ちたい人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>が選択肢になります</li>
-              <li>求人数の多さや地方求人の量を最優先したい人(求人数・対応エリアは公式非公表のため、面談で確認が必要です)</li>
+              <li>求人数の多さや地方求人の量を最優先したい人は、面談での確認が必要です(求人数・対応エリアは公式非公表のため)</li>
             </ul>
           </div>
         </div>

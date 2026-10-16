@@ -287,7 +287,7 @@ export default function EbisuFudousanCareer() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>不動産以外も含めて比較検討したい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>等の総合型の転職エージェントで求人の幅を確保できます</li>
               <li>固定給の安定性を最優先する人 →インセンティブ比重の高い給与設計のため、条件はカジュアル面談でのご確認をおすすめします</li>
-              <li>東京以外での勤務を希望する人</li>
+              <li>東京以外での勤務を希望する人には、勤務地が恵比寿のため、他社の求人もあわせて確認することをおすすめします</li>
             </ul>
           </div>
         </div>

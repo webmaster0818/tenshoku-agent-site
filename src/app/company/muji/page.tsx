@@ -231,7 +231,7 @@ export default function MujiCareer() {
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級で、小売・消費財・本部系の求人も幅広く扱います。非公開求人の紹介も期待できます。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントと求人サイトの両方を利用でき、小売・EC・商品開発など幅広い求人を比較できます。" },
-            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強みがあります。小売・サービス業の求人も多く、初めての業界転職でも相談しやすいです。" },
+            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強みがあります。小売・サービス業の求人も多く、初めての業界転職でも相談しやすい体制です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス向けのスカウト型サービスです。本部の専門職・管理職ポジションの情報収集に向いています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">

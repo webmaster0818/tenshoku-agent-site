@@ -126,7 +126,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">ブラザー工業は採用ポータルに「CAREER RECRUITING 経験者採用」セクションを常設しており、<a href="https://www.brother.co.jp/corporate/bil/recruit/portal/career/index.aspx" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式の経験者採用ページ</a>と<a href="https://brother-recruit.snar.jp/index.aspx" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧・エントリーサイト</a>から応募できます。2026年7月31日確認時点では、工作機械（マシナリー）関連の掲載が中心でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種（募集職種一覧の公式表記）：工作機械の国内営業 / 工作機械の加工技術エンジニア / 工作機械の据付・調整および操作説明業務 / NC工作機械のハードウェア設計技術者 / NC工作機械及びその周辺装置のソフトウェア開発者（2026年7月31日確認時点）。</li>
+            <li>募集職種（募集職種一覧の公式表記）：工作機械の国内営業 / 工作機械の加工技術エンジニア / 工作機械の据付・調整および操作説明業務 / NC工作機械のハードウェア設計技術者 / NC工作機械及びその周辺装置のソフトウェア開発者などがあります（2026年7月31日確認時点）。</li>
             <li>応募方法：(1)経験者採用ページの募集職種一覧（JOB TYPE）から応募する方法と、(2)外部採用サイト（brother-recruit.snar.jp）のエントリーボタンから応募する方法の2通りがあります。</li>
             <li>公式サイトには経験者採用社員のインタビューが9名分掲載されています（入社年度・部門・職種・入社の決め手・仕事内容・ブラザーの魅力）。</li>
             <li>ブラザー販売株式会社（別法人）にも独自のキャリア採用ページがあります。</li>

@@ -241,9 +241,9 @@ export default function ReworkReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>経験を活かした同業界でのキャリアアップ →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型</li>
+              <li>経験を活かした同業界でのキャリアアップ →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型が候補です</li>
               <li>未経験からIT業界に絞って転職したい人 →IT特化の<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>との比較もおすすめします</li>
-              <li>ハイクラス・管理職志向 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>など</li>
+              <li>ハイクラス・管理職志向 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>などが候補です</li>
             </ul>
           </div>
         </div>

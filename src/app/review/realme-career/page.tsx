@@ -189,7 +189,7 @@ export default function RealmeCareerReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">悪い評判・注意点の傾向</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>選考結果などの連絡が遅い、問い合わせへの返答が簡素だったという不満</li>
+              <li>選考結果などの連絡が遅い、問い合わせへの返答が簡素だったという不満が見られます</li>
               <li>「おすすめしない」とする低評価もあり、評価は分かれています</li>
             </ul>
           </div>
@@ -288,8 +288,8 @@ export default function RealmeCareerReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>フルタイムで女性のキャリアアップ転職を目指す人 →<Link href="/review/type-woman/" className="text-teal underline">type女性の転職エージェント</Link>など女性特化型</li>
-              <li>幅広い求人から選びたい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>との併用</li>
+              <li>フルタイムで女性のキャリアアップ転職を目指す人 →<Link href="/review/type-woman/" className="text-teal underline">type女性の転職エージェント</Link>など女性特化型が候補です</li>
+              <li>幅広い求人から選びたい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>との併用をおすすめします</li>
               <li>東京23区・大阪市内以外で通勤勤務を希望する人 →求人が都市部中心のため、総合型で選択肢を確保することをおすすめします</li>
               <li>未経験職種に挑戦したい人 →即戦力採用中心のため、総合型・未経験向けサービスの検討をおすすめします</li>
             </ul>

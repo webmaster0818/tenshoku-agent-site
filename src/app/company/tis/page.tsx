@@ -135,7 +135,7 @@ export default function CompanyCareer() {
             { title: "決済・金融システムの経験", desc: "クレジットカード基幹・キャッシュレス決済の開発運用は同社の看板領域で、経験者の評価が高い分野です。" },
             { title: "大規模基幹系の品質意識", desc: "止められない決済インフラを支えるため、高信頼性設計・運用の経験が重視されます。" },
             { title: "クラウドシフトの推進力", desc: "基幹系のクラウド移行案件が増えており、AWS/Azure移行の実務経験が活きます。" },
-            { title: "顧客折衝・上流経験", desc: "独立系SIerとして提案から運用まで担うため、上流工程・PM経験がミドル層の武器になります。" },
+            { title: "顧客折衝・上流経験", desc: "独立系SIerとして提案から運用まで担うため、上流工程・PM経験がミドル層の強みになります。" },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>

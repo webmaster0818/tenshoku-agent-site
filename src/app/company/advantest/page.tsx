@@ -139,9 +139,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">アドバンテストは公式サイトに<a href="https://www.advantest.com/ja/about/career-jp/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用の案内ページ</a>を設けており、応募は専用の<a href="https://hrmos.co/pages/advantest?recruitment_country=jp" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用サイト（HRMOS）</a>で受け付けています。確認時点では正社員求人46件が「技術系（30）・生産系（14）・営業系（1）・人事（1）」に分類されて掲載されていました。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種（公式表記の例）：電気/電子ハードウェア開発／メカ設計・開発／ソフトウェア開発／フィールドサービスエンジニア（FSE）／ITエンジニア。</li>
-            <li>生産系ほか：製造技術／生産DX／生産管理／開発購買・グローバル調達・サプライチェーン。</li>
-            <li>コーポレート系：販売支援／人事 など。</li>
+            <li>募集職種（公式表記の例）：電気/電子ハードウェア開発／メカ設計・開発／ソフトウェア開発／フィールドサービスエンジニア（FSE）／ITエンジニアなどがあります。</li>
+            <li>生産系ほか：製造技術／生産DX／生産管理／開発購買・グローバル調達・サプライチェーンなどがあります。</li>
+            <li>コーポレート系：販売支援／人事などがあります。</li>
             <li>※2026年8月1日に公式採用サイトで確認しました。募集状況は変動するため、最新の情報は公式サイトにてご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でアドバンテストのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>

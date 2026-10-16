@@ -64,10 +64,10 @@ export default function InexperiencedPage() {
         <h2>未経験転職に強いエージェントランキング</h2>
         <div className="space-y-4 mb-10">
           {[
-            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を持つ総合型です。幅広い業界・職種をカバーしているため、未経験歓迎の求人も含めて異業種転職の選択肢を広げやすいです。" },
+            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を持つ総合型です。幅広い業界・職種をカバーしているため、未経験歓迎の求人も含めて異業種転職の選択肢を広げやすくなります。" },
             { rank: 2, name: "doda", href: "/review/doda/", desc: "未経験歓迎の求人特集があり、求人検索時に「未経験可」のフィルターで絞り込めます。エージェントとサイトの両方が使えるため、自分のペースで進められます。" },
             { rank: 3, name: "マイナビエージェント", href: "/review/mynavi/", desc: "20代・30代の未経験転職に強みがあります。丁寧なカウンセリングで、未経験でも活かせるスキルの棚卸しをサポートしてくれます。" },
-            { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "管理職・専門職経験がある方が新しい業界に挑戦する場合に活用できます。スカウト型のため、自分の経験を評価してくれる企業を見つけやすいです。" },
+            { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "管理職・専門職経験がある方が新しい業界に挑戦する場合に活用できます。スカウト型のため、自分の経験を評価する企業を見つけやすくなります。" },
             { rank: 5, name: "JACリクルートメント", href: "/review/jac/", desc: "異業界への転職でも、前職の経験やスキルを活かせるポジションの提案が得意です。特にグローバル企業への転職を考えている方に向いています。" },
           ].map((agent) => (
             <div key={agent.rank} className="card-hover p-5">
@@ -129,7 +129,7 @@ export default function InexperiencedPage() {
           </div>
         <p className="text-xs text-text-muted mb-4">出典：各社公式サイト・運営会社の会社概要（2026年10月14日確認）。数値は各社の公式表記で、当サイトの集計ではありません。詳しくは<Link href="/review/rework/" className="text-teal hover:underline">Re:WORKエージェントの口コミ・評判</Link>・<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で、確認日と出典を明記して整理しています。</p>
         <ul className="space-y-2 text-sm text-text-secondary mb-8">
-          <li><strong>目指す業界・職種がある程度決まっている</strong> → 未経験歓迎の求人を直接紹介してもらえるRe:WORKエージェント</li>
+          <li><strong>目指す業界・職種がある程度決まっている</strong> → 未経験歓迎の求人を直接紹介してもらえるRe:WORKエージェントが候補です</li>
           <li><strong>20代で、どのエージェントを使えばよいかわからない</strong> → まず転職AGENT Naviで相性の良い担当者を紹介してもらう方法が有効です（<FelmatTextLink slug="agent-navi" text="転職AGENT Navi公式サイト(PR)" />）</li>
           <li>どちらも運営会社が新しく、第三者の口コミがまだ少ないため、大手総合型エージェントとの併用をおすすめします</li>
         </ul>

@@ -103,7 +103,7 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>一般雇用枠での転職を考えている人 →総合型エージェントへ</li>
+              <li>一般雇用枠での転職を考えている人 →総合型エージェントの利用をおすすめします</li>
               <li>地域密着の小規模求人を探す人 →地域の支援機関との併用をおすすめします</li>
             </ul>
           </div>

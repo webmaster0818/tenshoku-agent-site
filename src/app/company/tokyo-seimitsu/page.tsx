@@ -139,7 +139,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">東京精密は<a href="https://www.accretech.com/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>でキャリア採用（中途採用）を実施しており、キャリア採用の募集要項ページと専用エントリーページが用意されています。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>掲載職種（公式表記）：製品の組立・調整（計測機器や半導体製造装置の機械・電気組立）／品質保証／生産管理／フィールドエンジニア（計測機器の校正・修理・保守）／その他職種。</li>
+            <li>掲載職種（公式表記）：製品の組立・調整（計測機器や半導体製造装置の機械・電気組立）／品質保証／生産管理／フィールドエンジニア（計測機器の校正・修理・保守）／その他職種があります。</li>
             <li>勤務地：組立・品質保証・生産管理系は茨城県土浦市・愛知県東郷町、フィールドエンジニアは全国のサービス拠点です。</li>
             <li>募集要項には、給与は年齢・前給・能力を基準に決定、昇給年1回・賞与年2回（7月・12月）、家族・住宅・残業手当、年間休日122日等の記載があります。</li>
             <li>採用サイトには「主体性を持って仕事をする」ことを重視する企業メッセージが掲載されています。</li>

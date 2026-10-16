@@ -103,7 +103,7 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>30代以上の人 →総合型エージェントへ</li>
+              <li>30代以上の人 →総合型エージェントの利用をおすすめします</li>
               <li>ハイクラス志向の20代 →<a href="/review/assign/" className="text-teal underline">ASSIGN</a>等のハイエンド特化型との比較もおすすめします</li>
             </ul>
           </div>

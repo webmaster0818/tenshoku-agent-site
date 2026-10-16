@@ -104,7 +104,7 @@ export default function Page() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>フリーランス経験の浅い人 →案件数の多い大手サービスとの併用をおすすめします</li>
-              <li>正社員での転職を考えている人 →<a href="/review/techclips/" className="text-teal underline">TechClipsエージェント</a>等へ</li>
+              <li>正社員での転職を考えている人 →<a href="/review/techclips/" className="text-teal underline">TechClipsエージェント</a>等が候補です</li>
             </ul>
           </div>
         </div>

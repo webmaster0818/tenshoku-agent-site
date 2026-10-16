@@ -80,7 +80,7 @@ export default function Age30sPage() {
             {
               rank: 3,
               name: "JACリクルートメント",
-              desc: "ハイクラス・外資系に特化し、30代以上をメインターゲットとしたサービスです。質の高いコンサルタントによる手厚いサポートが魅力です。",
+              desc: "ハイクラス・外資系に特化し、30代以上をメインターゲットとしたサービスです。質の高いコンサルタントによる手厚いサポートが特徴です。",
               href: "/review/jac/",
             },
           ].map((agent) => (
@@ -113,7 +113,7 @@ export default function Age30sPage() {
             <h3 className="font-bold text-navy mb-2">30代後半（35〜39歳）</h3>
             <ul className="space-y-1 text-sm text-text-secondary">
               <li>管理職・マネジメントポジションへの挑戦</li>
-              <li>専門性を武器にした年収交渉</li>
+              <li>専門性を根拠にした年収交渉</li>
               <li>業界内での人脈を活かした転職</li>
               <li>ワークライフバランスを考慮した選択</li>
             </ul>

@@ -85,7 +85,7 @@ export default function Page() {
 
         <h2>クジラボの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">公共系専門職に特化した希少な支援</h3><p className="text-sm text-text-secondary leading-relaxed">教員・公務員・公安職など、一般の転職エージェントではキャリア相談の受け皿が少ない職種を明確な対象としています。「先生を、やめるのも、つづけるのも。」という進退両にらみの相談ができる設計です。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">公共系専門職に特化した支援</h3><p className="text-sm text-text-secondary leading-relaxed">教員・公務員・公安職など、一般の転職エージェントではキャリア相談の受け皿が少ない職種を明確な対象としています。「先生を、やめるのも、つづけるのも。」という進退両にらみの相談ができる設計です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">コーチング型のキャリア棚卸し</h3><p className="text-sm text-text-secondary leading-relaxed">求人を紹介して終わりではなく、キャリアコーチによるプログラム形式で自己理解・キャリアの言語化を進める構成です。卒業生の声・コーチ紹介も公式サイトで公開されています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">職種別に設計されたプログラム</h3><p className="text-sm text-text-secondary leading-relaxed">教員向け・看護師向け・介護福祉職員向けなど、職種ごとの事情(異動・資格・現場負荷)を前提にした個別プログラムが用意されています。</p></div>
         </div>

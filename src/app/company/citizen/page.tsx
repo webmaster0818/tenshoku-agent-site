@@ -129,7 +129,7 @@ export default function CompanyCareer() {
             シチズン時計は公式採用サイトに<a href="https://www.citizen.co.jp/recruit/info/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用情報</a>ページを常設しており、<strong className="text-navy">中途採用比率は2025年度で50%</strong>（出典：公式採用サイト。2023〜2025年度の比率を公式開示）と、採用の半分を中途が占めます。応募は<a href="https://citizen-recruit.snar.jp/index.aspx?id=mLqGGGMpvyg" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">エントリーサイト</a>で現在募集中の職種を確認し、職種ごとの「エントリー」から行う形式です。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種（公式表記・2026年7月31日確認時点のエントリーサイト掲載分）：ブランド推進（事務系職）、サステナビリティ推進業務（気候変動関連）（事務系職）、海外販売会社の事業管理（事務系職）、腕時計完成品のルート国内営業職（事務系職）、社内SE（ERP/SAP経験者）、社内SE（AWS・Azure経験者・英語力歓迎）、組込みソフトウェア開発（技術系職）、生産技術（技術系職）。</li>
+            <li>募集職種（公式表記・2026年7月31日確認時点のエントリーサイト掲載分）：ブランド推進（事務系職）、サステナビリティ推進業務（気候変動関連）（事務系職）、海外販売会社の事業管理（事務系職）、腕時計完成品のルート国内営業職（事務系職）、社内SE（ERP/SAP経験者）、社内SE（AWS・Azure経験者・英語力歓迎）、組込みソフトウェア開発（技術系職）、生産技術（技術系職）などがあります。</li>
             <li>希望職種の募集がない場合は「キャリア登録」を活用でき、登録内容と合致するポジションの募集時に選考の案内があります（キャリア登録枠：基礎研究、製品設計、生産技術、国内営業、海外営業、デザイナー職）。</li>
             <li>勤務地は東京事業所／本社（東京都西東京市）、所沢事業所（埼玉県所沢市）、全国営業所・海外拠点です（公式記載）。</li>
             <li>エントリーサイトはシチズングループ共通基盤で、グループ各社（シチズンマシナリー等）も中途採用を実施しています。面接回数等の選考ステップの詳細は、公式ページ上では確認できませんでした。</li>

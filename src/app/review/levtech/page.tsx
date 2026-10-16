@@ -32,7 +32,7 @@ const faqData = [
   },
   {
     q: "レバテックキャリアは電話・連絡がしつこいと聞きましたが対処法は？",
-    a: "登録直後は連絡が集中しやすいですが、面談やマイページで「連絡はメール中心」「連絡可能な時間帯」を指定すれば調整できます。IT特化エージェントは提案スピードを重視する傾向があるため、希望を最初に伝えておくとスムーズです。",
+    a: "登録直後は連絡が集中する傾向がありますが、面談やマイページで「連絡はメール中心」「連絡可能な時間帯」を指定すれば調整できます。IT特化エージェントは提案スピードを重視する傾向があるため、希望を最初に伝えておくとスムーズです。",
   },
   {
     q: "実務経験がない未経験でもレバテックキャリアは使えますか？",
@@ -226,7 +226,7 @@ export default function LevtechReview() {
           {[
             { title: "技術に強いアドバイザー", desc: "IT・Web業界の知見を持つアドバイザーが、技術背景を理解した上で提案してくれます。" },
             { title: "専門性を活かせる求人", desc: "エンジニア・クリエイターの経験やスキルを評価する求人が中心です。年収アップも期待できます。" },
-            { title: "企業情報の解像度が高い", desc: "技術スタックや開発体制など、入社後のミスマッチを防ぐ情報を得やすいのが特徴です。" },
+            { title: "企業情報を詳しく得られる", desc: "技術スタックや開発体制など、入社後のミスマッチを防ぐ情報を得やすいのが特徴です。" },
           ].map((f) => (
             <div key={f.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{f.title}</h3>
@@ -308,9 +308,9 @@ export default function LevtechReview() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>未経験からIT転職を目指す人 →<Link href="/type/it-engineer/" className="text-teal underline">ITエンジニア向けの選び方</Link>も参考になります</li>
-              <li>IT以外も含め幅広く比較したい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
-              <li>自分でも求人を探しつつ支援も受けたい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link></li>
-              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
+              <li>IT以外も含め幅広く比較したい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>が候補です</li>
+              <li>自分でも求人を探しつつ支援も受けたい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link>が候補です</li>
+              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link>が候補です</li>
             </ul>
           </div>
         </div>

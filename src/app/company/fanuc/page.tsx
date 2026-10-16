@@ -134,9 +134,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">ファナックは公式に「経験者採用」を行っており、<a href="https://www.fanuc.co.jp/ja/employ/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">経験者採用ページ</a>と<a href="https://www.fanuc.co.jp/ja/employ/infomation/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧</a>が公開されています。募集は「研究開発」「セールス・サービス」「製造」「コーポレート・その他」の4カテゴリで、応募は当社メールアドレス（recruit@fanuc.co.jp）宛に履歴書・職務経歴書を送付するエントリー方式です。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>研究開発：サーボアンプ・パルスコーダ開発業務／ハードウェア開発業務／機械設計業務／ソフトウェア開発業務／ロボカット加工技術開発業務／品質管理業務 ほか。</li>
+            <li>研究開発：サーボアンプ・パルスコーダ開発業務／ハードウェア開発業務／機械設計業務／ソフトウェア開発業務／ロボカット加工技術開発業務／品質管理業務などがあります。</li>
             <li>セールス・サービス：ロボットセールス業務／ロボット技術サポート業務／FAセールス推進業務／フィールドサービスエンジニア。</li>
-            <li>製造：ロボットの組立工程改善業務／ロボットの試験工程改善業務／機械加工部技術業務。コーポレート・その他：アプリケーション開発業務／Web開発業務／人事制度企画・運用業務／購買・調達業務 ほか。</li>
+            <li>製造：ロボットの組立工程改善業務／ロボットの試験工程改善業務／機械加工部技術業務などがあります。コーポレート・その他：アプリケーション開発業務／Web開発業務／人事制度企画・運用業務／購買・調達業務などがあります。</li>
             <li>※2026年7月31日に公式採用サイトで確認しました。募集状況は変動するため、最新情報は公式サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でファナックのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
