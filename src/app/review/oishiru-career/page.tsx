@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "オイシルキャリアの評判は？スーパー・生鮮業界特化の転職サービスを解説【2026年】",
-  description: "オイシルキャリア(株式会社オイシル運営)はスーパー・生鮮業界特化の求人サイト・転職支援サービス。全国の求人を扱い、LINEでの無料転職相談に対応。有料職業紹介事業許可番号13-ユ-314489。特徴を公式情報ベースで解説します。",
+  description: "オイシルキャリア(株式会社オイシル運営)はスーパー・生鮮業界特化の求人サイト・転職支援サービスです。全国の求人を扱い、LINEでの無料転職相談に対応しています。有料職業紹介事業許可番号は13-ユ-314489です。特徴を公式情報ベースで解説します。",
   alternates: { canonical: "/review/oishiru-career/" },
 };
 
@@ -19,7 +19,7 @@ const faqData = [
     "a": "スーパーマーケット・生鮮業界(精肉・鮮魚・青果・惣菜など)の求人を全国で扱っています。エリア・職種ごとの求人量は公式サイトの検索でご確認ください(2026年8月22日確認)。"
   },
   {
-    "q": "生鮮部門の経験がなくても使えますか？",
+    "q": "生鮮部門の経験がなくても利用できますか？",
     "a": "スーパー・生鮮業界特化のサービスのため、業界経験者が主対象です。未経験の場合の紹介可否はLINE相談でご確認ください。"
   }
 ];
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スーパー・生鮮業界に特化した求人・転職支援サービス</strong>。業界経験を正しく評価するニッチ特化型です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スーパー・生鮮業界に特化した求人・転職支援サービス</strong>です。業界経験を正しく評価するニッチ特化型です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>全国の求人に対応</strong>し、都道府県・市区単位で検索できます。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>LINEでの無料転職相談</strong>に対応。有料職業紹介事業許可番号(13-ユ-314489)も公式サイトで確認できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>LINEでの無料転職相談</strong>に対応しています。有料職業紹介事業許可番号(13-ユ-314489)も公式サイトで確認できます。</span></li>
           </ul>
         </div>
 
@@ -86,7 +86,7 @@ export default function Page() {
 
         <h2>オイシルキャリアの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">生鮮業界の経験が武器になる特化設計</h3><p className="text-sm text-text-secondary leading-relaxed">スーパー・生鮮業界の経験者を明確な対象とし、残業時間・年間休日・年収などの労働条件改善を軸にした転職を支援する構成です(広告紹介文では残業15時間程度・年間休日115日・年収450万といった求人例が示されています)。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">生鮮業界の経験を活かせる特化設計</h3><p className="text-sm text-text-secondary leading-relaxed">スーパー・生鮮業界の経験者を明確な対象とし、残業時間・年間休日・年収などの労働条件改善を軸にした転職を支援する構成です(広告紹介文では残業15時間程度・年間休日115日・年収450万といった求人例が示されています)。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">全国対応の求人検索</h3><p className="text-sm text-text-secondary leading-relaxed">北海道から沖縄まで全国の求人を市区単位で検索でき、地方のスーパー・食品小売の求人も探せます。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">LINE完結の気軽な相談</h3><p className="text-sm text-text-secondary leading-relaxed">LINEでの無料転職相談に対応しており、店舗勤務で電話がしづらい人でもすき間時間に相談を進められます。</p></div>
         </div>
@@ -104,8 +104,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>小売以外への異業種転職 →総合型エージェントへ</li>
-              <li>飲食業界への転身 →<a href="/review/inshoku-agent/" className="text-teal underline">飲食店ドットコムエージェント</a>も比較を</li>
+              <li>小売以外への異業種転職 →総合型の転職エージェントが候補です</li>
+              <li>飲食業界への転身 →<a href="/review/inshoku-agent/" className="text-teal underline">飲食店ドットコムエージェント</a>との比較をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>オイシルキャリアは、スーパー・生鮮業界という明確なニッチに特化した転職サービスです。業界経験の正当な評価と労働条件改善が軸で、利用は無料です。小売業界の転職では総合型と併用しつつ、専門特化の求人を確認するのがおすすめです。</p>
+        <p>オイシルキャリアは、スーパー・生鮮業界という明確なニッチに特化した転職サービスです。業界経験の正当な評価と労働条件改善が軸で、利用は無料です。小売業界の転職では総合型と併用しつつ、専門特化の求人を確認することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

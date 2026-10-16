@@ -5,14 +5,14 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "UZUZ(ウズウズ)の評判は？第二新卒・既卒・フリーター特化の就職エージェントを解説【2026年】",
-  description: "UZUZ(ウズウズ)の「第二の就活」は、20代の第二新卒・既卒・フリーター向け就職/転職エージェント。完全無料・あなた専用の就活サポートを掲げ、IT就職支援のウズウズカレッジも展開。特徴・向いている人を公式情報ベースで解説します。",
+  description: "UZUZ(ウズウズ)の「第二の就活」は、20代の第二新卒・既卒・フリーター向け就職/転職エージェントです。無料・あなた専用の就活サポートを掲げ、IT就職支援のウズウズカレッジも展開しています。特徴・向いている人を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/uzuz/" },
 };
 
 const faqData = [
   {
     "q": "UZUZの利用に費用はかかりますか？",
-    "a": "求職者の利用は完全無料と公式に明記されています。採用企業側が報酬を負担する人材紹介の標準モデルです。"
+    "a": "求職者の利用は「完全無料」と公式に明記されています。採用企業側が報酬を負担する人材紹介の標準モデルです。"
   },
   {
     "q": "就業経験がまったくなくても使えますか？",
@@ -52,7 +52,7 @@ export default function Page() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             UZUZ(ウズウズ)の評判は？第二新卒・既卒・フリーター特化の就職エージェントを解説【2026年】
           </h1>
-          <p className="text-text-secondary leading-relaxed">UZUZ(ウズウズ)は、20代の第二新卒・既卒・フリーター向けの就職・転職エージェントです。サービスサイト「第二の就活」を通じて、完全無料の「あなた専用の就活サポート」を掲げています。学習サービス「ウズウズカレッジ」も展開しており、IT系への就職支援に強みがあります。公式サイトで確認できる情報をもとに整理します。</p>
+          <p className="text-text-secondary leading-relaxed">UZUZ(ウズウズ)は、20代の第二新卒・既卒・フリーター向けの就職・転職エージェントです。サービスサイト「第二の就活」を通じて、無料の「あなた専用の就活サポート」を掲げています。学習サービス「ウズウズカレッジ」も展開しており、IT系への就職支援に強みがあります。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
 
         <AgentHero slug="uzuz" />
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代の第二新卒・既卒・フリーター専門</strong>の就職・転職エージェント。正社員求人多数・完全無料と公式に掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「あなた専用の就活サポート」のオーダーメイド型</strong>。面接・自己分析・書類などの対策コンテンツも公式サイトに豊富です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代の第二新卒・既卒・フリーター専門</strong>の就職・転職エージェントです。「正社員求人多数」「完全無料」と公式に掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「あなた専用の就活サポート」を掲げるオーダーメイド型</strong>のサービスです。面接・自己分析・書類などの対策コンテンツも公式サイトに豊富です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ウズウズカレッジ(学習サービス)も展開</strong>し、学びながらIT系就職を目指すルートも用意されています。</span></li>
           </ul>
         </div>
@@ -74,14 +74,14 @@ export default function Page() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">第二の就活(UZUZ・20代の第二新卒/既卒/フリーター向け就職・転職エージェント)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社UZUZ(UZUZホールディングスグループ)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">対象</th><td className="px-3 py-2 border-b">20代(第二新卒・既卒・フリーター・無職の人を含む)</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">特徴</th><td className="px-3 py-2 border-b">完全無料・オーダーメイド型サポート・定着率を公式公開(注記条件は公式参照)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">特徴</th><td className="px-3 py-2 border-b">無料・オーダーメイド型サポート・定着率を公式公開(注記条件は公式参照)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">関連サービス</th><td className="px-3 py-2 border-b">ウズウズカレッジ(IT系学習サービス)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">料金</th><td className="px-3 py-2 border-b">求職者は無料</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">公式サイト</th><td className="px-3 py-2 border-b">daini2.co.jp</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：第二の就活(UZUZ)公式サイト(daini2.co.jp)・株式会社UZUZホールディングス(uzuz-holdings.jp)、2026年8月22日確認。定着率等の数値は公式サイト掲載値(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：第二の就活(UZUZ)公式サイト(daini2.co.jp)・株式会社UZUZホールディングス(uzuz-holdings.jp)、2026年8月22日確認。定着率等の数値は公式サイト掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>UZUZ(第二の就活)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>30代以上の人 →総合型エージェントへ</li>
-              <li>大手グループの安心感を最優先する人 →<a href="/review/mynavi-job20s/" className="text-teal underline">マイナビジョブ20's</a>と併用を</li>
+              <li>30代以上の人 →総合型の転職エージェントをおすすめします</li>
+              <li>大手グループの安心感を最優先する人 →<a href="/review/mynavi-job20s/" className="text-teal underline">マイナビジョブ20's</a>との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>UZUZは、経歴に不安のある20代に特化したオーダーメイド型の就職・転職エージェントです。学習サービスとの組み合わせでIT系への未経験就職ルートも用意されており、利用は無料です。同じ20代特化のマイナビジョブ20's・第二新卒エージェントneoと併用し、サポートの相性で選ぶのがおすすめです。</p>
+        <p>UZUZは、経歴に不安のある20代に特化したオーダーメイド型の就職・転職エージェントです。学習サービスとの組み合わせでIT系への未経験就職ルートも用意されており、利用は無料です。同じ20代特化のマイナビジョブ20's・第二新卒エージェントneoと併用し、サポートの相性で選ぶことをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

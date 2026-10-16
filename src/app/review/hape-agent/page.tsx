@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "hape Agent(エイプエージェント)の評判は？営業職特化の転職エージェントを解説【2026年】",
-  description: "hape Agent(エイプエージェント)は株式会社hapeが運営する営業職特化型の転職エージェント。顧客満足度98%(公式表記)を掲げ、営業職特有のキャリアの悩みに専門対応。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  description: "hape Agent(エイプエージェント)は株式会社hapeが運営する営業職特化型の転職エージェントです。顧客満足度98%(公式表記)を掲げ、営業職特有のキャリアの悩みに専門的に対応しています。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/hape-agent/" },
 };
 
@@ -20,7 +20,7 @@ const faqData = [
   },
   {
     "q": "どんな業界の営業求人がありますか？",
-    "a": "公式サイトには営業の業界・職種・働き方に関するナレッジが幅広く用意されています。具体的な求人の業界構成は面談時に確認するのが確実です。"
+    "a": "公式サイトには営業の業界・職種・働き方に関するナレッジが幅広く用意されています。具体的な求人の業界構成は面談時にご確認ください。"
   }
 ];
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>営業職に特化した転職エージェント</strong>。業種・職種・働き方など営業のキャリアを専門に扱います。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>顧客満足度98%</strong>(公式サイト表記・2026年8月22日確認)。初回サポートの手厚さを公式に強調しています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>履歴書・職務経歴書テンプレートや営業転職ナレッジ</strong>を公式サイトで公開。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>営業職に特化した転職エージェント</strong>です。業種・職種・働き方など営業のキャリアを専門に扱います。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>顧客満足度98%</strong>を掲げています(公式サイト表記・2026年8月22日確認)。初回サポートの手厚さを公式に強調しています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>履歴書・職務経歴書テンプレートや営業転職ナレッジ</strong>を公式サイトで公開しています。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -81,7 +81,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：hape Agent公式サイト(agent.hape.co.jp)、2026年8月22日確認。顧客満足度は公式サイト掲載値(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：hape Agent公式サイト(agent.hape.co.jp)、2026年8月22日確認。顧客満足度は公式サイト掲載値です(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>hape Agentの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>営業以外の職種への転職 →総合型エージェントへ</li>
-              <li>20代で職種未定の人 →<a href="/type/second-new-grad/" className="text-teal underline">第二新卒向けエージェント</a>も検討を</li>
+              <li>営業以外の職種への転職 →総合型の転職エージェントが候補です</li>
+              <li>20代で職種未定の人 →<a href="/type/second-new-grad/" className="text-teal underline">第二新卒向けエージェント</a>もご検討ください</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>hape Agentは、営業職のキャリアだけを専門に扱う特化型エージェントです。営業特有の悩みの言語化支援と実務的なナレッジ公開が特徴で、利用は無料です。営業職の転職では総合型と1社ずつ併用し、提案される求人の質を比較するのがおすすめです。</p>
+        <p>hape Agentは、営業職のキャリアだけを専門に扱う特化型エージェントです。営業特有の悩みの言語化支援と実務的なナレッジ公開が特徴で、利用は無料です。営業職の転職では総合型と1社ずつ併用し、提案される求人の質を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

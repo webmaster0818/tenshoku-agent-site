@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "キャリアチケット転職(転職エージェント)の評判は？レバレジーズの20代向け転職支援を解説【2026年】",
-  description: "キャリアチケット転職は、レバレジーズ株式会社が展開する20代・30代向けの転職支援サービス。「成長したい！」を叶える仕事探しプラットフォームを掲げ、新卒向け「キャリアチケット就職」の転職版として運営されています。公式情報ベースで解説します。",
+  description: "キャリアチケット転職は、レバレジーズ株式会社が展開する20代・30代向けの転職支援サービスです。「成長したい！」を叶える仕事探しプラットフォームを掲げ、新卒向け「キャリアチケット就職」の転職版として運営されています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/career-ticket-tenshoku/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代・30代向けの転職支援サービス</strong>。「成長したい！」を叶える仕事探しプラットフォームを掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営はレバレジーズ</strong>。IT特化のレバテックや新卒向けキャリアチケット就職を展開する人材大手グループです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代・30代向けの転職支援サービスです</strong>。「成長したい！」を叶える仕事探しプラットフォームを掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営はレバレジーズです</strong>。IT特化のレバテックや新卒向けキャリアチケット就職を展開する人材大手グループです。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「量より質」の支援方針</strong>が同ブランドの特徴で、利用は無料です。</span></li>
           </ul>
         </div>
@@ -83,11 +83,11 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：キャリアチケット転職公式サイト(career-ticket.jp)・キャリアチケット就職(careerticket.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>キャリアチケット転職の特徴(公式公表ベース)</h2>
+        <h2>キャリアチケット転職の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">「成長」を軸にした20代・30代向け設計</h3><p className="text-sm text-text-secondary leading-relaxed">単なる条件マッチングではなく「成長したい」という志向を軸にした仕事探しを掲げており、キャリアの伸びしろを重視する若手向けの設計です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">量より質のキャリアチケットブランド</h3><p className="text-sm text-text-secondary leading-relaxed">新卒領域で「量より質の就活支援」を掲げてきたキャリアチケットブランドの転職版で、大量応募型と異なるスタイルが期待できます。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">人材大手レバレジーズの基盤</h3><p className="text-sm text-text-secondary leading-relaxed">IT特化のレバテックなどを展開するレバレジーズグループの運営で、若手×成長企業の求人接点を持ちます。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">人材大手レバレジーズの基盤</h3><p className="text-sm text-text-secondary leading-relaxed">IT特化のレバテックなどを展開するレバレジーズグループの運営で、若手人材と成長企業をつなぐ求人の接点を持っています。</p></div>
         </div>
 
         <h2>キャリアチケット転職が向いている人・向いていない人</h2>

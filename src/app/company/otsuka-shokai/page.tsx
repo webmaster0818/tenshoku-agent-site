@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,027万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>937万円（2023年12月期）→992万円（2024年12月期）→1,027万円（2025年12月期）と推移（3年連続で上昇し1,000万円台に到達）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年8月29日確認）。</li>
+            <li>937万円（2023年12月期）→992万円（2024年12月期）→1,027万円（2025年12月期）と推移しています（3年連続で上昇し1,000万円台に到達）。</li>
+            <li>キャリア採用は公式採用情報ページで確認できます（2026年8月29日確認）。</li>
             <li>12月決算のため最新値は2025年12月期です。全従業員平均で1,000万円超は当サイト収録企業でも上位水準です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトの採用情報ページから中途採用の案内を確認できます（2026年8月29日確認）。</li>
             <li>営業系・SE系・サポート系など職種別の採用区分があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>12月決算のため最新値は2025年12月期です。全従業員平均で1,000万円超は当サイト収録企業でも上位水準です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">大塚商会転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

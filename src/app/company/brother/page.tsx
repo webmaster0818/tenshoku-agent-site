@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/brother/" },
-  title: "ブラザー工業への転職は難しい？中途採用・平均年収805万円・選考を徹底解説【2026年】",
+  title: "ブラザー工業への転職は難しい？中途採用・平均年収805万円・選考を解説【2026年】",
   description:
-    "ブラザー工業（証券コード6448）への転職を有価証券報告書などの一次データで解説。平均年間給与は約805万円（2026年3月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
+    "ブラザー工業（証券コード6448）への転職を有価証券報告書などの一次データで解説。平均年間給与は約805万円（2026年3月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ブラザー工業への転職は難しい？中途採用・平均年収805万円・選考を徹底解説【2026年】",
+    title: "ブラザー工業への転職は難しい？中途採用・平均年収805万円・選考を解説【2026年】",
     description: "ブラザー工業（6448）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     "q": "勤務地はどこですか？",
-    "a": "本社は名古屋市瑞穂区苗代町15-1。工場・拠点勤務の職種もあり、応募ポジションにより異なります。"
+    "a": "本社は名古屋市瑞穂区苗代町15-1です。工場・拠点勤務の職種もあり、勤務地は応募ポジションにより異なります。"
   },
   {
     "q": "定着率は高いですか？",
@@ -60,7 +60,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ブラザー工業への転職は難しい？中途採用・平均年収805万円・選考を徹底解説【2026年】
+            ブラザー工業への転職は難しい？中途採用・平均年収805万円・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/brother.jpg" alt="ブラザー工業の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -89,10 +89,10 @@ export default function CompanyCareer() {
         <h2 id="s1">ブラザー工業転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約805万円（2026年3月期・有価証券報告書／提出会社）。大手メーカーとして標準〜やや高めの水準。</li>
-            <li>平均勤続約13.9年・平均年齢約43.6歳と、定着率の高さがうかがえるのが特徴。</li>
-            <li>プリンター・複合機に加え、産業用プリンティング・工作機械・ギア・家庭用ミシンと事業が幅広い。</li>
-            <li>設計開発・生産技術・品質保証・営業などメーカー系職種の採用が中心。</li>
+            <li>平均年間給与は約805万円（2026年3月期・有価証券報告書／提出会社）。大手メーカーとして標準〜やや高めの水準です。</li>
+            <li>平均勤続約13.9年・平均年齢約43.6歳と、定着率の高さがうかがえます。</li>
+            <li>プリンター・複合機に加え、産業用プリンティング・工作機械・ギア・家庭用ミシンと事業が多岐にわたります。</li>
+            <li>設計開発・生産技術・品質保証・営業などメーカー系職種の採用が中心です。</li>
           </ul>
         </div>
 
@@ -108,7 +108,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約805万円（2026年3月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約43.6歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約13.9年（同・提出会社）" },
-                { label: "従業員数", value: "3,997名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "3,997名（同・提出会社単体）／連結の人数は公式サイトをご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -127,11 +127,11 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">ブラザー工業は採用ポータルに「CAREER RECRUITING 経験者採用」セクションを常設しており、<a href="https://www.brother.co.jp/corporate/bil/recruit/portal/career/index.aspx" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式の経験者採用ページ</a>と<a href="https://brother-recruit.snar.jp/index.aspx" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">募集職種一覧・エントリーサイト</a>から応募できます。2026年7月31日確認時点では、工作機械（マシナリー）関連の掲載が中心でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>募集職種（募集職種一覧の公式表記）：工作機械の国内営業 / 工作機械の加工技術エンジニア / 工作機械の据付・調整および操作説明業務 / NC工作機械のハードウェア設計技術者 / NC工作機械及びその周辺装置のソフトウェア開発者（2026年7月31日確認時点）。</li>
-            <li>応募方法：(1)経験者採用ページの募集職種一覧（JOB TYPE）から、(2)外部採用サイト（brother-recruit.snar.jp）のエントリーボタンから——の2ルート。</li>
-            <li>経験者採用社員インタビュー9名分を公式掲載（入社年度・部門・職種・入社の決め手・仕事内容・ブラザーの魅力）。</li>
-            <li>ブラザー販売株式会社（別法人）にも独自のキャリア採用ページあり。</li>
+            <li>応募方法：(1)経験者採用ページの募集職種一覧（JOB TYPE）から応募する方法と、(2)外部採用サイト（brother-recruit.snar.jp）のエントリーボタンから応募する方法の2通りがあります。</li>
+            <li>公式サイトには経験者採用社員のインタビューが9名分掲載されています（入社年度・部門・職種・入社の決め手・仕事内容・ブラザーの魅力）。</li>
+            <li>ブラザー販売株式会社（別法人）にも独自のキャリア採用ページがあります。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認した内容です。募集状況は変動するため、最新情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でブラザー工業のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
@@ -140,7 +140,7 @@ export default function CompanyCareer() {
           {[
             { title: "製造業での実務経験", desc: "設計開発・品質保証・生産技術など、機械・電気・精密機器または近接する製造業での経験が最も評価されます。" },
             { title: "製品品質・安全への意識", desc: "世界中で使われるプリンターや工作機械を扱うため、品質・安全に対する誠実な姿勢が全職種で重視されます。" },
-            { title: "部門を跨ぐ調整力", desc: "5つの事業と工場・営業・開発が連携する体制のため、部門を跨ぐコミュニケーション力が求められます。" },
+            { title: "部門をまたぐ調整力", desc: "5つの事業と工場・営業・開発が連携する体制のため、部門をまたぐコミュニケーション力が求められます。" },
             { title: "腰を据えて働く姿勢", desc: "平均勤続13.9年という数字が示すように、腰を据えて長く働く文化との相性が問われます。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -157,7 +157,7 @@ export default function CompanyCareer() {
         <div className="space-y-5 mb-8">
           {[
             { step: 1, title: "書類選考", desc: "履歴書・職務経歴書（開発職はポートフォリオ等）を提出します。応募職種で求められる経験・スキルとの適合性が確認されます。" },
-            { step: 2, title: "一次面接", desc: "現場のマネージャー等による面接が行われます。実務経験・専門スキル・応募動機が中心です。" },
+            { step: 2, title: "一次面接", desc: "現場のマネージャー等による面接が行われます。主に実務経験・専門スキル・応募動機が確認されます。" },
             { step: 3, title: "二次面接・最終面接", desc: "部門責任者・役員クラスによる面接が行われます。カルチャーフィットや中長期のキャリアビジョンが確認されます。" },
             { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。入社時期や条件面の確認を経て入社となります。" },
           ].map((s) => (
@@ -174,15 +174,15 @@ export default function CompanyCareer() {
         <h2 id="s6">ブラザー工業の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約805万円（2026年3月期）は提出会社全社員の平均。職種（本社・工場・営業）により水準は異なります。</li>
-            <li>平均勤続13.9年・平均年齢43.6歳の安定雇用型。</li>
+            <li>約805万円（2026年3月期）は提出会社全社員の平均です。職種（本社・工場・営業）により水準は異なります。</li>
+            <li>平均勤続13.9年・平均年齢43.6歳と、安定雇用型の構成です。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">ブラザー工業転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
+        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数の転職エージェントに登録して求人情報を広く集める方法が有効です。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },

@@ -94,9 +94,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約910万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月3日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>809万円（2024年3月期）→792万円（2025年3月期）→910万円（2026年3月期）と推移（最新期に117万円の大幅上昇）。</li>
-            <li>キャリア採用は公式総合採用サイトで確認可能（2026年9月3日確認）。</li>
-            <li>最新期に117万円の大幅上昇です。上昇の内訳は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません。</li>
+            <li>809万円（2024年3月期）→792万円（2025年3月期）→910万円（2026年3月期）と推移しています（最新期に117万円の大幅上昇）。</li>
+            <li>キャリア採用の情報は公式総合採用サイトで確認できます（2026年9月3日確認）。</li>
+            <li>最新期に117万円の大幅上昇です。上昇の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは断定を控えます。</li>
           </ul>
         </div>
 
@@ -130,9 +130,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年9月3日時点で、<a href="https://www.khi-saiyo.jp/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式総合採用サイト</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>公式総合採用サイトから採用情報を確認できます。キャリア採用の募集職種一覧は採用管理システム上で公開される形です。</li>
+            <li>公式総合採用サイトから採用情報を確認できます。キャリア採用の募集職種一覧は採用管理システム上で公開されています。</li>
             <li>航空宇宙・エネルギー・車両など事業別の募集があります。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で川崎重工業のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "航空宇宙・防衛の実務", desc: "航空機・ヘリコプタ・防衛装備の開発製造が主力の一つで、航空系の経験が直結します。" },
             { title: "水素エネルギーの先行領域", desc: "液化水素運搬船など水素サプライチェーンの先行企業で、新エネルギー領域に挑みたい人に適合します。" },
             { title: "モーターサイクルのブランド", desc: "Kawasakiブランドの二輪事業はファンの多い領域で、二輪系の開発経験も活きます。" },
-            { title: "神戸・明石・岐阜など拠点別の採用", desc: "事業ごとに拠点が分かれるため、勤務地の軸を明確にして臨むのが確実です。" }
+            { title: "神戸・明石・岐阜など拠点別の採用", desc: "事業ごとに拠点が分かれるため、希望する勤務地を明確にしたうえで応募することをおすすめします。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -178,14 +178,14 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約910万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
-            <li>最新期に117万円の大幅上昇です。上昇の内訳は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません。</li>
+            <li>最新期に117万円の大幅上昇です。上昇の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは断定を控えます。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">川崎重工転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

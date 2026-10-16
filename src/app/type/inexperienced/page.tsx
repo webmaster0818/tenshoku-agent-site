@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 
 const faqData = [
   { q: "未経験でも転職エージェントに登録できますか？", a: "はい、登録できます。多くのエージェントが未経験者向けの求人を取り扱っており、業界・職種未経験の方もサポートしています。" },
-  { q: "未経験からの転職で人気の業界・職種は？", a: "IT業界（エンジニア、Webマーケティング）、営業職、事務職、介護・福祉、物流などが未経験歓迎の求人が多い傾向にあります。" },
-  { q: "未経験転職で年収は下がりますか？", a: "業界・職種によります。未経験の場合、最初は年収が下がるケースもありますが、成長産業や人手不足の業界では、未経験でも好条件の求人があります。エージェントに相談して市場相場を確認しましょう。" },
-  { q: "未経験者が転職を成功させるコツは？", a: "ポテンシャルや意欲をアピールすることが重要です。前職で培った汎用スキル（コミュニケーション力、問題解決力など）を新しい仕事にどう活かせるかを伝えましょう。" },
+  { q: "未経験からの転職で人気の業界・職種を教えてください。", a: "IT業界（エンジニア、Webマーケティング）、営業職、事務職、介護・福祉、物流などは、未経験歓迎の求人が多い傾向にあります。" },
+  { q: "未経験転職で年収は下がりますか？", a: "業界・職種によります。未経験の場合、最初は年収が下がるケースもありますが、成長産業や人手不足の業界では、未経験でも好条件の求人があります。転職エージェントに相談し、市場相場を確認することをおすすめします。" },
+  { q: "未経験者が転職を成功させるためのポイントは何ですか？", a: "ポテンシャルや意欲をアピールすることが重要です。前職で培った汎用スキル（コミュニケーション力、問題解決力など）を新しい仕事にどう活かせるかを伝えることが有効です。" },
   { q: "資格がなくても未経験転職は可能ですか？", a: "はい、多くの未経験歓迎の求人は資格不問です。ただし、事前に関連資格を取得しておくと、意欲のアピールになります。エージェントに相談すれば、有利な資格についてアドバイスを受けられます。" },
-  { q: "未経験転職の場合、転職活動期間はどのくらい？", a: "一般的に2〜4ヶ月程度です。未経験の場合は応募数を増やす必要があるため、経験者転職よりやや時間がかかる傾向があります。" },
+  { q: "未経験転職の場合、転職活動期間はどのくらいですか？", a: "一般的に2〜4ヶ月程度です。未経験の場合は応募数を増やす必要があるため、経験者転職よりやや時間がかかる傾向があります。" },
 ];
 
 const faqJsonLd = {
@@ -56,7 +56,7 @@ export default function InexperiencedPage() {
           </h1>
           <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月15日</p>
           <p className="text-text-secondary leading-relaxed">
-            未経験から新しい業界・職種に挑戦したい方にとって、転職エージェントは心強い味方です。
+            未経験から新しい業界・職種に挑戦したい方にとって、転職エージェントは有効な支援手段です。
             未経験可の求人を多く持つエージェントと、効果的な活用法を紹介します。
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function InexperiencedPage() {
         <h2>未経験転職に強いエージェントランキング</h2>
         <div className="space-y-4 mb-10">
           {[
-            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を持つ総合型。幅広い業界・職種をカバーしているため、未経験歓迎の求人も含めて異業種転職の選択肢を広げやすいです。" },
+            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を持つ総合型です。幅広い業界・職種をカバーしているため、未経験歓迎の求人も含めて異業種転職の選択肢を広げやすいです。" },
             { rank: 2, name: "doda", href: "/review/doda/", desc: "未経験歓迎の求人特集があり、求人検索時に「未経験可」のフィルターで絞り込めます。エージェントとサイトの両方が使えるため、自分のペースで進められます。" },
             { rank: 3, name: "マイナビエージェント", href: "/review/mynavi/", desc: "20代・30代の未経験転職に強みがあります。丁寧なカウンセリングで、未経験でも活かせるスキルの棚卸しをサポートしてくれます。" },
             { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "管理職・専門職経験がある方が新しい業界に挑戦する場合に活用できます。スカウト型のため、自分の経験を評価してくれる企業を見つけやすいです。" },
@@ -88,7 +88,7 @@ export default function InexperiencedPage() {
         <p className="mb-4">
           上記の総合型に加えて、未経験からの転職だけを専門に扱うエージェントもあります。
           <Link href="/review/rework/" className="text-teal underline">Re:WORKエージェント</Link>は「未経験からの転職専門」を掲げ、
-          未経験応募OKの求人を中心に紹介可能求人数16,432件以上（公式表記・2026年10月14日確認。8月22日は39,652件以上と表記）。
+          未経験応募OKの求人を中心に、紹介可能求人数16,432件以上と公式に表記しています（2026年10月14日確認。8月22日は39,652件以上と表記）。
           接客業からIT業界へ、工場勤務から一般事務へといった異業種チャレンジを専属アドバイザーが伴走すると公表しています（利用無料）。
         </p>
         <p className="text-sm mb-4">
@@ -127,21 +127,21 @@ export default function InexperiencedPage() {
               </tbody>
             </table>
           </div>
-        <p className="text-xs text-text-muted mb-4">出典：各社公式サイト・運営会社の会社概要（2026年10月14日確認）。数値は各社の公式表記で、当サイトの集計ではありません。詳しくは<Link href="/review/rework/" className="text-teal hover:underline">Re:WORKエージェントの口コミ・評判</Link>・<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で、確認日と出典つきで整理しています。</p>
+        <p className="text-xs text-text-muted mb-4">出典：各社公式サイト・運営会社の会社概要（2026年10月14日確認）。数値は各社の公式表記で、当サイトの集計ではありません。詳しくは<Link href="/review/rework/" className="text-teal hover:underline">Re:WORKエージェントの口コミ・評判</Link>・<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で、確認日と出典を明記して整理しています。</p>
         <ul className="space-y-2 text-sm text-text-secondary mb-8">
           <li><strong>目指す業界・職種がある程度決まっている</strong> → 未経験歓迎の求人を直接紹介してもらえるRe:WORKエージェント</li>
-          <li><strong>20代で、どのエージェントを使えばよいか分からない</strong> → まず転職AGENT Naviで相性の良い担当者を紹介してもらう（<FelmatTextLink slug="agent-navi" text="転職AGENT Navi公式サイト(PR)" />）</li>
-          <li>どちらも運営会社が新しく、第三者の口コミがまだ少ないため、大手総合型エージェントと併用するのが安全です</li>
+          <li><strong>20代で、どのエージェントを使えばよいかわからない</strong> → まず転職AGENT Naviで相性の良い担当者を紹介してもらう方法が有効です（<FelmatTextLink slug="agent-navi" text="転職AGENT Navi公式サイト(PR)" />）</li>
+          <li>どちらも運営会社が新しく、第三者の口コミがまだ少ないため、大手総合型エージェントとの併用をおすすめします</li>
         </ul>
 
         {/* 未経験可の求人の探し方 */}
         <h2>未経験可の求人を見つける方法</h2>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "複数のエージェントに登録する", desc: "エージェントごとに保有する未経験歓迎求人が異なります。2〜3社に登録して、より多くの求人に出会いましょう。" },
+            { step: 1, title: "複数のエージェントに登録する", desc: "エージェントごとに保有する未経験歓迎求人が異なります。2〜3社に登録することで、より多くの求人に出会えます。" },
             { step: 2, title: "希望条件を柔軟に伝える", desc: "業界・職種を限定しすぎず、興味のある分野を幅広く伝えることで、思わぬ好条件の求人に出会えることがあります。" },
             { step: 3, title: "転職サイトとの併用", desc: "エージェント経由だけでなく、転職サイトで「未経験歓迎」の求人を自分で探すことも効果的です。dodaなら両方の機能が使えます。" },
-            { step: 4, title: "汎用スキルを整理する", desc: "コミュニケーション力、PCスキル、マネジメント経験など、業界を問わず活かせるスキルを洗い出しておきましょう。" },
+            { step: 4, title: "汎用スキルを整理する", desc: "コミュニケーション力、PCスキル、マネジメント経験など、業界を問わず活かせるスキルを洗い出しておくことをおすすめします。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -165,10 +165,10 @@ export default function InexperiencedPage() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            未経験から新しいキャリアを始めよう
+            未経験からの転職に向けて
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            まずは転職エージェントに無料登録して、未経験歓迎の求人をチェックしましょう。
+            まずは転職エージェントに無料登録し、未経験歓迎の求人を確認することをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/recruit-agent/" className="btn-accent px-8 py-3">

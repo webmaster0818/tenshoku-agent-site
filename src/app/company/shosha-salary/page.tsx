@@ -16,15 +16,15 @@ export const metadata: Metadata = {
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "mitsubishi-corp", name: "三菱商事", salary: "約2,112万円", term: "2026年3月期", note: "日本最大級の総合商社。当サイト収録企業でも最高値。2,000万円台で推移し最新期は過去最高圏", hd: false, field: "総合商社" },
-  { rank: 2, slug: "mitsui-bussan", name: "三井物産", salary: "約2,058万円", term: "2026年3月期", note: "資源分野に強み。2年連続上昇で2,000万円台に到達", hd: false, field: "総合商社" },
-  { rank: 3, slug: "itochu", name: "伊藤忠商事", salary: "約1,991万円", term: "2026年3月期", note: "非資源・生活消費に強み。最新期に187万円の大幅上昇", hd: false, field: "総合商社" },
-  { rank: 4, slug: "sumitomo-corp", name: "住友商事", salary: "約1,840万円", term: "2026年3月期", note: "金属・輸送機・インフラのバランス型。平均勤続18.3年と長期就業型", hd: false, field: "総合商社" },
-  { rank: 5, slug: "marubeni", name: "丸紅", salary: "約1,784万円", term: "2026年3月期", note: "食料・アグリ・電力に強み。2年連続上昇", hd: false, field: "総合商社" },
-  { rank: 6, slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円", term: "2026年3月期", note: "トヨタグループの商社。自動車バリューチェーンとアフリカ事業。2年で計159万円上昇", hd: false, field: "総合商社" },
-  { rank: 7, slug: "sojitz", name: "双日", salary: "約1,257万円", term: "2026年3月期", note: "7大商社で最も若い構成(平均40.5歳)。航空・自動車に強み", hd: false, field: "総合商社" },
-  { rank: 8, slug: "kanematsu", name: "兼松", salary: "約1,201万円", term: "2026年3月期", note: "電子・デバイスと食料の老舗専門商社。平均37.7歳の若い構成で2年間に計192万円の大幅上昇", hd: false, field: "専門商社" },
-  { rank: 9, slug: "hanwa", name: "阪和興業", salary: "約997万円", term: "2026年3月期", note: "鉄鋼流通の独立系最大手。平均37.4歳の最年少構成で2年間に計148万円上昇し1,000万円目前", hd: false, field: "専門商社" },
+  { rank: 1, slug: "mitsubishi-corp", name: "三菱商事", salary: "約2,112万円", term: "2026年3月期", note: "日本最大級の総合商社です。当サイト収録企業の中でも最高値です。2,000万円台で推移し、最新期は過去最高圏にあります。", hd: false, field: "総合商社" },
+  { rank: 2, slug: "mitsui-bussan", name: "三井物産", salary: "約2,058万円", term: "2026年3月期", note: "資源分野に強みがあります。2年連続で上昇し、2,000万円台に到達しました。", hd: false, field: "総合商社" },
+  { rank: 3, slug: "itochu", name: "伊藤忠商事", salary: "約1,991万円", term: "2026年3月期", note: "非資源・生活消費に強みがあります。最新期に187万円の大幅上昇となりました。", hd: false, field: "総合商社" },
+  { rank: 4, slug: "sumitomo-corp", name: "住友商事", salary: "約1,840万円", term: "2026年3月期", note: "金属・輸送機・インフラのバランス型で、平均勤続18.3年の長期就業型です。", hd: false, field: "総合商社" },
+  { rank: 5, slug: "marubeni", name: "丸紅", salary: "約1,784万円", term: "2026年3月期", note: "食料・アグリ・電力に強みがあります。2年連続で上昇しています。", hd: false, field: "総合商社" },
+  { rank: 6, slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円", term: "2026年3月期", note: "トヨタグループの商社で、自動車バリューチェーンとアフリカ事業を展開しています。2年で計159万円上昇しました。", hd: false, field: "総合商社" },
+  { rank: 7, slug: "sojitz", name: "双日", salary: "約1,257万円", term: "2026年3月期", note: "7大商社で最も若い構成です(平均40.5歳)。航空・自動車に強みがあります。", hd: false, field: "総合商社" },
+  { rank: 8, slug: "kanematsu", name: "兼松", salary: "約1,201万円", term: "2026年3月期", note: "電子・デバイスと食料の老舗専門商社です。平均37.7歳の若い構成で、2年間に計192万円の大幅上昇となりました。", hd: false, field: "専門商社" },
+  { rank: 9, slug: "hanwa", name: "阪和興業", salary: "約997万円", term: "2026年3月期", note: "鉄鋼流通の独立系最大手です。平均37.4歳の最年少構成で、2年間に計148万円上昇し、1,000万円に迫る水準です。", hd: false, field: "専門商社" },
 ];
 
 const faqData = [
@@ -34,19 +34,19 @@ const faqData = [
   },
   {
     q: "商社の平均年収が高いのはなぜですか？",
-    a: "有価証券報告書の平均年間給与は賞与を含む値であり、商社は資源価格や事業投資の利益に連動して賞与が大きく変動します。近年は資源高・円安・事業投資の好調を背景に賞与水準が高く、伊藤忠商事の+187万円(最新期)のような大幅な増加が生じています。逆に業績次第で下がる年もある点は理解しておきましょう。",
+    a: "有価証券報告書の平均年間給与は賞与を含む値であり、商社は資源価格や事業投資の利益に連動して賞与が大きく変動します。近年は資源高・円安・事業投資の好調を背景に賞与水準が高く、伊藤忠商事の+187万円(最新期)のような大幅な増加が生じています。逆に、業績次第で下がる年もある点にご留意ください。",
   },
   {
     q: "平均年収2,000万円は全員がもらえる水準ですか？",
-    a: "いいえ。有価証券報告書の値は総合職・一般職を含む全従業員の平均で、賞与・時間外手当を含みます。年次・職掌により実際の水準は大きく異なり、中途入社時の提示額はポジションごとに個別に決まります。あくまで「会社全体の給与水準の高さ」を示す指標として見てください。",
+    a: "いいえ。有価証券報告書の値は総合職・一般職を含む全従業員の平均で、賞与・時間外手当を含みます。年次・職掌により実際の水準は大きく異なり、中途入社時の提示額はポジションごとに個別に決まります。あくまで「会社全体の給与水準の高さ」を示す指標としてご覧ください。",
   },
   {
     q: "未経験から総合商社へ転職できますか？",
-    a: "5大商社のキャリア採用は事業領域別のポジション採用が中心で、応募領域の専門実務経験(資源・食料・金融・DX・経理財務など)が前提になります。業界未経験でも、職種の専門性(M&A・法務・デジタル等)が合致すれば可能性があります。若手ポテンシャル枠は第二新卒向けに開かれる時期もあるため、各社の採用サイトを定点確認するのが確実です。",
+    a: "5大商社のキャリア採用は事業領域別のポジション採用が中心で、応募領域の専門実務経験(資源・食料・金融・DX・経理財務など)が前提になります。業界未経験でも、職種の専門性(M&A・法務・デジタル等)が合致すれば可能性があります。若手ポテンシャル枠は第二新卒向けに開かれる時期もあるため、各社の採用サイトを定期的に確認することをおすすめします。",
   },
   {
     q: "総合商社の中途採用はどこに応募すればいいですか？",
-    a: "9社とも公式のキャリア採用サイト(または採用ポータル)で募集ポジションを公開しています(2026年9月5日確認)。加えて商社は非公開求人・スカウト経由の採用も多いため、ハイクラス向けエージェントやスカウト型サービスの併用が実質的な入口になります。",
+    a: "9社とも公式のキャリア採用サイト(または採用ポータル)で募集ポジションを公開しています(2026年9月5日確認)。加えて商社は非公開求人・スカウト経由の採用も多いため、ハイクラス向け転職エージェントやスカウト型サービスの併用が有効です。",
   },
 ];
 
@@ -84,7 +84,7 @@ export default function ItConsultantSalaryRanking() {
             総合商社の年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
-            大手総合商社10社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。コンサル・SI・品質保証まで、持株会社単体と事業会社の違い、中途採用の入口もあわせて解説します。
+            大手総合商社10社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。持株会社単体と事業会社の違いや、中途採用の入口もあわせて解説します。
           </p>
         </div>
 
@@ -137,10 +137,10 @@ export default function ItConsultantSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票や転職エージェント経由で確認することをおすすめします。</p>
           </div>
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
+            <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続年数で上振れする</h3>
             <p className="text-xs text-text-secondary leading-relaxed">勤続年数が長く平均年齢が高い企業ほど、全社員平均は高く出ます。中途入社時の提示額とは異なる点にご留意ください。</p>
           </div>
           <div className="card-hover p-5">
@@ -151,14 +151,14 @@ export default function ItConsultantSalaryRanking() {
 
         <h2>総合商社転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          総合商社は非公開求人が多く、専門性の見せ方が選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
+          総合商社は非公開求人が多く、専門性の見せ方が選考を左右します。複数の転職エージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手総合商社から中堅まで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。総合商社の同業比較・年収レンジ把握がしやすい点が特長です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・高度専門職クラスの市場価値の把握に適しています。ハイクラスの総合商社求人が多く集まります。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強みがあります。商社の事業投資・海外系ポジションに。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・グローバル転職に強みがあります。商社の事業投資・海外系ポジションの紹介に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -181,7 +181,7 @@ export default function ItConsultantSalaryRanking() {
         </div>
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
-          <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">総合商社への転職を考えたら</h2>
+          <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">総合商社への転職を検討する方へ</h2>
           <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>

@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "EBAフリーランスの評判は？高単価特化のITフリーランス案件サービスを解説【2026年】",
-  description: "EBAフリーランス(EBAテック運営)は年収1000万円超を目指す高単価案件特化のITフリーランス案件提案サービス。最高単価180万円・エンド直案件90%・リモート50%以上(いずれも公式表記)。特徴を公式情報ベースで解説します。",
+  description: "EBAフリーランス(EBAテック運営)は年収1000万円超を目指す高単価案件特化のITフリーランス案件提案サービスです。最高単価180万円・エンド直案件90%・リモート50%以上と公式に表記しています。特徴を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/eba-freelance/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>高単価案件に特化したITフリーランス向けサービス</strong>。年収1000万円以上を目指す層が対象です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>エンド直案件90%・最高単価180万円・リモート50%以上</strong>(いずれも公式表記・2026年2月末時点)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>高単価案件に特化したITフリーランス向けサービスです</strong>。年収1000万円以上を目指す層が対象です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>エンド直案件90%・最高単価180万円・リモート50%以上</strong>と公式に表記しています(2026年2月末時点)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>福利厚生の提供にも言及</strong>があり、利用は無料です。</span></li>
           </ul>
         </div>
@@ -81,11 +81,11 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：EBAフリーランス公式サイト(eba-freelance.com)、2026年8月22日確認。単価・比率は公式サイト掲載値(2026年2月末時点表記)。掲載事例は公式サイトの成功実績より。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：EBAフリーランス公式サイト(eba-freelance.com)、2026年8月22日確認。単価・比率は公式サイトの掲載値(2026年2月末時点の表記)です。掲載事例は公式サイトの成功実績から引用しています。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>EBAフリーランスの特徴(公式公表ベース)</h2>
+        <h2>EBAフリーランスの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">エンド直・高単価へのこだわり</h3><p className="text-sm text-text-secondary leading-relaxed">エンド直案件90%と公式表記。多重下請け構造を避けることで、月額100万円超の高単価を実現する構造を打ち出しています。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">エンド直・高単価へのこだわり</h3><p className="text-sm text-text-secondary leading-relaxed">エンド直案件90%と公式に表記しています。多重下請け構造を避けることで、月額100万円超の高単価を実現する構造を打ち出しています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ハイスキル人材向けの厳選提案</h3><p className="text-sm text-text-secondary leading-relaxed">テックリード・DXプロジェクト・マイクロサービス化など、上流・リード級の案件事例が公式に紹介されており、経験者の単価アップに焦点を当てています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">リモート比率の開示</h3><p className="text-sm text-text-secondary leading-relaxed">リモートワーク50%以上と働き方の比率も公式開示しており、単価と働き方のバランスを検討できます。</p></div>
         </div>
@@ -103,7 +103,7 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>フリーランス経験の浅い人 →案件数の多い大手サービスと併用を</li>
+              <li>フリーランス経験の浅い人 →案件数の多い大手サービスとの併用をおすすめします</li>
               <li>正社員での転職を考えている人 →<a href="/review/techclips/" className="text-teal underline">TechClipsエージェント</a>等へ</li>
             </ul>
           </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>EBAフリーランスは、エンド直×高単価に特化したITフリーランス案件サービスです。リード級人材の単価最大化に焦点を当てた設計で、利用は無料です。フリーランスの案件探しは2〜3サービス併用が基本なので、専門特化型と大手を組み合わせるのがおすすめです。</p>
+        <p>EBAフリーランスは、エンド直案件と高単価に特化したITフリーランス案件サービスです。リード級人材の単価最大化に焦点を当てた設計で、利用は無料です。フリーランスの案件探しは2〜3サービスの併用が一般的なため、専門特化型と大手を組み合わせるのがおすすめです。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

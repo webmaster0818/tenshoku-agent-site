@@ -94,9 +94,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,840万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月5日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,758万円（2024年3月期）→1,744万円（2025年3月期）→1,840万円（2026年3月期）と推移（最新期に95万円上昇）。</li>
-            <li>キャリア採用は公式採用サイト(キャリア採用)で確認可能（2026年9月5日確認）。</li>
-            <li>平均勤続18.3年と5大商社の中でも長期就業型の構成です。全従業員平均であり、賞与等を含む値です。</li>
+            <li>1,758万円（2024年3月期）→1,744万円（2025年3月期）→1,840万円（2026年3月期）と推移しており、最新期に95万円上昇しています。</li>
+            <li>キャリア採用の情報は公式採用サイト(キャリア採用)で確認できます（2026年9月5日確認）。</li>
+            <li>平均勤続年数は18.3年で、5大商社の中でも長期就業型の構成です。全従業員平均であり、賞与等を含む値です。</li>
           </ul>
         </div>
 
@@ -132,9 +132,9 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式採用サイトにキャリア採用の案内と募集ポジションが公開されています。</li>
             <li>事業部門別のポジション採用が中心です。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用サイトでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で住友商事のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で住友商事のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">住友商事で求められる人材</h2>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "インフラ・輸送機事業の経験", desc: "電力インフラ・リース・自動車関連など息の長い事業が柱で、当該業界の実務が直結します。" },
             { title: "事業経営の実務", desc: "事業会社の経営管理・ガバナンス強化が全社テーマで、経営企画系の経験が評価されます。" },
             { title: "「信用確実」の企業文化への適合", desc: "住友の事業精神を重んじる堅実な組織文化です。" },
-            { title: "メディア・デジタル領域", desc: "ケーブルテレビ・5G等のデジタル事業も大きく、IT/通信の経験も適合先があります。" }
+            { title: "メディア・デジタル領域", desc: "ケーブルテレビ・5G等のデジタル事業も大きく、IT・通信分野の経験を活かせるポジションもあります。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -178,14 +178,14 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,840万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
-            <li>平均勤続18.3年と5大商社の中でも長期就業型の構成です。全従業員平均であり、賞与等を含む値です。</li>
+            <li>平均勤続年数は18.3年で、5大商社の中でも長期就業型の構成です。全従業員平均であり、賞与等を含む値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">住友商事転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

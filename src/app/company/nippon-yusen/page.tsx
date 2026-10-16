@@ -89,15 +89,15 @@ export default function CompanyCareer() {
           </p>
         </div>
         <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
-          <p className="font-bold text-navy mb-3">先に結論：日本郵船への転職（公式で確認・2026年10月15日）</p>
+          <p className="font-bold text-navy mb-3">日本郵船の中途採用の概要（公式サイトで確認・2026年10月15日）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
-            <li><strong>募集職種：</strong>陸上職事務系（総合職）・陸上職技術系（総合職）・海上職（航海士/機関士）の3職種と、元社員向けのリボーディング制度。</li>
-            <li><strong>応募資格（陸上職事務系）：</strong>大学・大学院・高専卒で就業経験のある方。<strong>経験職務・業界は不問</strong>。歓迎条件に英語（TOEIC 750点以上）、海外折衝を含むPM/PL経験、ファイナンス・税務・IT戦略/DX・法務（弁護士資格・英文契約）など。</li>
-            <li><strong>選考：</strong>書類選考及び面接（3回程度）。マイページから応募。1年間に複数回の応募は不可。</li>
-            <li><strong>働き方：</strong>9:00〜17:00（フレックス・コアタイム11:00〜15:00）、勤務地は横浜・東京・国内支店・海外、3〜4年ごとのジョブローテーション。</li>
-            <li><strong>平均年収：</strong>約1,554万円（2026年3月期・有価証券報告書／提出会社。平均37.8歳・勤続13.9年）。</li>
+            <li><strong>募集職種：</strong>陸上職事務系（総合職）・陸上職技術系（総合職）・海上職（航海士/機関士）の3職種と、元社員向けのリボーディング制度があります。</li>
+            <li><strong>応募資格（陸上職事務系）：</strong>大学・大学院・高専卒で就業経験のある方が対象で、<strong>経験職務・業界は不問</strong>とされています。歓迎条件として、英語（TOEIC 750点以上）、海外折衝を含むPM/PL経験、ファイナンス・税務・IT戦略/DX・法務（弁護士資格・英文契約）などが挙げられています。</li>
+            <li><strong>選考：</strong>書類選考及び面接（3回程度）です。応募はマイページから行い、1年間に複数回の応募はできません。</li>
+            <li><strong>働き方：</strong>9:00〜17:00（フレックス・コアタイム11:00〜15:00）、勤務地は横浜・東京・国内支店・海外で、3〜4年ごとのジョブローテーションがあります。</li>
+            <li><strong>平均年収：</strong>約1,554万円です（2026年3月期・有価証券報告書／提出会社。平均37.8歳・勤続13.9年）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.nyk.com/recruit/career/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">日本郵船 キャリア採用 募集要項</a>。募集内容は変わることがあるため、応募前に公式で最新をご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.nyk.com/recruit/career/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">日本郵船 キャリア採用 募集要項</a>。募集内容は変わることがあるため、応募前に公式サイトで最新情報をご確認ください。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -117,9 +117,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,554万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,378万円（2024年3月期）→1,435万円（2025年3月期）→1,554万円（2026年3月期）と推移。海運5社で唯一、直近3期とも上昇(1,378→1,435→1,554万円)。2年で計176万円。</li>
-            <li>キャリア採用は陸上職事務系・技術系・海上職の3職種。陸上職は経験職務・業界不問、選考は書類＋面接3回程度（公式募集要項・2026年10月15日確認）。</li>
-            <li>平均37.8歳・勤続13.9年。海運は市況により賞与が大きく変動するため、単年の平均額だけで判断しないことをおすすめします。</li>
+            <li>1,378万円（2024年3月期）→1,435万円（2025年3月期）→1,554万円（2026年3月期）と推移しています。海運5社で唯一、直近3期とも上昇しており(1,378→1,435→1,554万円)、2年で計176万円増加しました。</li>
+            <li>キャリア採用は陸上職事務系・技術系・海上職の3職種です。陸上職は経験職務・業界不問で、選考は書類＋面接3回程度です（公式募集要項・2026年10月15日確認）。</li>
+            <li>平均年齢は37.8歳、平均勤続年数は13.9年です。海運は市況により賞与が大きく変動するため、単年の平均額だけで判断しないことをおすすめします。</li>
           </ul>
         </div>
 
@@ -179,7 +179,7 @@ export default function CompanyCareer() {
           </div>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>陸上職は3〜4年ごとのジョブローテーションでさまざまな業務を経験します（公式募集要項）。</li>
-            <li>待遇の記載：昇給年1回、賞与は社内基準による、完全週休2日制（土・日）、有給休暇は初年度14日（以後1日ずつ増え20日まで）、夏季冬季休暇7日、独身寮・社宅など。</li>
+            <li>待遇として、昇給年1回、賞与（社内基準による）、完全週休2日制（土・日）、有給休暇（初年度14日、以後1日ずつ増え20日まで）、夏季冬季休暇7日、独身寮・社宅などが記載されています。</li>
             <li>希望職種の募集がない場合は、公式の「キャリア登録」を利用できます。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で日本郵船のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
@@ -208,7 +208,7 @@ export default function CompanyCareer() {
           {[
             { step: 1, title: "マイページから応募", desc: "公式キャリア採用サイトのマイページ上のガイダンスに従って応募します。過去に応募した人も再応募できますが、1年間に複数回の応募はできません。" },
             { step: 2, title: "書類選考", desc: "陸上職事務系・技術系・海上職とも書類選考があります。" },
-            { step: 3, title: "面接（3回程度）", desc: "公式の記載は「面接（3回程度）」。リボーディング制度は「面接（2～3回程度）」です。" },
+            { step: 3, title: "面接（3回程度）", desc: "公式の記載は「面接（3回程度）」です。リボーディング制度は「面接（2～3回程度）」です。" },
             { step: 4, title: "内定", desc: "給与・処遇は「当社規定により優遇」と記載されており、具体額は募集要項に掲載されていません。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
@@ -226,10 +226,10 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約1,554万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。海運は運賃市況の影響で業績変動が大きく、賞与もそれに連動します。</li>
-            <li>平均37.8歳・勤続13.9年。平均年収は年齢構成の影響を受ける点にご注意ください。</li>
+            <li>平均年齢は37.8歳、平均勤続年数は13.9年です。平均年収は年齢構成の影響を受ける点にご注意ください。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">日本郵船転職で活用したい転職エージェント</h2>

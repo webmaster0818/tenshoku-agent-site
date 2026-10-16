@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "SCSKへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "SCSK（証券コード9719）への転職を有価証券報告書などの一次データで解説。平均年間給与は約796万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "SCSK（証券コード9719）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約796万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/scsk/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "SCSKへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "SCSK（9719）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "SCSK（9719）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "SCSKはどんな会社ですか？",
-    a: "住友商事グループの大手SIer。システム開発からITインフラ・BPOまでフルラインナップです。本社は東京都江東区（豊洲）にあります。",
+    a: "住友商事グループの大手SIerで、システム開発からITインフラ・BPOまで幅広く手がけています。本社は東京都江東区（豊洲）にあります。",
   },
   {
     q: "SCSKの平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">SCSK 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            SCSK（証券コード9719）は、住友商事グループの大手SIer。システム開発からITインフラ・BPOまでフルラインナップです。
+            SCSK（証券コード9719）は、住友商事グループの大手SIerで、システム開発からITインフラ・BPOまで幅広く手がけています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">SCSK転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約796万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>764万円（2024年3月期）→787万円（2025年3月期）→796万円（2026年3月期）と推移（3年連続で上昇）。</li>
-            <li>キャリア採用は公式キャリア採用ページで確認可能（2026年8月29日確認）。</li>
+            <li>平均年間給与は約796万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）で、提出会社単体の全従業員の平均値です。</li>
+            <li>764万円（2024年3月期）→787万円（2025年3月期）→796万円（2026年3月期）と推移しています（3年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式キャリア採用ページで確認できます（2026年8月29日確認）。</li>
             <li>住友商事グループのSIerとしての安定した顧客基盤が特徴です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトにキャリア採用専用ページがあり、募集職種の確認とエントリー・キャリア登録ができます（2026年8月29日確認）。</li>
             <li>技術系・営業系など職種別の募集要項が公開されています。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>住友商事グループのSIerとしての安定した顧客基盤が特徴です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">SCSK転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

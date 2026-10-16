@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "味の素はどんな会社ですか？",
-    a: "アミノ酸技術を核とする食品・バイオの大手。調味料から半導体材料(ABF)まで展開し「アミノサイエンス」を掲げるです。本社は東京都中央区(京橋)にあります。",
+    a: "アミノ酸技術を核とする食品・バイオの大手企業です。調味料から半導体材料(ABF)まで展開し、「アミノサイエンス」を掲げています。本社は東京都中央区（京橋）にあります。",
   },
   {
     q: "味の素の平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">味の素 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            味の素（証券コード2802）は、アミノ酸技術を核とする食品・バイオの大手。調味料から半導体材料(ABF)まで展開し「アミノサイエンス」を掲げるです。
+            味の素（証券コード2802）は、アミノ酸技術を核とする食品・バイオの大手企業です。調味料から半導体材料(ABF)まで展開し、「アミノサイエンス」を掲げています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,061万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,072万円（2024年3月期）→1,036万円（2025年3月期）→1,061万円（2026年3月期）と推移（1,000万円台で安定推移）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年9月8日確認）。</li>
+            <li>1,072万円（2024年3月期）→1,036万円（2025年3月期）→1,061万円（2026年3月期）と推移しており、1,000万円台で安定しています。</li>
+            <li>キャリア採用の情報は公式採用情報ページで確認できます（2026年9月8日確認）。</li>
             <li>平均勤続18.9年の長期就業型です。全従業員平均であり、研究職・営業・工場で水準は異なります。</li>
           </ul>
         </div>
@@ -132,9 +132,9 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトの採用情報から新卒・キャリア採用の窓口を確認できます。</li>
             <li>研究開発・生産技術・DX・マーケティング等の職種別キャリア採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で味の素のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で味の素のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">味の素で求められる人材</h2>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "バイオ・発酵技術の研究開発", desc: "アミノ酸発酵・バイオ技術の研究者は同社の中核人材です。" },
             { title: "半導体材料(ABF)事業", desc: "電子材料事業の拡大で、化学・材料系エンジニアの需要が高い局面です。" },
             { title: "食品の商品開発・マーケ", desc: "調味料・冷凍食品のブランドマーケ経験が活きます。" },
-            { title: "長期就業型の社風", desc: "平均勤続18.9年と食品収録8社で最長クラスの定着率です。" }
+            { title: "長期就業型の社風", desc: "平均勤続年数は18.9年で、当サイトが収録する食品8社の中で最長クラスの定着率です。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>平均勤続18.9年の長期就業型です。全従業員平均であり、研究職・営業・工場で水準は異なります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">味の素転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

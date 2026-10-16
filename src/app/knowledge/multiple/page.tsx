@@ -7,21 +7,21 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/multiple/" },
   title: "転職エージェントの複数利用・掛け持ち｜メリデメとおすすめ組み合わせ",
   description:
-    "転職エージェントを複数掛け持ちで利用するメリット・デメリット、おすすめの組み合わせ、注意点を解説。効率的に転職活動を進める方法を紹介します。",
+    "転職エージェントを複数掛け持ちで利用するメリット・デメリット、おすすめの組み合わせ、注意点を解説し、効率的に転職活動を進める方法を紹介します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職エージェントの複数利用・掛け持ち｜メリデメとおすすめ組み合わせ",
-    description: "転職エージェントの複数利用のメリデメとおすすめ組み合わせを解説。",
+    description: "転職エージェントを複数利用するメリット・デメリットと、おすすめの組み合わせを解説します。",
   },
 };
 
 const faqData = [
   { q: "転職エージェントを複数利用してもよいですか？", a: "はい、複数利用は一般的で、多くのエージェントも複数利用を前提としたサービスを提供しています。2〜3社の併用がおすすめです。" },
-  { q: "複数利用していることは伝えるべきですか？", a: "はい、他のエージェントも利用していることを伝えましょう。同じ企業に重複応募するリスクを防げますし、担当者がより積極的にサポートしてくれる場合もあります。" },
+  { q: "複数利用していることは伝えるべきですか？", a: "はい、他の転職エージェントも利用している旨を伝えることをおすすめします。同じ企業に重複応募するリスクを防げますし、担当者がより積極的にサポートしてくれる場合もあります。" },
   { q: "何社くらいが適切ですか？", a: "2〜3社が最も効率的です。4社以上になると、連絡の管理やスケジュール調整が大変になり、かえって転職活動の質が下がる可能性があります。" },
-  { q: "同じ求人に複数のエージェントから応募してしまったらどうなりますか？", a: "重複応募は企業側に悪い印象を与える可能性があります。応募済みの企業を各エージェントに伝えて、重複を防ぎましょう。" },
-  { q: "途中で1社に絞っても問題ないですか？", a: "はい、問題ありません。面談や求人紹介を受けた結果、自分に合わないと感じたエージェントは利用を中止して構いません。担当者に一言伝えるとよいでしょう。" },
-  { q: "複数利用する場合のスケジュール管理のコツは？", a: "スプレッドシートなどで、各エージェントからの求人、応募状況、面接日程を一元管理しましょう。エージェント名、企業名、選考状況、面接日を記録しておくと混乱を防げます。" },
+  { q: "同じ求人に複数のエージェントから応募してしまったらどうなりますか？", a: "重複応募は企業側に悪い印象を与える可能性があります。応募済みの企業を各エージェントに伝え、重複を防ぐことが有効です。" },
+  { q: "途中で1社に絞っても問題ないですか？", a: "はい、問題ありません。面談や求人紹介を受けた結果、自分に合わないと感じたエージェントは利用を中止して構いません。その際は、担当者に一言伝えることをおすすめします。" },
+  { q: "複数利用する場合のスケジュール管理のコツは？", a: "スプレッドシートなどで、各エージェントからの求人、応募状況、面接日程を一元管理することをおすすめします。エージェント名、企業名、選考状況、面接日を記録しておくと混乱を防げます。" },
 ];
 
 const faqJsonLd = {
@@ -60,18 +60,18 @@ export default function MultiplePage() {
             <img src="/column-img/ts-multiple.jpg" alt="複数サービスの併用をイメージした静物" className="w-full h-auto" />
           </div>
           <p className="text-text-secondary leading-relaxed">
-            「複数登録したほうがいい」とよく言われますが、理由まで書かれていることは多くありません。
-            理由は求人の好みではなく、<strong>必要な応募数</strong>です。
+            転職エージェントは「複数登録したほうがよい」とよく言われます。
+            その主な理由は、求人の好みではなく<strong>必要な応募数</strong>にあります。
             dodaの公表値では、転職成功者の平均応募社数は<strong>{DODA.avgApplications}社</strong>、
-            書類通過率は約{DODA.docPassPct}%、応募からの内定率は約{DODA.offerPct}%。
+            書類通過率は約{DODA.docPassPct}%、応募からの内定率は約{DODA.offerPct}%です。
             <strong>1社の内定を得るのに、およそ{DODA.appsPerOffer}社の応募が必要</strong>になる計算です。
-            この数を1社のエージェントの保有求人だけで埋められるかどうか——
-            それが、複数登録するかどうかの実質的な判断基準になります。
+            この数を1社の転職エージェントの保有求人だけで確保できるかどうかが、
+            複数登録を判断する実質的な基準になります。
           </p>
         </div>
 
         {/* 承：なぜ母数が要るのか（2026-10-08 追加） */}
-        <h2>なぜ「2〜3社」と言われるのか</h2>
+        <h2>「2〜3社」が目安とされる理由</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-5">
           {[
             { v: `${DODA.avgApplications}社`, l: "転職成功者の平均応募社数" },
@@ -87,13 +87,13 @@ export default function MultiplePage() {
         </div>
         <p className="text-xs text-text-muted mb-6">出典：{DODA.source}（{STATS_CONFIRMED_AT}に当サイトで確認）。</p>
         <p className="text-text-secondary leading-relaxed mb-5">
-          応募したい求人が20〜30社ぶん必要で、そのうち「条件に本当に合うもの」だけを選ぶとなると、
-          紹介の母数はその数倍いります。1社のエージェントで足りることもありますが、
-          <strong>職種が限定的なほど足りなくなります</strong>。
+          応募したい求人が20〜30社分必要で、そのうち「条件に本当に合うもの」だけを選ぶとなると、
+          紹介を受ける求人の母数はその数倍が必要です。1社の転職エージェントで足りることもありますが、
+          <strong>職種が限定的なほど不足しやすくなります</strong>。
           複数登録は「保険」ではなく、<strong>母数を確保するための手段</strong>です。
         </p>
         <div className="glass-card p-5 mb-10">
-          <p className="font-bold text-navy mb-2">年代が上がるほど、必要な社数は減る</p>
+          <p className="font-bold text-navy mb-2">年代による平均応募社数の違い</p>
           <div className="flex flex-wrap gap-5">
             {DODA.byAge.map((a) => (
               <div key={a.age}>
@@ -103,9 +103,9 @@ export default function MultiplePage() {
             ))}
           </div>
           <p className="text-sm text-text-secondary mt-3 leading-relaxed">
-            40代になると平均{DODA.byAge[2].n}社です。数を打つより、
-            <strong>応募する1社ごとの精度</strong>が結果を決める段階に入ります。
-            この年代では、エージェントを増やすより「自分の経験を正確に理解してくれる1〜2社」に絞るほうが機能することがあります。
+            40代になると平均{DODA.byAge[2].n}社です。応募数を増やすよりも、
+            <strong>応募する1社ごとの精度</strong>が結果を左右する段階に入ります。
+            この年代では、転職エージェントを増やすより「自分の経験を正確に理解してくれる1〜2社」に絞るほうが有効な場合があります。
           </p>
         </div>
 
@@ -116,12 +116,12 @@ export default function MultiplePage() {
             <h3 className="font-bold text-teal mb-3">メリット</h3>
             <ul className="space-y-2">
               {[
-                "より多くの求人にアクセスできる",
-                "異なる視点のアドバイスを受けられる",
-                "非公開求人の幅が広がる",
-                "担当者の比較ができる",
-                "特定のエージェントへの依存を避けられる",
-                "複数の面接対策で準備が充実する",
+                "より多くの求人にアクセスできます",
+                "異なる視点のアドバイスを受けられます",
+                "非公開求人の幅が広がります",
+                "担当者を比較できます",
+                "特定のエージェントへの依存を避けられます",
+                "複数の面接対策を受けることで準備が充実します",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}
@@ -133,11 +133,11 @@ export default function MultiplePage() {
             <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
-                "連絡の管理が大変になる",
-                "スケジュール調整が複雑になる",
-                "同じ企業への重複応募のリスク",
-                "各エージェントへの対応に時間がかかる",
-                "情報が多すぎて判断に迷うことがある",
+                "連絡の管理に手間がかかります",
+                "スケジュール調整が複雑になります",
+                "同じ企業へ重複応募するリスクがあります",
+                "各エージェントへの対応に時間がかかります",
+                "情報が多く、判断に迷うことがあります",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
@@ -153,28 +153,28 @@ export default function MultiplePage() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">パターン1：幅広く求人を探したい方</h3>
             <p className="text-sm text-text-secondary">
-              <strong>リクルートエージェント</strong>（求人数最大級）＋ <strong>doda</strong>（サイト機能も活用）の組み合わせ。
+              <strong>リクルートエージェント</strong>（求人数最大級）＋ <strong>doda</strong>（サイト機能も活用）の組み合わせです。
               両方に登録することで、公開・非公開合わせて最大級の求人にアクセスできます。
             </p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">パターン2：20代・第二新卒の方</h3>
             <p className="text-sm text-text-secondary">
-              <strong>マイナビエージェント</strong>（20代の支援に強い）＋ <strong>リクルートエージェント</strong>（求人数の幅）の組み合わせ。
+              <strong>マイナビエージェント</strong>（20代の支援に強い）＋ <strong>リクルートエージェント</strong>（求人数の幅）の組み合わせです。
               若手向けのサポートと豊富な選択肢を両立できます。
             </p>
           </div>
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2">パターン3：ハイクラス・キャリアアップ狙い</h3>
+            <h3 className="font-bold text-navy mb-2">パターン3：ハイクラス・キャリアアップを目指す方</h3>
             <p className="text-sm text-text-secondary">
-              <strong>ビズリーチ</strong>（ハイクラス・スカウト型）＋ <strong>JACリクルートメント</strong>（外資系・管理職に強い）の組み合わせ。
+              <strong>ビズリーチ</strong>（ハイクラス・スカウト型）＋ <strong>JACリクルートメント</strong>（外資系・管理職に強い）の組み合わせです。
               高年収の求人と専門性の高いサポートを受けられます。
             </p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">パターン4：バランス重視の方</h3>
             <p className="text-sm text-text-secondary">
-              <strong>リクルートエージェント</strong>＋ <strong>doda</strong>＋ <strong>マイナビエージェント</strong>の3社併用。
+              <strong>リクルートエージェント</strong>＋ <strong>doda</strong>＋ <strong>マイナビエージェント</strong>の3社併用です。
               大手3社の強みを組み合わせることで、求人の網羅性とサポートの質を最大化できます。
             </p>
           </div>
@@ -192,10 +192,10 @@ export default function MultiplePage() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            複数のエージェントに無料登録しよう
+            複数の転職エージェントへの登録について
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            2〜3社に登録して比較することで、最適な転職活動が実現します。
+            2〜3社に登録して比較することで、ご自身に合う求人やサポートを見極めやすくなります。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/recruit-agent/" className="btn-accent px-8 py-3">

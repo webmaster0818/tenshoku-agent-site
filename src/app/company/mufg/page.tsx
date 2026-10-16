@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "三菱UFJフィナンシャル・グループは中途採用を行っていますか？",
-    a: "はい。公式サイトの三菱UFJ銀行の公式キャリア採用ページ（www.mysite.bk.mufg.jp/career/recruit/index.html）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
+    a: "はい。三菱UFJ銀行の公式キャリア採用ページ（www.mysite.bk.mufg.jp/career/recruit/index.html）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
   },
   {
     q: "三菱UFJフィナンシャル・グループはどんな会社ですか？",
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,170万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,047万円（2024年3月期）→1,093万円（2025年3月期）→1,170万円（2026年3月期）と推移（2年連続で上昇(計123万円)）。</li>
-            <li>キャリア採用は三菱UFJ銀行の公式キャリア採用ページで確認可能（2026年9月6日確認）。</li>
+            <li>1,047万円（2024年3月期）→1,093万円（2025年3月期）→1,170万円（2026年3月期）と推移しています（2年連続で上昇、計123万円）。</li>
+            <li>キャリア採用の情報は三菱UFJ銀行の公式キャリア採用ページで確認できます（2026年9月6日確認）。</li>
             <li>提出会社は持株会社単体であり、三菱UFJ銀行など事業会社の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>事業会社の三菱UFJ銀行がキャリア採用ページで募集を公開しています。</li>
             <li>信託・証券などグループ各社も個別にキャリア採用を実施しています。</li>
-            <li>※募集状況は変動するため最新は各社公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は各社の公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱UFJ FGのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "銀行実務・法人金融の経験", desc: "国内最大の顧客基盤を持つ銀行で、法人営業・審査・市場系の実務が直結します。" },
             { title: "グローバルバンキング", desc: "米モルガン・スタンレーとの提携やアジア商業銀行網など、海外業務の比重が大きいグループです。" },
             { title: "デジタル・データ職", desc: "エンジニア・データサイエンティストの職種別採用が拡大しています。" },
-            { title: "信託・資産運用の専門性", desc: "信託・アセマネ領域の専門経験も適合先が広いです。" }
+            { title: "信託・資産運用の専門性", desc: "信託・アセットマネジメント領域の専門経験も幅広く活かせます。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体であり、三菱UFJ銀行など事業会社の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">三菱UFJ FG転職で活用したい転職エージェント</h2>

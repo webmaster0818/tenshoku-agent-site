@@ -6,12 +6,12 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/doda/" },
-  title: "doda（デューダ）の評判・口コミは？やばい噂の真相とメリット・デメリット",
+  title: "doda（デューダ）の評判・口コミは？「やばい」と言われる理由とメリット・デメリット",
   description:
-    "doda（デューダ）の評判・口コミを徹底調査。「dodaはやばい」「電話がしつこい」と言われる理由と実態、エージェント／転職サイト／スカウト一体型の強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
+    "doda（デューダ）の評判・口コミを調査し、「dodaはやばい」「電話がしつこい」と言われる理由と実態、エージェント／転職サイト／スカウト一体型の強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "doda（デューダ）の評判・口コミは？やばい噂の真相とメリット・デメリット",
+    title: "doda（デューダ）の評判・口コミは？「やばい」と言われる理由とメリット・デメリット",
     description:
       "dodaの評判・口コミ、エージェントの実態、メリット・デメリット、向いている人を実データで解説。",
   },
@@ -19,16 +19,16 @@ export const metadata: Metadata = {
 
 const faqData = [
   {
-    q: "dodaの評判は実際どうですか？「やばい」って本当？",
+    q: "dodaの評判は実際どうですか？「やばい」という評判は本当ですか？",
     a: "「やばい」と検索されるのは、登録直後にメール・電話が多い、希望と違う求人が届くことがある、といった不満の声が一因です。これはdoda特有ではなく大手総合型エージェント共通の傾向で、面談時に連絡手段・頻度・希望条件を細かく伝えることで大きく改善します。一方で「求人数が多い」「サポートが手厚い」という肯定的な評判も多く、致命的なトラブルが多いサービスではありません。",
   },
   {
     q: "dodaエージェントの評判・口コミの傾向は？",
-    a: "dodaエージェント（エージェントサービス）は、書類添削・面接対策・年収交渉まで対応してくれる点が好評です。一方でアドバイザーの質や返信スピードには当たり外れがあるという声もあります。相性が合わないと感じた場合は担当者の変更を申し出ることができます。",
+    a: "dodaエージェント（エージェントサービス）は、書類添削・面接対策・年収交渉まで対応している点が好評です。一方でアドバイザーの質や返信スピードには当たり外れがあるという声もあります。相性が合わないと感じた場合は担当者の変更を申し出ることができます。",
   },
   {
     q: "dodaの登録は無料ですか？",
-    a: "はい、求職者の登録・利用は完全無料です（公式明記）。転職サイト機能、エージェントサービス、スカウト機能のすべてを無料で利用できます。サービスは採用企業からの報酬で運営されています。",
+    a: "はい、求職者の登録・利用は無料です（公式サイトに「完全無料」と明記）。転職サイト機能、エージェントサービス、スカウト機能のすべてを無料で利用できます。サービスは採用企業からの報酬で運営されています。",
   },
   {
     q: "dodaは電話・メールがしつこいと聞きましたが対処法は？",
@@ -44,7 +44,7 @@ const faqData = [
   },
   {
     q: "dodaはどんな人に向いていますか？",
-    a: "自分でも求人を探しつつプロのサポートも受けたい方に最適です。20代〜40代の幅広い年代に対応し、IT・Web業界（dodaエンジニアIT）にも強みがあります。まだ転職するか迷っている段階の方も、まずはサイト機能だけの利用から始められます。",
+    a: "自分でも求人を探しつつプロのサポートも受けたい方に適しています。20代〜40代の幅広い年代に対応し、IT・Web業界（dodaエンジニアIT）にも強みがあります。まだ転職するか迷っている段階の方も、まずはサイト機能だけの利用から始められます。",
   },
   {
     q: "dodaのエージェントサービスだけ利用できますか？",
@@ -85,7 +85,7 @@ export default function DodaReview() {
           <div className="flex items-center gap-3 mb-3">
             <span className="rank-badge rank-badge--2">2</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
-              doda（デューダ）の評判・口コミは？「やばい」噂の真相を徹底解説
+              doda（デューダ）の評判・口コミは？「やばい」と言われる理由とメリット・デメリット
             </h1>
           </div>
           <p className="text-text-secondary leading-relaxed">
@@ -105,15 +105,15 @@ export default function DodaReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>「やばい」の正体は連絡量の多さと求人ミスマッチ</strong>。dodaに限らず大手総合型に共通する傾向で、希望条件・連絡方法を最初に伝えれば改善できます。</span>
+              <span><strong>「やばい」と言われる主な理由は、連絡量の多さと求人のミスマッチです</strong>。dodaに限らず大手総合型に共通する傾向で、希望条件・連絡方法を最初に伝えれば改善できます。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>求人数が豊富＆サイト・エージェント・スカウトを使い分けられる</strong>のが他社にない強み。自分のペースと手厚いサポートを両立したい人に向きます。</span>
+              <span><strong>求人数が豊富＆サイト・エージェント・スカウトを使い分けられる</strong>のが他社にない強みです。自分のペースと手厚いサポートを両立したい方に適しています。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>登録・利用は完全無料</strong>。迷ったらまず登録し、サイト機能で求人を眺めるところから始めても損はありません。</span>
+              <span><strong>登録・利用は無料</strong>です。まずは登録し、サイト機能で求人を確認するところから始める方法もあります。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -144,14 +144,14 @@ export default function DodaReview() {
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">パーソルキャリア株式会社（パーソルグループ）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">転職サイト＋エージェント＋スカウトの一体型</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">大手総合型として豊富（具体的件数は時期で変動するため公式トップの最新表示を要確認）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料（公式明記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">大手総合型として豊富（具体的な件数は時期により変動するため、公式トップの最新表示をご確認ください）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトに「完全無料」と明記）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">全年代対応。中心は20代〜30代前半。IT専門「dodaエンジニアIT」あり</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国（求人数はエリアにより差あり）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：doda公式（doda.jp）、パーソルキャリア会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式トップ表示をご確認ください（要確認）。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：doda公式（doda.jp）、パーソルキャリア会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式トップ表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* dodaの評判・口コミ（メイン検索意図） */}
         <h2>dodaの評判・口コミの傾向</h2>
@@ -163,23 +163,23 @@ export default function DodaReview() {
           <div className="glass-card p-5">
             <p className="font-bold text-teal mb-2">良い評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>求人数が多く、優良企業の求人も見つかる</li>
-              <li>書類添削・面接対策・日程調整・選考後フォローが手厚い</li>
-              <li>スカウト経由で思わぬ企業と出会えた</li>
-              <li>年収査定・キャリアタイプ診断など無料の自己分析ツールが便利</li>
+              <li>求人数が多く、優良企業の求人も見つかります</li>
+              <li>書類添削・面接対策・日程調整・選考後フォローが手厚いです</li>
+              <li>スカウト経由で思わぬ企業と出会えたという声があります</li>
+              <li>年収査定・キャリアタイプ診断など無料の自己分析ツールが便利です</li>
             </ul>
           </div>
           <div className="glass-card p-5">
             <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>メール・電話が多すぎると感じる場合がある</li>
-              <li>希望と合わない求人・重複求人の紹介</li>
-              <li>アドバイザーの質・返信速度に当たり外れ</li>
-              <li>スカウトメールの量が多いと感じることがある</li>
+              <li>メール・電話が多すぎると感じる場合があります</li>
+              <li>希望と合わない求人・重複求人が紹介されることがあります</li>
+              <li>アドバイザーの質・返信速度に当たり外れがあります</li>
+              <li>スカウトメールの量が多いと感じることがあります</li>
             </ul>
           </div>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：みん評・イーデス等の口コミサイトに見られる評判の傾向（2026年6月確認）。具体的な口コミ件数・評点は時期で変動するため引用していません（要確認）。良し悪しは担当アドバイザーの相性に左右されやすいのが共通見解です。</p>
+        <p className="text-xs text-text-muted mb-8">出典：みん評・イーデス等の口コミサイトに見られる評判の傾向（2026年6月確認）。具体的な口コミ件数・評点は時期により変動するため引用していません。良し悪しは担当アドバイザーの相性に左右されやすいのが共通見解です。</p>
 
         {/* やばい噂の真相（検索意図 doda やばい） */}
         <h2>「dodaはやばい」と言われる理由と実態</h2>
@@ -192,7 +192,7 @@ export default function DodaReview() {
           {[
             {
               fear: "電話・メールがしつこい",
-              truth: "登録直後はアクティブ層として連絡が集中しがち。面談で「連絡はメール中心」「対応可能な時間帯」を伝え、メール配信設定を調整すれば改善します。",
+              truth: "登録直後はアクティブ層として連絡が集中しがちです。面談で「連絡はメール中心」「対応可能な時間帯」を伝え、メール配信設定を調整すれば改善します。",
             },
             {
               fear: "希望と違う求人が紹介される",
@@ -204,11 +204,11 @@ export default function DodaReview() {
             },
             {
               fear: "求人を急かされる感じがする",
-              truth: "転職時期が未定なら「情報収集段階」と最初に伝えればOK。サイト機能だけの利用も可能で、無理に応募する必要はありません。",
+              truth: "転職時期が未定なら「情報収集段階」と最初に伝えれば問題ありません。サイト機能だけの利用も可能で、無理に応募する必要はありません。",
             },
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
-              <p className="font-bold text-teal-dark mb-1 text-sm">噂：{item.fear}</p>
+              <p className="font-bold text-teal-dark mb-1 text-sm">よくある声：{item.fear}</p>
               <p className="text-sm text-text-secondary leading-relaxed">実態：{item.truth}</p>
             </div>
           ))}
@@ -219,7 +219,7 @@ export default function DodaReview() {
         <p>
           「dodaエージェント 評判」「doda エージェント 口コミ」で気になるのは、専任のキャリアアドバイザーがつく
           <strong>エージェントサービス</strong>の質です。dodaエージェントは、求人紹介に加えて
-          <strong>書類添削・面接対策・面接日程の調整・年収交渉</strong>までサポートしてくれる点が評価されています。
+          <strong>書類添削・面接対策・面接日程の調整・年収交渉</strong>までサポートしている点が評価されています。
           自分で求人を探す転職サイト機能と違い、非公開求人の紹介やプロ視点のアドバイスを受けられるのが強みです。
         </p>
         <p>
@@ -233,8 +233,8 @@ export default function DodaReview() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           {[
             { title: "転職サイト", desc: "自分のペースで求人を検索・閲覧。気になる求人にはサイトから直接応募できます。" },
-            { title: "エージェント", desc: "専任のキャリアアドバイザーが求人紹介、書類添削、面接対策、年収交渉までサポート。" },
-            { title: "スカウト", desc: "職務経歴書を登録するだけで、企業やヘッドハンターから直接オファーが届きます。面接確約オファーが届くことも。" },
+            { title: "エージェント", desc: "専任のキャリアアドバイザーが求人紹介、書類添削、面接対策、年収交渉までサポートします。" },
+            { title: "スカウト", desc: "職務経歴書を登録するだけで、企業やヘッドハンターから直接オファーが届きます。面接確約オファーが届くこともあります。" },
           ].map((f) => (
             <div key={f.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{f.title}</h3>
@@ -250,17 +250,17 @@ export default function DodaReview() {
           書類選考なしで面接に進める<strong>「面接確約オファー」</strong>や、在籍企業に知られない非公開設定が特徴で、
           「待つだけで思わぬ企業と接点が持てる」と評価されています。
           一方で「的外れな求人が届く」「マッチング精度にムラがある」という声もあるため、
-          希望条件を細かく登録しておくのがコツです。
+          希望条件を細かく登録しておくことをおすすめします。
         </p>
 
         {/* 利用の流れ */}
         <h2>doda 利用の流れ</h2>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "無料会員登録", desc: "公式サイトから基本情報を入力して登録。約3分で完了します。登録後すぐに転職サイト機能が利用可能になります。" },
+            { step: 1, title: "無料会員登録", desc: "公式サイトから基本情報を入力して登録します。約3分で完了します。登録後すぐに転職サイト機能が利用可能になります。" },
             { step: 2, title: "エージェントサービスの申し込み", desc: "エージェントサービスを希望する場合は、マイページから別途申し込みます。後からでも申し込み可能です。" },
-            { step: 3, title: "キャリアアドバイザーとの面談", desc: "電話・オンライン・対面から選べます。経歴・希望・キャリアプランを丁寧にヒアリング。ここで連絡方法や希望条件を具体的に伝えると、その後の精度が上がります。" },
-            { step: 4, title: "求人紹介・応募・選考", desc: "アドバイザーから求人を紹介されるほか、自分でもサイトから検索可能。応募書類の添削、面接対策、年収交渉もサポートします。" },
+            { step: 3, title: "キャリアアドバイザーとの面談", desc: "電話・オンライン・対面から選べます。経歴・希望・キャリアプランを丁寧にヒアリングします。ここで連絡方法や希望条件を具体的に伝えると、その後の精度が上がります。" },
+            { step: 4, title: "求人紹介・応募・選考", desc: "アドバイザーから求人を紹介されるほか、自分でもサイトから検索できます。応募書類の添削、面接対策、年収交渉もサポートします。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -279,13 +279,13 @@ export default function DodaReview() {
             <h3 className="font-bold text-teal mb-3">メリット</h3>
             <ul className="space-y-2">
               {[
-                "転職サイトとエージェントを1つで併用できる",
-                "スカウト機能で自分では見つけられない求人に出会える",
-                "転職フェアなど独自イベントが充実",
-                "IT・Web業界（dodaエンジニアIT）の求人が豊富",
-                "年収査定やキャリアタイプ診断など無料ツールが充実",
-                "求人数が豊富で幅広い選択肢がある",
-                "求職者は完全無料で利用できる",
+                "転職サイトとエージェントを1つで併用できます",
+                "スカウト機能で自分では見つけられない求人に出会えます",
+                "転職フェアなど独自イベントが充実しています",
+                "IT・Web業界（dodaエンジニアIT）の求人が豊富です",
+                "年収査定やキャリアタイプ診断など無料ツールが充実しています",
+                "求人数が豊富で幅広い選択肢があります",
+                "求職者は無料で利用できます",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}
@@ -297,11 +297,11 @@ export default function DodaReview() {
             <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
-                "メール・スカウトの配信量が多くなりがち",
-                "ハイクラス求人は専門エージェントに比べると少なめ",
-                "スカウトメールに質のばらつきがある場合も",
-                "アドバイザーの質・返信速度に当たり外れがある",
-                "エリアによっては求人数に差がある",
+                "メール・スカウトの配信量が多くなりがちです",
+                "ハイクラス求人は専門エージェントに比べると少なめです",
+                "スカウトメールに質のばらつきがある場合もあります",
+                "アドバイザーの質・返信速度に当たり外れがあります",
+                "エリアによっては求人数に差があります",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
@@ -327,9 +327,9 @@ export default function DodaReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>とにかく求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
+              <li>求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
               <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
-              <li>年収800万円以上のハイクラス転職を狙う人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>等</li>
+              <li>年収800万円以上のハイクラス転職を狙う人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>など</li>
               <li>連絡量を最小限にしたい人（サイト型中心の利用がおすすめ）</li>
             </ul>
           </div>
@@ -354,10 +354,10 @@ export default function DodaReview() {
         {/* CTA */}
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            dodaで転職活動を始めよう
+            dodaで転職活動を始める
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            転職サイト・エージェント・スカウトの3機能で、あなたの転職をトータルサポート。登録は無料です。
+            転職サイト・エージェント・スカウトの3機能で、転職活動を総合的にサポートしています。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
@@ -376,7 +376,7 @@ export default function DodaReview() {
           <h3 className="font-bold text-navy mb-4">dodaを他社と比較・併用する</h3>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">
             <Link href="/compare/recruit-vs-doda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              リクルートエージェント vs doda 徹底比較
+              リクルートエージェントとdodaの比較
             </Link>
             <Link href="/review/recruit-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               リクルートエージェントの詳細

@@ -16,15 +16,15 @@ export const metadata: Metadata = {
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "kajima", name: "鹿島建設", salary: "約1,245万円", term: "2026年3月期", note: "収録9社トップ。3年連続上昇。北米中心の海外開発事業も柱", field: "スーパーゼネコン" },
-  { rank: 2, slug: "obayashi", name: "大林組", salary: "約1,239万円", term: "2026年3月期", note: "2年で+173万円と急伸し鹿島と6万円差。建築・土木のバランス型", field: "スーパーゼネコン" },
-  { rank: 3, slug: "taisei", name: "大成建設", salary: "約1,191万円", term: "2026年3月期", note: "直近期+133万円の大幅上昇。平均勤続17.0年", field: "スーパーゼネコン" },
-  { rank: 4, slug: "nishimatsu", name: "西松建設", salary: "約1,061万円", term: "2026年3月期", note: "2年で+227万円=収録9社最大の伸び。ダム・トンネルの土木名門", field: "準大手" },
-  { rank: 5, slug: "shimizu", name: "清水建設", salary: "約1,043万円", term: "2026年3月期", note: "スーパーゼネコンの一つ。3年連続上昇", field: "スーパーゼネコン" },
-  { rank: 6, slug: "haseko", name: "長谷工コーポレーション", salary: "約1,039万円", term: "2026年3月期", note: "マンション建設特化。平均39.4歳=収録9社最年少", field: "マンション特化" },
-  { rank: 7, slug: "toda", name: "戸田建設", salary: "約1,038万円", term: "2026年3月期", note: "2年で+197万円。医療・教育建築の実績で知られる", field: "準大手" },
-  { rank: 8, slug: "penta-ocean", name: "五洋建設", salary: "約935万円", term: "2026年3月期", note: "港湾・海洋土木(マリコン)の国内最大手。洋上風力に強み", field: "マリコン" },
-  { rank: 9, slug: "kumagai", name: "熊谷組", salary: "約917万円", term: "2026年3月期", note: "山岳土木の伝統。住友林業と資本業務提携", field: "準大手" },
+  { rank: 1, slug: "kajima", name: "鹿島建設", salary: "約1,245万円", term: "2026年3月期", note: "収録9社でトップです。3年連続で上昇しており、北米中心の海外開発事業も柱の一つです。", field: "スーパーゼネコン" },
+  { rank: 2, slug: "obayashi", name: "大林組", salary: "約1,239万円", term: "2026年3月期", note: "2年で+173万円と急伸し、鹿島建設との差は6万円です。建築・土木のバランス型の会社です。", field: "スーパーゼネコン" },
+  { rank: 3, slug: "taisei", name: "大成建設", salary: "約1,191万円", term: "2026年3月期", note: "直近期に+133万円と大幅に上昇しました。平均勤続年数は17.0年です。", field: "スーパーゼネコン" },
+  { rank: 4, slug: "nishimatsu", name: "西松建設", salary: "約1,061万円", term: "2026年3月期", note: "2年で+227万円と、収録9社で最大の伸びです。ダム・トンネルの土木で知られる名門です。", field: "準大手" },
+  { rank: 5, slug: "shimizu", name: "清水建設", salary: "約1,043万円", term: "2026年3月期", note: "スーパーゼネコンの一つで、3年連続で上昇しています。", field: "スーパーゼネコン" },
+  { rank: 6, slug: "haseko", name: "長谷工コーポレーション", salary: "約1,039万円", term: "2026年3月期", note: "マンション建設に特化しています。平均年齢39.4歳は収録9社で最年少です。", field: "マンション特化" },
+  { rank: 7, slug: "toda", name: "戸田建設", salary: "約1,038万円", term: "2026年3月期", note: "2年で+197万円上昇しました。医療・教育建築の実績で知られています。", field: "準大手" },
+  { rank: 8, slug: "penta-ocean", name: "五洋建設", salary: "約935万円", term: "2026年3月期", note: "港湾・海洋土木(マリコン)の国内最大手で、洋上風力に強みがあります。", field: "マリコン" },
+  { rank: 9, slug: "kumagai", name: "熊谷組", salary: "約917万円", term: "2026年3月期", note: "山岳土木の伝統を持つ会社で、住友林業と資本業務提携しています。", field: "準大手" },
 ];
 
 const faqData = [
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     q: "この数値は施工管理の平均年収ですか？",
-    a: "いいえ、提出会社の全従業員平均です。施工管理・設計・技術研究・本社スタッフを合算した数値で、職種・年代により実際の水準は異なります。また平均年齢が39.4歳(長谷工)から44.27歳(戸田建設)まで異なるため、序列は年齢構成の影響込みで見てください。現場配属の場合は全国転勤・現場常駐の働き方も年収と合わせて確認が必要です。",
+    a: "いいえ、提出会社の全従業員平均です。施工管理・設計・技術研究・本社スタッフを合算した数値で、職種・年代により実際の水準は異なります。また平均年齢が39.4歳(長谷工)から44.27歳(戸田建設)まで異なるため、序列は年齢構成の影響を含んだものとしてご覧ください。現場配属の場合は全国転勤・現場常駐の働き方も年収と合わせて確認が必要です。",
   },
   {
     q: "ゼネコンへの転職は未経験でも可能ですか？",
@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     q: "ゼネコン大手の中途採用はどこに応募すればいいですか？",
-    a: "9社とも公式サイトに採用ページがあります(2026年9月12日確認)。大成建設は採用専用サイト(taisei.co.jp/saiyo/)、熊谷組は採用トップページ(saiyoutop)を設けるなど、入口はいずれも公式サイトから辿れます。専門職・管理職は非公開求人も多いため、建設業界に強いエージェントやスカウト型サービスの併用が実質的な入口になります。",
+    a: "9社とも公式サイトに採用ページがあります(2026年9月12日確認)。大成建設は採用専用サイト(taisei.co.jp/saiyo/)、熊谷組は採用トップページ(saiyoutop)を設けるなど、入口はいずれも公式サイトから辿れます。専門職・管理職は非公開求人も多いため、建設業界に強いエージェントやスカウト型サービスの併用が有効です。",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function KensetsuSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）。IR BANK掲載値を2026年9月12日に確認。いずれも2026年3月期で時点が揃っています。竹中工務店は非上場のため有価証券報告書ベースの比較対象外です。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）です。IR BANK掲載値を2026年9月12日に確認しました。いずれも2026年3月期で時点が揃っています。竹中工務店は非上場のため有価証券報告書ベースの比較対象外です。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -136,15 +136,15 @@ export default function KensetsuSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">全従業員平均であること</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">施工管理・設計・本社スタッフを合算した提出会社の平均です。現場手当・残業の多寡で個人差が大きい業界のため、職種別の実額は求人票で確認しましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">施工管理・設計・本社スタッフを合算した提出会社の平均です。現場手当・残業の多寡で個人差が大きい業界のため、職種別の実額は求人票でご確認ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均年齢の差に注意</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">長谷工39.4歳から戸田建設44.27歳まで約5歳の開きがあります。年齢構成が若い会社ほど平均年収は低く見えるため、序列は構成込みで読んでください。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">長谷工39.4歳から戸田建設44.27歳まで約5歳の開きがあります。年齢構成が若い会社ほど平均年収は低く見えるため、序列は年齢構成を踏まえてご覧ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">賃上げ局面の途中経過</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">西松+227万円・戸田+197万円(いずれも2年計)など急上昇中の会社が多く、単年の数値はすぐ古くなります。推移と最新の有価証券報告書で見るのがおすすめです。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">西松+227万円・戸田+197万円(いずれも2年計)など急上昇中の会社が多く、単年の数値はすぐ古くなります。推移と最新の有価証券報告書をあわせてご確認いただくことをおすすめします。</p>
           </div>
         </div>
 
@@ -157,7 +157,7 @@ export default function KensetsuSalaryRanking() {
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。ゼネコンの施工管理から本社機能まで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。建設業界の同業比較・年収レンジ把握がしやすい点が特長です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。所長級・技術系マネジメントなどハイクラス職の市場価値の把握に適しています。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強みがあります。海外工事・プラント系のスペシャリスト・管理職に。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラスに強みがあります。海外工事・プラント系のスペシャリストや管理職の転職に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

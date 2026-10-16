@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約718万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>663万円（2023年12月期）→687万円（2024年12月期）→718万円（2025年12月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年8月29日確認）。</li>
+            <li>663万円（2023年12月期）→687万円（2024年12月期）→718万円（2025年12月期）と推移しています（2年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式採用情報ページで確認できます（2026年8月29日確認）。</li>
             <li>12月決算のため最新値は2025年12月期です。平均年齢36.4歳・平均勤続6.7年と若い構成での平均値です。</li>
           </ul>
         </div>
@@ -131,8 +131,8 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年8月29日時点で、<a href="https://cybozu.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用情報ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式採用ページでキャリア採用の募集職種とエントリー導線を確認できます。</li>
-            <li>エンジニア・デザイナー・ビジネス系など職種別に通年で募集を掲載。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>エンジニア・デザイナー・ビジネス系など職種別に通年で募集が掲載されています。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>12月決算のため最新値は2025年12月期です。平均年齢36.4歳・平均勤続6.7年と若い構成での平均値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">サイボウズ転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

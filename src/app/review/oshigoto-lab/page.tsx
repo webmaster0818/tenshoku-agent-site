@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "お仕事ラボの評判は？薬剤師特化の転職・派遣サービスを解説【2026年】",
-  description: "お仕事ラボは株式会社AXISが運営する薬剤師専門の転職・派遣サービス。公開求人12,524件(2026年8月確認)・非公開求人多数・正社員/パート/派遣に対応。有料職業紹介事業許可番号13-ユ-307575。公式情報ベースで解説します。",
+  description: "お仕事ラボは株式会社AXISが運営する薬剤師専門の転職・派遣サービスです。公開求人12,524件(2026年8月確認)・非公開求人多数で、正社員/パート/派遣に対応しています。有料職業紹介事業許可番号は13-ユ-307575です。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/oshigoto-lab/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>薬剤師専門の転職・派遣サービス</strong>。正社員・パート・派遣の3形態に対応しています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>公開求人12,524件</strong>(公式サイト2026年8月21日更新表示・当サイト8月22日確認)+非公開求人多数。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(13-ユ-307575)を公式サイトで確認</strong>。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>薬剤師専門の転職・派遣サービスです</strong>。正社員・パート・派遣の3形態に対応しています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>公開求人12,524件</strong>(公式サイト2026年8月21日更新表示・当サイト8月22日確認)に加え、非公開求人も多数あります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(13-ユ-307575)を公式サイトで確認しています</strong>。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -82,9 +82,9 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：お仕事ラボ公式サイト(oshigoto-lab.com)、2026年8月22日確認。求人数は変動します。満足度等の表記は公式サイト掲載(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：お仕事ラボ公式サイト(oshigoto-lab.com)、2026年8月22日確認。求人数は変動します。満足度等の表記は公式サイトに掲載されています(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>お仕事ラボの特徴(公式公表ベース)</h2>
+        <h2>お仕事ラボの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">薬剤師の3つの働き方に対応</h3><p className="text-sm text-text-secondary leading-relaxed">正社員・パート・派遣を横断して探せるため、ライフステージに合わせた働き方の変更(常勤→パート等)も同じサービス内で相談できます。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">エリア・沿線からの求人検索</h3><p className="text-sm text-text-secondary leading-relaxed">全国の求人をエリア・沿線・駅から検索でき、生活圏ベースで職場を探せる実用的な設計です。</p></div>
@@ -104,8 +104,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>薬剤師以外の医療職 →<a href="/review/nishima-pharma/" className="text-teal underline">にしまファーマ</a>等の医療系サービスへ</li>
-              <li>登録販売者など隣接職種の人 →対象可否を事前確認</li>
+              <li>薬剤師以外の医療職の人 →<a href="/review/nishima-pharma/" className="text-teal underline">にしまファーマ</a>等の医療系サービスの利用をおすすめします</li>
+              <li>登録販売者など隣接職種の人 →対象となるかを事前にご確認ください</li>
             </ul>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>お仕事ラボは、正社員・パート・派遣を横断できる薬剤師専門の転職サービスです。1.2万件超の公開求人と許可番号の公開が確認でき、利用は無料です。薬剤師の転職では特化型を2社併用して求人の重なりと担当者の質を比較するのがおすすめです。</p>
+        <p>お仕事ラボは、正社員・パート・派遣を横断できる薬剤師専門の転職サービスです。1.2万件超の公開求人と許可番号の公開が確認でき、利用は無料です。薬剤師の転職では特化型を2社併用し、求人の重なりと担当者の質を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

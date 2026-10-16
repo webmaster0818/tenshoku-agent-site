@@ -85,15 +85,15 @@ export default function CompanyCareer() {
           </p>
         </div>
         <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
-          <p className="font-bold text-navy mb-3">先に結論：九州電力の年収と中途採用（2026年10月15日確認）</p>
+          <p className="font-bold text-navy mb-3">九州電力の年収と中途採用の要約（2026年10月15日確認）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
-            <li><strong>平均年収：</strong>約842万円（2026年3月期・有価証券報告書／提出会社）。752万円→806万円→842万円と2年で+90万円。平均42.1歳・勤続20.8年。</li>
-            <li><strong>キャリア採用の応募資格：</strong>原則2026年4月1日時点で45歳未満の既卒者。専攻・前職の経験は不問（大学等卒は卒業後3年超なら職務経験不問）。</li>
-            <li><strong>職種：</strong>事務職（エリア指定コース／エリア指定なし／都市開発事業／エネルギーコンサルティング〈技術提案営業〉）、技術職。入社日は2027年4月1日（相談可）。</li>
-            <li><strong>選考：</strong>エントリーシート → 基礎能力検査 → 一次面接 → 最終面接 → 内定（2027年4月入社向けは11月中旬の内定予定）。倍率は非公表。</li>
-            <li><strong>高度専門採用：</strong>特定職種の専門人材を不定期で募集（年齢制限なし）。</li>
+            <li><strong>平均年収：</strong>約842万円（2026年3月期・有価証券報告書／提出会社）です。752万円→806万円→842万円と2年で+90万円上昇しています。平均年齢は42.1歳、平均勤続年数は20.8年です。</li>
+            <li><strong>キャリア採用の応募資格：</strong>原則として2026年4月1日時点で45歳未満の既卒者が対象です。専攻・前職の経験は問いません（大学等卒は卒業後3年超なら職務経験不問）。</li>
+            <li><strong>職種：</strong>事務職（エリア指定コース／エリア指定なし／都市開発事業／エネルギーコンサルティング〈技術提案営業〉）、技術職があります。入社日は2027年4月1日です（相談可）。</li>
+            <li><strong>選考：</strong>エントリーシート → 基礎能力検査 → 一次面接 → 最終面接 → 内定の順です（2027年4月入社向けは11月中旬の内定予定）。倍率は公表されていません。</li>
+            <li><strong>高度専門採用：</strong>特定職種の専門人材を不定期で募集しています（年齢制限なし）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">九州電力 経験者採用情報</a>／有価証券報告書（IR BANK掲載値）。募集時期・内容は変わるため、応募前に公式で最新をご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">九州電力 経験者採用情報</a>／有価証券報告書（IR BANK掲載値）。募集時期・内容は変更される場合があるため、応募前に公式サイトにて最新情報をご確認ください。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -112,9 +112,9 @@ export default function CompanyCareer() {
         <h2 id="s1">九州電力転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約842万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移（2年連続上昇(計90万円)）。</li>
-            <li>キャリア採用は原則45歳未満・前職不問。選考はES→基礎能力検査→一次面接→最終面接（公式・2026年10月15日確認）。</li>
+            <li>平均年間給与は約842万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移しており、2年連続で上昇しています（計90万円）。</li>
+            <li>キャリア採用の対象は原則45歳未満で、前職の経験は問いません。選考はES→基礎能力検査→一次面接→最終面接の順です（公式・2026年10月15日確認）。</li>
             <li>全従業員平均であり、発電所・支社・本店で水準は異なります。</li>
           </ul>
         </div>
@@ -149,11 +149,11 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4"><a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイトの経験者採用情報</a>の内容です（2026年10月15日確認）。2027年4月入社向けの選考は2026年7月28日から募集されています。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li><strong>応募資格：</strong>原則として2026年4月1日時点で45歳未満の既卒者。大学（院）・短大・専門学校卒は卒業後3年を超えていれば職務経験不問、卒業後3年以内は正社員経験が必要（ない場合は定期採用の対象）。高専・高校卒等は既卒であれば職務経験不問。専攻学部・学科、前職の経験は問いません。</li>
-            <li><strong>職種：</strong>事務職（エリア指定コース）、事務職（エリア指定なし）、事務職（都市開発事業）、事務職（エネルギーコンサルティング〈技術提案営業〉）、技術職。事務職は障がい者特別選考もあり。海外事業の採用は株式会社キューデン・インターナショナルが募集主体です。</li>
+            <li><strong>応募資格：</strong>原則として2026年4月1日時点で45歳未満の既卒者が対象です。大学（院）・短大・専門学校卒は卒業後3年を超えていれば職務経験は問わず、卒業後3年以内の場合は正社員経験が必要です（ない場合は定期採用の対象）。高専・高校卒等は、既卒であれば職務経験を問われません。専攻学部・学科、前職の経験は問いません。</li>
+            <li><strong>職種：</strong>事務職（エリア指定コース）、事務職（エリア指定なし）、事務職（都市開発事業）、事務職（エネルギーコンサルティング〈技術提案営業〉）、技術職があります。事務職には障がい者特別選考もあります。海外事業の採用は株式会社キューデン・インターナショナルが募集主体です。</li>
             <li><strong>勤務地：</strong>九州管内の事業所および東京支社ほか。入社後は転居を伴う異動があります。</li>
-            <li><strong>勤務・待遇：</strong>8時50分〜17時30分（職種・勤務箇所によりスーパーフレックス・三交替あり）、給与は実務経験に応じ当社規定により決定、賞与年2回（6月・12月）、有給休暇20日（4月1日入社の場合）、リフレッシュ休日（年5日連続）、住宅手当・世帯手当、寮・社宅・家賃補助（地域による）。</li>
-            <li><strong>その他の窓口：</strong>経験者採用（高度専門）、カムバック制度、ジョブ・リターン採用。</li>
+            <li><strong>勤務・待遇：</strong>勤務時間は8時50分〜17時30分です（職種・勤務箇所によりスーパーフレックス・三交替あり）。給与は実務経験に応じ当社規定により決定されます。賞与年2回（6月・12月）、有給休暇20日（4月1日入社の場合）、リフレッシュ休日（年5日連続）、住宅手当・世帯手当、寮・社宅・家賃補助（地域による）があります。</li>
+            <li><strong>その他の窓口：</strong>経験者採用（高度専門）、カムバック制度、ジョブ・リターン採用があります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で九州電力のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
@@ -179,10 +179,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">2027年4月入社向けキャリア採用の公式スケジュールです（2026年10月15日確認・公式は「現時点でのスケジュール予定」と記載）。エントリーシートの入力期限（9月27日）は確認時点で過ぎています。次回の募集は公式でご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "エントリーシート入力", desc: "マイページ登録のうえ入力。入力期限は2026年9月27日（日）でした。" },
-            { step: 2, title: "基礎能力検査", desc: "エントリーシート提出者から順次案内。受験期限は2026年10月7日（水）。" },
-            { step: 3, title: "一次面接", desc: "受験期限は2026年10月24日（土）。" },
-            { step: 4, title: "最終面接", desc: "受験期限は2026年11月7日（土）。内定通知は2026年11月中旬の予定です。" },
+            { step: 1, title: "エントリーシート入力", desc: "マイページに登録のうえ入力します。入力期限は2026年9月27日（日）でした。" },
+            { step: 2, title: "基礎能力検査", desc: "エントリーシート提出者から順次案内されます。受験期限は2026年10月7日（水）です。" },
+            { step: 3, title: "一次面接", desc: "受験期限は2026年10月24日（土）です。" },
+            { step: 4, title: "最終面接", desc: "受験期限は2026年11月7日（土）です。内定通知は2026年11月中旬の予定です。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -202,7 +202,7 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、発電所・支社・本店で水準は異なります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">九州電力転職で活用したい転職エージェント</h2>

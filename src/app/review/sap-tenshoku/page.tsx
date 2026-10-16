@@ -5,14 +5,14 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "SAPテンショクの評判は？SAP特化の転職エージェントを解説【2026年】",
-  description: "SAPテンショク(スプラッシュエンジニアリング運営)は、SAPエンジニア・SAPコンサルタントに特化した転職エージェント。全員がSAP経験者のキャリアコンサルタントによる支援・完全無料を公式に掲げています。特徴を公式情報ベースで解説します。",
+  description: "SAPテンショク(スプラッシュエンジニアリング運営)は、SAPエンジニア・SAPコンサルタントに特化した転職エージェントです。全員がSAP経験者のキャリアコンサルタントによる支援と、「完全無料」を公式に掲げています。特徴を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/sap-tenshoku/" },
 };
 
 const faqData = [
   {
     "q": "SAPテンショクの利用に費用はかかりますか？",
-    "a": "相談から内定、入社後のフォローまで、すべてのサービスを完全無料で提供と公式に明記されています(2026年8月22日確認)。"
+    "a": "相談から内定、入社後のフォローまで、「すべてのサービスを完全無料で提供」と公式に明記されています(2026年8月22日確認)。"
   },
   {
     "q": "どんな人が担当してくれますか？",
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>SAPエンジニア・SAPコンサルタントに特化した転職エージェント</strong>。ERP人材のニッチ領域に絞った専門サービスです。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>キャリアコンサルタント全員がSAP経験者</strong>と公式に明記。スキルと経験を正確に評価できる体制を掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>相談から内定・入社後フォローまで完全無料</strong>と公式に明記されています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>SAPエンジニア・SAPコンサルタントに特化した転職エージェントです</strong>。ERP人材のニッチ領域に絞った専門サービスです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>キャリアコンサルタント全員がSAP経験者</strong>と公式に明記されています。スキルと経験を正確に評価できる体制を掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>相談から内定・入社後フォローまで無料</strong>であることが公式に明記されています。</span></li>
           </ul>
         </div>
 
@@ -75,7 +75,7 @@ export default function Page() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社スプラッシュエンジニアリング</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">対象</th><td className="px-3 py-2 border-b">SAPエンジニア・SAPコンサルタント</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">体制</th><td className="px-3 py-2 border-b">全員がSAP経験者のキャリアコンサルタント(公式サイト明記)</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サポート範囲</th><td className="px-3 py-2 border-b">相談〜内定〜入社後フォローまで完全無料</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サポート範囲</th><td className="px-3 py-2 border-b">相談〜内定〜入社後フォローまで無料</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">姉妹サービス</th><td className="px-3 py-2 border-b">セキュリティプロ・フリーランス(同社運営)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">公式サイト</th><td className="px-3 py-2 border-b">splash-eng.com/services/sap-career</td></tr>
             </tbody>
@@ -83,11 +83,11 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：SAPテンショク公式サイト(splash-eng.com/services/sap-career)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>SAPテンショクの特徴(公式公表ベース)</h2>
+        <h2>SAPテンショクの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">SAP経験者だけのコンサルタント体制</h3><p className="text-sm text-text-secondary leading-relaxed">「エージェントに経験を正しく理解してもらえない」というSAP人材特有の悩みに対し、全員がSAP経験者のコンサルタント体制で正確な評価とキャリア提案を行うと明記しています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">モジュール・工程を理解した専門マッチング</h3><p className="text-sm text-text-secondary leading-relaxed">SAP業界とプロジェクトを熟知した担当者が、経験モジュールや工程を踏まえた最適なキャリアプランを提案する設計です。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">入社後フォローまでの一貫支援</h3><p className="text-sm text-text-secondary leading-relaxed">相談から内定、入社後フォローまで全て無料で提供と公式に明記されており、転職後の定着まで視野に入れた支援です。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">入社後フォローまでの一貫支援</h3><p className="text-sm text-text-secondary leading-relaxed">相談から内定、入社後フォローまで無料で提供することが公式に明記されており、転職後の定着まで視野に入れた支援です。</p></div>
         </div>
 
         <h2>SAPテンショクが向いている人・向いていない人</h2>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>SAP未経験のITエンジニア →IT全般特化のエージェントへ</li>
-              <li>フリーランスSAP案件を探す人 →フリーランス系サービスと併用を</li>
+              <li>SAP未経験のITエンジニア →IT全般に対応する特化型エージェントの利用をおすすめします</li>
+              <li>フリーランスSAP案件を探す人 →フリーランス系サービスとの併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>SAPテンショクは、SAP経験者だけのコンサルタント体制を掲げるニッチ特化型エージェントです。専門性の正確な評価と入社後フォローまでの一貫支援が特徴で、利用は無料です。SAP人材は市場価値が高いため、総合型・IT特化型とも併用して条件を比較するのがおすすめです。</p>
+        <p>SAPテンショクは、SAP経験者だけのコンサルタント体制を掲げるニッチ特化型エージェントです。専門性の正確な評価と入社後フォローまでの一貫支援が特徴で、利用は無料です。SAP人材は市場価値が高いため、総合型・IT特化型とも併用し、条件を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

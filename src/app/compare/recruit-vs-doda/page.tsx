@@ -4,20 +4,20 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/recruit-vs-doda/" },
-  title: "リクルートエージェント vs doda 徹底比較｜10項目で違いを解説",
+  title: "リクルートエージェント vs doda 比較｜10項目で違いを解説",
   description:
-    "リクルートエージェントとdodaを10項目で徹底比較。求人数、サポート体制、得意分野の違いを解説し、あなたに合ったエージェントの選び方を紹介します。",
+    "リクルートエージェントとdodaを10項目で比較します。求人数、サポート体制、得意分野の違いを解説し、あなたに合ったエージェントの選び方を紹介します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "リクルートエージェント vs doda 徹底比較｜10項目で違いを解説",
+    title: "リクルートエージェント vs doda 比較｜10項目で違いを解説",
     description: "リクルートエージェントとdodaの違いを10項目で比較。",
   },
 };
 
 const faqData = [
   { q: "リクルートエージェントとdodaはどちらが求人数が多いですか？", a: "リクルートエージェントの方が求人数は多い傾向にあります。公開求人約60万件、非公開求人約30万件を保有しています。dodaも公開求人数は20万件以上を保有しており、十分な求人数があります。" },
-  { q: "両方に登録しても問題ありませんか？", a: "問題ありません。むしろ、両方に登録することで、より多くの求人にアクセスでき、異なるアドバイザーの視点からアドバイスを受けられるため、おすすめです。" },
-  { q: "初めての転職ならどちらがおすすめですか？", a: "初めての転職なら、求人数が最も多いリクルートエージェントを軸にしつつ、dodaも併用するのがおすすめです。dodaは転職サイトとしても使えるため、自分でも求人を探せる利便性があります。" },
+  { q: "両方に登録しても問題ありませんか？", a: "問題ありません。むしろ、両方に登録することで、より多くの求人にアクセスでき、異なるアドバイザーの視点からアドバイスを受けられるため、併用をおすすめします。" },
+  { q: "初めての転職ならどちらがおすすめですか？", a: "初めての転職なら、求人数が最も多いリクルートエージェントを軸にしつつ、dodaも併用することをおすすめします。dodaは転職サイトとしても使えるため、自分でも求人を探せる利便性があります。" },
   { q: "IT業界への転職ならどちらがよいですか？", a: "どちらもIT業界の求人は豊富ですが、dodaはIT・Web業界の求人特集やイベントが充実しています。リクルートエージェントは総合的な求人数の多さで、選択肢を広げたい場合に有利です。" },
   { q: "サポートの質に違いはありますか？", a: "どちらも書類添削や面接対策などの基本的なサポートは充実しています。リクルートエージェントは業界別の専門アドバイザーが在籍しており、dodaはキャリアアドバイザーと採用プロジェクト担当の分業制をとっています。" },
 ];
@@ -63,10 +63,10 @@ export default function RecruitVsDodaPage() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            リクルートエージェント vs doda 徹底比較
+            リクルートエージェント vs doda 比較｜10項目で違いを解説
           </h1>
           <p className="text-text-secondary leading-relaxed">
-            転職エージェントの2大サービスであるリクルートエージェントとdodaを10項目で比較。
+            転職エージェントの2大サービスであるリクルートエージェントとdodaを10項目で比較します。
             それぞれの強みと特徴を整理し、あなたに合ったエージェントの選び方を解説します。
           </p>
         </div>
@@ -101,7 +101,7 @@ export default function RecruitVsDodaPage() {
             <h3 className="font-bold text-teal mb-3">リクルートエージェントが向いている人</h3>
             <ul className="space-y-2">
               {[
-                "とにかく多くの求人から選びたい",
+                "できるだけ多くの求人から選びたい",
                 "非公開求人にアクセスしたい",
                 "業界特化のアドバイザーに相談したい",
                 "地方の求人を探している",
@@ -131,12 +131,12 @@ export default function RecruitVsDodaPage() {
           </div>
         </div>
 
-        <h2>結論：迷ったら両方に登録がおすすめ</h2>
+        <h2>迷った場合は両方への登録をおすすめします</h2>
         <p>
           リクルートエージェントとdodaは、どちらも業界トップクラスの転職エージェントです。
           それぞれ異なる強みを持っているため、両方に登録して使い比べることで、
           より多くの求人と異なる視点のアドバイスを得られます。転職活動を進める中で、
-          自分に合った方をメインに活用していくのが効果的です。
+          自分に合った方をメインに活用する方法が有効です。
         </p>
 
         <h2>よくある質問</h2>
@@ -151,10 +151,10 @@ export default function RecruitVsDodaPage() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            まずは無料で登録して比較しよう
+            無料登録による2社の比較について
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            両方のエージェントに登録して、自分に合ったサービスを見つけましょう。
+            両方のエージェントに登録して、ご自身に合ったサービスを見つけることをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/recruit-agent/" className="btn-accent px-8 py-3">

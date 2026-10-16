@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約783万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>744万円（2024年3月期）→730万円（2025年3月期）→783万円（2026年3月期）と推移（2025年3月期に一度下がった後、最新期に53万円上昇）。</li>
-            <li>キャリア採用は公式キャリア採用ページで確認可能（2026年8月29日確認）。</li>
+            <li>744万円（2024年3月期）→730万円（2025年3月期）→783万円（2026年3月期）と推移しています（2025年3月期に一度下がった後、最新期に53万円上昇しました）。</li>
+            <li>キャリア採用は公式キャリア採用ページで確認できます（2026年8月29日確認）。</li>
             <li>平均勤続21.3年・平均年齢46.1歳の長期勤続型の構成での平均値です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトにキャリア採用ページがあり、募集職種を確認できます（2026年8月29日確認）。</li>
             <li>計測器の開発・生産・営業など職種別の採用情報が公開されています。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でアンリツのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>平均勤続21.3年・平均年齢46.1歳の長期勤続型の構成での平均値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">アンリツ転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

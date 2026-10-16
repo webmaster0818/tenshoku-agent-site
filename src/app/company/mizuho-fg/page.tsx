@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "みずほフィナンシャルグループは中途採用を行っていますか？",
-    a: "はい。公式サイトのみずほ公式キャリア採用サイト(グループ横断)（career-recruit.mizuho-fg.co.jp/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
+    a: "はい。みずほ公式キャリア採用サイト(グループ横断)（career-recruit.mizuho-fg.co.jp/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
   },
   {
     q: "みずほフィナンシャルグループはどんな会社ですか？",
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,166万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,072万円（2024年3月期）→1,117万円（2025年3月期）→1,166万円（2026年3月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用はみずほ公式キャリア採用サイト(グループ横断)で確認可能（2026年9月6日確認）。</li>
+            <li>1,072万円（2024年3月期）→1,117万円（2025年3月期）→1,166万円（2026年3月期）と推移しています（2年連続で上昇）。</li>
+            <li>キャリア採用の情報はみずほ公式キャリア採用サイト(グループ横断)で確認できます（2026年9月6日確認）。</li>
             <li>提出会社は持株会社単体であり、みずほ銀行など事業会社の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>グループ横断のキャリア採用サイトがあり、銀行・信託・証券の募集を一括で確認できます。</li>
             <li>職種別のポジション採用が中心です。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でみずほFGのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "銀行・信託・証券の一体運営", desc: "銀信証一体のビジネスモデルのため、横断的な提案経験が評価されます。" },
             { title: "大企業取引の知見", desc: "大企業・グローバル企業との取引基盤が強みです。" },
             { title: "システム・IT人材", desc: "基幹システム刷新後もIT投資が続き、金融ITの採用需要が高い状態です。" },
-            { title: "サステナビリティ金融", desc: "トランジション・ファイナンスなど新領域の専門性も適合します。" }
+            { title: "サステナビリティ金融", desc: "トランジション・ファイナンスなど新領域の専門性も評価の対象になります。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体であり、みずほ銀行など事業会社の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">みずほFG転職で活用したい転職エージェント</h2>

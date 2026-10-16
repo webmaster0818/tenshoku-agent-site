@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "わたしNEXTの評判は？女性専門の退職代行サービスを解説【2026年】",
-  description: "わたしNEXT(労働組合toNEXTユニオン運営)は女性専門の退職代行サービス。アルバイト・パート18,800円/正社員等29,800円(税込・公式掲載)。労働組合運営で交渉が可能。女性退職代行サービス5冠(公式表記)。公式情報ベースで解説します。",
+  description: "わたしNEXT(労働組合toNEXTユニオン運営)は女性専門の退職代行サービスです。料金はアルバイト・パート18,800円/正社員等29,800円(税込・公式掲載)です。労働組合運営のため交渉が可能で、女性退職代行サービス5冠(公式表記)を掲げています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/watashi-next/" },
 };
 
@@ -19,8 +19,8 @@ const faqData = [
     "a": "労働組合には団体交渉権があるため、単なる退職意思の伝達だけでなく、退職日や有給消化などの条件について会社と交渉できる形態とされています。"
   },
   {
-    "q": "退職後の転職はどうすればいいですか？",
-    "a": "退職代行はあくまで退職までの支援です。次の職場探しは無料で使える転職エージェントを活用しましょう。女性のキャリアなら当サイトの女性向けエージェントまとめも参考にしてください。"
+    "q": "退職後の転職はどうすればよいですか？",
+    "a": "退職代行はあくまで退職までの支援です。次の職場探しには、無料で使える転職エージェントの活用をおすすめします。女性のキャリアなら当サイトの女性向けエージェントまとめも参考にしてください。"
   }
 ];
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>女性専門の退職代行サービス</strong>。労働組合(toNEXTユニオン)運営のため、会社との交渉が可能な形態です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>料金はアルバイト・パート18,800円(税込)〜</strong>(公式サイト掲載・正社員等の料金区分は公式参照)。業界最安値&低価格を掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>対応スピード・顧客満足度・女性が選ぶ・リピート率でNo.1等の5冠</strong>(公式サイト表記・注記条件は公式参照)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>女性専門の退職代行サービスです</strong>。労働組合(toNEXTユニオン)運営のため、会社との交渉が可能な形態です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>料金はアルバイト・パート18,800円(税込)〜</strong>(公式サイト掲載。正社員等の料金区分は公式サイトをご参照ください)。業界最安値・低価格を掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>対応スピード・顧客満足度・女性が選ぶ・リピート率でNo.1等の5冠</strong>を公式サイトに表記しています(注記条件は公式サイトをご参照ください)。</span></li>
           </ul>
         </div>
 
@@ -81,9 +81,9 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：わたしNEXT公式サイト(taishoku.to-next.jp)、2026年8月22日確認。No.1・5冠等は公式サイト表記(調査注記は公式参照)。料金は変更される場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：わたしNEXT公式サイト(taishoku.to-next.jp)、2026年8月22日確認。No.1・5冠等は公式サイトの表記です(調査注記は公式サイトをご参照ください)。料金は変更される場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>わたしNEXTの特徴(公式公表ベース)</h2>
+        <h2>わたしNEXTの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">労働組合運営による交渉力</h3><p className="text-sm text-text-secondary leading-relaxed">民間企業運営の退職代行は「伝達」までが限界とされる一方、労働組合運営のわたしNEXTは団体交渉権を背景に退職条件の交渉が可能な形態です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">女性専門の設計</h3><p className="text-sm text-text-secondary leading-relaxed">女性の利用を前提としたサービス設計・相談体制で、女性が選ぶNo.1等の表記(公式)を掲げています。</p></div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>わたしNEXTは、労働組合運営の交渉力を持つ女性専門の退職代行サービスです。雇用形態別の明朗な料金と豊富な実績表記が特徴です。退職はキャリアの通過点なので、退職後はtype女性の転職エージェントやリアルミーキャリアなど無料の転職支援で次を探すのがおすすめです。</p>
+        <p>わたしNEXTは、労働組合運営の交渉力を持つ女性専門の退職代行サービスです。雇用形態別の明朗な料金と豊富な実績表記が特徴です。退職はキャリアの通過点なので、退職後はtype女性の転職エージェントやリアルミーキャリアなど無料の転職支援を活用して次の職場を探すことをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

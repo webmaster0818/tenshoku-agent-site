@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ゼイキャリの評判は？税理士業界特化のハイクラス転職エージェントを解説【2026年】",
-  description: "ゼイキャリ(マルゴト株式会社運営)は税理士業界特化・ハイクラス転職エージェント。年収600〜1,500万円の厳選求人・国内大手税理士法人代表からの推薦・業務委託案件の取扱いが特徴。公式情報ベースで解説します。利用は無料です。",
+  description: "ゼイキャリ(マルゴト株式会社運営)は税理士業界特化のハイクラス転職エージェントです。年収600〜1,500万円の厳選求人、国内大手税理士法人代表からの推薦、業務委託案件の取扱いが特徴です。公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/zeicari/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>税理士業界特化×ハイクラスの転職エージェント</strong>。年収600〜1,500万円の求人を多数と公式に掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>国内大手税理士法人の代表から推薦</strong>を受けていることを公式サイトで実名掲載(クリフィックス税理士法人・あいわ税理士法人の代表コメント)。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>業務委託案件の取扱いもあり</strong>。中長期のキャリア設計重視のじっくり型支援で、利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>税理士業界特化×ハイクラスの転職エージェントです</strong>。年収600〜1,500万円の求人を多数扱うと公式に掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>国内大手税理士法人の代表から推薦</strong>を受けていることが、公式サイトに実名で掲載されています(クリフィックス税理士法人・あいわ税理士法人の代表コメント)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>業務委託案件の取扱いもあります</strong>。中長期のキャリア設計を重視した支援で、利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -82,9 +82,9 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：ゼイキャリ公式LP(zei-career.jp/lp01)、2026年8月22日確認。推薦コメントは公式サイト掲載のもの。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：ゼイキャリ公式LP(zei-career.jp/lp01)、2026年8月22日確認。推薦コメントは公式サイトに掲載されているものです。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>ゼイキャリの特徴(公式公表ベース)</h2>
+        <h2>ゼイキャリの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">大手税理士法人に絞った厳選求人</h3><p className="text-sm text-text-secondary leading-relaxed">国内大手税理士法人をはじめとした厳選税理士事務所のみを取り扱うと明言しており、事務所の質を重視する有資格者向けの設計です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">業界内部に踏み込んだ情報力</h3><p className="text-sm text-text-secondary leading-relaxed">大手税理士法人の代表から推薦を受け、業界の内部に深く踏み込んだ情報と本質的なマッチングを実現すると公式に掲げています。</p></div>
@@ -104,8 +104,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>経理など事業会社の管理部門志望 →<a href="/review/hupro/" className="text-teal underline">ヒュープロ</a>や<a href="/review/keiri-jobs/" className="text-teal underline">経理Jobs</a>へ</li>
-              <li>未経験から会計業界に入りたい人 →求人幅の広いサービスと併用を</li>
+              <li>経理など事業会社の管理部門を志望する人 →<a href="/review/hupro/" className="text-teal underline">ヒュープロ</a>や<a href="/review/keiri-jobs/" className="text-teal underline">経理Jobs</a>の利用をおすすめします</li>
+              <li>未経験から会計業界に入りたい人 →求人の幅が広いサービスとの併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ゼイキャリは、大手税理士法人に絞った厳選×ハイクラス路線の税理士業界特化エージェントです。業務委託を含む柔軟なキャリア提案が特徴で、利用は無料です。士業全般をカバーするヒュープロと併用し、求人の質と幅を両取りするのがおすすめです。</p>
+        <p>ゼイキャリは、大手税理士法人に絞った厳選×ハイクラス路線の税理士業界特化エージェントです。業務委託を含む柔軟なキャリア提案が特徴で、利用は無料です。士業全般をカバーするヒュープロと併用し、求人の質と幅の両方を確保することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

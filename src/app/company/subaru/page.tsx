@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "SUBARUへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "SUBARU（証券コード7270）への転職を有価証券報告書などの一次データで解説。平均年間給与は約764万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "SUBARU（証券コード7270）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約764万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/subaru/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "SUBARUへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "SUBARU（7270）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "SUBARU（7270）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "SUBARUはどんな会社ですか？",
-    a: "水平対向エンジン・シンメトリカルAWDと安全技術(アイサイト)で独自地位を築く自動車メーカー。航空宇宙事業も展開です。本社は東京都渋谷区(恵比寿)にあります。",
+    a: "水平対向エンジン・シンメトリカルAWDと安全技術(アイサイト)で独自の地位を築く自動車メーカーです。航空宇宙事業も展開しています。本社は東京都渋谷区(恵比寿)にあります。",
   },
   {
     q: "SUBARUの平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">SUBARU 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            SUBARU（証券コード7270）は、水平対向エンジン・シンメトリカルAWDと安全技術(アイサイト)で独自地位を築く自動車メーカー。航空宇宙事業も展開です。
+            SUBARU（証券コード7270）は、水平対向エンジン・シンメトリカルAWDと安全技術(アイサイト)で独自の地位を築く自動車メーカーです。航空宇宙事業も展開しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約764万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月3日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>691万円（2024年3月期）→730万円（2025年3月期）→764万円（2026年3月期）と推移（2年連続で上昇(計73万円)）。</li>
-            <li>キャリア採用は公式中途採用サイト(自動車部門)で確認可能（2026年9月3日確認）。</li>
+            <li>691万円（2024年3月期）→730万円（2025年3月期）→764万円（2026年3月期）と推移しています（2年連続で上昇、計73万円）。</li>
+            <li>キャリア採用の情報は公式中途採用サイト(自動車部門)で確認できます（2026年9月3日確認）。</li>
             <li>本社は東京(恵比寿)ですが、開発・生産の主力拠点は群馬県太田市周辺です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトに中途採用(自動車部門)の専用サイトがあり、募集職種一覧を確認できます。</li>
             <li>航空宇宙部門(宇都宮)の採用は別区分で案内されています。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でSUBARUのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "先進安全・運転支援の開発", desc: "アイサイトに代表される安全技術が中核価値で、ADAS・画像認識系の経験の需要が高い領域です。" },
             { title: "北米市場への対応", desc: "販売の過半を北米が占め、北米向け商品開発・品質対応の経験が活きます。" },
             { title: "航空宇宙とのシナジー", desc: "航空機メーカーをルーツに持ち、航空宇宙カンパニーの技術系採用も行われています。" },
-            { title: "群馬(太田)拠点での開発・生産", desc: "開発・生産の主力は群馬県太田市周辺で、勤務地の軸を確認して臨むのが確実です。" }
+            { title: "群馬(太田)拠点での開発・生産", desc: "開発・生産の主力は群馬県太田市周辺で、応募前に勤務地をご確認ください。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>本社は東京(恵比寿)ですが、開発・生産の主力拠点は群馬県太田市周辺です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">SUBARU転職で活用したい転職エージェント</h2>

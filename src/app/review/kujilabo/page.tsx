@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "クジラボの評判は？教員・公務員特化のキャリア支援サービスを解説【2026年】",
-  description: "クジラボは教員・自治体職員・公安職・看護師・介護福祉職員向けのキャリアプログラムを提供するキャリア支援サービス。「誰かの正解より自分の納得を」を掲げ、公共系専門職のキャリアの棚卸しを支援。特徴を公式情報ベースで解説します。",
+  description: "クジラボは教員・自治体職員・公安職・看護師・介護福祉職員向けのキャリアプログラムを提供するキャリア支援サービスです。「誰かの正解より自分の納得を」を掲げ、公共系専門職のキャリアの棚卸しを支援しています。特徴を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/kujilabo/" },
 };
 
@@ -62,8 +62,8 @@ export default function Page() {
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>教員・自治体職員・公安職・看護師・介護福祉職員向けのキャリアプログラム</strong>を提供する専門サービスです。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>求人紹介型エージェントではなくキャリア支援・コーチング型</strong>。転職ありきでなくキャリアの棚卸しから始める設計です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>無料相談予約の導線あり</strong>。教員向けにはメンタルスキルプログラムも用意されています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>求人紹介型エージェントではなく、キャリア支援・コーチング型のサービスです</strong>。転職ありきでなくキャリアの棚卸しから始める設計です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>無料相談予約の導線があります</strong>。教員向けにはメンタルスキルプログラムも用意されています。</span></li>
           </ul>
         </div>
 
@@ -76,14 +76,14 @@ export default function Page() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">対象</th><td className="px-3 py-2 border-b">教員/自治体職員/公安職員/看護師/介護福祉職員</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">プログラム</th><td className="px-3 py-2 border-b">職種別キャリアプログラム/教員向けメンタルスキルプログラム/キャリアコーチングスクール</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス型</th><td className="px-3 py-2 border-b">キャリアプログラム・コーチング型(求人紹介型エージェントとは異なる)</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">相談</th><td className="px-3 py-2 border-b">無料相談予約の導線あり(プログラム自体の料金体系は公式サイトで要確認)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">相談</th><td className="px-3 py-2 border-b">無料相談予約の導線あり(プログラム自体の料金体系は公式サイトにてご確認ください)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">公式サイト</th><td className="px-3 py-2 border-b">kujilabo.jp</td></tr>
             </tbody>
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">出典：クジラボ公式サイト(kujilabo.jp)、2026年8月22日確認。プログラムの料金体系・内容の詳細は公式サイト・無料相談でご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>クジラボの特徴(公式公表ベース)</h2>
+        <h2>クジラボの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">公共系専門職に特化した希少な支援</h3><p className="text-sm text-text-secondary leading-relaxed">教員・公務員・公安職など、一般の転職エージェントではキャリア相談の受け皿が少ない職種を明確な対象としています。「先生を、やめるのも、つづけるのも。」という進退両にらみの相談ができる設計です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">コーチング型のキャリア棚卸し</h3><p className="text-sm text-text-secondary leading-relaxed">求人を紹介して終わりではなく、キャリアコーチによるプログラム形式で自己理解・キャリアの言語化を進める構成です。卒業生の声・コーチ紹介も公式サイトで公開されています。</p></div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>すぐに求人を紹介してほしい人 →求人紹介型のエージェントへ</li>
-              <li>民間企業間の転職 →総合型エージェントへ</li>
+              <li>すぐに求人を紹介してほしい人 →求人紹介型のエージェントの利用をおすすめします</li>
+              <li>民間企業間で転職したい人 →総合型エージェントの利用をおすすめします</li>
             </ul>
           </div>
         </div>

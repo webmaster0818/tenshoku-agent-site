@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "LHH転職エージェントの評判は？アデコ運営のハイクラス転職エージェントを解説【2026年】",
-  description: "LHH転職エージェントは、世界的人材サービスAdeccoグループの日本法人アデコ株式会社が展開する転職エージェント。年収以外の条件にもこだわるハイクラス転職を掲げ、IT・営業・エンジニアなど幅広い職種をカバー。公式情報ベースで解説します。",
+  description: "LHH転職エージェントは、世界的人材サービスAdeccoグループの日本法人アデコ株式会社が展開する転職エージェントです。年収以外の条件にもこだわるハイクラス転職を掲げ、IT・営業・エンジニアなど幅広い職種をカバーしています。公式情報ベースで解説します。",
   alternates: { canonical: "/review/lhh/" },
 };
 
@@ -15,7 +15,7 @@ const faqData = [
     "a": "求職者の利用は無料です。採用企業側が報酬を負担する人材紹介の標準モデルです。"
   },
   {
-    "q": "LHHとアデコの関係は？",
+    "q": "LHHとアデコはどのような関係ですか？",
     "a": "LHHはAdeccoグループの人材紹介・キャリア支援ブランドで、日本ではアデコ株式会社が展開しています(2026年8月22日確認)。"
   },
   {
@@ -61,7 +61,7 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>世界的人材サービスAdeccoグループの転職エージェントブランド</strong>。日本ではアデコ株式会社が展開しています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>世界的人材サービスAdeccoグループの転職エージェントブランド</strong>です。日本ではアデコ株式会社が展開しています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>IT・クリエイティブ・マーケティング・営業・エンジニア(電気/電子/機械)など幅広い職種</strong>をカバーする総合型に近い設計です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>年収以外の条件も重視するハイクラス転職</strong>を掲げており、利用は無料です。</span></li>
           </ul>
@@ -102,8 +102,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>経歴の浅い20代 →<a href="/type/second-new-grad/" className="text-teal underline">第二新卒向けエージェント</a>へ</li>
-              <li>国内大手中心のサポートを求める人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>等と併用を</li>
+              <li>経歴の浅い20代 →<a href="/type/second-new-grad/" className="text-teal underline">第二新卒向けエージェント</a>が候補です</li>
+              <li>国内大手中心のサポートを求める人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>等との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>LHH転職エージェントは、Adeccoグループのグローバル基盤を持つハイクラス志向の転職エージェントです。職種別の専門体制と外資系含む求人アクセスが特徴で、利用は無料です。ビズリーチ・JAC等のハイクラス系と併用して比較するのがおすすめです。</p>
+        <p>LHH転職エージェントは、Adeccoグループのグローバル基盤を持つハイクラス志向の転職エージェントです。職種別の専門体制と外資系を含む求人へのアクセスが特徴で、利用は無料です。ビズリーチ・JAC等のハイクラス系と併用して比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

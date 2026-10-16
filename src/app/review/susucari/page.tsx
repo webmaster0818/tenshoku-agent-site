@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "サスキャリの評判は？サステナビリティ・ESG特化の転職エージェントを解説【2026年】",
-  description: "サスキャリ(株式会社リバースネット運営)はサステナビリティ・ESG領域特化の求人・転職支援サービス。転職後平均年収は20代730万/30代860万/40代1030万(公式表記)。コンサル・事業会社・省庁まで幅広い職種に対応。公式情報ベースで解説します。",
+  description: "サスキャリ(株式会社リバースネット運営)はサステナビリティ・ESG領域特化の求人・転職支援サービスです。転職後平均年収は20代730万/30代860万/40代1030万と公式に表記しています。コンサル・事業会社・省庁まで幅広い職種に対応しています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/susucari/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>サステナビリティ・ESG領域特化</strong>の転職支援サービス。SXコンサル・事業会社の両方をカバーします。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>転職後の平均年収: 20代730万/30代860万/40代1030万円</strong>(公式表記・2023〜2024年の外資系SXコンサル・事業会社複数社における実績)。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>職種区分が広い</strong>(サステナ推進/コンサル/事業開発/アナリスト/金融専門職/省庁・国際機関/NPO等)。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>サステナビリティ・ESG領域特化</strong>の転職支援サービスです。SXコンサル・事業会社の両方をカバーします。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>転職後の平均年収は20代730万/30代860万/40代1030万円</strong>と公式に表記されています(2023〜2024年の外資系SXコンサル・事業会社複数社における実績)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>職種区分が広い点も特徴です</strong>(サステナ推進/コンサル/事業開発/アナリスト/金融専門職/省庁・国際機関/NPO等)。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -81,9 +81,9 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：サスキャリ公式サイト(sus-career.com)、2026年8月22日確認。年収・No.1表記は公式サイト掲載値(2023〜2024年・外資系SXコンサルファーム/事業会社の複数社における実績と注記)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：サスキャリ公式サイト(sus-career.com)、2026年8月22日確認。年収・No.1表記は公式サイトの掲載値です(2023〜2024年・外資系SXコンサルファーム/事業会社の複数社における実績と注記されています)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>サスキャリの特徴(公式公表ベース)</h2>
+        <h2>サスキャリの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ESG・サステナ領域という成長ニッチへの特化</h3><p className="text-sm text-text-secondary leading-relaxed">脱炭素・人的資本開示などで需要が拡大するサステナビリティ人材市場に絞った、希少な特化型サービスです。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">コンサルと事業会社の横断比較</h3><p className="text-sm text-text-secondary leading-relaxed">外資系SXコンサルファームと事業会社のサステナ推進部門の両方をカバーし、キャリアパスを横断して比較できます。</p></div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>サステナ領域未経験で年収も上げたい人 →まず総合型で市場価値確認を</li>
-              <li>コンサル全般を見たい人 →<a href="/review/myvision/" className="text-teal underline">MyVision</a>等コンサル特化と併用を</li>
+              <li>サステナ領域未経験で年収も上げたい人 →まず総合型で市場価値を確認することをおすすめします</li>
+              <li>コンサル全般を見たい人 →<a href="/review/myvision/" className="text-teal underline">MyVision</a>等のコンサル特化型との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>サスキャリは、拡大するESG・サステナビリティ人材市場に特化した希少な転職支援サービスです。コンサル・事業会社・公共セクターを横断できるのが特徴で、利用は無料です。コンサル特化型やハイクラス型と併用してキャリアの選択肢を比較するのがおすすめです。</p>
+        <p>サスキャリは、拡大するESG・サステナビリティ人材市場に特化した希少な転職支援サービスです。コンサル・事業会社・公共セクターを横断できるのが特徴で、利用は無料です。コンサル特化型やハイクラス型と併用してキャリアの選択肢を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

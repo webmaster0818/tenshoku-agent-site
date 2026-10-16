@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "富士電機への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "富士電機（証券コード6504）への転職を有価証券報告書などの一次データで解説。平均年間給与は約840万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "富士電機（証券コード6504）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約840万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/fuji-electric/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "富士電機への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "富士電機（6504）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "富士電機（6504）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">富士電機転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約840万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>786万円（2024年3月期）→810万円（2025年3月期）→840万円（2026年3月期）と推移（直近2年で計54万円上昇）。</li>
-            <li>キャリア採用は公式キャリア採用情報ページで確認可能（2026年8月29日確認）。</li>
+            <li>平均年間給与は約840万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）で、提出会社単体の全従業員の平均値です。</li>
+            <li>786万円（2024年3月期）→810万円（2025年3月期）→840万円（2026年3月期）と推移しています（直近2年で計54万円上昇）。</li>
+            <li>キャリア採用の情報は公式キャリア採用情報ページで確認できます（2026年8月29日確認）。</li>
             <li>平均勤続20.3年・平均年齢44.9歳の長期勤続型の構成での平均値です。</li>
           </ul>
         </div>
@@ -131,10 +131,10 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年8月29日時点で、<a href="https://www.fujielectric.co.jp/recruit/career/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用情報ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトにキャリア採用情報ページがあり、職種別の募集とエントリー導線を確認できます。</li>
-            <li>エネルギー・インダストリー・半導体の各事業で職種別採用を実施。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>エネルギー・インダストリー・半導体の各事業で職種別採用を実施しています。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で富士電機のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で富士電機のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">富士電機で求められる人材</h2>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>平均勤続20.3年・平均年齢44.9歳の長期勤続型の構成での平均値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">富士電機転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

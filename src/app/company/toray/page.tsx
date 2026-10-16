@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "東レへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "東レ（証券コード3402）への転職を有価証券報告書などの一次データで解説。平均年間給与は約838万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "東レ（証券コード3402）への転職について、有価証券報告書などの一次データをもとに解説します。平均年間給与は約838万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/toray/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "東レへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "東レ（3402）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "東レ（3402）の平均年収・中途採用・選考を有価証券報告書にもとづいて解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "東レはどんな会社ですか？",
-    a: "炭素繊維で世界トップの繊維・化学大手。航空機材料・水処理膜・フィルムなど先端材料を展開です。本社は東京都中央区(日本橋)にあります。",
+    a: "炭素繊維で世界トップの繊維・化学大手です。航空機材料・水処理膜・フィルムなどの先端材料を展開しています。本社は東京都中央区(日本橋)にあります。",
   },
   {
     q: "東レの平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">東レ 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            東レ（証券コード3402）は、炭素繊維で世界トップの繊維・化学大手。航空機材料・水処理膜・フィルムなど先端材料を展開です。
+            東レ（証券コード3402）は、炭素繊維で世界トップの繊維・化学大手です。航空機材料・水処理膜・フィルムなどの先端材料を展開しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約838万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>765万円（2024年3月期）→820万円（2025年3月期）→838万円（2026年3月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年9月10日確認）。</li>
+            <li>765万円（2024年3月期）→820万円（2025年3月期）→838万円（2026年3月期）と推移しています（2年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式採用情報ページで確認できます（2026年9月10日確認）。</li>
             <li>全従業員平均であり、研究職・工場・本社で水準は異なります。</li>
           </ul>
         </div>
@@ -132,9 +132,9 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトのCareersページから新卒・キャリア採用の窓口を確認できます。</li>
             <li>研究・技術系を中心に職種別の採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページにてご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東レのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東レなどの大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法が有効です。</p>
         </div>
 
         <h2 id="s4">東レで求められる人材</h2>
@@ -142,8 +142,8 @@ export default function CompanyCareer() {
           {[
             { title: "炭素繊維の世界トップ", desc: "ボーイング向け航空機材料など、素材で世界の産業を支えるポジションです。" },
             { title: "水処理・環境素材", desc: "逆浸透膜など環境・水インフラ素材の主要プレイヤーです。" },
-            { title: "長期研究開発の文化", desc: "基礎研究を重視する社風で、腰を据えた研究キャリアに向きます。" },
-            { title: "繊維×化学×先端材料", desc: "高分子・化学工学系の専門性が広く活きます。" }
+            { title: "長期研究開発の文化", desc: "基礎研究を重視する社風で、腰を据えて研究キャリアを築きたい方に適しています。" },
+            { title: "繊維×化学×先端材料", desc: "高分子・化学工学系の専門性を幅広く活かせます。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,14 +181,14 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、研究職・工場・本社で水準は異なります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">東レ転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有する転職エージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
             { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },

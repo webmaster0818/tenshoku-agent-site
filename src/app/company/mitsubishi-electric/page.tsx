@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約913万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>829万円（2024年3月期）→869万円（2025年3月期）→913万円（2026年3月期）と推移（直近2年で計84万円上昇）。</li>
-            <li>キャリア採用は公式経験者採用ページで確認可能（2026年9月2日確認）。</li>
+            <li>829万円（2024年3月期）→869万円（2025年3月期）→913万円（2026年3月期）と推移しています（直近2年で計84万円上昇）。</li>
+            <li>キャリア採用は公式経験者採用ページで確認できます（2026年9月2日確認）。</li>
             <li>直近2年で計84万円上昇し900万円台に乗せています。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトに経験者採用ページがあり、募集職種一覧を確認できます。</li>
             <li>リファラル採用・アルムナイ採用・キャリア登録の制度も公式に案内されています。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱電機のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -140,7 +140,7 @@ export default function CompanyCareer() {
         <h2 id="s4">三菱電機で求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
-            { title: "FA・電力・ビルなどインフラ領域の専門性", desc: "事業部門が幅広く、FA機器・受配電・昇降機・空調など各インフラ領域の実務経験がそのまま適合先になります。" },
+            { title: "FA・電力・ビルなどインフラ領域の専門性", desc: "事業部門が幅広く、FA機器・受配電・昇降機・空調など各インフラ領域の実務経験をそのまま活かせます。" },
             { title: "防衛・宇宙の成長領域", desc: "防衛・宇宙システムは国内の投資拡大が続く領域で、公式採用ページでも重点的に紹介されています。" },
             { title: "大規模組織でのプロジェクト遂行力", desc: "事業所・関係会社をまたぐ大規模プロジェクトが多く、調整力・推進力が評価されます。" },
             { title: "品質・プロセス改革への意識", desc: "品質不正問題以降、品質風土改革を進めており、誠実なプロセス運用への意識が求められます。" }
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>直近2年で計84万円上昇し900万円台に乗せています。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">三菱電機転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

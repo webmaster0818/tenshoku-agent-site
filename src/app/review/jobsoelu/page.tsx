@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ジョブソエルの評判は？医療・介護・福祉特化の求人サイトを解説【2026年】",
-  description: "ジョブソエル(HIROグローバルホールディングス運営)は医療・介護・福祉特化の求人サイト。看護師2万件超・介護職3.4万件超など職種別求人を掲載し、スカウト機能も搭載(2026年8月確認)。特徴・向いている人を公式情報ベースで解説します。",
+  description: "ジョブソエル(HIROグローバルホールディングス運営)は医療・介護・福祉特化の求人サイトです。看護師2万件超・介護職3.4万件超など職種別求人を掲載し、スカウト機能も搭載しています(2026年8月確認)。特徴・向いている人を公式情報ベースで解説します。",
   alternates: { canonical: "/review/jobsoelu/" },
 };
 
@@ -20,7 +20,7 @@ const faqData = [
   },
   {
     "q": "エージェントのサポートはありますか？",
-    "a": "ジョブソエルは求人サイト型(検索+スカウト)が基本です。担当者による伴走支援を求める場合は、エージェント型サービスとの併用が現実的です。"
+    "a": "ジョブソエルは求人サイト型(検索+スカウト)が基本です。担当者による伴走支援を求める場合は、エージェント型サービスとの併用をおすすめします。"
   }
 ];
 
@@ -61,7 +61,7 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>医療・介護・福祉に特化した求人サイト</strong>。看護師20,109件・介護職34,539件・薬剤師2,141件など職種別の求人を掲載(2026年8月22日確認時点の公式表示)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>医療・介護・福祉に特化した求人サイト</strong>です。看護師20,109件・介護職34,539件・薬剤師2,141件など職種別の求人を掲載しています(2026年8月22日確認時点の公式表示)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スカウト・メッセージ・キープ機能</strong>を備えた求人サイト型で、自分のペースで探せる設計です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>医療事務・調剤事務・歯科助手など資格不問系の職種</strong>もカバーしています。</span></li>
           </ul>
@@ -81,7 +81,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：ジョブソエル公式サイト(jobsoel.com)、2026年8月22日確認。求人数は変動します。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：ジョブソエル公式サイト(jobsoel.com)、2026年8月22日確認。求人数は変動する場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>ジョブソエルの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>手厚いエージェントサポートを求める人 →<a href="/review/nishima-pharma/" className="text-teal underline">にしまファーマ</a>等のエージェント型と併用を</li>
-              <li>薬剤師専門の高密度支援 →<a href="/review/oshigoto-lab/" className="text-teal underline">お仕事ラボ</a>へ</li>
+              <li>手厚いエージェントサポートを求める人 →<a href="/review/nishima-pharma/" className="text-teal underline">にしまファーマ</a>等のエージェント型との併用をおすすめします</li>
+              <li>薬剤師専門の手厚い支援を求める人 →<a href="/review/oshigoto-lab/" className="text-teal underline">お仕事ラボ</a>が候補です</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ジョブソエルは、医療・介護・福祉の職種を横断してカバーする求人サイトです。スカウト機能と豊富な職種区分が特徴で、利用は無料です。エージェント型の医療特化サービスと併用すると、検索型と伴走型の両輪で職場を探せます。</p>
+        <p>ジョブソエルは、医療・介護・福祉の職種を横断してカバーする求人サイトです。スカウト機能と豊富な職種区分が特徴で、利用は無料です。エージェント型の医療特化サービスと併用すると、検索型と伴走型の両面から職場を探せます。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

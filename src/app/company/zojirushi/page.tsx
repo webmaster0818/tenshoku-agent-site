@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     "q": "勤務地はどこですか？",
-    "a": "本社は大阪市。工場・支店勤務の職種もあり、応募ポジションにより異なります。"
+    "a": "本社は大阪市にあります。工場・支店勤務の職種もあり、応募ポジションにより異なります。"
   },
   {
     "q": "定着率は高いですか？",
@@ -89,10 +89,10 @@ export default function CompanyCareer() {
         <h2 id="s1">象印マホービン転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約835万円（2025年11月期・有価証券報告書・単体527名）。単体527名の規模で家電メーカーとして高めの水準。</li>
-            <li>平均勤続約14.2年と長く、定着率の高さがうかがえるのが特徴。</li>
-            <li>象印ブランドの国内知名度に加え、海外(アジア・北米)展開が成長ドライバー。</li>
-            <li>生産技術・品質管理・研究開発・営業などメーカー系職種の採用が中心。</li>
+            <li>平均年間給与は約835万円（2025年11月期・有価証券報告書・単体527名）です。単体527名の規模で、家電メーカーとして高めの水準です。</li>
+            <li>平均勤続約14.2年と長く、定着率の高さがうかがえる点が特徴です。</li>
+            <li>象印ブランドの国内知名度に加え、海外(アジア・北米)展開が成長を牽引しています。</li>
+            <li>生産技術・品質管理・研究開発・営業などメーカー系職種の採用が中心です。</li>
           </ul>
         </div>
 
@@ -108,7 +108,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約835万円（2025年11月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約39.8歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約14.2年（同・提出会社）" },
-                { label: "従業員数", value: "527名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "527名（同・提出会社単体）／連結は公式情報をご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -126,10 +126,10 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年7月31日時点で、象印マホービンの<a href="https://www.zojirushi.co.jp/saiyo/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>は新卒採用のみで、中途採用（キャリア採用）の窓口掲載はありません。募集職種として掲載されているのは新卒向けの「設計開発職」「総合職」で、中途向けの職種・選考プロセスの記載は確認できませんでした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>採用サイトのメニュー（キャリアモデル／社員インタビュー／募集要項／採用プロセス・Q&A等）に中途採用・キャリア採用の項目はない。</li>
-            <li>中途で入社するルートは公式サイト外の求人（転職エージェント経由の非公開求人等）が中心になるとみられる。</li>
-            <li>確実な情報は公式採用ページの更新を確認するのがおすすめ。</li>
-            <li>※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</li>
+            <li>採用サイトのメニュー（キャリアモデル／社員インタビュー／募集要項／採用プロセス・Q&A等）に中途採用・キャリア採用の項目はありません。</li>
+            <li>中途で入社するルートは公式サイト外の求人（転職エージェント経由の非公開求人等）が中心になるとみられます。</li>
+            <li>最新の情報は、公式採用ページの更新状況をご確認ください。</li>
+            <li>※2026年7月31日に公式採用サイトで確認しました。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で象印マホービンのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -173,11 +173,11 @@ export default function CompanyCareer() {
         <h2 id="s6">象印マホービンの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約835万円（2025年11月期）は単体全社員の平均。職種（本社・工場・営業）により水準は異なります。</li>
-            <li>平均勤続14.2年・平均年齢39.8歳の安定雇用型。</li>
+            <li>約835万円（2025年11月期）は単体全社員の平均です。職種（本社・工場・営業）により水準は異なります。</li>
+            <li>平均勤続14.2年・平均年齢39.8歳の安定雇用型です。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">象印マホービン転職で活用したい転職エージェント</h2>

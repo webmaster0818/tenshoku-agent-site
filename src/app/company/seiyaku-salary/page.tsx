@@ -6,34 +6,34 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/seiyaku-salary/" },
   title: "製薬業界の年収ランキング【2026年・有価証券報告書】大手8社を一次データで比較",
   description:
-    "大手製薬8社の平均年収を有価証券報告書の記載値でランキング。中外製薬1,350万円・武田薬品1,144万円・アステラス製薬1,131万円・エーザイ1,123万円・第一三共1,097万円ほか。決算期・平均勤続年数の違い、キャリア採用の入口まで一次データで解説します。",
+    "大手製薬8社の平均年収を有価証券報告書の記載値でランキングしています（中外製薬1,350万円・武田薬品1,144万円・アステラス製薬1,131万円・エーザイ1,123万円・第一三共1,097万円ほか）。決算期・平均勤続年数の違い、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "製薬業界の年収ランキング【2026年・有価証券報告書】",
-    description: "大手製薬8社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
+    description: "大手製薬8社の平均年収を有価証券報告書の記載値でランキングし、キャリア採用の入口も解説しています。",
   },
 };
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "chugai", name: "中外製薬", salary: "約1,350万円", term: "2025年12月期", note: "直近期に+143万円の大幅上昇で製薬収録8社トップ。ロシュ傘下で抗体医薬に強み", hd: false, field: "バイオ・抗体" },
-  { rank: 2, slug: "takeda", name: "武田薬品工業", salary: "約1,144万円", term: "2026年3月期", note: "国内最大手のグローバル製薬。2年連続で上昇", hd: false, field: "総合・グローバル" },
-  { rank: 3, slug: "astellas", name: "アステラス製薬", salary: "約1,131万円", term: "2026年3月期", note: "がん・泌尿器に強み。遺伝子治療など新規モダリティに投資", hd: false, field: "総合" },
-  { rank: 4, slug: "eisai", name: "エーザイ", salary: "約1,123万円", term: "2026年3月期", note: "認知症薬レカネマブが柱。平均勤続18.5年の長期就業型", hd: false, field: "神経・がん" },
-  { rank: 5, slug: "daiichisankyo", name: "第一三共", salary: "約1,097万円", term: "2026年3月期", note: "ADC(エンハーツ)でがん領域に急伸。平均勤続19.9年は収録8社最長", hd: false, field: "がん・ADC" },
-  { rank: 6, slug: "ono-yakuhin", name: "小野薬品工業", salary: "約1,093万円", term: "2026年3月期", note: "オプジーボのがん免疫。2年で+107万円と伸びが大きい", hd: false, field: "がん免疫" },
-  { rank: 7, slug: "shionogi", name: "塩野義製薬", salary: "約1,030万円", term: "2026年3月期", note: "感染症のリーディングカンパニー。2年連続上昇で1,000万円台に到達", hd: false, field: "感染症" },
-  { rank: 8, slug: "otsuka-hd", name: "大塚ホールディングス", salary: "約1,000万円", term: "2025年12月期", note: "大塚製薬・大鵬薬品等の持株会社。HD単体は少数精鋭の本社機能", hd: true, field: "医薬+NC" },
+  { rank: 1, slug: "chugai", name: "中外製薬", salary: "約1,350万円", term: "2025年12月期", note: "直近期に+143万円の大幅上昇となり、製薬収録8社でトップです。ロシュ傘下で、抗体医薬に強みがあります。", hd: false, field: "バイオ・抗体" },
+  { rank: 2, slug: "takeda", name: "武田薬品工業", salary: "約1,144万円", term: "2026年3月期", note: "国内最大手のグローバル製薬企業です。2年連続で上昇しています。", hd: false, field: "総合・グローバル" },
+  { rank: 3, slug: "astellas", name: "アステラス製薬", salary: "約1,131万円", term: "2026年3月期", note: "がん・泌尿器に強みを持ち、遺伝子治療など新規モダリティに投資しています。", hd: false, field: "総合" },
+  { rank: 4, slug: "eisai", name: "エーザイ", salary: "約1,123万円", term: "2026年3月期", note: "認知症薬レカネマブが事業の柱です。平均勤続18.5年の長期就業型です。", hd: false, field: "神経・がん" },
+  { rank: 5, slug: "daiichisankyo", name: "第一三共", salary: "約1,097万円", term: "2026年3月期", note: "ADC(エンハーツ)でがん領域が急伸しています。平均勤続19.9年は収録8社で最長です。", hd: false, field: "がん・ADC" },
+  { rank: 6, slug: "ono-yakuhin", name: "小野薬品工業", salary: "約1,093万円", term: "2026年3月期", note: "オプジーボによるがん免疫領域が主力です。2年で+107万円と伸びが大きい企業です。", hd: false, field: "がん免疫" },
+  { rank: 7, slug: "shionogi", name: "塩野義製薬", salary: "約1,030万円", term: "2026年3月期", note: "感染症のリーディングカンパニーです。2年連続で上昇し、1,000万円台に到達しました。", hd: false, field: "感染症" },
+  { rank: 8, slug: "otsuka-hd", name: "大塚ホールディングス", salary: "約1,000万円", term: "2025年12月期", note: "大塚製薬・大鵬薬品等の持株会社です。HD単体は少数精鋭の本社機能の数値です。", hd: true, field: "医薬+NC" },
 ];
 
 const faqData = [
   {
     q: "製薬業界で平均年収が一番高いのはどこですか？",
-    a: "有価証券報告書(IR BANK掲載値を2026年9月6日確認)では、中外製薬が約1,350万円(2025年12月期)でトップです。武田薬品工業 約1,144万円、アステラス製薬 約1,131万円、エーザイ 約1,123万円が続きます。中外製薬は直近期に143万円上昇しており、業績連動賞与の影響が大きいと考えられます(有価証券報告書に記載の範囲では内訳を断定しません)。",
+    a: "有価証券報告書(IR BANK掲載値を2026年9月6日確認)では、中外製薬が約1,350万円(2025年12月期)でトップです。武田薬品工業 約1,144万円、アステラス製薬 約1,131万円、エーザイ 約1,123万円が続きます。中外製薬は直近期に143万円上昇しており、業績連動賞与の影響が大きいと考えられます(有価証券報告書の記載からはは、内訳までは特定できません)。",
   },
   {
     q: "この数値はMR・研究職の平均年収ですか？",
-    a: "いいえ。有価証券報告書の平均年間給与は提出会社の全従業員平均で、研究職・MR・工場・本社スタッフを合算した数値です。職種・年代・役職により実際の水準は異なります。大塚ホールディングスのみ持株会社単体(本社機能中心・平均勤続3.3年)の数値で、大塚製薬など事業会社の平均とは別物です。",
+    a: "いいえ。有価証券報告書の平均年間給与は提出会社の全従業員平均で、研究職・MR・工場・本社スタッフを合算した数値です。職種・年代・役職により実際の水準は異なります。大塚ホールディングスのみ持株会社単体(本社機能中心・平均勤続3.3年)の数値で、大塚製薬など事業会社の平均とは別の数値です。",
   },
   {
     q: "製薬業界の年収は上がっていますか？",
@@ -45,7 +45,7 @@ const faqData = [
   },
   {
     q: "製薬大手の中途採用はどこに応募すればいいですか？",
-    a: "8社とも公式サイトに採用ページがあります(2026年9月6日確認・武田はグローバル採用ポータルjobs.takeda.com、小野はrecruit.ono-pharma.com等)。専門職は非公開求人も多いため、メディカル・製薬に強いエージェントやスカウト型サービスの併用が実質的な入口になります。",
+    a: "8社とも公式サイトに採用ページがあります(2026年9月6日確認・武田はグローバル採用ポータルjobs.takeda.com、小野はrecruit.ono-pharma.com等)。専門職は非公開求人も多いため、メディカル・製薬に強いエージェントやスカウト型サービスの併用が有効です。",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function SeiyakuSalaryRanking() {
             製薬業界の年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
-            大手製薬8社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。研究・開発・MR・データサイエンスまで、中途採用の入口もあわせて解説します。
+            大手製薬8社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）のみにもとづいてランキングしています。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。研究・開発・MR・データサイエンスまで、中途採用の入口もあわせて解説します。
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function SeiyakuSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）。IR BANK掲載値を2026年9月6日に確認。大塚ホールディングスのみ持株会社単体の数値です。決算期が各社で異なるため、単純比較の際は時点差にご留意ください。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）です。IR BANK掲載値を2026年9月6日に確認しています。大塚ホールディングスのみ持株会社単体の数値です。決算期が各社で異なるため、単純比較の際は時点差にご留意ください。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -136,7 +136,7 @@ export default function SeiyakuSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">全従業員平均＝職種混在</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">研究職・MR・工場・本社の合算平均です。博士人材の研究職や海外駐在ポジションは平均より高く、職種別の実額は求人票・エージェント経由で確認しましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">研究職・MR・工場・本社の合算平均です。博士人材の研究職や海外駐在ポジションは平均より高く、職種別の実額は求人票や転職エージェント経由でご確認ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
@@ -144,7 +144,7 @@ export default function SeiyakuSalaryRanking() {
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">業績連動・決算期で変動</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">主力品の伸びで賞与が動きます(中外製薬の直近+143万円が典型例)。12月期決算(中外・大塚)と3月期決算が混在する点にも注意してください。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">主力品の伸びで賞与が動きます(中外製薬の直近+143万円が典型例)。12月期決算(中外・大塚)と3月期決算が混在する点にもご留意ください。</p>
           </div>
         </div>
 
@@ -157,7 +157,7 @@ export default function SeiyakuSalaryRanking() {
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。研究開発からMR・本社機能まで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業比較・年収レンジ把握がしやすい点が特長です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。メディカル系ハイクラス・専門職の市場価値の把握に適しています。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル製薬の専門職ポジションに。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル製薬の専門職ポジションを検討する方に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

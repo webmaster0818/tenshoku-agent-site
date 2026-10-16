@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "中部電力はどんな会社ですか？",
-    a: "中部エリアを基盤とする電力大手。火力発電は東京電力とのJERAに統合し、送配電・小売・新規事業を展開です。本社は愛知県名古屋市にあります。",
+    a: "中部エリアを基盤とする電力大手です。火力発電は東京電力とのJERAに統合し、送配電・小売・新規事業を展開しています。本社は愛知県名古屋市にあります。",
   },
   {
     q: "中部電力の平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">中部電力 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            中部電力（証券コード9502）は、中部エリアを基盤とする電力大手。火力発電は東京電力とのJERAに統合し、送配電・小売・新規事業を展開です。
+            中部電力（証券コード9502）は、中部エリアを基盤とする電力大手です。火力発電は東京電力とのJERAに統合し、送配電・小売・新規事業を展開しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約945万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>854万円（2024年3月期）→898万円（2025年3月期）→945万円（2026年3月期）と推移（2年連続上昇(計91万円)）。</li>
-            <li>キャリア採用は公式採用サイトで確認可能（2026年9月14日確認）。</li>
+            <li>854万円（2024年3月期）→898万円（2025年3月期）→945万円（2026年3月期）と推移しています（2年連続上昇(計91万円)）。</li>
+            <li>キャリア採用は公式採用サイトで確認できます（2026年9月14日確認）。</li>
             <li>全従業員平均であり、職種・配属による差があります。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>採用専用サイトで新卒・キャリア採用の情報を公開しています。</li>
             <li>技術系(電気・土木・情報)を中心に職種別の採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で中部電力のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -142,7 +142,7 @@ export default function CompanyCareer() {
           {[
             { title: "旧一般電気事業者で2位の945万円", desc: "収録した旧一般電気事業者(電力会社)の中では最も高い水準です。" },
             { title: "JERA・送配電など多様な出口", desc: "火力はJERA、送配電は中部電力パワーグリッドと、グループ内のキャリアパスが広い構造です。" },
-            { title: "名古屋基盤の安定基盤", desc: "中部経済圏のインフラ中核企業です。" },
+            { title: "名古屋を拠点とする安定基盤", desc: "中部経済圏のインフラ中核企業です。" },
             { title: "2年連続の上昇", desc: "854→945万円と着実に処遇改善が進んでいます。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、職種・配属による差があります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">中部電力転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

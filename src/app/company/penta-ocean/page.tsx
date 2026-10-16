@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "五洋建設への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "五洋建設（証券コード1893）への転職を有価証券報告書などの一次データで解説。平均年間給与は約935万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "五洋建設（証券コード1893）への転職について、有価証券報告書などの一次データをもとに解説します。平均年間給与は約935万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/penta-ocean/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "五洋建設への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "五洋建設（1893）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "五洋建設（1893）の平均年収・中途採用・選考を有価証券報告書にもとづいて解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "五洋建設はどんな会社ですか？",
-    a: "港湾・海洋土木(マリコン)の国内最大手。浚渫・埋立や洋上風力関連工事に強みです。本社は東京都にあります。",
+    a: "港湾・海洋土木(マリコン)の国内最大手です。浚渫・埋立や洋上風力関連工事に強みがあります。本社は東京都にあります。",
   },
   {
     q: "五洋建設の平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">五洋建設 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            五洋建設（証券コード1893）は、港湾・海洋土木(マリコン)の国内最大手。浚渫・埋立や洋上風力関連工事に強みです。
+            五洋建設（証券コード1893）は、港湾・海洋土木(マリコン)の国内最大手です。浚渫・埋立や洋上風力関連工事に強みがあります。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約935万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月12日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>889万円（2024年3月期）→925万円（2025年3月期）→935万円（2026年3月期）と推移（3年連続で上昇）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年9月12日確認）。</li>
+            <li>889万円（2024年3月期）→925万円（2025年3月期）→935万円（2026年3月期）と推移しています（3年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式採用情報ページで確認できます（2026年9月12日確認）。</li>
             <li>全従業員平均であり、海上工事・陸上工事・本社部門などで水準は異なります。工事の性質上、現場勤務地の確認は特に重要です。</li>
           </ul>
         </div>
@@ -132,9 +132,9 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトの採用情報ページから新卒・キャリア採用の窓口を確認できます。</li>
             <li>土木(海上土木)・建築の施工管理を中心とした採用です。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページにてご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で五洋建設のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で五洋建設などの大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法が有効です。</p>
         </div>
 
         <h2 id="s4">五洋建設で求められる人材</h2>
@@ -181,14 +181,14 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、海上工事・陸上工事・本社部門などで水準は異なります。工事の性質上、現場勤務地の確認は特に重要です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">五洋建設転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有する転職エージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。同業他社も含めて比較検討しやすい点が強みです。" },
             { name: "JACリクルートメント", href: "/review/jac/", desc: "ミドル・ハイクラスや専門職に強みがあります。年収レンジの高いポジションの紹介に定評があります。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。市場価値の把握や、管理職・専門職の情報収集に適しています。" },

@@ -6,12 +6,12 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/unison-career/" },
-  title: "ユニゾンキャリアの口コミ・評判は？やばい？IT特化エージェントを経験者/未経験別に解説【2026年10月】",
+  title: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
   description:
     "ユニゾンキャリアの口コミ・評判を、コエテコキャリアの公開口コミの傾向と公式情報(Google口コミ4.8・470件公称、許可番号13-ユ-313348)から整理。IT・Web特化の特徴、デメリット、経験者/未経験の窓口を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ユニゾンキャリアの口コミ・評判は？やばい？IT特化エージェントを経験者/未経験別に解説【2026年10月】",
+    title: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
     description:
       "ユニゾンキャリアの口コミ・評判の傾向と、運営会社・許可番号・利用の流れなどの公式情報を、経験者/未経験者別に整理。利用は無料です。",
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "ユニゾンキャリアの口コミ・評判は？やばい？IT特化エージェントを経験者/未経験別に解説【2026年10月】",
+  headline: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
   dateModified: "2026-10-14",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
@@ -30,7 +30,7 @@ const articleJsonLd = {
 
 const faqData = [
   {
-    q: "ユニゾンキャリアはやばい・怪しいサービスですか？",
+    q: "ユニゾンキャリアは「やばい」「怪しい」サービスではありませんか？",
     a: "運営は株式会社ユニゾン・テクノロジー(2021年1月6日設立、東京都渋谷区、従業員112名・アルバイト等含む)で、厚生労働大臣の有料職業紹介事業許可(13-ユ-313348)を受けて人材紹介を行っています(運営会社公式の会社概要、2026年10月14日確認)。口コミサイト「コエテコキャリア」上の口コミは17件(2026年10月14日確認)と公開口コミの件数が多くないため判断材料が見つけにくい面はありますが、許可を受けた正規の転職エージェントです。",
   },
   {
@@ -55,7 +55,7 @@ const faqData = [
   },
   {
     q: "他の大手エージェントとの違いは何ですか？",
-    a: "公式サイトでは「大量応募＆同意なしの応募はしません」という方針を明示しています。機械的に多数の企業へ応募させるのではなく、市場価値・適性年収の提示と求人の厳選紹介を掲げている点が特徴です。求人数の規模ではリクルートエージェントやdodaなどの総合型が上回るため、併用が現実的です。",
+    a: "公式サイトでは「大量応募＆同意なしの応募はしません」という方針を明示しています。機械的に多数の企業へ応募させるのではなく、市場価値・適性年収の提示と求人の厳選紹介を掲げている点が特徴です。求人数の規模ではリクルートエージェントやdodaなどの総合型が上回るため、併用をおすすめします。",
   },
   {
     q: "在職中でも相談できますか？",
@@ -94,13 +94,13 @@ export default function UnisonCareerReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ユニゾンキャリアの口コミ・評判は？やばい？IT特化エージェントを経験者/未経験別に解説【2026年10月】
+            ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】
           </h1>
           <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイト・運営会社ページ・公開口コミを同日確認）</p>
           <p className="text-text-secondary leading-relaxed">
             ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT・Web業界専門の転職エージェントです。
             「大量応募＆同意なしの応募はしません」という厳選紹介の方針と、Google口コミ4.8(470件・2025年12月23日時点の公称)を掲げています。
-            エンジニア経験者と未経験者で相談の入口が分かれているのが特徴で、この記事では公開口コミの傾向(出典つき)と、
+            エンジニア経験者と未経験者で相談の入口が分かれているのが特徴で、この記事では公開口コミの傾向(出典を明記)と、
             運営会社・許可番号・利用の流れなど公式サイトで確認できる情報をもとに整理します。
           </p>
         </div>
@@ -113,19 +113,19 @@ export default function UnisonCareerReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>IT・Web業界専門の転職エージェント</strong>。エンジニアの転職支援に対象を絞り、業界を知るアドバイザーが担当します。</span>
+              <span><strong>IT・Web業界専門の転職エージェント</strong>です。エンジニアの転職支援に対象を絞り、業界を知るアドバイザーが担当します。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>「大量応募・同意なし応募をしない」方針を明示</strong>。市場価値・適性年収の提示と求人の厳選紹介を掲げています。</span>
+              <span><strong>「大量応募・同意なし応募をしない」方針を明示</strong>しています。市場価値・適性年収の提示と求人の厳選紹介を掲げています。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>Google口コミ4.8(470件・公称)</strong>。公式LPの表記は「2025年12月23日時点での口コミ参照」です(2026年10月14日確認)。口コミサイトのコエテコキャリアでは17件・平均4.7でした。</span>
+              <span><strong>Google口コミ4.8(470件・公称)</strong>を掲げています。公式LPの表記は「2025年12月23日時点での口コミ参照」です(2026年10月14日確認)。口コミサイトのコエテコキャリアでは17件・平均4.7でした。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>経験者と未経験者で入口が別</strong>。どちらも利用無料で、自分に合う窓口から相談を始められます(下のボタンで分けています)。</span>
+              <span><strong>経験者と未経験者で入口が分かれています</strong>。どちらも利用は無料で、自分に合う窓口から相談を始められます(下のボタンで分けています)。</span>
             </li>
           </ul>
         </div>
@@ -149,7 +149,7 @@ export default function UnisonCareerReview() {
           ))}
         </div>
 
-        <h2>ユニゾンキャリアの口コミ・評判（出典つきの傾向）</h2>
+        <h2>ユニゾンキャリアの口コミ・評判（出典を明記した傾向）</h2>
         <p className="text-sm text-text-secondary mb-4">
           ユニゾンキャリアの公開口コミは、大手総合型エージェントと比べると件数が多くありません。ここでは、利用者が投稿する口コミサイト
           「コエテコキャリア」のユニゾンキャリア(転職)ページに掲載された口コミ(17件・平均4.7、星5が11件・星4が5件・星2台が1件)と、
@@ -159,32 +159,32 @@ export default function UnisonCareerReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">良い評判の傾向</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>アドバイザーの対応が丁寧で、IT業界未経験でも最初の相談から準備まで伴走してもらえた、という指摘が多い</li>
-              <li>書類添削・面接対策への評価が高い(同サイトの項目別平均は書類4.8・面接4.7・アドバイザー4.9)</li>
-              <li>面接前の不安を言語化して整理してもらえた、転職後のキャリアや資格についても助言があった、という声</li>
+              <li>アドバイザーの対応が丁寧で、IT業界未経験でも最初の相談から準備まで伴走してもらえた、という指摘が多く見られます</li>
+              <li>書類添削・面接対策への評価が高くなっています(同サイトの項目別平均は書類4.8・面接4.7・アドバイザー4.9)</li>
+              <li>面接前の不安を言語化して整理してもらえた、転職後のキャリアや資格についても助言があった、という声があります</li>
             </ul>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">悪い評判・注意点の傾向</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>低評価は1件で、「紹介される企業が期待したほどではなかった」「未経験の1社目向き」という趣旨</li>
-              <li>項目別平均で最も低いのは「求人の幅」(4.5)。IT・Web特化のため職種・業界の幅は総合型より狭い</li>
-              <li>公式サイトで求人数・対応エリアは公表されておらず、地方求人の量は面談で確認が必要</li>
+              <li>低評価は1件で、「紹介される企業が期待したほどではなかった」「未経験の1社目向き」という趣旨です</li>
+              <li>項目別平均で最も低いのは「求人の幅」(4.5)です。IT・Web特化のため、職種・業界の幅は総合型より狭くなります</li>
+              <li>公式サイトで求人数・対応エリアは公表されていないため、地方求人の量は面談でご確認ください</li>
             </ul>
           </div>
         </div>
         <div className="bg-teal/5 rounded-xl p-5 mb-3 border border-teal/15">
           <p className="font-bold text-navy mb-2 text-sm">当サイトの見方</p>
           <p className="text-sm text-text-secondary leading-relaxed">
-            公開口コミの評価は高めですが、件数が少なく、口コミサイト側も広告掲載・投稿特典を設けているため、点数だけで判断するのは危険です。
-            「サポートの丁寧さ」は複数の口コミで一致している一方、「求人の幅」はIT特化である以上の限界があります。
-            総合型エージェントを1社併用し、紹介求人の質と量を見比べるのが現実的です。
+            公開口コミの評価は高めですが、件数が少なく、口コミサイト側も広告掲載・投稿特典を設けているため、点数だけで判断せず、口コミの内容もあわせて確認することをおすすめします。
+            「サポートの丁寧さ」は複数の口コミで一致している一方、「求人の幅」はIT特化という性質上、一定の制約があります。
+            総合型エージェントを1社併用し、紹介求人の質と量を比較することをおすすめします。
             Google口コミ4.8(470件)は公式の抜粋表記で、件数・評価は時期により変わります。
           </p>
         </div>
         <p className="text-xs text-text-muted mb-10">
-          出典: コエテコキャリア「ユニゾンキャリア」口コミページ(2026年10月14日確認)の公開口コミの傾向を当サイトが要約。Google口コミの数値はユニゾンキャリア公式LP
-          (「Google口コミ(470件)から抜粋」「2025年12月23日時点での口コミ参照」、2026年10月14日確認)の公称値。他社の転職比較記事は出典にしていません。
+          出典: コエテコキャリア「ユニゾンキャリア」口コミページ(2026年10月14日確認)の公開口コミの傾向を当サイトが要約しています。Google口コミの数値はユニゾンキャリア公式LP
+          (「Google口コミ(470件)から抜粋」「2025年12月23日時点での口コミ参照」、2026年10月14日確認)の公称値です。他社の転職比較記事は出典にしていません。
         </p>
 
         <h2>ユニゾンキャリアの基本データ【2026年10月14日確認】</h2>
@@ -218,7 +218,7 @@ export default function UnisonCareerReview() {
 
         <h2>ユニゾンキャリアの利用の流れ</h2>
         <ol className="list-decimal pl-5 space-y-1 text-sm text-text-secondary mb-3">
-          <li>Web面談(電話での相談も可)</li>
+          <li>Web面談(電話での相談も可能です)</li>
           <li>求人紹介(市場価値・適性年収の提示と厳選紹介)</li>
           <li>書類添削</li>
           <li>面接対策</li>
@@ -248,7 +248,7 @@ export default function UnisonCareerReview() {
             },
             {
               title: "入社後の定着も実績として公表",
-              desc: "「入社後定着率 約97%」を掲げています。ただし定義は「2025年1月〜8月の間に入社した方の3ヶ月以上継続率」(公式注記)で、長期の定着率ではない点に注意してください。",
+              desc: "「入社後定着率 約97%」を掲げています。ただし定義は「2025年1月〜8月の間に入社した方の3ヶ月以上継続率」(公式注記)で、長期の定着率ではない点にご留意ください。",
             },
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
@@ -282,7 +282,7 @@ export default function UnisonCareerReview() {
         </div>
         <p className="text-sm text-text-secondary mb-8">
           転職エージェントは<strong>2〜3社の併用が一般的</strong>です。IT特化はユニゾンキャリア+レバテックキャリアのように特化型同士を並行し、
-          視野を広げたいときに総合型を足す組み合わせが現実的です。
+          視野を広げたいときに総合型を加える組み合わせをおすすめします。
         </p>
 
         <h2>ユニゾンキャリア よくある質問</h2>

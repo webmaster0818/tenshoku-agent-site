@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "R4CAREERの評判は？名古屋・東海3県特化の転職エージェントを解説【2026年】",
-  description: "R4CAREER(アールフォーキャリア)は名古屋を拠点に東海3県(愛知・岐阜・三重)特化の転職支援を行う転職エージェント。書類合格率43.7%(公式表記)・職業紹介許可番号23-ユ-300807。特徴・向いている人を公式情報ベースで解説します。",
+  description: "R4CAREER(アールフォーキャリア)は名古屋を拠点に東海3県(愛知・岐阜・三重)特化の転職支援を行う転職エージェントです。書類合格率43.7%(公式表記)、職業紹介許可番号は23-ユ-300807です。特徴・向いている人を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/r4career/" },
 };
 
@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     "q": "東海エリア以外の求人もありますか？",
-    "a": "公式サイトでは東海三県(愛知・岐阜・三重)に特化した求人での転職支援を明記しています(2026年8月22日確認)。他エリア希望の場合は全国系エージェントとの併用が現実的です。"
+    "a": "公式サイトでは東海三県(愛知・岐阜・三重)に特化した求人での転職支援を明記しています(2026年8月22日確認)。他エリア希望の場合は全国系エージェントとの併用をおすすめします。"
   },
   {
     "q": "県外からのUターン転職でも利用できますか？",
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>名古屋を拠点に東海3県(愛知・岐阜・三重)特化</strong>の転職エージェント。地域密着の求人で支援します。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>書類合格率43.7%</strong>(公式サイト表記・2026年8月22日確認)。求人条件の提案と面接準備アドバイスを強みに掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(23-ユ-300807)を公式サイトで確認</strong>。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>名古屋を拠点に東海3県(愛知・岐阜・三重)特化</strong>の転職エージェントです。地域密着の求人で支援します。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>書類合格率43.7%</strong>と公式サイトに表記されています(2026年8月22日確認)。求人条件の提案と面接準備アドバイスを強みに掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(23-ユ-300807)を公式サイトで確認しています</strong>。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -82,12 +82,12 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：R4CAREER公式サイト(r4career.co.jp)、2026年8月22日確認。書類合格率は公式サイト掲載値。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：R4CAREER公式サイト(r4career.co.jp)、2026年8月22日確認。書類合格率は公式サイトの掲載値です。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>R4CAREERの特徴(公式公表ベース)</h2>
+        <h2>R4CAREERの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">東海3県への地域特化</h3><p className="text-sm text-text-secondary leading-relaxed">全国系エージェントと異なり、愛知・岐阜・三重の求人に絞った地域密着型です。地元企業の情報や地域の転職市場に根差した提案が期待できる設計です。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">書類合格率の公開</h3><p className="text-sm text-text-secondary leading-relaxed">要望・状況を受け止めた求人条件の提案と面接準備アドバイスにより書類合格率43.7%を実現と公式に説明しており、選考プロセスの支援を重視しています。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">書類合格率の公開</h3><p className="text-sm text-text-secondary leading-relaxed">要望・状況を受け止めた求人条件の提案と面接準備アドバイスにより書類合格率43.7%を実現したと公式に説明しており、選考プロセスの支援を重視しています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">リモート面談対応</h3><p className="text-sm text-text-secondary leading-relaxed">電話・WEBによる登録面談を実施しており、在職中でも相談しやすい体制です。</p></div>
         </div>
 
@@ -105,7 +105,7 @@ export default function Page() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>東海3県以外での転職 →全国系の総合型へ</li>
-              <li>大手メーカーの求人網羅性を最優先する人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>等と併用を</li>
+              <li>大手メーカーの求人網羅性を最優先する人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>等との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>R4CAREERは、東海3県に絞った地域密着型の転職エージェントです。書類合格率の公開と選考支援の手厚さが特徴で、利用は無料です。名古屋圏での転職では、全国系エージェントと併用して地域求人の深さと網羅性を両取りするのがおすすめです。</p>
+        <p>R4CAREERは、東海3県に絞った地域密着型の転職エージェントです。書類合格率の公開と選考支援の手厚さが特徴で、利用は無料です。名古屋圏での転職では、全国系エージェントと併用して地域求人の深さと網羅性を両立させることをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

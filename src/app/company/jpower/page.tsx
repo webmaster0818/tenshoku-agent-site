@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "電源開発(J-POWER)への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "電源開発(J-POWER)（証券コード9513）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,188万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "電源開発(J-POWER)（証券コード9513）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約1,188万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/jpower/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "電源開発(J-POWER)への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "電源開発(J-POWER)（9513）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "電源開発(J-POWER)（9513）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "電源開発(J-POWER)はどんな会社ですか？",
-    a: "全国で発電(水力・石炭火力等)と送電を手がける卸電力の大手。海外発電事業も展開です。本社は東京都にあります。",
+    a: "全国で発電(水力・石炭火力等)と送電を手がける卸電力の大手で、海外発電事業も展開しています。本社は東京都にあります。",
   },
   {
     q: "電源開発(J-POWER)の平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">電源開発(J-POWER) 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            電源開発(J-POWER)（証券コード9513）は、全国で発電(水力・石炭火力等)と送電を手がける卸電力の大手。海外発電事業も展開です。
+            電源開発(J-POWER)（証券コード9513）は、全国で発電(水力・石炭火力等)と送電を手がける卸電力の大手で、海外発電事業も展開しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">J-POWER転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,188万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,045万円（2024年3月期）→1,117万円（2025年3月期）→1,188万円（2026年3月期）と推移（2年で計143万円上昇し収録9社トップ）。</li>
-            <li>キャリア採用は公式採用サイトで確認可能（2026年9月14日確認）。</li>
+            <li>平均年間給与は約1,188万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）で、提出会社単体の全従業員の平均値です。</li>
+            <li>1,045万円（2024年3月期）→1,117万円（2025年3月期）→1,188万円（2026年3月期）と推移しています（2年で計143万円上昇し収録9社トップ）。</li>
+            <li>キャリア採用の情報は公式採用サイトで確認できます（2026年9月14日確認）。</li>
             <li>全従業員平均であり、発電所勤務・本社部門などで水準は異なります。</li>
           </ul>
         </div>
@@ -132,9 +132,9 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式採用サイトに新卒・キャリア採用の窓口があり、キャリア採用の専用ページも公開されています。</li>
             <li>技術系(電気・機械・土木)を中心に事務系の採用もあります。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用サイトでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で電源開発(J-POWER)のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で電源開発(J-POWER)のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">J-POWERで求められる人材</h2>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、発電所勤務・本社部門などで水準は異なります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">J-POWER転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

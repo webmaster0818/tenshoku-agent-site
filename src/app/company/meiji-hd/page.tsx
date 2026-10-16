@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "明治ホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "明治ホールディングス（証券コード2269）への転職を有価証券報告書などの一次データで解説。平均年間給与は約938万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "明治ホールディングス（証券コード2269）への転職について、有価証券報告書などの一次データをもとに解説します。平均年間給与は約938万円です（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/meiji-hd/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "明治ホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "明治ホールディングス（2269）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "明治ホールディングス（2269）の平均年収・中途採用・選考を有価証券報告書にもとづいて解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "明治ホールディングスはどんな会社ですか？",
-    a: "明治(食品)と明治製菓ファルマ・KMバイオロジクス(医薬)を束ねる持株会社。ヨーグルト・チョコレートの国内最大手です。本社は東京都中央区(京橋)にあります。",
+    a: "明治(食品)と明治製菓ファルマ・KMバイオロジクス(医薬)を束ねる持株会社で、ヨーグルト・チョコレートの国内最大手です。本社は東京都中央区京橋にあります。",
   },
   {
     q: "明治ホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">明治HD 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            明治ホールディングス（証券コード2269）は、明治(食品)と明治製菓ファルマ・KMバイオロジクス(医薬)を束ねる持株会社。ヨーグルト・チョコレートの国内最大手です。
+            明治ホールディングス（証券コード2269）は、明治(食品)と明治製菓ファルマ・KMバイオロジクス(医薬)を束ねる持株会社で、ヨーグルト・チョコレートの国内最大手です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">明治HD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約938万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,036万円（2024年3月期）→909万円（2025年3月期）→938万円（2026年3月期）と推移（900万円台で推移）。</li>
-            <li>キャリア採用は明治グループの採用情報ページで確認可能（2026年9月8日確認）。</li>
+            <li>平均年間給与は約938万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>1,036万円（2024年3月期）→909万円（2025年3月期）→938万円（2026年3月期）と推移しています（直近2期は900万円台）。</li>
+            <li>キャリア採用の情報は明治グループの採用情報ページで確認できます（2026年9月8日確認）。</li>
             <li>提出会社は持株会社単体であり、明治(食品事業会社)の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -131,10 +131,10 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月8日時点で、<a href="https://www.meiji.com/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">明治グループの採用情報ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>グループ採用情報ページから食品(明治)・医薬(明治製菓ファルマ等)各社の採用窓口へアクセスできます。</li>
-            <li>キャリア採用は事業会社ごとに職種別で行われる形です。</li>
-            <li>※募集状況は変動するため最新は各社公式採用ページでご確認ください。</li>
+            <li>キャリア採用は事業会社ごとに職種別で行われています。</li>
+            <li>※募集状況は変動するため、最新情報は各社公式採用ページでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で明治HDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で明治HDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">明治HDで求められる人材</h2>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体であり、明治(食品事業会社)の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">明治HD転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると、比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

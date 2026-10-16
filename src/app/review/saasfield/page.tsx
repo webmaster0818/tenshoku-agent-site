@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "SaaSfieldの評判は？SaaS業界特化の転職エージェントを解説【2026年】",
-  description: "SaaSfield(サースフィールド)は株式会社AMIキャリアが運営するSaaS業界特化の転職支援サービス。未経験からのSaaS営業職(IS/FS/CS)転職を、ポジション別の適性を踏まえて支援。有料職業紹介事業許可番号13-ユ-317207。公式情報ベースで解説します。",
+  description: "SaaSfield(サースフィールド)は株式会社AMIキャリアが運営するSaaS業界特化の転職支援サービスです。未経験からのSaaS営業職(IS/FS/CS)転職を、ポジション別の適性を踏まえて支援しています。有料職業紹介事業許可番号は13-ユ-317207です。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/saasfield/" },
 };
 
@@ -19,7 +19,7 @@ const faqData = [
   },
   {
     "q": "営業未経験でもSaaS業界に転職できますか？",
-    "a": "SaaSfieldは未経験からの挑戦を主対象に掲げています(2026年8月22日確認)。ただしポジションにより求められる素養が異なるため、面談で適性と戦略を確認するのが第一歩です。"
+    "a": "SaaSfieldは未経験からの挑戦を主対象に掲げています(2026年8月22日確認)。ただしポジションにより求められる素養が異なるため、まずは面談で適性と戦略を確認することをおすすめします。"
   }
 ];
 
@@ -57,9 +57,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>SaaS業界特化の転職支援サービス</strong>。特に営業職(IS・FS・CS)への転職を主対象としています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験からのSaaS転職の「準備」を重視</strong>。ポジション・プロダクトごとに求められるスキルの違いを踏まえた支援を掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(13-ユ-317207)を確認</strong>。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>SaaS業界特化の転職支援サービス</strong>です。特に営業職(IS・FS・CS)への転職を主対象としています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験からのSaaS転職の「準備」を重視しています</strong>。ポジション・プロダクトごとに求められるスキルの違いを踏まえた支援を掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(13-ユ-317207)を確認しています</strong>。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -82,7 +82,7 @@ export default function Page() {
         <h2>SaaSfieldの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">SaaS営業のポジション別適性を前提にした支援</h3><p className="text-sm text-text-secondary leading-relaxed">IS・FS・CSはポジションごと、プロダクトごとに求められるスキルや適性が異なるという前提を明示し、準備を整えてから挑戦する支援設計です。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">未経験からの挑戦を主対象に</h3><p className="text-sm text-text-secondary leading-relaxed">「SaaSが流行ってそう」という浅い理解での大量エントリーがお見送りにつながる実態を指摘し、業界理解から伴走する構成を掲げています。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">未経験からの挑戦を主対象とした支援</h3><p className="text-sm text-text-secondary leading-relaxed">「SaaSが流行ってそう」という浅い理解での大量エントリーがお見送りにつながる実態を指摘し、業界理解から伴走する構成を掲げています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">じっくり型の転職支援</h3><p className="text-sm text-text-secondary leading-relaxed">「じっくりと、根気よく、芽が出るまで、あなたのペースで」という支援方針を公式に明記しており、急かされたくない人に合う設計です。</p></div>
         </div>
 
@@ -99,8 +99,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>SaaSエンジニア志望の人 →IT特化型エージェントへ</li>
-              <li>今すぐ大量の求人を比較したい人 →総合型と併用を</li>
+              <li>SaaSエンジニア志望の人 →IT特化型の転職エージェントをおすすめします</li>
+              <li>今すぐ大量の求人を比較したい人 →総合型との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>SaaSfieldは、SaaS営業職への転職を「準備」から支援する業界特化サービスです。ポジション別適性を踏まえたじっくり型の伴走が特徴で、利用は無料です。SaaS転職では営業特化のhape Agentや総合型と併用して選択肢を広げるのがおすすめです。</p>
+        <p>SaaSfieldは、SaaS営業職への転職を「準備」から支援する業界特化サービスです。ポジション別適性を踏まえたじっくり型の伴走が特徴で、利用は無料です。SaaS転職では営業特化のhape Agentや総合型と併用し、選択肢を広げることをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

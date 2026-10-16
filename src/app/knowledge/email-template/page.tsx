@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/email-template/" },
   title: "転職エージェントへのお礼メール例文13選｜面談後・内定後・辞退・返信【コピペ可・2026年8月】",
   description:
-    "転職エージェントへのメール例文を場面別に紹介。初回挨拶、面談後のお礼、求人紹介へのお礼、面接辞退、内定辞退、利用終了の連絡、担当者変更の依頼など、コピペで使えるテンプレートを完全網羅。",
+    "転職エージェントへのメール例文を紹介します。初回挨拶、面談後のお礼、求人紹介へのお礼、面接辞退、内定辞退、利用終了の連絡、担当者変更の依頼など、そのまま使えるテンプレートを場面別にまとめています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職エージェントへのお礼メール例文13選｜面談後・内定後・辞退・返信【コピペ可・2026年8月】",
-    description: "転職エージェントへの場面別メール例文集。コピペで使えるテンプレートを紹介。",
+    description: "転職エージェントへの場面別メール例文集です。そのまま使えるテンプレートを紹介します。",
   },
 };
 
 const faqData = [
-  { q: "転職エージェントへのメールは敬語で書くべきですか？", a: "はい、基本的なビジネスマナーとしてです・ます調の敬語で書きましょう。ただし、堅すぎる必要はありません。エージェントはあなたの味方なので、丁寧かつ簡潔に自分の意思を伝えることが大切です。" },
-  { q: "メールの返信はいつまでにすべきですか？", a: "24時間以内の返信が理想的です。特に求人紹介や面接日程の連絡は、応募のタイミングに影響するため、できるだけ早く返信しましょう。すぐに回答できない場合は「確認して○日までに返信します」と一報入れるとよいです。" },
-  { q: "エージェントからの連絡を無視しても大丈夫ですか？", a: "無視はおすすめしません。利用を終了したい場合は一言連絡を入れましょう。無視し続けると、電話や別の連絡手段で繰り返し連絡が来る可能性があります。「現在転職活動を中断しています」と伝えるだけで十分です。" },
-  { q: "メールとLINE、どちらで連絡すべきですか？", a: "エージェント側が対応している方法であればどちらでも構いません。最近はLINEやチャットツールでの連絡に対応するエージェントが増えています。カジュアルな相談はLINE、正式な辞退連絡や重要事項はメールと使い分けるのもよいでしょう。" },
-  { q: "内定辞退のメールは失礼になりませんか？", a: "丁寧にお詫びと理由を伝えれば失礼にはなりません。エージェント経由の場合は、まずエージェントに電話で相談し、その後メールで正式にお伝えするのがベストです。辞退理由は正直に伝えることで、次の求人紹介の精度が上がります。" },
-  { q: "件名はどう書けばいいですか？", a: "件名は用件がひと目でわかるように書きましょう。「【お礼】本日の面談ありがとうございました（氏名）」「【ご相談】担当者変更のお願い（氏名）」のように、【カテゴリ】＋用件＋氏名の形式が見やすいです。" },
+  { q: "転職エージェントへのメールは敬語で書くべきですか？", a: "はい、基本的なビジネスマナーとしてです・ます調の敬語で書くことをおすすめします。ただし、堅すぎる必要はありません。転職エージェントは求職者を支援する立場のため、丁寧かつ簡潔に自分の意思を伝えることが大切です。" },
+  { q: "メールの返信はいつまでにすべきですか？", a: "24時間以内の返信が理想的です。特に求人紹介や面接日程の連絡は、応募のタイミングに影響するため、できるだけ早い返信をおすすめします。すぐに回答できない場合は、「確認して○日までに返信します」と一報を入れると丁寧です。" },
+  { q: "エージェントからの連絡を無視しても大丈夫ですか？", a: "無視はおすすめしません。利用を終了したい場合は、一言連絡を入れることをおすすめします。無視し続けると、電話や別の連絡手段で繰り返し連絡が来る可能性があります。「現在転職活動を中断しています」と伝えるだけで十分です。" },
+  { q: "メールとLINE、どちらで連絡すべきですか？", a: "エージェント側が対応している方法であればどちらでも構いません。最近はLINEやチャットツールでの連絡に対応するエージェントが増えています。カジュアルな相談はLINE、正式な辞退連絡や重要事項はメールと使い分ける方法も有効です。" },
+  { q: "内定辞退のメールは失礼になりませんか？", a: "丁寧にお詫びと理由を伝えれば失礼にはなりません。エージェント経由の場合は、まずエージェントに電話で相談し、その後メールで正式にお伝えするのが望ましい対応です。辞退理由を率直に伝えることで、次の求人紹介の精度が上がります。" },
+  { q: "件名はどう書けばいいですか？", a: "件名は、用件がひと目でわかるように書くことをおすすめします。「【お礼】本日の面談ありがとうございました（氏名）」「【ご相談】担当者変更のお願い（氏名）」のように、【カテゴリ】＋用件＋氏名の形式にすると分かりやすくなります。" },
 ];
 
 const faqJsonLd = {
@@ -59,19 +59,19 @@ export default function EmailTemplatePage() {
             <img src="/column-img/ts-email-template.jpg" alt="お礼メールの作成をイメージした静物" className="w-full h-auto" />
           </div>
           <p className="text-text-secondary leading-relaxed">
-            転職エージェントとのやり取りで、どう書けばいいか迷うメール。
-            場面別にコピペで使える例文テンプレートと、メールマナーのポイントを紹介します。
+            転職エージェントとのやり取りでは、メールの書き方に迷う場面が少なくありません。
+            本ページでは、場面別にそのまま使える例文テンプレートと、メールマナーのポイントを紹介します。
           </p>
         </div>
 
         {/* 最速コピペ: 最需要の面談後お礼の基本形 */}
         <div className="glass-card p-6 mb-8 border-l-4 border-teal">
-          <p className="text-sm font-bold text-navy mb-2">【30秒で使える】面談後のお礼メール基本形（そのままコピペOK）</p>
+          <p className="text-sm font-bold text-navy mb-2">【30秒で使える】面談後のお礼メールの基本形（そのままお使いいただけます）</p>
           <div className="bg-warm-gray rounded-xl p-4 text-sm text-text-secondary space-y-1.5">
             <p className="text-xs text-text-muted">件名：【お礼】本日の面談ありがとうございました（氏名）</p>
             <p>○○様　本日はお時間をいただきありがとうございました。アドバイスを伺い、キャリアの方向性が明確になりました。ご紹介いただいた求人は確認のうえ、○日までにご連絡いたします。引き続きよろしくお願いいたします。（氏名）</p>
           </div>
-          <p className="text-xs text-text-muted mt-2">ポイントは「感謝＋気づき＋次のアクション」の3点だけ。より丁寧な文面や他の場面は下の例文集からどうぞ。</p>
+          <p className="text-xs text-text-muted mt-2">ポイントは「感謝＋気づき＋次のアクション」の3点です。より丁寧な文面や他の場面の例文は、下の例文集をご覧ください。</p>
         </div>
 
         {/* 目次 */}
@@ -111,16 +111,16 @@ export default function EmailTemplatePage() {
         </div>
 
         {/* 例文1: 初回登録後の挨拶 */}
-        <h2>そもそも転職エージェントにお礼メールは必要？</h2>
+        <h2>転職エージェントへのお礼メールの必要性</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-3">
-            <strong className="text-navy">結論：必須ではありませんが、送ることを強くおすすめします。</strong>お礼メールの有無で合否が変わることはないものの、エージェントも人間です。丁寧な連絡をくれる求職者は「企業に紹介しても安心」と判断されやすく、<strong className="text-navy">求人紹介の優先度やサポートの質に良い影響</strong>があります。
+            <strong className="text-navy">お礼メールは必須ではありませんが、送ることをおすすめします。</strong>お礼メールの有無で合否が変わることはありません。ただし、丁寧な連絡をくれる求職者は「企業に紹介しても安心」と判断されやすく、<strong className="text-navy">求人紹介の優先度やサポートの質に良い影響</strong>が期待できます。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>・送るタイミングは<strong className="text-navy">面談当日〜翌日午前中</strong>まで。時間が経つほど効果が薄れます。</li>
-            <li>・長文は不要。感謝＋面談で得た気づき＋次のアクション（求人への返答期日など）の3点で簡潔に。</li>
-            <li>・電話でのお礼はかえって業務を中断させるため不要。メールまたは担当者と使っているチャットでOKです。</li>
-            <li>・内定・入社が決まったときのお礼は、担当者のモチベーションにもなるためぜひ送りましょう（例文6参照）。</li>
+            <li>・送るタイミングは<strong className="text-navy">面談当日〜翌日午前中</strong>までが目安です。時間が経つほど効果が薄れます。</li>
+            <li>・長文は不要です。感謝＋面談で得た気づき＋次のアクション（求人への返答期日など）の3点を簡潔にまとめることをおすすめします。</li>
+            <li>・電話でのお礼は、かえって担当者の業務を中断させるため不要です。メール、または担当者とやり取りしているチャットで問題ありません。</li>
+            <li>・内定・入社が決まったときのお礼は、担当者のモチベーションにもなるため、送ることをおすすめします（例文11参照）。</li>
           </ul>
           <p className="text-xs text-text-muted mt-3">具体的な文面は下の例文2（面談後のお礼）・例文3（求人紹介へのお礼）をそのまま使えます。</p>
         </div>
@@ -254,7 +254,7 @@ export default function EmailTemplatePage() {
         </div>
 
         <h3 id="ex10" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">10. エージェントからのメールへの返信（基本形）</h3>
-        <p className="text-sm text-text-secondary mb-3">求人紹介・確認連絡など、エージェントからのメールに返信するときの基本形です。<strong>結論(返答)を最初の2行で伝える</strong>のがポイントで、長文は不要です。</p>
+        <p className="text-sm text-text-secondary mb-3">求人紹介・確認連絡など、エージェントからのメールに返信するときの基本形です。<strong>返答を最初の2行で伝える</strong>ことがポイントで、長文は不要です。</p>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：Re: （元の件名のまま変更しない）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -265,7 +265,7 @@ export default function EmailTemplatePage() {
             <p>山田太郎</p>
           </div>
         </div>
-        <p className="text-sm text-text-secondary mb-6">返信のコツ: ①件名は「Re:」のまま変えない(スレッドが追いやすい) ②24時間以内の返信を心がける(選考スピードに直結) ③迷っている場合も「○日までに回答します」と一次返信を入れる。</p>
+        <p className="text-sm text-text-secondary mb-6">返信のポイントは次のとおりです。①件名は「Re:」のまま変えません（スレッドを追いやすくするためです）。②24時間以内の返信を心がけます（選考スピードに直結するためです）。③回答に迷う場合も、「○日までに回答します」と一次返信を入れます。</p>
 
         <h3 id="ex11" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">11. 内定承諾のお礼メール</h3>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
@@ -281,7 +281,7 @@ export default function EmailTemplatePage() {
         </div>
 
         <h3 id="ex12" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">12. 初回面談前の事前連絡メール</h3>
-        <p className="text-sm text-text-secondary mb-3">面談前に希望条件や状況を先に伝えておくと、当日の面談の質が上がります。必須ではありませんが、送っておくと担当者の準備が変わります。</p>
+        <p className="text-sm text-text-secondary mb-3">面談前に希望条件や状況を先に伝えておくと、当日の面談の質が上がります。必須ではありませんが、送っておくと担当者が事前に準備しやすくなります。</p>
         <div className="bg-warm-gray rounded-2xl p-5 mb-6">
           <p className="text-xs text-text-muted mb-2">件名：○月○日の面談について（山田太郎）</p>
           <div className="text-sm text-text-secondary space-y-2">
@@ -296,11 +296,11 @@ export default function EmailTemplatePage() {
 
         <h3 id="ex13" className="text-lg font-bold text-navy mt-8 mb-3 scroll-mt-24">13. 件名・署名の書き方（全メール共通）</h3>
         <div className="glass-card p-6 mb-6">
-          <p className="text-sm text-text-secondary mb-3"><strong>件名の原則</strong>: 「用件＋氏名」を10〜20字で。担当者は1日に大量のメールを処理するため、開かなくても内容がわかる件名が最も親切です。</p>
+          <p className="text-sm text-text-secondary mb-3"><strong>件名の原則</strong>: 「用件＋氏名」を10〜20字でまとめます。担当者は1日に大量のメールを処理するため、開かなくても内容がわかる件名が最も親切です。</p>
           <ul className="space-y-1.5 text-sm text-text-secondary mb-4">
             <li>・良い例: 「面談のお礼（山田太郎）」「【日程変更のお願い】○月○日の面接について（山田太郎）」</li>
             <li>・避けたい例: 「お世話になっております」「ご連絡」（用件が不明）／件名なし</li>
-            <li>・返信時は「Re:」を消さずそのまま返す</li>
+            <li>・返信時は「Re:」を消さず、そのまま返信します。</li>
           </ul>
           <p className="text-sm text-text-secondary mb-2"><strong>署名はシンプルで十分</strong>です。凝った飾り線は不要で、氏名＋連絡先だけを揃えます。</p>
           <div className="bg-warm-gray rounded-xl p-4 text-sm text-text-secondary">
@@ -316,7 +316,7 @@ export default function EmailTemplatePage() {
             メールよりも気軽にやり取りでき、レスポンスも早い傾向があります。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li><span className="font-bold text-navy">doda：</span>LINEでの連絡に対応。求人紹介の通知もLINEで受け取れます。</li>
+            <li><span className="font-bold text-navy">doda：</span>LINEでの連絡に対応しています。求人紹介の通知もLINEで受け取れます。</li>
             <li><span className="font-bold text-navy">マイナビエージェント：</span>LINEでの面談日程調整や相談が可能です。</li>
             <li><span className="font-bold text-navy">リクルートエージェント：</span>専用アプリ「Personal Desktop」でメッセージのやり取りができます。</li>
           </ul>
@@ -353,7 +353,7 @@ export default function EmailTemplatePage() {
         {/* CTA */}
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            エージェントを上手に活用しよう
+            転職エージェントの上手な活用について
           </h2>
           <p className="text-white/70 text-sm mb-6">
             丁寧なコミュニケーションが、より良い求人紹介につながります。

@@ -101,10 +101,10 @@ export default function CapcomCareer() {
         <h2 id="s1">カプコン転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約985万円（2026年3月期・有価証券報告書）</strong>。前期（2025年3月期）の約919万円から上昇。</li>
-            <li>強力な自社IPとデジタル販売比率の高い高収益体質を背景に、賃上げ・処遇改善が進んでいる。</li>
-            <li>開発職ではゲーム開発経験・専門スキルが強く求められる。人気企業ゆえ応募は集まりやすい。</li>
-            <li>年収は全社平均であり、職種・年代・役職によって実際の水準は大きく異なる点に注意。</li>
+            <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約985万円（2026年3月期・有価証券報告書）</strong>です。前期（2025年3月期）の約919万円から上昇しています。</li>
+            <li>強力な自社IPとデジタル販売比率の高い高収益体質を背景に、賃上げ・処遇改善が進んでいます。</li>
+            <li>開発職ではゲーム開発経験・専門スキルが強く求められます。人気企業であるため、応募が集まりやすい傾向にあります。</li>
+            <li>年収は全社平均であり、職種・年代・役職によって実際の水準は大きく異なる点にご留意ください。</li>
           </ul>
         </div>
 
@@ -121,7 +121,7 @@ export default function CapcomCareer() {
                 { label: "平均年間給与", value: "約985万円（2026年3月期・有価証券報告書／提出会社）※前期・2025年3月期は約919万円" },
                 { label: "平均年齢", value: "約38.1歳（2026年3月期・提出会社）" },
                 { label: "平均勤続年数", value: "約11.2年（同・提出会社）" },
-                { label: "従業員数", value: "約3,593名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "約3,593名（同・提出会社単体）／連結は公式情報をご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">
@@ -144,13 +144,13 @@ export default function CapcomCareer() {
             カプコンはキャリア採用（中途採用）を実施しており、<a href="https://www.capcom.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>から<a href="https://hrmos.co/pages/capcom" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOS上のキャリア採用求人一覧</a>へ案内されています。確認時点で約80件超の求人が掲載されており（正社員中心・一部契約社員等）、応募は各求人ページから行う形式です。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種の例（公式求人一覧のカテゴリ表記）: プロデューサー/プランナー、データ分析/データエンジニア、デザイナー、ゲーム開発プログラマー、エンジンプログラマーのほか、サウンド・Localization・マーケティング等。</li>
-            <li>勤務地は求人一覧のフィルタ表記で「東京」「大阪」「大阪/東京」「全国」（確認時点では大阪勤務の求人が最多）。</li>
-            <li>「職種を絞らずに応募したい方」向けにキャリア登録の仕組みがあり、各部門が経歴を見て検討する形式（公式記載）。</li>
-            <li>ジョブリターン制度（退職した社員の再雇用）の記載あり。</li>
+            <li>募集職種の例（公式求人一覧のカテゴリ表記）: プロデューサー/プランナー、データ分析/データエンジニア、デザイナー、ゲーム開発プログラマー、エンジンプログラマーのほか、サウンド・Localization・マーケティング等があります。</li>
+            <li>勤務地は求人一覧のフィルタ表記で「東京」「大阪」「大阪/東京」「全国」に分かれています（確認時点では大阪勤務の求人が最多です）。</li>
+            <li>「職種を絞らずに応募したい方」向けにキャリア登録の仕組みがあり、各部門が経歴を見て検討する形式です（公式記載）。</li>
+            <li>ジョブリターン制度（退職した社員の再雇用）の記載があります。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">
-            ※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。
+            ※2026年7月31日に公式採用サイトで確認しました。募集状況は変動するため、最新の情報は公式サイトでご確認ください。
           </p>
           <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
@@ -214,13 +214,13 @@ export default function CapcomCareer() {
             有価証券報告書における提出会社の平均年間給与は約985万円（2026年3月期）です。ただしこれは<strong className="text-navy">全社員を含む平均</strong>であり、次の点に注意が必要です。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>職種（開発・管理部門等）や役職によって年収レンジは異なる。</li>
-            <li>業績連動の賞与や、近年の賃上げ・処遇改善が平均を押し上げている面がある（前期は約919万円）。</li>
-            <li>平均年齢が約38.1歳・平均勤続約11.2年で、年齢・役職が上がるほど平均は上振れする。</li>
+            <li>職種（開発・管理部門等）や役職によって年収レンジは異なります。</li>
+            <li>業績連動の賞与や、近年の賃上げ・処遇改善が平均を押し上げている面があります（前期は約919万円）。</li>
+            <li>平均年齢が約38.1歳・平均勤続約11.2年で、年齢・役職が上がるほど平均は上振れします。</li>
             <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">
-            正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。
+            正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。
           </p>
         </div>
 
@@ -231,10 +231,10 @@ export default function CapcomCareer() {
         </p>
         <div className="space-y-4 mb-8">
           {[
-            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級で、ゲーム・IT業界の求人も豊富。人気企業への推薦力があり、非公開求人の紹介も期待できます。" },
-            { name: "doda", href: "/review/doda/", desc: "IT・Web・ゲーム業界の求人が充実。エージェントと求人サイトの両方を使え、同業他社も含めて比較できます。" },
+            { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数業界最大級で、ゲーム・IT業界の求人も豊富です。人気企業への推薦力があり、非公開求人の紹介も期待できます。" },
+            { name: "doda", href: "/review/doda/", desc: "IT・Web・ゲーム業界の求人が充実しています。エージェントと求人サイトの両方を使え、同業他社も含めて比較できます。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス向けのスカウト型サービスです。リードクラスやマネジメントのポジションの情報収集に向いています。" },
-            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強みがあります。ゲーム・IT業界のアドバイザーが在籍し、初めての業界転職でも相談しやすいです。" },
+            { name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代〜30代の転職に強みがあります。ゲーム・IT業界のアドバイザーが在籍し、初めての業界転職でも相談しやすい体制です。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -265,7 +265,7 @@ export default function CapcomCareer() {
             カプコン転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            人気のゲーム企業だからこそ、転職エージェントを活用して非公開求人や選考対策を押さえましょう。
+            人気のゲーム企業であるため、転職エージェントを活用して非公開求人の情報収集や選考対策を行うことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

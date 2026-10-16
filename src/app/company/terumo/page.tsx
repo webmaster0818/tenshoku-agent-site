@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">テルモ転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約821万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>755万円（2024年3月期）→778万円（2025年3月期）→821万円（2026年3月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用は公式キャリア採用情報ページで確認可能（2026年9月2日確認）。</li>
+            <li>平均年間給与は約821万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>755万円（2024年3月期）→778万円（2025年3月期）→821万円（2026年3月期）と推移しており、2年連続で上昇しています。</li>
+            <li>キャリア採用は公式キャリア採用情報ページで確認できます（2026年9月2日確認）。</li>
             <li>直近2年で計66万円上昇しています。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式採用サイトにキャリア採用情報ページがあり、募集職種一覧を確認できます。</li>
             <li>退職者が再入社できる「キャリアリターン制度」も公式に案内されています。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でテルモのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>直近2年で計66万円上昇しています。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">テルモ転職で活用したい転職エージェント</h2>

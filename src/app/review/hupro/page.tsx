@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ヒュープロの評判は？士業・管理部門特化の転職エージェントを解説【2026年】",
-  description: "ヒュープロ(Hupro)は士業・管理部門に特化した転職エージェント。税理士・公認会計士・社労士・弁護士から経理・財務・人事・法務まで対応し、税理士・会計業界専門求人サイトとして公開求人数No.1(公式表記)。公式情報ベースで解説します。",
+  description: "ヒュープロ(Hupro)は士業・管理部門に特化した転職エージェントです。税理士・公認会計士・社労士・弁護士から経理・財務・人事・法務まで対応し、税理士・会計業界専門求人サイトとして公開求人数No.1(公式表記)を掲げています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/hupro/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>士業・管理部門に特化した転職エージェント</strong>。税理士・会計士・社労士・弁護士や経理・財務・人事・法務が対象です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>税理士・会計業界専門求人サイトとして公開求人数No.1</strong>(公式サイト表記・調査概要は公式参照)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>士業・管理部門に特化した転職エージェントです</strong>。税理士・会計士・社労士・弁護士や経理・財務・人事・法務が対象です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>税理士・会計業界専門求人サイトとして公開求人数No.1</strong>を掲げています(公式サイト表記・調査概要は公式サイトをご参照ください)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>M&A・FAS・コンサル領域の求人</strong>もカバーし、利用は無料です。</span></li>
           </ul>
         </div>
@@ -81,9 +81,9 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：ヒュープロ公式サイト(hupro-job.com)、2026年8月22日確認。No.1表記は公式サイト掲載(調査概要・調査方法の注記は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：ヒュープロ公式サイト(hupro-job.com)、2026年8月22日確認。No.1表記は公式サイトに掲載されています(調査概要・調査方法の注記は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>ヒュープロの特徴(公式公表ベース)</h2>
+        <h2>ヒュープロの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">士業×管理部門の広いカバー範囲</h3><p className="text-sm text-text-secondary leading-relaxed">税理士・会計士などの士業と、経理・財務・人事・法務などの管理部門を一つのサービスでカバーし、資格を活かすキャリアと事業会社キャリアを横断して比較できます。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">税理士・会計業界の求人ボリューム</h3><p className="text-sm text-text-secondary leading-relaxed">税理士・会計業界専門求人サイトとして公開求人数No.1を公式に掲げており、会計事務所・税理士法人の求人を探す起点になります。</p></div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>士業・管理部門以外の職種 →総合型エージェントへ</li>
-              <li>経理特化でじっくり比較したい人 →<a href="/review/keiri-jobs/" className="text-teal underline">経理Jobs</a>とも併用を</li>
+              <li>士業・管理部門以外の職種を希望する人 →総合型エージェントの利用をおすすめします</li>
+              <li>経理特化でじっくり比較したい人 →<a href="/review/keiri-jobs/" className="text-teal underline">経理Jobs</a>との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ヒュープロは、士業と管理部門を横断してカバーする特化型エージェントです。税理士・会計業界の求人ボリュームと専門メディアの情報力が特徴で、利用は無料です。士業・管理部門の転職では、領域特化型を2社併用して求人の重なりと違いを見るのがおすすめです。</p>
+        <p>ヒュープロは、士業と管理部門を横断してカバーする特化型エージェントです。税理士・会計業界の求人ボリュームと専門メディアの情報力が特徴で、利用は無料です。士業・管理部門の転職では、領域特化型を2社併用し、求人の重なりと違いを確認することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

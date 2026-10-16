@@ -6,7 +6,7 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "ランスタッドの障がい者転職支援とは？世界最大級人材サービスの専門サポートを解説【2026年】",
-  description: "ランスタッドは世界最大級の総合人材サービス。障がい者(チャレンジド)向けの転職支援では、専門コンサルタントによる求人紹介・就業サポートを提供しています。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  description: "ランスタッドは世界最大級の総合人材サービスです。障がい者(チャレンジド)向けの転職支援では、専門コンサルタントによる求人紹介・就業サポートを提供しています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/randstad-challenged/" },
 };
 
@@ -62,9 +62,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>世界最大級の総合人材サービスによる障がい者向け転職支援</strong>。グローバル企業の運営基盤があります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>世界最大級の総合人材サービスによる障がい者向け転職支援です</strong>。グローバル企業の運営基盤があります。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>障がい者求人・身体障がい者求人などの専門求人</strong>を扱い、オーダーメイド求人にも言及があります(A8プログラム関連キーワードより)。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料</strong>。全国の拠点網を持つ大手ならではの求人アクセスが期待できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料です</strong>。全国の拠点網を持つ大手ならではの求人アクセスが期待できます。</span></li>
           </ul>
         </div>
 
@@ -83,7 +83,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：ランスタッド公式サイト(randstad.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。障がい者採用専門ページの最新内容は公式サイトでご確認ください。</p>
 
-        <h2>ランスタッド(障がい者転職)の特徴(公式公表ベース)</h2>
+        <h2>ランスタッド(障がい者転職)の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">世界最大級の運営基盤</h3><p className="text-sm text-text-secondary leading-relaxed">ランスタッドは世界最大級の総合人材サービスで、日本でも全国に拠点を持ちます。大手・グローバル企業の障がい者雇用枠へのアクセスが期待できる体制です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">障がい者雇用専門の支援体制</h3><p className="text-sm text-text-secondary leading-relaxed">障がい者求人・身体障がい者求人といった専門領域の求人を扱い、配慮事項のすり合わせを含めた就業サポートを行います。</p></div>
@@ -104,7 +104,7 @@ export default function Page() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>一般雇用枠での転職を考えている人 →総合型エージェントへ</li>
-              <li>地域密着の小規模求人を探す人 →地域の支援機関との併用を</li>
+              <li>地域密着の小規模求人を探す人 →地域の支援機関との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ランスタッドの障がい者転職支援は、世界最大級の人材サービスの基盤で専門サポートを受けられるのが特徴です。利用は無料です。障がい者雇用の転職では、専門エージェントを2社程度併用し、求人の質と配慮のすり合わせ力を比較するのがおすすめです。</p>
+        <p>ランスタッドの障がい者転職支援は、世界最大級の人材サービスの基盤で専門サポートを受けられるのが特徴です。利用は無料です。障がい者雇用の転職では、専門エージェントを2社程度併用し、求人の質と配慮のすり合わせ力を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

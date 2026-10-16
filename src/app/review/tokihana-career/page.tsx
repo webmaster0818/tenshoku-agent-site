@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "トキハナキャリアの評判は？結婚・ライフステージ特化の転職支援サービスを解説【2026年】",
-  description: "トキハナキャリアは株式会社トキハナが運営する、結婚やライフステージの変化に合わせた転職支援サービス。女性が活躍しやすい業界の求人に強みを持ち、土日勤務からの転換や家庭との両立転職を支援。公式情報ベースで解説します。利用は無料です。",
+  description: "トキハナキャリアは株式会社トキハナが運営する、結婚やライフステージの変化に合わせた転職支援サービスです。女性が活躍しやすい業界の求人に強みを持ち、土日勤務からの転換や家庭との両立転職を支援しています。公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/tokihana-career/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>結婚・ライフステージの変化を起点にした転職支援サービス</strong>。ブライダル業界特化の転職エージェントとしても紹介されています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>女性が活躍しやすい業界に強み</strong>と公式に掲げ、土日勤務からの転換・家庭との両立転職を支援します。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>結婚・ライフステージの変化を起点にした転職支援サービスです</strong>。ブライダル業界特化の転職エージェントとしても紹介されています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>女性が活躍しやすい業界に強みがある</strong>と公式に掲げ、土日勤務からの転換・家庭との両立転職を支援します。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>電話相談(10:00〜20:00・土日祝も受付)</strong>に対応し、利用は無料です。</span></li>
           </ul>
         </div>
@@ -83,11 +83,11 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：トキハナキャリア公式サイト(career.tokihana.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>トキハナキャリアの特徴(公式公表ベース)</h2>
+        <h2>トキハナキャリアの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ライフステージ起点の転職設計</h3><p className="text-sm text-text-secondary leading-relaxed">「結婚後も働けるか」「家庭と両立しやすい仕事に変えたい」といった人生の転機を起点にした相談を前提としており、条件面(勤務時間・休日)の見直しから入れます。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">土日勤務職種からの転換支援</h3><p className="text-sm text-text-secondary leading-relaxed">ブライダル・サービス業など土日勤務の職種から、働き方を変えたい人の受け皿となる設計です。ウェディングプランナー経験者のキャリアチェンジ相談にも適しています。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">土日祝も使える相談窓口</h3><p className="text-sm text-text-secondary leading-relaxed">電話相談が土日祝も受付(10:00〜20:00)のため、現職がサービス業でも相談しやすい体制です。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">土日祝も使える相談窓口</h3><p className="text-sm text-text-secondary leading-relaxed">電話相談は土日祝も受け付けている(10:00〜20:00)ため、現職がサービス業でも相談しやすい体制です。</p></div>
         </div>
 
         <h2>トキハナキャリアが向いている人・向いていない人</h2>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>時短正社員での転職が最優先の人 →<a href="/review/realme-career/" className="text-teal underline">リアルミーキャリア</a>へ</li>
-              <li>キャリアアップ軸の女性 →<a href="/review/type-woman/" className="text-teal underline">type女性の転職エージェント</a>と併用を</li>
+              <li>時短正社員での転職が最優先の人 →<a href="/review/realme-career/" className="text-teal underline">リアルミーキャリア</a>の利用をおすすめします</li>
+              <li>キャリアアップ軸の女性 →<a href="/review/type-woman/" className="text-teal underline">type女性の転職エージェント</a>との併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>トキハナキャリアは、結婚・ライフステージの変化を起点にした転職支援サービスです。土日勤務からの転換や両立転職の相談に向いた設計で、利用は無料です。時短特化のリアルミーキャリアや女性特化のtype女性と目的別に使い分けるのがおすすめです。</p>
+        <p>トキハナキャリアは、結婚・ライフステージの変化を起点にした転職支援サービスです。土日勤務からの転換や両立転職の相談に向いた設計で、利用は無料です。時短特化のリアルミーキャリアや女性特化のtype女性と目的別に使い分けることをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

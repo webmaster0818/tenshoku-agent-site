@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "東京海上ホールディングスは中途採用を行っていますか？",
-    a: "はい。公式サイトの東京海上日動の公式キャリア採用サイト（www.tokiomarine-nichido-careers.com/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
+    a: "はい。東京海上日動の公式キャリア採用サイト（www.tokiomarine-nichido-careers.com/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
   },
   {
     q: "東京海上ホールディングスはどんな会社ですか？",
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,487万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,390万円（2024年3月期）→1,535万円（2025年3月期）→1,487万円（2026年3月期）と推移（1,400〜1,500万円台の高水準で推移）。</li>
-            <li>キャリア採用は東京海上日動の公式キャリア採用サイトで確認可能（2026年9月6日確認）。</li>
+            <li>1,390万円（2024年3月期）→1,535万円（2025年3月期）→1,487万円（2026年3月期）と推移しています（1,400〜1,500万円台の高水準）。</li>
+            <li>キャリア採用は東京海上日動の公式キャリア採用サイトで確認できます（2026年9月6日確認）。</li>
             <li>提出会社は持株会社単体(本社機能中心)であり、東京海上日動など事業会社の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>事業会社の東京海上日動がキャリア採用専用サイトを公開しています。</li>
             <li>総合職を含む職種別の募集要項が確認できます。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東京海上HDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "損害保険の実務経験", desc: "保険引受・損害サポート・代理店営業などの損保実務が直結します。" },
             { title: "リスクコンサルティング", desc: "企業向けのリスクマネジメント提案は成長領域で、コンサル・金融経験も活きます。" },
             { title: "海外事業への関わり", desc: "利益の過半を海外保険事業が占めるグローバルグループで、英語での実務力が評価されます。" },
-            { title: "デジタル・データ活用", desc: "保険×テクノロジーの人材需要が高い局面です。" }
+            { title: "デジタル・データ活用", desc: "保険×テクノロジー領域の人材需要が高まっています。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体(本社機能中心)であり、東京海上日動など事業会社の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">東京海上HD転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

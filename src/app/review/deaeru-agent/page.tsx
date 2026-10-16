@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "出会えるエージェント診断とは？自分に合う転職エージェントを診断するサービスを解説【2026年】",
-  description: "出会えるエージェント診断(株式会社Winova運営)は、1000人以上の中からあなたに合う転職エージェント(キャリアアドバイザー)を診断・紹介するサービス。転職サポートのプロに出会える診断型マッチング。仕組みを公式情報ベースで解説します。",
+  description: "出会えるエージェント診断(株式会社Winova運営)は、1000人以上の中からあなたに合う転職エージェント(キャリアアドバイザー)を診断・紹介するサービスです。転職サポートの専門家と出会える診断型のマッチングサービスで、本記事では仕組みを公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/deaeru-agent/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>診断型のエージェント紹介サービス</strong>。1000人以上の中から合うエージェントを紹介と公式に掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>診断型のエージェント紹介サービスです</strong>。1000人以上の中から合うエージェントを紹介することを公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>会社単位でなく「アドバイザー個人」との出会い</strong>を軸にした珍しい設計です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料</strong>。利用条件(通院中でない・学生でない・リモート/時短希望でない等)が申込画面に明示されています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料です</strong>。利用条件(通院中でない・学生でない・リモート/時短希望でない等)が申込画面に明示されています。</span></li>
           </ul>
         </div>
 
@@ -83,10 +83,10 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：出会えるエージェント診断公式LP(deaeru-agent.jp)、2026年8月22日確認。利用条件は申込画面の同意事項に基づく記載です。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>出会えるエージェント診断の特徴(公式公表ベース)</h2>
+        <h2>出会えるエージェント診断の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">担当者個人単位のマッチング</h3><p className="text-sm text-text-secondary leading-relaxed">転職の満足度は担当アドバイザー個人の力量・相性に大きく左右されます。会社単位でなくアドバイザー単位で探すという切り口が特徴です。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">診断による効率的な絞り込み</h3><p className="text-sm text-text-secondary leading-relaxed">簡単な診断で希望・状況を整理し、それに合うプロを紹介する流れのため、複数エージェントに片っ端から登録する手間を減らせます。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">診断による効率的な絞り込み</h3><p className="text-sm text-text-secondary leading-relaxed">簡単な診断で希望・状況を整理し、それに合うプロを紹介する流れのため、複数のエージェントに数多く登録する手間を減らせます。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">利用条件の事前明示</h3><p className="text-sm text-text-secondary leading-relaxed">リモート・時短希望者や学生は対象外といった条件が申込前に明示されており、ミスマッチを事前に避けられます。</p></div>
         </div>
 
@@ -104,7 +104,7 @@ export default function Page() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>リモート勤務・時短勤務を希望する人 →利用条件対象外のため<a href="/review/realme-career/" className="text-teal underline">リアルミーキャリア</a>や<a href="/review/libz/" className="text-teal underline">LIBZ</a>へ</li>
-              <li>自分で直接エージェントを選びたい人 →当サイトの比較記事で直接選択を</li>
+              <li>自分で直接エージェントを選びたい人 →当サイトの比較記事から直接選ぶ方法もあります</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>出会えるエージェント診断は、アドバイザー個人との相性を軸にした診断型マッチングサービスです。担当者ガチャを避けたい人の入口として使え、無料です。利用条件(リモート・時短希望は対象外)があるため、条件に合わない人は特化型サービスを直接選びましょう。</p>
+        <p>出会えるエージェント診断は、アドバイザー個人との相性を軸にした診断型マッチングサービスです。担当者との相性のばらつきを避けたい人の入口として利用でき、利用は無料です。利用条件(リモート・時短希望は対象外)があるため、条件に合わない人は特化型サービスを直接選ぶことをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

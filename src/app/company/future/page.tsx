@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/future/" },
   title: 'フューチャーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
   description:
-    'フューチャー（証券コード4722）への転職を有価証券報告書などの一次データで解説。平均年間給与は約794万円（2025年12月期・有価証券報告書／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
+    'フューチャー（証券コード4722）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約794万円（2025年12月期・有価証券報告書／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: 'フューチャーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
-    description: "フューチャーの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "フューチャーの平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -86,10 +86,10 @@ export default function CompanyCareer() {
         <h2 id="s1">フューチャー転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約794万円（2025年12月期・有価証券報告書／単体377名）。公的統計並み〜やや上の水準。</li>
-            <li>平均勤続約6.0年・平均年齢36.5歳。</li>
-            <li>ITコンサルタント・アーキテクト・エンジニアを通年で中途採用。</li>
-            <li>上流から実装まで携わる文化のため、技術力と提案力の両輪が評価される。</li>
+            <li>平均年間給与は約794万円（2025年12月期・有価証券報告書／単体377名）。公的統計の平均と同程度からやや上の水準です。</li>
+            <li>平均勤続年数は約6.0年、平均年齢は36.5歳です。</li>
+            <li>ITコンサルタント・アーキテクト・エンジニアを通年で中途採用しています。</li>
+            <li>上流から実装まで携わる文化のため、技術力と提案力の両方が評価されます。</li>
           </ul>
         </div>
 
@@ -105,7 +105,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約794万円（2025年12月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約36.5歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約6.0年（同・提出会社）" },
-                { label: "従業員数", value: "377名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "377名（同・提出会社単体）／連結の人数は公式サイトをご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
             <li>面接は原則オンライン（状況に応じ柔軟に対応）で、原則平日10時〜18時開始。エントリー時に履歴書・職務経歴書をアップロードします。</li>
             <li>応募・選考・研修・待遇・働き方・入社後・人事制度について計20以上のQ&Aを掲載するキャリア採用FAQがあり、社員紹介採用の導線もあります。中途採用比率の数値記載は確認できませんでした。</li>
           </ul>
-          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代でコンサル・大手企業への転職を検討する場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、職務経歴書の添削から始める方法もあります。</p>
         </div>
 
@@ -185,7 +185,7 @@ export default function CompanyCareer() {
         <h2 id="s6">フューチャーの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約794万円（2025年12月期）は単体全社員の平均。等級・役職により水準は大きく異なります。</li>
+            <li>約794万円（2025年12月期）は単体全社員の平均です。等級・役職により水準は大きく異なります。</li>
             <li>ITコンサル/SIでは年齢よりも等級・案件責任によって年収が決まるため、昇格が年収に大きく影響します。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>

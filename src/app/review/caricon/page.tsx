@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "キャリコンの評判は？20代専門の転職エージェント紹介サービスを解説【2026年】",
-  description: "キャリコン(Crown_Cat株式会社運営)は、20代の転職者にぴったりの転職エージェントを複数紹介する無料のエージェント紹介サービス。自分に合うエージェント選びを支援する珍しい形態。仕組み・使い方を公式情報ベースで解説します。",
+  description: "キャリコン(Crown_Cat株式会社運営)は、20代の転職者に合った転職エージェントを複数紹介する無料のエージェント紹介サービスです。自分に合うエージェント選びを支援する珍しい形態で、その仕組み・使い方を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/caricon/" },
 };
 
@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     "q": "キャリコン自体が求人を紹介してくれるのですか？",
-    "a": "キャリコンは求人ではなく「あなたに合った転職エージェント」を複数紹介するサービスです(2026年8月22日確認)。実際の求人紹介・選考支援は紹介されたエージェントが行います。"
+    "a": "キャリコンは求人ではなく、利用者に合った転職エージェントを複数紹介するサービスです(2026年8月22日確認)。実際の求人紹介・選考支援は紹介されたエージェントが行います。"
   },
   {
     "q": "紹介されたエージェントは断ってもいいですか？",
@@ -61,7 +61,7 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代専門の「転職エージェント紹介」サービス</strong>。求人でなく、あなたに合うエージェントを複数紹介する形態です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代専門の「転職エージェント紹介」サービスです</strong>。求人ではなく、利用者に合う転職エージェントを複数紹介する形態です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>無料で最適な転職エージェントを紹介</strong>と公式に掲げています。エージェント選びで迷う20代の入口になります。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>紹介後は各エージェントの無料サポートを利用</strong>する流れです。</span></li>
           </ul>
@@ -82,7 +82,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：キャリコン公式サイト(careecon.online)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>キャリコンの特徴(公式公表ベース)</h2>
+        <h2>キャリコンの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">「エージェント選び」を支援する珍しい形態</h3><p className="text-sm text-text-secondary leading-relaxed">転職エージェントは数が多く相性の差も大きいため、選ぶ段階から支援するという切り口のサービスです。20代の状況(経歴・希望)に合わせて複数のエージェントを紹介します。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">20代に絞った専門対応</h3><p className="text-sm text-text-secondary leading-relaxed">対象を20代に絞ることで、第二新卒・未経験・キャリアアップなど20代特有の転職パターンに沿った紹介が期待できる設計です。</p></div>
@@ -102,8 +102,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>自分でエージェントを選びたい人 →当サイトの<a href="/knowledge/how-to-choose/" className="text-teal underline">選び方ガイド</a>で直接比較を</li>
-              <li>30代以上の人 →総合型エージェントへ</li>
+              <li>自分でエージェントを選びたい人 →当サイトの<a href="/knowledge/how-to-choose/" className="text-teal underline">選び方ガイド</a>で直接比較することをおすすめします</li>
+              <li>30代以上の人 →総合型エージェントの利用をおすすめします</li>
             </ul>
           </div>
         </div>

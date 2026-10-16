@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "東邦ガスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "東邦ガス（証券コード9533）への転職を有価証券報告書などの一次データで解説。平均年間給与は約733万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "東邦ガス（証券コード9533）への転職について、有価証券報告書などの一次データにもとづいて解説します。平均年間給与は約733万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/toho-gas/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "東邦ガスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "東邦ガス（9533）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "東邦ガス（9533）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -93,10 +93,10 @@ export default function CompanyCareer() {
         <h2 id="s1">東邦ガス転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約733万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>590万円（2024年3月期）→676万円（2025年3月期）→733万円（2026年3月期）と推移（2年で計143万円と収録9社最大級の伸び率）。</li>
-            <li>キャリア採用は公式採用ページで確認可能（2026年9月14日確認）。</li>
-            <li>2年で+143万円の上昇は処遇改善の反映と考えられますが、有価証券報告書に記載の範囲では内訳を断定しません。平均年齢が若い分、水準は低く見えやすい点も考慮してください。</li>
+            <li>平均年間給与は約733万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>590万円（2024年3月期）→676万円（2025年3月期）→733万円（2026年3月期）と推移しています（2年で計143万円と、収録9社で最大級の伸び率）。</li>
+            <li>キャリア採用の情報は公式採用ページで確認できます（2026年9月14日確認）。</li>
+            <li>2年で+143万円の上昇は処遇改善の反映と考えられますが、有価証券報告書の記載からは内訳を特定できないため、当サイトでは断定を控えます。平均年齢が若い分、水準は低く見えやすい点も考慮してください。</li>
           </ul>
         </div>
 
@@ -130,9 +130,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">2026年9月14日時点で、<a href="https://www.tohogas.co.jp/corporate/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>公式サイトの採用ページから新卒・キャリア採用の窓口を確認できます(キャリア採用の専用ページあり)。</li>
+            <li>公式サイトの採用ページから新卒・キャリア採用の窓口を確認できます。キャリア採用の専用ページも設けられています。</li>
             <li>エネルギー技術系・事務系の職種別採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページにてご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東邦ガスのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "2年で+143万円の急上昇", desc: "590→733万円と、収録9社で最も伸び率が大きい会社です。" },
             { title: "東海3県の地域基盤", desc: "名古屋圏の都市ガスインフラを担います。" },
             { title: "平均41.4歳・勤続14.7年", desc: "収録9社では比較的若い構成です。" },
-            { title: "キャリア採用の専用ページ", desc: "中途の入口が公式に明確です。" }
+            { title: "キャリア採用の専用ページ", desc: "中途採用の応募窓口が公式に明示されています。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -178,10 +178,10 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約733万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
-            <li>2年で+143万円の上昇は処遇改善の反映と考えられますが、有価証券報告書に記載の範囲では内訳を断定しません。平均年齢が若い分、水準は低く見えやすい点も考慮してください。</li>
+            <li>2年で+143万円の上昇は処遇改善の反映と考えられますが、有価証券報告書の記載からは内訳を特定できないため、当サイトでは断定を控えます。平均年齢が若い分、水準は低く見えやすい点も考慮してください。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認いただくことをおすすめします。</p>
         </div>
 
         <h2 id="s7">東邦ガス転職で活用したい転職エージェント</h2>

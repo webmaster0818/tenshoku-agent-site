@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 };
 
 const guides = [
-  { href: "/knowledge/how-to-choose/", title: "転職エージェントの選び方", desc: "失敗しない7つのポイント。得意分野・求人数・サポートの見極め方" },
+  { href: "/knowledge/how-to-choose/", title: "転職エージェントの選び方", desc: "比較すべき7つのポイント。得意分野・求人数・サポートの見極め方" },
   { href: "/knowledge/flow/", title: "使い方・流れ 8ステップ", desc: "登録から内定までの全体像と各ステップのコツ" },
   { href: "/knowledge/when-to-start/", title: "いつ登録すべき？", desc: "最適な登録タイミングと平均的な活動期間" },
-  { href: "/knowledge/interview-prep/", title: "エージェントとの面談対策", desc: "準備・服装・当日の流れ。初回面談で損しないために" },
-  { href: "/knowledge/email-template/", title: "お礼メール例文13選", desc: "面談後・内定後・辞退・返信までコピペで使える例文集" },
+  { href: "/knowledge/interview-prep/", title: "エージェントとの面談対策", desc: "準備・服装・当日の流れ。初回面談を有効に活用するために" },
+  { href: "/knowledge/email-template/", title: "お礼メール例文13選", desc: "面談後・内定後・辞退・返信までそのまま使える例文集" },
   { href: "/knowledge/resume/", title: "職務経歴書の書き方", desc: "職務要約の例文・テンプレートと書類通過のコツ" },
   { href: "/knowledge/multiple/", title: "複数利用・掛け持ちのコツ", desc: "メリット・デメリットとおすすめの組み合わせ" },
   { href: "/knowledge/useless/", title: "「使えない」と感じたら", desc: "担当変更・切り替えなどの対処法と上手な活用術" },
@@ -24,9 +24,9 @@ const guides = [
 ];
 
 const compares = [
-  { href: "/compare/agent-vs-site/", title: "エージェント vs 転職サイト", desc: "12項目で違いを比較。向いているのはどっち？" },
+  { href: "/compare/agent-vs-site/", title: "エージェント vs 転職サイト", desc: "12項目で違いを比較。向いているのはどちらか" },
   { href: "/compare/recruit-vs-doda/", title: "リクルート vs doda", desc: "2大エージェントを10項目で比較" },
-  { href: "/compare/mynavi-vs-recruit/", title: "マイナビ vs リクルート", desc: "20代の定番2社を徹底比較" },
+  { href: "/compare/mynavi-vs-recruit/", title: "マイナビ vs リクルート", desc: "20代の定番2社を比較" },
 ];
 
 export default function KnowledgeHub() {
@@ -44,10 +44,10 @@ export default function KnowledgeHub() {
             <img src="/column-img/ts-knowledge.jpg" alt="転職の情報収集をイメージした静物" className="w-full h-auto" />
           </div>
           <p className="text-text-secondary leading-relaxed">
-            転職活動は、だいたい3ヶ月で終わります。
+            転職活動の期間は、おおむね3ヶ月が目安です。
             dodaの調査では活動開始から内定までの平均が約{DODA.avgMonths}ヶ月、
             厚生労働省の実態調査でも転職した人の{MHLW.under6mPct}%が6ヶ月未満で決めています。
-            問題は、その3ヶ月の<strong>どこでつまずくかが決まっている</strong>ことです。
+            また、その3ヶ月のなかで<strong>つまずきやすい段階はある程度決まっています</strong>。
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-6">
             {[
@@ -63,11 +63,11 @@ export default function KnowledgeHub() {
             ))}
           </div>
           <p className="text-text-secondary leading-relaxed">
-            書類が3割しか通らず、1社の内定に{DODA.appsPerOffer}社前後の応募が要るとすると、
-            時間を食うのは面接ではなく<strong>応募を積み上げるところ</strong>です。
-            そして応募が積み上がらない原因は、たいてい
-            <strong>①希望を言語化できていない ②書類を使い回している ③求人の母数が足りない</strong>の3つに絞られます。
-            以下のガイドは、この3つを順番につぶすために並べています。
+            書類選考の通過率が3割程度で、1社の内定に{DODA.appsPerOffer}社前後の応募が必要だとすると、
+            時間がかかるのは面接ではなく<strong>応募を積み上げる段階</strong>です。
+            そして応募が積み上がらない原因は、多くの場合
+            <strong>①希望を言語化できていない ②書類を使い回している ③求人の母数が足りない</strong>の3つです。
+            以下のガイドは、この3つの課題に順に対処できるよう構成しています。
           </p>
           <p className="text-xs text-text-muted mt-3">
             出典：{DODA.source}／{MHLW.source}（いずれも{STATS_CONFIRMED_AT}に当サイトで確認）。

@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "NIPPON EXPRESSホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "NIPPON EXPRESSホールディングス（証券コード9147）への転職を有価証券報告書などの一次データで解説。平均年間給与は約833万円（2025年12月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "NIPPON EXPRESSホールディングス（証券コード9147）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約833万円（2025年12月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/nippon-express/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "NIPPON EXPRESSホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "NIPPON EXPRESSホールディングス（9147）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "NIPPON EXPRESSホールディングス（9147）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -98,9 +98,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約833万円（2025年12月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>937万円（2024年3月期）→891万円（2025年3月期）→833万円（2025年12月期）と推移。8社で唯一の減少(937→891→833万円)。12月期決算で他社と時点が異なり、平均47.5歳・勤続22.2年と最も高齢構成。</li>
-            <li>キャリア採用は公式採用ページで確認可能（2026年9月22日確認）。</li>
-            <li>平均47.5歳・勤続22.2年。物流は燃料費・人件費・取扱量の影響を受けやすく、2024年問題以降の運賃改定や賃上げが数字に表れ始めています。単年の平均額だけでなく、推移もあわせて確認することをおすすめします。</li>
+            <li>937万円（2024年3月期）→891万円（2025年3月期）→833万円（2025年12月期）と推移しています。当サイト収録の陸運・物流8社で唯一の減少です(937→891→833万円)。12月期決算のため他社と時点が異なり、平均年齢47.5歳・平均勤続年数22.2年と最も高い年齢構成です。</li>
+            <li>キャリア採用の情報は公式採用ページで確認できます（2026年9月22日確認）。</li>
+            <li>平均年齢は47.5歳、平均勤続年数は22.2年です。物流は燃料費・人件費・取扱量の影響を受けやすく、2024年問題以降の運賃改定や賃上げが数字に表れ始めています。単年の平均額だけでなく、推移もあわせて確認することをおすすめします。</li>
           </ul>
         </div>
 
@@ -135,7 +135,7 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月22日時点で、<a href="https://www.nipponexpress-holdings.com/ja/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>でキャリア採用の案内を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトの採用ページから新卒採用とキャリア採用の窓口が案内されています。</li>
-            <li>※募集職種・募集状況は変動するため、最新は公式採用ページでご確認ください。</li>
+            <li>※募集職種・募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でNIPPON EXPRESSホールディングスのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
         <h2 id="s4">NIPPON EXPRESSホールディングスで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
-            { title: "平均年収833万円の水準", desc: "当サイト収録企業の中でも陸運・物流各社の中で、NIPPON EXPRESSホールディングスは陸運・物流8社中4位です。" },
+            { title: "平均年収833万円の水準", desc: "当サイト収録の陸運・物流8社の中で、NIPPON EXPRESSホールディングスは4位です。" },
             { title: "直近3期の推移", desc: "937→891→833万円と年ごとに動きます。運賃改定や賃上げの動きが数字に表れています。" },
             { title: "グローバルな事業基盤", desc: "国際輸送や海外拠点を持つ会社では、英語を使う実務や海外勤務の機会があります。" },
             { title: "専門性の高い実務", desc: "営業・倉庫運営・国際輸送・IT・財務など、職種ごとの専門実務経験が評価されます。" }
@@ -181,10 +181,10 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約833万円（2025年12月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。物流は取扱量・運賃水準の影響を受け、賞与もそれに連動します。</li>
-            <li>平均47.5歳・勤続22.2年。平均年収は年齢構成の影響を受ける点にご注意ください。</li>
+            <li>平均年齢は47.5歳、平均勤続年数は22.2年です。平均年収は年齢構成の影響を受ける点にご注意ください。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">NIPPON EXPRESSホールディングス転職で活用したい転職エージェント</h2>

@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "SOMPOホールディングスは中途採用を行っていますか？",
-    a: "はい。公式サイトの損保ジャパンの公式キャリア採用サイト（www.sompo-japan-saiyo.com/midcareer/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
+    a: "はい。損保ジャパンの公式キャリア採用サイト（www.sompo-japan-saiyo.com/midcareer/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
   },
   {
     q: "SOMPOホールディングスはどんな会社ですか？",
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">SOMPO転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,259万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,455万円（2024年3月期）→1,218万円（2025年3月期）→1,259万円（2026年3月期）と推移（1,200万円台で推移(2024年3月期の高値から調整)）。</li>
-            <li>キャリア採用は損保ジャパンの公式キャリア採用サイトで確認可能（2026年9月6日確認）。</li>
+            <li>平均年間給与は約1,259万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>1,455万円（2024年3月期）→1,218万円（2025年3月期）→1,259万円（2026年3月期）と推移しています（2024年3月期の高値から調整し、1,200万円台で推移）。</li>
+            <li>キャリア採用は損保ジャパンの公式キャリア採用サイトで確認できます（2026年9月6日確認）。</li>
             <li>提出会社は持株会社単体であり、損保ジャパンなど事業会社の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -131,8 +131,8 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月6日時点で、<a href="https://www.sompo-japan-saiyo.com/midcareer/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">損保ジャパンの公式キャリア採用サイト</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>事業会社の損保ジャパンが経験者・キャリア採用サイトで募集要項を公開しています。</li>
-            <li>損害サポート・営業・IT・データなど職種別の採用です。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>損害サポート・営業・IT・データなど職種別に採用を行っています。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でSOMPOホールディングスのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -141,7 +141,7 @@ export default function CompanyCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "損害保険の実務", desc: "引受・損害サポート・代理店営業の経験が直結します。" },
-            { title: "介護・ヘルスケア事業", desc: "SOMPOケアを中心とする介護事業はグループの第2の柱で、異業種からの適合先もあります。" },
+            { title: "介護・ヘルスケア事業", desc: "SOMPOケアを中心とする介護事業はグループの第2の柱であり、異業種からの転職先となる職種もあります。" },
             { title: "デジタル・データ人材", desc: "Palantir提携などデータ活用に積極的なグループです。" },
             { title: "変革期の組織適応力", desc: "事業ポートフォリオの見直しが続く局面での柔軟性が求められます。" }
           ].map((point) => (
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体であり、損保ジャパンなど事業会社の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">SOMPO転職で活用したい転職エージェント</h2>

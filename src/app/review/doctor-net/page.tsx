@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ドクターネットエージェントの評判は？放射線科特化の転職サービスを解説【2026年】",
-  description: "ドクターネットエージェントは、遠隔読影大手の株式会社ドクターネットが運営する放射線科特化の転職サービス。放射線科医・診療放射線技師・臨床検査技師・消化器科医・内視鏡専門医の求人を常勤・非常勤問わず掲載。公式情報ベースで解説します。",
+  description: "ドクターネットエージェントは、遠隔読影大手の株式会社ドクターネットが運営する放射線科特化の転職サービスです。放射線科医・診療放射線技師・臨床検査技師・消化器科医・内視鏡専門医の求人を常勤・非常勤を問わず掲載しています。公式情報ベースで解説します。",
   alternates: { canonical: "/review/doctor-net/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>放射線科領域に特化した転職サービス</strong>。放射線科医・消化器科医・内視鏡専門医・診療放射線技師・臨床検査技師が対象です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営は遠隔読影サービス大手のドクターネット</strong>。東証上場企業のグループ会社と公式に記載されています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>放射線科領域に特化した転職サービス</strong>です。放射線科医・消化器科医・内視鏡専門医・診療放射線技師・臨床検査技師が対象です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営は遠隔読影サービス大手のドクターネット</strong>です。東証上場企業のグループ会社と公式に記載されています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>常勤・非常勤問わず求人を多数掲載</strong>と公式に掲げ、利用は無料です。</span></li>
           </ul>
         </div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>放射線・検査領域以外の医療職 →<a href="/review/nishima-pharma/" className="text-teal underline">にしまファーマ</a>や<a href="/review/jobsoelu/" className="text-teal underline">ジョブソエル</a>へ</li>
-              <li>薬剤師 →<a href="/review/oshigoto-lab/" className="text-teal underline">お仕事ラボ</a>へ</li>
+              <li>放射線・検査領域以外の医療職 →<a href="/review/nishima-pharma/" className="text-teal underline">にしまファーマ</a>や<a href="/review/jobsoelu/" className="text-teal underline">ジョブソエル</a>が候補です</li>
+              <li>薬剤師 →<a href="/review/oshigoto-lab/" className="text-teal underline">お仕事ラボ</a>が候補です</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ドクターネットエージェントは、遠隔読影大手の業界知見を土台にした放射線科特化の転職サービスです。医師・技師の両方に対応し、利用は無料です。放射線領域はニッチなため、医療系総合サービスと併用して求人の幅を確保するのがおすすめです。</p>
+        <p>ドクターネットエージェントは、遠隔読影大手の業界知見を土台にした放射線科特化の転職サービスです。医師・技師の両方に対応し、利用は無料です。放射線領域はニッチなため、医療系総合サービスと併用して求人の幅を確保することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

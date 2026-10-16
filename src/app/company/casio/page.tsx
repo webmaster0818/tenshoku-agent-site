@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/casio/" },
-  title: "カシオ計算機への転職は難しい？中途採用・平均年収838万円・選考を徹底解説【2026年】",
+  title: "カシオ計算機への転職は難しい？中途採用・平均年収838万円・選考を解説【2026年】",
   description:
     "カシオ計算機（証券コード6952）への転職を有価証券報告書などの一次データで解説。平均年間給与は約838万円（2026年3月期・有価証券報告書／提出会社）。中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "カシオ計算機への転職は難しい？中途採用・平均年収838万円・選考を徹底解説【2026年】",
+    title: "カシオ計算機への転職は難しい？中途採用・平均年収838万円・選考を解説【2026年】",
     description: "カシオ計算機（6952）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     "q": "カシオ計算機の平均年収はいくらですか？",
-    "a": "有価証券報告書によると平均年間給与は約838万円（2026年3月期・提出会社）で、前期の約814万円から増加しています。大手メーカーとして高めの水準で、職種・役職により実際のレンジは異なります。"
+    "a": "有価証券報告書によると平均年間給与は約838万円（2026年3月期・提出会社）で、前期の約814万円から増加しています。大手メーカーとして高めの水準ですが、職種・役職により実際のレンジは異なります。"
   },
   {
     "q": "カシオ計算機は中途採用を行っていますか？",
@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     "q": "勤務地はどこですか？",
-    "a": "本社は東京都渋谷区本町1-6-2。拠点勤務の職種もあり、応募ポジションにより異なります。"
+    "a": "本社は東京都渋谷区本町1-6-2にあります。拠点勤務の職種もあり、勤務地は応募ポジションにより異なります。"
   },
   {
     "q": "定着率は高いですか？",
@@ -60,7 +60,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            カシオ計算機への転職は難しい？中途採用・平均年収838万円・選考を徹底解説【2026年】
+            カシオ計算機への転職は難しい？中途採用・平均年収838万円・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/casio.jpg" alt="カシオ計算機の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -89,10 +89,10 @@ export default function CompanyCareer() {
         <h2 id="s1">カシオ計算機転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約838万円（2026年3月期・有価証券報告書／提出会社）。前期の約814万円から増加しており、大手メーカーとして高めの水準。</li>
-            <li>平均勤続約15.7年・平均年齢約44.6歳と、定着率の高さがうかがえるのが特徴。</li>
-            <li>G-SHOCKをはじめとする時計事業に加え、電卓・電子辞書・電子文具・電子楽器と製品群が幅広い。</li>
-            <li>商品企画・設計開発・品質保証・営業などメーカー系職種の採用が中心。</li>
+            <li>平均年間給与は約838万円（2026年3月期・有価証券報告書／提出会社）。前期の約814万円から増加しており、大手メーカーとして高めの水準です。</li>
+            <li>平均勤続約15.7年・平均年齢約44.6歳と、定着率の高さがうかがえる点が特徴です。</li>
+            <li>G-SHOCKをはじめとする時計事業に加え、電卓・電子辞書・電子文具・電子楽器と、幅広い製品群を展開しています。</li>
+            <li>商品企画・設計開発・品質保証・営業などメーカー系職種の採用が中心です。</li>
           </ul>
         </div>
 
@@ -108,7 +108,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約838万円（2026年3月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約44.6歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約15.7年（同・提出会社）" },
-                { label: "従業員数", value: "2,053名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "2,053名（同・提出会社単体）／連結の人数は公式サイトをご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -126,11 +126,11 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">カシオ計算機は<a href="https://www.casio.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>から<a href="https://hrmos.co/pages/casio" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用ページ（HRMOS）</a>にリンクしており、「様々な分野で活躍する経験豊富な方を積極的に募集」と公式に記載されています。2026年7月31日確認時点の掲載求人は20件でした。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種（求人一覧の公式表記例）：企業法務 / グローバルマーケティングスペシャリスト / プロジェクトマーケティングプランナー / マーケティングテクノロジーエンジニア / 営業職 / 海外管理責任者 / 海外ビジネスプロセス改革業務担当 / 社内システムエンジニア／セキュリティー担当者 / 決算/税務担当者(リーダークラス)（2026年7月31日確認時点）。カテゴリ区分は営業職（海外／国内）・コーポレート職・IT職（DX／社内SE）。</li>
-            <li>勤務地：初台本社（東京）が大多数。営業職に仙台オフィス・福岡支店、海外赴任ポジション（シンガポール、中国・上海、メキシコシティ、米ニュージャージー、インド・ニューデリー）の掲載もあり（2026年7月31日確認時点）。</li>
-            <li>応募方法：HRMOSの各求人ページから応募する形式。選考プロセスの一覧的な公式記載は確認したページでは見当たらず。</li>
+            <li>募集職種（求人一覧の公式表記例）：企業法務 / グローバルマーケティングスペシャリスト / プロジェクトマーケティングプランナー / マーケティングテクノロジーエンジニア / 営業職 / 海外管理責任者 / 海外ビジネスプロセス改革業務担当 / 社内システムエンジニア／セキュリティー担当者 / 決算/税務担当者(リーダークラス)などです（2026年7月31日確認時点）。カテゴリは営業職（海外／国内）・コーポレート職・IT職（DX／社内SE）に区分されています。</li>
+            <li>勤務地：初台本社（東京）が大多数です。営業職では仙台オフィス・福岡支店、海外赴任ポジション（シンガポール、中国・上海、メキシコシティ、米ニュージャージー、インド・ニューデリー）の掲載もあります（2026年7月31日確認時点）。</li>
+            <li>応募方法：HRMOSの各求人ページから応募する形式です。選考プロセスを一覧で示した公式の記載は、確認したページでは見当たりませんでした。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認しました。募集状況は変動するため、最新情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でカシオ計算機のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
@@ -173,11 +173,11 @@ export default function CompanyCareer() {
         <h2 id="s6">カシオ計算機の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約838万円（2026年3月期）は提出会社全社員の平均。前期の約814万円から増加。職種（本社・拠点・営業）により水準は異なります。</li>
-            <li>平均勤続15.7年・平均年齢44.6歳の安定雇用型。</li>
+            <li>約838万円（2026年3月期）は提出会社全社員の平均です。前期の約814万円から増加しています。職種（本社・拠点・営業）により水準は異なります。</li>
+            <li>平均勤続15.7年・平均年齢44.6歳と、長期にわたり安定して働く社員が多い企業です。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">カシオ計算機転職で活用したい転職エージェント</h2>

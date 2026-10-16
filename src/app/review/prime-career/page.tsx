@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "プライムキャリアの評判は？不動産・設備・建設専門の転職支援サイトを解説【2026年】",
-  description: "プライムキャリア(Prime Career)はジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイト。売買仲介からPM・AM・FM・ビルメンテナンスまで業界職種を網羅。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  description: "プライムキャリア(Prime Career)はジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイトです。売買仲介からPM・AM・FM・ビルメンテナンスまで、業界の職種を幅広く扱っています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/prime-career/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>不動産・設備・建設の3領域専門</strong>の転職支援サイト。業界職種を細分化して求人検索できます。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>PM・AM・FM・設備管理などの管理系職種まで網羅</strong>。営業系だけでない不動産キャリアを探せます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>不動産・設備・建設の3領域専門</strong>の転職支援サイトです。業界の職種を細分化して求人検索できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>PM・AM・FM・設備管理などの管理系職種まで扱っています</strong>。営業系だけでない不動産キャリアを探せます。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>会員登録・転職支援サービスは無料</strong>です。</span></li>
           </ul>
         </div>
@@ -82,7 +82,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：プライムキャリア公式サイト(prime-career.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>プライムキャリアの特徴(公式公表ベース)</h2>
+        <h2>プライムキャリアの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">不動産職種の細分化された検索軸</h3><p className="text-sm text-text-secondary leading-relaxed">売買仲介・賃貸仲介から、PM(賃貸/オフィスビル/商業施設)・AM・FMまで、不動産・建物管理の職種を細かく分類しており、専門キャリアの求人を探しやすい構成です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">営業以外の不動産キャリアに強い</h3><p className="text-sm text-text-secondary leading-relaxed">設備点検・大規模修繕コンサル・ビルメンテナンスなど、営業系以外の技術・管理系職種もカバーしているのが総合型との違いです。</p></div>
@@ -102,8 +102,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>未経験で不動産営業に挑戦したい人 →<a href="/company/ebisu-fudousan/" className="text-teal underline">恵比寿不動産</a>の採用など直接応募も選択肢</li>
-              <li>建設技術者(施工管理等)中心の人 →<a href="/review/rsg-fudosan/" className="text-teal underline">RSG</a>も比較を</li>
+              <li>未経験で不動産営業に挑戦したい人 →<a href="/company/ebisu-fudousan/" className="text-teal underline">恵比寿不動産</a>の採用など直接応募も選択肢になります</li>
+              <li>建設技術者(施工管理等)中心の人 →<a href="/review/rsg-fudosan/" className="text-teal underline">RSG</a>との比較をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>プライムキャリアは、不動産・設備・建設領域の職種を細かく網羅した業界特化の転職支援サイトです。管理系・技術系職種までカバーする検索性が特徴で、利用は無料です。同じ業界特化のRSG等と併用し、求人の重なりと違いを比較するのがおすすめです。</p>
+        <p>プライムキャリアは、不動産・設備・建設領域の職種を細かく網羅した業界特化の転職支援サイトです。管理系・技術系職種までカバーする検索性が特徴で、利用は無料です。同じ業界特化のRSG等と併用し、求人の重なりと違いを比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "マイナビジョブ20'sの評判は？20代・第二新卒特化の転職エージェントを解説【2026年】",
-  description: "マイナビジョブ20'sは、マイナビワークスが運営する20代・第二新卒・既卒専門の転職エージェント。未経験OK求人76%以上・定着率94.6%・利用者数64万人(いずれも公式表記)。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  description: "マイナビジョブ20'sは、マイナビワークスが運営する20代・第二新卒・既卒専門の転職エージェントです。未経験OK求人76%以上・定着率94.6%・利用者数64万人と公式に表記しています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/mynavi-job20s/" },
 };
 
@@ -19,8 +19,8 @@ const faqData = [
     "a": "申し込みフォームには「現職中・離職中・就業経験なし」の選択肢が用意されており(2026年8月22日確認)、就業経験のない20代の相談にも対応する設計です。"
   },
   {
-    "q": "第二新卒エージェントneoやUZUZとの違いは？",
-    "a": "いずれも20代特化ですが、マイナビジョブ20'sは大手マイナビグループの運営、UZUZはオーダーメイド型サポート、第二新卒エージェントneoは高卒・中卒まで幅広い学歴対応を掲げるなど設計が異なります。2〜3社併用して相性を比較するのがおすすめです。"
+    "q": "第二新卒エージェントneoやUZUZとの違いは何ですか？",
+    "a": "いずれも20代特化ですが、マイナビジョブ20'sは大手マイナビグループの運営、UZUZはオーダーメイド型サポート、第二新卒エージェントneoは高卒・中卒まで幅広い学歴対応を掲げるなど設計が異なります。2〜3社を併用して相性を比較することをおすすめします。"
   }
 ];
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代・第二新卒・既卒に特化した転職エージェント</strong>。マイナビグループの20代専門サービスです。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験OK求人76%以上・定着率94.6%・利用者数64万人</strong>(いずれも公式サイト表記・2026年8月22日確認)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>20代・第二新卒・既卒に特化した転職エージェントです</strong>。マイナビグループの20代専門サービスです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験OK求人76%以上・定着率94.6%・利用者数64万人</strong>と公式サイトに表記されています(2026年8月22日確認)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>カウンセリング・書類添削・面接対策・求人紹介まで無料</strong>で、初めての転職を最初から最後までサポートすると公式に明記されています。</span></li>
           </ul>
         </div>
@@ -81,12 +81,12 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：マイナビジョブ20's公式サイト(mynavi-job20s.jp)、2026年8月22日確認。数値はすべて公式サイト掲載値(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：マイナビジョブ20's公式サイト(mynavi-job20s.jp)、2026年8月22日確認。数値はすべて公式サイトの掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>マイナビジョブ20'sの特徴(公式公表ベース)</h2>
+        <h2>マイナビジョブ20'sの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">20代専門×マイナビグループの基盤</h3><p className="text-sm text-text-secondary leading-relaxed">対象を20代に絞ったうえで、マイナビグループの企業ネットワークを活かした求人紹介を行います。第二新卒・既卒・現職中いずれの状況でも申し込めます。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">未経験OK求人が7割超</h3><p className="text-sm text-text-secondary leading-relaxed">未経験OK求人76%以上と公式表記。キャリアチェンジを考える20代が選択肢を広げやすい構成です。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">20代専門とマイナビグループの基盤</h3><p className="text-sm text-text-secondary leading-relaxed">対象を20代に絞ったうえで、マイナビグループの企業ネットワークを活かした求人紹介を行います。第二新卒・既卒・現職中いずれの状況でも申し込めます。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">未経験OK求人が7割超</h3><p className="text-sm text-text-secondary leading-relaxed">未経験OK求人76%以上と公式に表記しています。キャリアチェンジを考える20代が選択肢を広げやすい構成です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">定着率の公開</h3><p className="text-sm text-text-secondary leading-relaxed">入社後3ヶ月の定着率94.6%を公式に公開しており、ミスマッチの少なさを定量的に示しています。</p></div>
         </div>
 
@@ -104,7 +104,7 @@ export default function Page() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>30代以上の人 →総合型エージェントへ</li>
-              <li>ハイクラス志向の20代 →<a href="/review/assign/" className="text-teal underline">ASSIGN</a>等のハイエンド特化も比較を</li>
+              <li>ハイクラス志向の20代 →<a href="/review/assign/" className="text-teal underline">ASSIGN</a>等のハイエンド特化型との比較もおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>マイナビジョブ20'sは、未経験OK求人76%以上と定着率の公開が特徴の20代専門エージェントです。マイナビグループの基盤で初めての転職を無料でフルサポートします。20代特化型はUZUZ・第二新卒エージェントneo等と併用し、担当者との相性で選ぶのが現実的です。</p>
+        <p>マイナビジョブ20'sは、未経験OK求人76%以上と定着率の公開が特徴の20代専門エージェントです。マイナビグループの基盤で初めての転職を無料でフルサポートします。20代特化型はUZUZ・第二新卒エージェントneo等と併用し、担当者との相性で選ぶことをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

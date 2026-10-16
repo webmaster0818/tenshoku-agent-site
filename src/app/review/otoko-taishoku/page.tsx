@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "男の退職代行の評判は？男性専門の退職代行サービスを解説【2026年】",
-  description: "男の退職代行(労働組合toNEXTユニオン運営)は日本初を掲げる男性専門の退職代行サービス。成功率100%・男性退職代行サービス3冠(いずれも公式表記)。労働組合運営で交渉可能・即日退職対応。仕組みと注意点を公式情報ベースで解説します。",
+  description: "男の退職代行(労働組合toNEXTユニオン運営)は日本初を掲げる男性専門の退職代行サービスです。成功率100%・男性退職代行サービス3冠(いずれも公式表記)を掲げ、労働組合運営のため交渉が可能で、即日退職にも対応しています。仕組みと注意点を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/otoko-taishoku/" },
 };
 
@@ -16,11 +16,11 @@ const faqData = [
   },
   {
     "q": "本当に即日で退職できますか？",
-    "a": "公式サイトは即日退職への対応と成功率100%(注記条件は公式参照)を表記しています。個別の状況(雇用形態・契約内容)による対応可否は無料相談でご確認ください。"
+    "a": "公式サイトは即日退職への対応と成功率100%(注記条件は公式サイトをご参照ください)を表記しています。個別の状況(雇用形態・契約内容)による対応可否は無料相談でご確認ください。"
   },
   {
     "q": "退職後の転職活動はどう進めればいいですか？",
-    "a": "退職代行の利用後は、無料の転職エージェントで次の職場探しを進めるのが現実的です。20代なら第二新卒特化型、経験者なら総合型など、当サイトの各解説を参考に2〜3社併用しましょう。"
+    "a": "退職代行の利用後は、無料の転職エージェントで次の職場探しを進めるのが現実的です。20代なら第二新卒特化型、経験者なら総合型など、当サイトの各解説を参考に2〜3社を併用することをおすすめします。"
   }
 ];
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>男性専門の退職代行サービス</strong>(日本初を公式に掲げる)。労働組合運営のため会社との交渉が可能な形態です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>成功率100%・男性退職代行サービス3冠</strong>(いずれも公式サイト表記・注記条件は公式参照)。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スマホ・LINEで24時間相談でき、即日退職に対応</strong>。姉妹サービスに女性専門の「わたしNEXT」があります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>男性専門の退職代行サービスです</strong>(日本初を公式に掲げています)。労働組合運営のため会社との交渉が可能な形態です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>成功率100%・男性退職代行サービス3冠</strong>を掲げています(いずれも公式サイト表記・注記条件は公式サイトをご参照ください)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>スマホ・LINEで24時間相談でき、即日退職に対応しています</strong>。姉妹サービスに女性専門の「わたしNEXT」があります。</span></li>
           </ul>
         </div>
 
@@ -74,16 +74,16 @@ export default function Page() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">男の退職代行(男性専門の退職代行サービス)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営</th><td className="px-3 py-2 border-b">労働組合toNEXTユニオン</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">対象</th><td className="px-3 py-2 border-b">男性(女性は姉妹サービス「わたしNEXT」)</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">実績表記</th><td className="px-3 py-2 border-b">成功率100%・男性退職代行3冠[対応スピード/20代30代男性が選ぶ/顧客満足度](公式表記・注記条件は公式参照)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">実績表記</th><td className="px-3 py-2 border-b">成功率100%・男性退職代行3冠[対応スピード/20代30代男性が選ぶ/顧客満足度](公式表記・注記条件は公式サイトをご参照ください)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">特徴</th><td className="px-3 py-2 border-b">即日退職対応・LINE無料相談・退職届自動作成テンプレート(アプリ)の提供</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">料金</th><td className="px-3 py-2 border-b">雇用形態別の料金区分(公式サイト参照)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">公式サイト</th><td className="px-3 py-2 border-b">otoko-next.jp</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：男の退職代行公式サイト(otoko-next.jp)、2026年8月22日確認。成功率・No.1表記は公式サイト掲載(調査注記は公式参照)。料金は公式サイトでご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：男の退職代行公式サイト(otoko-next.jp)、2026年8月22日確認。成功率・No.1表記は公式サイトに掲載されています(調査注記は公式サイトをご参照ください)。料金は公式サイトでご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>男の退職代行の特徴(公式公表ベース)</h2>
+        <h2>男の退職代行の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">労働組合運営の交渉力</h3><p className="text-sm text-text-secondary leading-relaxed">団体交渉権を持つ労働組合の運営のため、退職意思の伝達に加えて退職日・有給などの条件調整を交渉できる形態です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">男性特有の退職事情に特化</h3><p className="text-sm text-text-secondary leading-relaxed">「男だから辞めづらい」「引き止めが強い」といった男性が直面しやすい状況を前提にした専門サービス設計です。</p></div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>女性 →姉妹サービスの<a href="/review/watashi-next/" className="text-teal underline">わたしNEXT</a>へ</li>
-              <li>訴訟・損害賠償請求など法的対応が必要な人 →弁護士運営サービスへ</li>
+              <li>女性の方 →姉妹サービスの<a href="/review/watashi-next/" className="text-teal underline">わたしNEXT</a>の利用をおすすめします</li>
+              <li>訴訟・損害賠償請求など法的対応が必要な人 →弁護士運営サービスの利用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>男の退職代行は、労働組合運営の交渉力を持つ男性専門の退職代行サービスです。即日対応と実務支援ツールが特徴です。退職後のキャリアは無料の転職エージェントで仕切り直すのがおすすめで、20代なら第二新卒特化型が受け皿になります。</p>
+        <p>男の退職代行は、労働組合運営の交渉力を持つ男性専門の退職代行サービスです。即日対応と実務支援ツールが特徴です。退職後の転職活動には、無料の転職エージェントの利用をおすすめします。20代の方は第二新卒特化型が選択肢になります。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

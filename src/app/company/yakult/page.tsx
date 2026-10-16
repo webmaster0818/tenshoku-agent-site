@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     "q": "勤務地はどこですか？",
-    "a": "本社は東京都港区。研究所（国立）・全国の工場勤務の職種もあり、応募ポジションにより異なります。"
+    "a": "本社は東京都港区にあります。研究所（国立）・全国の工場勤務の職種もあり、勤務地は応募ポジションにより異なります。"
   },
   {
     "q": "定着率は高いですか？",
@@ -89,10 +89,10 @@ export default function CompanyCareer() {
         <h2 id="s1">ヤクルト本社転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約854万円（2026年3月期・有価証券報告書・単体2,912名）。食品・飲料メーカーとして高めの水準。</li>
-            <li>平均勤続約17.7年と長く、定着率の高さがうかがえるのが特徴。</li>
-            <li>「Yakult1000」ヒットの国内に加え、アジア・米州の海外事業が利益の柱。</li>
-            <li>生産技術・品質管理・研究開発・営業などメーカー系職種の採用が中心。</li>
+            <li>平均年間給与は約854万円（2026年3月期・有価証券報告書・単体2,912名）。食品・飲料メーカーとして高めの水準です。</li>
+            <li>平均勤続年数は約17.7年と長く、定着率の高さがうかがえます。</li>
+            <li>「Yakult1000」がヒットした国内事業に加え、アジア・米州の海外事業が利益の柱となっています。</li>
+            <li>生産技術・品質管理・研究開発・営業などメーカー系職種の採用が中心です。</li>
           </ul>
         </div>
 
@@ -108,7 +108,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約854万円（2026年3月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約41.7歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約17.7年（同・提出会社）" },
-                { label: "従業員数", value: "2,912名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "2,912名（同・提出会社単体）／連結の人数は公式サイトをご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -128,12 +128,12 @@ export default function CompanyCareer() {
             ヤクルト本社は<a href="https://www.yakult.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用情報サイト</a>に<a href="https://www.yakult.co.jp/saiyou/career-info/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「キャリア採用」区分</a>を設けており、募集職種は公式案内先の<a href="https://hrmos.co/pages/yakult" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOSの募集職種一覧</a>に掲載されます。2026年7月31日確認時点で掲載されていたキャリア採用求人は「☆海外駐在前提☆海外工場管理者候補」「☆海外駐在前提☆海外事業所管理部門責任者候補」の2職種のみでした（公式表記のまま）。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>採用区分は新卒／高専／障がい者／キャリアの4本立て。キャリア採用の求人はHRMOS掲載分を確認する形。</li>
-            <li>確認時点の掲載は海外駐在前提の2職種のみで、国内勤務前提のキャリア求人は掲載されていなかった（勤務地等の詳細は各求人ページで確認する仕様）。</li>
-            <li>応募には顔写真付き履歴書と職務経歴書の提出が必須。書類選考通過者のみ連絡と公式に記載。</li>
-            <li>採用に関する問い合わせはメールのみ（電話不可）。ヤクルトグループ関連会社や販売会社でも社員やヤクルトスタッフの募集を行っている場合がある（詳細は各社へ直接問い合わせ）。ヤクルトレディ募集は別枠。</li>
+            <li>採用区分は新卒／高専／障がい者／キャリアの4区分です。キャリア採用の求人はHRMOSの掲載分で確認できます。</li>
+            <li>確認時点の掲載は海外駐在前提の2職種のみで、国内勤務前提のキャリア求人は掲載されていませんでした（勤務地等の詳細は各求人ページで確認できます）。</li>
+            <li>応募には顔写真付き履歴書と職務経歴書の提出が必須です。書類選考の通過者にのみ連絡する旨が公式に記載されています。</li>
+            <li>採用に関する問い合わせはメールのみで受け付けています（電話不可）。ヤクルトグループ関連会社や販売会社でも社員やヤクルトスタッフの募集を行っている場合があります（詳細は各社へ直接お問い合わせください）。ヤクルトレディの募集は別枠です。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認した情報です。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でヤクルト本社のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
@@ -142,7 +142,7 @@ export default function CompanyCareer() {
           {[
             { title: "食品・製造業での実務経験", desc: "生産技術・品質保証・研究開発など、食品または近接する製造業での経験が最も評価されます。" },
             { title: "食品安全・品質への意識", desc: "口に入る商品を扱うため、品質・安全に対する誠実な姿勢が全職種で重視されます。" },
-            { title: "現場と連携する調整力", desc: "工場・営業・開発が連携する事業のため、部門を跨ぐコミュニケーション力が求められます。" },
+            { title: "現場と連携する調整力", desc: "工場・営業・開発が連携する事業のため、部門をまたぐコミュニケーション力が求められます。" },
             { title: "安定志向と着実さ", desc: "平均勤続17.7年という数字が示すように、腰を据えて長く働く文化との相性が問われます。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -158,10 +158,10 @@ export default function CompanyCareer() {
         <p className="text-sm text-text-muted mb-4">※公式採用サイト（キャリア採用）に記載の選考フローです（2026年7月31日確認時点）。詳細は職種・時期により異なる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "応募", desc: "公式案内先のHRMOSページに掲載された求人から応募。顔写真付き履歴書と職務経歴書の提出が必須です。" },
-            { step: 2, title: "書類選考", desc: "提出書類による選考。書類選考通過者のみ連絡と公式に記載されています。" },
+            { step: 1, title: "応募", desc: "公式案内先のHRMOSページに掲載された求人から応募します。顔写真付き履歴書と職務経歴書の提出が必須です。" },
+            { step: 2, title: "書類選考", desc: "提出書類による選考です。書類選考の通過者にのみ連絡する旨が公式に記載されています。" },
             { step: 3, title: "面接（複数回）と筆記試験等", desc: "公式記載では、面接は複数回行われ、あわせて筆記試験等が実施されます。" },
-            { step: 4, title: "内定", desc: "選考通過後に内定。入社時期や条件面は個別に確認しましょう。" },
+            { step: 4, title: "内定", desc: "選考通過後に内定となります。入社時期や条件面は個別にご確認ください。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -176,15 +176,15 @@ export default function CompanyCareer() {
         <h2 id="s6">ヤクルト本社の年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約854万円（2026年3月期）は単体全社員の平均。職種（本社・工場・営業）により水準は異なります。</li>
-            <li>平均勤続17.7年・平均年齢41.7歳と長期雇用型のため、平均値は在籍年数の長さを反映している。</li>
+            <li>約854万円（2026年3月期）は単体全社員の平均です。職種（本社・工場・営業）により水準は異なります。</li>
+            <li>平均勤続17.7年・平均年齢41.7歳と長期雇用型のため、平均値は在籍年数の長さを反映しています。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">ヤクルト本社転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
+        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数の転職エージェントに登録して求人情報を広く集める方法が有効です。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },

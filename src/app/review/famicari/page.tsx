@@ -6,7 +6,7 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   title: "ファミキャリ!の評判は？ゲーム業界専門の転職エージェントを解説【2026年】",
-  description: "ファミキャリ!はクリーク・アンド・リバー社がファミ通と連携して運営するゲーム業界専門の転職サービス。ゲーム業界の求人6,000件以上・利用者2万人以上(公式表記)。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  description: "ファミキャリ!はクリーク・アンド・リバー社がファミ通と連携して運営するゲーム業界専門の転職サービスです。ゲーム業界の求人6,000件以上・利用者2万人以上と公式に表記されています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/famicari/" },
 };
 
@@ -62,9 +62,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ゲーム業界専門の転職サービス</strong>。求人6,000件以上(非公開含む)・利用者2万人以上と公式に表記されています(2026年8月22日確認)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ゲーム業界専門の転職サービス</strong>です。求人6,000件以上(非公開含む)・利用者2万人以上と公式に表記されています(2026年8月22日確認)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ファミ通ブランドとクリーク・アンド・リバー社の運営</strong>で、ゲーム会社との接点が豊富な体制です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料</strong>。求人検索・キャリア相談・イベント情報が公式サイトに揃っています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料</strong>です。求人検索・キャリア相談・イベント情報が公式サイトに揃っています。</span></li>
           </ul>
         </div>
 
@@ -86,7 +86,7 @@ export default function Page() {
 
         <h2>ファミキャリ!の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ゲーム業界特化の求人ボリューム</h3><p className="text-sm text-text-secondary leading-relaxed">プランナー・ディレクター・エンジニア・デザイナーなどゲーム開発職種の求人を6,000件以上(非公開含む)掲載と公式表記。職種別・エリア別の特集も組まれています。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ゲーム業界特化の求人ボリューム</h3><p className="text-sm text-text-secondary leading-relaxed">プランナー・ディレクター・エンジニア・デザイナーなどゲーム開発職種の求人を6,000件以上(非公開含む)掲載していると公式に表記されています。職種別・エリア別の特集も組まれています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ファミ通ブランドの業界接点</h3><p className="text-sm text-text-secondary leading-relaxed">ゲームメディアの老舗ブランドと、クリエイター人材大手クリーク・アンド・リバー社の組み合わせで、紹介可能企業の一覧も公式に公開されています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">求人検索とエージェント相談の併用</h3><p className="text-sm text-text-secondary leading-relaxed">自分で求人を探すことも、キャリア相談からエージェントに提案してもらうこともできる構成です。</p></div>
         </div>
@@ -104,8 +104,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>ゲーム以外のクリエイティブ職も見たい人 →<a href="/review/highfive/" className="text-teal underline">HIGH-FIVE</a>や<a href="/review/mynavi-creator/" className="text-teal underline">マイナビクリエイター</a>を併用</li>
-              <li>ゲーム業界経験者向けの高密度サポートを求める人 →<a href="/review/hiraku-agent/" className="text-teal underline">Hiraku agent</a>も比較を</li>
+              <li>ゲーム以外のクリエイティブ職も見たい人 →<a href="/review/highfive/" className="text-teal underline">HIGH-FIVE</a>や<a href="/review/mynavi-creator/" className="text-teal underline">マイナビクリエイター</a>の併用をおすすめします</li>
+              <li>ゲーム業界経験者向けの高密度サポートを求める人 →<a href="/review/hiraku-agent/" className="text-teal underline">Hiraku agent</a>との比較をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ファミキャリ!は、ファミ通ブランド×クリーク・アンド・リバー社によるゲーム業界専門の転職サービスです。業界特化の求人ボリュームと紹介可能企業の公開が特徴で、利用は無料です。ゲーム業界の転職では、Hiraku agent等の専門エージェントとの併用で選択肢を広げるのがおすすめです。</p>
+        <p>ファミキャリ!は、ファミ通ブランド×クリーク・アンド・リバー社によるゲーム業界専門の転職サービスです。業界特化の求人ボリュームと紹介可能企業の公開が特徴で、利用は無料です。ゲーム業界の転職では、Hiraku agentなどの専門エージェントとの併用により、選択肢を広げることをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

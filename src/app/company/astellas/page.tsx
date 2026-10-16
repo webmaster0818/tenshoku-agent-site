@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "アステラス製薬はどんな会社ですか？",
-    a: "山之内製薬と藤沢薬品工業の合併で誕生した大手製薬会社。がん・泌尿器・移植領域に強く、遺伝子治療・細胞医療にも投資です。本社は東京都中央区(日本橋本町)にあります。",
+    a: "山之内製薬と藤沢薬品工業の合併で誕生した大手製薬会社です。がん・泌尿器・移植領域に強く、遺伝子治療・細胞医療にも投資しています。本社は東京都中央区(日本橋本町)にあります。",
   },
   {
     q: "アステラス製薬の平均勤続年数・平均年齢はどのくらいですか？",
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">アステラス製薬 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            アステラス製薬（証券コード4503）は、山之内製薬と藤沢薬品工業の合併で誕生した大手製薬会社。がん・泌尿器・移植領域に強く、遺伝子治療・細胞医療にも投資です。
+            アステラス製薬（証券コード4503）は、山之内製薬と藤沢薬品工業の合併で誕生した大手製薬会社です。がん・泌尿器・移植領域に強く、遺伝子治療・細胞医療にも投資しています。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">アステラス転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,131万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,110万円（2024年3月期）→1,046万円（2025年3月期）→1,131万円（2026年3月期）と推移（1,000万円台前半〜1,100万円台で推移）。</li>
-            <li>キャリア採用は公式キャリア採用ページで確認可能（2026年9月6日確認）。</li>
+            <li>平均年間給与は約1,131万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>1,110万円（2024年3月期）→1,046万円（2025年3月期）→1,131万円（2026年3月期）と推移しています（1,000万円台前半〜1,100万円台の水準）。</li>
+            <li>キャリア採用は公式キャリア採用ページで確認できます（2026年9月6日確認）。</li>
             <li>全従業員平均であり、研究職・MR・本社機能で報酬水準は異なります。</li>
           </ul>
         </div>
@@ -131,8 +131,8 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月6日時点で、<a href="https://www.astellas.com/jp/careers" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトのCareersページから日本のキャリア採用ポジションを確認できます。</li>
-            <li>研究・開発・メディカル・コマーシャルなど職種別の採用です。</li>
-            <li>※募集状況は変動するため最新は公式キャリアページでご確認ください。</li>
+            <li>研究・開発・メディカル・コマーシャルなど職種別に採用を行っています。</li>
+            <li>※募集状況は変動するため、最新の情報は公式キャリアページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でアステラス製薬のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、研究職・MR・本社機能で報酬水準は異なります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">アステラス転職で活用したい転職エージェント</h2>

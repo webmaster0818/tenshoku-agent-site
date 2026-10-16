@@ -101,10 +101,10 @@ export default function MujiCareer() {
         <h2 id="s1">良品計画転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約670万円（2025年8月期・有価証券報告書）</strong>。前期（2024年8月期）の約643万円から上昇傾向。</li>
-            <li>無印良品ブランドの人気で応募は集まりやすいが、店舗・本部ともに採用ニーズがあり中途の門戸は広い。</li>
-            <li>商品開発・EC・海外事業などの専門ポジションでは相応の経験が必要。ブランド哲学への共感も重視。</li>
-            <li>年収は全社平均であり、店舗／本部・職種・年代・役職によって実際の水準は異なる点に注意。</li>
+            <li>提出会社（単体）の平均年間給与は<strong className="text-navy">約670万円（2025年8月期・有価証券報告書）</strong>です。前期（2024年8月期）の約643万円から上昇しています。</li>
+            <li>無印良品ブランドの人気により応募は集まりやすいものの、店舗・本部ともに採用ニーズがあり、中途採用の門戸は広く開かれています。</li>
+            <li>商品開発・EC・海外事業などの専門ポジションでは相応の経験が必要です。ブランド哲学への共感も重視されます。</li>
+            <li>年収は全社平均であり、店舗／本部・職種・年代・役職によって実際の水準は異なる点にご留意ください。</li>
           </ul>
         </div>
 
@@ -144,12 +144,12 @@ export default function MujiCareer() {
             良品計画は<a href="https://careers.muji.com/jp/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイトの「キャリア採用」セクション</a>を常設し、<a href="https://careers.muji.com/jp/career/store/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">店舗キャリア採用</a>と<a href="https://careers.muji.com/jp/career/office/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">本部キャリア採用</a>の2区分で通年掲載しています。募集職種の一覧は公式案内先の<a href="https://hrmos.co/pages/muji" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">HRMOSページ</a>に掲載されます（2026年7月31日確認時点）。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>店舗キャリア採用：接客・販売・売場づくり、地域コミュニティづくりを担当。キャリアパスとして「店長 → ブロックマネージャー → エリアマネージャー（コミュニティマネージャー・地域事業部長）→ 本部スタッフ」を公式に明示。</li>
-            <li>本部キャリア採用の領域（公式表記）：出店、商品開発、素材開発、資源循環、ロジスティクス、事業開発、IoT・テクノロジー 等。HRMOS掲載の部門例：生活雑貨部、衣服雑貨部、食品部、売場開発部、店舗開発部、マーケティング部、ITサービス部、監査室、人事部、生産部、産地開発部、流通推進部、商品計画部 等（2026年7月31日確認時点）。</li>
-            <li>応募経路は2系統：HRMOSの「募集職種から応募」と、登録内容にマッチするポジションを企業側が提案する「キャリア登録」。</li>
-            <li>店舗職の勤務地は全国の無印良品店舗。具体勤務地は各求人ページ単位で確認する形（キャリア採用トップに一括記載なし）。本部キャリア採用では「第二創業」の変革をリードする人材募集と記載。</li>
+            <li>店舗キャリア採用：接客・販売・売場づくり、地域コミュニティづくりを担当します。キャリアパスとして「店長 → ブロックマネージャー → エリアマネージャー（コミュニティマネージャー・地域事業部長）→ 本部スタッフ」が公式に明示されています。</li>
+            <li>本部キャリア採用の領域（公式表記）：出店、商品開発、素材開発、資源循環、ロジスティクス、事業開発、IoT・テクノロジー 等です。HRMOS掲載の部門例は生活雑貨部、衣服雑貨部、食品部、売場開発部、店舗開発部、マーケティング部、ITサービス部、監査室、人事部、生産部、産地開発部、流通推進部、商品計画部 等です（2026年7月31日確認時点）。</li>
+            <li>応募経路は2系統あります。HRMOSの「募集職種から応募」と、登録内容にマッチするポジションを企業側が提案する「キャリア登録」です。</li>
+            <li>店舗職の勤務地は全国の無印良品店舗です。具体的な勤務地は各求人ページで確認する形式です（キャリア採用トップに一括の記載はありません）。本部キャリア採用では、「第二創業」の変革をリードする人材を募集していると記載されています。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認しました。募集状況は変動するため、最新情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で良品計画（無印良品）のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
@@ -190,7 +190,7 @@ export default function MujiCareer() {
         </p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "エントリー", desc: "応募経路は2系統。HRMOSの「募集職種から応募」するか、「キャリア登録」でマッチするポジションの提案を受けます。" },
+            { step: 1, title: "エントリー", desc: "応募経路は2系統あります。HRMOSの「募集職種から応募」するか、「キャリア登録」でマッチするポジションの提案を受けます。" },
             { step: 2, title: "書類選考", desc: "公式記載では、書類選考の結果は10日以内に通知されます。" },
             { step: 3, title: "面接（最大3回・全てオンライン）", desc: "公式記載では、面接は最大3回で全てオンラインで実施されます。" },
             { step: 4, title: "内定・入社", desc: "内定後、入社時期は個別調整のうえ入社となります。" },
@@ -212,13 +212,13 @@ export default function MujiCareer() {
             有価証券報告書における提出会社の平均年間給与は約670万円（2025年8月期）です。ただしこれは<strong className="text-navy">店舗・本部を含む全社員の平均</strong>であり、次の点に注意が必要です。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>店舗系と本部系、職種・役職によって年収レンジは異なる。</li>
-            <li>平均年齢が約36.9歳と比較的若く、年齢・役職が上がるほど平均は上振れする。</li>
-            <li>近年は処遇改善が進み、前期（643万円）から上昇している点も参考になる。</li>
+            <li>店舗系と本部系、職種・役職によって年収レンジは異なります。</li>
+            <li>平均年齢が約36.9歳と比較的若く、年齢・役職が上がるほど平均は上振れします。</li>
+            <li>近年は処遇改善が進み、前期（643万円）から上昇している点も参考になります。</li>
             <li>中途入社時の提示額は、これまでの経験・スキル・応募ポジションによって決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">
-            正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。
+            正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。
           </p>
         </div>
 
@@ -263,7 +263,7 @@ export default function MujiCareer() {
             良品計画転職を成功させるために
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            人気企業だからこそ、転職エージェントを活用して非公開求人や選考のポイントを押さえましょう。
+            人気企業だからこそ、転職エージェントを活用して非公開求人の情報や選考のポイントを事前に把握しておくことをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">

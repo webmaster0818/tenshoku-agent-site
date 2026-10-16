@@ -6,25 +6,25 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/kagaku-salary/" },
   title: "化学業界の年収ランキング【2026年・有価証券報告書】大手9社を一次データで比較",
   description:
-    "総合化学・機能材料大手9社の平均年収を有価証券報告書の記載値でランキング。三菱ケミカルG1,188万円・レゾナックHD1,131万円・住友化学958万円・信越化学898万円・三井化学871万円ほか。持株会社単体の数値の意味、年齢構成の注意、キャリア採用の入口まで一次データで解説します。",
+    "総合化学・機能材料大手9社の平均年収を有価証券報告書の記載値でランキングしています。三菱ケミカルG1,188万円・レゾナックHD1,131万円・住友化学958万円・信越化学898万円・三井化学871万円などです。持株会社単体の数値の意味、年齢構成の注意、キャリア採用の入口まで一次データで解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "化学業界の年収ランキング【2026年・有価証券報告書】",
-    description: "化学大手9社の平均年収を有価証券報告書の記載値でランキング。キャリア採用の入口も解説。",
+    description: "化学大手9社の平均年収を有価証券報告書の記載値でランキングしています。キャリア採用の入口も解説します。",
   },
 };
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "mitsubishi-chemical", name: "三菱ケミカルグループ", salary: "約1,188万円", term: "2026年3月期", note: "国内最大の総合化学。HD単体は平均50.2歳・勤続24.3年と年齢構成が高い点に注意", hd: true, field: "総合化学" },
-  { rank: 2, slug: "resonac", name: "レゾナックHD", salary: "約1,131万円", term: "2025年12月期", note: "旧昭和電工×旧日立化成。半導体後工程材料で世界トップクラス", hd: true, field: "半導体材料" },
-  { rank: 3, slug: "sumitomo-chemical", name: "住友化学", salary: "約958万円", term: "2026年3月期", note: "直近期+140万円の大幅回復。経験者採用の専用サイトあり", hd: false, field: "総合化学" },
-  { rank: 4, slug: "shin-etsu", name: "信越化学工業", salary: "約898万円", term: "2026年3月期", note: "塩ビ・半導体シリコンで世界トップ。営業利益率は化学業界最高水準", hd: false, field: "塩ビ・半導体材料" },
-  { rank: 5, slug: "mitsui-chemicals", name: "三井化学", salary: "約871万円", term: "2026年3月期", note: "メガネレンズ材料世界大手。平均40.0歳の若い構成", hd: false, field: "総合化学" },
-  { rank: 6, slug: "asahi-kasei", name: "旭化成", salary: "約848万円", term: "2026年3月期", note: "化学×住宅(ヘーベルハウス)×ヘルスケアの3領域。2年で+96万円", hd: false, field: "総合化学" },
-  { rank: 7, slug: "nitto-denko", name: "日東電工", salary: "約843万円", term: "2026年3月期", note: "光学フィルム・半導体材料のニッチトップ戦略。大阪本社", hd: false, field: "機能材料" },
-  { rank: 8, slug: "toray", name: "東レ", salary: "約838万円", term: "2026年3月期", note: "炭素繊維で世界トップ。航空機材料・水処理膜", hd: false, field: "繊維・先端材料" },
-  { rank: 9, slug: "tosoh", name: "東ソー", salary: "約828万円", term: "2026年3月期", note: "平均38.5歳=収録9社最年少。基礎化学+診断薬の両輪", hd: false, field: "総合化学" },
+  { rank: 1, slug: "mitsubishi-chemical", name: "三菱ケミカルグループ", salary: "約1,188万円", term: "2026年3月期", note: "国内最大の総合化学メーカーです。HD単体は平均50.2歳・勤続24.3年と年齢構成が高い点にご留意ください。", hd: true, field: "総合化学" },
+  { rank: 2, slug: "resonac", name: "レゾナックHD", salary: "約1,131万円", term: "2025年12月期", note: "旧昭和電工と旧日立化成を母体とする会社です。半導体後工程材料で世界トップクラスです。", hd: true, field: "半導体材料" },
+  { rank: 3, slug: "sumitomo-chemical", name: "住友化学", salary: "約958万円", term: "2026年3月期", note: "直近期に+140万円と大幅に回復しています。経験者採用の専用サイトがあります。", hd: false, field: "総合化学" },
+  { rank: 4, slug: "shin-etsu", name: "信越化学工業", salary: "約898万円", term: "2026年3月期", note: "塩ビ・半導体シリコンで世界トップです。営業利益率は化学業界で最高水準です。", hd: false, field: "塩ビ・半導体材料" },
+  { rank: 5, slug: "mitsui-chemicals", name: "三井化学", salary: "約871万円", term: "2026年3月期", note: "メガネレンズ材料の世界大手です。平均40.0歳と若い年齢構成です。", hd: false, field: "総合化学" },
+  { rank: 6, slug: "asahi-kasei", name: "旭化成", salary: "約848万円", term: "2026年3月期", note: "化学・住宅(ヘーベルハウス)・ヘルスケアの3領域を展開しています。平均年間給与は2年で+96万円上昇しました。", hd: false, field: "総合化学" },
+  { rank: 7, slug: "nitto-denko", name: "日東電工", salary: "約843万円", term: "2026年3月期", note: "光学フィルム・半導体材料でニッチトップ戦略をとる、大阪本社の企業です。", hd: false, field: "機能材料" },
+  { rank: 8, slug: "toray", name: "東レ", salary: "約838万円", term: "2026年3月期", note: "炭素繊維で世界トップです。航空機材料・水処理膜も手がけています。", hd: false, field: "繊維・先端材料" },
+  { rank: 9, slug: "tosoh", name: "東ソー", salary: "約828万円", term: "2026年3月期", note: "平均38.5歳で収録9社中最年少です。基礎化学と診断薬を事業の両輪としています。", hd: false, field: "総合化学" },
 ];
 
 const faqData = [
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     q: "この数値は研究職の平均年収ですか？",
-    a: "いいえ、提出会社の全従業員平均です。研究職・プラントオペレーター・本社スタッフを合算した数値で、職種・年代により実際の水準は異なります。三菱ケミカルG・レゾナックHDは持株会社単体の数値のため、事業会社の現場の平均とは別物です。また平均年齢が38.5歳(東ソー)から50.2歳(三菱ケミカルG)まで大きく異なるため、序列は年齢構成の影響込みで見てください。",
+    a: "いいえ、提出会社の全従業員平均です。研究職・プラントオペレーター・本社スタッフを合算した数値で、職種・年代により実際の水準は異なります。三菱ケミカルG・レゾナックHDは持株会社単体の数値のため、事業会社の現場の平均とは異なります。また平均年齢が38.5歳(東ソー)から50.2歳(三菱ケミカルG)まで大きく異なるため、順位は年齢構成の影響を含むものとしてご覧ください。",
   },
   {
     q: "化学メーカーの転職は未経験でも可能ですか？",
@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     q: "化学大手の中途採用はどこに応募すればいいですか？",
-    a: "9社とも公式サイトに採用ページがあります(2026年9月10日確認)。住友化学は経験者採用の専用サイト(sumitomochem-careers.com)、三井化学はキャリア採用専用ページを設けるなど、中途の入口が明確な会社が増えています。専門職は非公開求人も多いため、メーカーに強いエージェントやスカウト型サービスの併用が実質的な入口になります。",
+    a: "9社とも公式サイトに採用ページがあります(2026年9月10日確認)。住友化学は経験者採用の専用サイト(sumitomochem-careers.com)、三井化学はキャリア採用専用ページを設けるなど、中途の入口が明確な会社が増えています。専門職は非公開求人も多いため、メーカーに強い転職エージェントやスカウト型サービスの併用が有効です。",
   },
 ];
 
@@ -84,7 +84,7 @@ export default function KagakuSalaryRanking() {
             化学業界の年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
-            総合化学・機能材料大手9社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。持株会社単体の数値の意味、平均年齢の差による見え方の違い、中途採用の入口もあわせて解説します。
+            総合化学・機能材料大手9社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）のみにもとづいてランキングしています。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。持株会社単体の数値の意味、平均年齢の差による見え方の違い、中途採用の入口もあわせて解説します。
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function KagakuSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）。IR BANK掲載値を2026年9月10日に確認。三菱ケミカルG・レゾナックHDは持株会社単体の数値です。12月期(レゾナック)と3月期が混在するため、時点差にご留意ください。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む）です。IR BANK掲載値を2026年9月10日に確認しました。三菱ケミカルG・レゾナックHDは持株会社単体の数値です。12月期(レゾナック)と3月期が混在するため、時点差にご留意ください。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -137,28 +137,28 @@ export default function KagakuSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">三菱ケミカルG(平均50.2歳・勤続24.3年)のように、持株会社単体は年齢構成の高い本社機能中心の母集団です。事業会社の現場の水準とは別物と考えてください。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">三菱ケミカルG(平均50.2歳・勤続24.3年)のように、持株会社単体は年齢構成の高い本社機能中心の母集団です。事業会社の現場の水準とは異なるものとしてご覧ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均年齢の差に注意</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">東ソー38.5歳・三井化学40.0歳と若い会社ほど平均年収は低く見えます。同年齢帯での比較は求人票・エージェント経由で確認しましょう。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">東ソー38.5歳・三井化学40.0歳と若い会社ほど平均年収は低く見えます。同年齢帯での比較は求人票や転職エージェント経由でご確認ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">業績連動の振れ幅が大きい</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">住友化学の+140万円のように、市況産業ゆえ賞与の振れが平均給与を大きく動かします。単年でなく推移で見るのがおすすめです。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">住友化学の+140万円のように、市況産業であるため、賞与の変動が平均給与を大きく動かします。単年ではなく推移で確認することをおすすめします。</p>
           </div>
         </div>
 
-        <h2>化学業界の転職で活用したいエージェント</h2>
+        <h2>化学業界の転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          化学は研究・生産技術の専門職採用が中心で、非公開求人も多い業界です。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
+          化学は研究・生産技術の専門職採用が中心で、非公開求人も多い業界です。複数の転職エージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。化学メーカーの研究開発からプラント・本社機能まで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。メーカー系の同業比較・年収レンジ把握がしやすい点が特長です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。R&Dマネジメント・事業企画などハイクラス職の市場価値の把握に適しています。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル化学メーカーの管理職・スペシャリストに。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・外資系に強みがあります。グローバル化学メーカーの管理職・スペシャリストの転職に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">
@@ -181,7 +181,7 @@ export default function KagakuSalaryRanking() {
         </div>
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
-          <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">化学業界への転職を考えたら</h2>
+          <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">化学業界への転職を検討する方へ</h2>
           <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>

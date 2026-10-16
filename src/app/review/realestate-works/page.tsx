@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "リアルエステートWORKSの評判は？不動産業界特化の転職エージェントを解説【2026年】",
-  description: "リアルエステートWORKSは不動産業界特化の転職エージェント。転職成功者の3人に2人が上場企業へ・面倒な書類作成が一切不要(いずれも公式表記)。不動産営業からPM・BM・AM、建築・設計まで対応。公式情報ベースで解説します。利用は無料です。",
+  description: "リアルエステートWORKSは不動産業界特化の転職エージェントです。「転職成功者の3人に2人が上場企業へ」「面倒な書類作成が一切不要」と公式に表記しています。不動産営業からPM・BM・AM、建築・設計まで対応しています。公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/realestate-works/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>不動産業界特化の転職エージェント</strong>。不動産営業・管理(PM/BM/AM)・事務・建築設計まで対応します。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>転職成功者の3人に2人が上場企業へ</strong>(公式サイト表記)。独自資料での面接対策・書類作成不要も掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>登録30秒・7ステップの明確な支援フロー</strong>(登録→面談→書類選考→面接対策→企業面接→内定→入社)。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>不動産業界特化の転職エージェントです</strong>。不動産営業・管理(PM/BM/AM)・事務・建築設計まで対応します。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「転職成功者の3人に2人が上場企業へ」</strong>と公式サイトに表記されています。独自資料での面接対策・書類作成不要も掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>登録30秒・7ステップの明確な支援フロー</strong>(登録→面談→書類選考→面接対策→企業面接→内定→入社)が示されています。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -81,13 +81,13 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：リアルエステートWORKS公式サイト(realestateworks.jp)、2026年8月22日確認。実績表記は公式サイト掲載値(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：リアルエステートWORKS公式サイト(realestateworks.jp)、2026年8月22日確認。実績表記は公式サイトの掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>リアルエステートWORKSの特徴(公式公表ベース)</h2>
+        <h2>リアルエステートWORKSの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">上場企業への転職実績の訴求</h3><p className="text-sm text-text-secondary leading-relaxed">転職成功者の3人に2人が上場企業へという実績を公式に掲げており、不動産業界内でのキャリアアップ・待遇改善を狙う人向けの設計です。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">書類作成不要の負担軽減</h3><p className="text-sm text-text-secondary leading-relaxed">面倒な書類作成が一切不要と公式に明記。働きながらの転職活動で書類がボトルネックになる人に合う仕組みです。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">営業から管理・設計まで職種カバー</h3><p className="text-sm text-text-secondary leading-relaxed">営業職だけでなくPM・BM・AMなどの管理系、事務、建築・設計まで、不動産業界の職種を横断して扱います。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">書類作成不要の負担軽減</h3><p className="text-sm text-text-secondary leading-relaxed">面倒な書類作成が一切不要と公式に明記しています。働きながらの転職活動で書類がボトルネックになる人に合う仕組みです。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">営業から管理・設計までの幅広い職種</h3><p className="text-sm text-text-secondary leading-relaxed">営業職だけでなくPM・BM・AMなどの管理系、事務、建築・設計まで、不動産業界の職種を横断して扱います。</p></div>
         </div>
 
         <h2>リアルエステートWORKSが向いている人・向いていない人</h2>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>業界特化の年収アップ訴求を比較したい人 →<a href="/review/rsg-fudosan/" className="text-teal underline">RSG</a>と併用を</li>
-              <li>職種検索型でじっくり選びたい人 →<a href="/review/prime-career/" className="text-teal underline">プライムキャリア</a>も比較を</li>
+              <li>業界特化の年収アップ訴求を比較したい人 →<a href="/review/rsg-fudosan/" className="text-teal underline">RSG</a>との併用をおすすめします</li>
+              <li>職種検索型でじっくり選びたい人 →<a href="/review/prime-career/" className="text-teal underline">プライムキャリア</a>との比較もおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>リアルエステートWORKSは、上場企業への転職実績と書類作成不要の負担軽減を掲げる不動産特化エージェントです。営業から管理系まで職種カバーが広く、利用は無料です。RSG・プライムキャリアなど同業界の特化型と併用し、提案求人を比較するのがおすすめです。</p>
+        <p>リアルエステートWORKSは、上場企業への転職実績と書類作成不要の負担軽減を掲げる不動産特化エージェントです。営業から管理系まで対応職種が広く、利用は無料です。RSG・プライムキャリアなど同業界の特化型と併用し、提案求人を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

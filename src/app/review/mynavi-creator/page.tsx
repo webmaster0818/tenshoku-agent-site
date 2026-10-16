@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "マイナビクリエイターの評判は？Web・ゲーム・IT特化の転職エージェントを解説【2026年】",
-  description: "マイナビクリエイター(マイナビ転職クリエイターエージェント)は、マイナビワークスが運営するWeb・ゲーム・IT業界のクリエイター専門転職エージェント。ポートフォリオ作成サービスMATCHBOXが無料で使えるのが特徴。公式情報ベースで解説します。",
+  description: "マイナビクリエイター(マイナビ転職クリエイターエージェント)は、マイナビワークスが運営するWeb・ゲーム・IT業界のクリエイター専門転職エージェントです。ポートフォリオ作成サービスMATCHBOXを無料で使える点が特徴です。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/mynavi-creator/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>Web・ゲーム・IT業界のクリエイター専門</strong>。Webディレクター・Webデザイナー・ゲームプランナー・ゲームディレクター等が対象です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ポートフォリオ作成サービス「MATCHBOX」を提供</strong>。クリエイター転職で最大の関門であるポートフォリオを支援ツール付きで作れます。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>マイナビグループの運営基盤</strong>。セミナー・説明会・相談会などイベントも豊富で、利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>Web・ゲーム・IT業界のクリエイター専門です</strong>。Webディレクター・Webデザイナー・ゲームプランナー・ゲームディレクター等が対象です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>ポートフォリオ作成サービス「MATCHBOX」を提供しています</strong>。クリエイター転職で最大の関門であるポートフォリオを、支援ツールを使って作成できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>マイナビグループの運営です</strong>。セミナー・説明会・相談会などイベントも豊富で、利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -83,7 +83,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：マイナビ転職クリエイターエージェント公式サイト(mynavi-creator.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>マイナビクリエイターの特徴(公式公表ベース)</h2>
+        <h2>マイナビクリエイターの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">ポートフォリオ支援「MATCHBOX」</h3><p className="text-sm text-text-secondary leading-relaxed">クリエイター転職の要となるポートフォリオを、専用サービスMATCHBOXで作成できます。作品整理から見せ方まで、選考通過に直結する部分をツールで支援します。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">Web・ゲーム両業界をカバー</h3><p className="text-sm text-text-secondary leading-relaxed">Web系(ディレクター・デザイナー・マークアップ)とゲーム系(プランナー・ディレクター)の両方の職種を扱い、業界をまたいだ比較検討ができます。</p></div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>より厳選型の提案を求める人 →<a href="/review/highfive/" className="text-teal underline">HIGH-FIVE</a>と併用して比較を</li>
-              <li>ゲーム業界だけに絞りたい経験者 →<a href="/review/hiraku-agent/" className="text-teal underline">Hiraku agent</a>も選択肢</li>
+              <li>より厳選型の提案を求める人 →<a href="/review/highfive/" className="text-teal underline">HIGH-FIVE</a>との併用による比較をおすすめします</li>
+              <li>ゲーム業界だけに絞りたい経験者 →<a href="/review/hiraku-agent/" className="text-teal underline">Hiraku agent</a>も選択肢になります</li>
             </ul>
           </div>
         </div>

@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約948万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年8月29日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>920万円（2024年3月期）→926万円（2025年3月期）→948万円（2026年3月期）と推移（3年連続で上昇）。</li>
-            <li>キャリア採用は公式キャリア採用情報ページで確認可能（2026年8月29日確認）。</li>
+            <li>920万円（2024年3月期）→926万円（2025年3月期）→948万円（2026年3月期）と推移しています（3年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式キャリア採用情報ページで確認できます（2026年8月29日確認）。</li>
             <li>平均948万円は当サイト収録メーカーでも上位の水準です。</li>
           </ul>
         </div>
@@ -131,8 +131,8 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年8月29日時点で、<a href="https://www.yokogawa.co.jp/recruit/careers/index.htm" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用情報ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式採用サイトにキャリア採用情報ページがあり、募集職種を確認できます。</li>
-            <li>制御・計測のグローバル企業として国内外の拠点で職種別採用を実施。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>制御・計測のグローバル企業として国内外の拠点で職種別採用を実施しています。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で横河電機のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>平均948万円は当サイト収録メーカーでも上位の水準です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">横河電機転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

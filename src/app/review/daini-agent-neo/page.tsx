@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "第二新卒エージェントneoの評判は？20代・既卒・高卒対応の転職エージェントを解説【2026年】",
-  description: "第二新卒エージェントneo(ネオキャリア運営)は、第二新卒・既卒・フリーター・高卒など20代の就活・転職支援サービス。学歴・就業状況を問わない幅広い受け入れが特徴。公式情報ベースで特徴・向いている人を解説します。利用は無料です。",
+  description: "第二新卒エージェントneo(ネオキャリア運営)は、第二新卒・既卒・フリーター・高卒など20代の就活・転職支援サービスです。学歴・就業状況を問わない幅広い受け入れが特徴です。公式情報にもとづいて特徴・向いている人を解説します。利用は無料です。",
   alternates: { canonical: "/review/daini-agent-neo/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>第二新卒・既卒・フリーター・高卒など20代を幅広く支援</strong>。学歴選択肢に「大学中退・高卒・高校中退・中卒」まで用意されています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>就業状況を問わず登録可能</strong>(正社員・未就業・就業経験無し・派遣・アルバイト・契約社員)。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>第二新卒・既卒・フリーター・高卒など20代を幅広く支援しています</strong>。学歴選択肢に「大学中退・高卒・高校中退・中卒」まで用意されています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>就業状況を問わず登録可能</strong>です(正社員・未就業・就業経験なし・派遣・アルバイト・契約社員)。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>電話相談窓口(平日9:00-19:00)</strong>があり、利用は無料です。</span></li>
           </ul>
         </div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>大卒でキャリアアップ転職をしたい20代 →<a href="/review/mynavi-job20s/" className="text-teal underline">マイナビジョブ20's</a>等と併用を</li>
-              <li>30代以上 →総合型エージェントへ</li>
+              <li>大卒でキャリアアップ転職をしたい20代 →<a href="/review/mynavi-job20s/" className="text-teal underline">マイナビジョブ20's</a>などとの併用をおすすめします</li>
+              <li>30代以上 →総合型の転職エージェントをおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>第二新卒エージェントneoは、学歴・就業状況を問わない幅広い受け入れを掲げる20代特化の就職・転職支援サービスです。高卒・中退・フリーターからの正社員就職の相談先として選択肢になり、利用は無料です。20代特化型の複数併用で相性を比較しましょう。</p>
+        <p>第二新卒エージェントneoは、学歴・就業状況を問わない幅広い受け入れを掲げる20代特化の就職・転職支援サービスです。高卒・中退・フリーターからの正社員就職の相談先として選択肢になり、利用は無料です。20代特化型のサービスを複数併用し、相性を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約828万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>740万円（2024年3月期）→795万円（2025年3月期）→828万円（2026年3月期）と推移（2年連続で上昇(計88万円)）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年9月10日確認）。</li>
+            <li>740万円（2024年3月期）→795万円（2025年3月期）→828万円（2026年3月期）と推移しています（2年連続で上昇(計88万円)）。</li>
+            <li>キャリア採用は公式採用情報ページで確認できます（2026年9月10日確認）。</li>
             <li>平均38.5歳と収録化学9社で最も若い構成です。平均年収は年齢構成の影響を受ける点にご注意ください。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトの採用情報から新卒・キャリア採用の窓口を確認できます。</li>
             <li>研究・プラントエンジニア・診断薬関連などの採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東ソーのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "平均38.5歳=収録9社で最年少", desc: "若い年齢構成で、2年連続の賃上げも反映されています。" },
             { title: "診断薬・バイオ事業", desc: "体外診断薬など化学メーカーの枠を超えた事業を持ちます。" },
             { title: "基礎化学の安定基盤", desc: "クロル・アルカリ事業の国内大手として安定した収益基盤があります。" },
-            { title: "山口県周南の主力拠点", desc: "南陽事業所が中核で、地方勤務前提のポジションが多い点は確認を。" }
+            { title: "山口県周南の主力拠点", desc: "南陽事業所が中核で、地方勤務を前提とするポジションが多いため、勤務地を事前にご確認ください。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>平均38.5歳と収録化学9社で最も若い構成です。平均年収は年齢構成の影響を受ける点にご注意ください。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">東ソー転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

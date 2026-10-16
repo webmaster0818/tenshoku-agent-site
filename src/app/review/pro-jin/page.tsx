@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "@PRO人(アットプロジン)の評判は？IT専門転職エージェントを解説【2026年】",
-  description: "@PRO人(アットプロジン・株式会社エスアイアイー運営)はIT・Web・ゲーム専門の転職エージェント。「たくさんの求人はいらない。私のための求人があればいい」を掲げる提案型・厳選紹介スタイル。未経験者向け窓口もあり。公式情報ベースで解説します。",
+  description: "@PRO人(アットプロジン・株式会社エスアイアイー運営)はIT・Web・ゲーム専門の転職エージェントです。「たくさんの求人はいらない。私のための求人があればいい」を掲げる提案型・厳選紹介スタイルで、未経験者向けの窓口もあります。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/pro-jin/" },
 };
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>IT専門の転職エージェント</strong>。IT技術・業界に精通する専門カウンセラーによる提案型支援を掲げています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>大量紹介ではない厳選提案スタイル</strong>。「他社で多数の求人を紹介され困った」人向けの設計を明示しています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>IT専門の転職エージェント</strong>です。IT技術・業界に精通する専門カウンセラーによる提案型支援を掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>大量紹介ではない厳選提案スタイル</strong>です。「他社で多数の求人を紹介され困った」人向けの設計を明示しています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>未経験者向けの登録窓口</strong>も用意されており、電話受付は10時〜21時です。利用は無料です。</span></li>
           </ul>
         </div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>求人をたくさん見て自分で選びたい人 →求人検索型・総合型と併用を</li>
-              <li>IT以外も検討中の人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>等へ</li>
+              <li>求人をたくさん見て自分で選びたい人 →求人検索型・総合型との併用をおすすめします</li>
+              <li>IT以外も検討中の人 →<a href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</a>などをおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>@PRO人は、厳選提案型のIT専門エージェントです。大量紹介が合わない人・上流志向のエンジニアに向いた設計で、利用は無料です。IT特化型はTechClips・ユニゾンキャリア等と2〜3社併用し、提案の質を比較するのがおすすめです。</p>
+        <p>@PRO人は、厳選提案型のIT専門エージェントです。大量紹介が合わない人・上流志向のエンジニアに向いた設計で、利用は無料です。IT特化型の転職エージェントはTechClips・ユニゾンキャリアなどと2〜3社併用し、提案の質を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

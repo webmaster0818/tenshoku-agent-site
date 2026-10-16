@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "富士フイルムホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "富士フイルムホールディングス（証券コード4901）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,085万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "富士フイルムホールディングス（証券コード4901）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約1,085万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/fujifilm/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "富士フイルムホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "富士フイルムホールディングス（4901）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "富士フイルムホールディングス（4901）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,085万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,074万円（2024年3月期）→1,124万円（2025年3月期）→1,085万円（2026年3月期）と推移（2025年3月期に1,124万円まで上昇した後、最新期は38万円低下）。</li>
-            <li>キャリア採用は富士フイルムのキャリア採用ページで確認可能（2026年9月2日確認）。</li>
+            <li>1,074万円（2024年3月期）→1,124万円（2025年3月期）→1,085万円（2026年3月期）と推移しています（2025年3月期に1,124万円まで上昇した後、最新期は38万円低下）。</li>
+            <li>キャリア採用の情報は富士フイルムのキャリア採用ページで確認できます（2026年9月2日確認）。</li>
             <li>提出会社は持株会社（富士フイルムホールディングス）単体であり、富士フイルム株式会社など事業会社の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -131,8 +131,8 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月2日時点で、<a href="https://careers.fujifilm.com/experienced/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">富士フイルムのキャリア採用ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>グループ採用ポータルにキャリア採用ページがあり、募集職種とエントリー導線を確認できます。</li>
-            <li>採用の主体は事業会社（富士フイルム株式会社・富士フイルムビジネスイノベーション株式会社等）単位のため、応募先の会社を明確にして臨むのが確実です。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>採用の主体は事業会社（富士フイルム株式会社・富士フイルムビジネスイノベーション株式会社等）単位のため、応募先の会社を明確にしたうえで応募することをおすすめします。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で富士フイルムHDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社（富士フイルムホールディングス）単体であり、富士フイルム株式会社など事業会社の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">富士フイルムHD転職で活用したい転職エージェント</h2>

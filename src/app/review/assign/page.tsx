@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "アサイン(ASSIGN)の評判は？価値観からキャリアプランを描く若手ハイエンド向けキャリア支援【2026年】",
   description:
-    "ASSIGN AGENT(アサイン)の特徴を徹底解説。初回面談では求人紹介をせず、経験・価値観・目指す将来像からキャリアプランを提案する「転職支援ではなくキャリア支援」が核。創業メンバー全員がコンサルファーム出身、DiSC認定資格に基づくオーダーメイド選考対策も。対象は20代〜30代前半の若手ハイエンド層、利用は無料です。",
+    "ASSIGN AGENT(アサイン)は、初回面談では求人紹介をせず、経験・価値観・目指す将来像からキャリアプランを提案する「転職支援ではなくキャリア支援」が中心のサービスです。創業メンバー全員がコンサルファーム出身で、DiSC認定資格に基づく選考対策も提供しています。対象は20代〜30代前半、利用は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title:
       "アサイン(ASSIGN)の評判は？価値観からキャリアプランを描く若手ハイエンド向けキャリア支援【2026年】",
     description:
-      "初回面談では求人を紹介せず、価値観を軸にキャリアプランを設計するASSIGN AGENT(アサイン)。若手ハイエンド向けキャリア支援の特徴・向いている人を解説。",
+      "ASSIGN AGENT(アサイン)は、初回面談では求人を紹介せず、価値観を軸にキャリアプランを設計するサービスです。若手ハイエンド向けキャリア支援の特徴と向いている人を解説します。",
   },
 };
 
@@ -80,7 +80,7 @@ export default function AssignReview() {
           </h1>
           <p className="text-text-secondary leading-relaxed">
             ASSIGN AGENT(アサイン)は、株式会社アサインが運営する20代〜30代前半の若手ハイエンド層向け転職エージェントです。
-            最大の特徴は、<strong>初回面談で求人紹介をしない</strong>こと。経験・価値観・目指す将来像を丁寧にヒアリングし、
+            最大の特徴は、<strong>初回面談で求人紹介をしない</strong>点です。経験・価値観・目指す将来像を丁寧にヒアリングし、
             価値観を軸にしたキャリアプランを提案したうえで、本人が納得してから案件選定に進みます。
             「転職支援ではなくキャリア支援」を掲げるサービスの特徴・向いている人・向いていない人を、
             公式公表情報にもとづいて整理します。
@@ -96,19 +96,19 @@ export default function AssignReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>初回面談で求人を出さない伴走型</strong>。まず経験・価値観・将来像を聞き、納得してから案件選定に進む「キャリア支援」スタイルです。</span>
+              <span><strong>初回面談で求人を紹介しない伴走型のサービスです</strong>。まず経験・価値観・将来像を聞き、納得してから案件選定に進む「キャリア支援」スタイルです。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>価値観を軸にしたキャリアプラン設計が核</strong>。転職ありきではなく、キャリアの方向性を描くことから支援が始まります。</span>
+              <span><strong>価値観を軸にしたキャリアプラン設計が中心です</strong>。転職ありきではなく、キャリアの方向性を描くことから支援が始まります。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>対象は20代〜30代前半の経験者</strong>(若手ハイエンド層)。ITエンジニア・営業・経理・コンサル経験者が中心です。</span>
+              <span><strong>対象は20代〜30代前半の経験者</strong>(若手ハイエンド層)です。ITエンジニア・営業・経理・コンサル経験者が中心です。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>求職者の利用は無料</strong>。有料職業紹介(企業側成功報酬モデル)の許可を受けた正規事業者です。</span>
+              <span><strong>求職者の利用は無料です</strong>。有料職業紹介(企業側成功報酬モデル)の許可を受けた正規事業者です。</span>
             </li>
           </ul>
         </div>
@@ -142,7 +142,7 @@ export default function AssignReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料(企業側成功報酬モデルが標準)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">特徴</th><td className="px-3 py-2 border-b">初回面談は求人紹介なし・価値観を軸としたキャリアプラン提案・DiSC認定資格に基づくオーダーメイド選考対策</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">関連事業</th><td className="px-3 py-2 border-b">ASSIGN(転職サイト)／ASSIGN AGENT／ASSIGN新卒／ASSIGN ACADEMY(コーチング)／ASSIGN MEDIA</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談形式</th><td className="px-3 py-2 border-b">最新の実施形式(オンライン対応の可否・拠点)は公式サイトを要確認</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談形式</th><td className="px-3 py-2 border-b">最新の実施形式(オンライン対応の可否・拠点)は公式サイトにてご確認ください</td></tr>
             </tbody>
           </table>
         </div>
@@ -166,7 +166,7 @@ export default function AssignReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-1">2. 創業メンバー全員がコンサルティングファーム出身</h3>
             <p className="text-sm text-text-secondary leading-relaxed">
-              創業メンバーは全員がコンサルティングファーム出身。その他のメンバーにも
+              創業メンバーは全員がコンサルティングファーム出身です。その他のメンバーにも
               IBM・リクルート・野村證券・グローバルメーカー出身者などが在籍しています。
               構造的に物事を整理するコンサル的な思考法が、キャリアプランのアドバイスに活きているのが特徴です。
             </p>
@@ -174,7 +174,7 @@ export default function AssignReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-1">3. DiSC認定資格に基づくオーダーメイド選考対策</h3>
             <p className="text-sm text-text-secondary leading-relaxed">
-              DiSC認定資格に基づく行動特性分析を用いて、一人ひとりに合わせた<strong>オーダーメイドの選考対策資料</strong>を作成。
+              DiSC認定資格に基づく行動特性分析を用いて、一人ひとりに合わせた<strong>オーダーメイドの選考対策資料</strong>を作成します。
               模擬面接も複数回実施されます。汎用的な面接テクニックではなく、
               自分の行動特性を踏まえた選考準備を重ねられる点が強みです。
             </p>
@@ -212,7 +212,7 @@ export default function AssignReview() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>35歳を超える方(対象は20代〜30代前半が中心のため)</li>
               <li>未経験からの転職を希望する方</li>
-              <li>とにかく多くの求人を比較検討したい方 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>の併用が現実的</li>
+              <li>できるだけ多くの求人を比較検討したい方 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>の併用をおすすめします</li>
               <li>マーケティング職特化の支援を受けたい方 →<Link href="/review/digireka/" className="text-teal underline">デジレカ</Link></li>
             </ul>
           </div>
@@ -236,7 +236,7 @@ export default function AssignReview() {
         </div>
 
         {/* まとめ */}
-        <h2>まとめ：求人ありきではなく、キャリアプランありきで相談したい人へ</h2>
+        <h2>まとめ：求人よりも先にキャリアプランを相談したい方に適したサービス</h2>
         <p>
           ASSIGN AGENT(アサイン)は、初回面談で求人を紹介せず、経験・価値観・目指す将来像から
           キャリアプランを描くことを起点にした<strong>「転職支援ではなくキャリア支援」</strong>のサービスです。
@@ -249,10 +249,10 @@ export default function AssignReview() {
         {/* ※アフィリエイト提携承認後に計測リンクへ差し替え予定。現在は公式サイトへの通常リンク */}
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            価値観からキャリアプランを描くならアサイン
+            アサインの無料相談について
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            初回面談は求人紹介ではなく、あなたの経験・価値観・将来像のヒアリングから。利用は無料です。
+            初回面談では求人紹介ではなく、経験・価値観・将来像のヒアリングを行います。利用は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

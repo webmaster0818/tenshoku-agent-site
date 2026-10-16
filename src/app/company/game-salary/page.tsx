@@ -6,22 +6,22 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/game-salary/" },
   title: "ゲーム会社の年収ランキング【2026年・有価証券報告書】転職難易度もあわせて解説",
   description:
-    "大手ゲーム会社の平均年収を有価証券報告書の記載値（決算期明記）でランキング。カプコン985万円・バンダイナムコHD984万円・任天堂982万円・コーエーテクモ903万円・セガサミー884万円・コナミ850万円。持株会社単体と開発現場の数値の違い、中途採用の入口、転職難易度まで一次データで解説します。",
+    "大手ゲーム会社の平均年収を有価証券報告書の記載値（決算期明記）でランキングしています。主な数値はカプコン985万円・バンダイナムコHD984万円・任天堂982万円・コーエーテクモ903万円・セガサミー884万円・コナミ850万円です。持株会社単体と開発現場の数値の違い、中途採用の入口、転職難易度まで解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "ゲーム会社の年収ランキング【2026年・有価証券報告書】",
-    description: "大手ゲーム会社の平均年収を有価証券報告書の記載値でランキング。転職難易度も解説。",
+    description: "大手ゲーム会社の平均年収を有価証券報告書の記載値でランキングしています。転職難易度も解説します。",
   },
 };
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "capcom", name: "カプコン", salary: "約985万円", term: "2026年3月期", note: "前期約919万円から上昇。業績好調が平均給与に反映。モンハン・バイオ等の看板IPを持つ大阪本社のメーカー", hd: false },
-  { rank: 2, slug: "bandai-namco", name: "バンダイナムコHD", salary: "約984万円", term: "2026年3月期", note: "純粋持株会社単体（約80名・本社機能のみ）の数値。ゲーム・玩具はバンダイナムコエンターテインメント・バンダイ等の事業会社が担う", hd: true },
-  { rank: 3, slug: "nintendo", name: "任天堂", salary: "約982万円", term: "2026年3月期", note: "平均勤続約14.6年と長期雇用型。Switch 2時代もハード・ソフト一体開発の総本山", hd: false },
-  { rank: 4, slug: "koei-tecmo", name: "コーエーテクモHD", salary: "約903万円", term: "2026年3月期", note: "持株会社単体（121名）の数値。開発の中核はコーエーテクモゲームス等の事業会社", hd: true },
-  { rank: 5, slug: "sega-sammy", name: "セガサミーHD", salary: "約884万円", term: "2026年3月期", note: "持株会社単体（408名）の数値。ゲームはセガ、遊技機はサミーが担う", hd: true },
-  { rank: 6, slug: "konami", name: "コナミグループ", salary: "約850万円", term: "2026年3月期", note: "持株会社単体（259名）の数値。ゲームはKONAMIデジタルエンタテインメント等が担う", hd: true },
+  { rank: 1, slug: "capcom", name: "カプコン", salary: "約985万円", term: "2026年3月期", note: "前期約919万円から上昇しており、業績好調が平均給与に反映されています。モンハン・バイオ等の看板IPを持つ大阪本社のメーカーです。", hd: false },
+  { rank: 2, slug: "bandai-namco", name: "バンダイナムコHD", salary: "約984万円", term: "2026年3月期", note: "純粋持株会社単体（約80名・本社機能のみ）の数値です。ゲーム・玩具はバンダイナムコエンターテインメント・バンダイ等の事業会社が担っています。", hd: true },
+  { rank: 3, slug: "nintendo", name: "任天堂", salary: "約982万円", term: "2026年3月期", note: "平均勤続約14.6年と長期雇用型です。Switch 2の時代においても、ハード・ソフト一体開発の中核を担っています。", hd: false },
+  { rank: 4, slug: "koei-tecmo", name: "コーエーテクモHD", salary: "約903万円", term: "2026年3月期", note: "持株会社単体（121名）の数値です。開発の中核はコーエーテクモゲームス等の事業会社です。", hd: true },
+  { rank: 5, slug: "sega-sammy", name: "セガサミーHD", salary: "約884万円", term: "2026年3月期", note: "持株会社単体（408名）の数値です。ゲームはセガ、遊技機はサミーが担っています。", hd: true },
+  { rank: 6, slug: "konami", name: "コナミグループ", salary: "約850万円", term: "2026年3月期", note: "持株会社単体（259名）の数値です。ゲームはKONAMIデジタルエンタテインメント等が担っています。", hd: true },
 ];
 
 const faqData = [
@@ -112,7 +112,7 @@ export default function GameSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・全社員平均）。「HD単体値」の3社は持株会社本体（本社機能スタッフ）の平均で、開発現場の事業会社（コーエーテクモゲームス・セガ・KONAMIデジタルエンタテインメント等）の給与水準とは異なります。参考: ゲーム事業を含むソニーグループは約1,155万円（2026年3月期・同じく本社機能中心の単体値）。
+          ※各社の有価証券報告書「従業員の状況」に記載された平均年間給与（提出会社・全社員平均）です。「HD単体値」の3社は持株会社本体（本社機能スタッフ）の平均で、開発現場の事業会社（コーエーテクモゲームス・セガ・KONAMIデジタルエンタテインメント等）の給与水準とは異なります。参考: ゲーム事業を含むソニーグループは約1,155万円です（2026年3月期・同じく本社機能中心の単体値）。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -128,11 +128,11 @@ export default function GameSalaryRanking() {
           ))}
         </div>
 
-        <h2>ランキングを見るときの3つの注意点</h2>
+        <h2>ランキングを読む際の3つの注意点</h2>
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は本社機能スタッフの平均。開発職の水準は事業会社の求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は本社機能スタッフの平均です。開発職の水準は、事業会社の求人票や転職エージェント経由で確認することをおすすめします。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
@@ -146,7 +146,7 @@ export default function GameSalaryRanking() {
 
         <h2>ゲーム業界転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          ゲーム開発職は非公開求人が多く、ポートフォリオの見せ方も選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
+          ゲーム開発職は非公開求人が多く、ポートフォリオの見せ方も選考を左右します。複数の転職エージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
@@ -176,7 +176,7 @@ export default function GameSalaryRanking() {
         </div>
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
-          <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ゲーム業界への転職を考えたら</h2>
+          <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">ゲーム業界への転職を検討する方へ</h2>
           <p className="text-white/70 text-sm mb-6">各社の転職ガイドで一次データを確認したうえで、ポジションごとの詳細は転職エージェントを通じてご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/company/maker-salary/" className="btn-outline px-8 py-3">メーカーの年収ランキングも見る</Link>

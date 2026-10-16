@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "HIGH-FIVE(ハイファイブ)の評判は？クリエイター専門転職エージェントを解説【2026年】",
-  description: "HIGH-FIVE(ハイファイブ)はクリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェント。「量より質」を掲げ、UI/UXデザイナーやWebディレクター等の求人を扱います。特徴を公式情報ベースで解説。利用は無料です。",
+  description: "HIGH-FIVE(ハイファイブ)はクリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェントです。「量より質」を掲げ、UI/UXデザイナーやWebディレクター等の求人を扱います。特徴を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/highfive/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>デザイナー・クリエイター専門の転職エージェント</strong>。UI/UXデザイナー・Webディレクター・アートディレクター・フロントエンドエンジニア等が対象です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>デザイナー・クリエイター専門の転職エージェントです</strong>。UI/UXデザイナー・Webディレクター・アートディレクター・フロントエンドエンジニア等が対象です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>「量より質」を掲げ、価値観に合う求人だけを紹介</strong>する方針を公式に打ち出しています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営はクリエイター人材大手のクリーク・アンド・リバー社</strong>(東証プライム上場)。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>運営はクリエイター人材大手のクリーク・アンド・リバー社</strong>(東証プライム上場)です。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -82,9 +82,9 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：HIGH-FIVE公式サイト(high-five.careers)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>HIGH-FIVE(ハイファイブ)の特徴(公式公表ベース)</h2>
+        <h2>HIGH-FIVE(ハイファイブ)の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">「量より質」の求人紹介方針</h3><p className="text-sm text-text-secondary leading-relaxed">量より質を重視した求人が多数、価値観に合う求人・企業だけを紹介と公式トップで明言しています。大量応募型が合わない人向けの設計です。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">「量より質」の求人紹介方針</h3><p className="text-sm text-text-secondary leading-relaxed">「量より質を重視した求人が多数」「価値観に合う求人・企業だけを紹介」と公式トップで明言しています。大量応募型が合わない人向けの設計です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">クリエイティブ職種の網羅性</h3><p className="text-sm text-text-secondary leading-relaxed">UI/UXからグラフィック、フロントエンド、プロダクトマネージャーまで、クリエイティブ関連職種を幅広くカバーしています。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">クリエイター人材大手の運営基盤</h3><p className="text-sm text-text-secondary leading-relaxed">運営のクリーク・アンド・リバー社はクリエイター領域の人材サービスを長年展開しており、ゲーム特化の「ファミキャリ!」など兄弟サービスも持ちます。</p></div>
         </div>
@@ -102,8 +102,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>クリエイティブ職以外への転職 →総合型エージェントへ</li>
-              <li>ゲーム業界に絞りたい人 →<a href="/review/famicari/" className="text-teal underline">ファミキャリ!</a>も比較を</li>
+              <li>クリエイティブ職以外へ転職したい人 →総合型エージェントの利用をおすすめします</li>
+              <li>ゲーム業界に絞りたい人 →<a href="/review/famicari/" className="text-teal underline">ファミキャリ!</a>との比較をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>HIGH-FIVEは、「量より質」を掲げるクリエイター専門転職エージェントです。クリエイティブ職種の網羅性と大手運営の基盤が特徴で、利用は無料です。クリエイターの転職では、同系のマイナビクリエイター等と2社併用して提案の質を比較するのがおすすめです。</p>
+        <p>HIGH-FIVEは、「量より質」を掲げるクリエイター専門転職エージェントです。クリエイティブ職種の網羅性と大手運営の基盤が特徴で、利用は無料です。クリエイターの転職では、同系のマイナビクリエイター等と2社併用し、提案の質を比較することをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

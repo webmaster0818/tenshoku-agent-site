@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約843万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>761万円（2024年3月期）→833万円（2025年3月期）→843万円（2026年3月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用は公式採用情報ページで確認可能（2026年9月10日確認）。</li>
+            <li>761万円（2024年3月期）→833万円（2025年3月期）→843万円（2026年3月期）と推移しています（2年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式採用情報ページで確認できます（2026年9月10日確認）。</li>
             <li>全従業員平均であり、職種による差があります。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトの採用情報から新卒・キャリア採用の窓口を確認できます。</li>
             <li>機能材料の研究開発・生産技術・グローバル職の採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で日東電工のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -141,7 +141,7 @@ export default function CompanyCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
             { title: "ニッチトップ戦略", desc: "光学フィルムなど「参入領域で世界シェア上位」を狙う経営で知られます。" },
-            { title: "核酸医薬への展開", desc: "材料メーカーながら核酸医薬受託で存在感を持つ独自ポートフォリオです。" },
+            { title: "核酸医薬への展開", desc: "材料メーカーでありながら核酸医薬の受託で存在感を持つ、独自の事業ポートフォリオです。" },
             { title: "大阪本社のグローバル企業", desc: "海外売上比率が高く、関西拠点で世界と仕事ができます。" },
             { title: "研究開発・プロセス技術", desc: "化学・材料・電子工学系の専門職採用が中心です。" }
           ].map((point) => (
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、職種による差があります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">日東電工転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

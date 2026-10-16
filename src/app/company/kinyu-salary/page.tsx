@@ -16,14 +16,14 @@ export const metadata: Metadata = {
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円", term: "2026年3月期", note: "2年で+494万円の急上昇。市況・業績連動の性格が強い持株単体値", hd: true, field: "証券" },
-  { rank: 2, slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円", term: "2026年3月期", note: "国内最大級の損保グループ。1,400〜1,500万円台の高水準で推移", hd: true, field: "損害保険" },
-  { rank: 3, slug: "nomura", name: "野村HD", salary: "約1,420万円", term: "2026年3月期", note: "国内最大手証券。持株単体は平均勤続4.3年と中途中心の特殊な構成", hd: true, field: "証券" },
-  { rank: 4, slug: "sompo", name: "SOMPO HD", salary: "約1,259万円", term: "2026年3月期", note: "損保ジャパン+介護のSOMPOケアを展開。1,200万円台で推移", hd: true, field: "損害保険" },
-  { rank: 5, slug: "ms-ad", name: "MS&ADインシュアランスGHD", salary: "約1,237万円", term: "2026年3月期", note: "三井住友海上・あいおいの2大損保。平均勤続21.7年の長期就業型", hd: true, field: "損害保険" },
-  { rank: 6, slug: "smfg", name: "三井住友FG", salary: "約1,180万円", term: "2026年3月期", note: "3メガバンクで最高値。2年連続上昇", hd: true, field: "銀行" },
-  { rank: 7, slug: "mufg", name: "三菱UFJ FG", salary: "約1,170万円", term: "2026年3月期", note: "国内最大の金融グループ。2年で+123万円", hd: true, field: "銀行" },
-  { rank: 8, slug: "mizuho-fg", name: "みずほFG", salary: "約1,166万円", term: "2026年3月期", note: "銀信証一体運営。2年連続上昇でメガバンク3行が1,100万円台後半に並ぶ", hd: true, field: "銀行" },
+  { rank: 1, slug: "daiwa", name: "大和証券グループ本社", salary: "約1,793万円", term: "2026年3月期", note: "2年で+494万円の急上昇です。市況・業績連動の性格が強い持株会社単体の値です。", hd: true, field: "証券" },
+  { rank: 2, slug: "tokio-marine", name: "東京海上HD", salary: "約1,487万円", term: "2026年3月期", note: "国内最大級の損保グループです。1,400〜1,500万円台の高水準で推移しています。", hd: true, field: "損害保険" },
+  { rank: 3, slug: "nomura", name: "野村HD", salary: "約1,420万円", term: "2026年3月期", note: "国内最大手の証券グループです。持株会社単体は平均勤続4.3年と、中途入社者中心の特殊な構成です。", hd: true, field: "証券" },
+  { rank: 4, slug: "sompo", name: "SOMPO HD", salary: "約1,259万円", term: "2026年3月期", note: "損保ジャパンと介護のSOMPOケアを展開しています。1,200万円台で推移しています。", hd: true, field: "損害保険" },
+  { rank: 5, slug: "ms-ad", name: "MS&ADインシュアランスGHD", salary: "約1,237万円", term: "2026年3月期", note: "三井住友海上・あいおいの2大損保を擁するグループです。平均勤続21.7年の長期就業型です。", hd: true, field: "損害保険" },
+  { rank: 6, slug: "smfg", name: "三井住友FG", salary: "約1,180万円", term: "2026年3月期", note: "3メガバンクで最高値です。2年連続で上昇しています。", hd: true, field: "銀行" },
+  { rank: 7, slug: "mufg", name: "三菱UFJ FG", salary: "約1,170万円", term: "2026年3月期", note: "国内最大の金融グループです。2年で+123万円上昇しています。", hd: true, field: "銀行" },
+  { rank: 8, slug: "mizuho-fg", name: "みずほFG", salary: "約1,166万円", term: "2026年3月期", note: "銀信証一体運営を進めています。2年連続で上昇し、メガバンク3行が1,100万円台後半に並んでいます。", hd: true, field: "銀行" },
 ];
 
 const faqData = [
@@ -33,7 +33,7 @@ const faqData = [
   },
   {
     q: "この数値は銀行員・証券マン全体の平均年収ですか？",
-    a: "いいえ。有価証券報告書の平均年間給与は「提出会社(持株会社)単体」の数値で、本社機能に勤務する社員中心の平均です。三菱UFJ銀行や野村證券など事業会社の全行員・全社員の平均とは母集団が異なります(事業会社単体の有価証券報告書は提出されないため公表値がありません)。グループの給与水準の高さを示す指標として見てください。",
+    a: "いいえ。有価証券報告書の平均年間給与は「提出会社(持株会社)単体」の数値で、本社機能に勤務する社員中心の平均です。三菱UFJ銀行や野村證券など事業会社の全行員・全社員の平均とは母集団が異なります(事業会社単体の有価証券報告書は提出されないため公表値がありません)。グループの給与水準の高さを示す指標としてご参照ください。",
   },
   {
     q: "メガバンク3行の年収に差はありますか？",
@@ -45,7 +45,7 @@ const faqData = [
   },
   {
     q: "金融業界の中途採用はどこに応募すればいいですか？",
-    a: "8グループとも事業会社(三菱UFJ銀行・三井住友銀行・野村證券・東京海上日動・損保ジャパン・三井住友海上など)が公式キャリア採用サイトで募集を公開しています(2026年9月6日確認)。ハイクラス・専門職は非公開求人も多いため、金融に強いエージェントやスカウト型サービスの併用が実質的な入口になります。",
+    a: "8グループとも事業会社(三菱UFJ銀行・三井住友銀行・野村證券・東京海上日動・損保ジャパン・三井住友海上など)が公式キャリア採用サイトで募集を公開しています(2026年9月6日確認)。ハイクラス・専門職は非公開求人も多いため、金融に強い転職エージェントやスカウト型サービスの併用が有効です。",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function ItConsultantSalaryRanking() {
             金融業界の年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
-            メガバンク・証券・損保8グループの平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）だけでランキングしました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。コンサル・SI・品質保証まで、持株会社単体と事業会社の違い、中途採用の入口もあわせて解説します。
+            メガバンク・証券・損保8グループの平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）のみにもとづいてランキング形式でまとめています。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。持株会社単体と事業会社の違い、中途採用の入口もあわせて解説します。
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function ItConsultantSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社=持株会社単体・賞与含む）。事業会社(銀行・証券・保険会社本体)の平均とは母集団が異なります。IR BANK掲載値を2026年9月6日に確認。決算期が各社で異なるため、単純比較の際は時点差にご留意ください。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社=持株会社単体・賞与含む）。事業会社(銀行・証券・保険会社本体)の平均とは母集団が異なります。IR BANK掲載値を2026年9月6日に確認しています。決算期が各社で異なるため、単純比較の際は時点差にご留意ください。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>
@@ -136,7 +136,7 @@ export default function ItConsultantSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認することをおすすめします。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
@@ -148,16 +148,16 @@ export default function ItConsultantSalaryRanking() {
           </div>
         </div>
 
-        <h2>金融業界の転職で活用したいエージェント</h2>
+        <h2>金融業界の転職で活用したい転職エージェント</h2>
         <p className="text-sm text-text-muted mb-4">
-          金融は非公開求人が多く、専門性の見せ方が選考を左右します。複数のエージェントに登録し、求人と情報を幅広く集めることをおすすめします。
+          金融は非公開求人が多く、専門性の見せ方が選考を左右します。複数の転職エージェントに登録し、求人と情報を幅広く集めることをおすすめします。
         </p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。メガバンクから地銀・保険・証券まで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。金融の同業比較・年収レンジ把握がしやすい点が特長です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・高度専門職クラスの市場価値の把握に適しています。金融ハイクラス求人が多く集まります。" },
-            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・金融専門職に強みがあります。銀行・証券・保険のミドル〜ハイクラスに。" },
+            { name: "JACリクルートメント", href: "/review/jac/", desc: "ハイクラス・金融専門職に強みがあります。銀行・証券・保険のミドル〜ハイクラス層の転職に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

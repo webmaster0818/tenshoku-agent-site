@@ -6,21 +6,21 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/levtech/" },
-  title: "レバテックキャリアの評判・口コミは？「ひどい」噂の真相とIT転職での実力を徹底解説",
+  title: "レバテックキャリアの評判・口コミは？「ひどい」と言われる理由とIT転職での強みを解説",
   description:
-    "レバテックキャリアの評判・口コミを徹底調査。「ひどい」「電話がしつこい」と言われる理由と実態、IT・Webエンジニア／クリエイターに特化した強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
+    "レバテックキャリアの評判・口コミを調査し、「ひどい」「電話がしつこい」と言われる理由と実態、IT・Webエンジニア／クリエイターに特化した強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "レバテックキャリアの評判・口コミは？「ひどい」噂の真相とIT転職での実力を徹底解説",
+    title: "レバテックキャリアの評判・口コミは？「ひどい」と言われる理由とIT転職での強みを解説",
     description:
-      "レバテックキャリアの評判・口コミ、IT特化エージェントの実態、メリット・デメリット、向いている人を解説。",
+      "レバテックキャリアの評判・口コミ、IT特化エージェントの実態、メリット・デメリット、向いている人を解説します。",
   },
 };
 
 const faqData = [
   {
-    q: "レバテックキャリアの評判は実際どうですか？「ひどい」って本当？",
-    a: "「ひどい」「やばい」と検索されるのは、登録直後に電話・連絡が多い、実務経験が浅い人には紹介求人が少ない、といった声が一因です。これはIT特化エージェント共通の傾向で、面談時に連絡手段・頻度・希望条件を伝えれば改善します。一方で「IT業界に詳しいアドバイザーが多い」「技術を理解した上で提案してくれる」という肯定的な評判が多く、致命的なトラブルが多いサービスではありません。",
+    q: "レバテックキャリアの評判は実際どうですか？「ひどい」というのは本当ですか？",
+    a: "「ひどい」「やばい」と検索されるのは、登録直後に電話・連絡が多い、実務経験が浅い人には紹介求人が少ない、といった声が一因です。これはIT特化エージェント共通の傾向で、面談時に連絡手段・頻度・希望条件を伝えることで改善が期待できます。一方で「IT業界に詳しいアドバイザーが多い」「技術を理解した上で提案してくれる」という肯定的な評判が多く、致命的なトラブルが多いサービスではありません。",
   },
   {
     q: "レバテックキャリアはITエンジニア転職に強いですか？",
@@ -28,7 +28,7 @@ const faqData = [
   },
   {
     q: "レバテックキャリアの登録は無料ですか？",
-    a: "はい、求職者の登録・利用は完全無料です（公式明記）。カウンセリング、求人紹介、書類添削、面接対策、年収交渉まですべて無料で利用できます。サービスは採用企業からの報酬で運営されています。",
+    a: "はい、求職者の登録・利用は無料です（公式サイトでは「完全無料」と明記）。カウンセリング、求人紹介、書類添削、面接対策、年収交渉まですべて無料で利用できます。サービスは採用企業からの報酬で運営されています。",
   },
   {
     q: "レバテックキャリアは電話・連絡がしつこいと聞きましたが対処法は？",
@@ -85,7 +85,7 @@ export default function LevtechReview() {
           <div className="flex items-center gap-3 mb-3">
             <span className="inline-flex items-center rounded-full bg-teal/10 text-teal text-xs font-bold px-3 py-1 whitespace-nowrap">IT特化</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
-              レバテックキャリアの評判・口コミは？「ひどい」噂の真相を徹底解説
+              レバテックキャリアの評判・口コミは？「ひどい」と言われる理由とIT転職での強みを解説
             </h1>
           </div>
           <p className="text-text-secondary leading-relaxed">
@@ -105,15 +105,15 @@ export default function LevtechReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>「ひどい」の正体は連絡量の多さと、経験の浅い人へのミスマッチ</strong>。IT特化エージェント共通の傾向で、希望条件・連絡方法を最初に伝えれば改善できます。</span>
+              <span><strong>「ひどい」と言われる主な理由は、連絡量の多さと、経験の浅い人とのミスマッチです</strong>。IT特化エージェント共通の傾向で、希望条件・連絡方法を最初に伝えれば改善できます。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>技術を理解したアドバイザーによる提案力</strong>が他社にない強み。IT・Web業界で経験を活かして年収アップ・キャリアアップを狙う人に向きます。</span>
+              <span><strong>技術を理解したアドバイザーによる提案力</strong>が他社にない強みです。IT・Web業界で経験を活かして年収アップ・キャリアアップを狙う人に向きます。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>登録・利用は完全無料</strong>。実務経験があるエンジニア／クリエイターなら、まず市場価値を知る目的でも相談する価値があります。</span>
+              <span><strong>登録・利用は無料です</strong>。実務経験があるエンジニア／クリエイターなら、まず市場価値を知る目的でも相談する価値があります。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -144,14 +144,14 @@ export default function LevtechReview() {
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">レバテック株式会社</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">IT・Webエンジニア／クリエイターに特化した転職エージェント</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">IT特化型として業界最大級（具体的件数は時期で変動するため公式の最新表示を要確認）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料（公式明記）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">IT特化型として業界最大級（具体的件数は時期により変動するため、公式サイトの最新表示をご確認ください）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトでは「完全無料」と明記）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象</th><td className="px-3 py-2 border-b">実務経験のあるITエンジニア・Webクリエイターが中心</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国（求人数は都市部で多い傾向。リモート案件もあり）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：レバテックキャリア公式（career.levtech.jp）、レバテック株式会社会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式の表示をご確認ください（要確認）。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：レバテックキャリア公式（career.levtech.jp）、レバテック株式会社会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 評判・口コミ（メイン検索意図） */}
         <h2>レバテックキャリアの評判・口コミの傾向</h2>
@@ -163,23 +163,23 @@ export default function LevtechReview() {
           <div className="glass-card p-5">
             <p className="font-bold text-teal mb-2">良い評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>アドバイザーがIT業界・技術に詳しく、話が早い</li>
-              <li>使用言語・開発環境を踏まえた求人を紹介してくれる</li>
-              <li>年収交渉・条件交渉のサポートが的確</li>
-              <li>企業の内部事情や技術スタックまで詳しく教えてくれる</li>
+              <li>アドバイザーがIT業界・技術に詳しく、話がスムーズに進みます</li>
+              <li>使用言語・開発環境を踏まえた求人を紹介してもらえます</li>
+              <li>年収交渉・条件交渉のサポートが的確です</li>
+              <li>企業の内部事情や技術スタックまで詳しく教えてもらえます</li>
             </ul>
           </div>
           <div className="glass-card p-5">
             <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>登録直後の電話・連絡が多いと感じる場合がある</li>
-              <li>実務経験が浅いと紹介求人が少ないことがある</li>
-              <li>提案スピードが速く、急かされると感じる人も</li>
-              <li>担当アドバイザーの当たり外れがある</li>
+              <li>登録直後の電話・連絡が多いと感じる場合があります</li>
+              <li>実務経験が浅いと紹介求人が少ないことがあります</li>
+              <li>提案スピードが速く、急かされると感じる人もいます</li>
+              <li>担当アドバイザーによって対応に差があります</li>
             </ul>
           </div>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：みん評・オリコン顧客満足度ランキング等の口コミサイトに見られる評判の傾向（2026年6月確認）。具体的な口コミ件数・評点は時期で変動するため引用していません（要確認）。良し悪しは担当アドバイザーの相性や自身の経験レベルに左右されやすいのが共通見解です。</p>
+        <p className="text-xs text-text-muted mb-8">出典：みん評・オリコン顧客満足度ランキング等の口コミサイトに見られる評判の傾向（2026年6月確認）。具体的な口コミ件数・評点は時期により変動するため引用していません。良し悪しは担当アドバイザーの相性や自身の経験レベルに左右されやすいのが共通見解です。</p>
 
         {/* ひどい・やばい噂の真相 */}
         <h2>「レバテックキャリアはひどい・やばい」と言われる理由と実態</h2>
@@ -192,7 +192,7 @@ export default function LevtechReview() {
           {[
             {
               fear: "電話・連絡がしつこい",
-              truth: "登録直後は連絡が集中しがち。面談で「連絡はメール中心」「対応可能な時間帯」を伝えれば改善します。IT特化は提案スピードが速い傾向があるため、希望を最初に共有するのがコツです。",
+              truth: "登録直後は連絡が集中しがちです。面談で「連絡はメール中心」「対応可能な時間帯」を伝えることで改善が期待できます。IT特化型は提案スピードが速い傾向があるため、希望を最初に共有することをおすすめします。",
             },
             {
               fear: "紹介できる求人がないと言われた",
@@ -204,11 +204,11 @@ export default function LevtechReview() {
             },
             {
               fear: "転職を急かされる感じがする",
-              truth: "転職時期が未定なら「情報収集段階」と最初に伝えればOK。まずは市場価値やキャリアの選択肢を知る相談から始めても問題ありません。",
+              truth: "転職時期が未定の場合は、「情報収集段階」と最初に伝えておくことをおすすめします。まずは市場価値やキャリアの選択肢を知る相談から始めても問題ありません。",
             },
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
-              <p className="font-bold text-teal-dark mb-1 text-sm">噂：{item.fear}</p>
+              <p className="font-bold text-teal-dark mb-1 text-sm">よくある声：{item.fear}</p>
               <p className="text-sm text-text-secondary leading-relaxed">実態：{item.truth}</p>
             </div>
           ))}
@@ -225,7 +225,7 @@ export default function LevtechReview() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           {[
             { title: "技術に強いアドバイザー", desc: "IT・Web業界の知見を持つアドバイザーが、技術背景を理解した上で提案してくれます。" },
-            { title: "専門性を活かせる求人", desc: "エンジニア・クリエイターの経験やスキルを評価する求人が中心。年収アップも狙えます。" },
+            { title: "専門性を活かせる求人", desc: "エンジニア・クリエイターの経験やスキルを評価する求人が中心です。年収アップも期待できます。" },
             { title: "企業情報の解像度が高い", desc: "技術スタックや開発体制など、入社後のミスマッチを防ぐ情報を得やすいのが特徴です。" },
           ].map((f) => (
             <div key={f.title} className="card-hover p-5">
@@ -239,10 +239,10 @@ export default function LevtechReview() {
         <h2>レバテックキャリア 利用の流れ</h2>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "無料会員登録", desc: "公式サイトから基本情報を入力して登録。数分で完了します。実務経験やスキルを入力しておくと、その後の提案精度が上がります。" },
-            { step: 2, title: "アドバイザーとのカウンセリング", desc: "電話・オンラインでのカウンセリングに対応。経歴・技術・希望条件・キャリアプランを丁寧にヒアリング。ここで連絡方法や希望を具体的に伝えると精度が上がります。" },
-            { step: 3, title: "求人紹介・応募・選考", desc: "技術要件を踏まえた求人を紹介。応募書類の添削、面接対策、企業ごとの傾向共有までサポートします。" },
-            { step: 4, title: "内定・年収交渉・入社", desc: "内定後の年収交渉や入社日の調整もサポート。専門性を踏まえた交渉が期待できます。" },
+            { step: 1, title: "無料会員登録", desc: "公式サイトから基本情報を入力して登録します。数分で完了します。実務経験やスキルを入力しておくと、その後の提案精度が上がります。" },
+            { step: 2, title: "アドバイザーとのカウンセリング", desc: "電話・オンラインでのカウンセリングに対応しています。経歴・技術・希望条件・キャリアプランを丁寧にヒアリングします。ここで連絡方法や希望を具体的に伝えると精度が上がります。" },
+            { step: 3, title: "求人紹介・応募・選考", desc: "技術要件を踏まえた求人を紹介します。応募書類の添削、面接対策、企業ごとの傾向共有までサポートします。" },
+            { step: 4, title: "内定・年収交渉・入社", desc: "内定後の年収交渉や入社日の調整もサポートします。専門性を踏まえた交渉が期待できます。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -261,12 +261,12 @@ export default function LevtechReview() {
             <h3 className="font-bold text-teal mb-3">メリット</h3>
             <ul className="space-y-2">
               {[
-                "IT・Web業界に精通したアドバイザーが対応",
-                "使用言語・開発環境を踏まえた求人紹介",
-                "専門性を評価した年収交渉が期待できる",
-                "企業の技術スタック・開発体制まで詳しく知れる",
-                "IT特化型として業界最大級の求人を保有",
-                "求職者は完全無料で利用できる",
+                "IT・Web業界に精通したアドバイザーが対応します",
+                "使用言語・開発環境を踏まえた求人紹介を受けられます",
+                "専門性を評価した年収交渉が期待できます",
+                "企業の技術スタック・開発体制まで詳しく知ることができます",
+                "IT特化型として業界最大級の求人を保有しています",
+                "求職者は無料で利用できます",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}
@@ -278,11 +278,11 @@ export default function LevtechReview() {
             <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
-                "実務経験が浅い・未経験には紹介求人が限られる",
-                "IT・Web業界以外の求人は扱っていない",
-                "登録直後は連絡量が多くなりがち",
-                "提案スピードが速く、急かされると感じる場合も",
-                "エリアによっては求人数に差がある",
+                "実務経験が浅い方や未経験の方には、紹介求人が限られます",
+                "IT・Web業界以外の求人は扱っていません",
+                "登録直後は連絡量が多くなりがちです",
+                "提案スピードが速く、急かされると感じる場合があります",
+                "エリアによって求人数に差があります",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
@@ -307,7 +307,7 @@ export default function LevtechReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>未経験からIT転職を目指す人 →<Link href="/type/it-engineer/" className="text-teal underline">ITエンジニア向けの選び方</Link>も参照</li>
+              <li>未経験からIT転職を目指す人 →<Link href="/type/it-engineer/" className="text-teal underline">ITエンジニア向けの選び方</Link>も参考になります</li>
               <li>IT以外も含め幅広く比較したい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
               <li>自分でも求人を探しつつ支援も受けたい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link></li>
               <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
@@ -334,10 +334,10 @@ export default function LevtechReview() {
         {/* CTA */}
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            レバテックキャリアで転職活動を始めよう
+            レバテックキャリアの無料登録について
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            IT・Web業界に精通したアドバイザーが、あなたの専門性を活かした転職をサポート。登録は無料です。
+            IT・Web業界に精通したアドバイザーが、専門性を活かした転職をサポートします。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

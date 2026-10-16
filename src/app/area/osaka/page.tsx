@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/osaka/" },
   title: "大阪でおすすめの転職エージェント5選｜関西の求人事情と活用法",
   description:
-    "大阪で転職を考えている方におすすめの転職エージェントを紹介。大阪・関西エリアの求人市場の特徴、業界別の求人傾向、エージェント活用のコツを解説します。",
+    "大阪で転職を考えている方におすすめの転職エージェントを紹介し、大阪・関西エリアの求人市場の特徴、業界別の求人傾向、転職エージェントの活用方法を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "大阪でおすすめの転職エージェント5選｜関西の求人事情と活用法",
-    description: "大阪での転職に強いエージェントを厳選紹介。",
+    description: "大阪での転職に強い転職エージェントを厳選して紹介します。",
   },
 };
 
@@ -62,10 +62,10 @@ export default function OsakaPage() {
         <h2>大阪の転職に強いエージェントランキング</h2>
         <div className="space-y-4 mb-10">
           {[
-            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "大阪・梅田に拠点を持ち、関西エリアの求人を豊富に保有。大阪府内だけでなく、兵庫・京都・奈良など関西圏全体の求人を紹介してもらえます。" },
-            { rank: 2, name: "doda", href: "/review/doda/", desc: "大阪に拠点があり、関西の転職市場に精通したアドバイザーが在籍。メーカーやIT業界を中心に、大阪の求人が充実しています。" },
+            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "大阪・梅田に拠点を持ち、関西エリアの求人を豊富に保有しています。大阪府内だけでなく、兵庫・京都・奈良など関西圏全体の求人を紹介してもらえます。" },
+            { rank: 2, name: "doda", href: "/review/doda/", desc: "大阪に拠点があり、関西の転職市場に精通したアドバイザーが在籍しています。メーカーやIT業界を中心に、大阪の求人が充実しています。" },
             { rank: 3, name: "マイナビエージェント", href: "/review/mynavi/", desc: "大阪に拠点を構え、関西の中小企業から大手企業まで幅広い求人を取り扱っています。地場企業の求人にも強みがあります。" },
-            { rank: 4, name: "JACリクルートメント", href: "/review/jac/", desc: "大阪に拠点があり、関西のグローバル企業や外資系企業の求人を保有。管理職や専門職の転職に強みがあります。" },
+            { rank: 4, name: "JACリクルートメント", href: "/review/jac/", desc: "大阪に拠点があり、関西のグローバル企業や外資系企業の求人を保有しています。管理職や専門職の転職に強みがあります。" },
             { rank: 5, name: "ビズリーチ", href: "/review/bizreach/", desc: "大阪のハイクラス求人も掲載されています。関西に本社を持つ大手企業のエグゼクティブポジションなどのスカウトが届く可能性があります。" },
           ].map((agent) => (
             <div key={agent.rank} className="card-hover p-5">
@@ -119,10 +119,10 @@ export default function OsakaPage() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            大阪でのキャリアを広げよう
+            大阪でのキャリア形成について
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            関西最大の求人市場で、あなたに最適なポジションを見つけましょう。
+            関西最大の求人市場の中から、ご自身に合うポジションを探す際の参考にしてください。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/recruit-agent/" className="btn-accent px-8 py-3">

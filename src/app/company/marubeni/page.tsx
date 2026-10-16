@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,784万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月5日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,654万円（2024年3月期）→1,708万円（2025年3月期）→1,784万円（2026年3月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用は公式キャリア採用情報で確認可能（2026年9月5日確認）。</li>
+            <li>1,654万円（2024年3月期）→1,708万円（2025年3月期）→1,784万円（2026年3月期）と推移しています（2年連続で上昇）。</li>
+            <li>キャリア採用の情報は公式キャリア採用情報ページで確認できます（2026年9月5日確認）。</li>
             <li>2年連続の上昇です。全従業員平均であり、賞与等を含む値です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式採用サイトにキャリア採用情報の一覧が公開されています。</li>
             <li>営業部門・コーポレート部門のポジション別採用が中心です。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で丸紅のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -142,7 +142,7 @@ export default function CompanyCareer() {
           {[
             { title: "食料・アグリ事業の知見", desc: "穀物取扱いや食品流通は丸紅の看板領域で、食品・農業関連の実務経験が直結します。" },
             { title: "電力・インフラの経験", desc: "IPP(独立系発電事業)など電力事業に強く、エネルギー業界経験が評価されます。" },
-            { title: "挑戦を歓迎する文化", desc: "「正・新・和」の社是のもと、新領域への挑戦を打ち出す文化です。" },
+            { title: "挑戦を歓迎する文化", desc: "「正・新・和」の社是のもと、新領域への挑戦を重視する文化があります。" },
             { title: "財務・リスク管理の実務", desc: "事業投資のリスク管理・財務系ポジションの採用も継続的にあります。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>2年連続の上昇です。全従業員平均であり、賞与等を含む値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">丸紅転職で活用したい転職エージェント</h2>

@@ -62,11 +62,11 @@ export default function FukuokaPage() {
         <h2>福岡の転職に強いエージェントランキング</h2>
         <div className="space-y-4 mb-10">
           {[
-            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "福岡・博多に拠点を持ち、九州エリアの求人を豊富に保有。地場企業から全国展開企業まで幅広い求人を紹介してもらえます。" },
-            { rank: 2, name: "doda", href: "/review/doda/", desc: "福岡に拠点があり、九州エリアの転職市場に精通したアドバイザーが在籍。IT・Web業界を含む多様な求人を保有しています。" },
+            { rank: 1, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "福岡・博多に拠点を持ち、九州エリアの求人を豊富に保有しています。地場企業から全国展開企業まで幅広い求人を紹介してもらえます。" },
+            { rank: 2, name: "doda", href: "/review/doda/", desc: "福岡に拠点があり、九州エリアの転職市場に精通したアドバイザーが在籍しています。IT・Web業界を含む多様な求人を保有しています。" },
             { rank: 3, name: "マイナビエージェント", href: "/review/mynavi/", desc: "福岡に拠点を持ち、九州の地場企業や成長企業の求人に強みがあります。20代・30代の転職支援が特に充実しています。" },
             { rank: 4, name: "JACリクルートメント", href: "/review/jac/", desc: "福岡に拠点があり、九州に進出している外資系企業やグローバル企業の管理職・専門職求人を保有しています。" },
-            { rank: 5, name: "ビズリーチ", href: "/review/bizreach/", desc: "福岡エリアのハイクラス求人も掲載。九州の大手企業や成長企業からスカウトが届く可能性があります。" },
+            { rank: 5, name: "ビズリーチ", href: "/review/bizreach/", desc: "福岡エリアのハイクラス求人も掲載しています。九州の大手企業や成長企業からスカウトが届く可能性があります。" },
           ].map((agent) => (
             <div key={agent.rank} className="card-hover p-5">
               <div className="flex items-center gap-3 mb-2">
@@ -119,10 +119,10 @@ export default function FukuokaPage() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            福岡でのキャリアを広げよう
+            福岡での転職に向けて
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            成長が続く福岡で、あなたに最適なポジションを見つけましょう。
+            成長が続く福岡での転職には、地域の求人に詳しい転職エージェントの活用をおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/recruit-agent/" className="btn-accent px-8 py-3">

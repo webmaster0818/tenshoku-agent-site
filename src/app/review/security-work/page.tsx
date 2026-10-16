@@ -4,14 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "セキュリティーワークの評判は？警備員専門の求人・転職サイトを解説【2026年】",
-  description: "0120-753-053はセキュリティーワーク(株式会社ミライユ運営・警備員専門の求人サイト)の無料電話相談窓口です(平日9:30〜18:30)。施設警備・交通誘導・機械警備の求人を全国掲載し、60歳以上活躍中・日払い週払い可などの条件検索に対応。公式情報ベースで解説します。",
+  description: "0120-753-053はセキュリティーワーク(株式会社ミライユ運営・警備員専門の求人サイト)の無料電話相談窓口です(平日9:30〜18:30)。施設警備・交通誘導・機械警備の求人を全国掲載し、60歳以上活躍中・日払い週払い可などの条件検索に対応しています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/security-work/" },
 };
 
 const faqData = [
   {
     q: "0120-753-053はどこの電話番号ですか？",
-    a: "警備員専門の求人・転職サイト「セキュリティーワーク」(株式会社ミライユ運営)の無料電話相談窓口です(受付は平日9:30〜18:30・公式サイト記載)。求人への応募や相談に関する連絡で、身に覚えがない場合は登録・応募の有無を確認のうえ対応してください。",
+    a: "警備員専門の求人・転職サイト「セキュリティーワーク」(株式会社ミライユ運営)の無料電話相談窓口です(受付は平日9:30〜18:30・公式サイト記載)。求人への応募や相談に関する連絡で、身に覚えがない場合は登録・応募の有無を確認のうえご対応ください。",
   },
   {
     "q": "セキュリティーワークの利用に費用はかかりますか？",
@@ -61,7 +61,7 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>警備員専門の求人・転職サイト</strong>。施設警備・交通誘導・機械警備の業務内容別に探せます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>警備員専門の求人・転職サイト</strong>です。施設警備・交通誘導・機械警備の業務内容別に探せます。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>60歳以上活躍中・ブランクOK・日払い週払い可</strong>などシニア・未経験にも開かれた条件検索が特徴です。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>電話での無料相談(0120-753-053・平日9:30〜18:30)</strong>に対応し、利用は無料です。</span></li>
           </ul>
@@ -98,14 +98,14 @@ export default function Page() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>警備業界で職場を変えたい現役警備員</li>
               <li>60歳以上・定年後の再就職先を探している人</li>
-              <li>未経験から警備の仕事を始めたい人(履歴書不要求人の例も)</li>
+              <li>未経験から警備の仕事を始めたい人(履歴書不要の求人例もあります)</li>
             </ul>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>警備以外の職種も含めて探したい人 →総合型サービスへ</li>
-              <li>管制・営業などの警備会社内勤職 →求人有無を電話相談で確認を</li>
+              <li>警備以外の職種も含めて探したい人 →総合型サービスをおすすめします</li>
+              <li>管制・営業などの警備会社内勤職 →求人の有無を電話相談でご確認ください</li>
             </ul>
           </div>
         </div>

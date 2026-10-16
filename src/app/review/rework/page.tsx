@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/rework/" },
   title: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年10月】",
   description:
-    "Re:WORK(リワーク)エージェントの口コミ・評判を出典つきで整理。株式会社Nexly運営の未経験転職専門エージェントの求人数・利用の流れ・注意点を2026年10月14日に公式で確認。復職支援のリワークとは別サービスです。",
+    "Re:WORK(リワーク)エージェントの口コミ・評判を出典を明記して整理しています。株式会社Nexly運営の未経験転職専門エージェントの求人数・利用の流れ・注意点は2026年10月14日に公式サイトで確認しています。復職支援のリワークとは別サービスです。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年10月】",
     description:
-      "Re:WORK(リワーク)エージェントの口コミ・評判と注意点を、公式データと確認日つきで整理。利用は無料です。",
+      "Re:WORK(リワーク)エージェントの口コミ・評判と注意点を、公式データにもとづき確認日を明記して整理しています。利用は無料です。",
   },
 };
 
@@ -28,11 +28,11 @@ const faqData = [
   },
   {
     q: "運営会社はどんな会社ですか？",
-    a: "株式会社Nexly（本社：兵庫県伊丹市、創業2021年11月・設立2024年5月、代表：大林諒）です。有料職業紹介事業許可番号（28-ユ-301343）を公式サイトの運営者情報で公開しています。設立から日が浅い会社のため、大手総合型エージェントと併用しながら使うのが現実的です。",
+    a: "株式会社Nexly（本社：兵庫県伊丹市、創業2021年11月・設立2024年5月、代表：大林諒）です。有料職業紹介事業許可番号（28-ユ-301343）を公式サイトの運営者情報で公開しています。設立から日が浅い会社のため、大手総合型エージェントと併用しながら利用することをおすすめします。",
   },
   {
     q: "Re:WORKエージェントは「やばい」「怪しい」会社ではありませんか？",
-    a: "運営会社の株式会社Nexlyは、公式サイトの運営者情報で所在地（兵庫県伊丹市）・代表者・設立日・有料職業紹介事業許可番号（28-ユ-301343）を公開しています（2026年10月14日確認）。一方で設立は2024年5月と新しく、第三者の口コミサイトで確認できる利用者の声はまだほとんどありません。面談で担当者の説明や紹介求人の内容を確かめ、大手と併用しながら判断するのが確実です。",
+    a: "運営会社の株式会社Nexlyは、公式サイトの運営者情報で所在地（兵庫県伊丹市）・代表者・設立日・有料職業紹介事業許可番号（28-ユ-301343）を公開しています（2026年10月14日確認）。一方で設立は2024年5月と新しく、第三者の口コミサイトで確認できる利用者の声はまだほとんどありません。面談で担当者の説明や紹介求人の内容を確かめ、大手と併用しながら判断することをおすすめします。",
   },
   {
     q: "精神科などの「リワーク（復職支援）」と関係はありますか？",
@@ -110,19 +110,19 @@ export default function ReworkReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>未経験からの転職に特化した専門エージェント</strong>。紹介可能求人数16,432件以上（2026年10月14日の公式表記）・未経験応募OK求人多数と公式に表記されています。</span>
+              <span><strong>未経験からの転職に特化した専門エージェントです</strong>。紹介可能求人数16,432件以上（2026年10月14日の公式表記）・未経験応募OK求人多数と公式に表記されています。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>専属キャリアアドバイザーが業界分析から面接対策まで伴走</strong>。方向性が固まっていない段階の相談も歓迎と明記されています。</span>
+              <span><strong>専属キャリアアドバイザーが業界分析から面接対策まで伴走します</strong>。方向性が固まっていない段階の相談も歓迎と明記されています。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>有料職業紹介事業許可番号（28-ユ-301343）を公式に公開</strong>。一方で運営の株式会社Nexlyは設立2024年の若い会社のため、大手総合型との併用が現実的です。</span>
+              <span><strong>有料職業紹介事業許可番号（28-ユ-301343）を公式に公開しています</strong>。一方で運営の株式会社Nexlyは設立2024年の若い会社のため、大手総合型との併用をおすすめします。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>利用は完全無料</strong>。適職診断コンテンツも提供されています。</span>
+              <span><strong>利用は無料です</strong>。適職診断コンテンツも提供されています。</span>
             </li>
           </ul>
         </div>
@@ -162,7 +162,7 @@ export default function ReworkReview() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：Re:WORKエージェント公式サイト（rework.nexly.co.jp）および同運営者情報ページ（/about/）、2026年10月14日確認。求人数は変動し、集計時点は公式に記載がありません。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>Re:WORK(リワーク)エージェントの口コミ・評判（出典つきの傾向）</h2>
+        <h2>Re:WORK(リワーク)エージェントの口コミ・評判の傾向（出典明記）</h2>
         <p className="text-sm text-text-secondary mb-4">
           2026年10月14日に「Re:WORK 口コミ」「リワークエージェント 評判」などでWeb検索した範囲では、第三者の口コミサイトにRe:WORKエージェント（株式会社Nexly）の利用者の声は<strong>見つかりませんでした</strong>。
           検索では名前の近い別サービス（「Re就活」「Re Works」）の口コミが表示されやすいため、読む際は運営会社名（Nexly）で見分けてください。
@@ -170,26 +170,26 @@ export default function ReworkReview() {
         </p>
         <div className="grid sm:grid-cols-2 gap-4 mb-4">
           <div className="card-hover p-5">
-            <h3 className="font-bold text-navy mb-2">良い評判につながりやすい点（公式掲載ベース）</h3>
+            <h3 className="font-bold text-navy mb-2">良い評判につながりやすい点（公式掲載情報より）</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>公式の「転職体験記」は1ページ目に12件。歯科助手→医療事務、塾講師→プログラマー、看護師→医療機器営業、フリーター→倉庫管理など<strong>異業種への転職例</strong>が並びます（年代・性別のみの匿名、同社サイト内の掲載）</li>
-              <li>応募書類の添削・オンライン模擬面接（希望者）・落選後も最後まで支援、と伴走型のサポートを明記</li>
-              <li>相談は無料で、方向性が決まっていない段階でも受け付け</li>
+              <li>公式の「転職体験記」は1ページ目に12件掲載されています。歯科助手→医療事務、塾講師→プログラマー、看護師→医療機器営業、フリーター→倉庫管理など<strong>異業種への転職例</strong>が並びます（年代・性別のみの匿名、同社サイト内の掲載）</li>
+              <li>応募書類の添削・オンライン模擬面接（希望者）・落選後も最後まで支援する、と伴走型のサポートを明記しています</li>
+              <li>相談は無料で、方向性が決まっていない段階でも受け付けています</li>
             </ul>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">悪い評判・注意点になりうる点</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>運営会社は2024年5月設立と新しく、<strong>第三者の口コミがまだ少ない</strong></li>
-              <li>未経験転職は平均10〜15社への応募を想定と公式に記載。<strong>応募数が多くなる</strong>前提で計画を</li>
-              <li>紹介可能求人数の表記は8月の39,652件以上から10月は16,432件以上に変わっており、集計時点の記載がない</li>
-              <li>体験記は自社サイト掲載で、収集方法の記載はない</li>
+              <li>運営会社は2024年5月設立と新しく、<strong>第三者の口コミはまだ少ない状況です</strong></li>
+              <li>未経験転職は平均10〜15社への応募を想定していると公式に記載されています。<strong>応募数が多くなる</strong>前提で計画することをおすすめします</li>
+              <li>紹介可能求人数の表記は8月の39,652件以上から10月は16,432件以上に変わっており、集計時点の記載はありません</li>
+              <li>体験記は自社サイト掲載で、収集方法の記載はありません</li>
             </ul>
           </div>
         </div>
         <p className="text-sm text-text-secondary mb-8">
           <strong>当サイトの見方：</strong>未経験特化の相談先として使う価値はありますが、評判を判断できる第三者情報がまだ少ない段階です。
-          実績の多い<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>などの総合型や、IT志望なら<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>と併用し、紹介求人の質を見比べるのが現実的です。
+          実績の多い<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>などの総合型や、IT志望なら<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>と併用し、紹介求人の質を見比べることをおすすめします。
         </p>
 
         <h2>Re:WORKエージェントの利用の流れ</h2>
@@ -200,12 +200,12 @@ export default function ReworkReview() {
           <li>求人応募・面接</li>
         </ol>
 
-        <h2>Re:WORKエージェントの特徴（公式公表ベース）</h2>
+        <h2>Re:WORKエージェントの特徴（公式の公表情報より）</h2>
         <div className="space-y-4 mb-8">
           {[
             {
               title: "「未経験からの転職」だけに絞った専門設計",
-              desc: "総合型エージェントが経験者向け求人を中心に扱うのに対し、Re:WORKは未経験応募OKの求人に特化。接客業からIT業界、工場勤務から一般事務といった異業種チャレンジの支援を公式に掲げています。",
+              desc: "総合型エージェントが経験者向け求人を中心に扱うのに対し、Re:WORKは未経験応募OKの求人に特化しています。接客業からIT業界、工場勤務から一般事務といった異業種チャレンジの支援を公式に掲げています。",
             },
             {
               title: "専属キャリアアドバイザーの伴走サポート",
@@ -213,7 +213,7 @@ export default function ReworkReview() {
             },
             {
               title: "方向性が決まっていなくても相談できる",
-              desc: "「その業界が自分に合っているか」「転職した後に後悔しないか」といった悩み・不安も含めてサポートすると明記。適職診断コンテンツも提供しており、キャリアの棚卸しから始められます。",
+              desc: "「その業界が自分に合っているか」「転職した後に後悔しないか」といった悩み・不安も含めてサポートすると明記しています。適職診断コンテンツも提供しており、キャリアの棚卸しから始められます。",
             },
             {
               title: "許認可情報の公開",
@@ -233,7 +233,7 @@ export default function ReworkReview() {
             <h3 className="font-bold text-navy mb-2">向いている人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>未経験の業界・職種に挑戦したい人（接客→IT、工場→事務など）</li>
-              <li>はじめての転職で、何から始めればいいか分からない人</li>
+              <li>はじめての転職で、何から始めればよいか分からない人</li>
               <li>キャリアの方向性を相談しながら決めたい人</li>
               <li>経歴に自信がなく、大手エージェントで求人紹介を断られた経験がある人</li>
             </ul>
@@ -242,14 +242,14 @@ export default function ReworkReview() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>経験を活かした同業界でのキャリアアップ →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型</li>
-              <li>未経験からIT業界に絞って転職したい人 →IT特化の<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>も比較を</li>
+              <li>未経験からIT業界に絞って転職したい人 →IT特化の<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>との比較もおすすめします</li>
               <li>ハイクラス・管理職志向 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>など</li>
             </ul>
           </div>
         </div>
         <p className="text-sm text-text-secondary mb-8">
           運営会社は設立2024年の若い会社で、大手と比べると実績の蓄積はこれからの段階です。
-          未経験特化の相談窓口として使いつつ、<strong>大手総合型エージェントと2〜3社併用</strong>して求人の幅を確保するのがおすすめです。
+          未経験特化の相談窓口として使いつつ、<strong>大手総合型エージェントと2〜3社併用</strong>して求人の幅を確保することをおすすめします。
           未経験転職の基本戦略は<Link href="/type/inexperienced/" className="text-teal underline">未経験向け転職エージェントまとめ</Link>で解説しています。
         </p>
 
@@ -263,13 +263,13 @@ export default function ReworkReview() {
           ))}
         </div>
 
-        <h2>まとめ：未経験チャレンジの相談窓口として</h2>
+        <h2>まとめ：未経験分野への転職の相談窓口として</h2>
         <p>
           Re:WORKエージェントは、未経験からの転職に特化した専門エージェントです。
           未経験応募OKの求人紹介と専属アドバイザーの伴走サポートを無料で受けられ、
           方向性が固まっていない段階の相談も歓迎されています。
           異業種への挑戦を考えている人は、総合型エージェントと併用しながら、
-          未経験特化の視点を取り入れる使い方が良いでしょう。
+          未経験特化の視点を取り入れる使い方をおすすめします。
         </p>
 
         <FelmatCta slug="rework" heading="Re:WORKエージェントに無料で転職相談する" note="未経験からの転職相談は完全無料です。" />

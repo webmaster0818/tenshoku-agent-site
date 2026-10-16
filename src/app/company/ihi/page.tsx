@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "IHIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "IHI（証券コード7013）への転職を有価証券報告書などの一次データで解説。平均年間給与は約1,000万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "IHI（証券コード7013）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約1,000万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/ihi/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "IHIへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "IHI（7013）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "IHI（7013）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">IHI転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,000万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月3日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>836万円（2024年3月期）→813万円（2025年3月期）→1,000万円（2026年3月期）と推移（最新期に187万円の大幅上昇で1,000万円に到達）。</li>
-            <li>キャリア採用は公式キャリア採用ページで確認可能（2026年9月3日確認）。</li>
+            <li>平均年間給与は約1,000万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月3日確認）で、提出会社単体の全従業員の平均値です。</li>
+            <li>836万円（2024年3月期）→813万円（2025年3月期）→1,000万円（2026年3月期）と推移しています（最新期に187万円の大幅上昇で1,000万円に到達）。</li>
+            <li>キャリア採用の情報は公式キャリア採用ページで確認できます（2026年9月3日確認）。</li>
             <li>最新期に187万円の大幅上昇で1,000万円に到達しました。上昇の内訳は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません。</li>
           </ul>
         </div>
@@ -132,9 +132,9 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトにキャリア採用ページがあり、募集要項を確認できます。</li>
             <li>航空・宇宙・防衛やエネルギーなど事業領域別の募集が公開されています。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用ページでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でIHIのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒でIHIのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">IHIで求められる人材</h2>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>最新期に187万円の大幅上昇で1,000万円に到達しました。上昇の内訳は有価証券報告書の記載範囲では特定できないため当サイトでは断定しません。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">IHI転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

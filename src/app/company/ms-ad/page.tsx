@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "MS&ADインシュアランスグループHDは中途採用を行っていますか？",
-    a: "はい。公式サイトの三井住友海上の公式キャリア採用ページ（ms-ins-saiyou.com/mid-career/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
+    a: "はい。三井住友海上の公式キャリア採用ページ（ms-ins-saiyou.com/mid-career/）でキャリア採用の情報を確認できます（2026年9月6日確認）。",
   },
   {
     q: "MS&ADインシュアランスグループHDはどんな会社ですか？",
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,237万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月6日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>1,101万円（2024年3月期）→1,143万円（2025年3月期）→1,237万円（2026年3月期）と推移（2年連続で上昇）。</li>
-            <li>キャリア採用は三井住友海上の公式キャリア採用ページで確認可能（2026年9月6日確認）。</li>
+            <li>1,101万円（2024年3月期）→1,143万円（2025年3月期）→1,237万円（2026年3月期）と推移しています（2年連続で上昇）。</li>
+            <li>キャリア採用の情報は三井住友海上の公式キャリア採用ページで確認できます（2026年9月6日確認）。</li>
             <li>提出会社は持株会社単体であり、三井住友海上・あいおいニッセイ同和など事業会社の平均とは別の数値です。平均勤続21.7年の長期就業型です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>事業会社の三井住友海上がキャリア採用の募集要項を公開しています。</li>
             <li>あいおいニッセイ同和損保も別途キャリア採用を実施しています。</li>
-            <li>※募集状況は変動するため最新は各社公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新情報は各社の公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でMS&ADインシュアランスGHDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -140,10 +140,10 @@ export default function CompanyCareer() {
         <h2 id="s4">MS&ADで求められる人材</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
-            { title: "損害保険の実務", desc: "三井住友海上・あいおいの2大損保を擁し、損保実務の適合先が広いグループです。" },
-            { title: "長期就業型の文化", desc: "平均勤続21.7年(持株単体)と収録金融グループで最長クラスの安定志向です。" },
+            { title: "損害保険の実務", desc: "三井住友海上・あいおいの2大損保を擁し、損害保険の実務経験を活かせる場が多いグループです。" },
+            { title: "長期就業型の文化", desc: "平均勤続21.7年(持株単体)は、当サイトが収録する金融グループの中で最長クラスです。" },
             { title: "代理店・モビリティ領域", desc: "あいおいはトヨタ系代理店網との連携が強く、自動車業界の知見も活きます。" },
-            { title: "アジア保険事業", desc: "アジアでの損保シェアが高く、海外志向の適合先もあります。" }
+            { title: "アジア保険事業", desc: "アジアでの損保シェアが高く、海外志向の方が活躍できる場もあります。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体であり、三井住友海上・あいおいニッセイ同和など事業会社の平均とは別の数値です。平均勤続21.7年の長期就業型です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">MS&AD転職で活用したい転職エージェント</h2>

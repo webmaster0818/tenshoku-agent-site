@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約1,072万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月3日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>965万円（2024年3月期）→1,017万円（2025年3月期）→1,072万円（2026年3月期）と推移（2年連続で大きく上昇し1,000万円台に定着）。</li>
-            <li>キャリア採用は公式キャリア採用ページで確認可能（2026年9月3日確認）。</li>
+            <li>965万円（2024年3月期）→1,017万円（2025年3月期）→1,072万円（2026年3月期）と推移しています（2年連続で大きく上昇し1,000万円台に定着）。</li>
+            <li>キャリア採用の情報は公式キャリア採用ページで確認できます（2026年9月3日確認）。</li>
             <li>平均1,072万円は当サイト収録メーカーでも上位水準で、重工3社(三菱重工・川崎重工・IHI)では最高です。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>公式サイトにキャリア採用ページがあり、募集ポジション一覧を確認できます(2026年4月にリニューアル)。</li>
             <li>データセンター&エネルギーマネジメント事業など注力領域の特設採用ページも公開されています。</li>
-            <li>※募集状況は変動するため最新は公式採用ページでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用ページでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱重工業のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "エネルギー・プラント系の専門性", desc: "ガスタービン・原子力・水素などエネルギー転換の中核を担っており、プラント・重電系の経験が直結します。" },
             { title: "防衛・宇宙の拡大領域", desc: "防衛予算の拡大を背景に防衛・宇宙セグメントの採用需要が高い局面です。" },
             { title: "大規模プロジェクトの遂行力", desc: "数年がかりの大型案件が中心で、プロジェクトマネジメント経験が広く評価されます。" },
-            { title: "機械系エンジニアリングの実務", desc: "設計・生産技術・品質保証など機械系の実務経験の適合先が広い総合重工です。" }
+            { title: "機械系エンジニアリングの実務", desc: "設計・生産技術・品質保証など、機械系の実務経験を活かせる職種が幅広い総合重工メーカーです。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>平均1,072万円は当サイト収録メーカーでも上位水準で、重工3社(三菱重工・川崎重工・IHI)では最高です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">三菱重工転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

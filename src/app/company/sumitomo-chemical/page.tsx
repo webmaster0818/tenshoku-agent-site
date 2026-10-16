@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "住友化学は中途採用を行っていますか？",
-    a: "はい。公式サイトの経験者採用の専用サイト（www.sumitomochem-careers.com/index.html）でキャリア採用の情報を確認できます（2026年9月10日確認）。",
+    a: "はい。経験者採用の専用サイト（www.sumitomochem-careers.com/index.html）でキャリア採用の情報を確認できます（2026年9月10日確認）。",
   },
   {
     q: "住友化学はどんな会社ですか？",
@@ -94,9 +94,9 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約958万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>842万円（2024年3月期）→818万円（2025年3月期）→958万円（2026年3月期）と推移（直近期に140万円の大幅上昇）。</li>
-            <li>キャリア採用は経験者採用の専用サイトで確認可能（2026年9月10日確認）。</li>
-            <li>直近期の+140万円は業績連動賞与の回復を含むと考えられますが、有価証券報告書に記載の範囲では内訳を断定しません。</li>
+            <li>842万円（2024年3月期）→818万円（2025年3月期）→958万円（2026年3月期）と推移しています（直近期に140万円の大幅上昇）。</li>
+            <li>キャリア採用の情報は経験者採用の専用サイトで確認できます（2026年9月10日確認）。</li>
+            <li>直近期の+140万円は業績連動賞与の回復を含むと考えられますが、有価証券報告書の記載からは内訳を特定できないため、当サイトでは断定を控えます。</li>
           </ul>
         </div>
 
@@ -131,8 +131,8 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月10日時点で、<a href="https://www.sumitomochem-careers.com/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">経験者採用の専用サイト</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>経験者採用の専用サイトが公開されており、職種別の募集要項を確認できます。</li>
-            <li>研究・プラントエンジニア・デジタル・コーポレートなど幅広い職種の採用です。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>研究・プラントエンジニア・デジタル・コーポレートなど幅広い職種で採用を行っています。</li>
+            <li>※募集状況は変動するため、最新情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で住友化学のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
             { title: "経験者採用の専用サイト", desc: "キャリア採用に専用サイトを設けており、中途の入口が明確な会社です。" },
             { title: "農薬・生活環境分野の強み", desc: "農業関連(クロップサイエンス)は世界的な事業で、バイオ・農学系の経験が活きます。" },
             { title: "石化再編の変化期", desc: "石油化学事業の構造改革が進む局面です。" },
-            { title: "直近+140万円の給与回復", desc: "業績回復に伴い直近期の平均給与が大きく戻しています(有価証券報告書の範囲では内訳を断定しません)。" }
+            { title: "直近+140万円の給与回復", desc: "業績回復に伴い直近期の平均給与が大きく回復しています(有価証券報告書の記載からは内訳を特定できないため、断定は控えます)。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -178,10 +178,10 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>約958万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
-            <li>直近期の+140万円は業績連動賞与の回復を含むと考えられますが、有価証券報告書に記載の範囲では内訳を断定しません。</li>
+            <li>直近期の+140万円は業績連動賞与の回復を含むと考えられますが、有価証券報告書の記載からは内訳を特定できないため、当サイトでは断定を控えます。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認ください。</p>
         </div>
 
         <h2 id="s7">住友化学転職で活用したい転職エージェント</h2>

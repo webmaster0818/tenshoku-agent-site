@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/simplex/" },
   title: 'シンプレクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
   description:
-    'シンプレクス・ホールディングス（証券コード4373）への転職を有価証券報告書などの一次データで解説。平均年間給与は約938万円（2026年3月期・有価証券報告書／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
+    'シンプレクス・ホールディングス（証券コード4373）への転職について、有価証券報告書などの一次データをもとに解説します。平均年間給与は約938万円（2026年3月期・有価証券報告書／提出会社）。中途採用・求められる人材・年収の考え方をまとめました。',
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: 'シンプレクスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】',
-    description: "シンプレクスの平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "シンプレクスの平均年収・中途採用・選考を有価証券報告書にもとづいて解説します。",
   },
 };
 
@@ -64,7 +64,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">シンプレクスHD 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            シンプレクス・ホールディングス（証券コード4373（東証プライム））は、金融（証券・銀行・資産運用）領域のフロントシステムに強みを持つITコンサルティング／開発企業の持株会社です。最先端技術×金融ドメインが特徴です。
+            シンプレクス・ホールディングス（証券コード4373（東証プライム））は、金融（証券・銀行・資産運用）領域のフロントシステムに強みを持つITコンサルティング／開発企業の持株会社です。最先端技術と金融ドメインの知見を組み合わせている点が特徴です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -85,10 +85,10 @@ export default function CompanyCareer() {
         <h2 id="s1">シンプレクス転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約938万円（2026年3月期・有価証券報告書／持株会社単体146名）。</li>
-            <li>※持株会社単体（本社機能）の値で、開発の中核はシンプレクス株式会社等の事業会社。</li>
-            <li>金融フロント領域のコンサルタント・エンジニアを事業会社で中途採用。</li>
-            <li>金融知識×技術力（低レイテンシ・トレーディング等）の掛け算が高く評価される。</li>
+            <li>平均年間給与は約938万円（2026年3月期・有価証券報告書／持株会社単体146名）です。</li>
+            <li>※持株会社単体（本社機能）の値です。開発の中核はシンプレクス株式会社等の事業会社が担っています。</li>
+            <li>金融フロント領域のコンサルタント・エンジニアは、事業会社で中途採用を行っています。</li>
+            <li>金融知識と技術力（低レイテンシ・トレーディング等）を兼ね備えた人材が高く評価されます。</li>
           </ul>
         </div>
 
@@ -104,7 +104,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約938万円（2026年3月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約33.6歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約4.4年（同・提出会社）" },
-                { label: "従業員数", value: "146名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "146名（同・提出会社単体）／連結は公式情報をご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -131,11 +131,11 @@ export default function CompanyCareer() {
           </p>
           <ul className="space-y-2 text-sm text-text-secondary mb-4">
             <li>募集職種（公式表記）：コンサルタント／セールス／プロジェクトマネジャー／UI/UX（UI/UXデザイナー、プロダクトエンジニア）／ソフトウェアエンジニア（テックリード、フロントエンドエンジニア、バックエンドエンジニア、モバイルアプリエンジニア）／インフラエンジニア（インフラエンジニア、クラウドエンジニア、SRE、セキュリティエンジニア）／コーポレート。</li>
-            <li>カジュアル面談を職種別の3カテゴリで実施。選考期間は「通常2週間〜1か月程度」と公式FAQに記載されています。</li>
+            <li>カジュアル面談は職種別の3カテゴリで実施されています。選考期間は「通常2週間〜1か月程度」と公式FAQに記載されています。</li>
             <li>拠点：「虎ノ門ヒルズと麻布台ヒルズの二つの拠点」と採用サイトに記載されています。</li>
             <li>「中途入社者 対談」（Vol.1・Vol.2）や中途入社者の個別インタビューが複数掲載されています。中途採用比率の数値記載は確認できませんでした。</li>
           </ul>
-          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted">※2026年7月31日に公式採用サイトで確認した情報です。募集状況は変動するため、最新情報は公式サイトにてご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">IT・Web系の求人を非公開求人も含めて比較する場合は、IT特化の<FelmatTextLink slug="unison-ex" text="ユニゾンキャリア(PR)" />などの転職エージェントの利用も選択肢となります。</p>
         </div>
 
@@ -143,7 +143,7 @@ export default function CompanyCareer() {
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {[
           {
-            title: '金融×ITの専門性', desc: '証券・銀行・運用のフロント業務知識やトレーディングシステムの経験が強みに。',
+            title: '金融×ITの専門性', desc: '証券・銀行・運用のフロント業務知識やトレーディングシステムの経験が強みになります。',
           },
           {
             title: '技術力の高さ', desc: '要件定義から実装まで担う文化のため、手を動かせる技術力が求められます。',
@@ -152,7 +152,7 @@ export default function CompanyCareer() {
             title: '成果志向', desc: '裁量と成果を重視する文化との相性が問われます。',
           },
           {
-            title: 'キャッチアップ力', desc: '最先端技術を取り入れるため、学習意欲が重要。',
+            title: 'キャッチアップ力', desc: '最先端技術を取り入れるため、学習意欲が重視されます。',
           },
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -165,7 +165,7 @@ export default function CompanyCareer() {
         <FelmatCta slug="unison-ex" heading="IT・Web職種の転職サポート(無料)" />
 
         <h2 id="s5">シンプレクスの選考フロー（公式記載）</h2>
-        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種により異なる場合があるため、最新は公式サイトでご確認ください。</p>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページに記載された流れです（2026年7月31日確認）。職種により異なる場合があるため、最新情報は公式サイトにてご確認ください。</p>
         <div className="space-y-5 mb-8">
           {[
             { step: 1, title: "カジュアル面談（実施あり）", desc: "職種別の3カテゴリでカジュアル面談が実施されています（公式採用サイト記載）。" },
@@ -185,18 +185,18 @@ export default function CompanyCareer() {
         <h2 id="s6">シンプレクスの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約938万円（2026年3月期）は持株会社単体（本社機能中心）の平均。等級・役職により水準は大きく異なります。</li>
+            <li>約938万円（2026年3月期）は持株会社単体（本社機能中心）の平均です。等級・役職により水準は大きく異なります。</li>
             <li>ITコンサル/SIでは年齢よりも等級・案件責任によって年収が決まるため、昇格が年収に大きく影響します。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
         </div>
 
         <h2 id="s7">シンプレクス転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
+        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数の転職エージェントに登録し、求人情報を広く集める方法が有効です。</p>
         <div className="space-y-4 mb-8">
           {[
-            { name: 'レバテックキャリア', href: '/review/levtech/', desc: 'ITエンジニアに特化したエージェントです。ITコンサル・SIの専門性を評価されやすく、非公開求人も多く扱っています。' },
-            { name: 'リクルートエージェント', href: '/review/recruit-agent/', desc: '業界最大級の求人数を有するエージェントです。大手IT・コンサルから幅広い求人を扱っています。' },
+            { name: 'レバテックキャリア', href: '/review/levtech/', desc: 'ITエンジニアに特化した転職エージェントです。ITコンサル・SIの専門性を評価されやすく、非公開求人も多く扱っています。' },
+            { name: 'リクルートエージェント', href: '/review/recruit-agent/', desc: '業界最大級の求人数を有する転職エージェントです。大手IT・コンサルから幅広い求人を扱っています。' },
             { name: 'doda', href: '/review/doda/', desc: 'エージェントサービスと求人サイトの両方を利用できます。同業比較・年収レンジの把握がしやすい点が特長です。' },
             { name: 'ビズリーチ', href: '/review/bizreach/', desc: 'スカウト型のサービスです。ハイクラスのコンサル・IT求人が多く集まります。' },
           ].map((agent) => (

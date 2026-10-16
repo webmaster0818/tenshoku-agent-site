@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "ほいくのむすびの評判は？保育士専門の転職支援サービスを解説【2026年】",
-  description: "ほいくのむすびは株式会社Nプランニングが運営する保育士専門の転職支援サービス。非公開求人・採用情報が多数で、宿舎借り上げ制度対応求人や残業少なめ求人を掲載。有料職業紹介事業許可番号13-ユ-316438。公式情報ベースで解説します。",
+  description: "ほいくのむすびは株式会社Nプランニングが運営する保育士専門の転職支援サービスです。非公開求人・採用情報が多数で、宿舎借り上げ制度対応求人や残業少なめ求人を掲載しています。有料職業紹介事業許可番号は13-ユ-316438です。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/hoiku-musubi/" },
 };
 
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>保育士専門の転職支援サービス</strong>。非公開求人・採用情報が多数と公式に掲げています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>保育士専門の転職支援サービスです</strong>。非公開求人・採用情報が多数と公式に掲げています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>保育士特有の悩み(人間関係・行事準備・ピアノ等)を起点にした職場選び</strong>を打ち出しています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(13-ユ-316438)を公式サイトで確認</strong>。利用は無料です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>有料職業紹介事業許可番号(13-ユ-316438)を公式サイトで確認しています</strong>。利用は無料です。</span></li>
           </ul>
         </div>
 
@@ -83,7 +83,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-text-muted mb-8">出典：ほいくのむすび公式サイト(n-planning.jp/hoikunomusubi)、2026年8月22日確認。掲載求人例は確認時点のもので、充足により募集停止の場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
 
-        <h2>ほいくのむすびの特徴(公式公表ベース)</h2>
+        <h2>ほいくのむすびの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">保育士の「辞めたい理由」起点の設計</h3><p className="text-sm text-text-secondary leading-relaxed">人間関係・業務量・行事準備・ピアノスキル・通勤距離・園の方針など、保育士が抱えやすい悩みを明示し、それを解消できる職場への転職を支援する構成です。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">条件の良い求人の具体的掲載</h3><p className="text-sm text-text-secondary leading-relaxed">宿舎借り上げ制度・賞与4ヶ月以上・残業ほぼなし・年間休日125日以上など、条件面が明記された求人が公式サイトに掲載されています。</p></div>
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>保育士以外の職種への転身 →<a href="/type/inexperienced/" className="text-teal underline">未経験向けエージェント</a>へ</li>
-              <li>全国大手の求人網羅性を求める人 →大手保育士特化サービスとの併用を</li>
+              <li>保育士以外の職種へ転身したい人 →<a href="/type/inexperienced/" className="text-teal underline">未経験向けエージェント</a>の利用をおすすめします</li>
+              <li>全国大手の求人網羅性を求める人 →大手保育士特化サービスとの併用をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>ほいくのむすびは、保育士特有の悩みを起点に職場探しを支援する保育士専門サービスです。条件が明記された求人の掲載と許可番号の公開が確認でき、利用は無料です。保育士の転職では複数の特化型サービスを併用し、非公開求人を含めた選択肢を広げるのがおすすめです。</p>
+        <p>ほいくのむすびは、保育士特有の悩みを起点に職場探しを支援する保育士専門サービスです。条件が明記された求人の掲載と許可番号の公開が確認でき、利用は無料です。保育士の転職では複数の特化型サービスを併用し、非公開求人を含めた選択肢を広げることをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "阪急阪神ホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "阪急阪神ホールディングス（証券コード9042）への転職を有価証券報告書などの一次データで解説。平均年間給与は約919万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "阪急阪神ホールディングス（証券コード9042）への転職について、有価証券報告書などの一次データをもとに解説します。平均年間給与は約919万円です（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/hankyu-hanshin/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "阪急阪神ホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "阪急阪神ホールディングス（9042）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "阪急阪神ホールディングス（9042）の平均年収・中途採用・選考を有価証券報告書にもとづいて解説します。",
   },
 };
 
@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     q: "阪急阪神ホールディングスはどんな会社ですか？",
-    a: "阪急電鉄・阪神電気鉄道を中核に、不動産・エンタテインメント(宝塚歌劇・阪神タイガース)・ホテルを展開する持株会社です。本社は大阪府池田市(登記)/本社機能は大阪市北区(梅田)にあります。",
+    a: "阪急電鉄・阪神電気鉄道を中核に、不動産・エンタテインメント(宝塚歌劇・阪神タイガース)・ホテルを展開する持株会社です。登記上の本社は大阪府池田市、本社機能は大阪市北区梅田にあります。",
   },
   {
     q: "阪急阪神ホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
@@ -93,9 +93,9 @@ export default function CompanyCareer() {
         <h2 id="s1">阪急阪神HD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約919万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>870万円（2024年3月期）→900万円（2025年3月期）→919万円（2026年3月期）と推移（2年連続で上昇し鉄道収録8社トップ）。</li>
-            <li>キャリア採用はグループ採用情報ページで確認可能（2026年9月10日確認）。</li>
+            <li>平均年間給与は約919万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月10日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>870万円（2024年3月期）→900万円（2025年3月期）→919万円（2026年3月期）と推移しています（2年連続で上昇し、鉄道の収録8社でトップです）。</li>
+            <li>キャリア採用の情報はグループ採用情報ページで確認できます（2026年9月10日確認）。</li>
             <li>提出会社は持株会社単体であり、阪急電鉄・阪神電気鉄道など事業会社の平均とは別の数値です。</li>
           </ul>
         </div>
@@ -131,10 +131,10 @@ export default function CompanyCareer() {
           <p className="text-sm text-text-secondary mb-4">2026年9月10日時点で、<a href="https://www.hankyu-hanshin.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">グループ採用情報ページ</a>を確認できます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>グループ採用情報ページから阪急電鉄・阪神電気鉄道など各社の採用窓口へアクセスできます。</li>
-            <li>キャリア採用は事業会社ごとに職種別で行われる形です。</li>
-            <li>※募集状況は変動するため最新は各社公式採用ページでご確認ください。</li>
+            <li>キャリア採用は事業会社ごとに職種別で行われています。</li>
+            <li>※募集状況は変動するため、最新情報は各社公式採用ページでご確認ください。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で阪急阪神HDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
+          <p className="text-sm text-text-secondary mt-4">20代・第二新卒で阪急阪神HDのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化型の転職エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
         <h2 id="s4">阪急阪神HDで求められる人材</h2>
@@ -181,11 +181,11 @@ export default function CompanyCareer() {
             <li>提出会社は持株会社単体であり、阪急電鉄・阪神電気鉄道など事業会社の平均とは別の数値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">阪急阪神HD転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、転職エージェント経由で求人情報を広く集めると、比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },

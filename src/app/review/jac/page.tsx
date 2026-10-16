@@ -6,14 +6,14 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/jac/" },
-  title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
+  title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを解説",
   description:
-    "JACリクルートメントの評判・口コミを徹底調査。ハイクラス・外資系転職に強い理由、登録の「就職難易度」や審査の実態、コンサルタント一気通貫型の強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
+    "JACリクルートメントの評判・口コミを調査し、ハイクラス・外資系転職に強い理由、登録の「就職難易度」や審査の実態、コンサルタント一気通貫型の強み、メリット・デメリット、向いている人をまとめました。登録は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを徹底解説",
+    title: "JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを解説",
     description:
-      "ハイクラス・外資系転職に強いJACリクルートメントの評判・口コミ、就職難易度の実態、メリット・デメリット、向いている人を解説。",
+      "ハイクラス・外資系転職に強いJACリクルートメントの評判・口コミ、就職難易度の実態、メリット・デメリット、向いている人を解説します。",
   },
 };
 
@@ -28,7 +28,7 @@ const faqData = [
   },
   {
     q: "JACリクルートメントの利用に費用はかかりますか？",
-    a: "いいえ、JACリクルートメントの登録・利用は完全無料です。求職者に費用が発生することは一切ありません。サービスは採用企業からの成功報酬で運営されています。",
+    a: "いいえ、JACリクルートメントの登録・利用は無料です。求職者に費用が発生することは一切ありません。サービスは採用企業からの成功報酬で運営されています。",
   },
   {
     q: "JACリクルートメントの「コンサルタント一気通貫型」とは何ですか？",
@@ -85,7 +85,7 @@ export default function JacReview() {
           <div className="flex items-center gap-3 mb-3">
             <span className="rank-badge rank-badge--1">5</span>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight">
-              JACリクルートメントの評判・口コミは？就職難易度の実態を徹底解説
+              JACリクルートメントの評判・口コミは？就職難易度とメリット・デメリットを解説
             </h1>
           </div>
           <p className="text-text-secondary leading-relaxed">
@@ -106,15 +106,15 @@ export default function JacReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>ハイクラス・外資系・年収アップ転職に強い</strong>のがJAC最大の特徴。コンサルタントの質が高く、企業の内部情報まで聞けるのが好評です。</span>
+              <span><strong>ハイクラス・外資系・年収アップ転職に強い</strong>のがJAC最大の特徴です。コンサルタントの質が高く、企業の内部情報まで聞けるのが好評です。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>「就職難易度が高い」の正体はターゲット層とのミスマッチ</strong>。登録に明確な合格ラインがあるわけではなく、ミドル・ハイクラス向けのため経歴次第で紹介求人が変わります。</span>
+              <span><strong>「就職難易度が高い」と言われる主な理由は、ターゲット層とのミスマッチです</strong>。登録に明確な合格ラインがあるわけではなく、ミドル・ハイクラス向けのため経歴次第で紹介求人が変わります。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>登録・利用は完全無料</strong>。30代以上で年収アップやキャリアアップを目指すなら、まず登録して市場価値を確認する価値があります。</span>
+              <span><strong>登録・利用は無料</strong>です。30代以上で年収アップやキャリアアップを目指す方には、まず登録して市場価値を確認することをおすすめします。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -146,14 +146,14 @@ export default function JacReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社ジェイ エイ シー リクルートメント</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">コンサルタント一気通貫型の転職エージェント</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">得意領域</th><td className="px-3 py-2 border-b">ハイクラス・管理職・専門職・外資系・グローバル企業</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">ハイクラス特化として豊富（具体的件数は時期で変動するため公式の最新表示を要確認）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は完全無料</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">ハイクラス特化として豊富（具体的な件数は時期により変動するため、公式の最新表示をご確認ください）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">メイン対象</th><td className="px-3 py-2 border-b">30代以上のミドル・ハイクラス層（20代も登録可）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国＋海外（海外在住者の相談にも対応）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：JACリクルートメント公式、会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください（要確認）。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：JACリクルートメント公式、会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 評判・口コミ（メイン検索意図 jacリクルートメント 評判 / 口コミ） */}
         <h2>JACリクルートメントの評判・口コミの傾向</h2>
@@ -165,23 +165,23 @@ export default function JacReview() {
           <div className="glass-card p-5">
             <p className="font-bold text-teal mb-2">良い評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>コンサルタントの業界知識が深く、的確なアドバイスがもらえた</li>
-              <li>企業の社風・選考ポイントなど内部情報を直接教えてくれた</li>
-              <li>外資系・グローバル企業の求人が豊富だった</li>
-              <li>年収交渉を積極的にサポートしてもらえた</li>
+              <li>コンサルタントの業界知識が深く、的確なアドバイスがもらえたという声があります</li>
+              <li>企業の社風・選考ポイントなど内部情報を直接聞けたという声があります</li>
+              <li>外資系・グローバル企業の求人が豊富だったという声があります</li>
+              <li>年収交渉を積極的にサポートしてもらえたという声があります</li>
             </ul>
           </div>
           <div className="glass-card p-5">
             <p className="font-bold text-teal-dark mb-2">気になる評判の傾向</p>
             <ul className="text-sm space-y-1 list-disc pl-4 text-text-muted">
-              <li>ハイクラス向けで、希望に合う求人が紹介されないことがある</li>
-              <li>20代・若手向けの求人は限定的</li>
-              <li>年収が高くない求人は少ない傾向</li>
-              <li>コンサルタントによって対応に差を感じることがある</li>
+              <li>ハイクラス向けのため、希望に合う求人が紹介されないことがあります</li>
+              <li>20代・若手向けの求人は限定的です</li>
+              <li>年収が高くない求人は少ない傾向にあります</li>
+              <li>コンサルタントによって対応に差を感じることがあります</li>
             </ul>
           </div>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：口コミサイトに見られる評判の傾向（2026年6月確認）。具体的な口コミ件数・評点は時期で変動するため引用していません（要確認）。良し悪しは利用者の経歴・希望条件とJACの得意領域が合うかに左右されやすいのが共通見解です。</p>
+        <p className="text-xs text-text-muted mb-8">出典：口コミサイトに見られる評判の傾向（2026年6月確認）。具体的な口コミ件数・評点は時期により変動するため引用していません。良し悪しは利用者の経歴・希望条件とJACの得意領域が合うかに左右されやすいのが共通見解です。</p>
 
         {/* 就職難易度の実態（検索意図 jacリクルートメント 就職難易度） */}
         <h2>「JACリクルートメントは就職難易度が高い」と言われる理由と実態</h2>
@@ -207,11 +207,11 @@ export default function JacReview() {
             },
             {
               fear: "求人を紹介してもらえなかった",
-              truth: "得意領域とのミスマッチが主因です。これは「審査に落ちた」のではなく、JACのカバー範囲外だったと捉え、総合型・専門型を組み合わせるのが現実的です。",
+              truth: "得意領域とのミスマッチが主因です。これは「審査に落ちた」のではなく、JACのカバー範囲外だったと捉え、総合型・専門型を組み合わせることをおすすめします。",
             },
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
-              <p className="font-bold text-teal-dark mb-1 text-sm">噂：{item.fear}</p>
+              <p className="font-bold text-teal-dark mb-1 text-sm">よくある疑問：{item.fear}</p>
               <p className="text-sm text-text-secondary leading-relaxed">実態：{item.truth}</p>
             </div>
           ))}
@@ -232,10 +232,10 @@ export default function JacReview() {
         <h2>JACリクルートメント 利用の流れ 4ステップ</h2>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "無料登録", desc: "公式サイトから基本情報と職務経歴を入力して登録。所要時間は約5分です。" },
-            { step: 2, title: "コンサルタントとの面談", desc: "業界・職種に精通した専任コンサルタントが、キャリアの方向性や希望条件を丁寧にヒアリング。一気通貫型のため、企業側の情報も直接共有されます。" },
-            { step: 3, title: "求人紹介・応募", desc: "面談内容をもとに、厳選された求人を紹介。非公開求人も多数あり、職務経歴書の添削や推薦状の作成もサポートします。" },
-            { step: 4, title: "面接・内定・入社", desc: "面接対策、条件交渉、入社日調整まで一貫してサポート。入社後のフォローも行っています。" },
+            { step: 1, title: "無料登録", desc: "公式サイトから基本情報と職務経歴を入力して登録します。所要時間は約5分です。" },
+            { step: 2, title: "コンサルタントとの面談", desc: "業界・職種に精通した専任コンサルタントが、キャリアの方向性や希望条件を丁寧にヒアリングします。一気通貫型のため、企業側の情報も直接共有されます。" },
+            { step: 3, title: "求人紹介・応募", desc: "面談内容をもとに、厳選された求人を紹介します。非公開求人も多数あり、職務経歴書の添削や推薦状の作成もサポートします。" },
+            { step: 4, title: "面接・内定・入社", desc: "面接対策、条件交渉、入社日調整まで一貫してサポートします。入社後のフォローも行っています。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -254,13 +254,13 @@ export default function JacReview() {
             <h3 className="font-bold text-teal mb-3">メリット</h3>
             <ul className="space-y-2">
               {[
-                "コンサルタントの質が高く、業界知識が豊富",
-                "一気通貫型で企業の内部情報を直接聞ける",
-                "外資系・グローバル企業の求人に強い",
-                "ハイクラス・管理職求人が充実している",
-                "年収交渉のサポートが手厚い",
-                "海外転職・海外在住者の相談にも対応",
-                "求職者は完全無料で利用できる",
+                "コンサルタントの質が高く、業界知識が豊富です",
+                "一気通貫型で企業の内部情報を直接聞けます",
+                "外資系・グローバル企業の求人に強みがあります",
+                "ハイクラス・管理職求人が充実しています",
+                "年収交渉のサポートが手厚いです",
+                "海外転職・海外在住者の相談にも対応しています",
+                "求職者は無料で利用できます",
               ].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}
@@ -272,11 +272,11 @@ export default function JacReview() {
             <h3 className="font-bold text-navy-light mb-3">デメリット</h3>
             <ul className="space-y-2">
               {[
-                "求人数は大手総合型エージェントより少ない",
-                "20代・若手向けの求人は限定的",
-                "年収が高くない求人は少ない傾向",
-                "地方の求人は都市部と比べて少ない場合がある",
-                "コンサルタントによって対応に差を感じることがある",
+                "求人数は大手総合型エージェントより少ないです",
+                "20代・若手向けの求人は限定的です",
+                "年収が高くない求人は少ない傾向にあります",
+                "地方の求人は都市部と比べて少ない場合があります",
+                "コンサルタントによって対応に差を感じることがあります",
               ].map((d, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                   <span className="text-text-muted mt-0.5 flex-shrink-0">&#9651;</span>{d}
@@ -302,7 +302,7 @@ export default function JacReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>とにかく求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
+              <li>求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
               <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
               <li>サイト・エージェント・スカウトを使い分けたい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link></li>
               <li>年収が高くない求人を中心に探したい人</li>
@@ -329,10 +329,10 @@ export default function JacReview() {
         {/* CTA */}
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">
-            JACリクルートメントでキャリアアップを実現しよう
+            JACリクルートメントでのキャリアアップ
           </h2>
           <p className="text-white/70 text-sm mb-6">
-            ハイクラス・外資系転職に精通したコンサルタントがあなたの転職を支援します。登録は無料です。
+            ハイクラス・外資系転職に精通したコンサルタントが転職活動を支援します。登録は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

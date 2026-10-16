@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "東北電力への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "東北電力（証券コード9506）への転職を有価証券報告書などの一次データで解説。平均年間給与は約872万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
+    "東北電力（証券コード9506）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約872万円（2026年3月期・有価証券報告書／提出会社）。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/tohoku-electric/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "東北電力への転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "東北電力（9506）の平均年収・中途採用・選考を有価証券報告書ベースで解説。",
+    description: "東北電力（9506）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -94,8 +94,8 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約872万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>779万円（2024年3月期）→832万円（2025年3月期）→872万円（2026年3月期）と推移（2年連続上昇(計93万円)）。</li>
-            <li>キャリア採用は公式採用サイトで確認可能（2026年9月14日確認）。</li>
+            <li>779万円（2024年3月期）→832万円（2025年3月期）→872万円（2026年3月期）と推移しています（2年連続で上昇、計93万円）。</li>
+            <li>キャリア採用の情報は公式採用サイトで確認できます（2026年9月14日確認）。</li>
             <li>全従業員平均であり、職種・配属による差があります。</li>
           </ul>
         </div>
@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>採用専用サイトで新卒・キャリア採用の情報を公開しています。</li>
             <li>技術系(電気・機械・土木・情報)と事務系の採用があります。</li>
-            <li>※募集状況は変動するため最新は公式採用サイトでご確認ください。</li>
+            <li>※募集状況は変動するため、最新の情報は公式採用サイトでご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で東北電力のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -142,8 +142,8 @@ export default function CompanyCareer() {
           {[
             { title: "東北・新潟の広域基盤", desc: "7県にまたがる広い供給エリアを持つインフラ中核企業です。" },
             { title: "2年で+93万円", desc: "779→872万円と着実に上昇しています。" },
-            { title: "仙台本店の地域キャリア", desc: "東北で腰を据えて働きたい技術者に有力な選択肢です。" },
-            { title: "勤続19.8年の高定着", desc: "長期雇用の色が濃い構成です。" }
+            { title: "仙台本店の地域キャリア", desc: "東北地方で長期的に働きたい技術者にとって有力な選択肢です。" },
+            { title: "勤続19.8年の高定着", desc: "長期雇用の傾向が強い構成です。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
               <h3 className="font-bold text-navy mb-2">{point.title}</h3>
@@ -181,7 +181,7 @@ export default function CompanyCareer() {
             <li>全従業員平均であり、職種・配属による差があります。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">東北電力転職で活用したい転職エージェント</h2>

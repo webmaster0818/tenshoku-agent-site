@@ -58,7 +58,7 @@ export default function Footer() {
               転職エージェント比較ラボ
             </Link>
             <p className="text-sm leading-relaxed text-white/50">
-              転職を考えるすべての方に、最適な転職エージェント選びをサポートするための比較・情報サイトです。
+              転職を考えている方の転職エージェント選びを支援する、比較・情報サイトです。
             </p>
           </div>
 

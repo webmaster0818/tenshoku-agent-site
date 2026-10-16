@@ -16,16 +16,16 @@ export const metadata: Metadata = {
 
 // 年収は各社ページ掲載の有価証券報告書で検証した数値（決算期付き）。各社ページと必ず一致させること。
 const ranking = [
-  { rank: 1, slug: "nri", name: "野村総合研究所（NRI）", salary: "約1,332万円", term: "2026年3月期", note: "コンサル＋SIの国内最大手級。単体7,982名と母集団が大きく代表性が高い", hd: false, field: "コンサル・SI" },
-  { rank: 2, slug: "baycurrent", name: "ベイカレント", salary: "約1,331万円", term: "2026年2月期", note: "平均31.3歳でこの水準。総合コンサル。持株会社化で単体母集団は変動（要注記）", hd: true, field: "総合コンサル" },
-  { rank: 3, slug: "obic", name: "オービック", salary: "約1,129万円", term: "2026年3月期", note: "業務ソフト「OBIC7」の開発・導入。高収益で知られるSIer", hd: false, field: "SI・業務ソフト" },
-  { rank: 4, slug: "dentsu-soken", name: "電通総研", salary: "約1,125万円", term: "2025年12月期", note: "旧・電通国際情報サービス。コンサル＋システム開発", hd: false, field: "コンサル・SI" },
-  { rank: 5, slug: "otsuka-shokai", name: "大塚商会", salary: "約1,027万円", term: "2025年12月期", note: "IT機器・システム販売とサポートの独立系大手。937万→992万→1,027万円と3年連続上昇で1,000万円台到達(12月決算)", hd: false, field: "IT商社・SI" },
-  { rank: 6, slug: "simplex", name: "シンプレクスHD", salary: "約938万円", term: "2026年3月期", note: "金融領域のフロントに強い。持株会社単体146名の値", hd: true, field: "金融IT" },
-  { rank: 7, slug: "obc", name: "オービックビジネスコンサルタント", salary: "約831万円", term: "2026年3月期", note: "勘定奉行シリーズの業務ソフト大手。平均34.7歳と若い構成で831万円。オービック(4684)とは別会社", hd: false, field: "業務ソフト" },
-  { rank: 8, slug: "scsk", name: "SCSK", salary: "約796万円", term: "2026年3月期", note: "住友商事グループの大手SIer。764万→787万→796万円と3年連続上昇・平均勤続16.7年の長期就業型", hd: false, field: "SIer" },
-  { rank: 9, slug: "future", name: "フューチャー", salary: "約794万円", term: "2025年12月期", note: "ITコンサルを掲げる独立系。上流から実装まで一気通貫", hd: false, field: "ITコンサル・SI" },
-  { rank: 10, slug: "shift", name: "SHIFT", salary: "約684万円", term: "2025年8月期", note: "ソフトウェアテスト起点の急成長企業。単体6,201名・未経験育成枠あり", hd: false, field: "品質保証・SI" },
+  { rank: 1, slug: "nri", name: "野村総合研究所（NRI）", salary: "約1,332万円", term: "2026年3月期", note: "コンサル＋SIの国内最大手級です。単体7,982名と母集団が大きく、代表性の高い値です。", hd: false, field: "コンサル・SI" },
+  { rank: 2, slug: "baycurrent", name: "ベイカレント", salary: "約1,331万円", term: "2026年2月期", note: "総合コンサルで、平均31.3歳でこの水準です。持株会社化により単体の母集団が変動している点にご留意ください。", hd: true, field: "総合コンサル" },
+  { rank: 3, slug: "obic", name: "オービック", salary: "約1,129万円", term: "2026年3月期", note: "業務ソフト「OBIC7」の開発・導入を手がける、高収益で知られるSIerです。", hd: false, field: "SI・業務ソフト" },
+  { rank: 4, slug: "dentsu-soken", name: "電通総研", salary: "約1,125万円", term: "2025年12月期", note: "旧・電通国際情報サービスです。コンサルとシステム開発を手がけています。", hd: false, field: "コンサル・SI" },
+  { rank: 5, slug: "otsuka-shokai", name: "大塚商会", salary: "約1,027万円", term: "2025年12月期", note: "IT機器・システム販売とサポートの独立系大手です。937万→992万→1,027万円と3年連続で上昇し、1,000万円台に到達しました(12月決算)。", hd: false, field: "IT商社・SI" },
+  { rank: 6, slug: "simplex", name: "シンプレクスHD", salary: "約938万円", term: "2026年3月期", note: "金融領域のフロントに強みがあります。数値は持株会社単体146名の値です。", hd: true, field: "金融IT" },
+  { rank: 7, slug: "obc", name: "オービックビジネスコンサルタント", salary: "約831万円", term: "2026年3月期", note: "勘定奉行シリーズの業務ソフト大手です。平均34.7歳と若い構成で831万円の水準です。オービック(4684)とは別会社です。", hd: false, field: "業務ソフト" },
+  { rank: 8, slug: "scsk", name: "SCSK", salary: "約796万円", term: "2026年3月期", note: "住友商事グループの大手SIerです。764万→787万→796万円と3年連続で上昇しており、平均勤続16.7年の長期就業型です。", hd: false, field: "SIer" },
+  { rank: 9, slug: "future", name: "フューチャー", salary: "約794万円", term: "2025年12月期", note: "ITコンサルを掲げる独立系企業で、上流から実装まで一気通貫で手がけています。", hd: false, field: "ITコンサル・SI" },
+  { rank: 10, slug: "shift", name: "SHIFT", salary: "約684万円", term: "2025年8月期", note: "ソフトウェアテストを起点に急成長した企業です。単体6,201名で、未経験者の育成枠があります。", hd: false, field: "品質保証・SI" },
 ];
 
 const faqData = [
@@ -35,7 +35,7 @@ const faqData = [
   },
   {
     q: "持株会社（HD）の平均年収はなぜ参考程度なのですか？",
-    a: "有価証券報告書の平均年間給与は「提出会社（単体）」の数値です。ベイカレントやシンプレクスHDのような持株会社体制では、単体＝持株会社本体（経営管理・管理部門等）中心の平均となり、実際にコンサルタントとして働く事業会社の給与実態とは母集団が異なる場合があります。中途で入る事業会社の提示額はエージェント経由で確認するのが確実です。",
+    a: "有価証券報告書の平均年間給与は「提出会社（単体）」の数値です。ベイカレントやシンプレクスHDのような持株会社体制では、単体＝持株会社本体（経営管理・管理部門等）中心の平均となり、実際にコンサルタントとして働く事業会社の給与実態とは母集団が異なる場合があります。中途で入る事業会社の提示額は、転職エージェントを通じてご確認ください。",
   },
   {
     q: "ITコンサルとSIerでは年収にどのくらい差がありますか？",
@@ -47,7 +47,7 @@ const faqData = [
   },
   {
     q: "ITコンサル・SIerの中途採用はどこに応募すればいいですか？",
-    a: "各社の採用ページからの直接応募と、転職エージェント経由の応募が主な入口です。ITコンサル・SIerは非公開求人が多く、コンサル・IT領域に強いエージェントやスカウト型サービスを併用すると、ポジションや年収レンジの実情を確認しやすくなります。ベイカレントやシンプレクスHDのような持株会社体制の企業は、採用が事業会社単位で行われる場合がある点にも留意しましょう。",
+    a: "各社の採用ページからの直接応募と、転職エージェント経由の応募が主な入口です。ITコンサル・SIerは非公開求人が多く、コンサル・IT領域に強いエージェントやスカウト型サービスを併用すると、ポジションや年収レンジの実情を確認しやすくなります。ベイカレントやシンプレクスHDのような持株会社体制の企業は、採用が事業会社単位で行われる場合がある点にもご留意ください。",
   },
 ];
 
@@ -138,7 +138,7 @@ export default function ItConsultantSalaryRanking() {
         <div className="grid sm:grid-cols-3 gap-4 mb-8">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">「HD単体値」は本社の平均</h3>
-            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は求人票・エージェント経由で確認するのが確実です。</p>
+            <p className="text-xs text-text-secondary leading-relaxed">持株会社の有価証券報告書の数値は、本社機能スタッフを中心とした平均です。事業会社の技術職の水準は、求人票や転職エージェントを通じてご確認ください。</p>
           </div>
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2 text-sm">平均は年齢・勤続で上振れ</h3>
@@ -159,7 +159,7 @@ export default function ItConsultantSalaryRanking() {
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手ITコンサル・SIerから中堅まで幅広い求人を扱っています。" },
             { name: "doda", href: "/review/doda/", desc: "エージェントサービスと求人サイトの両方を利用できます。ITコンサル・SIerの同業比較・年収レンジ把握がしやすい点が特長です。" },
             { name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型のサービスです。管理職・高度専門職クラスの市場価値の把握に適しています。ハイクラスのITコンサル・SIer求人が多く集まります。" },
-            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。SIer・ITコンサルのエンジニア・DX系の技術職に。" },
+            { name: "レバテックキャリア", href: "/review/levtech/", desc: "ITエンジニアに特化したエージェントです。SIer・ITコンサルのエンジニア・DX系の技術職の求人を探す際に適しています。" },
           ].map((agent) => (
             <div key={agent.name} className="card-hover p-5">
               <div className="flex items-center justify-between mb-2">

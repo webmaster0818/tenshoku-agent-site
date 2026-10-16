@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有価証券報告書準拠の年収・難易度データベース【2026年】",
   description:
-    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページ。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資は参考値と明記。任天堂・ソニー・トヨタ・オービック・タカラトミーなど184社を掲載中。",
+    "人気企業への転職難易度・中途採用・年収を企業ごとに解説する一覧ページです。上場企業は有価証券報告書の平均年収（決算期明記）に準拠し、外資系企業は参考値であることを明記しています。任天堂・ソニー・トヨタ・オービック・タカラトミーなど184社を掲載しています。",
   alternates: { canonical: "/company/" },
 };
 
@@ -207,7 +207,7 @@ export default function CompanyIndexPage() {
             企業別 転職ガイド一覧
           </h1>
           <p className="text-text-secondary leading-relaxed text-sm">
-            「◯◯社への転職は難しい？」に、公開一次資料で答える企業データベースです。上場企業の平均年収は<strong>有価証券報告書の記載値（決算期明記・全社平均）</strong>に準拠し、日本の有価証券報告書が存在しない外資は参考値であることを明記しています。転職難易度・中途採用の傾向・選考対策は各企業ページをご覧ください。
+            「◯◯社への転職は難しいのか」という疑問に、公開一次資料にもとづいてお答えする企業データベースです。上場企業の平均年収は<strong>有価証券報告書の記載値（決算期明記・全社平均）</strong>に準拠し、日本の有価証券報告書が存在しない外資系企業は参考値であることを明記しています。転職難易度・中途採用の傾向・選考対策は各企業ページをご覧ください。
           </p>
         </div>
 
@@ -233,7 +233,7 @@ export default function CompanyIndexPage() {
         </p>
 
         <section className="bg-warm-gray rounded-2xl p-6">
-          <h2 className="font-bold text-navy mb-3">転職活動をあわせて進めるなら</h2>
+          <h2 className="font-bold text-navy mb-3">転職活動に役立つ関連ページ</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/company/game-salary/" className="text-navy underline">ゲーム会社の年収ランキング【有価証券報告書準拠】</Link></li>
             <li><Link href="/company/maker-salary/" className="text-navy underline">メーカーの年収ランキング【有価証券報告書準拠】</Link></li>

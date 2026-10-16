@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "RSGの評判は？建設・不動産専門の転職エージェントを解説【2026年】",
-  description: "株式会社RSGは建設・不動産専門の人材紹介・転職支援会社。収入UP率99.4%・月収/年収1.2倍〜1.5倍(いずれも公式表記)を掲げ、業界経験者のキャリアアップ転職を支援。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  description: "株式会社RSGは建設・不動産専門の人材紹介・転職支援会社です。収入UP率99.4%・月収/年収1.2倍〜1.5倍(いずれも公式表記)を掲げ、業界経験者のキャリアアップ転職を支援しています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/rsg-fudosan/" },
 };
 
@@ -16,11 +16,11 @@ const faqData = [
   },
   {
     "q": "業界未経験でも利用できますか？",
-    "a": "公式サイトは建設業界経験者・不動産業界経験者向けの導線を掲げています(2026年8月22日確認)。未経験の場合は未経験可求人を扱うサービスとの併用が現実的です。"
+    "a": "公式サイトは建設業界経験者・不動産業界経験者向けの導線を掲げています(2026年8月22日確認)。未経験の場合は未経験可求人を扱うサービスとの併用をおすすめします。"
   },
   {
     "q": "本当に年収は上がりますか？",
-    "a": "収入UP率99.4%・1.2〜1.5倍という数値は公式サイト掲載の実績表記です(注記条件は公式参照)。個人の経験・資格・市場環境により結果は異なるため、面談で自身の想定レンジを確認してください。"
+    "a": "収入UP率99.4%・1.2〜1.5倍という数値は公式サイト掲載の実績表記です(注記条件は公式参照)。個人の経験・資格・市場環境により結果は異なるため、面談で自身の想定レンジをご確認ください。"
   }
 ];
 
@@ -61,8 +61,8 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>建設・不動産業界専門の転職エージェント</strong>。業界経験者(建設業界経験者・不動産業界経験者)を主対象としています。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>収入UP率99.4%・月収/年収1.2倍〜1.5倍へ</strong>(いずれも公式サイト表記・2026年8月22日確認)。年収アップ軸の支援を強く打ち出しています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>建設・不動産業界専門の転職エージェント</strong>です。業界経験者(建設業界経験者・不動産業界経験者)を主対象としています。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>収入UP率99.4%・月収/年収1.2倍〜1.5倍へ</strong>という実績を掲げています(いずれも公式サイト表記・2026年8月22日確認)。年収アップ軸の支援を強く打ち出しています。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>人材紹介に加えて採用広告コンサルティング等も展開</strong>する業界特化企業で、利用は無料です。</span></li>
           </ul>
         </div>
@@ -81,7 +81,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：RSG公式サイト(rsg-c.jp)、2026年8月22日確認。収入UP率等は公式サイト掲載値(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：RSG公式サイト(rsg-c.jp)、2026年8月22日確認。収入UP率等は公式サイト掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>RSG(建設・不動産転職)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
@@ -103,8 +103,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>業界未経験の人 →未経験可の求人が多いサービスへ</li>
-              <li>不動産の管理系専門職(PM/AM等) →<a href="/review/prime-career/" className="text-teal underline">プライムキャリア</a>も比較を</li>
+              <li>業界未経験の人 →未経験可の求人が多いサービスをおすすめします</li>
+              <li>不動産の管理系専門職(PM/AM等) →<a href="/review/prime-career/" className="text-teal underline">プライムキャリア</a>との比較をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>RSGは、建設・不動産の業界経験者に特化し、年収アップ軸の転職支援を掲げるエージェントです。業界専門の市場価値査定が受けられ、利用は無料です。管理系職種はプライムキャリア、総合型との併用で選択肢を広げるのがおすすめです。</p>
+        <p>RSGは、建設・不動産の業界経験者に特化し、年収アップ軸の転職支援を掲げるエージェントです。業界専門の市場価値査定が受けられ、利用は無料です。管理系職種の方はプライムキャリアや総合型の転職エージェントと併用し、選択肢を広げることをおすすめします。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

@@ -26,15 +26,15 @@ const faqData = [
   },
   {
     "q": "タカラトミーの転職難易度は高いですか？",
-    "a": "人気IPを持つ玩具最大手級で応募が集まりやすく、企画・開発職の競争は高めです。玩具・消費財での実務経験を持つ方が有利です。"
+    "a": "人気IPを持つ玩具最大手級で応募が集まりやすく、企画・開発職の競争は激しい傾向にあります。玩具・消費財での実務経験を持つ方が有利です。"
   },
   {
     "q": "年収が大きく上がったのはなぜですか？",
-    "a": "有価証券報告書の平均年間給与は約1,038万円と前期比+117万円の上昇です（2026年3月期・IRBANK照合）。賞与は業績に連動するため年度により変動します（増減額は有価証券報告書の記載値）。"
+    "a": "有価証券報告書の平均年間給与は約1,038万円と前期比+117万円の上昇です（2026年3月期・IR BANK照合）。賞与は業績に連動するため年度により変動します（増減額は有価証券報告書の記載値）。"
   },
   {
     "q": "勤務地はどこですか？",
-    "a": "本社は東京都葛飾区（立石）。応募ポジションにより勤務地が異なります。"
+    "a": "本社は東京都葛飾区（立石）にあります。応募ポジションにより勤務地が異なります。"
   },
   {
     "q": "どんな職種の募集がありますか？",
@@ -89,10 +89,10 @@ export default function CompanyCareer() {
         <h2 id="s1">タカラトミー転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,038万円（2026年3月期・有価証券報告書・単体630名）。前期比+117万円と大きく伸びた高水準。</li>
-            <li>平均勤続約12.7年と長く、定着率の高さがうかがえるのが特徴。</li>
-            <li>トミカ・プラレール等の定番IPに加え、トレカ・海外展開が成長ドライバー。</li>
-            <li>商品企画・開発設計・マーケティング・営業などの職種でキャリア採用がある。</li>
+            <li>平均年間給与は約1,038万円（2026年3月期・有価証券報告書・単体630名）です。前期比+117万円と大きく伸びた高い水準です。</li>
+            <li>平均勤続約12.7年と長く、定着率の高さがうかがえる点が特徴です。</li>
+            <li>トミカ・プラレール等の定番IPに加え、トレカ・海外展開が成長を牽引しています。</li>
+            <li>商品企画・開発設計・マーケティング・営業などの職種でキャリア採用があります。</li>
           </ul>
         </div>
 
@@ -108,7 +108,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約1,038万円（2026年3月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約42.1歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約12.7年（同・提出会社）" },
-                { label: "従業員数", value: "630名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "630名（同・提出会社単体）／連結は公式情報をご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -126,12 +126,12 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">タカラトミーグループは公式に「タカラトミーグループではキャリア採用をおこなっております。」と明記しており、<a href="https://www.takaratomy.co.jp/company/recruit/career.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式キャリア採用ページ</a>からエントリーできます。</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>募集職種：キャリア採用ページ上で具体的な職種名の常時掲載は少なく、タカラトミー本体・タカラトミーアーツは応募フォームで希望部門を選択する方式。2026年7月31日確認時点で職種名の明記があったのはタカラトミーマーケティング「ロジスティクス管理」のみ。</li>
-            <li>応募方法：キャリア採用ページ内の「エントリー」から応募フォームへ進み、希望部門を選択して応募。</li>
-            <li>勤務地（公式記載）：立石本社ビル（東京都葛飾区）・青戸オフィス（東京都葛飾区）・市川ロジスティクスセンター（タカラトミーマーケティング）。</li>
-            <li><a href="https://www.takaratomy.co.jp/company/recruit/jobreturn.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「ジョブリターン」制度</a>あり：やむを得ない事情やキャリアアップを理由に退職した社員の再雇用制度。</li>
+            <li>募集職種：キャリア採用ページ上で具体的な職種名の常時掲載は少なく、タカラトミー本体・タカラトミーアーツは応募フォームで希望部門を選択する方式です。2026年7月31日確認時点で職種名の明記があったのは、タカラトミーマーケティングの「ロジスティクス管理」のみでした。</li>
+            <li>応募方法：キャリア採用ページ内の「エントリー」から応募フォームへ進み、希望部門を選択して応募します。</li>
+            <li>勤務地（公式記載）：立石本社ビル（東京都葛飾区）・青戸オフィス（東京都葛飾区）・市川ロジスティクスセンター（タカラトミーマーケティング）です。</li>
+            <li><a href="https://www.takaratomy.co.jp/company/recruit/jobreturn.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「ジョブリターン」制度</a>があります。やむを得ない事情やキャリアアップを理由に退職した社員の再雇用制度です。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">※2026年7月31日に公式採用サイトで確認しました。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でタカラトミーのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
@@ -153,7 +153,7 @@ export default function CompanyCareer() {
         <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
 
         <h2 id="s5">タカラトミーの選考フロー（公式記載）</h2>
-        <p className="text-sm text-text-muted mb-4">※公式採用ページ記載の流れ（2026年7月31日確認）。職種・時期により異なる場合があります。</p>
+        <p className="text-sm text-text-muted mb-4">※公式採用ページに記載された流れです（2026年7月31日確認）。職種・時期により異なる場合があります。</p>
         <div className="space-y-5 mb-8">
           {[
             { step: 1, title: "WEBエントリー", desc: "キャリア採用ページの「エントリー」から応募フォームへ進み、希望部門を選択して応募します。" },
@@ -177,11 +177,11 @@ export default function CompanyCareer() {
         <h2 id="s6">タカラトミーの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約1,038万円（2026年3月期）は単体全社員の平均。職種（本社・工場・営業）により水準は異なります。</li>
-            <li>約1,038万円は前期比+117万円と業績連動で大きく変動しうる。</li>
+            <li>約1,038万円（2026年3月期）は単体全社員の平均です。職種（本社・工場・営業）により水準は異なります。</li>
+            <li>約1,038万円は前期比+117万円であり、業績連動で大きく変動する可能性があります。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">タカラトミー転職で活用したい転職エージェント</h2>

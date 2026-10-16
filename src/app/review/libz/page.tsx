@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   title: "LIBZ(リブズ)の評判は？逆求人型転職エージェントの仕組みを解説【2026年】",
-  description: "LIBZ(リブズ)は株式会社リブが運営する逆求人型の転職エージェント。希望条件を登録・公開すると、それに応えられる企業から面談の立候補が届く「転職者ファースト」設計。リモート・時短など柔軟な働き方の求人にも対応。公式情報ベースで解説します。",
+  description: "LIBZ(リブズ)は株式会社リブが運営する逆求人型の転職エージェントです。希望条件を登録・公開すると、それに応えられる企業から面談の立候補が届く「転職者ファースト」の設計で、リモート・時短など柔軟な働き方の求人にも対応しています。公式情報ベースで解説します。",
   alternates: { canonical: "/review/libz/" },
 };
 
@@ -19,7 +19,7 @@ const faqData = [
     "a": "転職者が希望条件を登録・公開し、その条件に応えられる企業側から面談の立候補が届く仕組みです。企業の求人に応募する従来型と逆の流れになります(公式サイトの説明・2026年8月22日確認)。"
   },
   {
-    "q": "登録してすぐ転職しないといけませんか？",
+    "q": "登録後すぐに転職する必要はありますか？",
     "a": "逆求人型は条件を公開して企業からのアプローチを待つ設計のため、急いで転職する必要はありません。在職中に受け身で機会を待つ使い方に向いています。"
   }
 ];
@@ -61,9 +61,9 @@ export default function Page() {
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>希望条件を先出しする「逆求人」型</strong>。条件を登録・公開すると、応えられる企業から面談の立候補が届く仕組みです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>希望条件を先出しする「逆求人」型</strong>のサービスです。条件を登録・公開すると、応えられる企業から面談の立候補が届く仕組みです。</span></li>
             <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>フルリモート・時短などの柔軟な働き方の求人</strong>に関連するキーワードで訴求されており、働き方重視の転職に向いた設計です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料</strong>。会員登録から始めるマッチング型サービスです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span><span><strong>利用は無料</strong>です。会員登録から始めるマッチング型サービスです。</span></li>
           </ul>
         </div>
 
@@ -85,7 +85,7 @@ export default function Page() {
         <h2>LIBZ(リブズ)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">希望条件の先出しによるミスマッチ削減</h3><p className="text-sm text-text-secondary leading-relaxed">「こんな仕事がしたい」「こんな働き方がしたい」という希望を逆求人として公開し、応えられる企業だけがアプローチする構造のため、条件面のミスマッチが起きにくい設計です。</p></div>
-          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">企業主導ではないマッチング体験</h3><p className="text-sm text-text-secondary leading-relaxed">従来型の求人応募ではなく、企業側が転職者の条件に立候補する形式で、選考の力学が転職者寄りになります。</p></div>
+          <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">企業主導ではないマッチング体験</h3><p className="text-sm text-text-secondary leading-relaxed">従来型の求人応募ではなく、企業側が転職者の条件に立候補する形式で、転職者の意向が選考に反映されやすくなります。</p></div>
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">働き方重視の転職に適した設計</h3><p className="text-sm text-text-secondary leading-relaxed">リモート・時短などの柔軟な働き方を条件として提示しやすく、条件を曲げずに合う企業を待つ使い方ができます。</p></div>
         </div>
 
@@ -102,8 +102,8 @@ export default function Page() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>すぐに大量の求人を比較したい人 →求人検索型の総合エージェントと併用を</li>
-              <li>対面サポート重視の人 →エージェント面談型のサービスへ</li>
+              <li>すぐに大量の求人を比較したい人 →求人検索型の総合型エージェントとの併用をおすすめします</li>
+              <li>対面サポート重視の人 →エージェント面談型のサービスが候補です</li>
             </ul>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Page() {
         </div>
 
         <h2>まとめ</h2>
-        <p>LIBZは、希望条件を先出しして企業からの立候補を待つ逆求人型エージェントです。働き方の条件を重視する人・在職中に受け身で機会を待ちたい人に向いた設計で、利用は無料です。能動的に求人を探す総合型と併用すると、攻めと待ちの両輪で転職活動を進められます。</p>
+        <p>LIBZは、希望条件を先出しして企業からの立候補を待つ逆求人型エージェントです。働き方の条件を重視する人・在職中に受け身で機会を待ちたい人に向いた設計で、利用は無料です。能動的に求人を探す総合型と併用すると、自ら探す方法と企業からの連絡を待つ方法の両面で転職活動を進められます。</p>
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>

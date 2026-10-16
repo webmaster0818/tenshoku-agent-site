@@ -5,12 +5,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/pigeon/" },
-  title: "ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を徹底解説【2026年】",
+  title: "ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を解説【2026年】",
   description:
     "ピジョン（証券コード7956）への転職を有価証券報告書などの一次データで解説。平均年間給与は約827万円（2025年12月期・有価証券報告書／提出会社）。単体は本社機能中心の338名である点も含め、中途採用の状況、求められる人材、選考フロー、年収の考え方をまとめました。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を徹底解説【2026年】",
+    title: "ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を解説【2026年】",
     description: "ピジョン（7956）の平均年収・中途採用・選考フローを有価証券報告書ベースで解説。",
   },
 };
@@ -60,7 +60,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を徹底解説【2026年】
+            ピジョンへの転職は難しい？中途採用・平均年収827万円・選考を解説【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/pigeon.jpg" alt="ピジョンの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -89,10 +89,10 @@ export default function CompanyCareer() {
         <h2 id="s1">ピジョン転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約827万円（2025年12月期・有価証券報告書・提出会社）。単体338名は本社機能中心のため、本社単体の水準である点に注意。</li>
-            <li>平均勤続約15.0年と長く、定着率の高さがうかがえるのが特徴。</li>
-            <li>哺乳器をはじめとする育児用品の国内知名度に加え、マタニティ・介護・保育へ事業を展開。</li>
-            <li>商品企画・研究開発・品質保証・マーケティング・営業などの採用が中心。</li>
+            <li>平均年間給与は約827万円（2025年12月期・有価証券報告書・提出会社）。単体338名は本社機能中心のため、本社単体の水準である点にご留意ください。</li>
+            <li>平均勤続年数は約15.0年と長く、定着率の高さがうかがえます。</li>
+            <li>哺乳器をはじめとする育児用品の国内知名度に加え、マタニティ・介護・保育へ事業を展開しています。</li>
+            <li>商品企画・研究開発・品質保証・マーケティング・営業などの採用が中心です。</li>
           </ul>
         </div>
 
@@ -108,7 +108,7 @@ export default function CompanyCareer() {
                 { label: "平均年間給与", value: "約827万円（2025年12月期・有価証券報告書／提出会社）" },
                 { label: "平均年齢", value: "約42.8歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "約15.0年（同・提出会社）" },
-                { label: "従業員数", value: "338名（同・提出会社単体）／連結は要公式確認" },
+                { label: "従業員数", value: "338名（同・提出会社単体）／連結の人数は公式サイトをご確認ください" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -125,15 +125,15 @@ export default function CompanyCareer() {
         <h2 id="s3">ピジョンの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
           <p className="text-sm text-text-secondary mb-4">
-            ピジョンは<a href="https://www.pigeon.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>で「経験者採用情報」として中途採用を実施しており、求人の一覧・応募は公式リンク先の<a href="https://arwrk.net/recruit/dyqpmzzv1nmud7b" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">経験者採用ページ</a>から行う形です。2026年7月31日確認時点では、以下の職種が掲載されていました（公式表記のまま・いずれも正社員）。
+            ピジョンは<a href="https://www.pigeon.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用サイト</a>で「経験者採用情報」として中途採用を実施しており、求人の一覧・応募は公式リンク先の<a href="https://arwrk.net/recruit/dyqpmzzv1nmud7b" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">経験者採用ページ</a>から行います。2026年7月31日確認時点では、以下の職種が掲載されていました（公式表記のまま・いずれも正社員）。
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>掲載職種：哺乳瓶の技術開発／連結決算・開示・財務業務（スタッフ職／リーダー職）／社内SE業務／ブランディング業務／広報業務／法務業務／サステナビリティ関連業務／ベビー用品の国内提案型ルート営業／内部監査業務／食品の品質管理業務（2026年7月31日確認時点）。</li>
-            <li>勤務地は東京本社が中心。哺乳瓶の技術開発は筑波事業所、食品の品質管理業務は中央研究所オフィス。</li>
-            <li>応募は経験者採用ページの各求人から。あわせて「キャリア登録」フォームの案内もあり。</li>
-            <li>選考ステップの詳細は各求人ページ単位での案内（一覧ページには明記なし）。</li>
+            <li>掲載職種：哺乳瓶の技術開発／連結決算・開示・財務業務（スタッフ職／リーダー職）／社内SE業務／ブランディング業務／広報業務／法務業務／サステナビリティ関連業務／ベビー用品の国内提案型ルート営業／内部監査業務／食品の品質管理業務（2026年7月31日確認時点）です。</li>
+            <li>勤務地は東京本社が中心です。哺乳瓶の技術開発は筑波事業所、食品の品質管理業務は中央研究所オフィスが勤務地です。</li>
+            <li>応募は経験者採用ページの各求人から行います。あわせて「キャリア登録」フォームも案内されています。</li>
+            <li>選考ステップの詳細は各求人ページで案内されています（一覧ページには明記されていません）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認。募集状況は変動するため最新は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-4">※2026年7月31日に公式採用サイトで確認した情報です。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でピジョンのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
 
@@ -142,7 +142,7 @@ export default function CompanyCareer() {
           {[
             { title: "消費財・メーカーでの実務経験", desc: "商品企画・研究開発・品質保証・マーケティングなど、消費財または近接するメーカーでの経験が評価されやすい構造です。" },
             { title: "製品品質・安全への意識", desc: "赤ちゃんが毎日使う育児用品を扱うため、品質・安全に対する誠実な姿勢が全職種で重視されます。" },
-            { title: "グループ会社と連携する調整力", desc: "製造等をグループ会社が担う体制のため、社内外・部門を跨ぐコミュニケーション力が求められます。" },
+            { title: "グループ会社と連携する調整力", desc: "製造等をグループ会社が担う体制のため、社内外・部門をまたぐコミュニケーション力が求められます。" },
             { title: "安定志向と着実さ", desc: "平均勤続15.0年という数字が示すように、腰を据えて長く働く文化との相性が問われます。" }
           ].map((point) => (
             <div key={point.title} className="card-hover p-5">
@@ -176,15 +176,15 @@ export default function CompanyCareer() {
         <h2 id="s6">ピジョンの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約827万円（2025年12月期）は提出会社（単体338名）の平均。製造等はグループ会社が担うため、本社機能中心の水準であり、グループ全体の水準とは異なる可能性がある。</li>
-            <li>平均勤続15.0年・平均年齢42.8歳の安定雇用型。</li>
+            <li>約827万円（2025年12月期）は提出会社（単体338名）の平均です。製造等はグループ会社が担うため本社機能中心の水準であり、グループ全体の水準とは異なる可能性があります。</li>
+            <li>平均勤続15.0年・平均年齢42.8歳と、安定雇用型の構成です。</li>
             <li>中途入社時の提示額はポジション・経験により異なるため、転職エージェントを通じた確認をおすすめします。</li>
           </ul>
-          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認するのが確実です。</p>
+          <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジを確認することをおすすめします。</p>
         </div>
 
         <h2 id="s7">ピジョン転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数のエージェントに登録して求人情報を広く集めるのが有効です。</p>
+        <p className="text-sm text-text-muted mb-4">非公開求人も多い領域のため、複数の転職エージェントに登録して求人情報を広く集める方法が有効です。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からニッチ企業まで幅広く、非公開求人の紹介を受けられる可能性があります。" },
