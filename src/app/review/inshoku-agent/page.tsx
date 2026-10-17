@@ -133,7 +133,7 @@ export default function InshokuAgentReview() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>求人サイト「求人飲食店ドットコム」（累計掲載7万件以上）と併用できます</strong>。エージェント紹介・自己応募・スカウト待ちを自由に使い分けられます。</span>
+              <span><strong>求人サイト「求人飲食店ドットコム」（累計掲載7万件以上・2026年10月17日時点の公式表記）と併用できます</strong>。エージェント紹介・自己応募・スカウト待ちを自由に使い分けられます。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -154,7 +154,7 @@ export default function InshokuAgentReview() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
             { label: "特化領域", value: "飲食業界" },
-            { label: "併用求人サイト累計掲載", value: "7万件超" },
+            { label: "併用求人サイト累計掲載", value: "7万件以上" },
             { label: "料金", value: "無料" },
             { label: "運営", value: "プライム上場" },
           ].map((s) => (

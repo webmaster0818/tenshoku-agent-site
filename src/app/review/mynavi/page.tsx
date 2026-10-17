@@ -119,7 +119,7 @@ export default function MynaviReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社マイナビ（1973年設立）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式明記）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">20代〜30代前半が中心（第二新卒・初めての転職に強い）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">専門部門「マイナビ転職ITエージェント」あり。SE職で約3万件規模、3か月以内入社決定率84.6%（公式）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">専門部門「マイナビ転職ITエージェント」あり。SE職の求人総数32,883件（2026年10月17日時点の公式表示）、3か月以内入社決定率84.6%（公式）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国</td></tr>
             </tbody>
           </table>

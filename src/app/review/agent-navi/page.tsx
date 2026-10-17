@@ -130,7 +130,7 @@ export default function AgentNaviReview() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>10万件以上の求人(公称)</strong>を母数に、紹介されたエージェント経由で提案を受けられます。</span>
+              <span><strong>10万件以上の求人(公称・2026年10月17日時点)</strong>を母数に、紹介されたエージェント経由で提案を受けられます。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -169,7 +169,7 @@ export default function AgentNaviReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス開始</th><td className="px-3 py-2 border-b">2024年4月1日（運営会社のプレスリリースより）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">LINE友だち数</th><td className="px-3 py-2 border-b">サービス開始から1年で1万人突破、2026年7月に2万人突破と発表（いずれも運営会社発表）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">求職者と転職エージェント(担当アドバイザー)のマッチングプラットフォーム</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">規模(公称)</th><td className="px-3 py-2 border-b">東京・大阪・名古屋・福岡など全国の、様々な会社に所属する転職アドバイザー300名以上／求人10万件以上。担当変更可能で「見つかるまで無料でマッチング」と記載</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">規模(公称)</th><td className="px-3 py-2 border-b">東京・大阪・名古屋・福岡など全国の、様々な会社に所属する転職アドバイザー300名以上／求人10万件以上（2026年10月17日時点の公式表記）。担当変更可能で「見つかるまで無料でマッチング」と記載</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">最初の面談</th><td className="px-3 py-2 border-b">コンシェルジュとLINE通話（公式LPは15分程度、プレスリリースは15分〜30分程度と記載）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な対象</th><td className="px-3 py-2 border-b">20代の既卒・第二新卒・フリーター・ニート</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">利用の流れ</th><td className="px-3 py-2 border-b">エントリー・LINEで面談予約→ナビ担当と面談(15分程度)→紹介エージェントと面談→転職支援スタート→内定</td></tr>
