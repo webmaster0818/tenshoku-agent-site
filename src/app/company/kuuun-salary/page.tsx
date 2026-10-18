@@ -25,7 +25,7 @@ const ranking = [
 const faqData = [
   {
     q: "航空会社で平均年収が一番高いのはどこですか？",
-    a: "有価証券報告書(2026年3月期・IR BANK掲載値を2026年9月22日確認)では、日本航空(JAL)が約1,011万円でトップです。ANAホールディングス 約770万円、スターフライヤー 約696万円、スカイマーク 約593万円と続きます。ただしANAホールディングスは持株会社単体の値で、グループの事業会社(全日本空輸など)の水準とは異なる点にご注意ください。",
+    a: "2026年3月期の有価証券報告書では、日本航空(JAL)が約1,011万円でトップです(IR BANK掲載値・2026年9月22日確認)。ANAホールディングス 約770万円(7,709千円)、スターフライヤー 約696万円(6,967千円)、スカイマーク 約593万円(5,932千円)と続きます(3社は有価証券報告書の原本をEDINETで2026年10月18日確認)。ただしANAホールディングスは持株会社単体の値で、グループの事業会社(全日本空輸など)の水準とは異なる点にご注意ください。",
   },
   {
     q: "航空会社の年収はコロナ禍からどれくらい回復しましたか？",
@@ -112,7 +112,7 @@ export default function KuuunSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・全社員平均・賞与含む）です。IR BANK掲載値を2026年9月22日に確認しています。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種で処遇体系が異なり、提出会社に在籍する従業員の構成も会社ごとに違うため、社間の単純比較には幅がある点にご留意ください。とくにANAホールディングスは持株会社単体の値です。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・全社員平均・賞与含む）です。ANAホールディングス(7,709千円)・スターフライヤー(6,967千円)・スカイマーク(5,932千円)の2026年3月期の値は、各社の有価証券報告書の原本（EDINET、<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YKL4.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">ANAホールディングス</a>・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJFT.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">スターフライヤー</a>・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJR8.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">スカイマーク</a>）で2026年10月18日に確認しています。スターフライヤーとスカイマークは職種別の記載のため、「合計又は平均」欄の値を掲載しています。日本航空の値と過去の推移は、IR BANK掲載値（2026年9月22日確認）です。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種で処遇体系が異なり、提出会社に在籍する従業員の構成も会社ごとに違うため、社間の単純比較には幅がある点にご留意ください。とくにANAホールディングスは持株会社単体の値です。
         </p>
 
         <h2>コロナ禍後の回復状況（4年間の推移）</h2>

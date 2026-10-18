@@ -154,9 +154,11 @@ export default function SonyCareer() {
             2022年3月期から2026年3月期にかけて、平均年間給与は71万円上がっています。なお、この数値は持株会社ソニーグループ株式会社の社員のもので、ソニー株式会社など事業会社の水準とは異なる場合があります。応募先企業の待遇は、面接や内定時の条件提示でご確認ください。
           </p>
           <p className="text-xs text-text-muted mt-4">
-            出典：ソニーグループ株式会社 有価証券報告書（
+            出典：2026年3月期の値は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YE2C.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">ソニーグループ株式会社 有価証券報告書（2025年度）</a>
+            （2026年6月18日提出。平均年間給与11,550,986円、EDINETで2026年10月18日確認）、2025年3月期以前の推移は
             <a href="https://irbank.net/6758/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK 従業員データ</a>
-            で2026年10月14日に確認）
+            （2026年10月14日確認）によります。
           </p>
         </div>
 
