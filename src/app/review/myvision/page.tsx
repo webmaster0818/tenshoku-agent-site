@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/myvision/" },
   title: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
   description:
-    "MyVision(マイビジョン)の口コミ・評判を出典を明記して整理します。Google口コミ★4.8(公称)の内容、悪い評判(担当者差・求人のミスマッチ)、未経験8割・支援実績No.1の根拠、会社情報は2026年10月14日に公式サイトで確認しています。",
+    "MyVision(マイビジョン)の口コミ・評判を出典を明記して整理します。Google口コミ★4.8(公称)の内容、悪い評判(担当者差・求人のミスマッチ)、公表数値（年収UP額156万円・書類通過率83%など）の定義、NewMA・ASSIGNとの比較を掲載しています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
@@ -56,7 +56,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
-  dateModified: "2026-10-14",
+  dateModified: "2026-10-21",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/myvision/" },
@@ -96,7 +96,7 @@ export default function MyvisionReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイト・会社情報を再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月21日（公表数値の定義・第三者サイトの口コミ・コンサル特化3社の比較を追加）</p>
           <p className="text-text-secondary leading-relaxed">
             MyVisionは、株式会社MyVisionが運営するコンサルティング業界特化の転職エージェントです。
             利用者の8割がコンサル業界未経験と公表しており、業界説明からケース面接対策までを未経験者前提で支援するのが特徴です。
@@ -207,6 +207,58 @@ export default function MyvisionReview() {
           「担当者差」はどのエージェントでも起きうるため、合わないと感じたら担当変更を申し出るか、<Link href="/review/newma/" className="text-teal underline">NewMA</Link>など別のコンサル特化エージェントと併用して比較することをおすすめします。
           なお、検索上位の比較記事には「経歴がないと断られる」という声の紹介もありますが、出典が自社アンケート等で確認できないため、当サイトでは採用していません。
         </p>
+
+        <h3 className="font-bold text-navy mb-2">公式サイト以外に掲載されている口コミ</h3>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">掲載先</th><th className="bg-gray-50 text-left px-3 py-2 border-b">件数</th><th className="bg-gray-50 text-left px-3 py-2 border-b">内容の傾向（当サイトの要約）</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">Googleマップ（公式が引用）</td><td className="px-3 py-2 border-b">総件数は公式に記載なし</td><td className="px-3 py-2 border-b">上の表のとおりです。公式は「★4.8（2025年9月16日時点）」と表示していますが、件数は示していません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">コエテコキャリア（coeteco.jp）</td><td className="px-3 py-2 border-b">4件</td><td className="px-3 py-2 border-b">4件ともアドバイザーの親身な対応・転職までの伴走を評価しています。うち2件に「連絡が取りにくい時期があった」など連絡面の指摘があります。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：各掲載先、2026年10月21日確認。当サイトでは掲載先の点数を転記せず、件数と内容の傾向のみを記載しています。件数が少ないため、全体の評価を表すものではありません。</p>
+
+        <h2>MyVisionの公表数値と、その定義【2026年10月21日確認】</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          比較記事で引用されることの多い数値を、公式サイトの脚注どおりに整理しました。数値の大きさだけでなく、「誰を対象にした値か」を確認したうえで参考にしてください。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">公表数値</th><th className="bg-gray-50 text-left px-3 py-2 border-b">公式の定義・時点</th><th className="bg-gray-50 text-left px-3 py-2 border-b">当サイトの読み方</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">平均年収UP額 156万円</td><td className="px-3 py-2 border-b">2026年1月に内定を承諾し、同社経由で年収アップを実現した方の平均値</td><td className="px-3 py-2 border-b">1か月分の実績で、年収が上がらなかった方は含まれていません。利用者全体の平均ではありません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">書類選考通過率 83%</td><td className="px-3 py-2 border-b">脚注なし（対象期間・母数の記載なし）</td><td className="px-3 py-2 border-b">算出方法が公開されていないため、他社の通過率とは比べられません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">コンサル未経験 82%</td><td className="px-3 py-2 border-b">同社の支援実績における2025年1月〜12月の統計</td><td className="px-3 py-2 border-b">未経験者の利用が多いことを示す値です。内定者に占める割合ではありません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">コンサル転職支援実績 No.1</td><td className="px-3 py-2 border-b">厚生労働省 人材サービス総合サイトの2025年度（2025年4月〜2026年3月）コンサル特化転職エージェント支援実績数の比較</td><td className="px-3 py-2 border-b">比較した社の範囲と件数は、公式ページに記載がありません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">取引ファーム200社以上・ポジション1,000超</td><td className="px-3 py-2 border-b">時点の記載なし。「国内に展開するほぼ全てのコンサルティングファームとネットワークを構築」と説明</td><td className="px-3 py-2 border-b">紹介できる求人は経歴によって変わります。自分が応募できる件数は面談で確認する必要があります。</td></tr>
+              <tr><td className="px-3 py-2 border-b">Google口コミ ★4.8</td><td className="px-3 py-2 border-b">2025年9月16日時点</td><td className="px-3 py-2 border-b">1年以上前の値で、件数の記載もありません。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイト トップページ（my-vision.co.jp）の表示と脚注、2026年10月21日確認。</p>
+
+        <h2>コンサル特化の転職エージェント3社の比較</h2>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">項目</th><th className="bg-gray-50 text-left px-3 py-2 border-b">MyVision</th><th className="bg-gray-50 text-left px-3 py-2 border-b"><Link href="/review/newma/" className="text-teal underline">NewMA</Link></th><th className="bg-gray-50 text-left px-3 py-2 border-b"><Link href="/review/assign/" className="text-teal underline">ASSIGN</Link></th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">主な対象</td><td className="px-3 py-2 border-b">コンサルファーム（戦略・総合・IT・シンクタンク）。利用者の82%がコンサル未経験</td><td className="px-3 py-2 border-b">コンサルに加え、M&amp;A仲介・FAS・経営企画・PEファンド</td><td className="px-3 py-2 border-b">20代〜30代前半の若手ハイエンド層（コンサルに限らない）</td></tr>
+              <tr><td className="px-3 py-2 border-b">求人数の公開</td><td className="px-3 py-2 border-b">ポジション1,000超（時点の記載なし）</td><td className="px-3 py-2 border-b">求人総数は非公開</td><td className="px-3 py-2 border-b">当サイトでは確認できていません</td></tr>
+              <tr><td className="px-3 py-2 border-b">支援の特徴</td><td className="px-3 py-2 border-b">業界・個社の説明から、ケース面接・Webテスト対策まで</td><td className="px-3 py-2 border-b">業界の実情（大変さを含む）の情報提供、入社後までのフォロー</td><td className="px-3 py-2 border-b">初回面談では求人を紹介せず、キャリアプランの提案から始める</td></tr>
+              <tr><td className="px-3 py-2 border-b">有料職業紹介事業許可番号</td><td className="px-3 py-2 border-b">13-ユ-314719</td><td className="px-3 py-2 border-b">27-ユ-304092</td><td className="px-3 py-2 border-b">13-ユ-308560</td></tr>
+              <tr><td className="px-3 py-2 border-b">利用料金</td><td className="px-3 py-2 border-b">無料</td><td className="px-3 py-2 border-b">無料</td><td className="px-3 py-2 border-b">無料</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：各社公式サイト。確認日はMyVision 2026年10月21日、NewMA 2026年10月14日、ASSIGN 2026年7月20日です。詳細は各社のレビューページをご覧ください。</p>
 
         <h2>MyVisionの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
