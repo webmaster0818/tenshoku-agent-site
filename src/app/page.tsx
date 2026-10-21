@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TopMotion from "@/components/TopMotion";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -128,26 +129,28 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
+      <TopMotion />
+
       {/* Hero */}
       <section className="relative overflow-hidden bg-warm-gray">
         <img
           src="/hero-businessman.jpg"
           alt="スーツのネクタイを整えるビジネスパーソン"
-          className="absolute inset-0 h-full w-full object-cover object-right"
+          className="tl-hero-img absolute inset-0 h-full w-full object-cover object-right"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-white/10" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-xl">
-            <p className="text-teal font-bold text-xs tracking-[0.3em] mb-5">TENSHOKU AGENT LAB 2026</p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl text-navy leading-tight mb-6">
+            <p className="tl-in tl-d1 text-teal font-bold text-xs tracking-[0.3em] mb-5">TENSHOKU AGENT LAB 2026</p>
+            <h1 className="tl-in tl-d2 text-3xl sm:text-4xl lg:text-5xl text-navy leading-tight mb-6">
               転職エージェントと企業年収を<br />
               公表情報で比較
             </h1>
-            <p className="text-text-secondary text-base sm:text-lg mb-10 leading-relaxed">
+            <p className="tl-in tl-d3 text-text-secondary text-base sm:text-lg mb-10 leading-relaxed">
               転職エージェント・転職サービス<strong>59件</strong>を、求人数・サポート内容・得意分野の公表情報で比較しています。
               あわせて<strong>有価証券報告書にもとづく企業別の平均年収を184社</strong>ぶん公開しています。
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="tl-in tl-d4 flex flex-col sm:flex-row gap-4">
               <a href="#ranking" className="btn-accent text-lg px-8 py-4">ランキングを見る</a>
               <a href="#comparison" className="btn-primary text-lg px-8 py-4">比較表を見る</a>
             </div>
@@ -166,7 +169,7 @@ export default function HomePage() {
               { num: "無料", label: "エージェント利用料金" },
             ].map((stat) => (
               <div key={stat.label}>
-                <p className="text-2xl sm:text-3xl font-extrabold text-teal">{stat.num}</p>
+                <p className="text-2xl sm:text-3xl font-extrabold text-teal tabular-nums" data-countup>{stat.num}</p>
                 <p className="text-sm text-text-muted mt-1">{stat.label}</p>
               </div>
             ))}

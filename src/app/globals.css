@@ -357,3 +357,31 @@ h1, h2, h3, h4,
   text-wrap: balance;
   overflow-wrap: normal;
 }
+
+/* ==========================================================================
+   TOPページの動き（2026-10-21 施主指示「TOPを洗練された印象に」）
+   - ヒーロー: 写真がゆっくり寄る（1回だけ）＋ 文字が順に浮かび上がる
+   - 見出し下の線が伸びる（ScrollMotion が h2 に data-rv="in" を付けた時）
+   - 数字のカウントアップは TopMotion.tsx
+   すべて transform / opacity だけ。reduce の環境では動かさない。
+   ========================================================================== */
+@media (prefers-reduced-motion: no-preference) {
+  .tl-hero-img { animation: tl-kenburns 2.6s cubic-bezier(0.16, 1, 0.3, 1) both; transform-origin: 70% 40%; }
+  @keyframes tl-kenburns { from { transform: scale(1.08); } to { transform: scale(1); } }
+
+  .tl-in { animation: tl-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .tl-d1 { animation-delay: 0.08s; }
+  .tl-d2 { animation-delay: 0.2s; }
+  .tl-d3 { animation-delay: 0.34s; }
+  .tl-d4 { animation-delay: 0.48s; }
+  @keyframes tl-rise { from { opacity: 0; transform: translate3d(0, 18px, 0); } to { opacity: 1; transform: none; } }
+
+  .section-title[data-rv]::after { transform: scaleX(0); transform-origin: left center; }
+  .section-title--center[data-rv]::after { transform-origin: center; }
+  .section-title[data-rv="in"]::after { transform: scaleX(1); transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.25s; }
+  .section-title--center[data-rv]::after { transform: translateX(-50%) scaleX(0); }
+  .section-title--center[data-rv="in"]::after { transform: translateX(-50%) scaleX(1); }
+
+  .card-hover { transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s; }
+  .card-hover:hover { border-color: rgba(13, 148, 136, 0.45); }
+}
