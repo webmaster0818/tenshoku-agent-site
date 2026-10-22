@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
-  dateModified: "2026-10-14",
+  dateModified: "2026-10-22",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/agent-navi/" },
@@ -60,6 +60,14 @@ const faqData = [
   {
     q: "紹介されたエージェントが合わなかったらどうすればいいですか？",
     a: "合わないと感じたらナビ側に再相談し、別の担当者・エージェントを紹介してもらう使い方が想定されています(「相性」を前面に出したサービス設計のため)。合わない担当者と我慢して進める必要はありません。",
+  },
+  {
+    q: "登録した情報はどこに渡りますか？連絡を止めたいときはどうすればいいですか？",
+    a: "公式LPの「個人情報の取扱いについて」では、利用目的として「本人の承諾・申込みに基づく、本サービスを利用する他の契約者等への個人情報の提供」と、サービスに伴う連絡・お知らせの配信を挙げています。紹介を受けた転職エージェントにも情報が渡る仕組みのため、連絡元が複数になる場合があります。同じ定めでは、本人が個人情報の利用停止・削除・第三者提供の停止を求めることができるとしています。公式LPに退会手続きの案内は見当たらないため、連絡を止めたい場合はLINEの担当者か運営会社（circus株式会社 03-4405-4931）に利用停止を依頼してください（2026年10月22日確認）。",
+  },
+  {
+    q: "地方在住でも利用できますか？",
+    a: "公式FAQでは、10万件以上の求人から「ご希望の職種・地域でご紹介が可能」と案内しています。エントリーフォームの希望勤務地は、東京23区・首都圏・大阪・名古屋・札幌・福岡・広島・仙台・静岡・その他から選べます（2026年10月22日確認）。最初の面談はLINE通話のため、居住地にかかわらず相談できます。地方の求人数は紹介先のエージェントによって差があるため、面談で希望地域の求人の有無を確認することをおすすめします。",
   },
   {
     q: "利用の流れを教えてください。",
@@ -105,7 +113,7 @@ export default function AgentNaviReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】
           </h1>
-          <p className="text-xs text-text-muted mb-2">最終更新: 2026年10月14日</p>
+          <p className="text-xs text-text-muted mb-2">最終更新: 2026年10月22日</p>
           <p className="text-text-secondary leading-relaxed">
             転職AGENT Navi（転職エージェントナビ）は、circus株式会社が運営する「求職者と転職エージェントのマッチングサービス」です。
             自分で複数のエージェントに登録して比較する代わりに、面談を通じて300名以上のアドバイザーから相性の良い担当者を紹介してもらう仕組みで、
@@ -220,6 +228,25 @@ export default function AgentNaviReview() {
             運営会社のプレスリリース（LINE友だち1万人突破の発表）には、大手人材サービス会社のカスタマーサクセス職に内定した26歳女性、WEBマーケティング会社のコンサルティング営業に内定した29歳女性の声が掲載されています。
             内容はいずれも「面談で転職の軸が見つかった」「初回のLINE通話で的確なアドバイスを受けた」という趣旨です。運営会社が選んで掲載した声のため、良い面に偏る点を割り引いて読む必要があります。
           </p>
+        </div>
+        <div className="glass-card p-5 mb-4">
+          <h3 className="font-bold text-navy mb-2 text-sm">公式LPに掲載されている利用者の声3件（当サイトで整理・2026年10月22日確認）</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">年齢</th><th className="bg-gray-50 text-left px-3 py-2 border-b">転職前</th><th className="bg-gray-50 text-left px-3 py-2 border-b">結果</th><th className="bg-gray-50 text-left px-3 py-2 border-b">ナビについて触れている点</th></tr>
+              </thead>
+              <tbody>
+                <tr><td className="px-3 py-2 border-b">28歳</td><td className="px-3 py-2 border-b">未経験業界への応募で書類選考に通らなかった</td><td className="px-3 py-2 border-b">約2か月で3社内定</td><td className="px-3 py-2 border-b">最初に時間をかけて話を聞き、合う担当エージェントを選んでくれた</td></tr>
+                <tr><td className="px-3 py-2 border-b">25歳</td><td className="px-3 py-2 border-b">客室乗務員</td><td className="px-3 py-2 border-b">人事職で2社内定</td><td className="px-3 py-2 border-b">将来像が不明確と伝え、キャリアコーチング型のエージェントを紹介された</td></tr>
+                <tr><td className="px-3 py-2 border-b">24歳</td><td className="px-3 py-2 border-b">地方銀行の個人営業</td><td className="px-3 py-2 border-b">大手人材会社のキャリアアドバイザー（年収アップ）</td><td className="px-3 py-2 border-b">紹介されたエージェントとの面談で、志望の方向性を整理できた</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-muted mt-2">3件とも20代で、内定の決め手は「紹介された先の担当者」の支援として書かれています。運営会社が選んで掲載した声のため、良い面に偏る点を割り引いてご覧ください。</p>
+        </div>
+        <div className="rounded-xl border border-border p-4 mb-4 text-sm text-text-secondary">
+          <strong>登録後の連絡について：</strong>比較記事（サクフリ）には「メールや電話が多い」という利用者の声が掲載されています。公式LPの「個人情報の取扱いについて」では、本人の承諾・申込みにもとづいて、サービスを利用する他の契約者（紹介先の転職エージェント等）へ個人情報を提供すると定めており、ナビと紹介先の双方から連絡が来る仕組みです。同じ定めで、本人は利用停止・削除・第三者提供の停止を求めることができるとしています（2026年10月22日確認）。
         </div>
         <div className="rounded-xl border border-border p-4 mb-4 text-sm text-text-secondary">
           <strong>口コミを探すときの注意：</strong>「転職エージェントナビ 口コミ」で検索すると、名前の似た「マイナビ転職AGENT」「マイナビ転職エージェントサーチ」の口コミが多く表示されます。いずれも別サービスです。
