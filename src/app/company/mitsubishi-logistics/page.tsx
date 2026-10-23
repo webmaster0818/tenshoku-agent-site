@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "三菱倉庫の平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年10月15日再確認）によると、平均年間給与は約943万円（2026年3月期・提出会社単体）です。938万円（2024年3月期）→912万円（2025年3月期）→943万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月24日提出、EDINETで2026年10月23日確認）によると、平均年間給与は9,430,883円（約943万円・提出会社単体）です。938万円（2024年3月期）→912万円（2025年3月期）→943万円（2026年3月期）と推移しています（2025年3月期以前はIR BANK掲載値・2026年10月15日確認）。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "三菱倉庫は中途採用を行っていますか？",
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     q: "三菱倉庫の平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月22日確認）によると、平均勤続年数は15.6年、平均年齢は40.7歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は15.6年、平均年齢は40.7歳（2026年3月期・提出会社）です。",
   },
   {
     q: "三菱倉庫の平均年収はどう推移していますか？",
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
             <li><strong>働き方：</strong>勤務時間は9:00〜17:00、時間外労働は月平均15時間程度で、土曜は月1回程度の出勤があります。</li>
             <li><strong>応募方法：</strong>希望職種・勤務地を明記して履歴書・職務経歴書を郵送します（エントリーフォームではなく書類送付）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.mitsubishi-logistics.co.jp/saiyo/general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">三菱倉庫 キャリア採用（総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area_general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（エリア総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（地域職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/company/outline/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">会社概要</a>／<a href="https://irbank.net/9301/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK（有価証券報告書の従業員データ）</a>。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.mitsubishi-logistics.co.jp/saiyo/general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">三菱倉庫 キャリア採用（総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area_general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（エリア総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（地域職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/company/outline/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">会社概要</a>／<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YA7K.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年3月期、EDINETで2026年10月23日確認）。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -117,7 +117,7 @@ export default function CompanyCareer() {
         <h2 id="s1">三菱倉庫転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約943万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年10月15日再確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約943万円（9,430,883円、2026年3月期・有価証券報告書、EDINETで2026年10月23日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>938万円（2024年3月期）→912万円（2025年3月期）→943万円（2026年3月期）と推移しています。当サイト収録の陸運・物流8社では2位で、倉庫会社では最も高い水準です（1位は持株会社単体のヤマトホールディングス）。2025年3月期に一度下がった後、最新期に+31万円と回復しました。</li>
             <li>キャリア採用は総合職・エリア総合職・地域職の3区分で募集されています（若干名）。基本給は総合職26万円以上など、各区分の初任給が基準です（2026年10月15日確認）。</li>
             <li>平均年齢は40.7歳、平均勤続年数は15.6年です。物流は燃料費・人件費・取扱量の影響を受けやすく、2024年問題以降の運賃改定や賃上げが数字に表れ始めています。単年の平均額だけでなく、推移もあわせて確認することをおすすめします。</li>
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
                 { label: "本店", value: "東京都中央区日本橋1-19-1 日本橋ダイヤビルディング（公式会社概要）" },
                 { label: "従業員数", value: "単体1,026名・連結4,991名（2026年3月末、公式会社概要）" },
                 { label: "事業内容", value: "倉庫・港湾運送・国際輸送・陸上運送を中核に不動産事業も展開する総合物流企業" },
-                { label: "平均年間給与", value: "約943万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月22日確認）" },
+                { label: "平均年間給与", value: "約943万円（9,430,883円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "938万円（2024年3月期）→912万円（2025年3月期）→943万円（2026年3月期）" },
                 { label: "平均年齢", value: "40.7歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "15.6年（同・提出会社）" },
@@ -148,7 +148,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月22日確認）に基づく提出会社単体・全従業員の平均です。物流会社は総合職・ドライバー職・現業職など職種によって働き方も処遇体系も異なり、提出会社(とくに持株会社)に在籍する従業員の構成は会社ごとに大きく違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YA7K.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月24日提出、EDINETで2026年10月23日確認）、2025年3月期以前の推移はIR BANK掲載値（2026年10月15日確認）に基づく提出会社単体・全従業員の平均です。有価証券報告書には従業員数1,026名（ほかに臨時従業員数839名）、対前事業年度増減率3.3%と記載されています。物流会社は総合職・ドライバー職・現業職など職種によって働き方も処遇体系も異なり、提出会社(とくに持株会社)に在籍する従業員の構成は会社ごとに大きく違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">三菱倉庫の中途採用の募集要項（基本給・職務・応募資格）</h2>

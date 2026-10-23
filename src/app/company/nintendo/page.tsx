@@ -197,9 +197,9 @@ export default function NintendoCareer() {
           <p className="text-xs text-text-muted mt-4">
             出典：
             <a href="https://www.nintendo.co.jp/jobs/environment/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">任天堂 採用情報「キャリア採用 就業情報」</a>
-            、任天堂 有価証券報告書（
+            、任天堂 <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y9NX.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年3月期、2026年6月25日提出。平均年間給与9,824,708円・平均年齢40.5歳・平均勤続年数14.6年・従業員数3,084人が上記と一致することをEDINETで2026年10月23日確認）。2025年3月期以前の推移は
             <a href="https://irbank.net/7974/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK 従業員データ</a>
-            ）。いずれも2026年10月14日に確認しました。
+            の掲載値（2026年10月14日確認）です。
           </p>
         </div>
 

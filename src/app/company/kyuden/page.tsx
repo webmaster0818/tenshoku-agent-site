@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "九州電力の平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月14日確認）によると、平均年間給与は約842万円（2026年3月期・提出会社単体）です。752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月24日提出、EDINETで2026年10月23日確認）によると、平均年間給与は8,420,008円（約842万円・提出会社単体）です。752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移しています（2025年3月期以前はIR BANK掲載値・2026年9月14日確認）。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "九州電力は中途採用を行っていますか？",
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     q: "九州電力の平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月14日確認）によると、平均勤続年数は20.8年、平均年齢は42.1歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は20.8年、平均年齢は42.1歳（2026年3月期・提出会社）です。",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
             <li><strong>選考：</strong>エントリーシート → 基礎能力検査 → 一次面接 → 最終面接 → 内定の順です（2027年4月入社向けは11月中旬の内定予定）。倍率は公表されていません。</li>
             <li><strong>高度専門採用：</strong>特定職種の専門人材を不定期で募集しています（年齢制限なし）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">九州電力 経験者採用情報</a>／有価証券報告書（IR BANK掲載値）。募集時期・内容は変更される場合があるため、応募前に公式サイトにて最新情報をご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.kyuden.co.jp/recruit/information/career/?tab=1" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">九州電力 経験者採用情報</a>／<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YHHO.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年3月期、EDINETで2026年10月23日確認）。募集時期・内容は変更される場合があるため、応募前に公式サイトにて最新情報をご確認ください。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -112,7 +112,7 @@ export default function CompanyCareer() {
         <h2 id="s1">九州電力転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約842万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月14日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約842万円です（8,420,008円、2026年3月期・有価証券報告書、EDINETで2026年10月23日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）と推移しており、2年連続で上昇しています（計90万円）。</li>
             <li>キャリア採用の対象は原則45歳未満で、前職の経験は問いません。選考はES→基礎能力検査→一次面接→最終面接の順です（公式・2026年10月15日確認）。</li>
             <li>全従業員平均であり、発電所・支社・本店で水準は異なります。</li>
@@ -128,7 +128,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "9508" },
                 { label: "本社", value: "福岡県福岡市" },
                 { label: "事業内容", value: "九州を基盤とする電力大手。原子力の再稼働率が高く、再エネ・海外事業も展開" },
-                { label: "平均年間給与", value: "約842万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月14日確認）" },
+                { label: "平均年間給与", value: "約842万円（8,420,008円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "752万円（2024年3月期）→806万円（2025年3月期）→842万円（2026年3月期）" },
                 { label: "平均年齢", value: "42.1歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "20.8年（同・提出会社）" },
@@ -142,7 +142,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月14日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YHHO.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月24日提出、EDINETで2026年10月23日確認）、2025年3月期以前の推移はIR BANK掲載値（2026年9月14日確認）に基づく提出会社単体・全従業員の平均です。有価証券報告書の注記により、従業員数（4,383人）は就業人員数（当社から社外への出向者を除き、社外から当社への出向者を含む）で、平均年間給与は賞与及び基準外賃金を含みます。対前事業年度増減率は4.4%と記載されています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">九州電力の中途採用（キャリア採用の応募資格）</h2>

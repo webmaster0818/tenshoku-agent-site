@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（提出会社）に基づく単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YC6I.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月16日提出、EDINETで2026年10月23日確認）に基づく提出会社単体・全従業員の平均です。万円表示は万円未満を切り捨てています。2025年3月期以前の推移はIR BANK掲載値です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">ディスコの中途採用の状況</h2>

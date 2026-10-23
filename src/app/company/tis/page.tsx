@@ -76,7 +76,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">TIS 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            TIS（証券コード3626）は、クレジットカード・決済システムに強みを持つ独立系大手SIerです。TISインテックグループの中核会社で、金融×ITのキャリアを積みたいエンジニアに選ばれています。
+            TIS（証券コード3626）は、クレジットカード・決済システムに強みを持つ独立系大手SIerです。2026年7月1日に子会社の株式会社インテックを吸収合併し、商号を「TISI株式会社」に変更しました（2026年3月期の有価証券報告書に記載の予定どおり。2026年9月29日提出の訂正報告書の会社名はTISI株式会社）。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -108,10 +108,10 @@ export default function CompanyCareer() {
           <table className="w-full text-sm border-collapse">
             <tbody>
               {[
-                { label: "社名", value: "TIS株式会社" },
+                { label: "社名", value: "TISI株式会社（2026年7月1日にTIS株式会社から商号変更）" },
                 { label: "証券コード", value: "3626" },
                 { label: "本社", value: "東京都新宿区西新宿8-17-1 住友不動産新宿グランドタワー" },
-                { label: "事業内容", value: "クレジットカード・決済系に強い独立系大手SIer（TISインテックグループ）" },
+                { label: "事業内容", value: "クレジットカード・決済系に強い独立系大手SIer（2026年7月1日に株式会社インテックを吸収合併）" },
                 { label: "平均年間給与", value: "約829万円（8,289千円、2026年3月期・有価証券報告書／提出会社単体）" },
                 { label: "直近の推移", value: "803万円（2024年3月期）→829万円（2026年3月期）" },
                 { label: "平均年齢", value: "40歳8カ月（同・提出会社単体）" },
@@ -126,7 +126,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YH5C.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月22日提出、EDINETで2026年10月22日確認）、それ以前の推移はIR BANK掲載値（2026年8月21日確認）に基づく提出会社単体・全従業員の平均です。有価証券報告書の注記により、従業員数は就業人員数で、平均年間給与は賞与及び基準外賃金を含みます。平均年齢は40歳8カ月、平均勤続年数は14年5カ月、対前事業年度増減率は2.75%と記載されています。職種・等級・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YH5C.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月22日提出、EDINETで2026年10月22日確認）、それ以前の推移はIR BANK掲載値（2026年8月21日確認）に基づく提出会社単体・全従業員の平均です。有価証券報告書の注記により、従業員数は就業人員数で、平均年間給与は賞与及び基準外賃金を含みます。平均年齢は40歳8カ月、平均勤続年数は14年5カ月、対前事業年度増減率は2.75%と記載されています。これらは株式会社インテックとの合併（2026年7月1日）より前の、TIS株式会社単体の数値です。商号変更は2026年9月29日提出の<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Z3U3.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">訂正報告書</a>（EDINETで2026年10月23日確認）の会社名で確認しています。職種・等級・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">TISで求められる人材</h2>

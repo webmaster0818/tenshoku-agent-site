@@ -132,7 +132,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（提出会社）に基づく単体・全従業員の平均です。出典は<a href="https://www.lasertec.co.jp/ir/data/securities.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">レーザーテック公式「有価証券報告書等」</a>掲載の2026年6月期 有価証券報告書です（2026年10月17日確認）。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書（提出会社）に基づく単体・全従業員の平均です。出典は<a href="https://www.lasertec.co.jp/ir/data/securities.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">レーザーテック公式「有価証券報告書等」</a>掲載の2026年6月期 有価証券報告書です（2026年10月17日確認）。EDINETの<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Z32V.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年9月24日提出）でも同じ値であることを確認しています（2026年10月23日）。2025年6月期以前の推移はIR BANK掲載値です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">レーザーテックの中途採用の状況</h2>

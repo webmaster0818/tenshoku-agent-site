@@ -133,7 +133,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（第68期・2026年6月19日提出）の提出会社データに基づく全社平均です。直近5期の推移（万円丸め）は789万円→856万円→879万円→810万円→803万円（2022年3月期〜2026年3月期）。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YF41.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（第68期・2026年6月19日提出、EDINETで2026年10月23日確認。平均年間給与8,035千円）の提出会社データに基づく全社平均です。2025年3月期以前の推移はIR BANK掲載値です。直近5期の推移（万円丸め）は789万円→856万円→879万円→810万円→803万円（2022年3月期〜2026年3月期）。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">ロームの中途採用の状況</h2>
