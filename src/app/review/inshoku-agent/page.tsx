@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】",
-  dateModified: "2026-10-14",
+  dateModified: "2026-10-24",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/inshoku-agent/" },
@@ -55,11 +55,15 @@ const faqData = [
   },
   {
     q: "どんなお店の求人が多いですか？",
-    a: "提供開始時のプレスリリースでは、個人店・専門店から大手企業まで幅広く扱い、中心は個店から10店舗規模の飲食企業、海鮮・フレンチ・イタリアン・鉄板焼きなどの専門店や高単価業態も含むと説明されています。大手チェーンだけでなく、個店・専門店で技術を磨きたい人も相談しやすい構成です。",
+    a: "提供開始時のプレスリリースでは、個人店・専門店から大手企業まで幅広く扱い、中心は個店から10店舗規模の飲食企業、海鮮・フレンチ・イタリアン・鉄板焼きなどの専門店や高単価業態も含むと説明されています。その後、2026年8月14日の決算説明資料では、成功報酬型を希望する大手法人企業を中心に引き合いがあり、掲載数が大きく伸びたと説明しています（件数は非開示）。公式サイトの求人例は、大手和食ダイニングの料理長（月給38万円）、大型ブルワリーレストランのホールスタッフ（月給35万円）、本格フレンチカフェの調理スタッフ（月給30万円）の3件です（2026年10月24日確認）。",
+  },
+  {
+    q: "問い合わせ先はどこですか？",
+    a: "公式サービス紹介ページに、電話（03-5734-1866／06-7639-0137）とメール（agent-inshokuten@synchro-food.co.jp）が記載されています。受付時間の記載はありません（2026年10月24日確認）。",
   },
   {
     q: "飲食店ドットコムエージェントは「やばい」「怪しい」サービスではありませんか？",
-    a: "運営会社の株式会社シンクロ・フードは東京証券取引所プライム市場上場（証券コード3963）の企業で、同社の会社概要に有料職業紹介事業の許可番号「13-ユ-301534」が記載されています（2026年10月14日確認）。国の許可を受けた職業紹介事業者が運営するサービスです。",
+    a: "運営会社の株式会社シンクロ・フードは東京証券取引所プライム市場上場（証券コード3963）の企業で、同社の会社概要に有料職業紹介事業の許可番号「13-ユ-301534」が記載されています（2026年10月14日確認）。国の許可を受けた職業紹介事業者が運営するサービスです。なお同社は2026年5月14日、人材紹介事業で元従業員1名が架空の売上（総額約1,200万円）を計上していたことを公表し、個人情報の流出は現時点で確認されていないこと、業務システムの導入やチェック体制の強化などの再発防止策を示しています（同社適時開示、2026年10月24日確認）。",
   },
   {
     q: "電話連絡は頻繁にありますか？",
@@ -108,7 +112,7 @@ export default function InshokuAgentReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             飲食店ドットコムエージェントの口コミ・評判は？飲食業界特化の転職エージェントを解説【2026年10月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式情報を再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月24日（公式サービス紹介ページ・運営会社の決算説明資料と適時開示を同日確認）</p>
           <p className="text-text-secondary leading-relaxed">
             飲食店ドットコムエージェントは、東証プライム上場の株式会社シンクロ・フードが運営する、飲食業界特化の正社員転職・就職エージェントです。
             飲食店の出店から運営・退店までを支える「飲食店ドットコム」を約20年運営してきた同社ならではの業界ネットワークが強みで、
@@ -170,8 +174,8 @@ export default function InshokuAgentReview() {
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">飲食店ドットコムエージェント（飲食業界特化の正社員転職・就職エージェント）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">提供開始</th><td className="px-3 py-2 border-b">2026年3月（運営会社のプレスリリースより）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な求人先</th><td className="px-3 py-2 border-b">個店〜10店舗規模の飲食企業が中心。海鮮・フレンチ・イタリアン・鉄板焼きなどの専門店や高単価業態も含み、大手企業も扱っています（提供開始時のプレスリリースより）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">提供開始</th><td className="px-3 py-2 border-b">サービス名「飲食店ドットコムエージェント」としての提供は2026年3月から（運営会社のプレスリリース・決算説明資料）。同社の飲食店向け人材紹介事業そのものは2025年6月に新規事業として開始（同社の適時開示、2026年5月14日）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な求人先</th><td className="px-3 py-2 border-b">個店〜10店舗規模の飲食企業が中心。海鮮・フレンチ・イタリアン・鉄板焼きなどの専門店や高単価業態も含み、大手企業も扱っています（提供開始時のプレスリリースより）。2026年8月の決算説明資料では、成功報酬型を希望する大手法人企業を中心に引き合いがあり、掲載数が大きく伸びたと説明しています（件数は非開示）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社シンクロ・フード（東京証券取引所プライム市場上場・証券コード3963）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都渋谷区恵比寿南1-7-8 恵比寿サウスワン（本社）／大阪支社：大阪府大阪市北区梅田3-4-5 毎日新聞ビル8階</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立・代表者</th><td className="px-3 py-2 border-b">2003年4月24日設立／代表取締役 大久保俊</td></tr>
@@ -181,12 +185,38 @@ export default function InshokuAgentReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象職種</th><td className="px-3 py-2 border-b">サービス・ホール／調理・キッチン／店長候補・マネージャー／料理長候補／パティシエ／本部スタッフ・SVなど飲食業界の職種全般</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／求人紹介／履歴書添削／面接対策／条件交渉・スケジュール調整代行／入社後フォロー</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談方法</th><td className="px-3 py-2 border-b">電話ヒアリング（最短当日）・オンラインやメールでの対応も可</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">問い合わせ先</th><td className="px-3 py-2 border-b">03-5734-1866／06-7639-0137（公式サービス紹介ページに記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">問い合わせ先</th><td className="px-3 py-2 border-b">03-5734-1866／06-7639-0137、メール agent-inshokuten@synchro-food.co.jp（公式サービス紹介ページに記載。受付時間の記載はありません）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（企業側の成功報酬モデル）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：飲食店ドットコムエージェント公式サービス紹介ページ（job.inshokuten.com/about/agent_service）および株式会社シンクロ・フード会社概要（<a href="https://www.synchro-food.co.jp/company/overview" rel="nofollow noopener" target="_blank" className="text-teal underline">synchro-food.co.jp/company/overview</a>）、2026年10月14日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：飲食店ドットコムエージェント公式サービス紹介ページ（job.inshokuten.com/about/agent_service）および株式会社シンクロ・フード会社概要（<a href="https://www.synchro-food.co.jp/company/overview" rel="nofollow noopener" target="_blank" className="text-teal underline">synchro-food.co.jp/company/overview</a>）、2026年10月14日確認（2026年10月24日に公式サービス紹介ページを再確認）。提供開始・事業の状況は株式会社シンクロ・フードの2026年3月期決算説明資料（2026年5月14日）・2027年3月期第1四半期決算説明資料（2026年8月14日）・適時開示「当社元従業員による不正行為に関するお知らせ」（2026年5月14日）によります。当サイトでは口コミ・数値の創作は行っていません。</p>
+
+        <h2>公式サイトに掲載されている求人例</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          公式サービス紹介ページには、紹介求人の例が3件掲載されています（2026年10月24日確認）。求人数や対応エリアは公式ページに記載がないため、求人の傾向をつかむ目安としてご覧ください。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">業態</th>
+                <th className="text-left px-3 py-2 border-b">職種</th>
+                <th className="text-left px-3 py-2 border-b">月給</th>
+                <th className="text-left px-3 py-2 border-b">掲載されている待遇</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">大手和食ダイニング（上場企業）</td><td className="px-3 py-2 border-b">料理長</td><td className="px-3 py-2 border-b">38万円</td><td className="px-3 py-2 border-b">8連休制度</td></tr>
+              <tr><td className="px-3 py-2 border-b">大型ブルワリーレストラン</td><td className="px-3 py-2 border-b">ホールスタッフ</td><td className="px-3 py-2 border-b">35万円</td><td className="px-3 py-2 border-b">月9日休み・海外研修旅行</td></tr>
+              <tr><td className="px-3 py-2 border-b">本格フレンチカフェ</td><td className="px-3 py-2 border-b">調理スタッフ</td><td className="px-3 py-2 border-b">30万円</td><td className="px-3 py-2 border-b">月8日休み・季節休暇10日</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">
+          出典：飲食店ドットコムエージェント公式サービス紹介ページの求人例（2026年10月24日確認）。掲載時点の例であり、現在募集中であることや同じ条件の求人が常にあることを示すものではありません。
+          なお、同ページでは求人サイト「求人飲食店ドットコム」の運営年数を本文で「10年以上」、画像の説明文で「約20年」と表記しており、本記事では本文の表記に合わせています。
+        </p>
 
         <h2>飲食店ドットコムエージェントの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
@@ -263,6 +293,24 @@ export default function InshokuAgentReview() {
           </ul>
           <p className="mt-1">これらの評判は、エージェント（転職支援）の評判とは異なります。今後エージェント本体の口コミが掲載された場合は、投稿日と「担当者からの紹介だったか」を確認したうえでお読みください。</p>
         </div>
+        <p className="text-sm text-text-secondary mb-4">
+          2026年10月24日に「飲食店ドットコムエージェント 口コミ」「飲食店ドットコムエージェント 評判」で再度検索しましたが、状況は10月14日と同じで、上位は運営会社の告知記事と同社の別サービス（物件・M&amp;A・求人サイト）のページでした。
+          M&amp;Aサービスのレビューサイト（ITreview）の評価は投稿1件で、エージェントとは別のサービスです。
+        </p>
+
+        <h3 className="font-bold text-navy mb-2">運営会社が公表している人材紹介事業の不正行為と再発防止策</h3>
+        <p className="text-sm text-text-secondary mb-2">
+          「やばい」「怪しい」という検索をする方のために、運営会社が公式に開示している事実を記載します。株式会社シンクロ・フードは2026年5月14日、飲食店向け人材紹介事業で
+          元従業員1名が2025年6月から2026年3月にかけて契約書や入社承諾の書類を偽造し、架空の売上（総額約1,200万円）を計上していたと公表しました。
+          同社は、単独の行為で他の役職員の関与はないこと、求人企業・求職者の個人情報の流出は現時点で確認されていないことを説明しています。当該元従業員は2026年5月13日付で懲戒解雇されています。
+        </p>
+        <p className="text-sm text-text-secondary mb-2">
+          原因として、新規事業の立ち上げ期に実務が1名に集中し、専用の業務管理システムがなかったことなどを挙げ、再発防止策として、契約書の作成・送付を営業担当以外の担当者が行う体制、人材紹介用の業務システムの導入、内部監査とコンプライアンス研修の強化を示しています。
+        </p>
+        <p className="text-xs text-text-muted mb-4">
+          出典：株式会社シンクロ・フード 適時開示「当社元従業員による不正行為に関するお知らせ」（2026年5月14日、東京証券取引所の適時開示情報）・2026年3月期決算説明資料（同日）、2026年10月24日確認。
+          当サイトはこの開示内容を要約したもので、求職者向けサービスの品質を評価したものではありません。
+        </p>
         <p className="text-xs text-text-muted mb-8">出典：Web検索結果（2026年10月14日確認）・運営会社プレスリリース（Koubo掲載、2026年3月2日）。エージェント本体の公開口コミは確認できず、他社の転職比較記事は一次情報でないため出典にしていません。仕様は飲食店ドットコムエージェント公式サービス紹介ページ（<a href="https://job.inshokuten.com/about/agent_service" rel="nofollow noopener" target="_blank" className="text-teal underline">job.inshokuten.com/about/agent_service</a>）、2026年10月14日確認。</p>
 
         <h2>飲食店ドットコムエージェントの利用の流れ</h2>

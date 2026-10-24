@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
-  dateModified: "2026-10-14",
+  dateModified: "2026-10-24",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/unison-career/" },
@@ -39,7 +39,19 @@ const faqData = [
   },
   {
     q: "オンラインや電話で相談できますか？",
-    a: "公式FAQで、オンライン・電話のどちらでも相談可能と回答しています。市場価値(年収)の確認だけの相談も可能としており、リモートワーク(在宅)の求人も扱っているとしています(公式FAQ、2026年10月14日確認)。",
+    a: "公式FAQで、オンライン・電話のどちらでも相談可能と回答しています。市場価値(年収)の確認だけの相談も可能としており、リモートワーク(在宅)の求人も扱っているとしています(公式FAQ、2026年10月14日確認)。公式転職ページでは、Web面談のほか電話・メール・LINEに対応し、希望者には対面面談も行うと案内しています(2026年10月24日確認)。",
+  },
+  {
+    q: "ユニゾンキャリアの退会方法を教えてください。",
+    a: "公式の利用規約(2026年8月1日施行)第17条で、所定の方法で通知すれば退会でき、ユーザー登録が抹消されると定めています。公式サイトのトップ・転職ページには具体的な手順の記載がないため、担当者または問い合わせ窓口に退会の意思を伝えて手続きを確認してください(2026年10月24日確認)。",
+  },
+  {
+    q: "ユニゾンキャリアに利用を断られることはありますか？",
+    a: "利用規約では、登録申請を承認しない場合があること(第5条)、求人条件との照合の結果、企業へ推薦しない場合があり、その判断基準や理由は開示しないこと(第8条)が定められています(2026年10月24日確認)。IT・Web特化のため、希望職種がIT以外の場合は総合型エージェントとの併用をおすすめします。",
+  },
+  {
+    q: "「ユニゾンキャリア就活」とは違うサービスですか？",
+    a: "同じ運営会社のサービスですが、ユニゾンキャリア就活は新卒の就職活動向け、本記事で扱うユニゾンキャリア(転職)は社会人の転職向けで、相談フォームも別です。コエテコキャリアの口コミページも分かれており、2026年10月24日時点で転職側17件・就活側3件でした。口コミや実績値を見るときは、どちらのサービスの情報かを確認してください。",
   },
   {
     q: "ユニゾンキャリアの利用に費用はかかりますか？",
@@ -96,7 +108,7 @@ export default function UnisonCareerReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイト・運営会社ページ・公開口コミを同日確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月24日（公式サイト・公式転職ページ・利用規約・運営会社の会社概要・コエテコキャリアの口コミを同日再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT・Web業界専門の転職エージェントです。
             「大量応募＆同意なしの応募はしません」という厳選紹介の方針と、Google口コミ4.8(470件・2025年12月23日時点の公称)を掲げています。
@@ -168,7 +180,7 @@ export default function UnisonCareerReview() {
             <h3 className="font-bold text-navy mb-2">悪い評判・注意点の傾向</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>低評価は1件で、「紹介される企業が期待したほどではなかった」「未経験の1社目向き」という趣旨です</li>
-              <li>項目別平均で最も低いのは「求人の幅」(4.5)です。IT・Web特化のため、職種・業界の幅は総合型より狭くなります</li>
+              <li>項目別平均で最も低いのは「求人の充実度」(4.5)です。IT・Web特化のため、職種・業界の幅は総合型より狭くなります</li>
               <li>公式サイトで求人数・対応エリアは公表されていないため、地方求人の量は面談でご確認ください</li>
             </ul>
           </div>
@@ -177,17 +189,26 @@ export default function UnisonCareerReview() {
           <p className="font-bold text-navy mb-2 text-sm">当サイトの見方</p>
           <p className="text-sm text-text-secondary leading-relaxed">
             公開口コミの評価は高めですが、件数が少なく、口コミサイト側も広告掲載・投稿特典を設けているため、点数だけで判断せず、口コミの内容もあわせて確認することをおすすめします。
-            「サポートの丁寧さ」は複数の口コミで一致している一方、「求人の幅」はIT特化という性質上、一定の制約があります。
+            「サポートの丁寧さ」は複数の口コミで一致している一方、「求人の充実度」はIT特化という性質上、一定の制約があります。
             総合型エージェントを1社併用し、紹介求人の質と量を比較することをおすすめします。
             Google口コミ4.8(470件)は公式の抜粋表記で、件数・評価は時期により変わります。
           </p>
         </div>
+        <div className="rounded-xl border border-border p-4 mb-4 text-sm text-text-secondary">
+          <strong>口コミを読むときの注意（転職と就活は別ページ）：</strong>
+          <ul className="list-disc pl-5 mt-1 space-y-1">
+            <li>ユニゾンキャリアには、転職(中途)向けのほかに新卒向けの「ユニゾンキャリア就活」があります。コエテコキャリアでも別ページで、就活側は3件・平均4.7でした(2026年10月24日確認)。本記事の傾向は転職側の17件を対象にしています</li>
+            <li>公式の実績値も転職と就活で異なります。就活側は「内定率 約88%」(2025年4月〜10月、1次選考以降に進み選考途中で辞退していない学生が対象)を掲げており、転職側の「年収UP率 約93%」とは別の指標です</li>
+            <li>他社の比較記事には「年収UP率93%(2024年9月〜2025年4月)」「Google口コミ4.8(2024年1月時点)」など、公式の現行表記と時点が異なる数値が残っているものがあります。本記事は2026年10月24日時点の公式表記に合わせています</li>
+            <li>他社記事にある「求人は一都三県と大阪に集中」「優良企業5,000件超」は、2026年10月24日時点の公式トップ・転職ページ本文では確認できなかったため、本記事では採用していません</li>
+          </ul>
+        </div>
         <p className="text-xs text-text-muted mb-10">
-          出典: コエテコキャリア「ユニゾンキャリア」口コミページ(2026年10月14日確認)の公開口コミの傾向を当サイトが要約しています。Google口コミの数値はユニゾンキャリア公式LP
+          出典: コエテコキャリア「ユニゾンキャリア」口コミページ(2026年10月14日確認、2026年10月24日に件数・星別件数・項目別平均が同じであることを再確認)の公開口コミの傾向を当サイトが要約しています。Google口コミの数値はユニゾンキャリア公式LP
           (「Google口コミ(470件)から抜粋」「2025年12月23日時点での口コミ参照」、2026年10月14日確認)の公称値です。他社の転職比較記事は出典にしていません。
         </p>
 
-        <h2>ユニゾンキャリアの基本データ【2026年10月14日確認】</h2>
+        <h2>ユニゾンキャリアの基本データ【2026年10月24日再確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -201,8 +222,10 @@ export default function UnisonCareerReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">事業内容</th><td className="px-3 py-2 border-b">システム・アプリケーション設計開発、情報インフラ設計開発、IT領域における人材紹介</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">電話番号</th><td className="px-3 py-2 border-b">03-6450-5980(運営会社)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">13-ユ-313348</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象</th><td className="px-3 py-2 border-b">ITエンジニア(経験者・未経験者とも窓口あり)・在職中/離職中どちらも可</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">相談方法</th><td className="px-3 py-2 border-b">Web面談・電話(公式FAQ)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">労働者派遣事業許可番号</th><td className="px-3 py-2 border-b">派13-316491(運営会社の会社概要に併記)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象</th><td className="px-3 py-2 border-b">ITエンジニア(経験者・未経験者とも窓口あり)・在職中/離職中どちらも可。対象年齢の明記はありません。新卒向けは別サービス「ユニゾンキャリア就活」</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">紹介先の例</th><td className="px-3 py-2 border-b">自社開発・SIerなどの企業、非公開求人(公式転職ページの表記)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">相談方法</th><td className="px-3 py-2 border-b">Web面談が中心。電話・メール・LINE、希望者には対面面談にも対応。始業前・終業後の時間帯にも面談を設定可能(公式転職ページのFAQ)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／市場価値・適性年収の提示／求人の厳選紹介／書類添削／面接対策／年収交渉／入社前・入社後フォロー</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">公表実績</th><td className="px-3 py-2 border-b">年収UP率 約93%(2025年1月〜8月の内定承諾者のうち応募時より転職後年収が上がった割合・エンジニア経験者のみ)／入社後定着率 約97%(2025年1月〜8月入社者の3ヶ月以上継続率)※いずれも公称</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数・対応エリア</th><td className="px-3 py-2 border-b">公式サイトでは公表なし</td></tr>
@@ -212,7 +235,7 @@ export default function UnisonCareerReview() {
         </div>
         <p className="text-xs text-text-muted mb-8">
           出典：ユニゾンキャリア公式サイト(<a href="https://unison-career.jp/" rel="nofollow noopener" target="_blank" className="underline">unison-career.jp</a>)・公式FAQおよび運営会社の
-          <a href="https://www.unison-tech.jp/company/" rel="nofollow noopener" target="_blank" className="underline">会社概要</a>、2026年10月14日確認。
+          <a href="https://www.unison-tech.jp/company/" rel="nofollow noopener" target="_blank" className="underline">会社概要</a>、2026年10月14日確認(2026年10月24日に会社概要・公式転職ページ <a href="https://unison-career.jp/job-change/" rel="nofollow noopener" target="_blank" className="underline">unison-career.jp/job-change/</a> を再確認)。
           求人数・対応エリアは公式に公表されていないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。
         </p>
 
@@ -225,7 +248,53 @@ export default function UnisonCareerReview() {
           <li>内定・年収交渉</li>
           <li>入社前・入社後フォロー</li>
         </ol>
-        <p className="text-xs text-text-muted mb-8">出典：ユニゾンキャリア公式サイトの利用の流れ・公式FAQ(2026年10月14日確認)。公式FAQでは、就業状況によるものの早い人で10日間〜2週間で内定獲得が可能としています。</p>
+        <p className="text-xs text-text-muted mb-8">出典：ユニゾンキャリア公式サイトの利用の流れ・公式FAQ(2026年10月14日確認、2026年10月24日に6ステップが同じであることを再確認)。公式FAQでは、就業状況によるものの早い人で10日間〜2週間で内定獲得が可能としています。面談前の準備は特に不要で、服装も自由と案内しています。</p>
+
+        <h2>公式サイトに掲載されている年収アップ事例</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          公式転職ページには、職種別の年収アップ事例が7件掲載されています(2026年10月24日確認)。運営会社が選んで掲載している事例であり、第三者の口コミや平均値ではありません。
+          自分の経験年数・職種に近い例があるかを確認する目安としてご覧ください。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">転職後の職種</th>
+                <th className="text-left px-3 py-2 border-b">転職前の経験</th>
+                <th className="text-left px-3 py-2 border-b">年収(転職前→転職後)</th>
+                <th className="text-right px-3 py-2 border-b">差額(当サイト算出)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">ネットワークエンジニア</td><td className="px-3 py-2 border-b">経験1年</td><td className="px-3 py-2 border-b">330万円→450万円</td><td className="px-3 py-2 border-b text-right">+120万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">システムエンジニア</td><td className="px-3 py-2 border-b">経験3年</td><td className="px-3 py-2 border-b">380万円→466万円</td><td className="px-3 py-2 border-b text-right">+86万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">ITコンサルタント</td><td className="px-3 py-2 border-b">Webエンジニア・経験5年</td><td className="px-3 py-2 border-b">550万円→760万円</td><td className="px-3 py-2 border-b text-right">+210万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">インフラエンジニア</td><td className="px-3 py-2 border-b">IT未経験(前職は接客業)</td><td className="px-3 py-2 border-b">310万円→375万円</td><td className="px-3 py-2 border-b text-right">+65万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">クラウドエンジニア</td><td className="px-3 py-2 border-b">経験2年</td><td className="px-3 py-2 border-b">450万円→523万円</td><td className="px-3 py-2 border-b text-right">+73万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">AIエンジニア</td><td className="px-3 py-2 border-b">Web開発・経験3年</td><td className="px-3 py-2 border-b">380万円→448万円</td><td className="px-3 py-2 border-b text-right">+68万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">SREエンジニア</td><td className="px-3 py-2 border-b">インフラ・経験5年</td><td className="px-3 py-2 border-b">510万円→600万円</td><td className="px-3 py-2 border-b text-right">+90万円</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">
+          出典：ユニゾンキャリア公式転職ページの年収アップ事例(2026年10月24日確認)。差額は当サイトが掲載値から計算したものです。
+          7件のうち差額が100万円を超えるのは2件(経験1年のネットワークエンジニア、経験5年からのITコンサルタント)で、未経験からの1件は+65万円でした。
+          掲載事例は成功例であり、すべての利用者の年収が上がることを示すものではありません。
+        </p>
+
+        <h2>ユニゾンキャリアの退会方法・利用停止（利用規約より）</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          他社の解説記事では退会方法が「担当者に伝えれば完了」と紹介されていますが、公式サイトのトップ・転職ページには退会手順の記載がありません。
+          当サイトでは、公式の利用規約(2026年8月1日施行版、2026年10月24日確認)で定めを確認しました。
+        </p>
+        <ul className="list-disc pl-5 space-y-1 text-sm text-text-secondary mb-3">
+          <li><strong>退会</strong>：所定の方法で通知すれば退会でき、ユーザー登録が抹消されます(第17条)。手続きの方法は担当者または問い合わせ窓口でご確認ください</li>
+          <li><strong>利用停止・登録抹消</strong>：規約違反のほか、6か月以上利用がない場合や、運営会社からの問い合わせに30日以上応答がない場合などに、登録抹消等の対象になると定められています(第16条)</li>
+          <li><strong>紹介できない場合</strong>：登録申請を承認しないことがあるほか(第5条)、求人条件との照合の結果、企業に推薦しないことがあり、その判断基準や理由は開示しないと定められています(第8条)</li>
+        </ul>
+        <p className="text-xs text-text-muted mb-8">
+          出典：ユニゾンキャリア利用規約(<a href="https://unison-career.jp/terms/" rel="nofollow noopener" target="_blank" className="underline">unison-career.jp/terms/</a>、2026年10月24日確認)。条文の要旨を当サイトがまとめたもので、正確な内容は規約本文をご確認ください。
+        </p>
 
         <h2>ユニゾンキャリアの特徴（公式公表ベース）</h2>
         <div className="space-y-4 mb-8">
