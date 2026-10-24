@@ -26,7 +26,6 @@ export const AGENTS: Record<string, AgentEntry> = {
   "hiraku-agent": { name: "Hiraku agent", official: "https://hiraku-agent.com/", ss: "/agent-ss/ss-hiraku-agent.jpg" },
   "hoiku-musubi": { name: "ほいくのむすび", official: "https://www.n-planning.jp/hoikunomusubi/", ss: "/agent-ss/ss-hoiku-musubi.jpg" },
   "hupro": { name: "ヒュープロ", official: "https://hupro-job.com/", ss: "/agent-ss/ss-hupro.jpg" },
-  "inshoku-agent": { name: "飲食店ドットコムエージェント", official: "https://job.inshokuten.com/", ss: "/agent-ss/ss-inshoku-agent.jpg" },
   "jac": { name: "JACリクルートメント", official: "https://www.jac-recruitment.jp/", ss: "/agent-ss/ss-jac.jpg" },
   "jobsoelu": { name: "ジョブソエル", official: "https://jobsoel.com/", ss: "/agent-ss/ss-jobsoelu.jpg" },
   "keiri-jobs": { name: "経理Jobs(経理ジョブズ)", official: "https://keiri-jobs.com/", ss: "/agent-ss/ss-keiri-jobs.jpg" },

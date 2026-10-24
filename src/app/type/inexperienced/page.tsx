@@ -97,12 +97,9 @@ export default function InexperiencedPage() {
         </p>
         <FelmatCta slug="rework" heading="未経験からの転職を専門エージェントに相談する" note="キャリアの方向性が決まっていない段階の相談も歓迎と公式に記載されています。" />
         <p className="mb-8 text-sm text-text-secondary">
-          目指す業界が決まっている場合は業界特化型も有力です。飲食業界なら
-          <FelmatTextLink slug="inshoku-agent" text="飲食店ドットコムエージェント" />
-          （東証プライム上場シンクロ・フード運営・未経験歓迎求人あり／<Link href="/review/inshoku-agent/" className="text-teal underline">詳細解説はこちら</Link>）、
+          目指す業界が決まっている場合は、業界に合わせた選び方も有力です。たとえば
           不動産営業なら<Link href="/company/ebisu-fudousan/" className="text-teal underline">恵比寿不動産</Link>のような
           研修体制を公開している企業への直接応募も選択肢になります。
-          <span className="text-xs text-text-muted">（※テキストリンクはプロモーション（PR）を含みます）</span>
         </p>
 
         {/* 提携先の未経験向け比較 */}

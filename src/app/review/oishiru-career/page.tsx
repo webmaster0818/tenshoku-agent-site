@@ -105,7 +105,6 @@ export default function Page() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>小売以外への異業種転職 →総合型の転職エージェントが候補です</li>
-              <li>飲食業界への転身 →<a href="/review/inshoku-agent/" className="text-teal underline">飲食店ドットコムエージェント</a>との比較をおすすめします</li>
             </ul>
           </div>
         </div>
@@ -126,9 +125,6 @@ export default function Page() {
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">
-            <Link href="/review/inshoku-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              飲食店ドットコムエージェントの詳細
-            </Link>
             <Link href="/review/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               転職サービス解説一覧
             </Link>

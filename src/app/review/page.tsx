@@ -86,7 +86,6 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
   {
     title: "業界・職種特化",
     items: [
-      { href: "/review/inshoku-agent/", name: "飲食店ドットコムエージェント", tag: "飲食業界" },
       { href: "/review/hape-agent/", name: "hape Agent", tag: "営業職" },
       { href: "/review/saasfield/", name: "SaaSfield", tag: "SaaS業界" },
       { href: "/review/prime-career/", name: "プライムキャリア", tag: "不動産・設備" },

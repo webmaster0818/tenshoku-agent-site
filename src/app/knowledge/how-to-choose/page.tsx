@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import { DODA, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
-import { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/how-to-choose/" },
@@ -147,14 +146,12 @@ export default function HowToChoosePage() {
         </div>
 
         <p className="mb-8 text-sm text-text-secondary">
-          目指す業界・働き方が明確な場合は特化型の併用も有効です。飲食業界なら
-          <FelmatTextLink slug="inshoku-agent" text="飲食店ドットコムエージェント" />
-          （<Link href="/review/inshoku-agent/" className="text-teal underline">解説記事</Link>）、
+          目指す業界・働き方が明確な場合は特化型の併用も有効です。
           未経験からの異業種挑戦なら<Link href="/review/rework/" className="text-teal underline">Re:WORKエージェント</Link>、
           育児と両立する時短正社員なら<Link href="/review/realme-career/" className="text-teal underline">リアルミーキャリア</Link>、
-          IT業界なら<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>のように、
+          IT業界なら<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>、
+          スーパー・生鮮業界なら<Link href="/review/oishiru-career/" className="text-teal underline">オイシルキャリア</Link>のように、
           総合型1〜2社＋特化型1社の組み合わせが選びやすい構成です。
-          <span className="text-xs text-text-muted">（※テキストリンクはプロモーション（PR）を含みます）</span>
         </p>
 
         <h2>よくある質問</h2>
