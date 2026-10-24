@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "SCSKへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "SCSK（証券コード9719）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約796万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
+    "SCSK（住友商事グループ。2026年3月12日に東証プライム市場の上場を廃止）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約796万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
   alternates: { canonical: "/company/scsk/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "SCSKへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "SCSK（9719）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
+    description: "SCSKの平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
   },
 };
 
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">SCSK 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            SCSK（証券コード9719）は、住友商事グループの大手SIerで、システム開発からITインフラ・BPOまで幅広く手がけています。
+            SCSKは、住友商事グループの大手SIerで、システム開発からITインフラ・BPOまで幅広く手がけています。住友商事の子会社による公開買付けと株式併合を経て、2026年3月12日に東京証券取引所プライム市場の上場を廃止しており、現在は非上場です（旧証券コード9719）。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -106,7 +106,8 @@ export default function CompanyCareer() {
             <tbody>
               {[
                 { label: "社名", value: "SCSK株式会社" },
-                { label: "証券コード", value: "9719" },
+                { label: "上場区分", value: "非上場（2026年3月12日に東証プライム市場の上場を廃止。旧証券コード9719）" },
+                { label: "親会社", value: "住友商事株式会社（議決権の所有割合100.0%。うち37.5%は子会社のSCインベストメンツ・マネジメント株式会社を通じた間接所有。2026年3月31日現在）" },
                 { label: "本社", value: "東京都江東区（豊洲）" },
                 { label: "事業内容", value: "住友商事グループの大手SIer。システム開発からITインフラ・BPOまでフルラインナップ" },
                 { label: "平均年間給与", value: "約796万円（7,969千円、2026年3月期・有価証券報告書／提出会社）" },
@@ -123,7 +124,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YHDD.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月23日提出、EDINETで2026年10月24日確認）、2025年3月期以前の推移はIR BANK掲載値（2026年8月29日確認）に基づく提出会社単体・全従業員の平均です。万円表示は万円未満を切り捨てています。有価証券報告書の注記により、従業員数（8,493名）は就業人員で、平均年間給与は賞与及び基準外賃金を含みます。対前事業年度増減率は1.2%と記載されています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YHDD.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月23日提出、EDINETで2026年10月24日確認）、2025年3月期以前の推移はIR BANK掲載値（2026年8月29日確認）に基づく提出会社単体・全従業員の平均です。万円表示は万円未満を切り捨てています。有価証券報告書の注記により、従業員数（8,493名）は就業人員で、平均年間給与は賞与及び基準外賃金を含みます。対前事業年度増減率は1.2%と記載されています。上場廃止日は<a href="https://www.jpx.co.jp/news/1023/20260209-11.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">日本取引所グループ「上場廃止等の決定：ＳＣＳＫ（株）」</a>（2026年2月9日公表、2026年10月24日確認）と同有価証券報告書の記載、親会社と議決権の所有割合は同有価証券報告書「関係会社の状況」に基づきます。上場廃止後も、同社は2026年3月期の有価証券報告書を提出しています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">SCSKの中途採用の状況</h2>

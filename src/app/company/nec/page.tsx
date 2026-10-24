@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { salaryMan, salaryYen } from "@/data/verified-salary";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
@@ -112,7 +113,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "6701" },
                 { label: "本社", value: "東京都港区芝5-7-1" },
                 { label: "事業内容", value: "ITサービス・社会インフラ（通信・官公庁・防衛等）・生体認証などの大手電機・ITベンダー" },
-                { label: "平均年間給与", value: "約993万円（9,939,349円、2026年3月期・有価証券報告書／提出会社単体）" },
+                { label: "平均年間給与", value: `${salaryMan("nec")}（${salaryYen("nec")}、2026年3月期・有価証券報告書／提出会社単体）` },
                 { label: "直近の推移", value: "880万円（2024年3月期）→963万円（2025年3月期）→993万円（2026年3月期）" },
                 { label: "平均年齢", value: "43.1歳（同・提出会社単体）" },
                 { label: "従業員数", value: "21,934名（提出会社単体）" },

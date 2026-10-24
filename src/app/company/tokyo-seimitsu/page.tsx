@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { salaryYen } from "@/data/verified-salary";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
@@ -117,7 +118,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "7729" },
                 { label: "本社", value: "東京都八王子市" },
                 { label: "事業内容", value: "半導体製造装置（プローバ・ウェーハダイシング等の計測・加工装置）と精密測定機器の製造・販売（事業会社）" },
-                { label: "平均年間給与", value: "8,276,412円（2026年3月期・有価証券報告書／提出会社。賞与・基準外賃金を含む。前事業年度比+5.7%）" },
+                { label: "平均年間給与", value: `${salaryYen("tokyo-seimitsu")}（2026年3月期・有価証券報告書／提出会社。賞与・基準外賃金を含む。前事業年度比+5.7%）` },
                 { label: "決算期", value: "3月末決算（最新の有価証券報告書は第103期・2026年3月期、2026年6月19日提出）" },
                 { label: "平均年齢", value: "38.5歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "9.5年（同・提出会社）" },

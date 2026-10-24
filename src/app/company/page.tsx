@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { salaryMan } from "@/data/verified-salary";
 
 export const metadata: Metadata = {
   title: "企業別 転職ガイド一覧｜有価証券報告書準拠の年収・難易度データベース【2026年】",
@@ -25,12 +26,12 @@ const companies = [
   { slug: "zozo", name: "ZOZO", salary: "約856万円（有価証券報告書）", tag: "EC" },
   { slug: "mixi", name: "MIXI", salary: "約847万円（有価証券報告書）", tag: "IT・ゲーム" },
   { slug: "sakura-internet", name: "さくらインターネット", salary: "約741万円（有価証券報告書）", tag: "クラウド" },
-  { slug: "nec", name: "NEC", salary: "約994万円（有価証券報告書）", tag: "IT・電機" },
+  { slug: "nec", name: "NEC", salary: `${salaryMan("nec")}（有価証券報告書）`, tag: "IT・電機" },
   { slug: "hitachi", name: "日立製作所", salary: "約995万円（有価証券報告書）", tag: "IT・電機" },
   { slug: "panasonic", name: "パナソニックHD", salary: "約988万円（有価証券報告書・持株単体）", tag: "電機" },
   { slug: "sharp", name: "シャープ", salary: "約782万円（有価証券報告書）", tag: "電機" },
   { slug: "softbank", name: "ソフトバンク", salary: "約871万円（有価証券報告書）", tag: "通信" },
-  { slug: "rakuten", name: "楽天グループ", salary: "約851万円（有価証券報告書・12月期）", tag: "IT" },
+  { slug: "rakuten", name: "楽天グループ", salary: `${salaryMan("rakuten")}（有価証券報告書・12月期）`, tag: "IT" },
   { slug: "tis", name: "TIS", salary: "約829万円（有価証券報告書）", tag: "SIer" },
   { slug: "nssol", name: "日鉄ソリューションズ", salary: "約936万円（有価証券報告書）", tag: "SIer" },
   { slug: "hoya", name: "HOYA", salary: "約970万円（有価証券報告書）", tag: "精密機器" },
@@ -81,7 +82,7 @@ const companies = [
   { slug: "yamaha-motor", name: "ヤマハ発動機", salary: "約835万円（有価証券報告書）", tag: "輸送機器" },
   { slug: "rohm", name: "ローム", salary: "約804万円（有価証券報告書）", tag: "半導体" },
   { slug: "screen-hd", name: "SCREEN HD", salary: "約1,080万円（有価証券報告書・持株）", tag: "半導体装置" },
-  { slug: "tokyo-seimitsu", name: "東京精密", salary: "約828万円（有価証券報告書）", tag: "半導体装置" },
+  { slug: "tokyo-seimitsu", name: "東京精密", salary: `${salaryMan("tokyo-seimitsu")}（有価証券報告書）`, tag: "半導体装置" },
   { slug: "pigeon", name: "ピジョン", salary: "約827万円（有価証券報告書・単体）", tag: "育児用品" },
   { slug: "brother", name: "ブラザー工業", salary: "約805万円（有価証券報告書）", tag: "電機・機械" },
   { slug: "yamaha", name: "ヤマハ", salary: "約794万円（有価証券報告書）", tag: "楽器・音響" },

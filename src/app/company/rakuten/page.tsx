@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { salaryMan, salaryYen } from "@/data/verified-salary";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
@@ -112,7 +113,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "4755" },
                 { label: "本社", value: "東京都世田谷区玉川1-14-1" },
                 { label: "事業内容", value: "EC（楽天市場）・フィンテック・モバイルなど70超のサービスを展開するインターネット企業" },
-                { label: "平均年間給与", value: "約850万円（8,508,495円、2025年12月期・有価証券報告書／提出会社単体・12月期決算）" },
+                { label: "平均年間給与", value: `${salaryMan("rakuten")}（${salaryYen("rakuten")}、2025年12月期・有価証券報告書／提出会社単体・12月期決算）` },
                 { label: "直近の推移", value: "820万円（2024年12月期）→850万円（2025年12月期）" },
                 { label: "平均年齢", value: "36.0歳（同・提出会社単体・12月期決算）" },
                 { label: "従業員数", value: "9,989名（提出会社単体・12月期決算）" },
