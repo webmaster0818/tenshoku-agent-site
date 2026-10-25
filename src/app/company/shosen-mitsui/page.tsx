@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "商船三井の平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月22日確認）によると、平均年間給与は約1,659万円（2026年3月期・提出会社単体）です。1,675万円（2024年3月期）→1,436万円（2025年3月期）→1,659万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月23日提出、EDINETで2026年10月25日確認）によると、平均年間給与は16,599,254円（約1,659万円・提出会社単体）です。1,675万円（2024年3月期）→1,436万円（2025年3月期）→1,659万円（2026年3月期）と推移しています（2025年3月期以前はIR BANK掲載値・2026年9月22日確認）。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "商船三井は中途採用を行っていますか？",
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     q: "商船三井の平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月22日確認）によると、平均勤続年数は12.9年、平均年齢は38.4歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は12.9年、平均年齢は38.4歳（2026年3月期・提出会社）です。",
   },
   {
     q: "海運会社の平均年収が高いのはなぜですか？",
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
             <li><strong>定着：</strong>単体の自発的離職率は1.6%、新卒3年以内離職率は陸上職員で0.7%です（2025年度）。</li>
             <li><strong>平均年収：</strong>約1,659万円です（2026年3月期・有価証券報告書／提出会社。平均38.4歳・勤続12.9年）。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.mol.co.jp/sustainability/data/pdf/social/data.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 社会データ（PDF）</a>／<a href="https://www.mol.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 採用サイト</a>／<a href="https://irbank.net/9104/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK（有価証券報告書の従業員データ）</a>。比率は公式の人数から当サイトが算出しています。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.mol.co.jp/sustainability/data/pdf/social/data.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 社会データ（PDF）</a>／<a href="https://www.mol.co.jp/saiyou/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井 採用サイト</a>／<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YI2T.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書（2026年3月期、EDINETで2026年10月25日確認）</a>。比率は公式の人数から当サイトが算出しています。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -117,7 +117,7 @@ export default function CompanyCareer() {
         <h2 id="s1">商船三井転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,659万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約1,659万円です（16,599,254円、2026年3月期・有価証券報告書、EDINETで2026年10月25日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>1,675万円（2024年3月期）→1,436万円（2025年3月期）→1,659万円（2026年3月期）と推移しています。海運5社で最高の水準です。2025年3月期にいったん▼239万円となった後、最新期は+223万円と大きく持ち直しています。</li>
             <li>単体のキャリア採用は2025年度で110名です（新規雇用194名の約57%）。ただし公式採用サイトにキャリア採用の募集要項は表示されていません（2026年10月15日確認）。</li>
             <li>平均年齢は38.4歳、平均勤続年数は12.9年です。海運は市況により賞与が大きく変動するため、単年の平均額だけで判断しないことをおすすめします。</li>
@@ -133,7 +133,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "9104" },
                 { label: "本社", value: "東京都港区虎ノ門2丁目1番1号" },
                 { label: "事業内容", value: "LNG船・タンカーなどエネルギー輸送と海洋事業に強みを持つ海運大手" },
-                { label: "平均年間給与", value: "約1,659万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月22日確認）" },
+                { label: "平均年間給与", value: "約1,659万円（16,599,254円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "1,675万円（2024年3月期）→1,436万円（2025年3月期）→1,659万円（2026年3月期）" },
                 { label: "平均年齢", value: "38.4歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "12.9年（同・提出会社）" },
@@ -147,7 +147,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月22日確認）に基づく提出会社単体・全従業員の平均です。海運会社は陸上勤務職と海上職で働き方も処遇体系も異なり、提出会社に在籍する従業員の構成は会社ごとに違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YI2T.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月23日提出、EDINETで2026年10月25日確認）、2025年3月期以前の推移はIR BANK掲載値（2026年9月22日確認）に基づく提出会社単体の平均です。有価証券報告書では、従業員数1,433人（陸上従業員1,046人・海上従業員387人、臨時雇用者392人は外数）の就業人員（社外への出向者を除き、社外からの出向者を含む）を記載しており、平均年間給与は陸上従業員16,541,845円、海上従業員16,784,572円、合計16,599,254円です。平均年齢・平均勤続年数・平均年間給与は社外への出向者を含み、社外からの出向者を除いた値で、賞与及び時間外手当等を含みます。対前事業年度増減率は15.5%と記載されています。公式の社会データにある単体従業員数（1,933名）とは集計の範囲が異なります。海運会社は陸上勤務職と海上職で働き方も処遇体系も異なり、提出会社に在籍する従業員の構成は会社ごとに違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">商船三井の中途採用（人数・比率・応募窓口）</h2>
