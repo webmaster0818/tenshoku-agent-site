@@ -308,8 +308,8 @@ export default function HomePage() {
             { label: "30代・キャリアアップ", desc: "リクルート＋dodaの2社登録をおすすめします。豊富な求人とスカウト機能で選択肢を広げられます。", color: "bg-white border-border", href: "/age/30s/", links: [{ t: "40代はこちら", h: "/age/40s/" }, { t: "50代はこちら", h: "/age/50s/" }] },
             { label: "ハイクラス転職", desc: "ビズリーチ＋JACをおすすめします。年収600万円以上の方は、スカウト型サービスで市場価値を確認できます。", color: "bg-white border-border", href: "/type/high-class/", links: [{ t: "ビズリーチの評判", h: "/review/bizreach/" }, { t: "JACの評判", h: "/review/jac/" }] },
             { label: "IT・エンジニア", desc: "IT特化型の併用が有効です。レバテック・ユニゾンキャリアなど専門エージェントを比較しています。", color: "bg-white border-border", href: "/type/it-engineer/", links: [{ t: "レバテックの評判", h: "/review/levtech/" }, { t: "ユニゾンキャリアの評判", h: "/review/unison-career/" }] },
-            { label: "未経験からの転職", desc: "未経験歓迎求人の多い総合型と対象特化型を組み合わせることで、キャリアチェンジを進めやすくなります。", color: "bg-white border-border", href: "/type/inexperienced/", links: [{ t: "20代の入口: 転職AGENT Navi", h: "/review/agent-navi/" }] },
-            { label: "女性の転職", desc: "ライフイベントを見据えた相談には女性特化型が適しています。女性向けエージェントの選び方を解説しています。", color: "bg-white border-border", href: "/type/women/", links: [{ t: "type女性の転職エージェント", h: "/review/type-woman/" }] },
+            { label: "未経験からの転職", desc: "未経験歓迎求人の多い総合型と対象特化型を組み合わせることで、キャリアチェンジを進めやすくなります。", color: "bg-white border-border", href: "/type/inexperienced/", links: [{ t: "20代の入口: 転職AGENT Navi", h: "/review/agent-navi/" }, { t: "Re:WORKエージェントの口コミ・評判", h: "/review/rework/" }] },
+            { label: "女性の転職", desc: "ライフイベントを見据えた相談には女性特化型が適しています。女性向けエージェントの選び方を解説しています。", color: "bg-white border-border", href: "/type/women/", links: [{ t: "type女性の転職エージェント", h: "/review/type-woman/" }, { t: "リアルミーキャリアの口コミ・評判", h: "/review/realme-career/" }] },
           ].map((g) => (
             <div key={g.label} className={`rounded-2xl border p-6 ${g.color}`}>
               <Link href={g.href} className="group">
@@ -355,6 +355,10 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+          <p className="text-center text-sm text-text-secondary mb-6">
+            採用・働き方のガイド:
+            <Link href="/company/ebisu-fudousan/" className="text-teal underline mx-2">恵比寿不動産の口コミ・評判（採用・働き方）</Link>
+          </p>
           <div className="text-center">
             <Link href="/company/" className="btn-primary text-sm px-8 py-3">全184社の企業別ガイド一覧を見る</Link>
           </div>
@@ -376,6 +380,8 @@ export default function HomePage() {
             { href: "/review/myvision/", slug: "myvision", title: "MyVision", tag: "コンサル", desc: "未経験8割。コンサル特化の選考対策", official: "https://my-vision.co.jp/", affiliate: null as string | null },
             { href: "/review/type-woman/", slug: "type-woman", title: "type女性の転職エージェント", tag: "女性", desc: "東証プライム上場CDC運営の女性特化型", official: "https://type.woman-agent.jp/", affiliate: null as string | null },
             { href: "/review/assign/", slug: "assign", title: "ASSIGN（アサイン）", tag: "20-30代ハイエンド", desc: "価値観からキャリアプランを設計", official: "https://assign-inc.com/", affiliate: null as string | null },
+            { href: "/review/realme-career/", slug: "realme-career", title: "リアルミーキャリア", tag: "時短正社員", desc: "入社時から時短勤務できる正社員求人に特化", official: "https://www.realme-career.com/", affiliate: null as string | null, shot: "2026年9月30日" },
+            { href: "/review/rework/", slug: "rework", title: "Re:WORKエージェント", tag: "未経験転職", desc: "未経験からの転職に特化した専門エージェント", official: "https://rework.nexly.co.jp/", affiliate: null as string | null, shot: "2026年9月30日" },
             { href: "/review/agent-navi/", slug: "agent-navi", title: "転職AGENT Navi", tag: "20代・既卒", desc: "相性でエージェントを紹介するマッチング型", official: "https://service.circus-group.jp/circus/agentnavi/", affiliate: null as string | null },
             { href: "/review/bizreach/", slug: "bizreach", title: "ビズリーチ", tag: "ハイクラス", desc: "スカウト型・年収600万円以上向け", official: "https://www.bizreach.jp/", affiliate: null as string | null },
             { href: "/review/jac/", slug: "jac", title: "JACリクルートメント", tag: "外資・グローバル", desc: "外資系・海外転職に強い", official: "https://www.jac-recruitment.jp/", affiliate: null as string | null },
@@ -411,7 +417,7 @@ export default function HomePage() {
                   )}
                 </div>
                 <p className="mt-3 text-[10px] text-text-muted">
-                  画像引用: <a href={a.official} target="_blank" rel="nofollow noopener noreferrer" className="underline">{a.title} 公式サイト</a>（2026年9月24日時点）
+                  画像引用: <a href={a.official} target="_blank" rel="nofollow noopener noreferrer" className="underline">{a.title} 公式サイト</a>（{a.shot ?? "2026年9月24日"}時点）
                 </p>
               </div>
             </div>
