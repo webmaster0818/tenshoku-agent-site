@@ -55,7 +55,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%",
-  dateModified: "2026-10-15",
+  dateModified: "2026-10-27",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/nintendo/" },
@@ -107,13 +107,13 @@ export default function NintendoCareer() {
           </p>
         </div>
         <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
-          <p className="font-bold text-navy mb-3">任天堂の中途採用の選考フローの要点（公式情報・2026年10月15日確認）</p>
+          <p className="font-bold text-navy mb-3">任天堂のキャリア採用の流れ（選考フロー）の要点（公式情報・2026年10月27日確認）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
             <li><strong>流れ：</strong>キャリア採用Web応募 → 作品選考（職種により必要性に応じて実施）→ 面接（複数回を予定）→ 内定の順に進みます。</li>
             <li><strong>期間：</strong>Web応募の結果連絡まで約1カ月、応募から内定まで2〜3か月程度です。結果は合否にかかわらずメールで通知されます。</li>
             <li><strong>面接：</strong>当社営業日（平日）に実施され、日時はできる限り調整するとされています。筆記試験・適性検査は公式の採用プロセスに記載がありません。</li>
             <li><strong>応募条件：</strong>資格・年齢の制限は特になく、ゲーム業界の経験は必須ではありません。別職種・別事業所への重複応募は不可とされ、不合格後1年以内の再応募は控えるよう案内されています。</li>
-            <li><strong>募集：</strong>10カテゴリが京都勤務／東京勤務の区分で掲載されています。直近の掲載はデザイナー（京都勤務）の「グラフィックデザイナー（広告）」（2026年9月4日）・「立体造形物デザイナー（協業監修）」（8月28日）です。</li>
+            <li><strong>募集：</strong>10カテゴリが京都勤務／東京勤務の区分で掲載されています。公式の更新情報では、直近の掲載はハードウェアエンジニア（京都勤務）の「製品法規制対応エンジニア」（2026年10月22日）、デザイナー（京都勤務）の「グラフィックデザイナー（広告）」（9月4日）・「立体造形物デザイナー（協業監修）」（8月28日）です。</li>
             <li><strong>中途の割合：</strong>正規雇用のキャリア採用比率は34％（2023年度）→45％（2024年度）→34％（2025年度）と推移しています。</li>
           </ul>
           <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.nintendo.co.jp/jobs/career/process/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">任天堂 キャリア採用「採用プロセス」</a>／<a href="https://www.nintendo.co.jp/jobs/career/q_and_a/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「Q&amp;A」</a>／<a href="https://www.nintendo.co.jp/jobs/career/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「募集要項」</a>／<a href="https://www.nintendo.co.jp/jobs/environment/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「就業情報」</a>。</p>

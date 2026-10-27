@@ -6,12 +6,12 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "スカイマークの求人・中途採用【2026年10月】募集職種・平均年収593万円・転職難易度",
   description:
-    "スカイマークの中途採用求人は公式採用ページ（HRMOS）に7件掲載されています（2026年10月15日確認）。機長・副操縦士候補、航空整備士、ランプハンドリング、オープンポジション（営業・法務・経営企画・財務・人事・IT等）の募集内容と、平均年収約593万円（有価証券報告書）・応募資格を整理しています。",
+    "スカイマークの中途採用求人は公式採用ページ（HRMOS）に8件掲載されています（2026年10月27日確認）。機長・副操縦士候補、航空整備士、ランプハンドリング、給与・厚生担当、オープンポジション（営業・法務・経営企画・財務・人事・IT等）の募集内容と、平均年収約593万円（有価証券報告書）・応募資格を整理しています。",
   alternates: { canonical: "/company/skymark/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "スカイマークの求人・中途採用【2026年10月】募集職種・平均年収593万円・転職難易度",
-    description: "スカイマークの中途採用求人7件（公式・10/15確認）と平均年収約593万円（有価証券報告書）を整理しています。",
+    description: "スカイマークの中途採用求人8件（公式・10/27確認）と平均年収約593万円（有価証券報告書）を整理しています。",
   },
 };
 
@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "スカイマークは中途採用を行っていますか？",
-    a: "はい。公式採用ページから案内される求人一覧（HRMOS）に、2026年10月15日時点で7件の求人が掲載されています（B737機長候補者・B737副操縦士候補者〈いずれも他社経験者〉、エアラインエンジニアリング職〈航空整備士〉、運航/地上教官、空港/ランプハンドリング職、オープンポジション／キャリア採用、障がい者採用）。公式には「現在募集中の求人は、検索結果で表示される職種のみ」と記載されています。",
+    a: "はい。公式採用ページから案内される求人一覧（HRMOS）に、2026年10月27日時点で8件の求人が掲載されています（B737機長候補者・B737副操縦士候補者〈いずれも他社経験者〉、エアラインエンジニアリング職〈航空整備士〉、運航/地上教官、空港/ランプハンドリング職、管理/給与・厚生担当者、オープンポジション／キャリア採用、障がい者採用）。公式には「現在募集中の求人は、検索結果で表示される職種のみ」と記載されています。",
   },
   {
     q: "スカイマークはどんな会社ですか？",
@@ -46,7 +46,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "スカイマークの求人・中途採用【2026年10月】募集職種・平均年収593万円・転職難易度",
-  dateModified: "2026-10-15",
+  dateModified: "2026-10-27",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/skymark/" },
@@ -85,10 +85,10 @@ export default function CompanyCareer() {
           </p>
         </div>
         <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
-          <p className="font-bold text-navy mb-3">スカイマークの求人・中途採用の概要（公式情報・2026年10月15日確認）</p>
+          <p className="font-bold text-navy mb-3">スカイマークの求人・中途採用の概要（公式情報・2026年10月27日確認）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
-            <li><strong>求人数：</strong>公式の求人一覧（HRMOS）に<strong>7件</strong>掲載されています（正社員5・契約社員1・アルバイト/パート1）。公式には「表示のない職種については、お問い合わせいただきましても回答・対応いたしかねます」と記載されています。</li>
-            <li><strong>募集職種：</strong>B737機長候補者／B737副操縦士候補者（他社経験者）、エアラインエンジニアリング職（航空整備士）、運航/地上教官、空港/ランプハンドリング職、オープンポジション／キャリア採用、障がい者採用（オープンポジション）です。</li>
+            <li><strong>求人数：</strong>公式の求人一覧（HRMOS）に<strong>8件</strong>掲載されています（正社員6・契約社員1・アルバイト/パート1）。10月15日の確認時（7件）から「管理/給与・厚生担当者」が加わっています。公式には「表示のない職種については、お問い合わせいただきましても回答・対応いたしかねます」と記載されています。</li>
+            <li><strong>募集職種：</strong>B737機長候補者／B737副操縦士候補者（他社経験者）、エアラインエンジニアリング職（航空整備士）、運航/地上教官、空港/ランプハンドリング職、管理/給与・厚生担当者、オープンポジション／キャリア採用、障がい者採用（オープンポジション）です。</li>
             <li><strong>オープンポジション：</strong>本社管理部門（営業・法務・経営企画・財務経理・人事企画）、オペレーション部門（整備間接・運航間接）、DX部門（システムエンジニア・インフラエンジニア）等で各若干名の募集です。勤務地は東京都、給与は応相談です。</li>
             <li><strong>平均年収：</strong>約593万円です（2026年3月期・有価証券報告書／提出会社。平均36.5歳・勤続9.0年）。</li>
             <li><strong>会社規模：</strong>社員数は2,738名です（2026年3月31日現在・公式会社概要）。</li>
@@ -114,7 +114,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約593万円（5,932千円、2026年3月期・有価証券報告書、EDINETで2026年10月27日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>577万円（2024年3月期）→577万円（2025年3月期）→593万円（2026年3月期）と推移しています。2024・2025年3月期は577万円で横ばいでしたが、最新期に+16万円上昇しました。平均36.5歳と、当サイトが収録する空運4社で最も若い構成です。</li>
-            <li>中途採用の求人は公式の求人一覧（HRMOS）に7件掲載されています（2026年10月15日確認）。パイロットは他社経験者が対象で、オープンポジションは企画立案・推進経験が必須です。</li>
+            <li>中途採用の求人は公式の求人一覧（HRMOS）に8件掲載されています（2026年10月27日確認）。パイロットは他社経験者が対象で、オープンポジションは企画立案・推進経験が必須です。</li>
             <li>平均年齢は36.5歳、平均勤続年数は9.0年です。航空は旅客需要と燃油費の影響を受けやすく、コロナ禍で大きく落ち込んだ後に回復した経緯があります。単年の平均額だけでなく、推移もあわせて確認することをおすすめします。</li>
           </ul>
         </div>
@@ -149,7 +149,7 @@ export default function CompanyCareer() {
 
         <h2 id="s3">スカイマークの中途採用・求人（募集職種一覧）</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4"><a href="https://www.skymark.co.jp/ja/company/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>から案内される<a href="https://hrmos.co/pages/skymark/jobs" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">求人一覧</a>の掲載内容です（2026年10月15日確認）。</p>
+          <p className="text-sm text-text-secondary mb-4"><a href="https://www.skymark.co.jp/ja/company/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>から案内される<a href="https://hrmos.co/pages/skymark/jobs" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">求人一覧</a>の掲載内容です（2026年10月27日確認）。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -166,6 +166,7 @@ export default function CompanyCareer() {
                   { job: "エアラインエンジニアリング職（航空整備士）", type: "正社員", desc: "航空整備およびそれに関わる部内業務全般。選考は順次" },
                   { job: "運航/地上教官（運航乗務員訓練担当）", type: "アルバイト・パート", desc: "運航乗務員の定期訓練・資格取得訓練（座学・シミュレーター）、教材作成" },
                   { job: "空港/ランプハンドリング職", type: "正社員", desc: "ランプハンドリングに係る業務およびそれに関わる業務全般" },
+                  { job: "管理/給与・厚生担当者", type: "正社員", desc: "給与計算・社会保険実務、福利厚生の企画・管理、人事システム（人事・給与・勤怠）と人事情報の管理。組織体制の強化と中期経営計画推進に伴う人事業務拡大のための募集" },
                   { job: "オープンポジション／キャリア採用", type: "正社員", desc: "本社管理部門（営業・法務・経営企画・財務経理・人事企画）、オペレーション部門（整備間接・運航間接）、DX部門（SE・インフラ）等で各若干名。勤務地 東京都・給与 応相談・試用期間6ヶ月" },
                   { job: "障がい者採用（オープンポジション）", type: "契約社員", desc: "コーポレート部門・オペレーション部門のいずれかでデータ作成・管理・分析やサポート業務" },
                 ].map((r) => (

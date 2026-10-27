@@ -96,6 +96,28 @@ export default function DodaReview() {
           </p>
         </div>
 
+        {/* doda とは（読み・運営・求人数・料金）を先に回答 */}
+        <div className="rounded-2xl border border-navy/15 bg-white p-5 sm:p-6 mb-8">
+          <p className="font-bold text-navy mb-3 text-lg">doda（デューダ）とは：運営・求人数・料金</p>
+          <p className="text-sm text-text-secondary leading-relaxed mb-3">
+            「doda」の読み方は「デューダ」です。「ドゥーダ」「ドーダ」と検索される方も多くいらっしゃいますが、同じサービスを指します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <tbody>
+                <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-28 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">パーソルキャリア株式会社</td></tr>
+                <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">319,301件（非公開求人を含む。公式トップの2026年10月26日更新の表示で、毎週月・木曜に更新されます）</td></tr>
+                <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料です。公式のエージェントサービス案内に「登録はもちろん、転職が決まるまでの一切のサービスがすべて無料で受けられます」と記載されています</td></tr>
+                <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な機能</th><td className="px-3 py-2 border-b">求人を自分で探して応募する転職サイト、キャリアアドバイザーが支援するエージェントサービス、企業から声がかかるスカウトを1つの会員登録で利用できます</td></tr>
+                <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">利用の流れ</th><td className="px-3 py-2 border-b">登録 → キャリアカウンセリング → 求人の紹介 → 応募書類の作成・応募 → 書類選考／面接 → 内定（退職交渉）・入社（公式記載の6ステップ）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-muted mt-3">
+            出典：<a href="https://doda.jp/" target="_blank" rel="noopener noreferrer" className="underline">doda 公式トップ</a>・<a href="https://doda.jp/consultant/" target="_blank" rel="noopener noreferrer" className="underline">doda エージェントサービス</a>（いずれも2026年10月27日に当サイトが確認）
+          </p>
+        </div>
+
         <AgentHero slug="doda" />
 
 
@@ -144,7 +166,7 @@ export default function DodaReview() {
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">パーソルキャリア株式会社（パーソルグループ）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">転職サイト＋エージェント＋スカウトの一体型</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">318,235件（非公開求人を含む・公式トップの2026年10月15日更新の表示）。毎週月・木曜に更新されるため、最新値は公式トップでご確認ください</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">319,301件（非公開求人を含む・公式トップの2026年10月26日更新の表示、当サイトが2026年10月27日に確認）。毎週月・木曜に更新されるため、最新値は公式トップでご確認ください</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトに「完全無料」と明記）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">全年代対応。中心は20代〜30代前半。IT専門「dodaエンジニアIT」あり</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国（求人数はエリアにより差あり）</td></tr>

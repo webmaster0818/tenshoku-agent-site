@@ -58,6 +58,14 @@ export default function Page() {
           <p className="text-text-secondary leading-relaxed">セキュリティーワークは、株式会社ミライユが運営する警備員・警備スタッフ専門の求人・転職サイトです。施設警備・交通誘導警備・機械警備の業務内容別、「60歳以上活躍中」「日払い・週払い可」「正社員登用制度あり」などのこだわり条件別に全国の警備求人を検索できます。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
 
+        <div className="rounded-2xl border border-navy/15 bg-white p-5 sm:p-6 mb-8">
+          <p className="font-bold text-navy mb-2 text-lg">0120-753-053はどこの電話番号か</p>
+          <p className="text-sm text-text-secondary leading-relaxed">
+            0120-753-053は、株式会社ミライユが運営する警備員専門の求人・転職サイト「セキュリティーワーク」の無料相談窓口です。公式サイトでは「お電話でも無料相談受付中！」として掲載され、受付時間は平日9:30〜18:30です。公式サイトでは、電話で求人の相談ができる窓口として案内されています。この番号からの着信に心当たりがない場合は、セキュリティーワークへの会員登録や求人応募の有無をご確認ください。
+          </p>
+          <p className="text-xs text-text-muted mt-2">出典：<a href="https://securityguard-work.com/" target="_blank" rel="noopener noreferrer" className="underline">セキュリティーワーク公式サイト</a>（ヘッダー・フッターの電話番号と受付時間、運営会社リンク先 <a href="https://miraiyu.co.jp/" target="_blank" rel="noopener noreferrer" className="underline">株式会社ミライユ</a>）。2026年10月27日に当サイトが確認しました。</p>
+        </div>
+
         <div className="bg-teal/5 rounded-2xl p-5 sm:p-6 mb-10 border border-teal/15">
           <p className="font-bold text-teal mb-2 text-lg">この記事の要点</p>
           <ul className="space-y-2 text-sm text-text-secondary">

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "住友倉庫の平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月22日確認）によると、平均年間給与は約844万円（2026年3月期・提出会社単体）です。790万円（2024年3月期）→814万円（2025年3月期）→844万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月23日提出、EDINETで2026年10月27日確認）によると、平均年間給与は8,441千円（約844万円・提出会社の就業人員918人）で、対前事業年度増減率は3.7%です。790万円（2024年3月期）→814万円（2025年3月期）→844万円（2026年3月期）と推移しています（2024年3月期はIR BANK掲載値）。賞与及び基準外賃金を含む提出会社の平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "住友倉庫は中途採用を行っていますか？",
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     q: "住友倉庫の平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月22日確認）によると、平均勤続年数は12.9年、平均年齢は37.9歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は12.9年、平均年齢は37.9歳（2026年3月期・提出会社）です。",
   },
   {
     q: "住友倉庫の平均年収はどう推移していますか？",
@@ -50,7 +50,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "住友倉庫の年収・中途採用【2026年10月】平均年収844万円・キャリア採用の募集分野と応募条件",
-  dateModified: "2026-10-17",
+  dateModified: "2026-10-27",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/sumitomo-soko/" },
@@ -89,15 +89,15 @@ export default function CompanyCareer() {
           </p>
         </div>
         <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
-          <p className="font-bold text-navy mb-3">住友倉庫の年収とキャリア採用の要約（2026年10月17日確認）</p>
+          <p className="font-bold text-navy mb-3">住友倉庫の年収とキャリア採用の要約（2026年10月27日確認）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
-            <li><strong>平均年収：</strong>約844万円です（2026年3月期・有価証券報告書／提出会社、IR BANK掲載値）。前期（2025年3月期）は8,143千円で、こちらは有価証券報告書の原本（EDINET）で確認しました。</li>
+            <li><strong>平均年収：</strong>約844万円（8,441千円）です（2026年3月期・有価証券報告書／提出会社、EDINETの原本で確認）。平均年齢37.9歳・平均勤続年数12.9年・従業員918人で、前期比3.7%増です。</li>
             <li><strong>募集職種：</strong>総合職です。物流部門（国際物流・国内物流）、管理部門（一般法務・企業法務、経理・財務、管財業務）、情報システム部門、不動産開発部門の募集事項が掲載されています。</li>
             <li><strong>応募資格：</strong>国際物流・国内物流は「大卒以上、35歳未満（職務経験不問）」です。法務・経理財務・管財・情報システム・不動産開発は、各分野の実務経験や資格（日商簿記2級以上、電気主任技術者・建築設備士、宅地建物取引士など）が求められます。</li>
             <li><strong>応募方法：</strong>履歴書（写真添付）と職務経歴書を、大阪本社の人事第一課キャリア採用担当へ郵送します。書類選考を通過した場合のみ、2週間以内に連絡があります。</li>
             <li><strong>勤務条件：</strong>勤務地は東京・横浜・名古屋・大阪・神戸及び海外の事業所、勤務時間は9:00〜17:00です。昇給は年1回、賞与は年2回で、社宅・独身寮があります。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.sumitomo-soko.co.jp/recruit/saiyo.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">住友倉庫「キャリア採用情報」</a>／<a href="https://www.sumitomo-soko.co.jp/corporate/summary.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「会社概要」</a>／<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W076.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書 第148期（EDINET）</a>。2026年3月期の有価証券報告書の原本は、本日時点で当サイトから取得できなかったため、IR BANKの掲載値を記載しています。募集内容は変わることがあるため、応募前に公式サイトで最新の情報をご確認ください。</p>
+          <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.sumitomo-soko.co.jp/recruit/saiyo.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">住友倉庫「キャリア採用情報」</a>／<a href="https://www.sumitomo-soko.co.jp/corporate/summary.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「会社概要」</a>／<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W076.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書 第148期（EDINET）</a>／<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YHFI.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書 第149期（EDINET）</a>。キャリア採用情報は2026年10月27日に再確認し、10月17日確認時から変更がないことを確認しています。募集内容は変わることがあるため、応募前に公式サイトで最新の情報をご確認ください。</p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
           <p className="font-bold text-navy mb-3">目次</p>
@@ -116,7 +116,7 @@ export default function CompanyCareer() {
         <h2 id="s1">住友倉庫転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約844万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月22日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約844万円（8,441千円、2026年3月期・有価証券報告書、EDINETで2026年10月27日確認）。提出会社の就業人員918人の平均値です。</li>
             <li>790万円（2024年3月期）→814万円（2025年3月期）→844万円（2026年3月期）と推移しています。直近3期とも上昇しています(790→814→844万円)。倉庫系では平均年齢37.9歳と比較的若い構成です。</li>
             <li>キャリア採用は総合職で、国際物流・国内物流は大卒以上・35歳未満（職務経験不問）、管理部門などは実務経験者が対象です（公式「キャリア採用情報」、2026年10月17日確認）。</li>
             <li>平均年齢は37.9歳、平均勤続年数は12.9年です。平均年間給与には賞与が含まれ、年ごとに変動するため、単年の平均額だけでなく推移もあわせて確認することをおすすめします。</li>
@@ -134,7 +134,7 @@ export default function CompanyCareer() {
                 { label: "創業", value: "1899年7月1日" },
                 { label: "従業員数", value: "876人（連結4,450人、2025年3月31日現在・公式会社概要）" },
                 { label: "事業内容", value: "倉庫業、港湾運送業、陸上運送業、国際複合一貫輸送業、通関業、不動産の賃貸、情報システムの企画・開発・運用ほか" },
-                { label: "平均年間給与", value: "約844万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月22日確認）" },
+                { label: "平均年間給与", value: "約844万円（8,441千円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "790万円（2024年3月期）→814万円（2025年3月期）→844万円（2026年3月期）" },
                 { label: "平均年齢", value: "37.9歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "12.9年（同・提出会社）" },
@@ -148,7 +148,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月22日確認）に基づく提出会社単体・全従業員の平均です。物流会社は総合職・ドライバー職・現業職など職種によって働き方も処遇体系も異なり、提出会社(とくに持株会社)に在籍する従業員の構成は会社ごとに大きく違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YHFI.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月23日提出、EDINETで2026年10月27日確認）、2024年3月期の値はIR BANK掲載値（2026年9月22日確認）に基づく提出会社単体の平均です。有価証券報告書の注記により、従業員数は就業人員で、平均年間給与は賞与及び基準外賃金を含みます。物流会社は総合職・ドライバー職・現業職など職種によって働き方も処遇体系も異なり、提出会社(とくに持株会社)に在籍する従業員の構成は会社ごとに大きく違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">住友倉庫の中途採用の状況</h2>

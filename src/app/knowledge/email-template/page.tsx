@@ -51,7 +51,7 @@ export default function EmailTemplatePage() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            転職エージェントへのメール例文集｜登録・お礼・辞退・断り方
+            転職エージェントへのメール例文集｜面談後のお礼・登録・辞退・断り方
           </h1>
 
           <div className="rounded-xl overflow-hidden my-6">
@@ -71,7 +71,8 @@ export default function EmailTemplatePage() {
             <p className="text-xs text-text-muted">件名：【お礼】本日の面談ありがとうございました（氏名）</p>
             <p>○○様　本日はお時間をいただきありがとうございました。アドバイスを伺い、キャリアの方向性が明確になりました。ご紹介いただいた求人は確認のうえ、○日までにご連絡いたします。引き続きよろしくお願いいたします。（氏名）</p>
           </div>
-          <p className="text-xs text-text-muted mt-2">ポイントは「感謝＋気づき＋次のアクション」の3点です。より丁寧な文面や他の場面の例文は、下の例文集をご覧ください。</p>
+          <p className="text-xs text-text-muted mt-2">ポイントは「感謝＋気づき＋次のアクション」の3点です。送るタイミングは面談当日〜翌日午前中が目安です。より丁寧な文面は<a href="#ex2" className="text-teal underline">例文2（面談後のお礼メール）</a>、他の場面の例文は下の例文集をご覧ください。</p>
+          <p className="text-xs text-text-muted mt-1">※本ページの例文はすべて当サイトが作成したものです。氏名・日付・面談内容はご自身の状況に合わせて書き換えてお使いください。</p>
         </div>
 
         {/* 目次 */}
