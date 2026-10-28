@@ -4,7 +4,7 @@ import TopMotion from "@/components/TopMotion";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  title: "転職エージェント比較ラボ【2026年最新】59サービス＋企業年収184社を一次情報で比較",
+  title: "転職エージェント比較ラボ【2026年最新】59サービス＋企業の年収ランキング184社を一次情報で比較",
   description:
     "転職エージェント・転職サービス59件を、求人数・得意分野・対応年代の公表情報で比較します。あわせて有価証券報告書にもとづく企業別の平均年収を184社ぶん公開し、15業界の年収ランキングにまとめています。年代別・目的別の選び方も解説しています。",
   openGraph: {
@@ -154,6 +154,9 @@ export default function HomePage() {
               <a href="#ranking" className="btn-accent text-lg px-8 py-4">ランキングを見る</a>
               <a href="#comparison" className="btn-primary text-lg px-8 py-4">比較表を見る</a>
             </div>
+            <p className="tl-in tl-d4 mt-6 text-sm text-text-secondary leading-relaxed">
+              年収ランキングをお探しの方へ：企業の平均年収は<a href="#company-db" className="text-teal font-bold underline">15業界の年収ランキング（有価証券報告書）</a>にまとめています。年収アップを目指した転職には、<Link href="/type/high-class/" className="text-teal font-bold underline">ハイクラス向け転職エージェントの比較</Link>をご覧ください。
+            </p>
           </div>
         </div>
       </section>
@@ -340,7 +343,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <h2 className="section-title section-title--center"><span className="inline-block">企業年収データベース</span><span className="inline-block">【有価証券報告書ベース】</span></h2>
           <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
-            上場企業の平均年収を有価証券報告書の一次データで整理しています。業界ランキングと企業別の転職ガイドを公開しています。
+            上場企業の平均年収を有価証券報告書の一次データで整理し、15業界の年収ランキングと企業別の転職ガイドを公開しています。
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
             {[
@@ -348,6 +351,17 @@ export default function HomePage() {
               { href: "/company/semiconductor-salary/", title: "半導体業界の年収ランキング", desc: "装置・デバイス9社を比較" },
               { href: "/company/it-consultant-salary/", title: "ITコンサル・SIer年収ランキング", desc: "NRI・ベイカレントなど大手10社を比較" },
               { href: "/company/game-salary/", title: "ゲーム会社の年収ランキング", desc: "任天堂系からセガサミーまで6社を比較" },
+              { href: "/company/shosha-salary/", title: "総合商社の年収ランキング", desc: "7大商社と専門商社の9社を比較" },
+              { href: "/company/kinyu-salary/", title: "金融業界の年収ランキング", desc: "メガバンク・証券・損保の8社を比較" },
+              { href: "/company/kaiun-salary/", title: "海運会社の年収ランキング", desc: "日本郵船・商船三井・川崎汽船ほか5社を比較" },
+              { href: "/company/butsuryu-salary/", title: "陸運・物流の年収ランキング", desc: "ヤマト・NIPPON EXPRESS・三菱倉庫ほか8社を比較" },
+              { href: "/company/kuuun-salary/", title: "航空会社の年収ランキング", desc: "JAL・ANAほか4社を比較" },
+              { href: "/company/tetsudo-salary/", title: "鉄道業界の年収ランキング", desc: "JR・大手私鉄・東京メトロの8社を比較" },
+              { href: "/company/denryoku-gas-salary/", title: "電力・ガスの年収ランキング", desc: "大手電力・ガスの9社を比較" },
+              { href: "/company/kensetsu-salary/", title: "建設ゼネコンの年収ランキング", desc: "大手・準大手ゼネコン9社を比較" },
+              { href: "/company/kagaku-salary/", title: "化学業界の年収ランキング", desc: "総合化学・素材の9社を比較" },
+              { href: "/company/seiyaku-salary/", title: "製薬業界の年収ランキング", desc: "大手製薬8社を比較" },
+              { href: "/company/shokuhin-salary/", title: "食品・飲料業界の年収ランキング", desc: "大手食品・飲料の9社を比較" },
             ].map((c) => (
               <Link key={c.href} href={c.href} className="card-hover p-5 block bg-white">
                 <h3 className="font-bold text-navy mb-1 text-sm">{c.title}</h3>

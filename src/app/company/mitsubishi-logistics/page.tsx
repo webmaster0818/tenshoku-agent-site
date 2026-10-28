@@ -6,7 +6,7 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "三菱倉庫の年収・給与【2026年10月】平均943万円（有価証券報告書）・中途の基本給と募集要項（公式）・転職難易度",
   description:
-    "三菱倉庫の平均年収は約943万円（2026年3月期・有価証券報告書／平均40.7歳）です。中途の募集要項（公式・2026年10月15日確認）は総合職・エリア総合職・地域職の3区分で、基本給は総合職26万円・エリア総合職24.3万円・地域職20.48万円（各初任給）以上、賞与は年2回、残業は月平均15時間程度です。",
+    "三菱倉庫の平均年収は約943万円（2026年3月期・有価証券報告書／平均40.7歳）です。中途の募集要項（公式・2026年10月28日確認）の基本給は総合職28.5万円・エリア総合職26.8万円・地域職24.1万円（各区分の大卒初任給・2026年度実績）で、賞与は年2回、残業は月平均15時間程度です。",
   alternates: { canonical: "/company/mitsubishi-logistics/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "三菱倉庫は中途採用を行っていますか？",
-    a: "はい。公式の採用情報ページ（https://www.mitsubishi-logistics.co.jp/saiyo/）に「キャリア採用」として総合職・エリア総合職・地域職の募集要項が掲載されており、いずれも「現在募集を行っています」「入社日随時」「採用人数若干名」です（2026年10月15日確認）。なお https://www.mitsubishi-logistics.co.jp/recruit/ は新卒採用サイトです。",
+    a: "はい。公式の採用情報ページ（https://www.mitsubishi-logistics.co.jp/saiyo/）に「キャリア採用」として総合職・エリア総合職・地域職の募集要項が掲載されており、いずれも「現在募集を行っています」「入社日随時」「採用人数若干名」です（2026年10月28日確認）。なお https://www.mitsubishi-logistics.co.jp/recruit/ は新卒採用サイトです。",
   },
   {
     q: "三菱倉庫はどんな会社ですか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "三菱倉庫の中途採用の給与（基本給）はいくらですか？",
-    a: "公式のキャリア採用募集要項では、基本給は総合職が260,000円（総合職大卒初任給）以上、エリア総合職が243,000円（エリア総合職大卒初任給）以上、地域職が204,800円（地域職高卒初任給）以上で、いずれも「年齢・経験を考慮して優遇」です。昇給は年1回、賞与は年2回です（2026年10月15日確認）。想定年収の総額は募集要項に記載されていないため、選考の過程でご確認ください。",
+    a: "公式のキャリア採用募集要項では、基本給は総合職が285,000円（総合職大卒初任給）、エリア総合職が268,000円（エリア総合職大卒初任給）、地域職が241,000円（地域職大卒初任給）・229,800円（地域職高卒初任給）で、いずれも「2026年度実績」と記載されています。昇給は年1回、賞与は年2回です（2026年10月28日確認）。2026年10月15日の確認時点では総合職260,000円以上・エリア総合職243,000円以上・地域職204,800円以上と記載されていたため、募集要項の給与欄が更新されています。想定年収の総額は募集要項に記載されていないため、選考の過程でご確認ください。",
   },
   {
     q: "三菱倉庫の中途採用の難易度は？",
@@ -50,7 +50,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "三菱倉庫の年収・給与【2026年10月】平均943万円（有価証券報告書）・中途の基本給と募集要項（公式）・転職難易度",
-  dateModified: "2026-10-15",
+  dateModified: "2026-10-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/mitsubishi-logistics/" },
@@ -78,7 +78,7 @@ export default function CompanyCareer() {
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             三菱倉庫の年収・給与【2026年10月】平均943万円（有価証券報告書）・中途の基本給と募集要項（公式）・転職難易度
           </h1>
-        <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月15日</p>
+        <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月28日</p>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/mitsubishi-logistics.jpg" alt="三菱倉庫の採用サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -90,10 +90,10 @@ export default function CompanyCareer() {
           </p>
         </div>
         <div className="rounded-2xl border border-teal/30 bg-teal/5 p-6 mb-8">
-          <p className="font-bold text-navy mb-3">三菱倉庫の年収・給与と中途採用の要約（2026年10月15日確認）</p>
+          <p className="font-bold text-navy mb-3">三菱倉庫の年収・給与と中途採用の要約（募集要項は2026年10月28日確認）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
             <li><strong>平均年収：</strong>約<strong>943万円</strong>（2026年3月期・有価証券報告書／提出会社。平均40.7歳・勤続15.6年）。938万円→912万円→943万円と推移しています。</li>
-            <li><strong>中途の基本給（公式募集要項）：</strong>総合職 260,000円以上／エリア総合職 243,000円以上／地域職 204,800円以上（各区分の初任給。年齢・経験を考慮して優遇）。昇給は年1回、賞与は年2回です。</li>
+            <li><strong>中途の基本給（公式募集要項）：</strong>総合職 285,000円／エリア総合職 268,000円／地域職 241,000円（大卒）・229,800円（高卒）です（各区分の初任給・2026年度実績）。昇給は年1回、賞与は年2回です。</li>
             <li><strong>募集：</strong>総合職・エリア総合職・地域職の3区分とも「現在募集を行っています」と記載されており、採用人数は若干名、入社日は随時です。</li>
             <li><strong>働き方：</strong>勤務時間は9:00〜17:00、時間外労働は月平均15時間程度で、土曜は月1回程度の出勤があります。</li>
             <li><strong>応募方法：</strong>希望職種・勤務地を明記して履歴書・職務経歴書を郵送します（エントリーフォームではなく書類送付）。</li>
@@ -119,7 +119,7 @@ export default function CompanyCareer() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約943万円（9,430,883円、2026年3月期・有価証券報告書、EDINETで2026年10月23日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>938万円（2024年3月期）→912万円（2025年3月期）→943万円（2026年3月期）と推移しています。当サイト収録の陸運・物流8社では2位で、倉庫会社では最も高い水準です（1位は持株会社単体のヤマトホールディングス）。2025年3月期に一度下がった後、最新期に+31万円と回復しました。</li>
-            <li>キャリア採用は総合職・エリア総合職・地域職の3区分で募集されています（若干名）。基本給は総合職26万円以上など、各区分の初任給が基準です（2026年10月15日確認）。</li>
+            <li>キャリア採用は総合職・エリア総合職・地域職の3区分で募集されています（若干名）。基本給の記載は総合職28.5万円など各区分の初任給（2026年度実績）です（2026年10月28日確認）。</li>
             <li>平均年齢は40.7歳、平均勤続年数は15.6年です。物流は燃料費・人件費・取扱量の影響を受けやすく、2024年問題以降の運賃改定や賃上げが数字に表れ始めています。単年の平均額だけでなく、推移もあわせて確認することをおすすめします。</li>
           </ul>
         </div>
@@ -153,7 +153,7 @@ export default function CompanyCareer() {
 
         <h2 id="s3">三菱倉庫の中途採用の募集要項（基本給・職務・応募資格）</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">公式サイトの<a href="https://www.mitsubishi-logistics.co.jp/saiyo/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用情報</a>に掲載されているキャリア採用の募集要項です。3区分とも「現在、当社ではキャリア採用の募集を行っています」と記載されています（2026年10月15日確認）。</p>
+          <p className="text-sm text-text-secondary mb-4">公式サイトの<a href="https://www.mitsubishi-logistics.co.jp/saiyo/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用情報</a>に掲載されているキャリア採用の募集要項です。3区分とも「現在、当社ではキャリア採用の募集を行っています」と記載されています（2026年10月28日確認）。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -165,19 +165,19 @@ export default function CompanyCareer() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">総合職（大卒・修士）</td><td className="py-2 px-3">260,000円以上（総合職大卒初任給）</td><td className="py-2 px-3">経理・財務／国内外の物流事業の営業・企画・管理／医薬品物流（薬剤師資格）／コンテナターミナル運営等／オフィスビル・商業施設・住宅の開発・管理</td><td className="py-2 px-3">東京・横浜・名古屋・大阪・神戸・福岡、海外ほか</td></tr>
-                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">エリア総合職（大卒・修士）</td><td className="py-2 px-3">243,000円以上（エリア総合職大卒初任給）</td><td className="py-2 px-3">総合職と同じ職務内容</td><td className="py-2 px-3">東日本・中部・関西・九州の各エリア内（原則エリア間異動なし）</td></tr>
-                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">地域職（高卒以上）</td><td className="py-2 px-3">204,800円以上（地域職高卒初任給）</td><td className="py-2 px-3">事業所内のネットワーク構築・運用保守／倉庫・配送センターの運営・管理</td><td className="py-2 px-3">各支店の管轄地域内（原則支店間異動なし）</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">総合職（大卒・修士）</td><td className="py-2 px-3">285,000円（総合職大卒初任給・2026年度実績）</td><td className="py-2 px-3">経理・財務／国内外の物流事業の営業・企画・管理／医薬品物流（薬剤師資格）／コンテナターミナル運営等／オフィスビル・商業施設・住宅の開発・管理</td><td className="py-2 px-3">東京・横浜・名古屋・大阪・神戸・福岡、海外ほか</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">エリア総合職（大卒・修士）</td><td className="py-2 px-3">268,000円（エリア総合職大卒初任給・2026年度実績）</td><td className="py-2 px-3">総合職と同じ職務内容</td><td className="py-2 px-3">東日本・中部・関西・九州の各エリア内（原則エリア間異動なし）</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3 font-bold text-navy">地域職（高卒以上）</td><td className="py-2 px-3">241,000円（地域職大卒初任給）／229,800円（地域職高卒初任給）・2026年度実績</td><td className="py-2 px-3">事業所内のネットワーク構築・運用保守／倉庫・配送センターの運営・管理</td><td className="py-2 px-3">各支店の管轄地域内（原則支店間異動なし）</td></tr>
               </tbody>
             </table>
           </div>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li><strong>共通：</strong>採用人数は若干名、入社日は随時、雇用期間の定めはなく、試用期間は3ヵ月です。基本給は「年齢・経験を考慮して優遇」とされ、昇給は年1回、賞与は年2回です。</li>
+            <li><strong>共通：</strong>採用人数は若干名、入社日は随時、雇用期間の定めはなく、試用期間は3ヵ月です。基本給は各区分の初任給（2026年度実績）が記載されており、昇給は年1回、賞与は年2回です。</li>
             <li><strong>勤務・休日：</strong>勤務時間は9:00〜17:00、時間外労働は月平均15時間程度です。休日は土曜（月1回程度の土曜出勤あり）・日曜・祝日で、年末年始・夏季・リフレッシュ休暇などがあります。</li>
             <li><strong>福利厚生：</strong>独身寮（総合職用）・社宅（転勤者用）・保養所・退職金・住宅融資・財形貯蓄・持株会などが用意されています。</li>
             <li>障がいのある方のキャリア採用（契約社員）も別枠で募集されています。退職者向けのカムバック制度（求人情報の案内）もあります。</li>
           </ul>
-          <p className="text-xs text-text-muted mt-4">出典：<a href="https://www.mitsubishi-logistics.co.jp/saiyo/general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">三菱倉庫 キャリア採用（総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area_general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（エリア総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（地域職）</a>（2026年10月15日確認）。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-text-muted mt-4">出典：<a href="https://www.mitsubishi-logistics.co.jp/saiyo/general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">三菱倉庫 キャリア採用（総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area_general.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（エリア総合職）</a>／<a href="https://www.mitsubishi-logistics.co.jp/saiyo/area.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">キャリア採用（地域職）</a>（2026年10月28日確認）。募集状況は変動するため、最新の情報は公式サイトでご確認ください。</p>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒で三菱倉庫のような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />で「どのエージェントに登録すべきか」から相談する方法もあります（特徴は<Link href="/review/agent-navi/" className="text-teal hover:underline">転職AGENT Naviの口コミ・評判</Link>で確認できます）。</p>
         </div>
 
@@ -199,7 +199,7 @@ export default function CompanyCareer() {
         <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
 
         <h2 id="s5">三菱倉庫の応募方法（公式）</h2>
-        <p className="text-sm text-text-muted mb-4">キャリア採用募集要項の「応募方法」の記載です（2026年10月15日確認）。書類選考後の面接回数などの選考ステップは公表されていません。</p>
+        <p className="text-sm text-text-muted mb-4">キャリア採用募集要項の「応募方法」の記載です（2026年10月28日確認）。書類選考後の面接回数などの選考ステップは公表されていません。</p>
         <div className="space-y-5 mb-8">
           {[
             { step: 1, title: "応募書類を郵送", desc: "希望職種・希望勤務地を明記のうえ、履歴書・職務経歴書を送付します。送付先は東京ダイヤサービス（株）キャリア採用担当（東京都中央区新川）。応募書類は返却されません。" },

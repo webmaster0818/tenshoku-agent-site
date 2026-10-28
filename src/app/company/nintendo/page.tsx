@@ -43,7 +43,7 @@ const faqData = [
   },
   {
     q: "任天堂の法務部などの管理部門は中途採用がありますか？",
-    a: "公式Q&Aでは、募集職種一覧以外の職種は募集しておらず、新たな職種は都度掲載、要員を満たした職種は一覧から削除するとされています。管理部門の募集も、公式の募集職種一覧に掲載されている期間に限られます。なお、ワンキャリア転職の選考体験談（2026年10月15日閲覧）には、法務・コンプライアンス職や知的財産職の面接で、担当した訴訟案件や法務チームのマネジメント経験を聞かれたという投稿があります（投稿者個人の体験で、公式情報ではありません）。",
+    a: "公式Q&Aでは、募集職種一覧以外の職種は募集しておらず、新たな職種は都度掲載、要員を満たした職種は一覧から削除するとされています。管理部門の募集も、公式の募集職種一覧に掲載されている期間に限られます。2026年10月28日時点では、コーポレートスタッフ（京都勤務）に法務系の職種として「情報セキュリティ法務担当者」（必須条件：法務または情報セキュリティ関連業務の実務経験2〜5年程度）が掲載されています。このほか経理・税務・IR・人事などの担当者も同区分に掲載されています。なお、ワンキャリア転職の選考体験談（2026年10月15日閲覧）には、法務・コンプライアンス職や知的財産職の面接で、担当した訴訟案件や法務チームのマネジメント経験を聞かれたという投稿があります（投稿者個人の体験で、公式情報ではありません）。",
   },
   {
     q: "任天堂の求人に複数応募したり、再応募したりできますか？",
@@ -55,7 +55,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%",
-  dateModified: "2026-10-27",
+  dateModified: "2026-10-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/nintendo/" },
@@ -95,7 +95,7 @@ export default function NintendoCareer() {
               任天堂の中途採用の選考フロー・面接【2026年10月】公式の採用プロセス・募集職種・キャリア採用比率34%
             </h1>
           </div>
-        <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月15日</p>
+        <p className="text-xs text-text-muted mb-3">最終更新日：2026年10月28日</p>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/nintendo.jpg" alt="任天堂の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -114,6 +114,7 @@ export default function NintendoCareer() {
             <li><strong>面接：</strong>当社営業日（平日）に実施され、日時はできる限り調整するとされています。筆記試験・適性検査は公式の採用プロセスに記載がありません。</li>
             <li><strong>応募条件：</strong>資格・年齢の制限は特になく、ゲーム業界の経験は必須ではありません。別職種・別事業所への重複応募は不可とされ、不合格後1年以内の再応募は控えるよう案内されています。</li>
             <li><strong>募集：</strong>10カテゴリが京都勤務／東京勤務の区分で掲載されています。公式の更新情報では、直近の掲載はハードウェアエンジニア（京都勤務）の「製品法規制対応エンジニア」（2026年10月22日）、デザイナー（京都勤務）の「グラフィックデザイナー（広告）」（9月4日）・「立体造形物デザイナー（協業監修）」（8月28日）です。</li>
+            <li><strong>法務の募集：</strong>2026年10月28日時点の募集職種一覧では、コーポレートスタッフ（京都勤務）に「<a href="https://www.portal.e2r.jp/fixurl/nintendo_career_job/id/4/2?ki=job00640" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">情報セキュリティ法務担当者</a>」が掲載されています。業務は情報セキュリティの社内ルール運用・インシデント対応、グローバルなセキュリティ関連法規制対応、株主総会運営・取締役会事務局などの組織ガバナンス業務で、必須条件は法務または情報セキュリティ関連業務の実務経験（2〜5年程度）です。原則として出社勤務とされています。</li>
             <li><strong>中途の割合：</strong>正規雇用のキャリア採用比率は34％（2023年度）→45％（2024年度）→34％（2025年度）と推移しています。</li>
           </ul>
           <p className="text-xs text-text-muted mt-3">出典：<a href="https://www.nintendo.co.jp/jobs/career/process/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">任天堂 キャリア採用「採用プロセス」</a>／<a href="https://www.nintendo.co.jp/jobs/career/q_and_a/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「Q&amp;A」</a>／<a href="https://www.nintendo.co.jp/jobs/career/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「募集要項」</a>／<a href="https://www.nintendo.co.jp/jobs/environment/index.html" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「就業情報」</a>。</p>
