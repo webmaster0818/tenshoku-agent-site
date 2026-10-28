@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】",
-  dateModified: "2026-10-14",
+  dateModified: "2026-10-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/digireka/" },
@@ -44,6 +44,10 @@ const faqData = [
   {
     q: "面談はオンラインでできますか？",
     a: "できます。公式サイトのQ&Aでは、対面のほか、電話や各種オンライン会議ツール（Zoom、Google Meetなど）での面談が可能と案内されています（2026年10月14日確認）。相談者の都合に合わせて面談方法やツールを提案するとしています。",
+  },
+  {
+    q: "デジレカに悪い口コミはありますか？",
+    a: "2026年10月28日に当サイトで確認した範囲では、利用者本人の投稿と判別できる悪い口コミは見つかりませんでした。ただし、第三者サイトの公開口コミ自体がごく少数で、検索上位の口コミ記事4本に掲載された口コミも、すべて公式サイト掲載の転職事例と同じ内容でした。悪い口コミがないことは評判が良いことの裏付けにはならないため、対象職種が限られる点や求人数が非公表である点を踏まえて判断することをおすすめします。",
   },
   {
     q: "デジレカはやばい？怪しい？",
@@ -97,12 +101,25 @@ export default function DigirekaReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月14日（公式サイトの情報を再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月28日（口コミの掲載状況・公式サイトの転職事例・会社概要を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             デジレカは、株式会社マルニが運営するマーケティング領域特化型の転職エージェントです。
             広告運用・デジタルマーケティング・デジタルプランナー・コンサルタント・ディレクターといった職種を対象に、
             スタッフ全員がデジタルマーケティング経験者としてキャリア相談から入社後フォローまで伴走するのが特徴です。
             この記事では、デジレカの口コミ・評判の傾向（出典を明記）と、特徴・料金・利用の流れ・注意点・向いている人を、公式サイトで確認できる情報をもとに整理します。
+          </p>
+        </div>
+
+        <div className="bg-white rounded-2xl p-5 sm:p-6 mb-8 border-2 border-teal/30">
+          <p className="font-bold text-navy text-lg mb-3">デジレカの口コミ・評判の調査結果（2026年10月28日確認）</p>
+          <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
+            <li><strong>第三者の公開口コミはごく少数です。</strong>口コミサイトやSNSで利用者本人の投稿と判別できる口コミは少なく、件数・平均点を示せる量はありません。</li>
+            <li><strong>検索上位の口コミ記事4本に掲載された口コミは、すべて公式サイト掲載の転職事例と同じ内容でした。</strong>悪い口コミを掲載した記事は0本です（当サイトで集計）。</li>
+            <li><strong>公式掲載の転職事例3件で評価されている点</strong>は、キャリアの選択肢を広げる提案、一貫したキャリア戦略の提示、未経験者への業界構造の説明の3点です。</li>
+            <li><strong>注意点</strong>は、対象がマーケティング職に限られること、求人数が非公表であること、未経験者は職歴・年齢などにより制約があると公式Q&Aに明記されていることです。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-3">
+            詳しくは<a href="#reviews" className="underline">口コミ・評判の出典と内訳</a>をご覧ください。運営会社・許可番号は2026年10月28日に公式の会社概要で確認しています。
           </p>
         </div>
 
@@ -151,7 +168,7 @@ export default function DigirekaReview() {
         </div>
 
         {/* 基本データ */}
-        <h2>デジレカの基本データ・運営会社【2026年10月14日確認】</h2>
+        <h2>デジレカの基本データ・運営会社【2026年10月28日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -172,7 +189,7 @@ export default function DigirekaReview() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：デジレカ公式サイト（<a href="https://digireka.jp/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp</a>）・会社概要（<a href="https://digireka.jp/company/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp/company/</a>）・利用規約（digireka.jp/terms/）、2026年10月14日確認。設立年月日・求人数は公式サイトに記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：デジレカ公式サイト（<a href="https://digireka.jp/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp</a>）・会社概要（<a href="https://digireka.jp/company/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp/company/</a>）・利用規約（digireka.jp/terms/）。会社概要（運営会社・所在地・代表者・資本金・事業内容・許可番号）は2026年10月28日、面談方法・サポート内容・利用規約は2026年10月14日に確認しました。設立年月日・求人数は公式サイトに記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 特徴解説 */}
         <h2>デジレカの特徴（公式の公表情報より）</h2>
@@ -215,13 +232,68 @@ export default function DigirekaReview() {
         </div>
 
         {/* 口コミ・評判 */}
-        <h2>デジレカの口コミ・評判の傾向（出典あり）</h2>
+        <h2 id="reviews">デジレカの口コミ・評判の傾向（出典あり）</h2>
         <p>
-          デジレカの口コミ・評判を、口コミサイト（みん評・転職会議・OpenWorkなど）やX（旧Twitter）の公開投稿を対象にWeb検索で調べました（2026年10月14日確認）。
+          デジレカの口コミ・評判を、口コミサイト（みん評・転職会議・OpenWorkなど）やX（旧Twitter）の公開投稿を対象にWeb検索で調べました（2026年10月14日・10月28日確認）。
           その結果、<strong>利用者本人の投稿と判別できる公開口コミは確認できた範囲ではごく少数</strong>で、件数や平均点を示せるほどの量はありませんでした。
           マーケティング職に絞った比較的小規模な特化型サービスのため、大手総合型エージェントのように口コミが大量に集まる状況ではありません。
           当サイトでは架空の体験談や独自の点数は掲載せず、以下は「公式に公表された事実から読める評価ポイント」として整理しています。
         </p>
+        <h3 className="font-bold text-navy mb-2">公式サイトに掲載されている転職事例3件</h3>
+        <p className="text-sm text-text-secondary mb-3">
+          デジレカ公式サイトのトップページには、利用者の転職事例（CASE）が3件掲載されています（2026年10月28日確認）。
+          運営会社が掲載している事例のため、第三者の口コミではない点にご注意ください。コメントの内容は当サイトで要約しています。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b whitespace-nowrap">事例</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b">転職前</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b">転職後（掲載時の社名）</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b">評価している点（当サイト要約）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b whitespace-nowrap">松本さん（29歳）</td><td className="px-3 py-2 border-b">デジタルマーケティング会社の広告運用職</td><td className="px-3 py-2 border-b">株式会社アラテ（ディレクター兼広告運用）</td><td className="px-3 py-2 border-b">広告運用の実績だけでなく、キャリアの幅を広げる選択肢まで提案を受けられた点</td></tr>
+              <tr><td className="px-3 py-2 border-b whitespace-nowrap">太田さん</td><td className="px-3 py-2 border-b">EC専門の広告運用会社のコンサルタント（前職は公務員8年）</td><td className="px-3 py-2 border-b">株式会社CARTA MARKETING FIRM（コンサルタント）</td><td className="px-3 py-2 border-b">幅広いマーケティング経験を積むためのキャリア戦略を示され、提案に一貫性があった点</td></tr>
+              <tr><td className="px-3 py-2 border-b whitespace-nowrap">照井さん（28歳）</td><td className="px-3 py-2 border-b">スキーショップの販売員（業界未経験）</td><td className="px-3 py-2 border-b">株式会社VOYAGE GROUP（デジタルマーケティング職）</td><td className="px-3 py-2 border-b">未経験でも業界構造・企業の特徴・キャリアの積み方まで説明を受けられた点</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-6">
+          同じトップページには、紹介先企業の声として株式会社東急エージェンシーと株式会社アラテの担当者のコメントも掲載されており、紹介の精度や選考通過率・決定率の高さが評価されています。
+          また「面談後決定率40%」「年間2000人以上に選ばれる」との表記がありますが、いずれも公称値で、集計期間や算出方法は公表されていません。
+        </p>
+
+        <h3 className="font-bold text-navy mb-2">口コミ記事4本の出典を当サイトで確認した結果</h3>
+        <p className="text-sm text-text-secondary mb-3">
+          「デジレカ 口コミ」「デジレカ 評判」の検索結果に表示された口コミ記事4本について、掲載されている口コミの件数と出典を当サイトで確認しました（2026年10月28日確認）。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b">記事</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b whitespace-nowrap">表示日付</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b">掲載口コミ</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b">口コミの出典表示</th>
+                <th className="bg-gray-50 text-left px-3 py-2 border-b whitespace-nowrap">悪い口コミ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">キャリアチャンス</td><td className="px-3 py-2 border-b">2025年4月12日</td><td className="px-3 py-2 border-b">3件（公式の転職事例と同じ内容）</td><td className="px-3 py-2 border-b">「公式サイトより」</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">志望動機.com</td><td className="px-3 py-2 border-b">2025年8月18日</td><td className="px-3 py-2 border-b">3件（公式の転職事例と同じ内容）</td><td className="px-3 py-2 border-b">「公式サイトより」</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">個人サービス・法人サービスの利用・使用についてまとめました</td><td className="px-3 py-2 border-b">2025年4月28日</td><td className="px-3 py-2 border-b">3件（公式の転職事例と同じ内容）</td><td className="px-3 py-2 border-b">公式サイトの転職事例</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">pharmacistagent.com</td><td className="px-3 py-2 border-b">2026年7月2日</td><td className="px-3 py-2 border-b">件数の記載なし（傾向の要約。成功事例は公式サイトの事例）</td><td className="px-3 py-2 border-b">媒体名の記載なし</td><td className="px-3 py-2 border-b">記事側の注意点のみ</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-6">
+          4本とも、利用者本人による第三者サイトへの投稿は示されていませんでした。
+          当サイトでは、公式掲載の事例を第三者の口コミとしては扱わず、公式の公表情報から読み取れる評価ポイントとして以下のとおり整理しています。
+        </p>
+
         <div className="grid sm:grid-cols-2 gap-4 mb-4">
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">良い評判につながりやすい点（公式の公表情報より）</h3>
@@ -252,8 +324,8 @@ export default function DigirekaReview() {
           </p>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          出典：みん評・転職会議・OpenWork・X（旧Twitter）の公開口コミを当サイトが2026年10月14日にWeb検索で確認しました（利用者本人の投稿と判別できる口コミはごく少数のため、件数・平均点は掲載していません）。
-          事実情報の出典は、デジレカ公式サイト・会社概要・利用規約・公式Xアカウントです（2026年10月14日確認）。他社の比較・アフィリエイト記事は一次情報ではないため口コミの出典にしていません。
+          出典：みん評・転職会議・OpenWork・X（旧Twitter）の公開口コミを当サイトが2026年10月14日・10月28日にWeb検索で確認しました（利用者本人の投稿と判別できる口コミはごく少数のため、件数・平均点は掲載していません）。
+          転職事例・紹介先企業の声はデジレカ公式サイトのトップページ（2026年10月28日確認）、その他の事実情報は会社概要・利用規約・公式Xアカウントです（2026年10月14日確認）。他社の口コミ記事は掲載状況の集計にのみ使用し、口コミの出典にはしていません。
         </p>
 
         {/* 利用の流れ */}

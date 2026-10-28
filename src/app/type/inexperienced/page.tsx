@@ -100,6 +100,8 @@ export default function InexperiencedPage() {
           目指す業界が決まっている場合は、業界に合わせた選び方も有力です。たとえば
           不動産営業なら<Link href="/company/ebisu-fudousan/" className="text-teal underline">恵比寿不動産</Link>のような
           研修体制を公開している企業への直接応募も選択肢になります。
+          未経験からマーケティング職を目指す場合は、業界未経験者向けに約1時間半の無料講座を設けている
+          <Link href="/review/digireka/" className="text-teal underline">デジレカ（マーケティング職特化）</Link>も相談先になります。
         </p>
 
         {/* 提携先の未経験向け比較 */}

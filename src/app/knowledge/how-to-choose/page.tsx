@@ -150,6 +150,7 @@ export default function HowToChoosePage() {
           未経験からの異業種挑戦なら<Link href="/review/rework/" className="text-teal underline">Re:WORKエージェント</Link>、
           育児と両立する時短正社員なら<Link href="/review/realme-career/" className="text-teal underline">リアルミーキャリア</Link>、
           IT業界なら<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>、
+          マーケティング職なら<Link href="/review/digireka/" className="text-teal underline">デジレカ</Link>、
           スーパー・生鮮業界なら<Link href="/review/oishiru-career/" className="text-teal underline">オイシルキャリア</Link>のように、
           総合型1〜2社＋特化型1社の組み合わせが選びやすい構成です。
         </p>
