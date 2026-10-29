@@ -31,7 +31,7 @@ const faqData = [
   },
   {
     q: "トヨタ自動車の年収はどのくらいですか？",
-    a: "有価証券報告書（2026年3月期）記載の平均年間給与は1,006万円・平均年齢40.5歳・平均勤続15.1年です（提出会社の従業員平均）。キャリア採用の募集要項では、給与は「経験、能力等を考慮し、当社規定により支給」とされ、昇給は年1回、賞与は年2回と記載されています。",
+    a: "有価証券報告書（2026年3月期）記載の平均年間給与は1,006万円（10,060,464円）・平均年齢40.5歳・平均勤続15.1年です（提出会社の従業員平均）。キャリア採用の募集要項では、給与は「経験、能力等を考慮し、当社規定により支給」とされ、昇給は年1回、賞与は年2回と記載されています。",
   },
   {
     q: "トヨタ自動車の福利厚生にはどのようなものがありますか？",
@@ -125,7 +125,7 @@ export default function ToyotaCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※出典：<a href="https://global.toyota/jp/company/profile/overview/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">トヨタ自動車 会社概要</a>（社名・本社・設立・資本金・従業員数・事業内容）、有価証券報告書（平均年収・平均年齢・平均勤続年数。<a href="https://irbank.net/7203/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK</a>で確認）。2026年10月14日確認。最新情報は公式サイトでご確認ください。
+          ※出典：<a href="https://global.toyota/jp/company/profile/overview/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">トヨタ自動車 会社概要</a>（社名・本社・設立・資本金・従業員数・事業内容）（2026年10月14日確認）。平均年収・平均年齢・平均勤続年数は2026年3月期の<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y8NY.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月10日提出、EDINETで2026年10月29日確認）に基づきます。原本の平均年間給与は10,060,464円で、賞与および基準外賃金を含みます。有価証券報告書の注記により、単体の従業員数（73,133人）は社外への出向者を除き、社外からの出向者を含む就業人員数で、臨時従業員（年間平均16,689人）は含みません。連結の従業員数390,927人も同報告書の値と一致しており、定義は同じです。対前事業年度増減率は2.4%と記載されています。最新情報は公式サイトでご確認ください。
         </p>
 
         {/* 転職難易度 */}
@@ -173,7 +173,7 @@ export default function ToyotaCareer() {
             平均年間給与は直近3期で899万円から1,006万円へ上昇しています。
           </p>
           <p className="text-xs text-text-muted mt-4">
-            ※出典：キャリア採用比率・出身業界・職種・定着率は公式採用サイト<a href="https://recruit.toyota/figure/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「数値で紐解く、トヨタのリアル」</a>（当社実績数値として掲載。法定の「正規雇用労働者の中途採用比率」として明示された表記ではありません）。年収・年齢・勤続年数・従業員数は各期の有価証券報告書（<a href="https://irbank.net/7203/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK</a>で確認）。2026年10月14日確認。
+            ※出典：キャリア採用比率・出身業界・職種・定着率は公式採用サイト<a href="https://recruit.toyota/figure/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">「数値で紐解く、トヨタのリアル」</a>（当社実績数値として掲載。法定の「正規雇用労働者の中途採用比率」として明示された表記ではありません）。公式採用サイトは2026年10月14日確認。年収・年齢・勤続年数・従業員数は、2026年3月期が<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y8NY.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>の原本（EDINETで2026年10月29日確認）、2025年3月期以前は各期の有価証券報告書のIR BANK掲載値（<a href="https://irbank.net/7203/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK</a>、2026年10月14日確認）です。
           </p>
         </div>
 
