@@ -27,6 +27,7 @@ const compares = [
   { href: "/compare/agent-vs-site/", title: "エージェント vs 転職サイト", desc: "12項目で違いを比較します。向いているのはどちらか" },
   { href: "/compare/recruit-vs-doda/", title: "リクルート vs doda", desc: "2大エージェントを10項目で比較" },
   { href: "/compare/mynavi-vs-recruit/", title: "マイナビ vs リクルート", desc: "20代の定番2社を比較" },
+  { href: "/compare/salary-up/", title: "年収アップ実績の比較", desc: "各社が公表する年収アップ率・アップ額を定義・対象期間つきで一覧にしました" },
 ];
 
 export default function KnowledgeHub() {

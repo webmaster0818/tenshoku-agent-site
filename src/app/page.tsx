@@ -155,7 +155,7 @@ export default function HomePage() {
               <a href="#comparison" className="btn-primary text-lg px-8 py-4">比較表を見る</a>
             </div>
             <p className="tl-in tl-d4 mt-6 text-sm text-text-secondary leading-relaxed">
-              年収ランキングをお探しの方へ：企業の平均年収は<a href="#company-db" className="text-teal font-bold underline">15業界の年収ランキング（有価証券報告書）</a>にまとめています。年収アップを目指した転職には、<Link href="/type/high-class/" className="text-teal font-bold underline">ハイクラス向け転職エージェントの比較</Link>をご覧ください。
+              年収ランキングをお探しの方へ：企業の平均年収は<a href="#company-db" className="text-teal font-bold underline">15業界の年収ランキング（有価証券報告書）</a>にまとめています。転職エージェント各社の年収アップ率・年収アップ額は<Link href="/compare/salary-up/" className="text-teal font-bold underline">年収アップ実績の比較（公表値と定義の一覧）</Link>にまとめています。年収アップを目指した転職には、<Link href="/type/high-class/" className="text-teal font-bold underline">ハイクラス向け転職エージェントの比較</Link>をご覧ください。
             </p>
           </div>
         </div>
@@ -492,6 +492,7 @@ export default function HomePage() {
             { href: "/knowledge/multiple/", title: "複数利用・掛け持ちのコツ" },
             { href: "/compare/agent-vs-site/", title: "エージェントvs転職サイト" },
             { href: "/compare/recruit-vs-doda/", title: "リクルートvs doda比較" },
+            { href: "/compare/salary-up/", title: "年収アップ実績の比較" },
           ].map((g) => (
             <Link key={g.href} href={g.href} className="card-hover p-4 block text-center">
               <span className="text-sm font-bold text-navy">{g.title}</span>
