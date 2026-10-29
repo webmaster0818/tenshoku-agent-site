@@ -3,9 +3,9 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "海運会社の年収ランキング【2026年・有価証券報告書】大手3社+中堅を一次データで比較",
+  title: "海運会社の年収ランキング【2026年】商船三井1,659万円ほか5社・陸上職/海上職の平均も有価証券報告書で比較",
   description:
-    "海運会社の平均年収を有価証券報告書の記載値（2026年3月期）でランキングしています。商船三井1,659万円・日本郵船1,554万円・川崎汽船1,450万円の大手3社に、飯野海運・NSユナイテッド海運を加えた5社を掲載しています。市況で賞与が大きく振れる業界特性、キャリア採用の入口まで一次データで解説します。",
+    "海運会社の平均年収を有価証券報告書の原本（2026年3月期）でランキングしています。商船三井1,659万円・日本郵船1,554万円・川崎汽船1,450万円・飯野海運1,285万円・NSユナイテッド海運1,196万円。商船三井の陸上職・海上職別の平均も掲載しています。",
   alternates: { canonical: "/company/kaiun-salary/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
@@ -26,7 +26,7 @@ const ranking = [
 const faqData = [
   {
     q: "海運会社で平均年収が一番高いのはどこですか？",
-    a: "有価証券報告書（2026年3月期・IR BANK掲載値を2026年9月22日確認）では、商船三井が約1,659万円でトップです。日本郵船 約1,554万円、川崎汽船 約1,450万円が続き、大手3社はいずれも1,400万円台以上です。中堅の飯野海運 約1,285万円、NSユナイテッド海運 約1,196万円も1,100万円を超えており、5社とも高水準に分布しています。",
+    a: "2026年3月期の有価証券報告書（5社とも原本をEDINETで2026年10月29日確認）では、商船三井が約1,659万円（16,599,254円）でトップです。日本郵船 約1,554万円、川崎汽船 約1,450万円が続き、大手3社はいずれも1,400万円台以上です。中堅の飯野海運 約1,285万円、NSユナイテッド海運 約1,196万円も1,100万円を超えており、5社とも高水準に分布しています。",
   },
   {
     q: "海運の年収はなぜ高いのですか？",
@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     q: "海運の平均年収は海上職(船員)も含んだ数字ですか？",
-    a: "有価証券報告書の平均年間給与は提出会社に在籍する従業員の平均です。海運会社は陸上勤務職と海上職(海技資格を持つ船員)で処遇体系が異なり、提出会社に在籍する従業員の構成は会社ごとに違います。当サイトでは各社の有価証券報告書の記載値をそのまま掲載しており、内訳の推計は行っていません。職種別の水準は募集要項や転職エージェント経由でご確認ください。",
+    a: "有価証券報告書の平均年間給与は提出会社に在籍する従業員の平均です。5社のうち陸上・海上の区分別に記載しているのは商船三井で、2026年3月期は陸上従業員1,046人・平均16,541,845円（約1,654万円）、海上従業員387人・平均16,784,572円（約1,678万円）です。他の4社は区分別の値を記載していないため、当サイトでは内訳の推計は行っていません。職種別の水準は募集要項や転職エージェント経由でご確認ください。",
   },
   {
     q: "海運会社への転職は未経験でも可能ですか？",
@@ -50,7 +50,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "海運会社の年収ランキング【有価証券報告書準拠】",
-  dateModified: "2026-09-22",
+  dateModified: "2026-10-29",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/kaiun-salary/" },
@@ -80,6 +80,7 @@ export default function KaiunSalaryRanking() {
             海運会社の年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
+            2026年3月期の有価証券報告書による海運会社の平均年間給与は、<strong>1位 商船三井 約1,659万円、2位 日本郵船 約1,554万円、3位 川崎汽船 約1,450万円、4位 飯野海運 約1,285万円、5位 NSユナイテッド海運 約1,196万円</strong>です（5社とも原本をEDINETで2026年10月29日確認）。商船三井は陸上職（陸上従業員）が約1,654万円、海上職（海上従業員）が約1,678万円と、区分別の値も記載しています。
             海運5社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）のみにもとづいてランキングしています。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。
             海運は<strong>市況で賞与が大きく振れる業界</strong>で、1年で200万円以上動く会社もあります。単年の数字だけでなく直近3年の推移まで併記し、中途採用の入口もあわせて解説します。
           </p>
@@ -113,7 +114,40 @@ export default function KaiunSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」に記載された平均年間給与（提出会社・全社員平均・賞与含む）です。IR BANK掲載値を2026年9月22日に確認しました。海運会社は陸上勤務職と海上職で処遇体系が異なり、提出会社に在籍する従業員の構成も会社ごとに違うため、社間の単純比較には幅がある点にご留意ください。
+          ※各社の有価証券報告書「従業員の状況」に記載された平均年間給与（提出会社・賞与含む）です。2026年3月期の値は各社の有価証券報告書の原本（EDINET、<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YI2T.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">商船三井</a> 16,599,254円・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YBT6.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">日本郵船</a> 15,545,044円・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YC6B.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">川崎汽船</a> 14,504,365円・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YGFN.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">飯野海運</a> 12,850千円・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YCN8.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">NSユナイテッド海運</a> 11,966,894円）で2026年10月29日に確認しました（万円未満切り捨て）。日本郵船は他社から当社への出向者を含まずに算出されています。海運会社は陸上勤務職と海上職で処遇体系が異なり、提出会社に在籍する従業員の構成も会社ごとに違うため、社間の単純比較には幅がある点にご留意ください。
+        </p>
+
+        <h2>陸上職と海上職の平均年間給与（商船三井）</h2>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">区分</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">従業員数</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年齢</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均勤続年数</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">平均年間給与</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { k: "陸上従業員", n: "1,046人", a: "39.5歳", t: "13.5年", y: "16,541,845円（約1,654万円）" },
+                { k: "海上従業員", n: "387人", a: "34.6歳", t: "10.7年", y: "16,784,572円（約1,678万円）" },
+                { k: "合計", n: "1,433人", a: "38.4歳", t: "12.9年", y: "16,599,254円（約1,659万円）" },
+              ].map((r) => (
+                <tr key={r.k} className="border-b border-border">
+                  <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">{r.k}</th>
+                  <td className="py-3 px-4 text-text-secondary">{r.n}</td>
+                  <td className="py-3 px-4 text-text-secondary">{r.a}</td>
+                  <td className="py-3 px-4 text-text-secondary">{r.t}</td>
+                  <td className="py-3 px-4 font-bold text-navy">{r.y}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※商船三井の2026年3月期の有価証券報告書（2026年6月23日提出、EDINETで2026年10月29日確認）の提出会社の状況です。対前事業年度増減率は陸上従業員15.7%・海上従業員14.9%・合計15.5%です。日本郵船・川崎汽船・飯野海運・NSユナイテッド海運の有価証券報告書は、陸上・海上の区分別の平均年間給与を記載していません。
         </p>
 
         <h2>直近3年の推移（1年で200万円動く年もあります）</h2>
@@ -148,7 +182,7 @@ export default function KaiunSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※同じ有価証券報告書の数値の推移です。2025年3月期に大手3社のうち商船三井・川崎汽船が下げ、翌期に反発しています。海運の平均年収は「毎年この水準」ではなく市況に連動して動く点が、他業界との最大の違いです。
+          ※2026年3月期は有価証券報告書の原本、2024年3月期・2025年3月期はIR BANK掲載値（2026年9月22日確認）です。2025年3月期に大手3社のうち商船三井・川崎汽船が下げ、翌期に反発しています。海運の平均年収は「毎年この水準」ではなく市況に連動して動く点が、他業界との最大の違いです。
         </p>
 
         <h2>各社の特徴と転職ガイド</h2>

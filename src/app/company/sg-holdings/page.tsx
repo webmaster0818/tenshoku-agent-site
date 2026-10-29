@@ -4,33 +4,33 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "SGホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
+  title: "SGホールディングスの年収・転職｜平均786万円・佐川急便は564万円・中途採用の窓口【2026年】",
   description:
-    "SGホールディングス（証券コード9143）への転職について、有価証券報告書などの一次データにもとづいて解説します。平均年間給与は約786万円（2026年3月期・有価証券報告書／提出会社）です。キャリア採用の窓口と選考の考え方をまとめています。",
+    "SGホールディングスの平均年収は約786万円（2026年3月期・有価証券報告書、提出会社242人）、最大人員会社の佐川急便は約564万円です。SGHDは中途採用をWebサイトで募集しておらず、中途採用の窓口は佐川急便の採用ページです。",
   alternates: { canonical: "/company/sg-holdings/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "SGホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
-    description: "SGホールディングス（9143）の平均年収・中途採用・選考を有価証券報告書ベースで解説します。",
+    title: "SGホールディングスの年収・転職｜平均786万円・佐川急便は564万円・中途採用の窓口【2026年】",
+    description: "SGホールディングス（9143）と佐川急便の平均年収、中途採用の窓口を有価証券報告書と公式採用ページで確認して解説します。",
   },
 };
 
 const faqData = [
   {
     q: "SGホールディングスの平均年収はいくらですか？",
-    a: "2026年3月期の有価証券報告書（2026年6月10日提出、EDINETで2026年10月19日確認）によると、平均年間給与は7,864,340円（約786万円・提出会社単体）です。738万円（2024年3月期）→769万円（2025年3月期）→786万円（2026年3月期）と推移しています（2025年3月期以前はIR BANK掲載値・2026年9月22日確認）。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月10日提出、EDINETで2026年10月19日確認）によると、平均年間給与は7,864,340円（約786万円・持株会社である提出会社の従業員242人）で、対前事業年度増減率は2.24%です。738万円（2024年3月期）→769万円（2025年3月期）→786万円（2026年3月期）と推移しています（2025年3月期以前はIR BANK掲載値・2026年9月22日確認）。同じ有価証券報告書に記載された最大人員会社の佐川急便は、従業員38,920人・平均年間給与5,641,733円（約564万円）です。いずれも賞与及び基準外賃金を含みます。",
   },
   {
     q: "SGホールディングスは中途採用を行っていますか？",
-    a: "はい。公式サイトの採用ページ（https://www.sg-hldgs.co.jp/recruit/）でキャリア採用の情報を確認できます（2026年9月22日確認）。",
+    a: "SGホールディングスの公式採用ページ（www.sg-hldgs.co.jp/recruit/）では、中途採用について「ただいまWebサイトからは募集していません」と記載されています（2026年10月29日確認）。同ページで公表されている正規雇用労働者の中途採用比率は、2023年度22%・2024年度18%・2025年度46%です。グループ中核の佐川急便は、採用情報ページ（www.sagawa-exp.co.jp/recruit/career/）で中途採用（社員）の応募を受け付けています。",
   },
   {
     q: "SGホールディングスはどんな会社ですか？",
-    a: "佐川急便を中核とする物流グループの持株会社です。本社所在地は、公式サイトの会社概要をご確認ください。",
+    a: "佐川急便を中核とする物流グループの持株会社です。有価証券報告書の本店所在地は京都市南区上鳥羽角田町68番地です。",
   },
   {
     q: "SGホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "2026年3月期の有価証券報告書によると、平均勤続年数は9.9年、平均年齢は38.5歳（提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は9.9年、平均年齢は38.5歳（提出会社）です。平均勤続年数は、連結子会社からの転籍者について当該会社の勤続年数を通算しています。佐川急便は平均年齢44.2歳・平均勤続年数15.3年です。",
   },
   {
     q: "SGホールディングスの平均年収はどう推移していますか？",
@@ -41,8 +41,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "SGホールディングスへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-22",
+  headline: "SGホールディングスの年収・転職｜平均786万円・佐川急便は564万円・中途採用の窓口【有価証券報告書準拠】",
+  dateModified: "2026-10-29",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/sg-holdings/" },
@@ -68,7 +68,7 @@ export default function CompanyCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            SGホールディングスへの転職は難しい？中途採用・平均年収・選考を解説【2026年】
+            SGホールディングスの年収・転職｜平均786万円・佐川急便は564万円・中途採用の窓口【2026年】
           </h1>
         <figure className="mb-2 overflow-hidden rounded-2xl border border-border">
           <img src="/company-ss/sg-holdings.jpg" alt="SGホールディングスの採用サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -76,8 +76,8 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">SGホールディングス 採用サイトのスクリーンショット（2026年9月22日取得）。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            SGホールディングス（証券コード9143）は、佐川急便を中核とする物流グループの持株会社です。
-            本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
+            SGホールディングスの平均年間給与は<strong>7,864,340円（約786万円）</strong>です（2026年3月期・有価証券報告書、持株会社である提出会社の従業員242人）。同じ有価証券報告書に記載された最大人員会社の<strong>佐川急便は5,641,733円（約564万円、従業員38,920人）</strong>です。SGホールディングスは中途採用をWebサイトで募集しておらず（2026年10月29日確認）、グループで中途採用の応募を受け付けている窓口は佐川急便の採用ページです。
+            SGホールディングス（証券コード9143）は、佐川急便を中核とする物流グループの持株会社です。本記事では、有価証券報告書と公式採用ページの記載をもとに、年収・中途採用の窓口を整理します。
           </p>
         </div>
         <nav id="auto-toc" className="mb-10 rounded-2xl border border-border bg-warm-gray/60 p-5 sm:p-6">
@@ -97,9 +97,10 @@ export default function CompanyCareer() {
         <h2 id="s1">SGホールディングス転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約786万円です（7,864,340円、2026年3月期・有価証券報告書、EDINETで2026年10月19日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約786万円です（7,864,340円、2026年3月期・有価証券報告書、EDINETで2026年10月29日再確認）。持株会社である提出会社の従業員242人（ほかにパートナー社員等10人）の平均値です。</li>
+            <li>最大人員会社の佐川急便は、従業員38,920人・平均年齢44.2歳・平均勤続年数15.3年・平均年間給与5,641,733円（約564万円）です（同じ有価証券報告書の記載）。</li>
             <li>738万円（2024年3月期）→769万円（2025年3月期）→786万円（2026年3月期）と推移しています。いずれも持株会社単体の値です。平均勤続9.9年と短めであり、佐川急便の現場職の水準とは異なります。</li>
-            <li>キャリア採用の情報は公式採用ページで確認できます（2026年9月22日確認）。</li>
+            <li>SGホールディングスの公式採用ページでは、中途採用は「ただいまWebサイトからは募集していません」と記載されています。中途採用比率は2023年度22%・2024年度18%・2025年度46%です（2026年10月29日確認）。</li>
             <li>平均年齢は38.5歳、平均勤続年数は9.9年です。物流は燃料費・人件費・取扱量の影響を受けやすく、2024年問題以降の運賃改定や賃上げが数字に表れ始めています。単年の平均額だけでなく、推移もあわせて確認することをおすすめします。</li>
           </ul>
         </div>
@@ -111,12 +112,14 @@ export default function CompanyCareer() {
               {[
                 { label: "社名", value: "株式会社SGホールディングス" },
                 { label: "証券コード", value: "9143" },
-                { label: "本社", value: "公式サイトの会社概要をご確認ください" },
+                { label: "本店所在地", value: "京都市南区上鳥羽角田町68番地（有価証券報告書）" },
                 { label: "事業内容", value: "佐川急便を中核とする物流グループの持株会社" },
                 { label: "平均年間給与", value: "約786万円（7,864,340円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "738万円（2024年3月期）→769万円（2025年3月期）→786万円（2026年3月期）" },
+                { label: "従業員数（提出会社）", value: "242人（就業人員。ほかにパートナー社員等10人）" },
                 { label: "平均年齢", value: "38.5歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "9.9年（同・提出会社）" },
+                { label: "参考：佐川急便", value: "従業員38,920人・平均44.2歳・勤続15.3年・平均年間給与5,641,733円（約564万円、最大人員会社として同じ有価証券報告書に記載）" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -127,15 +130,28 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y9P7.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月10日提出、EDINETで2026年10月19日確認）、それ以前の推移はIR BANK掲載値（2026年9月22日確認）に基づく提出会社単体・全従業員の平均です。物流会社は総合職・ドライバー職・現業職など職種によって働き方も処遇体系も異なり、提出会社(とくに持株会社)に在籍する従業員の構成は会社ごとに大きく違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y9P7.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月10日提出、EDINETで2026年10月19日確認・10月29日再確認）、それ以前の推移はIR BANK掲載値（2026年9月22日確認）に基づく提出会社の平均です。有価証券報告書の注記により、従業員数は就業人員数で、平均年間給与には賞与及び基準外賃金を含み、平均勤続年数は連結子会社からの転籍者について当該会社の勤続年数を通算しています。物流会社は総合職・ドライバー職・現業職など職種によって働き方も処遇体系も異なり、提出会社(とくに持株会社)に在籍する従業員の構成は会社ごとに大きく違います。職種・年代・役職により実際の年収は異なるため、比較には幅がある点にご留意ください。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">SGホールディングスの中途採用の状況</h2>
         <div className="glass-card p-6 mb-8">
-          <p className="text-sm text-text-secondary mb-4">2026年9月22日時点で、<a href="https://www.sg-hldgs.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>でキャリア採用の案内を確認できます。</p>
+          <p className="text-sm text-text-secondary mb-4">SGホールディングスの<a href="https://www.sg-hldgs.co.jp/recruit/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式採用ページ</a>では、中途採用について「ただいまWebサイトからは募集していません」と記載されています（2026年10月29日確認）。新卒採用はグループ合同募集として案内されています。</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-warm-gray"><th className="text-left py-2 px-3">年度</th><th className="text-left py-2 px-3">正規雇用労働者の中途採用比率（SGホールディングス公表）</th></tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-border"><td className="py-2 px-3">2023年度</td><td className="py-2 px-3">22%</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3">2024年度</td><td className="py-2 px-3">18%</td></tr>
+                <tr className="border-b border-border"><td className="py-2 px-3">2025年度</td><td className="py-2 px-3">46%</td></tr>
+              </tbody>
+            </table>
+          </div>
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>公式サイトの採用ページから新卒採用とキャリア採用の窓口が案内されています。</li>
-            <li>※募集職種・募集状況は変動するため、最新の情報は公式採用ページにてご確認ください。</li>
+            <li>グループ中核の佐川急便は、<a href="https://www.sagawa-exp.co.jp/recruit/career/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">採用情報ページ（中途採用）</a>で社員での勤務を希望する方の応募を受け付けています。セールスドライバー職・輸送ドライバー職・営業係長職などの中途入社社員のインタビューも掲載されています（2026年10月29日確認）。</li>
+            <li>佐川急便の採用情報ページには、中途採用のほか、パートナー採用（パート・アルバイト）、社員紹介採用、障がい者採用の窓口があります。</li>
+            <li>※募集状況は変動するため、最新の情報は各社の公式採用ページにてご確認ください。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-4">20代・第二新卒でSGホールディングスのような大手企業を目指す場合は、<FelmatTextLink slug="agent-navi" text="転職AGENT Navi(PR)" />などの若手特化エージェントで、求人の紹介と応募書類の添削を受ける方法があります。</p>
         </div>
@@ -158,13 +174,13 @@ export default function CompanyCareer() {
         <FelmatCta slug="agent-navi" heading="20代・第二新卒の転職サポート(無料)" />
 
         <h2 id="s5">SGホールディングスの選考フロー（一般的な流れ）</h2>
-        <p className="text-sm text-text-muted mb-4">※職種ごとの詳細な選考フローは応募先の募集要項で案内されます。以下は中途採用における一般的な選考の流れの一例です。職種・時期により異なります。</p>
+        <p className="text-sm text-text-muted mb-4">※SGホールディングスは2026年10月29日時点で中途採用をWebサイトで募集していないため、公式の選考フローは確認できません。以下は中途採用における一般的な選考の流れの一例で、グループ各社の実際の選考は応募先の募集要項で案内されます。</p>
         <div className="space-y-5 mb-8">
           {[
-            { step: 1, title: "採用ページからエントリー", desc: "公式採用ページで募集職種を確認し、希望ポジションにエントリーします。" },
+            { step: 1, title: "募集要項の確認・応募", desc: "応募先（佐川急便などのグループ各社）の採用ページや転職エージェントで募集職種を確認し、応募します。" },
             { step: 2, title: "書類選考", desc: "履歴書・職務経歴書を基に、応募求人の要件との適合性が確認されます。" },
-            { step: 3, title: "面接（複数回）", desc: "現場マネージャー・部門責任者等による面接が行われます。主に実務経験と応募職種との適合性が確認されます。" },
-            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となります。経験・能力を考慮した条件が提示されます。" },
+            { step: 3, title: "面接", desc: "応募職種との適合性や実務経験が確認されます。回数は応募先・職種により異なります。" },
+            { step: 4, title: "内定・条件提示", desc: "選考を通過すると内定となり、条件が提示されます。" },
           ].map((s) => (
             <div key={s.step} className="flex gap-4 items-start">
               <span className="step-number text-base w-10 h-10">{s.step}</span>
@@ -179,7 +195,7 @@ export default function CompanyCareer() {
         <h2 id="s6">SGホールディングスの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約786万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
+            <li>約786万円（2026年3月期）は持株会社である提出会社の従業員242人の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。物流は取扱量・運賃水準の影響を受け、賞与もそれに連動します。</li>
             <li>平均年齢は38.5歳、平均勤続年数は9.9年です。平均年収は年齢構成の影響を受ける点にご留意ください。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
@@ -188,7 +204,7 @@ export default function CompanyCareer() {
         </div>
 
         <h2 id="s7">SGホールディングス転職で活用したい転職エージェント</h2>
-        <p className="text-sm text-text-muted mb-4">公式採用ページへの直接応募に加えて、エージェント経由で求人情報を広く集めると比較検討がしやすくなります。</p>
+        <p className="text-sm text-text-muted mb-4">SGホールディングスは中途採用をWebサイトで募集していないため、グループ各社の求人は各社の採用ページや転職エージェント経由で確認すると比較検討がしやすくなります。</p>
         <div className="space-y-4 mb-8">
           {[
             { name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "業界最大級の求人数を有するエージェントです。大手からベンチャーまで幅広い求人を扱っています。" },
@@ -218,7 +234,7 @@ export default function CompanyCareer() {
 
         <div className="bg-navy rounded-2xl p-6 sm:p-8 text-center">
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">SGホールディングス転職を成功させるために</h2>
-          <p className="text-white/70 text-sm mb-6">ポジションごとの詳細は、公式採用ページと転職エージェントの両方でご確認ください。</p>
+          <p className="text-white/70 text-sm mb-6">募集状況は、SGホールディングス・佐川急便の公式採用ページと転職エージェントの両方でご確認ください。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-accent px-8 py-3">転職エージェントおすすめランキングを見る</Link>
           </div>

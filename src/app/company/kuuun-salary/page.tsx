@@ -3,9 +3,9 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "航空会社(空運)の年収ランキング【2026年・有価証券報告書】JAL・ANAほか4社を一次データで比較",
+  title: "航空会社(空運)の年収ランキング【2026年】JAL1,011万円ほか4社・パイロット/CAの職種別平均も有価証券報告書で比較",
   description:
-    "航空会社の平均年収を有価証券報告書の記載値（2026年3月期）にもとづきランキング形式で比較します。日本航空1,011万円・ANAホールディングス770万円・スターフライヤー696万円・スカイマーク593万円。コロナ禍からの回復、持株会社単体値の注意点、キャリア採用の入口まで解説します。",
+    "航空会社の平均年収を有価証券報告書の原本（2026年3月期）で比較します。日本航空1,011万円・ANAホールディングス770万円・スターフライヤー696万円・スカイマーク593万円。運航乗務員・客室乗務員など職種別の平均、キャリア採用の入口も掲載しています。",
   alternates: { canonical: "/company/kuuun-salary/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
@@ -25,7 +25,7 @@ const ranking = [
 const faqData = [
   {
     q: "航空会社で平均年収が一番高いのはどこですか？",
-    a: "2026年3月期の有価証券報告書では、日本航空(JAL)が約1,011万円でトップです(IR BANK掲載値・2026年9月22日確認)。ANAホールディングス 約770万円(7,709千円)、スターフライヤー 約696万円(6,967千円)、スカイマーク 約593万円(5,932千円)と続きます(3社は有価証券報告書の原本をEDINETで2026年10月18日確認)。ただしANAホールディングスは持株会社単体の値で、グループの事業会社(全日本空輸など)の水準とは異なる点にご注意ください。",
+    a: "2026年3月期の有価証券報告書では、日本航空(JAL)が約1,011万円(10,112千円)でトップです。ANAホールディングス 約770万円(7,709千円)、スターフライヤー 約696万円(6,967千円)、スカイマーク 約593万円(5,932千円)と続きます(4社とも有価証券報告書の原本をEDINETで確認。JALは2026年10月29日、3社は2026年10月18日)。ただしANAホールディングスは持株会社単体の値で、グループの事業会社(全日本空輸など)の水準とは異なる点にご注意ください。",
   },
   {
     q: "航空会社の年収はコロナ禍からどれくらい回復しましたか？",
@@ -33,15 +33,15 @@ const faqData = [
   },
   {
     q: "ANAホールディングスの平均勤続年数が2.9年と短いのはなぜですか？",
-    a: "有価証券報告書の値は「提出会社」つまり持株会社単体の従業員を対象としています。ANAホールディングスは持株会社であり、在籍者の勤続年数は持株会社での在籍期間を反映するため、グループ全体の実態とは一致しません。平均年齢46.2歳に対し勤続2.9年という組み合わせが、その構造を示しています(2026年9月22日確認)。事業会社の水準は、求人票や転職エージェント経由でご確認いただくことをおすすめします。",
+    a: "有価証券報告書の値は「提出会社」つまり持株会社単体の従業員を対象としています。ANAホールディングスは持株会社であり、在籍者の勤続年数は持株会社での在籍期間を反映するため、グループ全体の実態とは一致しません。有価証券報告書には「当社の従業員は主として連結子会社である全日本空輸㈱からの出向社員で構成されているため」と記載されています。同じ有価証券報告書によると、全日本空輸は従業員14,983人・平均年齢41.3歳・平均勤続年数14.9年・平均年間給与11,721千円(約1,172万円)です。",
   },
   {
     q: "航空会社の平均年収は客室乗務員やパイロットも含んだ数字ですか？",
-    a: "有価証券報告書の平均年間給与は提出会社に在籍する従業員の平均です。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種によって処遇体系が異なり、提出会社に在籍する従業員の構成は会社ごとに違います。当サイトでは各社の有価証券報告書の記載値をそのまま掲載しており、職種別の内訳推計は行っていません。職種ごとの水準は募集要項やエージェント経由でご確認ください。",
+    a: "ランキングの値は、運航乗務員(パイロット)・客室乗務員を含む提出会社の平均です。有価証券報告書には職種別の平均年間給与も記載されており、運航乗務員はJAL(グループ連結)21,527千円・ANAグループ(ANAブランド3社)23,355千円・スカイマーク16,622千円・スターフライヤー15,271千円、客室乗務員はそれぞれ6,327千円・7,108千円・3,322千円・4,273千円です(2026年3月期)。JALとANAはグループ連結、スカイマークとスターフライヤーは提出会社の値で、集計範囲が異なる点にご留意ください。当サイトでは記載値をそのまま掲載しており、推計は行っていません。",
   },
   {
     q: "航空会社の中途採用はどこに応募すればいいですか？",
-    a: "ANAホールディングス(www.ana.co.jp/group/recruit/)、スターフライヤー(www.starflyer.jp/recruit/)、スカイマーク(www.skymark.co.jp/ja/company/recruit/)は公式サイトの採用ページを2026年9月22日に確認しています。日本航空(www.jal.com/ja/recruit/)は当サイトの調査環境からのアクセスが制限されており、掲載内容を確認できませんでした。募集ポジションは時期により変わるため、公式採用ページの定期的な確認と転職エージェントの併用をおすすめします。",
+    a: "ANAホールディングス(www.ana.co.jp/group/recruit/)、スターフライヤー(www.starflyer.jp/recruit/)、スカイマーク(www.skymark.co.jp/ja/company/recruit/)は公式サイトの採用ページを2026年9月22日に確認しています。日本航空は新卒・キャリア採用サイト(www.job-jal.com/career/)に業務企画職のキャリア採用の職種別募集要項が掲載されており、選考は通年で実施すると記載されています(2026年10月27日確認)。募集ポジションは時期により変わるため、公式採用ページの定期的な確認と転職エージェントの併用をおすすめします。",
   },
 ];
 
@@ -49,7 +49,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "航空会社(空運)の年収ランキング【有価証券報告書準拠】",
-  dateModified: "2026-09-22",
+  dateModified: "2026-10-29",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/kuuun-salary/" },
@@ -79,6 +79,7 @@ export default function KuuunSalaryRanking() {
             航空会社(空運)の年収ランキング【2026年・有価証券報告書】
           </h1>
           <p className="text-text-secondary leading-relaxed">
+            2026年3月期の有価証券報告書による航空会社の平均年間給与は、<strong>1位 日本航空(JAL) 約1,011万円、2位 ANAホールディングス 約770万円、3位 スターフライヤー 約696万円、4位 スカイマーク 約593万円</strong>です（4社とも原本をEDINETで確認）。職種別では運航乗務員(パイロット)が1,527万〜2,335万円、客室乗務員が332万〜710万円と、同じ会社でも職種により大きく異なります。
             航空4社の平均年収を、有価証券報告書の記載値（平均年間給与・決算期明記）のみにもとづき、ランキング形式で整理しました。ネット上に多い「推定年収」ではなく、各社がEDINETに提出した一次データにもとづく数値です。
             航空は<strong>コロナ禍で大きく落ち込み、その後回復してきた業界</strong>で、4年間で200〜300万円動いた会社もあります。単年の数字だけでなく推移まで併記し、持株会社単体値の注意点や中途採用の入口もあわせて解説します。
           </p>
@@ -112,7 +113,39 @@ export default function KuuunSalaryRanking() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・全社員平均・賞与含む）です。ANAホールディングス(7,709千円)・スターフライヤー(6,967千円)・スカイマーク(5,932千円)の2026年3月期の値は、各社の有価証券報告書の原本（EDINET、<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YKL4.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">ANAホールディングス</a>・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJFT.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">スターフライヤー</a>・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJR8.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">スカイマーク</a>）で2026年10月18日に確認しています。スターフライヤーとスカイマークは職種別の記載のため、「合計又は平均」欄の値を掲載しています。日本航空の値と過去の推移は、IR BANK掲載値（2026年9月22日確認）です。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種で処遇体系が異なり、提出会社に在籍する従業員の構成も会社ごとに違うため、社間の単純比較には幅がある点にご留意ください。とくにANAホールディングスは持株会社単体の値です。
+          ※各社の有価証券報告書「従業員の状況」記載の平均年間給与（提出会社・賞与含む。算定範囲は各社の注記によります）です。日本航空(10,112千円)の2026年3月期の値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YFIO.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書の原本</a>（2026年6月22日提出、EDINETで2026年10月29日確認。常勤社員14,627名、国内雇用社員と海外雇用社員の平均）です。ANAホールディングス(7,709千円)・スターフライヤー(6,967千円)・スカイマーク(5,932千円)の2026年3月期の値は、各社の有価証券報告書の原本（EDINET、<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YKL4.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">ANAホールディングス</a>・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJFT.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">スターフライヤー</a>・<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJR8.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">スカイマーク</a>）で2026年10月18日に確認しています。スターフライヤーとスカイマークは職種別の記載のため、「合計又は平均」欄の値を掲載しています。過去の推移（日本航空・ANAホールディングス・スカイマークの2022年・2024年の値）は、IR BANK掲載値（2026年9月22日確認）です。航空会社は総合職・客室乗務員・運航乗務員・整備士など職種で処遇体系が異なり、提出会社に在籍する従業員の構成も会社ごとに違うため、社間の単純比較には幅がある点にご留意ください。とくにANAホールディングスは持株会社単体の値です。
+        </p>
+
+        <h2>職種別の平均年間給与（パイロット・客室乗務員）</h2>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">会社（集計範囲）</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">地上職</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">運航乗務員</th>
+                <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">客室乗務員</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { name: "日本航空（グループ連結）", g: "7,002千円", p: "21,527千円", c: "6,327千円" },
+                { name: "ANAグループ（地上職は連結41社、乗務職はANAブランド3社）", g: "6,774千円", p: "23,355千円", c: "7,108千円" },
+                { name: "スカイマーク（提出会社）", g: "5,105千円", p: "16,622千円", c: "3,322千円" },
+                { name: "スターフライヤー（提出会社）", g: "5,848千円", p: "15,271千円", c: "4,273千円" },
+              ].map((r) => (
+                <tr key={r.name} className="border-b border-border">
+                  <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy">{r.name}</th>
+                  <td className="py-3 px-4 text-text-secondary">{r.g}</td>
+                  <td className="py-3 px-4 font-bold text-navy">{r.p}</td>
+                  <td className="py-3 px-4 text-text-secondary">{r.c}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">
+          ※いずれも2026年3月期の有価証券報告書の原本に記載された値です（EDINETで2026年10月29日確認）。日本航空・ANAホールディングスは「参考」として記載されたグループ連結の値、スカイマーク・スターフライヤーは提出会社の職種別の値で、集計範囲が異なります。日本航空の職種名は地上社員・運航乗務員・客室乗務員、ANAは地上職・運航乗務職・客室乗務職、スターフライヤーの地上職欄は「一般従業員」です。スカイマークの運航乗務員の平均年間給与は人材会社からの受入出向運航乗務員を除いて算出され、スターフライヤーの運航乗務員・客室乗務員には訓練生が含まれます。参考として、ANAホールディングスの有価証券報告書には全日本空輸㈱の平均年間給与11,721千円（従業員14,983人・平均41.3歳・勤続14.9年）も記載されています。
         </p>
 
         <h2>コロナ禍後の回復状況（4年間の推移）</h2>
