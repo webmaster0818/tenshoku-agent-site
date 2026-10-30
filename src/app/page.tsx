@@ -132,6 +132,24 @@ export default function HomePage() {
 
       <TopMotion />
 
+      {/* オープニング（2026-10-30 ryden.co.jp 風・試作）。
+          html[data-tl-intro] のときだけ表示。セッション初回のみ・reduce では出さない。
+          文字は CSS の attr() で描くので DOM のテキストは増えない。CSS アニメだけで必ず消える。 */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html:
+            "try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){var d=document.documentElement;window.__tlT0=performance.now();d.setAttribute('data-tl','1');var k='tl-intro-seen';var s=null;try{s=sessionStorage.getItem(k);sessionStorage.setItem(k,'1')}catch(e){}if(!s){d.setAttribute('data-tl-intro','1');window.__tlIntro=1}}}catch(e){}",
+        }}
+      />
+      <div className="tl-intro" aria-hidden="true">
+        <div className="tl-intro-word">
+          {"TENSHOKU AGENT LAB".split("").map((c, i) => (
+            <span key={i} className="tl-intro-c" data-c={c === " " ? "\u00a0" : c} style={{ ["--i" as string]: i }} />
+          ))}
+        </div>
+        <div className="tl-intro-bar" />
+      </div>
+
       {/* Hero */}
       <section className="relative overflow-hidden bg-warm-gray">
         <img
@@ -142,14 +160,14 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-white/10" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-xl">
-            <p className="tl-in tl-d1 text-teal font-bold text-xs tracking-[0.3em] mb-5">TENSHOKU AGENT LAB 2026</p>
-            <h1 className="tl-in tl-d2 text-3xl sm:text-4xl lg:text-5xl text-navy leading-tight mb-6">
-              転職エージェントと企業年収を<br />
-              公表情報で比較
+            <p className="tl-eyebrow text-teal font-bold text-xs tracking-[0.3em] mb-5">{"TENSHOKU AGENT LAB 2026".split("").map((c, i) => (<span key={i} className="tl-char" style={{ ["--i" as string]: i }}>{c}</span>))}</p>
+            <h1 className="tl-h1 text-3xl sm:text-4xl lg:text-5xl text-navy leading-tight mb-6">
+              <span className="tl-mask"><span className="tl-mask-in">転職エージェントと企業年収を</span></span><br />
+              <span className="tl-mask"><span className="tl-mask-in tl-mask-2">公表情報で比較</span></span>
             </h1>
             <p className="tl-in tl-d3 text-text-secondary text-base sm:text-lg mb-10 leading-relaxed">
-              転職エージェント・転職サービス<strong>59件</strong>を、求人数・サポート内容・得意分野の公表情報で比較しています。
-              あわせて<strong>有価証券報告書にもとづく企業別の平均年収を184社</strong>ぶん公開しています。
+              転職エージェント・転職サービス<strong className="tl-marker">59件</strong>を、求人数・サポート内容・得意分野の公表情報で比較しています。
+              あわせて<strong className="tl-marker tl-marker-2">有価証券報告書にもとづく企業別の平均年収を184社</strong>ぶん公開しています。
             </p>
             <div className="tl-in tl-d4 flex flex-col sm:flex-row gap-4">
               <a href="#ranking" className="btn-accent text-lg px-8 py-4">ランキングを見る</a>

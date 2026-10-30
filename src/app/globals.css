@@ -385,3 +385,108 @@ h1, h2, h3, h4,
   .card-hover { transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s; }
   .card-hover:hover { border-color: rgba(13, 148, 136, 0.45); }
 }
+
+/* ==========================================================================
+   TOPページの動き・ryden.co.jp 風（2026-10-30 試作・ブランチ feat/top-animation-ryden）
+   施主「このサイトのようにトップページのアニメーションの変更を」への試作。
+   - html[data-tl] は page.tsx 冒頭のインラインscriptが付ける（reduce では付けない）。
+     → JSが動かない／reduce の環境ではこのブロックは一切効かず、全文がそのまま見える。
+   - html[data-tl-intro] はセッション初回だけ。オープニングは CSS アニメだけで必ず消える。
+   - 動かすのは transform / clip-path / color / background-size だけ（レイアウトは動かない）。
+   イージングは ryden で最多の cubic-bezier(0.16, 1, 0.3, 1)（expo-out 系）。
+   ========================================================================== */
+
+/* マーカー（終了状態）はモードに関係なく常に同じ見た目 */
+.tl-marker {
+  background-image: linear-gradient(transparent 62%, rgba(20, 184, 166, 0.26) 62%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.tl-intro { display: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  html[data-tl] { --tl-shift: 0s; --tl-base: calc(0s - var(--tl-shift)); --tl-ease: cubic-bezier(0.16, 1, 0.3, 1); }
+  html[data-tl-intro] { --tl-base: calc(1.05s - var(--tl-shift)); }
+
+  /* ---- ① オープニング（ryden: ドット地＋文字が1字ずつ現れて幕が上がる）---- */
+  html[data-tl-intro] .tl-intro {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;
+    position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+    background-color: #0F172A;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.14) 1px, transparent 1.2px);
+    background-size: 22px 22px;
+    animation: tl-intro-lift 0.75s cubic-bezier(0.76, 0, 0.24, 1) calc(1.05s - var(--tl-shift)) both;
+  }
+  .tl-intro-word { display: flex; color: #fff; font-weight: 700; letter-spacing: 0.32em; font-size: clamp(15px, 2.6vw, 34px); }
+  .tl-intro-c { display: inline-block; overflow: hidden; line-height: 1.3; }
+  .tl-intro-c::before {
+    content: attr(data-c); display: block;
+    animation: tl-up 0.7s var(--tl-ease) calc(0.08s + var(--i) * 0.03s - var(--tl-shift)) both;
+  }
+  .tl-intro-bar {
+    width: min(280px, 60vw); height: 3px; background: #14B8A6;
+    transform-origin: left center; animation: tl-bar 0.55s var(--tl-ease) calc(0.42s - var(--tl-shift)) both;
+  }
+  @keyframes tl-intro-lift { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(0, -100%, 0); visibility: hidden; } }
+  @keyframes tl-up { from { transform: translate3d(0, 105%, 0); } to { transform: none; } }
+  @keyframes tl-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  /* ---- ② ヒーロー写真：幕が右から開く＋寄り（ryden: 画像のマスク出現）---- */
+  html[data-tl] .tl-hero-img {
+    animation: tl-img-reveal 1.5s var(--tl-ease) var(--tl-base) both;
+    transform-origin: 70% 40%;
+  }
+  @keyframes tl-img-reveal {
+    from { clip-path: inset(0 0 0 100%); transform: scale(1.14); }
+    to { clip-path: inset(0 0 0 0); transform: scale(1); }
+  }
+
+  /* ---- ③ 文字がマスクの下からせり上がる（ryden: overflow:hidden＋translate、不透明度は変えない）---- */
+  html[data-tl] .tl-eyebrow { clip-path: inset(0); }
+  html[data-tl] .tl-char { display: inline-block; white-space: pre; animation: tl-up 0.8s var(--tl-ease) calc(var(--tl-base) + 0.1s + var(--i) * 0.022s) both; }
+  html[data-tl] .tl-mask { display: inline-block; overflow: hidden; vertical-align: bottom; padding: 0.06em 0; margin: -0.06em 0; }
+  html[data-tl] .tl-mask-in { display: inline-block; animation: tl-up 1s var(--tl-ease) calc(var(--tl-base) + 0.22s) both; }
+  html[data-tl] .tl-mask-2 { animation-delay: calc(var(--tl-base) + 0.34s); }
+  html[data-tl] .tl-in.tl-d3 { animation-delay: calc(var(--tl-base) + 0.5s); }
+  html[data-tl] .tl-in.tl-d4 { animation-delay: calc(var(--tl-base) + 0.62s); }
+
+  /* ---- ④ マーカーが引かれる（ryden: 行ごとの蛍光帯）---- */
+  html[data-tl] .tl-marker { animation: tl-marker 0.9s var(--tl-ease) calc(var(--tl-base) + 0.95s) both; }
+  html[data-tl] .tl-marker-2 { animation-delay: calc(var(--tl-base) + 1.15s); }
+  @keyframes tl-marker { from { background-size: 0% 100%; } to { background-size: 100% 100%; } }
+
+  /* ---- ⑤ 見出し：ブロックが走って文字が現れる（ryden: 黒帯ワイプ）----
+     ScrollMotion が h2 に data-rv を付ける仕組みはそのまま使う（掃き出しの安全装置も共通）。 */
+  html[data-tl] .section-title[data-rv]:has(> span) { opacity: 1; transform: none; transition: none; }
+  html[data-tl] .section-title[data-rv]:has(> span) > span { position: relative; }
+  html[data-tl] .section-title[data-rv=""]:has(> span) > span { color: transparent; }
+  html[data-tl] .section-title[data-rv="in"] > span {
+    animation: tl-ink 0.9s linear calc(var(--sd, 0s)) backwards;
+  }
+  html[data-tl] .section-title[data-rv="in"] > span::before {
+    content: ""; position: absolute; inset: 0.08em -0.08em; background: var(--color-navy);
+    transform: scaleX(0); transform-origin: left center; pointer-events: none;
+    animation: tl-wipe 0.9s var(--tl-ease) calc(var(--sd, 0s)) both;
+  }
+  html[data-tl] .section-title > span:nth-child(2) { --sd: 0.12s; }
+  html[data-tl] .section-title > span:nth-child(3) { --sd: 0.24s; }
+  @keyframes tl-ink { 0%, 45% { color: transparent; } 46%, 100% { color: inherit; } }
+  @keyframes tl-wipe {
+    0% { transform: scaleX(0); transform-origin: left center; }
+    45% { transform: scaleX(1); transform-origin: left center; }
+    46% { transform: scaleX(1); transform-origin: right center; }
+    100% { transform: scaleX(0); transform-origin: right center; }
+  }
+  html[data-tl] .section-title[data-rv="in"]::after { transition-duration: 1s; transition-delay: 0.7s; }
+
+  /* ---- ⑥ スクロール出現を ryden の距離・時間に（大きめの移動量・長めの減速）---- */
+  html[data-tl] main [data-rv=""] { transform: translate3d(0, 44px, 0); }
+  html[data-tl] main [data-rv="in"] { transition-duration: 1s, 1s; }
+  html[data-tl] main [data-rv-item=""] { transform: translate3d(0, 40px, 0); }
+  html[data-tl] main [data-rv-item="in"] {
+    transition: opacity 0.9s var(--tl-ease) calc(var(--rv-delay, 0ms) * 1.6),
+                transform 0.9s var(--tl-ease) calc(var(--rv-delay, 0ms) * 1.6);
+  }
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 
 /**
  * TOPページだけの動き（2026-10-21 施主指示「TOPを洗練された印象に」）
@@ -12,6 +12,23 @@ import { useEffect } from 'react';
  * - prefers-reduced-motion: reduce なら何もしない。
  */
 export default function TopMotion() {
+  // ryden 風の動き（2026-10-30 試作）の継続処理。
+  // page.tsx のインラインscriptが <html> に data-tl / data-tl-intro を付けるが、
+  // 現状このサイトはハイドレーション不一致（React #418・main でも発生）でクライアント再描画が起き、
+  // <html> の属性が消えて要素も作り直される。消えていた場合だけ属性を戻し、
+  // 経過時間ぶん --tl-shift でアニメーションを先送りして「途中から再開」させる（最初からやり直さない）。
+  // 描画前（useLayoutEffect）に戻すので、一瞬だけ静止表示になるちらつきも出ない。
+  useLayoutEffect(() => {
+    const w = window as unknown as { __tlT0?: number; __tlIntro?: number };
+    if (typeof w.__tlT0 !== 'number') return; // reduce の環境・script 未実行
+    const d = document.documentElement;
+    if (d.hasAttribute('data-tl')) return; // 正常にハイドレーションできた（要素は作り直されていない）
+    d.setAttribute('data-tl', '1');
+    if (w.__tlIntro) d.setAttribute('data-tl-intro', '1');
+    const elapsed = Math.max(0, (performance.now() - w.__tlT0) / 1000);
+    d.style.setProperty('--tl-shift', `${elapsed.toFixed(3)}s`);
+  }, []);
+
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const els = Array.from(document.querySelectorAll<HTMLElement>('[data-countup]'));
