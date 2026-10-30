@@ -216,6 +216,9 @@ export default function MultiplePage() {
             <Link href="/compare/recruit-vs-doda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               リクルートエージェント vs doda
             </Link>
+            <Link href="/review/deaeru-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              3社を紹介する出会えるエージェント
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

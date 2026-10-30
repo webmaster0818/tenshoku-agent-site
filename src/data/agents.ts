@@ -15,7 +15,7 @@ export const AGENTS: Record<string, AgentEntry> = {
   "career-ticket-tenshoku": { name: "キャリアチケット転職(転職エージェント)", official: "https://tenshoku.career-ticket.jp/", ss: "/agent-ss/ss-career-ticket-tenshoku.jpg" },
   "caricon": { name: "キャリコン", official: "https://careecon.online/", ss: "/agent-ss/ss-caricon.jpg" },
   "daini-agent-neo": { name: "第二新卒エージェントneo", official: "https://www.daini-agent.jp/", ss: "/agent-ss/ss-daini-agent-neo.jpg" },
-  "deaeru-agent": { name: "出会えるエージェント診断", official: "https://deaeru-agent.jp/", ss: "/agent-ss/ss-deaeru-agent.jpg" },
+  "deaeru-agent": { name: "出会えるエージェント", official: "https://deaeru-agent.jp/", ss: "/agent-ss/ss-deaeru-agent.jpg" },
   "digireka": { name: "デジレカ", official: "https://digireka.jp/", ss: "/agent-ss/ss-digireka.jpg" },
   "doctor-net": { name: "ドクターネットエージェント", official: "https://dn-agent.com/", ss: "/agent-ss/ss-doctor-net.jpg" },
   "doda": { name: "doda（デューダ）", official: "https://doda.jp/", ss: "/agent-ss/ss-doda.jpg" },

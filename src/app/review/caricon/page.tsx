@@ -134,7 +134,7 @@ export default function Page() {
               マイナビジョブ20'sの詳細
             </Link>
             <Link href="/review/deaeru-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              出会えるエージェント診断の詳細
+              出会えるエージェントの詳細
             </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ

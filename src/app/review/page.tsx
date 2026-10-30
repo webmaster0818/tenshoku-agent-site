@@ -55,7 +55,7 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
       { href: "/review/daini-agent-neo/", name: "第二新卒エージェントneo", tag: "学歴不問" },
       { href: "/review/rework/", name: "Re:WORKエージェント", tag: "未経験専門" },
       { href: "/review/caricon/", name: "キャリコン", tag: "エージェント紹介" },
-      { href: "/review/deaeru-agent/", name: "出会えるエージェント診断", tag: "診断型" },
+      { href: "/review/deaeru-agent/", name: "出会えるエージェント", tag: "3社紹介型" },
       { href: "/review/career-ticket-tenshoku/", name: "キャリアチケット転職", tag: "20-30代・成長軸" },
     ],
   },
