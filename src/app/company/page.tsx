@@ -11,7 +11,8 @@ export const metadata: Metadata = {
 };
 
 // 年収は各企業ページ掲載の検証済み値（有価証券報告書=決算期付き/外資=参考値）。ページ側と必ず一致させること。
-const companies = [
+// scope: 平均年間給与の算定対象を雇用区分・役職で限っている会社のみ。各企業ページに記載した有価証券報告書の注記から転記（出向者の扱いだけの違いは対象外）。
+const companies: { slug: string; name: string; salary: string; tag: string; scope?: string }[] = [
   { slug: "nintendo", name: "任天堂", salary: "982万円（有価証券報告書）", tag: "ゲーム" },
   { slug: "sony", name: "ソニーグループ", salary: "1,155万円（有価証券報告書）", tag: "エレクトロニクス" },
   { slug: "toyota", name: "トヨタ自動車", salary: "1,006万円（有価証券報告書）", tag: "自動車" },
@@ -30,7 +31,7 @@ const companies = [
   { slug: "hitachi", name: "日立製作所", salary: "約995万円（有価証券報告書）", tag: "IT・電機" },
   { slug: "panasonic", name: "パナソニックHD", salary: "約988万円（有価証券報告書・持株単体）", tag: "電機" },
   { slug: "sharp", name: "シャープ", salary: "約782万円（有価証券報告書）", tag: "電機" },
-  { slug: "softbank", name: "ソフトバンク", salary: "約871万円（有価証券報告書）", tag: "通信" },
+  { slug: "softbank", name: "ソフトバンク", salary: "約871万円（有価証券報告書）", tag: "通信", scope: "休職者・休業者を除く" },
   { slug: "rakuten", name: "楽天グループ", salary: `${salaryMan("rakuten")}（有価証券報告書・12月期）`, tag: "IT" },
   { slug: "tis", name: "TIS", salary: "約829万円（有価証券報告書）", tag: "SIer" },
   { slug: "nssol", name: "日鉄ソリューションズ", salary: "約936万円（有価証券報告書）", tag: "SIer" },
@@ -104,25 +105,25 @@ const companies = [
   { slug: "komatsu", name: "コマツ（小松製作所）", salary: "約902万円（有価証券報告書）", tag: "建設機械" },
   { slug: "kubota", name: "クボタ", salary: "約860万円（有価証券報告書・12月期）", tag: "農業機械" },
   { slug: "olympus", name: "オリンパス", salary: "約1,005万円（有価証券報告書）", tag: "医療機器" },
-  { slug: "terumo", name: "テルモ", salary: "約821万円（有価証券報告書）", tag: "医療機器" },
+  { slug: "terumo", name: "テルモ", salary: "約821万円（有価証券報告書）", tag: "医療機器", scope: "正社員のみ" },
   { slug: "epson", name: "セイコーエプソン", salary: "約808万円（有価証券報告書）", tag: "精密機器" },
   { slug: "honda", name: "ホンダ(本田技研工業)", salary: "約932万円（有価証券報告書）", tag: "自動車" },
   { slug: "nissan", name: "日産自動車", salary: "約857万円（有価証券報告書）", tag: "自動車" },
   { slug: "suzuki", name: "スズキ", salary: "約827万円（有価証券報告書）", tag: "自動車" },
   { slug: "mazda", name: "マツダ", salary: "約711万円（有価証券報告書）", tag: "自動車" },
   { slug: "subaru", name: "SUBARU", salary: "約764万円（有価証券報告書）", tag: "自動車" },
-  { slug: "mitsubishi-heavy", name: "三菱重工業", salary: "約1,072万円（有価証券報告書）", tag: "重工" },
+  { slug: "mitsubishi-heavy", name: "三菱重工業", salary: "約1,072万円（有価証券報告書）", tag: "重工", scope: "執行役員・臨時従業員・社外からの出向者を除く" },
   { slug: "kawasaki-heavy", name: "川崎重工業", salary: "約910万円（有価証券報告書）", tag: "重工" },
   { slug: "ihi", name: "IHI", salary: "約1,000万円（有価証券報告書）", tag: "重工" },
   { slug: "mitsubishi-corp", name: "三菱商事", salary: "約2,112万円（有価証券報告書）", tag: "総合商社" },
   { slug: "mitsui-bussan", name: "三井物産", salary: "約2,058万円（有価証券報告書）", tag: "総合商社" },
-  { slug: "itochu", name: "伊藤忠商事", salary: "約1,991万円（有価証券報告書）", tag: "総合商社" },
+  { slug: "itochu", name: "伊藤忠商事", salary: "約1,991万円（有価証券報告書）", tag: "総合商社", scope: "休職者・定年後再雇用等の有期雇用従業員を除く" },
   { slug: "sumitomo-corp", name: "住友商事", salary: "約1,840万円（有価証券報告書）", tag: "総合商社" },
   { slug: "marubeni", name: "丸紅", salary: "約1,784万円（有価証券報告書）", tag: "総合商社" },
-  { slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円（有価証券報告書）", tag: "総合商社" },
+  { slug: "toyota-tsusho", name: "豊田通商", salary: "約1,421万円（有価証券報告書）", tag: "総合商社", scope: "海外現地社員を除く" },
   { slug: "sojitz", name: "双日", salary: "約1,257万円（有価証券報告書）", tag: "総合商社" },
   { slug: "kanematsu", name: "兼松", salary: "約1,201万円（有価証券報告書）", tag: "専門商社" },
-  { slug: "hanwa", name: "阪和興業", salary: "約997万円（有価証券報告書）", tag: "専門商社" },
+  { slug: "hanwa", name: "阪和興業", salary: "約997万円（有価証券報告書）", tag: "専門商社", scope: "正社員のみ（休職者・休業者等を除く）" },
   { slug: "shosen-mitsui", name: "商船三井", salary: "約1,659万円（有価証券報告書）", tag: "海運" },
   { slug: "nippon-yusen", name: "日本郵船", salary: "約1,554万円（有価証券報告書）", tag: "海運" },
   { slug: "kawasaki-kisen", name: "川崎汽船", salary: "約1,450万円（有価証券報告書）", tag: "海運" },
@@ -182,7 +183,7 @@ const companies = [
   { slug: "obayashi", name: "大林組", salary: "約1,239万円（有価証券報告書）", tag: "建設" },
   { slug: "taisei", name: "大成建設", salary: "約1,191万円（有価証券報告書）", tag: "建設" },
   { slug: "nishimatsu", name: "西松建設", salary: "約1,061万円（有価証券報告書）", tag: "建設" },
-  { slug: "shimizu", name: "清水建設", salary: "約1,043万円（有価証券報告書）", tag: "建設" },
+  { slug: "shimizu", name: "清水建設", salary: "約1,043万円（有価証券報告書）", tag: "建設", scope: "契約社員を除く" },
   { slug: "haseko", name: "長谷工コーポレーション", salary: "約1,039万円（有価証券報告書）", tag: "建設" },
   { slug: "toda", name: "戸田建設", salary: "約1,038万円（有価証券報告書）", tag: "建設" },
   { slug: "penta-ocean", name: "五洋建設", salary: "約935万円（有価証券報告書）", tag: "建設" },
@@ -192,10 +193,10 @@ const companies = [
   { slug: "kepco", name: "関西電力", salary: "約938万円（有価証券報告書）", tag: "電力・ガス" },
   { slug: "tepco", name: "東京電力HD", salary: "約882万円（有価証券報告書・持株単体）", tag: "電力・ガス" },
   { slug: "tohoku-electric", name: "東北電力", salary: "約872万円（有価証券報告書）", tag: "電力・ガス" },
-  { slug: "osaka-gas", name: "大阪ガス", salary: "約845万円（有価証券報告書）", tag: "電力・ガス" },
+  { slug: "osaka-gas", name: "大阪ガス", salary: "約845万円（有価証券報告書）", tag: "電力・ガス", scope: "管理職を除く" },
   { slug: "kyuden", name: "九州電力", salary: "約842万円（有価証券報告書）", tag: "電力・ガス" },
-  { slug: "tokyo-gas", name: "東京ガス", salary: "約784万円（有価証券報告書）", tag: "電力・ガス" },
-  { slug: "toho-gas", name: "東邦ガス", salary: "約733万円（有価証券報告書）", tag: "電力・ガス" },
+  { slug: "tokyo-gas", name: "東京ガス", salary: "約784万円（有価証券報告書）", tag: "電力・ガス", scope: "管理職を除く" },
+  { slug: "toho-gas", name: "東邦ガス", salary: "約733万円（有価証券報告書）", tag: "電力・ガス", scope: "管理職を除く" },
 ];
 
 export default function CompanyIndexPage() {
@@ -208,7 +209,7 @@ export default function CompanyIndexPage() {
             企業別 転職ガイド一覧
           </h1>
           <p className="text-text-secondary leading-relaxed text-sm">
-            「◯◯社への転職は難しいのか」という疑問に、公開一次資料にもとづいてお答えする企業データベースです。上場企業の平均年収は<strong>有価証券報告書の記載値（決算期明記・全社平均）</strong>に準拠し、日本の有価証券報告書が存在しない外資系企業は参考値であることを明記しています。転職難易度・中途採用の傾向・選考対策は各企業ページをご覧ください。
+            「◯◯社への転職は難しいのか」という疑問に、公開一次資料にもとづいてお答えする企業データベースです。上場企業の平均年収は<strong>有価証券報告書の記載値（決算期明記）</strong>に準拠し、日本の有価証券報告書が存在しない外資系企業は参考値であることを明記しています。転職難易度・中途採用の傾向・選考対策は各企業ページをご覧ください。
           </p>
         </div>
 
@@ -224,13 +225,16 @@ export default function CompanyIndexPage() {
                 <span className="text-xs text-text-secondary bg-warm-gray rounded-full px-2 py-0.5">{c.tag}</span>
               </div>
               <p className="text-sm text-text-secondary">平均年収: <span className="font-semibold">{c.salary}</span></p>
+              {c.scope && (
+                <p className="text-xs text-text-secondary mt-0.5">※算定範囲: {c.scope}</p>
+              )}
               <p className="text-xs text-text-secondary mt-1">転職難易度・中途採用・選考対策を見る →</p>
             </Link>
           ))}
         </div>
 
         <p className="text-xs text-text-secondary mb-10">
-          ※表中の「有価証券報告書」は、有価証券報告書に記載された平均年間給与（全社員平均であり、職種別の数値ではありません）を示します。決算期・注記は各ページに記載しています。外資系企業の年収は公開情報にもとづく参考値です。
+          ※表中の「有価証券報告書」は、各社の有価証券報告書に記載された提出会社の「平均年間給与」を示します。職種別の数値ではありません。算定範囲は会社ごとに異なり、一部の会社は管理職・臨時従業員・有期雇用従業員などを除いた値、または正社員のみの値を記載しています。該当する会社には「※算定範囲」を付記しています。決算期・注記の詳細は各企業ページに記載しています。外資系企業の年収は公開情報にもとづく参考値です。
         </p>
 
         <section className="bg-warm-gray rounded-2xl p-6">
