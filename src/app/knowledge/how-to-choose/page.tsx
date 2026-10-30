@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { DODA, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
+import { DODA, DODA_JOBS, MHLW, STATS_CONFIRMED_AT } from "@/data/stats";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/how-to-choose/" },
@@ -111,7 +111,7 @@ export default function HowToChoosePage() {
         <h2>転職エージェントを選ぶ7つのポイント</h2>
         <div className="space-y-5 mb-10">
           {[
-            { step: 1, title: "求人数の多さを確認する", desc: "求人数が多いエージェントほど、あなたの希望に合った求人が見つかる可能性が高まります。リクルートエージェント（公開約82万件）やdoda（非公開求人を含め318,235件）など（いずれも2026年10月17日時点の公式表示）、大手エージェントは多くの求人を保有しています。" },
+            { step: 1, title: "求人数の多さを確認する", desc: `求人数が多いエージェントほど、あなたの希望に合った求人が見つかる可能性が高まります。リクルートエージェント（公開約82万件・2026年10月17日時点）やdoda（非公開求人を含め${DODA_JOBS.count}・${DODA_JOBS.updatedAt}更新）など（いずれも公式表示）、大手エージェントは多くの求人を保有しています。` },
             { step: 2, title: "得意な業界・職種を確認する", desc: "エージェントによって得意分野が異なります。ITエンジニアならIT特化型、外資系ならJACリクルートメントなど、希望する業界に強いエージェントを選ぶことをおすすめします。" },
             { step: 3, title: "対応エリアを確認する", desc: "全国対応の大手エージェントは地方の求人も保有していますが、特定地域に強い地域密着型エージェントも存在します。希望する勤務地に合わせて選ぶことをおすすめします。" },
             { step: 4, title: "サポート内容を比較する", desc: "書類添削、面接対策、年収交渉など、基本的なサポートはほとんどのエージェントで受けられますが、その質や手厚さはエージェントによって異なります。各社が公表する年収アップ率は定義が異なるため、比較する際は分母と対象期間もご確認ください。" },

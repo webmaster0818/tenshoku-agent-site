@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { DODA_JOBS } from "@/data/stats";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -140,7 +141,7 @@ export default function UselessPage() {
             <tbody>
               {[
                 { name: "リクルートエージェント", count: "公開約82万件＋非公開約24万件", strength: "求人数No.1、全業界対応", target: "幅広く求人を見たい人" },
-                { name: "doda", count: "318,235件（非公開求人を含む）", strength: "サイト＋エージェント一体型", target: "自分でも求人を探したい人" },
+                { name: "doda", count: `${DODA_JOBS.count}（非公開求人を含む・${DODA_JOBS.updatedAt}更新）`, strength: "サイト＋エージェント一体型", target: "自分でも求人を探したい人" },
                 { name: "マイナビエージェント", count: "公式に件数の表示なし", strength: "20代・30代の初転職サポート", target: "初めての転職の人" },
                 { name: "ビズリーチ", count: "249,847件（求人検索の掲載件数）", strength: "スカウト型・ハイクラス特化", target: "年収600万以上の人" },
                 { name: "JACリクルートメント", count: "公式に件数の表示なし", strength: "外資系・管理職に強い", target: "キャリアアップを目指す人" },

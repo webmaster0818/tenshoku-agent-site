@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { DODA_JOBS } from "@/data/stats";
 import TopMotion from "@/components/TopMotion";
 
 export const metadata: Metadata = {
@@ -36,7 +37,7 @@ const agents = [
   {
     rank: 2,
     name: "doda（デューダ）",
-    jobs: "318,235件（非公開求人を含む・2026年10月17日時点）",
+    jobs: `${DODA_JOBS.count}（非公開求人を含む・${DODA_JOBS.updatedAt}更新の公式表示）`,
     strength: "全業界・ITに強い",
     age: "20代〜40代",
     feature: "転職サイトとエージェントの一体型サービスです。スカウト機能で企業から直接オファーが届きます。",
