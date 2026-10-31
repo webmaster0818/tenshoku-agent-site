@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DODA_JOBS } from "@/data/stats";
+import { DODA_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import TopMotion from "@/components/TopMotion";
 
 export const metadata: Metadata = {
@@ -22,7 +22,7 @@ const agents = [
   {
     rank: 1,
     name: "リクルートエージェント",
-    jobs: "公開約82万件＋非公開約24万件（2026年10月17日時点）",
+    jobs: `公開${RECRUIT_JOBS.publicCount}＋非公開${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点の公式表示）`,
     strength: "全業界・全職種",
     age: "全年代",
     feature: "業界最大級の求人数を保有しています。幅広い業界・職種をカバーし、転職支援実績も豊富です。",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RECRUIT_JOBS } from "@/data/stats";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const faqData = [
-  { q: "マイナビエージェントとリクルートエージェントはどちらが求人数が多いですか？", a: "求人数はリクルートエージェントが多く、公開求人約82万件・非公開求人約24万件を保有しています（2026年10月17日時点の公式表示）。マイナビエージェントは求人数では及びませんが、20代・第二新卒向けの求人と、一人ひとりへの手厚いサポートに強みがあります。" },
+  { q: "マイナビエージェントとリクルートエージェントはどちらが求人数が多いですか？", a: `求人数はリクルートエージェントが多く、公開求人${RECRUIT_JOBS.publicCount}・非公開求人${RECRUIT_JOBS.privateCount}を保有しています（${RECRUIT_JOBS.asOf}時点の公式表示）。マイナビエージェントは求人数では及びませんが、20代・第二新卒向けの求人と、一人ひとりへの手厚いサポートに強みがあります。` },
   { q: "20代・第二新卒はどちらがおすすめですか？", a: "20代・第二新卒で初めての転職なら、サポートが手厚いマイナビエージェントを軸に、求人数の多いリクルートエージェントを併用することをおすすめします。マイナビは20代の転職事情に精通したアドバイザーが在籍し、書類添削・面接対策も丁寧と評価されています。" },
   { q: "両方に登録しても問題ありませんか？", a: "問題ありません。求人数のリクルート、サポートのマイナビと強みが異なるため、併用することで求人の幅とサポートの質を両立できます。アドバイザーとの相性も比較できます。" },
   { q: "ハイクラス・管理職の転職ならどちらですか？", a: "どちらも対応していますが、より高年収・管理職を狙うならリクルートエージェント（求人数）に加え、ビズリーチやJACリクルートメントの併用も検討することをおすすめします。マイナビは20〜30代の若手〜中堅層に強い傾向があります。" },
@@ -30,8 +31,8 @@ const faqJsonLd = {
 
 const comparisonItems = [
   { item: "運営会社", mynavi: "株式会社マイナビ", recruit: "株式会社リクルート" },
-  { item: "公開求人数", mynavi: "非公開（中小〜大手まで幅広く保有）", recruit: "約82万件（2026年10月17日時点）" },
-  { item: "非公開求人", mynavi: "あり（豊富）", recruit: "約24万件（2026年10月17日時点）" },
+  { item: "公開求人数", mynavi: "非公開（中小〜大手まで幅広く保有）", recruit: `${RECRUIT_JOBS.publicCount}（${RECRUIT_JOBS.asOf}時点）` },
+  { item: "非公開求人", mynavi: "あり（豊富）", recruit: `${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点）` },
   { item: "得意な年代", mynavi: "20代・第二新卒・30代前半", recruit: "全年代" },
   { item: "強み", mynavi: "手厚いサポート・20代の転職支援", recruit: "求人数No.1・提案スピード" },
   { item: "対応エリア", mynavi: "全国（主要都市中心）", recruit: "全国＋海外" },

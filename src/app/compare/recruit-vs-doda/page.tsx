@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DODA_JOBS } from "@/data/stats";
+import { DODA_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const faqData = [
-  { q: "リクルートエージェントとdodaはどちらが求人数が多いですか？", a: `リクルートエージェントの方が求人数は多い傾向にあります。公開求人約82万件、非公開求人約24万件を保有しています（2026年10月17日時点の公式表示）。dodaも非公開求人を含めて${DODA_JOBS.count}の求人を掲載しており（${DODA_JOBS.updatedAt}更新の公式表示）、十分な求人数があります。` },
+  { q: "リクルートエージェントとdodaはどちらが求人数が多いですか？", a: `リクルートエージェントの方が求人数は多い傾向にあります。公開求人${RECRUIT_JOBS.publicCount}、非公開求人${RECRUIT_JOBS.privateCount}を保有しています（${RECRUIT_JOBS.asOf}時点の公式表示）。dodaも非公開求人を含めて${DODA_JOBS.count}の求人を掲載しており（${DODA_JOBS.updatedAt}更新の公式表示）、十分な求人数があります。` },
   { q: "両方に登録しても問題ありませんか？", a: "問題ありません。むしろ、両方に登録することで、より多くの求人にアクセスでき、異なるアドバイザーの視点からアドバイスを受けられるため、併用をおすすめします。" },
   { q: "初めての転職ならどちらがおすすめですか？", a: "初めての転職なら、求人数が最も多いリクルートエージェントを軸にしつつ、dodaも併用することをおすすめします。dodaは転職サイトとしても使えるため、自分でも求人を探せる利便性があります。" },
   { q: "IT業界への転職ならどちらがよいですか？", a: "どちらもIT業界の求人は豊富ですが、dodaはIT・Web業界の求人特集やイベントが充実しています。リクルートエージェントは総合的な求人数の多さで、選択肢を広げたい場合に有利です。" },
@@ -35,8 +35,8 @@ const faqJsonLd = {
 
 const comparisonItems = [
   { item: "運営会社", recruit: "株式会社リクルート", doda: "パーソルキャリア株式会社" },
-  { item: "求人数", recruit: "公開約82万件（2026年10月17日時点）", doda: `${DODA_JOBS.count}（非公開求人を含む・${DODA_JOBS.updatedAt}更新）` },
-  { item: "非公開求人数", recruit: "約24万件（2026年10月17日時点）", doda: "件数の内訳は非公表" },
+  { item: "求人数", recruit: `公開${RECRUIT_JOBS.publicCount}（${RECRUIT_JOBS.asOf}時点）`, doda: `${DODA_JOBS.count}（非公開求人を含む・${DODA_JOBS.updatedAt}更新）` },
+  { item: "非公開求人数", recruit: `${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点）`, doda: "件数の内訳は非公表" },
   { item: "対応エリア", recruit: "全国＋海外", doda: "全国＋海外" },
   { item: "対応年代", recruit: "全年代", doda: "全年代" },
   { item: "サービス形態", recruit: "エージェント特化", doda: "エージェント＋転職サイト一体型" },

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RECRUIT_JOBS } from "@/data/stats";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -65,7 +66,7 @@ export default function SecondNewGradPage() {
         <div className="space-y-4 mb-10">
           {[
             { rank: 1, name: "マイナビエージェント", href: "/review/mynavi/", desc: "20代・第二新卒の転職支援に特に力を入れています。初めての転職に寄り添うサポート体制が充実しており、書類添削や面接対策も丁寧です。20代の転職事情に精通したアドバイザーが在籍しています。" },
-            { rank: 2, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "公開求人約82万件、非公開求人約24万件（2026年10月17日時点の公式表示）と業界最大級の求人数を保有しています。第二新卒歓迎の求人も豊富で、幅広い選択肢から最適な求人を見つけられます。" },
+            { rank: 2, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: `公開求人${RECRUIT_JOBS.publicCount}、非公開求人${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点の公式表示）と業界最大級の求人数を保有しています。第二新卒歓迎の求人も豊富で、幅広い選択肢から最適な求人を見つけられます。` },
             { rank: 3, name: "doda", href: "/review/doda/", desc: "転職サイトとエージェントの両機能を持ち、自分のペースで転職活動を進められます。第二新卒向けの特集ページもあり、20代向け求人が充実しています。" },
             { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型の転職サービスで、登録しておくと企業やヘッドハンターから直接オファーが届きます。第二新卒でもスキルや経験次第では好条件のスカウトが届く可能性があります。" },
             { rank: 5, name: "JACリクルートメント", href: "/review/jac/", desc: "外資系・グローバル企業の転職に強みがあります。語学力を活かしたい第二新卒の方におすすめです。" },
