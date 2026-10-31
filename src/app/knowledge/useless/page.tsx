@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DODA_JOBS, RECRUIT_JOBS } from "@/data/stats";
+import { BIZREACH_JOBS, DODA_JOBS, JAC_JOBS, MYNAVI_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -142,9 +142,9 @@ export default function UselessPage() {
               {[
                 { name: "リクルートエージェント", count: `公開${RECRUIT_JOBS.publicCount}＋非公開${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点）`, strength: "求人数No.1、全業界対応", target: "幅広く求人を見たい人" },
                 { name: "doda", count: `${DODA_JOBS.count}（非公開求人を含む・${DODA_JOBS.updatedAt}更新）`, strength: "サイト＋エージェント一体型", target: "自分でも求人を探したい人" },
-                { name: "マイナビエージェント", count: "公式に件数の表示なし", strength: "20代・30代の初転職サポート", target: "初めての転職の人" },
-                { name: "ビズリーチ", count: "249,847件（求人検索の掲載件数）", strength: "スカウト型・ハイクラス特化", target: "年収600万以上の人" },
-                { name: "JACリクルートメント", count: "公式に件数の表示なし", strength: "外資系・管理職に強い", target: "キャリアアップを目指す人" },
+                { name: "マイナビエージェント", count: `公開${MYNAVI_JOBS.publicCount}（公式の公開求人検索の表示・${MYNAVI_JOBS.checkedAt}確認）`, strength: "20代・30代の初転職サポート", target: "初めての転職の人" },
+                { name: "ビズリーチ", count: `${BIZREACH_JOBS.count}（公式の求人検索の掲載件数・${BIZREACH_JOBS.checkedAt}確認）`, strength: "スカウト型・ハイクラス特化", target: "年収600万以上の人" },
+                { name: "JACリクルートメント", count: `${JAC_JOBS.count}（非公開求人を含む・${JAC_JOBS.asOf}時点）`, strength: "外資系・管理職に強い", target: "キャリアアップを目指す人" },
               ].map((agent, i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-warm-gray" : ""}>
                   <td className="p-3 font-bold text-navy">{agent.name}</td>
@@ -156,7 +156,7 @@ export default function UselessPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted -mt-8 mb-10">※求人数は各社公式サイトの表示です（2026年10月17日時点）。件数を表示していない社は「公式に件数の表示なし」としています。</p>
+        <p className="text-xs text-text-muted -mt-8 mb-10">※求人数は各社公式サイトの表示です。公式に集計時点の記載がある社はその時点を、記載がない社は当サイトの確認日を各行に記載しています。各社の集計方法は異なるため、件数の単純比較には向きません。</p>
 
         {/* 代替手段 */}
         <h2>それでも改善しない場合の代替手段</h2>

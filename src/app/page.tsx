@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DODA_JOBS, RECRUIT_JOBS } from "@/data/stats";
+import { BIZREACH_JOBS, DODA_JOBS, JAC_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import TopMotion from "@/components/TopMotion";
 
 export const metadata: Metadata = {
@@ -67,7 +67,7 @@ const agents = [
   {
     rank: 4,
     name: "ビズリーチ",
-    jobs: "249,847件（求人検索の掲載件数・2026年10月17日時点）",
+    jobs: `${BIZREACH_JOBS.count}（公式の求人検索の掲載件数・当サイトが${BIZREACH_JOBS.checkedAt}に確認）`,
     strength: "ハイクラス・管理職",
     age: "30代〜50代",
     feature: "年収600万円以上のハイクラス求人に特化しています。ヘッドハンターからスカウトが届くスカウト型のサービスです。",
@@ -82,7 +82,7 @@ const agents = [
   {
     rank: 5,
     name: "JACリクルートメント",
-    jobs: "公式に件数の表示なし",
+    jobs: `${JAC_JOBS.count}（非公開求人を含む・${JAC_JOBS.asOf}時点の公式表示）`,
     strength: "ハイクラス・外資系",
     age: "30代〜50代",
     feature: "ハイクラス・外資系転職に特化しています。コンサルタントの専門性と質が高いのが特徴です。",
