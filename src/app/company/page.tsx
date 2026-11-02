@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 // 年収は各企業ページ掲載の検証済み値（有価証券報告書=決算期付き/外資=参考値）。ページ側と必ず一致させること。
-// scope: 平均年間給与の算定対象を雇用区分・役職で限っている会社のみ。各企業ページに記載した有価証券報告書の注記から転記（出向者の扱いだけの違いは対象外）。
+// scope: 平均年間給与の算定対象を雇用区分・役職・出向者の扱いで限っている会社。各企業ページに記載した有価証券報告書の注記から転記（出向者の扱いは2026-11-02 mi26rock判断で追加・EDINET原本で同日確認）。
 const companies: { slug: string; name: string; salary: string; tag: string; scope?: string }[] = [
   { slug: "nintendo", name: "任天堂", salary: "982万円（有価証券報告書）", tag: "ゲーム" },
   { slug: "sony", name: "ソニーグループ", salary: "1,155万円（有価証券報告書）", tag: "エレクトロニクス" },
@@ -29,7 +29,7 @@ const companies: { slug: string; name: string; salary: string; tag: string; scop
   { slug: "sakura-internet", name: "さくらインターネット", salary: "約741万円（有価証券報告書）", tag: "クラウド" },
   { slug: "nec", name: "NEC", salary: `${salaryMan("nec")}（有価証券報告書）`, tag: "IT・電機" },
   { slug: "hitachi", name: "日立製作所", salary: "約995万円（有価証券報告書）", tag: "IT・電機" },
-  { slug: "panasonic", name: "パナソニックHD", salary: "約988万円（有価証券報告書・持株単体）", tag: "電機" },
+  { slug: "panasonic", name: "パナソニックHD", salary: "約988万円（有価証券報告書・持株単体）", tag: "電機", scope: "他社から当社への出向者を除く" },
   { slug: "sharp", name: "シャープ", salary: "約782万円（有価証券報告書）", tag: "電機" },
   { slug: "softbank", name: "ソフトバンク", salary: "約871万円（有価証券報告書）", tag: "通信", scope: "休職者・休業者を除く" },
   { slug: "rakuten", name: "楽天グループ", salary: `${salaryMan("rakuten")}（有価証券報告書・12月期）`, tag: "IT" },
@@ -124,12 +124,12 @@ const companies: { slug: string; name: string; salary: string; tag: string; scop
   { slug: "sojitz", name: "双日", salary: "約1,257万円（有価証券報告書）", tag: "総合商社" },
   { slug: "kanematsu", name: "兼松", salary: "約1,201万円（有価証券報告書）", tag: "専門商社" },
   { slug: "hanwa", name: "阪和興業", salary: "約997万円（有価証券報告書）", tag: "専門商社", scope: "正社員のみ（休職者・休業者等を除く）" },
-  { slug: "shosen-mitsui", name: "商船三井", salary: "約1,659万円（有価証券報告書）", tag: "海運" },
-  { slug: "nippon-yusen", name: "日本郵船", salary: "約1,554万円（有価証券報告書）", tag: "海運" },
+  { slug: "shosen-mitsui", name: "商船三井", salary: "約1,659万円（有価証券報告書）", tag: "海運", scope: "社外から当社への出向者を除く" },
+  { slug: "nippon-yusen", name: "日本郵船", salary: "約1,554万円（有価証券報告書）", tag: "海運", scope: "他社から当社への出向者を含まない" },
   { slug: "kawasaki-kisen", name: "川崎汽船", salary: "約1,450万円（有価証券報告書）", tag: "海運" },
   { slug: "iino-kaiun", name: "飯野海運", salary: "約1,285万円（有価証券報告書）", tag: "海運" },
   { slug: "nsunited", name: "NSユナイテッド海運", salary: "約1,196万円（有価証券報告書）", tag: "海運" },
-  { slug: "jal", name: "日本航空(JAL)", salary: "約1,011万円（有価証券報告書）", tag: "空運" },
+  { slug: "jal", name: "日本航空(JAL)", salary: "約1,011万円（有価証券報告書）", tag: "空運", scope: "他社への出向者の給与を除く" },
   { slug: "ana-hd", name: "ANAホールディングス", salary: "約770万円（有価証券報告書・持株単体）", tag: "空運" },
   { slug: "starflyer", name: "スターフライヤー", salary: "約696万円（有価証券報告書）", tag: "空運" },
   { slug: "skymark", name: "スカイマーク", salary: "約593万円（有価証券報告書）", tag: "空運" },
@@ -169,7 +169,7 @@ const companies: { slug: string; name: string; salary: string; tag: string; scop
   { slug: "tokyo-metro", name: "東京メトロ", salary: "約836万円（有価証券報告書）", tag: "鉄道" },
   { slug: "odakyu", name: "小田急電鉄", salary: "約827万円（有価証券報告書）", tag: "鉄道" },
   { slug: "kintetsu-ghd", name: "近鉄グループHD", salary: "約822万円（有価証券報告書・持株単体）", tag: "鉄道" },
-  { slug: "jr-east", name: "JR東日本", salary: "約819万円（有価証券報告書）", tag: "鉄道" },
+  { slug: "jr-east", name: "JR東日本", salary: "約819万円（有価証券報告書）", tag: "鉄道", scope: "他社からの出向者を除く" },
   { slug: "jr-west", name: "JR西日本", salary: "約727万円（有価証券報告書）", tag: "鉄道" },
   { slug: "mitsubishi-chemical", name: "三菱ケミカルグループ", salary: "約1,188万円（有価証券報告書・持株単体）", tag: "化学" },
   { slug: "resonac", name: "レゾナックHD", salary: "約1,131万円（有価証券報告書・持株単体）", tag: "化学" },
@@ -234,7 +234,7 @@ export default function CompanyIndexPage() {
         </div>
 
         <p className="text-xs text-text-secondary mb-10">
-          ※表中の「有価証券報告書」は、各社の有価証券報告書に記載された提出会社の「平均年間給与」を示します。職種別の数値ではありません。算定範囲は会社ごとに異なり、一部の会社は管理職・臨時従業員・有期雇用従業員などを除いた値、または正社員のみの値を記載しています。該当する会社には「※算定範囲」を付記しています。決算期・注記の詳細は各企業ページに記載しています。外資系企業の年収は公開情報にもとづく参考値です。
+          ※表中の「有価証券報告書」は、各社の有価証券報告書に記載された提出会社の「平均年間給与」を示します。職種別の数値ではありません。算定範囲は会社ごとに異なり、一部の会社は管理職・臨時従業員・有期雇用従業員・出向者などを除いた値、または正社員のみの値を記載しています。該当する会社には「※算定範囲」を付記しています。決算期・注記の詳細は各企業ページに記載しています。外資系企業の年収は公開情報にもとづく参考値です。
         </p>
 
         <section className="bg-warm-gray rounded-2xl p-6">
