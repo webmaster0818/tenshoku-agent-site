@@ -56,6 +56,16 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+        {/* TOP以外のページにも TOP と同じ系統の動きを入れる（2026-11-03 施主指示「トップ同様に他のレビューページを含めてアニメーションを」）。
+            html[data-tl] で TOP と同じスクロール出現（大きめの移動量・長めの減速）、html[data-tl-page] で
+            1画面目の見出しのせり上がりと h2 の左からの描き出しを効かせる。TOP は page.tsx の script が担当するので除外。
+            reduce の環境・JSが動かない環境では何も付かず、全文がそのまま見える。 */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(location.pathname!=='/'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){var d=document.documentElement;window.__tlT0=performance.now();window.__tlPage=1;d.setAttribute('data-tl','1');d.setAttribute('data-tl-page','1')}}catch(e){}",
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col bg-white text-text-primary">
         <div style={{ background: "rgba(0,0,0,0.04)", borderBottom: "1px solid rgba(0,0,0,0.06)" }}>

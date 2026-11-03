@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 
 /**
  * スクロールに合わせた動き（2026-10-07）
@@ -17,6 +17,20 @@ import { useEffect } from 'react';
  *  - transform と opacity しか触らないのでレイアウトは動かない
  */
 export default function ScrollMotion() {
+  // TOP以外のページの動き（2026-11-03）。layout.tsx の script が <html> に data-tl / data-tl-page を付けるが、
+  // ハイドレーション不一致（React #418）でクライアント再描画が起きると属性が消える。
+  // TopMotion.tsx と同じく、消えていた場合だけ描画前に戻し、経過時間ぶん --tl-shift でアニメを先送りする。
+  useLayoutEffect(() => {
+    const w = window as unknown as { __tlT0?: number; __tlPage?: number };
+    if (!w.__tlPage || typeof w.__tlT0 !== 'number') return;
+    const d = document.documentElement;
+    if (d.hasAttribute('data-tl-page')) return;
+    d.setAttribute('data-tl', '1');
+    d.setAttribute('data-tl-page', '1');
+    const elapsed = Math.max(0, (performance.now() - w.__tlT0) / 1000);
+    d.style.setProperty('--tl-shift', `${elapsed.toFixed(3)}s`);
+  }, []);
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -51,6 +65,13 @@ export default function ScrollMotion() {
     main.querySelectorAll('.card, .card-hover, table, pre, details').forEach((el) => {
       // 入れ子の二重指定を避ける
       if (!el.closest('[data-rv-item]')) blocks.push(el);
+    });
+    // 2画面目以降の画像（公式サイトのスクリーンショット等）も出す（2026-11-03）。
+    // 1画面目にある画像は対象にしない（読み込み直後に一度見えてから消えるちらつきになるため）。
+    main.querySelectorAll('img').forEach((el) => {
+      if (el.closest('.card, .card-hover, table, details, [data-rv-item]')) return;
+      if (el.getBoundingClientRect().top < window.innerHeight) return;
+      blocks.push(el);
     });
 
     // 並んでいるものは少しずつ遅らせる

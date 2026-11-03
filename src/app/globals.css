@@ -490,3 +490,31 @@ h1, h2, h3, h4,
                 transform 0.9s var(--tl-ease) calc(var(--rv-delay, 0ms) * 1.6);
   }
 }
+
+/* ==========================================================================
+   TOP以外のページの動き（2026-11-03 施主指示「トップ同様に他のレビューページを含めてアニメーションを」）
+   - html[data-tl-page] は layout.tsx のインラインscriptが TOP 以外で付ける（reduce では付けない）。
+   - スクロール出現の距離・時間は上の html[data-tl] の指定（TOP と共通）がそのまま効く。
+   - 1画面目: 見出し(h1)と直後の文章が、TOP のヒーローと同じイージングでせり上がる。
+   - h2: 画面に入ったとき（ScrollMotion が data-rv="in" を付けたとき）に左から描き出す。
+   - 動かすのは transform / opacity / clip-path だけ（レイアウトは動かない）。
+   ========================================================================== */
+@media (prefers-reduced-motion: no-preference) {
+  html[data-tl-page] main h1 {
+    animation: tl-page-up 1s var(--tl-ease) calc(var(--tl-base) + 0.05s) both;
+  }
+  html[data-tl-page] main h1 ~ p {
+    animation: tl-page-up 1s var(--tl-ease) calc(var(--tl-base) + 0.2s) both;
+  }
+  html[data-tl-page] main h2[data-rv="in"] {
+    animation: tl-page-wipe 0.9s var(--tl-ease) 0.1s both;
+  }
+  @keyframes tl-page-up {
+    from { opacity: 0; transform: translate3d(0, 32px, 0); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes tl-page-wipe {
+    from { clip-path: inset(0 100% 0 0); }
+    to { clip-path: inset(0 0 0 0); }
+  }
+}
