@@ -17,9 +17,11 @@ export default function AutoToc() {
       if (document.getElementById("auto-toc")) return;
       const main = document.querySelector("main");
       if (!main) return;
+      // カードの格子(.grid)の中の h2 は、記事の章ではなくカードの見出し(企業名など)なので目次に入れない。
+      // 入れていた頃は /company/ で、1枚目のカードの中に企業名100件超の目次が差し込まれていた(2026-11-03 施主指摘)。
       const heads = Array.from(main.querySelectorAll("h2")).filter((h) => {
         const t = (h.textContent || "").trim();
-        return t.length > 0 && t.length < 60;
+        return t.length > 0 && t.length < 60 && !h.closest(".grid");
       });
       if (heads.length < 3) return;
 
