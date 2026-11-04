@@ -298,7 +298,7 @@ export default function BizreachReview() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
-              <li>社会人経験が浅い第二新卒・20代の人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
+              <li>社会人経験が浅い第二新卒・20代の人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビ転職エージェント</Link></li>
               <li>求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
               <li>外資・年収アップで手厚い伴走を求める人 →<Link href="/review/jac/" className="text-teal underline">JACリクルートメント</Link></li>
               <li>手厚いサポートを受けながら進めたい人（総合型エージェントが向きます）</li>

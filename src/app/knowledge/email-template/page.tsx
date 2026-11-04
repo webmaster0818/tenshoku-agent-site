@@ -318,7 +318,7 @@ export default function EmailTemplatePage() {
           </p>
           <ul className="space-y-2 text-sm text-text-secondary">
             <li><span className="font-bold text-navy">doda：</span>LINEでの連絡に対応しています。求人紹介の通知もLINEで受け取れます。</li>
-            <li><span className="font-bold text-navy">マイナビエージェント：</span>LINEでの面談日程調整や相談が可能です。</li>
+            <li><span className="font-bold text-navy">マイナビ転職エージェント：</span>LINEでの面談日程調整や相談が可能です。</li>
             <li><span className="font-bold text-navy">リクルートエージェント：</span>専用アプリ「Personal Desktop」でメッセージのやり取りができます。</li>
           </ul>
         </div>
@@ -330,7 +330,7 @@ export default function EmailTemplatePage() {
             { name: "リクルートエージェント", href: "/review/recruit-agent/", feature: "求人数業界最大級・全業界対応" },
             { name: "ビズリーチ", href: "/review/bizreach/", feature: "ハイクラス・スカウト型" },
             { name: "doda", href: "/review/doda/", feature: "エージェント＋サイト一体型" },
-            { name: "マイナビエージェント", href: "/review/mynavi/", feature: "20代・30代の転職に強い" },
+            { name: "マイナビ転職エージェント", href: "/review/mynavi/", feature: "20代・30代の転職に強い" },
             { name: "JACリクルートメント", href: "/review/jac/", feature: "外資系・管理職に強い" },
           ].map((agent) => (
             <Link key={agent.name} href={agent.href} className="card-hover p-4 block no-underline">

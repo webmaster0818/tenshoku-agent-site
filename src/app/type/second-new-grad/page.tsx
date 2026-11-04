@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/type/second-new-grad/" },
   title: "第二新卒におすすめの転職エージェント5選｜20代特化の活用法を解説",
   description:
-    "第二新卒の転職に強い転職エージェントを厳選して紹介します。マイナビエージェント、リクルートエージェント、doda、ビズリーチ、JACリクルートメントの特徴と、20代が転職を成功させるための活用法を解説します。",
+    "第二新卒の転職に強い転職エージェントを厳選して紹介します。マイナビ転職エージェント、リクルートエージェント、doda、ビズリーチ、JACリクルートメントの特徴と、20代が転職を成功させるための活用法を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "第二新卒におすすめの転職エージェント5選｜20代特化の活用法を解説",
@@ -65,7 +65,7 @@ export default function SecondNewGradPage() {
         <h2>第二新卒におすすめの転職エージェントランキング</h2>
         <div className="space-y-4 mb-10">
           {[
-            { rank: 1, name: "マイナビエージェント", href: "/review/mynavi/", desc: "20代・第二新卒の転職支援に特に力を入れています。初めての転職に寄り添うサポート体制が充実しており、書類添削や面接対策も丁寧です。20代の転職事情に精通したアドバイザーが在籍しています。" },
+            { rank: 1, name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "20代・第二新卒の転職支援に特に力を入れています。初めての転職に寄り添うサポート体制が充実しており、書類添削や面接対策も丁寧です。20代の転職事情に精通したアドバイザーが在籍しています。" },
             { rank: 2, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: `公開求人${RECRUIT_JOBS.publicCount}、非公開求人${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点の公式表示）と業界最大級の求人数を保有しています。第二新卒歓迎の求人も豊富で、幅広い選択肢から最適な求人を見つけられます。` },
             { rank: 3, name: "doda", href: "/review/doda/", desc: "転職サイトとエージェントの両機能を持ち、自分のペースで転職活動を進められます。第二新卒向けの特集ページもあり、20代向け求人が充実しています。" },
             { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "スカウト型の転職サービスで、登録しておくと企業やヘッドハンターから直接オファーが届きます。第二新卒でもスキルや経験次第では好条件のスカウトが届く可能性があります。" },
@@ -124,7 +124,7 @@ export default function SecondNewGradPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/mynavi/" className="btn-accent px-8 py-3">
-              マイナビエージェントの詳細
+              マイナビ転職エージェントの詳細
             </Link>
             <Link href="/review/recruit-agent/" className="btn-primary px-8 py-3 bg-navy-light">
               リクルートエージェントの詳細

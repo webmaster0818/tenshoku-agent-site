@@ -36,7 +36,7 @@ const faqData = [
   },
   {
     q: "20代でもJACリクルートメントを利用できますか？",
-    a: "登録は可能ですが、JACリクルートメントは30代以上のミドル・ハイクラス層をメインターゲットとしています。20代で管理職経験や高い専門スキルをお持ちでない場合は、紹介求人が限られる可能性があります。20代・第二新卒の方は、マイナビエージェントなど若手に強いサービスの併用がおすすめです。",
+    a: "登録は可能ですが、JACリクルートメントは30代以上のミドル・ハイクラス層をメインターゲットとしています。20代で管理職経験や高い専門スキルをお持ちでない場合は、紹介求人が限られる可能性があります。20代・第二新卒の方は、マイナビ転職エージェントなど若手に強いサービスの併用がおすすめです。",
   },
   {
     q: "外資系企業の求人はどのくらいありますか？",
@@ -303,7 +303,7 @@ export default function JacReview() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
-              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
+              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビ転職エージェント</Link></li>
               <li>サイト・エージェント・スカウトを使い分けたい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link></li>
               <li>年収が高くない求人を中心に探したい人</li>
             </ul>

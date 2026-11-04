@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faqData = [
   { q: "女性が転職エージェントを選ぶポイントは？", a: "女性のキャリア相談に慣れたアドバイザーがいるか、時短勤務やフレックスなど柔軟な働き方の求人を扱っているか、産休・育休制度が充実した企業の求人があるかなどをご確認ください。総合型（求人数が多い）と特化型（業界・年代に強い）を1社ずつ併用すると、求人の取りこぼしを防げます。" },
-  { q: "女性向けの転職エージェントは1社だけで十分ですか？", a: "2〜3社の併用が一般的です。求人数が業界最大級のリクルートエージェントやdodaで選択肢を広げつつ、20代・第二新卒なら手厚いマイナビエージェント、管理職・ハイクラス志向ならビズリーチやJACリクルートメントを組み合わせると、ライフプランに合った求人を比較しやすくなります。" },
+  { q: "女性向けの転職エージェントは1社だけで十分ですか？", a: "2〜3社の併用が一般的です。求人数が業界最大級のリクルートエージェントやdodaで選択肢を広げつつ、20代・第二新卒なら手厚いマイナビ転職エージェント、管理職・ハイクラス志向ならビズリーチやJACリクルートメントを組み合わせると、ライフプランに合った求人を比較しやすくなります。" },
   { q: "育児中でも転職エージェントを利用できますか？", a: "はい、利用可能です。多くのエージェントがオンライン面談に対応しており、お子さんの都合に合わせて面談時間を調整できます。時短勤務やリモートワーク可能な求人も紹介してもらえます。面談時に「勤務時間」「通勤時間」「リモート可否」など譲れない条件を最初に伝えると、紹介の精度が上がります。" },
   { q: "女性の転職に有利な時期はありますか？", a: "一般的に求人数が増えるのは1〜3月と9〜11月です。ただし、女性の場合はライフイベントとの兼ね合いも重要なので、自分のタイミングで準備を始めることが大切です。在職中から登録して情報収集を始めておくと、良い求人が出たときに動きやすくなります。" },
   { q: "ブランクがあっても転職できますか？", a: "はい、可能です。育児や介護でのブランクがある方向けの支援を行うエージェントもあります。ブランク中に身につけたスキルや経験も立派なアピールポイントになります。職務経歴書の書き方やブランクの伝え方も、アドバイザーに相談して整理してもらえます。" },
@@ -68,7 +68,7 @@ export default function WomenPage() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>20代・第二新卒なら手厚い伴走の<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></strong>、幅広い求人から選びたいなら<Link href="/review/doda/" className="text-teal underline">doda</Link>・<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>が軸になります。</span>
+              <span><strong>20代・第二新卒なら手厚い伴走の<Link href="/review/mynavi/" className="text-teal underline">マイナビ転職エージェント</Link></strong>、幅広い求人から選びたいなら<Link href="/review/doda/" className="text-teal underline">doda</Link>・<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>が軸になります。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -89,7 +89,7 @@ export default function WomenPage() {
         <h2>女性の転職に強いエージェントランキング</h2>
         <div className="space-y-4 mb-10">
           {[
-            { rank: 1, name: "マイナビエージェント", href: "/review/mynavi/", desc: "女性の転職支援に力を入れており、女性向けの求人特集ページも用意されています。アドバイザーが丁寧にヒアリングし、ライフステージに合わせた求人を提案しています。" },
+            { rank: 1, name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "女性の転職支援に力を入れており、女性向けの求人特集ページも用意されています。アドバイザーが丁寧にヒアリングし、ライフステージに合わせた求人を提案しています。" },
             { rank: 2, name: "doda", href: "/review/doda/", desc: "女性の転職に関するコンテンツが充実しています。ワークライフバランスを重視した求人や、女性活躍推進企業の求人を多数保有しています。" },
             { rank: 3, name: "リクルートエージェント", href: "/review/recruit-agent/", desc: "求人数が業界最大級のため、時短勤務やフレックス制度のある企業、女性管理職ポジションなど、条件に合った求人を見つけやすい環境です。" },
             { rank: 4, name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス求人が中心で、管理職やスペシャリストとしてキャリアアップしたい女性におすすめです。企業から直接スカウトが届くため、市場価値の把握にも役立ちます。" },
@@ -184,7 +184,7 @@ export default function WomenPage() {
             { point: "総合型と特化型を組み合わせる", desc: "求人数が業界最大級の総合型（リクルートエージェント・doda）で選択肢を広げ、年代や領域に強い特化型を加えると、ライフプランに合う求人を見つけやすくなります。" },
             { point: "柔軟な働き方の求人を扱っているか", desc: "時短勤務・フレックス・リモートワーク可の求人をどれだけ保有しているかをご確認ください。面談時に譲れない勤務条件を具体的に伝えると、紹介の精度が上がります。" },
             { point: "女性のキャリア相談に慣れているか", desc: "育児・介護とのバランス、ブランクの伝え方、復職後のキャリアなど、女性特有の相談に対応できるアドバイザーかどうかが重要です。相性が合わなければ担当変更も申し出られます。" },
-            { point: "年代・志向に合うサービスを選ぶ", desc: "20代・第二新卒は手厚いマイナビエージェント、管理職・ハイクラス志向はビズリーチ・JACリクルートメントなど、自分のフェーズに合うサービスを軸にすることをおすすめします。" },
+            { point: "年代・志向に合うサービスを選ぶ", desc: "20代・第二新卒は手厚いマイナビ転職エージェント、管理職・ハイクラス志向はビズリーチ・JACリクルートメントなど、自分のフェーズに合うサービスを軸にすることをおすすめします。" },
           ].map((item, i) => (
             <div key={i} className="card-hover p-5">
               <p className="font-bold text-navy mb-1 text-sm">{item.point}</p>
@@ -215,7 +215,7 @@ export default function WomenPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/review/mynavi/" className="btn-accent px-8 py-3">
-              マイナビエージェントの詳細
+              マイナビ転職エージェントの詳細
             </Link>
             <Link href="/review/doda/" className="btn-primary px-8 py-3 bg-navy-light">
               dodaの詳細

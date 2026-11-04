@@ -92,7 +92,7 @@ export default function RecruitAgentReview() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>登録・利用は無料です</strong>。一体型の<Link href="/review/doda/" className="text-teal underline">doda</Link>や20代に強い<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link>と併用すると取りこぼしを減らせます。</span>
+              <span><strong>登録・利用は無料です</strong>。一体型の<Link href="/review/doda/" className="text-teal underline">doda</Link>や20代に強い<Link href="/review/mynavi/" className="text-teal underline">マイナビ転職エージェント</Link>と併用すると取りこぼしを減らせます。</span>
             </li>
           </ul>
         </div>
@@ -290,7 +290,7 @@ export default function RecruitAgentReview() {
               doda（デューダ）の詳細
             </Link>
             <Link href="/review/mynavi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              マイナビエージェントの詳細
+              マイナビ転職エージェントの詳細
             </Link>
             <Link href="/review/levtech/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               レバテックキャリアの詳細

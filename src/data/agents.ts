@@ -33,7 +33,7 @@ export const AGENTS: Record<string, AgentEntry> = {
   "levtech": { name: "レバテックキャリア", official: "https://career.levtech.jp/", ss: "/agent-ss/ss-levtech.jpg" },
   "lhh": { name: "LHH転職エージェント", official: "https://jp.lhh.com/", ss: "/agent-ss/ss-lhh.jpg" },
   "libz": { name: "LIBZ(リブズ)", official: "https://career.prismy.jp/", ss: "/agent-ss/ss-libz.jpg" },
-  "mynavi": { name: "マイナビエージェント", official: "https://mynavi-agent.jp/", ss: "/agent-ss/ss-mynavi.jpg" },
+  "mynavi": { name: "マイナビ転職エージェント", official: "https://mynavi-agent.jp/", ss: "/agent-ss/ss-mynavi.jpg" },
   "mynavi-creator": { name: "マイナビクリエイター", official: "https://mynavi-creator.jp/", ss: "/agent-ss/ss-mynavi-creator.jpg" },
   "mynavi-job20s": { name: "マイナビジョブ20's", official: "https://mynavi-job20s.jp/", ss: "/agent-ss/ss-mynavi-job20s.jpg" },
   "myvision": { name: "MyVision(マイビジョン)", official: "https://my-vision.co.jp/", ss: "/agent-ss/ss-myvision.jpg" },

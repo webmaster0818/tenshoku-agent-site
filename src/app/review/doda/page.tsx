@@ -351,7 +351,7 @@ export default function DodaReview() {
             <h3 className="font-bold text-navy mb-2">他サービスの方が合う人</h3>
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>求人数の網羅性を最優先する人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link></li>
-              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link></li>
+              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビ転職エージェント</Link></li>
               <li>年収800万円以上のハイクラス転職を狙う人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>など</li>
               <li>連絡量を最小限にしたい人（サイト型中心の利用がおすすめ）</li>
             </ul>
@@ -405,7 +405,7 @@ export default function DodaReview() {
               リクルートエージェントの詳細
             </Link>
             <Link href="/review/mynavi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              マイナビエージェントの詳細
+              マイナビ転職エージェントの詳細
             </Link>
             <Link href="/review/levtech/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               レバテックキャリアの詳細

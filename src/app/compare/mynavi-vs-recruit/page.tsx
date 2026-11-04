@@ -5,22 +5,22 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/mynavi-vs-recruit/" },
-  title: "マイナビエージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか",
+  title: "マイナビ転職エージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか",
   description:
-    "マイナビエージェントとリクルートエージェントを10項目で比較します。求人数・サポートの手厚さ・対応年代の違いを整理し、20代・第二新卒はどちらが向くか、併用すべきかを解説します。",
+    "マイナビ転職エージェントとリクルートエージェントを10項目で比較します。求人数・サポートの手厚さ・対応年代の違いを整理し、20代・第二新卒はどちらが向くか、併用すべきかを解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "マイナビエージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか",
+    title: "マイナビ転職エージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか",
     description: "マイナビとリクルートの違いを10項目で比較します。20代はどちらが向くか解説します。",
   },
 };
 
 const faqData = [
-  { q: "マイナビエージェントとリクルートエージェントはどちらが求人数が多いですか？", a: `求人数はリクルートエージェントが多く、公開求人${RECRUIT_JOBS.publicCount}・非公開求人${RECRUIT_JOBS.privateCount}を保有しています（${RECRUIT_JOBS.asOf}時点の公式表示）。マイナビエージェントは求人数では及びませんが、20代・第二新卒向けの求人と、一人ひとりへの手厚いサポートに強みがあります。` },
-  { q: "20代・第二新卒はどちらがおすすめですか？", a: "20代・第二新卒で初めての転職なら、サポートが手厚いマイナビエージェントを軸に、求人数の多いリクルートエージェントを併用することをおすすめします。マイナビは20代の転職事情に精通したアドバイザーが在籍し、書類添削・面接対策も丁寧と評価されています。" },
+  { q: "マイナビ転職エージェントとリクルートエージェントはどちらが求人数が多いですか？", a: `求人数はリクルートエージェントが多く、公開求人${RECRUIT_JOBS.publicCount}・非公開求人${RECRUIT_JOBS.privateCount}を保有しています（${RECRUIT_JOBS.asOf}時点の公式表示）。マイナビ転職エージェントは求人数では及びませんが、20代・第二新卒向けの求人と、一人ひとりへの手厚いサポートに強みがあります。` },
+  { q: "20代・第二新卒はどちらがおすすめですか？", a: "20代・第二新卒で初めての転職なら、サポートが手厚いマイナビ転職エージェントを軸に、求人数の多いリクルートエージェントを併用することをおすすめします。マイナビは20代の転職事情に精通したアドバイザーが在籍し、書類添削・面接対策も丁寧と評価されています。" },
   { q: "両方に登録しても問題ありませんか？", a: "問題ありません。求人数のリクルート、サポートのマイナビと強みが異なるため、併用することで求人の幅とサポートの質を両立できます。アドバイザーとの相性も比較できます。" },
   { q: "ハイクラス・管理職の転職ならどちらですか？", a: "どちらも対応していますが、より高年収・管理職を狙うならリクルートエージェント（求人数）に加え、ビズリーチやJACリクルートメントの併用も検討することをおすすめします。マイナビは20〜30代の若手〜中堅層に強い傾向があります。" },
-  { q: "サポートの手厚さに違いはありますか？", a: "マイナビエージェントは『サポートが丁寧』という評価が多く、初めての転職や20代に向いています。リクルートエージェントは求人提案のスピードと量に強みがあり、効率よく多くの選択肢を比較したい人に向いています。" },
+  { q: "サポートの手厚さに違いはありますか？", a: "マイナビ転職エージェントは『サポートが丁寧』という評価が多く、初めての転職や20代に向いています。リクルートエージェントは求人提案のスピードと量に強みがあり、効率よく多くの選択肢を比較したい人に向いています。" },
 ];
 
 const faqJsonLd = {
@@ -46,12 +46,12 @@ export default function MynaviVsRecruitPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "比較", href: "/" }, { name: "マイナビエージェント vs リクルートエージェント" }]} />
+      <Breadcrumb items={[{ name: "比較", href: "/" }, { name: "マイナビ転職エージェント vs リクルートエージェント" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            マイナビエージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか
+            マイナビ転職エージェント vs リクルートエージェント比較【2026年】20代はどちらが向くか
           </h1>
           <p className="text-text-secondary leading-relaxed">
             「サポートのマイナビ」と「求人数のリクルート」という、20代に人気の2つの転職エージェントを10項目で比較します。
@@ -65,7 +65,7 @@ export default function MynaviVsRecruitPage() {
             <thead>
               <tr className="bg-navy text-white">
                 <th className="p-3 text-left font-medium rounded-tl-lg">比較項目</th>
-                <th className="p-3 text-left font-medium">マイナビエージェント</th>
+                <th className="p-3 text-left font-medium">マイナビ転職エージェント</th>
                 <th className="p-3 text-left font-medium rounded-tr-lg">リクルートエージェント</th>
               </tr>
             </thead>
@@ -84,7 +84,7 @@ export default function MynaviVsRecruitPage() {
         <h2>使い分けガイド</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="bg-teal/5 rounded-2xl p-5 border border-teal/10">
-            <h3 className="font-bold text-teal mb-3">マイナビエージェントが向いている人</h3>
+            <h3 className="font-bold text-teal mb-3">マイナビ転職エージェントが向いている人</h3>
             <ul className="space-y-2">
               {["20代・第二新卒で初めて転職する", "手厚く丁寧なサポートを受けたい", "書類添削・面接対策をしっかりしたい", "じっくり相談しながら進めたい", "中小〜優良企業も視野に入れたい"].map((m, i) => (
                 <li key={i} className="text-sm text-text-secondary flex items-start gap-2"><span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>{m}</li>
@@ -112,9 +112,9 @@ export default function MynaviVsRecruitPage() {
             </thead>
             <tbody>
               {[
-                ["20代前半・社会人経験が浅い", "マイナビエージェント（手厚いサポート）"],
-                ["第二新卒・初めての転職", "マイナビエージェント"],
-                ["未経験職種に挑戦したい", "マイナビエージェント＋リクルート併用"],
+                ["20代前半・社会人経験が浅い", "マイナビ転職エージェント（手厚いサポート）"],
+                ["第二新卒・初めての転職", "マイナビ転職エージェント"],
+                ["未経験職種に挑戦したい", "マイナビ転職エージェント＋リクルート併用"],
                 ["求人数・選択肢をできるだけ増やしたい", "リクルートエージェント"],
                 ["30代以上・ハイクラスも視野", "リクルートエージェント（＋ビズリーチ/JAC）"],
                 ["地方・海外の求人も探したい", "リクルートエージェント"],
@@ -131,7 +131,7 @@ export default function MynaviVsRecruitPage() {
 
         <h2>20代におすすめの使い方：マイナビ軸＋リクルート併用</h2>
         <p>
-          マイナビエージェントは手厚いサポートで20代・第二新卒に、リクルートエージェントは求人数の多さを強みとし、全年代に対応しています。
+          マイナビ転職エージェントは手厚いサポートで20代・第二新卒に、リクルートエージェントは求人数の多さを強みとし、全年代に対応しています。
           20代なら、サポートの手厚いマイナビを軸にしつつ、求人数の多いリクルートを併用して選択肢を広げる方法が有効です。
           両方とも無料なので、まず登録してアドバイザーとの相性を比べることをおすすめします。
         </p>
@@ -150,7 +150,7 @@ export default function MynaviVsRecruitPage() {
           <h2 className="text-xl font-extrabold text-white mb-3 border-none pb-0 mt-0">無料登録による2社の比較について</h2>
           <p className="text-white/70 text-sm mb-6">2社とも無料で利用できます。登録してアドバイザーとの相性を比較することをおすすめします。</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/review/mynavi/" className="btn-accent px-8 py-3">マイナビエージェントの詳細</Link>
+            <Link href="/review/mynavi/" className="btn-accent px-8 py-3">マイナビ転職エージェントの詳細</Link>
             <Link href="/review/recruit-agent/" className="btn-primary px-8 py-3 bg-navy-light">リクルートエージェントの詳細</Link>
           </div>
         </div>

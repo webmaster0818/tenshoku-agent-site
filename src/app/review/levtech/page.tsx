@@ -310,7 +310,7 @@ export default function LevtechReview() {
               <li>未経験からIT転職を目指す人 →<Link href="/type/it-engineer/" className="text-teal underline">ITエンジニア向けの選び方</Link>も参考になります</li>
               <li>IT以外も含め幅広く比較したい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>が候補です</li>
               <li>自分でも求人を探しつつ支援も受けたい人 →<Link href="/review/doda/" className="text-teal underline">doda</Link>が候補です</li>
-              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビエージェント</Link>が候補です</li>
+              <li>20代・第二新卒で丁寧な伴走を求める人 →<Link href="/review/mynavi/" className="text-teal underline">マイナビ転職エージェント</Link>が候補です</li>
             </ul>
           </div>
         </div>

@@ -160,7 +160,7 @@ export default function MultiplePage() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">パターン2：20代・第二新卒の方</h3>
             <p className="text-sm text-text-secondary">
-              <strong>マイナビエージェント</strong>（20代の支援に強い）＋ <strong>リクルートエージェント</strong>（求人数の幅）の組み合わせです。
+              <strong>マイナビ転職エージェント</strong>（20代の支援に強い）＋ <strong>リクルートエージェント</strong>（求人数の幅）の組み合わせです。
               若手向けのサポートと豊富な選択肢を両立できます。
             </p>
           </div>
@@ -174,7 +174,7 @@ export default function MultiplePage() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">パターン4：バランス重視の方</h3>
             <p className="text-sm text-text-secondary">
-              <strong>リクルートエージェント</strong>＋ <strong>doda</strong>＋ <strong>マイナビエージェント</strong>の3社併用です。
+              <strong>リクルートエージェント</strong>＋ <strong>doda</strong>＋ <strong>マイナビ転職エージェント</strong>の3社併用です。
               大手3社の強みを組み合わせることで、求人の網羅性とサポートの質を最大化できます。
             </p>
           </div>

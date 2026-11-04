@@ -323,7 +323,7 @@ export default function TypeWomanReview() {
               dodaの詳細
             </Link>
             <Link href="/review/mynavi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              マイナビエージェントの詳細
+              マイナビ転職エージェントの詳細
             </Link>
             <Link href="/review/type-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               type転職エージェントの詳細

@@ -142,7 +142,7 @@ export default function UselessPage() {
               {[
                 { name: "リクルートエージェント", count: `公開${RECRUIT_JOBS.publicCount}＋非公開${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点）`, strength: "求人数No.1、全業界対応", target: "幅広く求人を見たい人" },
                 { name: "doda", count: `${DODA_JOBS.count}（非公開求人を含む・${DODA_JOBS.updatedAt}更新）`, strength: "サイト＋エージェント一体型", target: "自分でも求人を探したい人" },
-                { name: "マイナビエージェント", count: `公開${MYNAVI_JOBS.publicCount}（公式の公開求人検索の表示・${MYNAVI_JOBS.checkedAt}確認）`, strength: "20代・30代の初転職サポート", target: "初めての転職の人" },
+                { name: "マイナビ転職エージェント", count: `公開${MYNAVI_JOBS.publicCount}（公式の公開求人検索の表示・${MYNAVI_JOBS.checkedAt}確認）`, strength: "20代・30代の初転職サポート", target: "初めての転職の人" },
                 { name: "ビズリーチ", count: `${BIZREACH_JOBS.count}（公式の求人検索の掲載件数・${BIZREACH_JOBS.checkedAt}確認）`, strength: "スカウト型・ハイクラス特化", target: "年収600万以上の人" },
                 { name: "JACリクルートメント", count: `${JAC_JOBS.count}（非公開求人を含む・${JAC_JOBS.asOf}時点）`, strength: "外資系・管理職に強い", target: "キャリアアップを目指す人" },
               ].map((agent, i) => (
@@ -181,7 +181,7 @@ export default function UselessPage() {
             { name: "リクルートエージェント", href: "/review/recruit-agent/", feature: "求人数業界最大級・全業界対応" },
             { name: "ビズリーチ", href: "/review/bizreach/", feature: "ハイクラス・スカウト型" },
             { name: "doda", href: "/review/doda/", feature: "エージェント＋サイト一体型" },
-            { name: "マイナビエージェント", href: "/review/mynavi/", feature: "20代・30代の転職に強い" },
+            { name: "マイナビ転職エージェント", href: "/review/mynavi/", feature: "20代・30代の転職に強い" },
             { name: "JACリクルートメント", href: "/review/jac/", feature: "外資系・管理職に強い" },
           ].map((agent) => (
             <Link key={agent.name} href={agent.href} className="card-hover p-4 block no-underline">

@@ -4,7 +4,7 @@ const footerLinks = {
   '総合型エージェント': [
     { label: 'リクルートエージェント', href: '/review/recruit-agent/' },
     { label: 'doda（デューダ）', href: '/review/doda/' },
-    { label: 'マイナビエージェント', href: '/review/mynavi/' },
+    { label: 'マイナビ転職エージェント', href: '/review/mynavi/' },
     { label: 'ビズリーチ', href: '/review/bizreach/' },
     { label: 'JACリクルートメント', href: '/review/jac/' },
   ],

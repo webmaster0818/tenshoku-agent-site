@@ -15,7 +15,7 @@ const GROUPS: { title: string; items: { href: string; name: string; tag: string 
     items: [
       { href: "/review/recruit-agent/", name: "リクルートエージェント", tag: "求人数最大級" },
       { href: "/review/doda/", name: "doda", tag: "サイト一体型" },
-      { href: "/review/mynavi/", name: "マイナビエージェント", tag: "20-30代" },
+      { href: "/review/mynavi/", name: "マイナビ転職エージェント", tag: "20-30代" },
       { href: "/review/type-agent/", name: "type転職エージェント", tag: "首都圏・老舗" },
       { href: "/review/lhh/", name: "LHH転職エージェント", tag: "アデコ・外資系" },
       { href: "/review/bizreach/", name: "ビズリーチ", tag: "スカウト型" },

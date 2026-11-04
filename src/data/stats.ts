@@ -99,7 +99,7 @@ export const JAC_JOBS = {
 };
 
 /**
- * マイナビエージェントの公開求人数（公式の公開求人検索 https://mynavi-agent.jp/jobsearch/ の「現在の公開求人数」表示）。
+ * マイナビ転職エージェントの公開求人数（公式の公開求人検索 https://mynavi-agent.jp/jobsearch/ の「現在の公開求人数」表示）。
  * 公式に集計時点の記載は無いため、当サイトの確認日を併記する。更新時はここだけ直す。
  */
 export const MYNAVI_JOBS = {

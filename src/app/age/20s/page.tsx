@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/age/20s/" },
   title: "20代におすすめの転職エージェント｜第二新卒・若手向けランキング",
   description:
-    "20代・第二新卒におすすめの転職エージェントを厳選して紹介します。マイナビエージェント、doda、リクルートエージェントなど、若手に強いエージェントの特徴と選び方、選ぶ際の注意点を解説します。",
+    "20代・第二新卒におすすめの転職エージェントを厳選して紹介します。マイナビ転職エージェント、doda、リクルートエージェントなど、若手に強いエージェントの特徴と選び方、選ぶ際の注意点を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "20代におすすめの転職エージェント｜第二新卒・若手向けランキング",
@@ -67,7 +67,7 @@ export default function Age20sPage() {
           {[
             {
               rank: 1,
-              name: "マイナビエージェント",
+              name: "マイナビ転職エージェント",
               desc: "20代・第二新卒の転職支援に特に力を入れており、若手向けの求人が豊富です。初めての転職でも安心できる丁寧なサポートが特徴です。",
               href: "/review/mynavi/",
             },
@@ -173,7 +173,7 @@ export default function Age20sPage() {
               rel="noopener noreferrer nofollow"
               target="_blank"
             >
-              マイナビエージェントに無料登録
+              マイナビ転職エージェントに無料登録
             </a>
           </div>
         </div>

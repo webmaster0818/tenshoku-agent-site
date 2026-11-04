@@ -66,7 +66,7 @@ export default function FreelancePage() {
             { rank: 2, name: "ビズリーチ", href: "/review/bizreach/", desc: "ハイクラス求人に特化したスカウト型サービスです。フリーランスとしての専門スキルを評価した企業から直接スカウトが届くため、好条件での転職が期待できます。" },
             { rank: 3, name: "JACリクルートメント", href: "/review/jac/", desc: "管理職や専門職の転職に強く、フリーランスで培った専門性を活かしたポジションの提案が得意です。外資系企業への転職にも対応しています。" },
             { rank: 4, name: "doda", href: "/review/doda/", desc: "エージェントとサイトの両機能があり、自分でも求人を探せます。フリーランスから正社員への転職に関するコンテンツも参考になります。" },
-            { rank: 5, name: "マイナビエージェント", href: "/review/mynavi/", desc: "IT・Webクリエイター向けの求人に力を入れており、フリーランスのITエンジニアやデザイナーが正社員に戻る際に活用できます。" },
+            { rank: 5, name: "マイナビ転職エージェント", href: "/review/mynavi/", desc: "IT・Webクリエイター向けの求人に力を入れており、フリーランスのITエンジニアやデザイナーが正社員に戻る際に活用できます。" },
           ].map((agent) => (
             <div key={agent.rank} className="card-hover p-5">
               <div className="flex items-center gap-3 mb-2">
