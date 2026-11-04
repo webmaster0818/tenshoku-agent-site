@@ -202,7 +202,7 @@ const companies: { slug: string; name: string; salary: string; tag: string; scop
 export default function CompanyIndexPage() {
   return (
     <>
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別 転職ガイド" }]} />
+      <Breadcrumb items={[{ name: "企業別 転職ガイド" }]} />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-10">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
