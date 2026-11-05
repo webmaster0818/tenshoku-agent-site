@@ -91,6 +91,16 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">求人検索とエージェント相談の併用</h3><p className="text-sm text-text-secondary leading-relaxed">自分で求人を探すことも、キャリア相談からエージェントに提案してもらうこともできる構成です。</p></div>
         </div>
 
+        <h2>第三者サイトでのファミキャリ!の評判</h2>
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のファミキャリ!のページでは、口コミは2件、総合評価は5点満点中4.5です(内訳は★5が1件、★4が1件)。</li>
+            <li>2件とも、担当者のサポートが丁寧だったという趣旨の内容です。1件は面接対策を、もう1件は初めての転職でも短期間で内定まで進められた点を挙げています。</li>
+            <li>件数が2件と少ないため、サービス全体の傾向を示すものではありません。また、同サイトは無料登録・面談後の口コミ投稿にギフトカードを付与する仕組みを設けています。</li>
+          </ul>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/career-famitsu" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「ファミキャリ！の評判・口コミ」</a>(2026年11月5日取得)。同ページにクリーク・アンド・リバー社がファミ通ドットコムの協力を得て運営するゲーム業界特化の転職サービスとして掲載されていることを確認しています。件数・評価は取得日時点の値で、口コミ本文は転載せず当サイトで傾向を要約しています。</p>
+
         <h2>ファミキャリ!が向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">
