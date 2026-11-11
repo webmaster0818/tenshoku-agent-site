@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "キャリアチケット転職(転職エージェント)の評判は？レバレジーズの20代向け転職支援を解説【2026年】",
+  title: "キャリアチケット転職(転職エージェント)の特徴と公式データ｜レバレジーズの20代向け転職支援を解説【2026年】",
   description: "キャリアチケット転職は、レバレジーズ株式会社が展開する20代・30代向けの転職支援サービスです。「成長したい！」を叶える仕事探しプラットフォームを掲げ、新卒向け「キャリアチケット就職」の転職版として運営されています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/career-ticket-tenshoku/" },
 };
@@ -44,13 +44,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "キャリアチケット転職の評判・特徴" },
+          { name: "キャリアチケット転職の特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            キャリアチケット転職(転職エージェント)の評判は？レバレジーズの20代向け転職支援を解説【2026年】
+            キャリアチケット転職(転職エージェント)の特徴と公式データ｜レバレジーズの20代向け転職支援を解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">キャリアチケット転職は、レバレジーズ株式会社が展開する20代・30代向けの転職支援サービスです。「成長したい！」を叶える仕事探しプラットフォームを掲げており、量より質の就活支援で知られる新卒向け「キャリアチケット就職」の系譜にある転職版サービスです。公式サイトで確認できる情報をもとに整理します。</p>
         </div>

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "キャリコンの評判は？20代専門の転職エージェント紹介サービスを解説【2026年】",
+  title: "キャリコンの特徴と公式データ｜20代専門の転職エージェント紹介サービスを解説【2026年】",
   description: "キャリコン(Crown_Cat株式会社運営)は、20代の転職者に合った転職エージェントを複数紹介する無料のエージェント紹介サービスです。自分に合うエージェント選びを支援する珍しい形態で、その仕組み・使い方を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/caricon/" },
 };
@@ -44,13 +44,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "キャリコンの評判・特徴" },
+          { name: "キャリコンの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            キャリコンの評判は？20代専門の転職エージェント紹介サービスを解説【2026年】
+            キャリコンの特徴と公式データ｜20代専門の転職エージェント紹介サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">キャリコンは、Crown_Cat株式会社が運営する20代専門の「転職エージェント紹介サービス」です。求人を直接紹介するのではなく、20代の転職者一人ひとりに合った転職エージェントを無料で複数紹介するという、エージェント選びを支援する形態のサービスです。公式情報をもとに仕組みを整理します。</p>
         </div>

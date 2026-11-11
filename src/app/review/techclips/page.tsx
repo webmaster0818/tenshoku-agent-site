@@ -5,7 +5,7 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
-  title: "TechClipsエージェントの評判は？ITエンジニア専門の転職エージェントを解説【2026年】",
+  title: "TechClipsエージェントの特徴と公式データ｜ITエンジニア専門の転職エージェントを解説【2026年】",
   description: "TechClipsエージェント(notari株式会社運営)はITエンジニア専門の転職エージェントです。SIer/SESから自社サービス・ITコンサルタントへの転職実績を公式に掲げています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/techclips/" },
 };
@@ -45,13 +45,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "TechClipsエージェントの評判・特徴" },
+          { name: "TechClipsエージェントの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            TechClipsエージェントの評判は？ITエンジニア専門の転職エージェントを解説【2026年】
+            TechClipsエージェントの特徴と公式データ｜ITエンジニア専門の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">TechClipsエージェント(テッククリップスエージェント)は、notari株式会社が運営するITエンジニア専門の転職エージェントです。SIer/SESから自社サービス企業・ITコンサルタントへの転職実績を掲げ、20代〜40代まで年代別の転職ガイドを公式に用意しています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>

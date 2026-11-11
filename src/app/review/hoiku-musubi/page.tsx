@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "ほいくのむすびの評判は？保育士専門の転職支援サービスを解説【2026年】",
+  title: "ほいくのむすびの特徴と公式データ｜保育士専門の転職支援サービスを解説【2026年】",
   description: "ほいくのむすびは株式会社Nプランニングが運営する保育士専門の転職支援サービスです。非公開求人・採用情報が多数で、宿舎借り上げ制度対応求人や残業少なめ求人を掲載しています。有料職業紹介事業許可番号は13-ユ-316438です。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/hoiku-musubi/" },
 };
@@ -44,13 +44,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "ほいくのむすびの評判・特徴" },
+          { name: "ほいくのむすびの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ほいくのむすびの評判は？保育士専門の転職支援サービスを解説【2026年】
+            ほいくのむすびの特徴と公式データ｜保育士専門の転職支援サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">ほいくのむすびは、株式会社Nプランニングが運営する保育士専門の転職支援サービスです。非公開求人・採用情報が多数と掲げ、「職場の人間関係に疲れた」「行事の準備が大変」「ピアノが苦手」といった保育士特有の悩みを起点にした職場探しを支援します。公式サイトで確認できる情報をもとに整理します。</p>
         </div>

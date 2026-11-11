@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "退職代行ヤメドキの評判は？後払い対応の退職代行サービスを解説【2026年】",
+  title: "退職代行ヤメドキの特徴と公式データ｜後払い対応の退職代行サービスを解説【2026年】",
   description: "退職代行ヤメドキ(株式会社25H運営)は、後払いOK・24,000円(税込)・追加料金なしの退職代行サービスです。退職率100%と公式に表記されています(2024年3月〜2026年4月の3,972名対象)。仕組み・注意点を公式情報ベースで解説します。",
   alternates: { canonical: "/review/yamedoki/" },
 };
@@ -44,13 +44,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "退職代行ヤメドキの評判・特徴" },
+          { name: "退職代行ヤメドキの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            退職代行ヤメドキの評判は？後払い対応の退職代行サービスを解説【2026年】
+            退職代行ヤメドキの特徴と公式データ｜後払い対応の退職代行サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">退職代行ヤメドキは、株式会社25Hが運営する退職代行サービスです。料金24,000円(税込)のすべての費用込み・追加料金なしで、退職日決定後7日以内に支払う「後払いOK」方式を採用しています。転職の前段階である「辞められない」を解決するサービスとして、公式サイトで確認できる情報をもとに整理します。</p>
         </div>

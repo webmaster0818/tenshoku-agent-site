@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "わたしNEXTの評判は？女性専門の退職代行サービスを解説【2026年】",
+  title: "わたしNEXTの特徴と公式データ｜女性専門の退職代行サービスを解説【2026年】",
   description: "わたしNEXT(労働組合toNEXTユニオン運営)は女性専門の退職代行サービスです。料金はアルバイト・パート18,800円/正社員等29,800円(税込・公式掲載)です。労働組合運営のため交渉が可能で、女性退職代行サービス5冠(公式表記)を掲げています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/watashi-next/" },
 };
@@ -44,13 +44,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "わたしNEXTの評判・特徴" },
+          { name: "わたしNEXTの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            わたしNEXTの評判は？女性専門の退職代行サービスを解説【2026年】
+            わたしNEXTの特徴と公式データ｜女性専門の退職代行サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">わたしNEXT〈女性の退職代行〉は、労働組合toNEXTユニオンが運営する女性専門の退職代行サービスです。労働組合が運営するため会社との交渉(退職日・有給消化等の調整)が可能な形態で、「女性退職代行サービス5冠達成」を公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>

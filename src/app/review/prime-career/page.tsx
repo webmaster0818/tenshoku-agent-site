@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "プライムキャリアの評判は？不動産・設備・建設専門の転職支援サイトを解説【2026年】",
+  title: "プライムキャリアの特徴と公式データ｜不動産・設備・建設専門の転職支援サイトを解説【2026年】",
   description: "プライムキャリア(Prime Career)はジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイトです。売買仲介からPM・AM・FM・ビルメンテナンスまで、業界の職種を幅広く扱っています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/prime-career/" },
 };
@@ -44,13 +44,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "プライムキャリアの評判・特徴" },
+          { name: "プライムキャリアの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            プライムキャリアの評判は？不動産・設備・建設専門の転職支援サイトを解説【2026年】
+            プライムキャリアの特徴と公式データ｜不動産・設備・建設専門の転職支援サイトを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">プライムキャリア(Prime Career)は、ジャパニアス株式会社が運営する不動産・設備・建設専門の転職支援サイトです。仕入・開発から売買/賃貸仲介、PM(プロパティマネジメント)・AM・FM、マンション設備点検・ビルメンテナンスまで、不動産・建物管理領域の職種を細かく網羅しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
