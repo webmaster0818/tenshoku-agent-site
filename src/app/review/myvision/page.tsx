@@ -7,13 +7,13 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/myvision/" },
-  title: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
+  title: "MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】",
   description:
-    "MyVision(マイビジョン)の口コミ・評判を出典を明記して整理します。Google口コミ★4.8(公称)の内容、悪い評判(担当者差・求人のミスマッチ)、公表数値（年収UP額156万円・書類通過率83%など）の定義、NewMA・ASSIGNとの比較を掲載しています。",
+    "MyVision(マイビジョン)の評判・口コミを出典を明記して整理します。悪い評判(担当者差・求人のミスマッチ)の傾向、公式データページ(2026年8月時点)の年齢分布・年収帯別の年収アップ率・転職期間の中央値、利用規約で確認しておきたい点、NewMA・ASSIGNとの比較を掲載しています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
-    description: "MyVision(マイビジョン)の口コミ・評判を出典を明記して整理します。良い評判・悪い評判の傾向と公式データは2026年10月14日に確認しています。",
+    title: "MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】",
+    description: "MyVision(マイビジョン)の口コミ・評判を出典を明記して整理します。良い評判・悪い評判の傾向と公式データは2026年11月11日に確認しています。",
   },
 };
 
@@ -36,7 +36,7 @@ const faqData = [
   },
   {
     q: "どこの会社が運営していますか？",
-    a: "株式会社MyVision(2022年6月設立、東京都港区虎ノ門4-1-1 神谷町トラストタワー24階)が運営しています。有料職業紹介事業許可番号は13-ユ-314719、資本金1億円です。従業員数は同社の採用ページで423名(2026年10月現在)と掲載されています(2026年10月14日確認)。",
+    a: "株式会社MyVision(2022年6月設立、東京都港区虎ノ門4-1-1 神谷町トラストタワー24階)が運営しています。有料職業紹介事業許可番号は13-ユ-314719、資本金1億円です。従業員数は公式サイトの会社概要で446名と掲載されています(2026年11月11日確認。10月14日時点の採用ページでは423名)。",
   },
   {
     q: "MyVisionは「やばい」「断られる」という評判は本当ですか？",
@@ -47,6 +47,14 @@ const faqData = [
     a: "★4.8は公式サイトが「2025年9月16日時点」として掲げる公称値です。Googleの口コミは誰でも投稿でき、件数・時期で変動します。当サイトでは数値をそのまま評価に使わず、公式ページで紹介されている口コミの内容(良い点・悪い点)の傾向を要約して掲載しています。",
   },
   {
+    q: "MyVisionで転職すると年収は上がりますか？",
+    a: "公式データページ(2026年8月時点)では、2023〜2026年のコンサル入社者の約68%が年収アップしたと公表しています。現在の年収が400万円以下の方は96.1%が上がった一方、800万円台では39.4%で、年収が高い方ほど上がる割合は下がります。いずれも同社経由の転職者の統計で、個人の結果を保証するものではありません。",
+  },
+  {
+    q: "MyVisionを退会するにはどうすればよいですか？",
+    a: "利用規約・公式サイトには退会手続きの具体的な記載が見当たりませんでした(2026年11月11日確認)。利用規約第16条では、利用契約は登録が取り消された日まで続くと定めています。退会やメール配信の停止を希望する場合は、担当者または公式サイトのお問い合わせ窓口に申し出てください。",
+  },
+  {
     q: "「今は転職しない」という段階でも相談できますか？",
     a: "公式サイトでは「『今は転職しない』という選択肢も含めたキャリア提案」「中長期での支援を前提としたキャリアのパートナー」を掲げています(2026年8月16日確認)。情報収集段階の相談から始められる方針です。",
   },
@@ -55,8 +63,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】",
-  dateModified: "2026-10-21",
+  headline: "MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/myvision/" },
@@ -94,9 +102,9 @@ export default function MyvisionReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            MyVision(マイビジョン)の口コミ・評判は？良い点・悪い点とコンサル転職の実力【2026年10月】
+            MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月21日（公表数値の定義・第三者サイトの口コミ・コンサル特化3社の比較を追加）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月11日（公式データページの年齢分布・年収帯別の年収アップ率・転職期間、利用規約の確認点、従業員数を更新）</p>
           <p className="text-text-secondary leading-relaxed">
             MyVisionは、株式会社MyVisionが運営するコンサルティング業界特化の転職エージェントです。
             利用者の8割がコンサル業界未経験と公表しており、業界説明からケース面接対策までを未経験者前提で支援するのが特徴です。
@@ -145,7 +153,7 @@ export default function MyvisionReview() {
           ))}
         </div>
 
-        <h2>MyVisionの基本データ【2026年10月14日確認】</h2>
+        <h2>MyVisionの基本データ【2026年11月11日更新】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -153,7 +161,7 @@ export default function MyvisionReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社MyVision</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都港区虎ノ門4-1-1 神谷町トラストタワー24階</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役社長 山口 翔平／代表取締役CEO 岡﨑 健斗</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金・従業員</th><td className="px-3 py-2 border-b">資本金1億円・従業員423名(2026年10月現在・同社採用ページ)／設立2022年6月</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金・従業員</th><td className="px-3 py-2 border-b">資本金1億円・従業員446名(公式サイト会社概要、2026年11月11日確認)／設立2022年6月</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">13-ユ-314719</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象領域</th><td className="px-3 py-2 border-b">戦略コンサル／総合コンサル／ITコンサル／シンクタンク等のコンサルティングファーム</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／業界・個社説明／求人紹介／選考対策(ケース面接・Webテスト対策等)</td></tr>
@@ -161,7 +169,7 @@ export default function MyvisionReview() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイト(my-vision.co.jp)のトップページ・評判ページ、同社採用ページ(HRMOS)の会社情報、2026年10月14日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイト(my-vision.co.jp)のトップページ・評判ページ・会社概要(2026年11月11日確認)、同社採用ページ(HRMOS)の会社情報(2026年10月14日確認)。公式サイトではサービス名を「MyVisionコンサルティング」とも表記しています。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>MyVision(マイビジョン)の口コミ・評判（出典を明記した傾向）</h2>
         <p className="text-sm text-text-secondary mb-4">
@@ -242,6 +250,81 @@ export default function MyvisionReview() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイト トップページ（my-vision.co.jp）の表示と脚注、2026年10月21日確認。</p>
+
+        <h2>公式データページで分かること（2026年8月時点）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          MyVisionは公式サイトに「データで見るMyVisionコンサルティング」というページを設け、同社経由でコンサルティングファームに入社した方(入社予定を含む)の統計を公開しています。
+          検索上位の比較記事ではほとんど取り上げられていないため、当サイトで主な数値と脚注の定義を整理しました。いずれも同社が集計した値で、第三者の検証を受けたものではありません。
+        </p>
+        <h3 className="font-bold text-navy mb-2">どんな人がコンサルに転職しているか（2023〜2026年入社者）</h3>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">項目</th><th className="bg-gray-50 text-left px-3 py-2 border-b">公式の数値</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">年齢</td><td className="px-3 py-2 border-b">24歳以下3%／25〜29歳53%／30〜34歳32%／35〜39歳8%／40歳以上4%</td></tr>
+              <tr><td className="px-3 py-2 border-b">転職回数</td><td className="px-3 py-2 border-b">初めての転職58%／2回目27%／3回目10%／4回以上6%</td></tr>
+              <tr><td className="px-3 py-2 border-b">前職の職種</td><td className="px-3 py-2 border-b">IT・エンジニア35.3%／営業19.3%／企画・経営企画8.2%／管理(経理・人事)4.8%／マーケティング3.8%／公務員・教育3.1%／製造・技術1.6%／その他6.0%／コンサル経験者18.0%</td></tr>
+              <tr><td className="px-3 py-2 border-b">大手6社への入社割合</td><td className="px-3 py-2 border-b">36%（2026年入社者のうち、アクセンチュア・ベイカレント・デロイト・PwC・EY・KPMGへの入社）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 className="font-bold text-navy mb-2">現在の年収帯別の年収アップ率（2023〜2026年入社者）</h3>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">現在の年収</th><th className="bg-gray-50 text-left px-3 py-2 border-b">年収が上がった方の割合</th><th className="bg-gray-50 text-left px-3 py-2 border-b">上がった方の平均アップ額</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">400万円以下</td><td className="px-3 py-2 border-b">96.1%</td><td className="px-3 py-2 border-b">+135.8万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">400万円台</td><td className="px-3 py-2 border-b">89.4%</td><td className="px-3 py-2 border-b">+97.6万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">500万円台</td><td className="px-3 py-2 border-b">73.5%</td><td className="px-3 py-2 border-b">+126.7万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">600万円台</td><td className="px-3 py-2 border-b">59.4%</td><td className="px-3 py-2 border-b">+136.4万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">700万円台</td><td className="px-3 py-2 border-b">50.0%</td><td className="px-3 py-2 border-b">+125.7万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">800万円台</td><td className="px-3 py-2 border-b">39.4%</td><td className="px-3 py-2 border-b">+143.7万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">1,000万円以上</td><td className="px-3 py-2 border-b">41.2%</td><td className="px-3 py-2 border-b">+144.2万円</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 className="font-bold text-navy mb-2">転職にかかる期間（応募開始からの中央値）</h3>
+        <ul className="space-y-1 text-sm text-text-secondary list-disc pl-5 mb-4">
+          <li>応募から面接開始まで約15日、面接開始から内定まで約26日（内定まで約1.5か月）</li>
+          <li>応募から入社まで127日（約4か月）</li>
+          <li>初回面談から90日以内にコンサル企業の内定を得た方は75%、内定者のうち2社以上から内定を得た方は32%</li>
+          <li>入社後180日以上たった方のうち、離職していない方は98%（早期定着率）</li>
+        </ul>
+        <p className="text-sm text-text-secondary mb-4">
+          <strong>当サイトの見方：</strong>年収が上がった方の割合は、現在の年収が低いほど高く、800万円台では39.4%です。すでに年収が高い方は、コンサル転職で年収が下がる、または横ばいになる場合も多いことが公式の数値から読み取れます。
+          また、応募から入社まで中央値で約4か月かかるため、在職中に始める場合は退職時期から逆算して相談するとよいでしょう。
+        </p>
+        <p className="text-sm text-text-secondary mb-4">
+          なお、トップページの「平均年収UP額156万円」は2026年1月に内定を承諾した方、データページの「+141万円」は2026年入社者が対象で、どちらも年収が上がった方だけの平均です。
+          紹介可能なファームもトップページは「200社以上」、データページは「440社以上（関連企業を含む、2026年8月時点）」と、対象の範囲によって数値が異なります。比較記事でこれらの数値を見るときは、どちらの定義かを確認してください。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：MyVision公式「データで見るMyVisionコンサルティング」(my-vision.co.jp/data、2026年8月時点・入社予定を含む)、2026年11月11日に当サイトが確認。</p>
+
+        <h2>登録から入社までの流れと、利用規約で確認しておきたい点</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          公式サイトのトップページでは、支援の内容を「経験・強みの言語化 → コンサル市場での現在地の把握 → 求人の提案 → ケース面接を含む選考対策 → 企業との日程調整・選考の進行管理 → 条件交渉・現職の円満退社に向けた助言・入社後のフォロー」の6段階で説明しています。
+          あわせて、利用規約（2025年5月9日制定・2025年12月1日改定）には、登録前に知っておきたい次の定めがあります。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">条文</th><th className="bg-gray-50 text-left px-3 py-2 border-b">内容（当サイトの要約）</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b whitespace-nowrap">第3条</td><td className="px-3 py-2 border-b">同社や求人企業などの広告・宣伝のメールを送ることに、登録時点で同意したものとされます。</td></tr>
+              <tr><td className="px-3 py-2 border-b whitespace-nowrap">第6条</td><td className="px-3 py-2 border-b">応募した求人企業には登録情報が提供されます。応募前でも、本人の同意を得て企業に情報を提供する場合があります。オンラインのカウンセリング・面接対策は、品質向上のため録音・録画し、議事録を作成することがあります。</td></tr>
+              <tr><td className="px-3 py-2 border-b whitespace-nowrap">第16条</td><td className="px-3 py-2 border-b">利用契約は、登録が取り消された日かサービスが終了した日まで続きます。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-4">
+          退会(登録の取り消し)の具体的な手続きは、利用規約・公式サイトのいずれにも記載が見当たりませんでした（2026年11月11日確認）。利用をやめたい場合や、メールの配信を止めたい場合は、担当者または公式サイトのお問い合わせ窓口に申し出る形になります。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイトのトップページ、利用規約(my-vision.co.jp/terms)、2026年11月11日確認。</p>
 
         <h2>コンサル特化の転職エージェント3社の比較</h2>
         <div className="overflow-x-auto mb-4">

@@ -4,14 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "恵比寿不動産の口コミ・評判（採用・働き方）は？年収・残業・研修を公式情報で解説【2026年10月】",
+  title: "恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】",
   description:
-    "恵比寿不動産（株式会社ライフアドバンス）の口コミ・評判を採用・働き方の観点で整理しています。エン カイシャの評判（17人・スコア3.7・平均残業32時間）と、完全反響営業・みなし残業45時間分込みなど公式採用情報から注意点を解説します。",
+    "恵比寿不動産（株式会社ライフアドバンス）の評判・口コミを整理しています。公式サイトの「お客様の声」賃貸1,543件・売買55件・オーナー115件の満足度を当サイトで集計し、社員口コミ（エン カイシャの評判 17人・スコア3.7・平均残業32時間）と公式採用情報から注意点を解説します。",
   alternates: { canonical: "/company/ebisu-fudousan/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "恵比寿不動産の口コミ・評判（採用・働き方）は？年収・残業・研修を公式情報で解説【2026年10月】",
-    description: "恵比寿不動産の口コミ・評判を採用・働き方の観点で、公式情報をもとに整理しています。完全反響営業・みなし残業・休日・研修の内容を解説します。",
+    title: "恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】",
+    description: "恵比寿不動産の評判・口コミを、公式「お客様の声」の集計と採用・働き方の公式情報をもとに整理しています。",
   },
 };
 
@@ -19,6 +19,10 @@ const faqData = [
   {
     q: "恵比寿不動産は「やばい」「ブラック」という評判は本当ですか？",
     a: "社員口コミサイト「エン カイシャの評判」では、社員・元社員17人の回答による評判スコアが3.7、掲載口コミは5件で、社員同士の協力やコミュニケーションの活発さを評価する声がある一方、成果が出ない人は苦しむという指摘もあります（2026年10月14日確認）。件数が少ないため、これだけで判断するのは難しい状況です。公式採用ページでは、飛び込み営業なしの完全反響営業、残業月20時間以内、年間休日115日以上、育児休暇取得実績100%（2025年度）と記載される一方、月給にはみなし残業45時間分が含まれ、休日はローテーション制です。条件はカジュアル面談で職種ごとに確認することをおすすめします。",
+  },
+  {
+    q: "部屋探し・売買を依頼する不動産会社としての恵比寿不動産の評判はどうですか？",
+    a: "公式サイトには「お客様の声」賃貸1,543件・売買55件、「オーナー様の声」115件が掲載されています。当サイトが満足度の表示がある1,672件を数えたところ、★5が1,615件（約97%）、★4が55件、★3が2件で、★2以下はありませんでした（2026年11月11日確認）。ただし同社が運営するページで、掲載ページに掲載基準の記載もないため、第三者の評価ではありません。Googleマップなど第三者サイトの最新の投稿もあわせて確認してください。",
   },
   {
     q: "恵比寿不動産の残業は本当に月20時間以内ですか？",
@@ -53,8 +57,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "恵比寿不動産の口コミ・評判（採用・働き方）は？年収・残業・研修を公式情報で解説【2026年10月】",
-  dateModified: "2026-10-14",
+  headline: "恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/ebisu-fudousan/" },
@@ -76,13 +80,13 @@ export default function EbisuFudousanCareer() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
-      <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "恵比寿不動産の口コミ・評判（採用・働き方）" }]} />
+      <Breadcrumb items={[{ name: "企業別転職ガイド", href: "/company/" }, { name: "恵比寿不動産の評判・口コミ" }]} />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            恵比寿不動産の口コミ・評判（採用・働き方）は？年収・残業・研修を公式情報で解説【2026年10月】
+            恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】
           </h1>
-        <p className="text-xs text-text-muted mb-4">最終更新: 2026年10月14日（公式採用ページ・会社概要を再確認）</p>
+        <p className="text-xs text-text-muted mb-4">最終更新: 2026年11月11日（公式サイトの「お客様の声」全1,713件の満足度を集計して追加）</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             恵比寿不動産（運営：株式会社ライフアドバンス）は、恵比寿を拠点に都心8区の賃貸・売買仲介を手がける不動産会社です。
@@ -147,12 +151,29 @@ export default function EbisuFudousanCareer() {
           <div className="card-hover p-5">
             <h3 className="font-bold text-navy mb-2">顧客口コミ（不動産会社として）の確認状況</h3>
             <p className="text-sm text-text-secondary leading-relaxed">
-              公式サイトには「お客様の声」「売買の声」「オーナー様の声」のページがあり、トップページに「口コミ投稿」の導線があります（いずれも公式運営のため第三者評価ではありません）。
-              公式サイトのGoogle口コミ平均点などの公称値は、2026年10月14日の確認時点で見当たりませんでした。
-              第三者の評価はGoogleマップで店舗名を検索し、最新の投稿を中心に確認することをおすすめします。
+              公式サイトには「お客様の声（賃貸）」「お客様の声（売買）」「オーナー様の声」のページがあり、合計1,713件が掲載されています（2026年11月11日確認）。満足度の内訳は下の表のとおりです。
+              いずれも同社が運営するページのため、第三者評価ではありません。公式サイトのGoogle口コミ平均点などの公称値は、2026年11月11日の確認時点で見当たりませんでした。
             </p>
           </div>
         </div>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <caption className="text-left text-sm font-bold text-navy mb-2">公式サイト「お客様の声」の満足度（当サイト集計・2026年11月11日）</caption>
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">ページ</th><th className="bg-gray-50 text-left px-3 py-2 border-b">掲載件数</th><th className="bg-gray-50 text-left px-3 py-2 border-b">満足度の表示あり</th><th className="bg-gray-50 text-left px-3 py-2 border-b">★5</th><th className="bg-gray-50 text-left px-3 py-2 border-b">★4</th><th className="bg-gray-50 text-left px-3 py-2 border-b">★3</th><th className="bg-gray-50 text-left px-3 py-2 border-b">★2以下</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">お客様の声（賃貸）</td><td className="px-3 py-2 border-b">1,543件</td><td className="px-3 py-2 border-b">1,506件</td><td className="px-3 py-2 border-b">1,456件</td><td className="px-3 py-2 border-b">48件</td><td className="px-3 py-2 border-b">2件</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">お客様の声（売買）</td><td className="px-3 py-2 border-b">55件</td><td className="px-3 py-2 border-b">55件</td><td className="px-3 py-2 border-b">54件</td><td className="px-3 py-2 border-b">1件</td><td className="px-3 py-2 border-b">0件</td><td className="px-3 py-2 border-b">0件</td></tr>
+              <tr><td className="px-3 py-2 border-b">オーナー様の声（賃貸管理）</td><td className="px-3 py-2 border-b">115件</td><td className="px-3 py-2 border-b">111件</td><td className="px-3 py-2 border-b">105件</td><td className="px-3 py-2 border-b">6件</td><td className="px-3 py-2 border-b">0件</td><td className="px-3 py-2 border-b">0件</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-3">
+          <strong>当サイトの見方：</strong>満足度が表示されている1,672件のうち★5は1,615件（約97%）で、★2以下は1件もありませんでした。掲載されているのは同社のサイトに投稿・掲載された声で、多くの投稿には担当者からの返信が付いています。
+          掲載ページには掲載の基準が書かれていないため、この比率を「利用者全体の満足度」と読むことはできません。不動産会社としての評判を比べる場合は、Googleマップなど第三者のサイトの最新の投稿もあわせて確認することをおすすめします。
+        </p>
+        <p className="text-xs text-text-muted mb-6">出典：恵比寿不動産公式サイト「お客様の声・口コミ・評判」（/voice/）・「お客様の声（売買）」（/sales_voice/）・「オーナー様の声」（/owner_voice/）の全ページ、2026年11月11日に当サイトが星の数を数えて集計。件数は掲載ページの表示どおりです。</p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <caption className="text-left text-sm font-bold text-navy mb-2">エン カイシャの評判：項目別スコア（17人の回答）</caption>

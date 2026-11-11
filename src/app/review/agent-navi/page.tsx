@@ -6,22 +6,22 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/agent-navi/" },
-  title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
+  title: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】",
   description:
-    "転職AGENT Navi（転職エージェントナビ）の口コミ・評判を出典を明記して整理します。circus株式会社運営（許可番号13-ユ-317371）、2024年4月開始・300名以上のアドバイザーから相性の良い担当者を紹介する無料サービスの仕組み・注意点・上手な使い方を公式情報にもとづいて解説します。",
+    "転職エージェントナビ（転職AGENT Navi）の評判・口コミを出典つきで整理します。circus株式会社が2024年4月に始めた無料のマッチングサービスで、運営会社が公表するエージェントデータベース3,000名超・紹介履歴データの使い方、同名の別サービスとの見分け方、注意点を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
+    title: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】",
     description:
-      "転職AGENT Navi（転職エージェントナビ）の口コミ・評判の傾向と、仕組み・注意点を公式情報ベースで解説します。利用は無料です。",
+      "転職エージェントナビ（転職AGENT Navi）の評判・口コミの傾向と、仕組み・注意点を公式情報ベースで解説します。利用は無料です。",
   },
 };
 
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】",
-  dateModified: "2026-10-22",
+  headline: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/agent-navi/" },
@@ -104,16 +104,16 @@ export default function AgentNaviReview() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "転職AGENT Navi（転職エージェントナビ）の口コミ・評判" },
+          { name: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ" },
         ]}
       />
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            転職AGENT Navi（転職エージェントナビ）の口コミ・評判は？仕組みと注意点【2026年10月】
+            転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-2">最終更新: 2026年10月22日</p>
+          <p className="text-xs text-text-muted mb-2">最終更新: 2026年11月11日（運営会社が公表するマッチングの仕組み・同名の別サービスとの見分け方・従業員数を追加）</p>
           <p className="text-text-secondary leading-relaxed">
             転職AGENT Navi（転職エージェントナビ）は、circus株式会社が運営する「求職者と転職エージェントのマッチングサービス」です。
             自分で複数のエージェントに登録して比較する代わりに、面談を通じて300名以上のアドバイザーから相性の良い担当者を紹介してもらう仕組みで、
@@ -171,7 +171,7 @@ export default function AgentNaviReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">circus株式会社</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都中央区京橋1-13-1 WORK VILLA KYOBASHI 9F</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役 矢部 貴志</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2017年7月</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2017年7月（従業員130名・2026年6月1日時点、運営会社の会社概要）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金</th><td className="px-3 py-2 border-b">29,560,000円（資本準備金含む）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介許可番号</th><td className="px-3 py-2 border-b">13-ユ-317371（運営会社の会社概要に記載）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス開始</th><td className="px-3 py-2 border-b">2024年4月1日（運営会社のプレスリリースより）</td></tr>
@@ -253,6 +253,30 @@ export default function AgentNaviReview() {
           また、比較サイトに載っている口コミの多くは、調査主体や回答者数の詳細が書かれていない自社アンケートです。当サイトでは、投稿元と件数を確認できない口コミは傾向の根拠にしていません。
         </div>
         <p className="text-xs text-text-muted mb-8">出典：転職AGENT Navi公式LP（No.1表記の注記・FAQ・利用の流れ）、コエテコキャリア「転職エージェントナビ」ページ（利用者口コミの掲載なし）、運営会社プレスリリース（2025年2月27日・No.1の3部門／LINE友だち1万人突破）（いずれも2026年10月14日確認）。他社の比較記事に掲載された口コミは一次情報でないため出典にしていません。</p>
+
+        <h2>転職エージェントナビは何をもとに担当者を選ぶのか（運営会社の公表内容）</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          検索上位の比較記事では「300名以上のアドバイザーから紹介」という説明が中心ですが、運営会社circus株式会社のサービス紹介ページには、紹介の根拠となるデータについてもう少し詳しい記載があります（2026年11月11日確認）。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">項目</th><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社の記載</th><th className="bg-gray-50 text-left px-3 py-2 border-b">当サイトの読み方</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">運営会社の本業</td><td className="px-3 py-2 border-b">人事・人材業界向けSaaS／プラットフォームの開発・提供。主力の「circusAGENT」は、企業と人材紹介会社の取引をつなぐ人材紹介のBtoBプラットフォーム</td><td className="px-3 py-2 border-b">転職エージェントナビは、人材紹介会社向けの事業を持つ会社が、求職者向けに始めたサービスです。求人を自社で持たず、紹介先のエージェントが求人を提案する形になるのはこのためです。</td></tr>
+              <tr><td className="px-3 py-2 border-b">エージェントのデータベース</td><td className="px-3 py-2 border-b">3,000名を超えるエージェントデータベースを保有</td><td className="px-3 py-2 border-b">公式LPの「300名以上」は、紹介対象として案内しているアドバイザー数です。データベース全体(3,000名超)とは数え方が異なります。</td></tr>
+              <tr><td className="px-3 py-2 border-b">紹介の根拠</td><td className="px-3 py-2 border-b">「どのエージェントが、どのような求職者を、どの企業に紹介したか」という紹介履歴データが数十万件あり、紹介実績や評価データをもとにマッチングする</td><td className="px-3 py-2 border-b">担当者の選び方を、面談の印象だけでなく過去の紹介実績で行うと説明しています。ただし、評価データの中身や基準は公開されていません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">最初の面談</td><td className="px-3 py-2 border-b">コンシェルジュによる15分のオンライン面談のみ</td><td className="px-3 py-2 border-b">公式LP(15分程度)と同じです。プレスリリースでは15分〜30分程度とされています。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：circus株式会社 サービス紹介ページ（転職AGENT Navi／circusAGENT）・会社概要、2026年11月11日確認。</p>
+
+        <div className="rounded-xl border border-border p-4 mb-8 text-sm text-text-secondary">
+          <strong>同じ名前の別サービスに注意：</strong>「転職エージェントナビ」で検索すると、複数の転職エージェントを比較して一括登録するサイトとして説明し、運営会社をcircus株式会社以外の会社としている比較記事も表示されます（2026年11月11日確認）。
+          circus株式会社の転職AGENT Naviは、一括登録サイトではなく、LINEの面談を経て担当者を1人ずつ紹介する仕組みです。口コミや評判を読むときは、記事に書かれている運営会社名と仕組みが一致しているかを確認してください。
+        </div>
 
         <h2>評判を踏まえた転職AGENT Naviの上手な使い方</h2>
         <ol className="list-decimal pl-6 space-y-2 text-sm text-text-secondary mb-3">

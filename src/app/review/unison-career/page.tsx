@@ -6,12 +6,12 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/unison-career/" },
-  title: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
+  title: "ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】",
   description:
-    "ユニゾンキャリアの口コミ・評判を、コエテコキャリアの公開口コミの傾向と公式情報(Google口コミ4.8・470件公称、許可番号13-ユ-313348)から整理しています。IT・Web特化の特徴、デメリット、経験者/未経験の窓口を解説します。",
+    "ユニゾンキャリアの評判・口コミを、コエテコキャリアの公開口コミ17件の傾向と公式情報(Google口コミ4.8・470件公称、許可番号13-ユ-313348)から整理しています。SESを紹介されるのかという疑問、WebCMなど広告で見かけるようになった経緯、デメリット、経験者/未経験の窓口を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
+    title: "ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】",
     description:
       "ユニゾンキャリアの口コミ・評判の傾向と、運営会社・許可番号・利用の流れなどの公式情報を、経験者/未経験者別に整理しています。利用は無料です。",
   },
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】",
-  dateModified: "2026-10-24",
+  headline: "ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】",
+  dateModified: "2026-11-11",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/unison-career/" },
@@ -32,6 +32,10 @@ const faqData = [
   {
     q: "ユニゾンキャリアは「やばい」「怪しい」サービスではありませんか？",
     a: "運営は株式会社ユニゾン・テクノロジー(2021年1月6日設立、東京都渋谷区、従業員112名・アルバイト等含む)で、厚生労働大臣の有料職業紹介事業許可(13-ユ-313348)を受けて人材紹介を行っています(運営会社公式の会社概要、2026年10月14日確認)。口コミサイト「コエテコキャリア」上の口コミは17件(2026年10月14日確認)と公開口コミの件数が多くないため判断材料が見つけにくい面はありますが、許可を受けた正規の転職エージェントです。",
+  },
+  {
+    q: "ユニゾンキャリアではSES(客先常駐)の求人ばかり紹介されますか？",
+    a: "コエテコキャリアの口コミ17件のうちSESに触れているのは1件(★5、「大手取引のあるSIerやSESを紹介してもらえた」という見出し)で、SESの紹介を不満とする口コミはありませんでした(2026年11月11日確認)。公式転職ページは紹介先の例として自社開発・SIerなどを挙げています。件数が少ないため断定はできません。客先常駐を避けたい場合は、面談でその旨を伝え、求人ごとに就業場所と契約形態を確認してください。",
   },
   {
     q: "学歴・経歴に自信がなくても利用できますか？",
@@ -106,9 +110,9 @@ export default function UnisonCareerReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ユニゾンキャリアの口コミ・評判は？「やばい」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年10月】
+            ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月24日（公式サイト・公式転職ページ・利用規約・運営会社の会社概要・コエテコキャリアの口コミを同日再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月11日（SESに関する口コミの確認、運営会社の事業とWebCM・広告の発表内容を追加。コエテコキャリアの口コミ件数を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT・Web業界専門の転職エージェントです。
             「大量応募＆同意なしの応募はしません」という厳選紹介の方針と、Google口コミ4.8(470件・2025年12月23日時点の公称)を掲げています。
@@ -207,6 +211,43 @@ export default function UnisonCareerReview() {
           出典: コエテコキャリア「ユニゾンキャリア」口コミページ(2026年10月14日確認、2026年10月24日に件数・星別件数・項目別平均が同じであることを再確認)の公開口コミの傾向を当サイトが要約しています。Google口コミの数値はユニゾンキャリア公式LP
           (「Google口コミ(470件)から抜粋」「2025年12月23日時点での口コミ参照」、2026年10月14日確認)の公称値です。他社の転職比較記事は出典にしていません。
         </p>
+
+        <h2>「SESばかり紹介される」という評判は本当か</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          「ユニゾンキャリア 評判」で上位に表示される比較記事には、「未経験者はSES(客先常駐)企業を紹介されることがある」という指摘が見られます。当サイトで確認できた事実は次のとおりです(2026年11月11日確認)。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">確認先</th><th className="bg-gray-50 text-left px-3 py-2 border-b">SESに関する記載</th></tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">コエテコキャリアの口コミ17件</td><td className="px-3 py-2 border-b">SESに触れているのは1件(★5)で、見出しに「大手取引のあるSIerやSESを紹介してもらえた」とあります。SESの紹介を不満とする口コミはありませんでした。唯一の低評価(★2台)は「未経験の1社目としては良いが、キャリアアップは難しいかもしれない」という趣旨です</td></tr>
+              <tr><td className="px-3 py-2 border-b">公式転職ページ</td><td className="px-3 py-2 border-b">紹介先の例として自社開発・SIerなどの企業を挙げています(2026年10月24日確認)。SES企業を紹介するかどうかの明示はありません</td></tr>
+              <tr><td className="px-3 py-2 border-b">運営会社の事業</td><td className="px-3 py-2 border-b">株式会社ユニゾン・テクノロジーは、人材紹介のほかにシステムインテグレーション、IT・フリーランス支援(ユニゾンフリーランス)の事業を掲げ、労働者派遣事業の許可(派13-316491)も持っています</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-3">
+          <strong>当サイトの見方：</strong>口コミの件数が少ないため、「SESばかり」と言える根拠も、「SESは紹介されない」と言える根拠もありません。IT未経験からの転職では、業界全体として客先常駐の求人が多いことも背景にあります。
+          客先常駐を避けたい場合は、最初の面談で「自社開発・受託開発を希望し、客先常駐は希望しない」と伝え、紹介された求人ごとに就業場所と契約形態(自社勤務か客先常駐か)を確認することをおすすめします。
+        </p>
+        <p className="text-xs text-text-muted mb-10">出典：コエテコキャリア「ユニゾンキャリア」口コミページ(17件・平均4.7、2026年11月11日確認)、ユニゾンキャリア公式転職ページ(2026年10月24日確認)、株式会社ユニゾン・テクノロジー公式サイト(2026年11月11日確認)。</p>
+
+        <h2>最近よく見かけるのはなぜか（WebCM・交通広告の発表内容）</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          「ユニゾンキャリア」というサービス名だけで検索する人が増えている背景として、運営会社は次の広告展開を発表しています。広告の量はサービスの質を示すものではありませんが、「急に名前を見かけるようになったが怪しくないか」という疑問への事実として整理します。
+        </p>
+        <ul className="list-disc pl-5 space-y-1 text-sm text-text-secondary mb-3">
+          <li>2025年12月23日から、タレントの貴島明日香さんを起用したWebCM『IT転職ライナー』篇(全5本)を関東・関西エリアで放映開始</li>
+          <li>同時に、都営地下鉄全線・東急(東横線・目黒線・田園都市線・大井町線)・京王全線・小田急全線で車内のステッカー広告を掲出</li>
+          <li>2026年8月28日、WebCMの公式YouTube・TikTok・Instagramでの累計再生回数が、公開から約半年で1億回を超えたと発表(PR TIMESで配信)</li>
+          <li>2026年1月5日、「ベストベンチャー100」に選出されたと発表</li>
+        </ul>
+        <p className="text-sm text-text-secondary mb-3">
+          いずれも運営会社の発表で、第三者による集計ではありません。サービスを選ぶ際は、広告の印象ではなく、許可番号・利用規約・公開口コミの内容(本ページ上部)を確認してください。
+        </p>
+        <p className="text-xs text-text-muted mb-10">出典：株式会社ユニゾン・テクノロジー公式サイトのニュース(2026年1月5日・8月28日掲載)、2026年11月11日確認。</p>
 
         <h2>ユニゾンキャリアの基本データ【2026年10月24日再確認】</h2>
         <div className="overflow-x-auto mb-6">
