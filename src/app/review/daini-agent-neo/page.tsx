@@ -90,6 +90,16 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">人材大手ネオキャリアの運営</h3><p className="text-sm text-text-secondary leading-relaxed">運営のネオキャリアは人材サービスを幅広く展開する企業で、20代若手領域の支援ノウハウを持ちます。</p></div>
         </div>
 
+        <h2>第三者サイトでの第二新卒エージェントneoの評判</h2>
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)の第二新卒エージェントneoのページでは、口コミは2件、総合評価は5点満点中3.8です(★4が1件、★3が1件)。</li>
+            <li>1件は、社会人経験の少ない人に合う求人が多いという内容です。もう1件は、入社後も電話で長く相談に応じてもらえた点を他社より優れていると評価する一方で、求人の質や面接対策は十分ではなかったと述べています。</li>
+            <li>件数が2件と少ないため、サービス全体の傾向を示すものではありません。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカードを進呈するキャンペーンを案内しています。</li>
+          </ul>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/daini-agent-neo" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「第二新卒エージェントneoの評判・口コミ」</a>(2026年11月11日取得)。同ページに運営会社が株式会社ネオキャリア、URLがdaini-agent.jpと記載されていることを確認しています。件数・評価は取得日時点の値で、口コミ本文は転載せず当サイトで傾向を要約しています。</p>
+
         <h2>第二新卒エージェントneoが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

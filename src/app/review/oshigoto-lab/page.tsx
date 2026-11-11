@@ -91,6 +91,16 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">非公開求人の保有</h3><p className="text-sm text-text-secondary leading-relaxed">公開12,000件超に加えて非公開求人多数と公式に掲げており、条件の良い薬局・病院求人へのアクセスが期待できます。</p></div>
         </div>
 
+        <h2>第三者サイトでのお仕事ラボの評判</h2>
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「みん評」(株式会社マイスタースタジオ運営)のお仕事ラボのページには口コミが6件あり、同ページに表示されている評価は5点満点中2.78です。当サイトで評点別に数えると、5点が2件、4点が2件、2点が1件、1点が1件でした。</li>
+            <li>6件のうち5件は2018〜2019年の投稿です。この時期の投稿では、調剤薬局の求人の多さ、求人が出ていない企業への交渉、面接時の交通費の支給、書類作成の指導を評価する内容が見られます。一方で、正社員を希望したのに派遣の求人を紹介されたという投稿もあります。最新の投稿(2023年)は、面接後に担当者からの連絡が途絶えたという内容です。</li>
+            <li>件数が少なく投稿時期も古いため、現在のサービス内容を示すものではありません。みん評は、同サイトの性質上厳しい声が多くなり、低評価が多いことが必ずしも問題を示すものではないと注記しています。</li>
+          </ul>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/oshigoto-lab" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「お仕事ラボの口コミ・評判」</a>(2026年11月11日取得)。同ページに株式会社AXISが運営する薬剤師向けのサービスとして掲載されていることを確認しています。件数・評価は取得日時点の値です。評点別の件数と投稿時期は当サイトが全6件を数えたもので、口コミ本文は転載せず当サイトで傾向を要約しています。</p>
+
         <h2>お仕事ラボが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

@@ -90,6 +90,17 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">定着率の公開</h3><p className="text-sm text-text-secondary leading-relaxed">入社後3ヶ月の定着率94.6%を公式に公開しており、ミスマッチの少なさを定量的に示しています。</p></div>
         </div>
 
+        <h2>第三者サイトでのマイナビジョブ20'sの評判</h2>
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>みん評のマイナビジョブ20'sのページには口コミが73件あり、同ページに表示されている評価は5点満点中2.79です。当サイトで評点別に数えると、5点が5件、4点が7件、3点が1件、2点が6件、1点が45件、評点なしが9件でした。</li>
+            <li>投稿は2018年から2026年10月までにわたります。2024年以降の22件は、1点が17件、2点が1件、評点なしが4件でした。キャリアアドバイザーの言葉遣いや態度への不満、希望と合わない求人を勧められた、返信が遅い・途中から連絡がなくなったという趣旨の投稿が中心です。4点以上の投稿では、カウンセリングや書類・面接の助言が役立った、内定を得られたという評価があり、担当者によって印象が異なるという内容も見られます。</li>
+            <li>コエテコキャリアにもマイナビジョブ20'sのページがありますが、取得日時点で口コミは掲載されていませんでした。</li>
+            <li>みん評は、同サイトの性質上厳しい声が多くなり、低評価が多いことが必ずしも問題を示すものではないと注記しています。個人の体験にもとづく投稿であり、サービス全体の品質を示すものではありません。</li>
+          </ul>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/mynavi-job20s" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「マイナビジョブ20'sの口コミ・評判」</a>(株式会社マイスタースタジオ運営)、<a href="https://coeteco.jp/career/job_change/mynavi-job20s" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「マイナビジョブ20'sの評判・口コミ」</a>(GMOメディア株式会社運営)、いずれも2026年11月11日取得。みん評のページに20代・第二新卒サポート専門のサービスとして掲載されていることを確認しています。件数・評価は取得日時点の値です。評点別の件数と投稿時期は、当サイトがみん評の全73件を数えたものです。口コミ本文は転載せず、当サイトで傾向を要約しています。</p>
+
         <h2>マイナビジョブ20'sが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

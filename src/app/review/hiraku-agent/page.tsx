@@ -89,6 +89,16 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">手軽な相談導線</h3><p className="text-sm text-text-secondary leading-relaxed">最短15秒でオンライン相談を申し込めると公式に案内されており、情報収集段階でも使いやすい設計です。</p></div>
         </div>
 
+        <h2>第三者サイトでのHiraku agentの評判</h2>
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のHiraku agentのページでは、口コミは1件、総合評価は5点満点中4.5です(★4の区分に1件。サービス利用証明済みと表示)。</li>
+            <li>投稿者は20代・IT・メディア業界と表示されています。他のエージェントと比べて受け答えが丁寧で、難しい依頼にも柔軟に対応してもらえたという趣旨の内容です。</li>
+            <li>件数が1件のため、サービス全体の傾向を示すものではありません。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカードを進呈するキャンペーンを案内しています。</li>
+          </ul>
+        </div>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/hiraku-agent-com-gamecreater" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「Hiraku agent(ヒラクエージェント)の評判・口コミ」</a>(2026年11月11日取得)。同ページのサービス概要に公式URLとしてhiraku-agent.comのゲームクリエイター向けページが記載されていることを確認しています。件数・評価は取得日時点の値で、口コミ本文は転載せず当サイトで傾向を要約しています。</p>
+
         <h2>Hiraku agentが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">
