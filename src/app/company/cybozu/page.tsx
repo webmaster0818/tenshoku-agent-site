@@ -224,6 +224,7 @@ export default function CompanyCareer() {
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">関連ページ</h3>
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
+            <Link href="/company/saas-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">SaaS企業の年収ランキング</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
             <Link href="/company/gmo/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">GMOインターネットグループ転職ガイド</Link>
             <Link href="/company/line-yahoo/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">LINEヤフー転職ガイド</Link>

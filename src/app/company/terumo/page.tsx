@@ -227,6 +227,7 @@ export default function CompanyCareer() {
             <Link href="/company/maker-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">メーカー年収ランキング</Link>
             <Link href="/company/olympus/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">オリンパス転職ガイド</Link>
             <Link href="/company/hoya/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">HOYA転職ガイド</Link>
+            <Link href="/company/iryokiki-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">医療機器メーカーの年収ランキング</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

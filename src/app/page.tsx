@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "転職エージェント比較ラボ【2026年最新】59サービス＋企業の年収ランキング184社を一次情報で比較",
   description:
-    "転職エージェント・転職サービス59件を、求人数・得意分野・対応年代の公表情報で比較します。あわせて有価証券報告書にもとづく企業別の平均年収を184社ぶん公開し、15業界の年収ランキングにまとめています。年代別・目的別の選び方も解説しています。",
+    "転職エージェント・転職サービス59件を、求人数・得意分野・対応年代の公表情報で比較します。あわせて有価証券報告書にもとづく企業別の平均年収を184社ぶん公開し、20業界の年収ランキングにまとめています。年代別・目的別の選び方も解説しています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職エージェント比較ラボ【2026年最新】",
@@ -174,7 +174,7 @@ export default function HomePage() {
               <a href="#comparison" className="btn-primary text-lg px-8 py-4">比較表を見る</a>
             </div>
             <p className="tl-in tl-d4 mt-6 text-sm text-text-secondary leading-relaxed">
-              年収ランキングをお探しの方へ：企業の平均年収は<a href="#company-db" className="text-teal font-bold underline">15業界の年収ランキング（有価証券報告書）</a>にまとめています。転職エージェント各社の年収アップ率・年収アップ額は<Link href="/compare/salary-up/" className="text-teal font-bold underline">年収アップ実績の比較（公表値と定義の一覧）</Link>にまとめています。年収アップを目指した転職には、<Link href="/type/high-class/" className="text-teal font-bold underline">ハイクラス向け転職エージェントの比較</Link>をご覧ください。
+              年収ランキングをお探しの方へ：企業の平均年収は<a href="#company-db" className="text-teal font-bold underline">20業界の年収ランキング（有価証券報告書）</a>にまとめています。転職エージェント各社の年収アップ率・年収アップ額は<Link href="/compare/salary-up/" className="text-teal font-bold underline">年収アップ実績の比較（公表値と定義の一覧）</Link>にまとめています。年収アップを目指した転職には、<Link href="/type/high-class/" className="text-teal font-bold underline">ハイクラス向け転職エージェントの比較</Link>をご覧ください。
             </p>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function HomePage() {
             {[
               { num: "59件", label: "掲載エージェント・サービス" },
               { num: "184社", label: "企業別の年収データ(有価証券報告書)" },
-              { num: "15業界", label: "年収ランキング" },
+              { num: "20業界", label: "年収ランキング" },
               { num: "無料", label: "エージェント利用料金" },
             ].map((stat) => (
               <div key={stat.label}>
@@ -362,7 +362,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <h2 className="section-title section-title--center"><span className="inline-block">企業年収データベース</span><span className="inline-block">【有価証券報告書ベース】</span></h2>
           <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
-            上場企業の平均年収を有価証券報告書の一次データで整理し、15業界の年収ランキングと企業別の転職ガイドを公開しています。
+            上場企業の平均年収を有価証券報告書の一次データで整理し、20業界の年収ランキングと企業別の転職ガイドを公開しています。
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
             {[
@@ -381,6 +381,11 @@ export default function HomePage() {
               { href: "/company/kagaku-salary/", title: "化学業界の年収ランキング", desc: "総合化学・素材の9社を比較" },
               { href: "/company/seiyaku-salary/", title: "製薬業界の年収ランキング", desc: "大手製薬8社を比較" },
               { href: "/company/shokuhin-salary/", title: "食品・飲料業界の年収ランキング", desc: "大手食品・飲料の9社を比較" },
+              { href: "/company/fudosan-salary/", title: "不動産デベロッパーの年収ランキング", desc: "三井不動産・三菱地所ほか7社を比較" },
+              { href: "/company/iryokiki-salary/", title: "医療機器メーカーの年収ランキング", desc: "オリンパス・テルモほか7社を比較" },
+              { href: "/company/keshohin-salary/", title: "化粧品・日用品メーカーの年収ランキング", desc: "花王・資生堂ほか8社を比較" },
+              { href: "/company/saas-salary/", title: "SaaS企業の年収ランキング", desc: "Sansan・freeeほか7社を比較" },
+              { href: "/company/jinzai-salary/", title: "人材業界の年収ランキング", desc: "リクルートHD・JACほか7社と事業会社を比較" },
             ].map((c) => (
               <Link key={c.href} href={c.href} className="card-hover p-5 block bg-white">
                 <h3 className="font-bold text-navy mb-1 text-sm">{c.title}</h3>

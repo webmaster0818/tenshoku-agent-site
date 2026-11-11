@@ -141,7 +141,7 @@ const faqData = [
   },
   {
     q: "企業ごとの平均年収のランキングはありますか？",
-    a: "当サイトでは、有価証券報告書にもとづく企業別の平均年収を15業界のランキングにまとめています。転職先の候補企業の年収水準は、トップページの企業年収データベースからご確認ください。",
+    a: "当サイトでは、有価証券報告書にもとづく企業別の平均年収を20業界のランキングにまとめています。転職先の候補企業の年収水準は、トップページの企業年収データベースからご確認ください。",
   },
   {
     q: "公表値をどのように活用すればよいですか？",
@@ -290,7 +290,7 @@ export default function SalaryUpComparePage() {
         <div className="rounded-2xl bg-warm-gray p-5 mb-10">
           <h2 className="!mt-0 text-lg">企業の平均年収ランキングをお探しの方へ</h2>
           <p className="text-sm text-text-secondary mb-0">
-            転職先の候補企業の年収水準は、有価証券報告書の原本にもとづく<Link href="/company/maker-salary/">メーカー年収ランキング</Link>・<Link href="/company/shosha-salary/">総合商社の年収ランキング</Link>など15業界のランキングにまとめています。一覧は<Link href="/#company-db">トップページの企業年収データベース</Link>からご覧いただけます。
+            転職先の候補企業の年収水準は、有価証券報告書の原本にもとづく<Link href="/company/maker-salary/">メーカー年収ランキング</Link>・<Link href="/company/shosha-salary/">総合商社の年収ランキング</Link>など20業界のランキングにまとめています。一覧は<Link href="/#company-db">トップページの企業年収データベース</Link>からご覧いただけます。
           </p>
         </div>
 
