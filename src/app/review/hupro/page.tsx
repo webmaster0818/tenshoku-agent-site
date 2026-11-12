@@ -90,6 +90,22 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">専門メディアHUPRO MAGAZINE</h3><p className="text-sm text-text-secondary leading-relaxed">用語解説・資格試験・キャリアインタビューなど士業・管理部門特化の情報メディアを併設しており、情報収集にも使えます。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのヒュープロの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>みん評の「最速転職HUPRO（ヒュープロ）」のページには口コミが5件あり、同ページに表示されている評価は5点満点中2.73です。当サイトで評点別に数えると、5点が1件、4点が3件、3点が1件で、2点以下の投稿はありませんでした(5件の評点の単純平均は4.0で、同ページの表示値2.73とは一致しません)。</li>
+            <li>4点以上の投稿では、税理士事務所や会計業界の求人が多かった、内定までが早かった、アドバイザーに業界知識があったという評価があります。3点の投稿では、対応は丁寧だった一方、経理未経験者には条件に合う求人の紹介が少なかったという指摘があります。地方と都市部で求人数に差があるという指摘もあります。</li>
+            <li>件数が5件のため、サービス全体の傾向を示すものではありません。みん評は、同サイトの性質上厳しい声が多くなり、低評価が多いことが必ずしも問題を示すものではないと注記しています。</li>
+
+          </ul>
+
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/hupro" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「最速転職HUPRO（ヒュープロ）の口コミ・評判」</a>(株式会社マイスタースタジオ運営)、2026年11月12日取得。件数・評価は取得日時点の値です。評点別の件数は当サイトが全5件を数えたものです。口コミ本文は転載せず、当サイトで傾向を要約しています。</p>
+
+
         <h2>ヒュープロが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

@@ -228,6 +228,7 @@ export default function CompanyCareer() {
             <Link href="/company/ricoh/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">リコー転職ガイド</Link>
             <Link href="/company/konica-minolta/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">コニカミノルタ転職ガイド</Link>
             <Link href="/company/casio/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">カシオ計算機転職ガイド</Link>
+            <Link href="/company/canon/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">キヤノン転職ガイド</Link>
           </div>
         </div>
       </article>

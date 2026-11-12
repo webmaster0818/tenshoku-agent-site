@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 // 2026年11月11日に EDINET の有価証券報告書の原本（PDF）で確認した値。原本の表記のまま記載。
 const rows: SalaryRow[] = [
   { name: "ユニ・チャーム", code: "8113", market: "プライム", sector: "化学", yen: 8754000, yenText: "8,754千円", age: "40.7歳", tenure: "14.7年", employees: "1,429人", term: "2025年12月期", period: "第66期", filed: "2026年3月23日", docId: "S100XSEU" },
-  { name: "花王", code: "4452", market: "プライム", sector: "化学", yen: 8654000, yenText: "8,654千円", age: "40.6歳", tenure: "16.7年", employees: "7,761人", term: "2025年12月期", period: "第120期", filed: "2026年3月25日", docId: "S100XT6G", scope: "従業員には、フルタイムの無期化した非正規雇用の従業員等を含めています（原本の注記）。" },
+  { name: "花王", slug: "kao", code: "4452", market: "プライム", sector: "化学", yen: 8654000, yenText: "8,654千円", age: "40.6歳", tenure: "16.7年", employees: "7,761人", term: "2025年12月期", period: "第120期", filed: "2026年3月25日", docId: "S100XT6G", scope: "従業員には、フルタイムの無期化した非正規雇用の従業員等を含めています（原本の注記）。" },
   { name: "エステー", code: "4951", market: "プライム", sector: "化学", yen: 8102383, yenText: "8,102,383円", age: "42.0歳", tenure: "15.4年", employees: "460人", term: "2026年3月期", period: "第79期", filed: "2026年6月17日", docId: "S100YD9M", change: "10.5%" },
   { name: "ポーラ・オルビスホールディングス", code: "4927", market: "プライム", sector: "化学", yen: 7662268, yenText: "7,662,268円", age: "43.1歳", tenure: "4.9年", employees: "278人", term: "2025年12月期", period: "第20期", filed: "2026年3月25日", docId: "S100XSDL", hd: true },
   { name: "小林製薬", code: "4967", market: "プライム", sector: "化学", yen: 7554189, yenText: "7,554,189円", age: "41.2歳", tenure: "12.8年", employees: "1,737人", term: "2025年12月期", period: "第108期", filed: "2026年3月25日", docId: "S100XSXS" },

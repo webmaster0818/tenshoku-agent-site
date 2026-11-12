@@ -89,6 +89,22 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">年収以外の条件も重視する提案</h3><p className="text-sm text-text-secondary leading-relaxed">「年収以外にもこだわるハイクラス転職」を掲げ、働き方や役割まで含めた条件のすり合わせを打ち出しています。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのLHH転職エージェントの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のLHH転職エージェントのページでは、口コミは1件、総合評価は5点満点中4.0です(★4の区分に1件。サービス利用証明済みと表示)。同ページの運営会社欄にAdecco Group AGと記載されていることを確認しています。</li>
+            <li>投稿者は50代女性・翻訳通訳業界と表示され、投稿日は2024年5月27日です。案件の紹介が早く手続きもスムーズで、外資系企業への転職に成功した一方、前任者の離職理由などの情報を共有してもらえるとよかったという趣旨の内容です。</li>
+            <li>件数が1件のため、サービス全体の傾向を示すものではありません。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカード（最大3,000円分）を進呈するキャンペーンを案内しています。</li>
+
+          </ul>
+
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/lhh" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「LHH転職エージェントの評判・口コミ」</a>(2026年11月12日取得)。件数・評価は取得日時点の値で、口コミ本文は転載せず当サイトで傾向を要約しています。</p>
+
+
         <h2>LHH転職エージェントが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

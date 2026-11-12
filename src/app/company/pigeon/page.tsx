@@ -229,6 +229,7 @@ export default function CompanyCareer() {
             <Link href="/company/zojirushi/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">象印マホービン転職ガイド</Link>
             <Link href="/company/toyo-suisan/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">東洋水産転職ガイド</Link>
             <Link href="/company/keshohin-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">化粧品・日用品メーカーの年収ランキング</Link>
+            <Link href="/company/kao/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">花王転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

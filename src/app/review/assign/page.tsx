@@ -185,7 +185,7 @@ export default function AssignReview() {
         <h2>アサインの受賞歴(いずれも同社公称)</h2>
         <p>
           株式会社アサインは、以下の受賞歴・実績を公称しています。
-          第三者口コミサイトの評点等は当サイトで検証していないため掲載せず、同社の公表情報の範囲で紹介します。
+          受賞歴は同社の公表情報の範囲で紹介します。第三者の口コミサイトでの評価は、次の節に取得日とあわせて掲載しています。
         </p>
         <ul className="mb-8">
           <li>2021年 Bizreach 全部門総合MVP(公称)</li>
@@ -193,6 +193,22 @@ export default function AssignReview() {
           <li>外資系転職Liiga 転職支援実績No.1(公称)</li>
           <li>マイナビ Matching of The Year 2019(公称)</li>
         </ul>
+
+        <h2>第三者の口コミサイトでのアサイン(ASSIGN)の評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のアサイン（ASSIGN）のページでは、口コミは1件、総合評価は5点満点中2.5です(★2の区分に1件)。同ページの運営会社欄に株式会社アサインと記載されていることを確認しています。</li>
+            <li>投稿者は20代・IT・メディア業界と表示されています。面接前の対策には満足した一方、最初に紹介を受けた4社で内定が出ずに支援が終了し、面接後のフィードバックや改善が十分でなかったと感じたという趣旨の内容です。</li>
+            <li>件数が1件のため、サービス全体の傾向を示すものではありません。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカード（最大3,000円分）を進呈するキャンペーンを案内しています。</li>
+
+          </ul>
+
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/assign" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「アサイン（ASSIGN）の評判・口コミ」</a>(2026年11月12日取得)。件数・評価は取得日時点の値で、口コミ本文は転載せず当サイトで傾向を要約しています。</p>
+
 
         {/* 向いている人・向いていない人 */}
         <h2>アサインが向いている人・向いていない人</h2>

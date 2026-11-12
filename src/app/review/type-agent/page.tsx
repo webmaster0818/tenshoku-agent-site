@@ -91,6 +91,23 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">転職相談会・セミナーの開催</h3><p className="text-sm text-text-secondary leading-relaxed">対面・オンラインの転職相談会やセミナーを定期開催しており、情報収集段階から接点を持てます。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのtype転職エージェントの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>みん評の「type転職エージェント」のページには口コミが84件あり、同ページに表示されている評価は5点満点中2.80です(項目別では求人数2.94・担当者2.83・サポート2.79・紹介内容2.89。カテゴリ平均は2.78)。当サイトで評点別に数えると、5点が2件、4点が3件、3点が2件、2点が6件、1点が67件、評点なしが4件でした。</li>
+            <li>みん評の低評価の投稿では、担当者の態度や連絡が途中で途絶えた、希望と異なるポジションで選考を進められた、担当者間の情報共有が不十分だったという趣旨の内容が多く見られます。4点以上の投稿では、カウンセリングが丁寧だった、自分のアピールポイントを引き出してもらえたという評価があります。</li>
+            <li>コエテコキャリアのtype転職エージェントのページでは、口コミは3件、総合評価は5点満点中3.2です(★4・★3・★2が各1件。同ページの運営会社欄に株式会社キャリアデザインセンターと記載)。担当者の対応やIT・Web業界の求人の多さを評価する内容と、求人の質・量や面接前のサポートが期待に届かなかったという内容があります。</li>
+            <li>2つのサイトで評価の水準は大きく異なります。みん評は、同サイトの性質上厳しい声が多くなり、低評価が多いことが必ずしも問題を示すものではないと注記しています。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカード（最大3,000円分）を進呈するキャンペーンを案内しています。いずれも個人の体験にもとづく投稿です。</li>
+
+          </ul>
+
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/type" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「type転職エージェントの口コミ・評判」</a>(株式会社マイスタースタジオ運営)、<a href="https://coeteco.jp/career/job_change/type-career-agent" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「type転職エージェントの評判・口コミ」</a>(GMOメディア株式会社運営)、いずれも2026年11月12日取得。件数・評価は取得日時点の値です。評点別の件数は、当サイトがみん評の全84件を数えたものです。口コミ本文は転載せず、当サイトで傾向を要約しています。</p>
+
+
         <h2>type転職エージェントが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

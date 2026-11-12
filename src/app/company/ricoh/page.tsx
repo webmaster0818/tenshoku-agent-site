@@ -242,6 +242,7 @@ export default function CompanyCareer() {
             <Link href="/company/konica-minolta/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">コニカミノルタ転職ガイド</Link>
             <Link href="/company/brother/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">ブラザー工業転職ガイド</Link>
             <Link href="/company/casio/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">カシオ転職ガイド</Link>
+            <Link href="/company/canon/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">キヤノン転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

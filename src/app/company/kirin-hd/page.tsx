@@ -227,6 +227,7 @@ export default function CompanyCareer() {
             <Link href="/company/shokuhin-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">食品・飲料 年収ランキング</Link>
             <Link href="/company/asahi-ghd/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">アサヒGHD転職ガイド</Link>
             <Link href="/company/suntory-bf/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">サントリー食品転職ガイド</Link>
+            <Link href="/company/jt/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">JT（日本たばこ産業）転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

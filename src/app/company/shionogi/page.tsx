@@ -227,6 +227,7 @@ export default function CompanyCareer() {
             <Link href="/company/seiyaku-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">製薬 年収ランキング</Link>
             <Link href="/company/ono-yakuhin/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">小野薬品転職ガイド</Link>
             <Link href="/company/takeda/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">武田薬品転職ガイド</Link>
+            <Link href="/company/jt/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">JT（日本たばこ産業）転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

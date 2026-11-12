@@ -241,6 +241,7 @@ export default function CompanyCareer() {
             <Link href="/company/konami/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">KONAMI転職ガイド</Link>
             <Link href="/company/sega-sammy/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">セガサミーHD転職ガイド</Link>
             <Link href="/company/takara-tomy/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">タカラトミー転職ガイド</Link>
+            <Link href="/company/oriental-land/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">オリエンタルランド転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

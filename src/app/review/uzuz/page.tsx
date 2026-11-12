@@ -90,6 +90,23 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">学習との組み合わせ(ウズウズカレッジ)</h3><p className="text-sm text-text-secondary leading-relaxed">ITスキルを学んでから就職を目指すウズウズカレッジを展開しており、未経験からIT職種を目指すルートを学習込みで設計できます。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのUZUZの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>みん評の「UZUZ-ウズウズ」のページには口コミが119件あり、同ページに表示されている評価は5点満点中2.87です(項目別では求人数2.91・担当者3.02・サポート2.99・紹介内容2.88。カテゴリ平均は2.78)。当サイトで評点別に数えると、5点が9件、4点が10件、3点が0件、2点が8件、1点が77件、評点なしが15件でした。</li>
+            <li>低評価の投稿では、紹介される求人がIT(客先常駐・インフラの監視業務など)や営業職に偏っていた、地方在住であることや病歴を理由に紹介を受けられなかった、担当者の対応が高圧的・連絡が途絶えたという趣旨の内容が多く見られます。</li>
+            <li>4点以上の投稿では、初回の面談で経歴を時間をかけて聞いてもらえた、職歴が少なくても就職できた、長く働けそうな職場を紹介してもらえたという評価があります。</li>
+            <li>みん評は、同サイトの性質上厳しい声が多くなり、低評価が多いことが必ずしも問題を示すものではないと注記しています。いずれも個人の体験にもとづく投稿です。コエテコキャリアにもUZUZのページがありますが、取得時点で口コミの掲載はありませんでした。</li>
+
+          </ul>
+
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/uzuz" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「UZUZ-ウズウズの口コミ・評判」</a>(株式会社マイスタースタジオ運営)、2026年11月12日取得。件数・評価は取得日時点の値です。評点別の件数は、当サイトが全119件を数えたものです。口コミ本文は転載せず、当サイトで傾向を要約しています。</p>
+
+
         <h2>UZUZ(第二の就活)が向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">
