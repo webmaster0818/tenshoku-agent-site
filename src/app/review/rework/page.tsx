@@ -6,12 +6,12 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/rework/" },
-  title: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年10月】",
+  title: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年11月】",
   description:
-    "Re:WORK(リワーク)エージェントの口コミ・評判を出典を明記して整理しています。株式会社Nexly運営の未経験転職専門エージェントの求人数、厚生労働省の登録情報、利用規約、利用の流れと注意点を2026年10月26日に確認しています。復職支援のリワークとは別サービスです。",
+    "Re:WORK(リワーク)エージェントの口コミ・評判を出典を明記して整理しています。株式会社Nexly運営の未経験転職専門エージェントの求人数、厚生労働省の登録情報、利用規約、利用の流れと注意点を整理しています。復職支援のリワークや名前の似た別サービスとの見分け方も解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年10月】",
+    title: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年11月】",
     description:
       "Re:WORK(リワーク)エージェントの口コミ・評判と注意点を、公式データにもとづき確認日を明記して整理しています。利用は無料です。",
   },
@@ -24,7 +24,7 @@ const faqData = [
   },
   {
     q: "本当に未経験でも求人を紹介してもらえますか？",
-    a: "Re:WORKは「未経験からの転職専門エージェント」を掲げており、未経験応募OKの求人を多数掲載しています。公式トップページの紹介可能求人数は21,247件以上、「Re:WORKとは」ページの公開求人数は14,607件（2026年10月時点）で、そのうち約6割が未経験歓迎の求人と記載されています（2026年10月26日確認。紹介可能求人数の表記は8月22日に39,652件以上、10月14日に16,432件以上で、変動します）。接客業からIT業界、工場勤務から一般事務など、異業種への挑戦をサポートすると記載されています。",
+    a: "Re:WORKは「未経験からの転職専門エージェント」を掲げており、未経験応募OKの求人を多数掲載しています。公式トップページの紹介可能求人数は14,012件以上、「Re:WORKとは」ページの公開求人数は14,607件（2026年10月時点）で、そのうち約6割が未経験歓迎の求人と記載されています（2026年11月12日確認。紹介可能求人数の表記は8月22日に39,652件以上、10月14日に16,432件以上、10月26日に21,247件以上で、変動します）。接客業からIT業界、工場勤務から一般事務など、異業種への挑戦をサポートすると記載されています。",
   },
   {
     q: "運営会社はどんな会社ですか？",
@@ -51,6 +51,14 @@ const faqData = [
     a: "できます。公式の「Re:WORKとは」ページのよくある質問に「相談だけでも利用できます。応募するかどうかは相談のうえで決めていただけます」と記載されています。面談はオンラインで、全国どこからでも参加できると案内されています（2026年10月26日確認）。",
   },
   {
+    q: "職歴に空白期間があっても利用できますか？",
+    a: "公式の「Re:WORKとは」ページのよくある質問に、未経験の方や空白期間がある方も利用でき、過去の経験よりもこれからの働き方を重視して相談に乗ると記載されています（2026年11月12日確認）。",
+  },
+  {
+    q: "「ReWorks（リワークス）」や「Re就活」と同じサービスですか？",
+    a: "別のサービスです。Re:WORKエージェントは株式会社Nexlyが運営する転職エージェントです。ReWorksは株式会社アイドマ・ホールディングスが運営するフルリモート正社員の求人サイト、Re就活は株式会社学情が運営する20代向けの転職サイトです（2026年11月12日確認）。口コミを調べる際は運営会社名で見分けてください。",
+  },
+  {
     q: "登録した情報は他の会社にも共有されますか？",
     a: "利用規約（2024年10月16日制定）では、サービスの一つとして、登録情報の一部や転職活動状況を求人企業・職業紹介事業者に開示してスカウトを受け取る「Re:WORKスカウトサービス」と、業務提携した職業紹介事業者（パートナーエージェント）に登録情報を提供する「Re:WORKパートナーエージェントサービス」が定められています。他社からの連絡を望まない場合は、面談時に担当者へ確認することをおすすめします（2026年10月26日確認）。",
   },
@@ -63,8 +71,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年10月】",
-  dateModified: "2026-10-26",
+  headline: "Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年11月】",
+  dateModified: "2026-11-12",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/rework/" },
@@ -102,9 +110,9 @@ export default function ReworkReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年10月】
+            Re:WORK(リワーク)エージェントの口コミ・評判は？未経験転職専門の実態を公式データで解説【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月26日（公式サイト・運営者情報・利用規約・厚生労働省「人材サービス総合サイト」を確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月12日（公式サイトの求人数表記・第三者の口コミの有無を同日に再確認。運営者情報・利用規約・厚生労働省「人材サービス総合サイト」は2026年10月26日確認）</p>
           <p className="text-text-secondary leading-relaxed">
             Re:WORK（リワーク）エージェントは、株式会社Nexlyが運営する「未経験からの転職専門」を掲げる転職エージェントです。
             「経験ゼロから、可能性∞へ。」をキャッチコピーに、接客業からIT業界へ、工場勤務から一般事務へといった
@@ -122,7 +130,7 @@ export default function ReworkReview() {
           <ul className="space-y-2 text-sm text-text-secondary">
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>未経験からの転職に特化した専門エージェントです</strong>。紹介可能求人数21,247件以上（2026年10月26日の公式トップページ表記）で、公開求人14,607件のうち約6割が未経験歓迎と公式に記載されています。</span>
+              <span><strong>未経験からの転職に特化した専門エージェントです</strong>。紹介可能求人数14,012件以上（2026年11月12日の公式トップページ表記）で、公開求人14,607件のうち約6割が未経験歓迎と公式に記載されています。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -144,7 +152,7 @@ export default function ReworkReview() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
             { label: "特化領域", value: "未経験転職" },
-            { label: "紹介可能求人数（公式表記）", value: "2.1万件超" },
+            { label: "紹介可能求人数（公式表記）", value: "1.4万件超" },
             { label: "料金", value: "無料" },
             { label: "職業紹介許可", value: "取得済み" },
           ].map((s) => (
@@ -155,7 +163,7 @@ export default function ReworkReview() {
           ))}
         </div>
 
-        <h2>Re:WORKエージェントの基本データ【2026年10月26日確認】</h2>
+        <h2>Re:WORKエージェントの基本データ【2026年11月12日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -165,7 +173,7 @@ export default function ReworkReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">大林 諒</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">創業・設立</th><td className="px-3 py-2 border-b">創業2021年11月6日／設立2024年5月27日（資本金500万円）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">28-ユ-301343（許可年月日 2024年9月1日）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">紹介可能求人数</th><td className="px-3 py-2 border-b">紹介可能求人数21,247件以上（公式トップページ表記）／公開求人14,607件・うち約6割が未経験歓迎（「Re:WORKとは」ページ、2026年10月時点）。紹介可能求人数の表記は8月22日に39,652件以上、10月14日に16,432件以上</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">紹介可能求人数</th><td className="px-3 py-2 border-b">紹介可能求人数14,012件以上（公式トップページ表記、2026年11月12日確認）／公開求人14,607件・うち約6割が未経験歓迎（「Re:WORKとは」ページ、2026年10月時点）。表記の推移は下の表のとおり</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談方法</th><td className="px-3 py-2 border-b">オンライン（全国どこからでも参加可能）。申し込み後、担当アドバイザーから登録の電話番号またはメールに連絡</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">問い合わせ</th><td className="px-3 py-2 border-b">公式サイトの問い合わせフォーム／電話 080-3845-2052（運営者情報ページ表記）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／求人紹介／業界分析／応募書類の添削／オンライン模擬面接（希望者）／適職診断</td></tr>
@@ -174,12 +182,34 @@ export default function ReworkReview() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：<a href="https://rework.nexly.co.jp/" rel="nofollow noopener" target="_blank" className="underline">Re:WORKエージェント公式サイト</a>、<a href="https://rework.nexly.co.jp/service/" rel="nofollow noopener" target="_blank" className="underline">「Re:WORKとは」ページ</a>、<a href="https://rework.nexly.co.jp/about/" rel="nofollow noopener" target="_blank" className="underline">運営者情報ページ</a>、2026年10月26日確認。紹介可能求人数と公開求人数は公式サイト内でページごとに異なる値が掲載されており、紹介可能求人数の集計時点は記載がありません。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://rework.nexly.co.jp/" rel="nofollow noopener" target="_blank" className="underline">Re:WORKエージェント公式サイト</a>、<a href="https://rework.nexly.co.jp/service/" rel="nofollow noopener" target="_blank" className="underline">「Re:WORKとは」ページ</a>、<a href="https://rework.nexly.co.jp/about/" rel="nofollow noopener" target="_blank" className="underline">運営者情報ページ</a>、2026年10月26日確認（求人数は2026年11月12日に再確認）。紹介可能求人数と公開求人数は公式サイト内でページごとに異なる値が掲載されており、紹介可能求人数の集計時点は記載がありません。当サイトでは口コミ・数値の創作は行っていません。</p>
+
+        <h3 className="font-bold text-navy mb-2">紹介可能求人数の表記の推移（当サイトの定点確認）</h3>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">確認日</th>
+                <th className="text-right px-3 py-2 border-b">公式トップページの表記</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">2026年8月22日</td><td className="text-right px-3 py-2 border-b">39,652件以上</td></tr>
+              <tr><td className="px-3 py-2 border-b">2026年10月14日</td><td className="text-right px-3 py-2 border-b">16,432件以上</td></tr>
+              <tr><td className="px-3 py-2 border-b">2026年10月26日</td><td className="text-right px-3 py-2 border-b">21,247件以上</td></tr>
+              <tr><td className="px-3 py-2 border-b">2026年11月12日</td><td className="text-right px-3 py-2 border-b">14,012件以上</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-8">
+          約3か月で表記は1.4万〜4.0万件の範囲で動いており、集計時点や集計方法は公式サイトに記載がありません。
+          求人数は「目安」として捉え、希望する職種・地域の求人が実際にあるかは面談で確認することをおすすめします。
+        </p>
 
         <h2>Re:WORK(リワーク)エージェントの口コミ・評判の傾向（出典明記）</h2>
         <p className="text-sm text-text-secondary mb-4">
-          2026年10月26日に「Re:WORKエージェント 口コミ」「Re:WORKエージェント 評判」「リワークエージェント Nexly 評判」などでWeb検索した範囲では、第三者の口コミサイトにRe:WORKエージェント（株式会社Nexly）の利用者の声は<strong>見つかりませんでした</strong>。
-          10月14日の確認時と同様です。検索では名前の近い別サービス（「Re就活」、フルリモート求人サイトの「ReWorks」など）の口コミが表示されやすいため、読む際は運営会社名（Nexly）で見分けてください。
+          2026年11月12日に「Re:WORKエージェント 口コミ」「Re:WORKエージェント 評判」「Re:WORKエージェント」などでWeb検索した範囲では、第三者の口コミサイトにRe:WORKエージェント（株式会社Nexly）の利用者の声は<strong>見つかりませんでした</strong>。
+          10月14日・10月26日の確認時と同様です。検索結果の上位には、名前の近い別サービス（アイドマ・ホールディングスの「ReWorks」など）の紹介ページが表示されます。読む際は運営会社名（Nexly）で見分けてください（見分け方は次の章で整理しています）。
           以下は公式サイトに掲載された情報からわかる傾向です。
         </p>
         <div className="grid sm:grid-cols-2 gap-4 mb-4">
@@ -196,7 +226,7 @@ export default function ReworkReview() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>運営会社は2024年5月設立と新しく、<strong>第三者の口コミはまだ少ない状況です</strong></li>
               <li>未経験転職は平均10〜15社への応募を想定していると公式に記載されています。<strong>応募数が多くなる</strong>前提で計画することをおすすめします</li>
-              <li>紹介可能求人数の表記は8月の39,652件以上から10月14日は16,432件以上、10月26日は21,247件以上と変動しており、集計時点の記載はありません</li>
+              <li>紹介可能求人数の表記は8月の39,652件以上から10月14日は16,432件以上、10月26日は21,247件以上、11月12日は14,012件以上と変動しており、集計時点の記載はありません</li>
               <li>利用規約では、登録情報を提携する他の職業紹介事業者に提供するサービスも定められています。他社からの連絡が増える可能性があります</li>
               <li>体験記は自社サイト掲載で、収集方法の記載はありません</li>
             </ul>
@@ -206,6 +236,34 @@ export default function ReworkReview() {
           <strong>当サイトの見方：</strong>未経験特化の相談先として使う価値はありますが、評判を判断できる第三者情報がまだ少ない段階です。
           実績の多い<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>などの総合型や、IT志望なら<Link href="/review/unison-career/" className="text-teal underline">ユニゾンキャリア</Link>と併用し、紹介求人の質を見比べることをおすすめします。
         </p>
+
+        <h2>「Re:WORK」と名前が似ているサービスの見分け方</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          「リワーク」「Re:WORK」「ReWorks」は表記が近く、口コミや評判を調べる際に別のサービスの情報が混ざりやすい名称です。
+          当サイトでは運営会社とサービスの種類で次のように区別しています（2026年11月12日確認）。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">名称</th>
+                <th className="text-left px-3 py-2 border-b">運営・実施主体</th>
+                <th className="text-left px-3 py-2 border-b">サービスの種類</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b font-bold">Re:WORK エージェント（本ページ）</td><td className="px-3 py-2 border-b">株式会社Nexly（兵庫県伊丹市）</td><td className="px-3 py-2 border-b">未経験からの転職を支援する転職エージェント（有料職業紹介・許可番号28-ユ-301343）。公式サイトは rework.nexly.co.jp</td></tr>
+              <tr><td className="px-3 py-2 border-b">ReWorks（リワークス）</td><td className="px-3 py-2 border-b">株式会社アイドマ・ホールディングス</td><td className="px-3 py-2 border-b">フルリモート正社員の求人に特化した転職求人サイト</td></tr>
+              <tr><td className="px-3 py-2 border-b">Re就活</td><td className="px-3 py-2 border-b">株式会社学情</td><td className="px-3 py-2 border-b">20代向けの転職サイト</td></tr>
+              <tr><td className="px-3 py-2 border-b">リワーク（復職支援プログラム）</td><td className="px-3 py-2 border-b">医療機関・地域障害者職業センターなど</td><td className="px-3 py-2 border-b">休職者の職場復帰を支援するプログラムの一般名称</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-2">
+          運営会社の株式会社Nexlyは、看護・介護・保育などノンデスクワーカー向けの職場口コミサイト「KOEBA（こえば）」にも「Powered by 株式会社Nexly」と表示しています。
+          Re:WORKエージェントの公式サイトでは、転職ノウハウ・年代別転職・資格などのコラムが更新されており、2026年11月12日時点の最新記事は11月11日付でした。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://rework.nexly.co.jp/" rel="nofollow noopener" target="_blank" className="underline">Re:WORKエージェント公式サイト</a>、<a href="https://coeteco.jp/career/job_change/rework-s" rel="nofollow noopener" target="_blank" className="underline">コエテコキャリア「Re Works」掲載ページ</a>、<a href="https://www.neo-career.co.jp/humanresource/resyuukatsu/" rel="nofollow noopener" target="_blank" className="underline">Re就活の紹介ページ</a>、<a href="https://koeba.jp/" rel="nofollow noopener" target="_blank" className="underline">KOEBA</a>（いずれも2026年11月12日確認）。</p>
 
         <h2>厚生労働省の登録情報と利用規約で確認できること</h2>
         <p className="text-sm text-text-secondary mb-3">

@@ -6,12 +6,12 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/newma/" },
-  title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
+  title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年11月】",
   description:
     "NewMA(ニューマ)の口コミ・評判を出典と件数を明記して整理しています。コンサル・M&A特化の転職エージェントの特徴、厚生労働省の人材サービス総合サイトに登録された就職者数、許可番号、利用の流れ、注意点を公式情報にもとづいて解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
+    title: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年11月】",
     description:
       "NewMA(ニューマ)の口コミ・評判を出典とともに整理しています。コンサル・M&A特化の転職エージェントの特徴・運営会社・注意点を公式情報にもとづいて解説します。",
   },
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年10月】",
-  dateModified: "2026-10-26",
+  headline: "NewMA(ニューマ)の口コミ・評判は？コンサル・M&A特化の転職エージェントを解説【2026年11月】",
+  dateModified: "2026-11-12",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/newma/" },
@@ -59,11 +59,19 @@ const faqData = [
   },
   {
     q: "NewMAの求人の勤務地や年収帯は？",
-    a: "公式サイトに掲載の求人例は、上場準備中企業のM&Aアドバイザリー(大阪府・年収500万〜1,200万円)、外資系大手ファームのDXコンサルタント(東京都・年収700万〜1,500万円)、M&A経験者向け管理職(東京都・年収1,200万〜2,500万円)です。求人の総数は公式サイトで公開されていません。なお、転職サイト「ワンキャリア転職」のNewMAページには求人44件が掲載されています(いずれも2026年10月26日確認)。",
+    a: "公式サイトに掲載の求人例は、上場準備中企業のM&Aアドバイザリー(大阪府・年収500万〜1,200万円)、外資系大手ファームのDXコンサルタント(東京都・年収700万〜1,500万円)、M&A経験者向け管理職(東京都・年収1,200万〜2,500万円)です。求人の総数は公式サイトで公開されていません。なお、転職サイト「ワンキャリア転職」のNewMAページには求人44件が掲載されています(2026年11月12日再確認)。公式コラムの最新求人9件の年収下限は350万〜1,100万円でした。",
   },
   {
     q: "NewMAの就職実績はどのくらいですか？",
     a: "厚生労働省「人材サービス総合サイト」に登録されたNewMA株式会社の就職者数(4か月以上の有期・無期雇用)は、情報登録年度ベースで令和5年度3人、令和6年度6人、令和7年度14人です。いずれも全員が無期雇用で、無期雇用のうち就職後6か月以内の離職者は0人と登録されています(令和8年10月1日現在の掲載情報を2026年10月26日に確認)。大手と比べると少人数ですが、件数は年々増えています。",
+  },
+  {
+    q: "NewMAではどんな人が担当しますか？",
+    a: "ワンキャリア転職のNewMAページでは、在籍エージェントとして2名が表示されています。代表の林 健太郎氏（M&Aアドバイザリーの実務経験者・同サイト上の支援実績33件）と、田中 優伎氏（メガバンク系証券会社・外資系保険会社・金融商品仲介業を経て人材紹介の営業に従事）です（2026年11月12日確認）。少人数の体制のため、面談で担当者を確認しておくと安心です。",
+  },
+  {
+    q: "NewMAの求人は東京だけですか？",
+    a: "公式トップページの求人例には大阪府のM&Aアドバイザリー求人もありますが、2026年11月12日時点で公式コラムに掲載された最新求人9件は、すべて東京都内（港区・神谷町・八重洲・西新宿・品川）の勤務地でした。大阪以外の地方勤務を希望する場合は、総合型エージェントとの併用をおすすめします。",
   },
   {
     q: "退会したい場合や苦情がある場合はどこに連絡しますか？",
@@ -102,9 +110,9 @@ export default function NewmaReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            NewMA(ニューマ)の口コミ・評判は？コンサル・M&amp;A特化の転職エージェントを解説【2026年10月】
+            NewMA(ニューマ)の口コミ・評判は？コンサル・M&amp;A特化の転職エージェントを解説【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月26日（公式サイト・厚生労働省「人材サービス総合サイト」・公開口コミを同日確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月12日（公式サイトの最新求人・公開口コミ・ワンキャリア転職の掲載値を同日に再確認。厚生労働省「人材サービス総合サイト」は2026年10月26日確認）</p>
           <p className="text-text-secondary leading-relaxed">
             NewMAは、NewMA株式会社が運営するコンサルティング・M&amp;A領域特化型の転職エージェントです。
             DX・戦略・AIコンサルタントに加え、M&amp;A仲介・FAS・経営企画・PEファンドといったハイエンド領域の求人を対象に、
@@ -174,8 +182,8 @@ export default function NewmaReview() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>確認できた公開口コミには、悪い点の具体的な記載はありませんでした。ただし件数が2件と少なく、評判の判断材料としては限定的です。</li>
               <li>コエテコキャリアでは、無料登録・面談後の口コミ投稿にAmazonギフトカードを進呈するキャンペーンが案内されています。謝礼つきの投稿である可能性を踏まえてお読みください。</li>
-              <li>公式仕様から読める注意点：対象はM&amp;A・コンサル・経営企画・PEファンドなどに限られ、<strong>それ以外の職種の求人はほぼ期待できません</strong>。</li>
-              <li>公式サイト掲載の求人例は大阪府・東京都の案件で、<strong>求人総数は非公開</strong>です。地方勤務や求人数の多さを重視する人は総合型との併用が前提です。</li>
+              <li>公式仕様から読める注意点：公式が掲げる対象はM&amp;A・コンサル・経営企画・PEファンドなどが中心です。公式コラムの最新求人には不動産営業や新規事業の求人も含まれますが（後述）、<strong>事務職・技術職などを幅広く探す用途には向きません</strong>。</li>
+              <li>公式サイト掲載の求人例は大阪府・東京都の案件で、<strong>求人総数は非公開</strong>です。2026年11月12日時点の公式コラムの最新求人9件はすべて東京都内の勤務地でした。地方勤務や求人数の多さを重視する人は総合型との併用が前提です。</li>
             </ul>
           </div>
         </div>
@@ -188,7 +196,7 @@ export default function NewmaReview() {
           </p>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          出典: <a href="https://coeteco.jp/career/services/newma" rel="nofollow noopener" target="_blank" className="underline">コエテコキャリアのNewMA口コミページ</a>（2件）・<a href="https://plus.onecareer.jp/agents/19" rel="nofollow noopener" target="_blank" className="underline">ワンキャリア転職のNewMAページ</a>の公開情報（2026年10月26日確認）の傾向を当サイトが要約しました。口コミ本文の転載や、当サイト独自の点数付けは行っていません。Web検索の範囲では、Googleマップ等の他の口コミは見つかりませんでした。
+          出典: <a href="https://coeteco.jp/career/services/newma" rel="nofollow noopener" target="_blank" className="underline">コエテコキャリアのNewMA口コミページ</a>（2件）・<a href="https://plus.onecareer.jp/agents/19" rel="nofollow noopener" target="_blank" className="underline">ワンキャリア転職のNewMAページ</a>の公開情報（2026年10月26日確認、11月12日に件数・評価に変化がないことを再確認）の傾向を当サイトが要約しました。コエテコキャリアの口コミ2件はいずれも投稿者が30代・IT／メディア業界と表示され、投稿日は表示されていません。口コミ本文の転載や、当サイト独自の点数付けは行っていません。Web検索の範囲では、Googleマップ等の他の口コミは見つかりませんでした。
         </p>
 
         <h2>NewMAの基本データ【2026年10月26日確認】</h2>
@@ -261,6 +269,45 @@ export default function NewmaReview() {
           一方で、表示された実績はM&amp;Aアドバイザリーに集中しており、戦略・DXコンサルや経営企画の実績は直近10件には含まれていませんでした。
         </p>
         <p className="text-xs text-text-muted mb-8">出典：<a href="https://plus.onecareer.jp/agents/19/placement_records" rel="nofollow noopener" target="_blank" className="underline">ワンキャリア転職「NewMAの支援実績」</a>（2026年10月26日確認）。ワンキャリア転職の支援実績（オファー件数）と厚生労働省に登録された就職者数は、集計の範囲と期間が異なります。</p>
+
+        <h2>NewMA公式サイトの最新求人と担当アドバイザー【2026年11月12日確認】</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          NewMAの公式サイトでは、コラム欄の「求人案件」カテゴリで個別の求人を公開しています。
+          求人総数は公表されていないため、当サイトでは2026年11月12日時点でコラム一覧の1ページ目に表示された最新9件（10月29日〜11月11日掲載）を集計しました。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b whitespace-nowrap">掲載日</th>
+                <th className="text-left px-3 py-2 border-b">企業・ポジション</th>
+                <th className="text-left px-3 py-2 border-b whitespace-nowrap">勤務地</th>
+                <th className="text-left px-3 py-2 border-b whitespace-nowrap">年収（掲載値）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">11/11</td><td className="px-3 py-2 border-b">株式会社MyVision／新規事業マネージャー候補</td><td className="px-3 py-2 border-b">神谷町</td><td className="px-3 py-2 border-b">700万〜2,000万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">11/10</td><td className="px-3 py-2 border-b">株式会社日本グロース・キャピタル／PE投資アソシエイト</td><td className="px-3 py-2 border-b">東京・八重洲</td><td className="px-3 py-2 border-b">700万〜900万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">11/09</td><td className="px-3 py-2 border-b">株式会社MyVision／ソリューションセールス責任者</td><td className="px-3 py-2 border-b">神谷町</td><td className="px-3 py-2 border-b">800万〜2,000万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">11/08</td><td className="px-3 py-2 border-b">プロパティエージェント株式会社／資産形成アドバイザー</td><td className="px-3 py-2 border-b">西新宿</td><td className="px-3 py-2 border-b">350万〜1,000万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">11/07</td><td className="px-3 py-2 border-b">プロパティエージェント株式会社／新規開拓営業リーダー候補</td><td className="px-3 py-2 border-b">西新宿</td><td className="px-3 py-2 border-b">531万〜3,000万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">11/06</td><td className="px-3 py-2 border-b">株式会社バトンズ／事業企画マネージャー候補</td><td className="px-3 py-2 border-b">品川</td><td className="px-3 py-2 border-b">900万〜1,200万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">10/31</td><td className="px-3 py-2 border-b">株式会社クオンツ総研ホールディングス／AI戦略コンサルタント</td><td className="px-3 py-2 border-b">港区</td><td className="px-3 py-2 border-b">400万〜1,200万円</td></tr>
+              <tr><td className="px-3 py-2 border-b">10/30</td><td className="px-3 py-2 border-b">株式会社クオンツ総研ホールディングス／AI戦略コンサルタント</td><td className="px-3 py-2 border-b">港区</td><td className="px-3 py-2 border-b">1,100万円〜（上限応相談）</td></tr>
+              <tr><td className="px-3 py-2 border-b">10/29</td><td className="px-3 py-2 border-b">株式会社クオンツ総研ホールディングス／テクノロジーエキスパート</td><td className="px-3 py-2 border-b">港区</td><td className="px-3 py-2 border-b">1,100万円〜（上限応相談）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <ul className="space-y-1 text-sm text-text-secondary list-disc pl-5 mb-3">
+          <li><strong>勤務地：</strong>9件すべてが東京都内（港区・神谷町・八重洲・西新宿・品川）でした。公式トップページの求人例には大阪府の案件もありますが、直近の掲載は東京に集中しています。</li>
+          <li><strong>年収の下限：</strong>350万〜1,100万円と幅があります。上限は900万円から3,000万円まで、求人によって大きく異なります。</li>
+          <li><strong>職種：</strong>AI戦略コンサル・PE投資・事業企画に加え、不動産の資産形成アドバイザーや営業責任者など営業系の求人も含まれます。コンサル特化型エージェントのMyVisionも、ここでは採用企業として掲載されています。</li>
+        </ul>
+        <p className="text-sm text-text-secondary mb-3">
+          あわせて、ワンキャリア転職のNewMAページで在籍エージェントとして表示されている2名の経歴を確認しました。代表の林 健太郎氏（支援実績33件）と、田中 優伎氏（メガバンク系証券会社7年・外資系保険会社2年・金融商品仲介業3年を経て人材紹介の営業に従事。同サイト上の支援実績は「未登録」）です。
+          ワンキャリア転職の求人一覧の1ページ目には、M&amp;Aキャピタルパートナーズ（M&amp;A買収戦略アドバイザー・600万〜1,500万円）、シンプレクス・ホールディングス（ビジネスコンサルタント・600万〜2,500万円）などが表示されていました。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://newma.co.jp/column/" rel="nofollow noopener" target="_blank" className="underline">NewMA公式コラム一覧</a>（1ページ目の9件、全27ページ）、<a href="https://plus.onecareer.jp/agents/19/agent_users/4875" rel="nofollow noopener" target="_blank" className="underline">ワンキャリア転職「田中優伎」プロフィール</a>、<a href="https://plus.onecareer.jp/agents/19/jobs" rel="nofollow noopener" target="_blank" className="underline">ワンキャリア転職「NewMAの求人」</a>（いずれも2026年11月12日確認）。集計は当サイトによるもので、掲載中の求人は随時入れ替わります。応募可否は面談でご確認ください。</p>
 
         <h2>NewMAの利用の流れ</h2>
         <ol className="list-decimal pl-5 space-y-2 text-sm text-text-secondary mb-4">

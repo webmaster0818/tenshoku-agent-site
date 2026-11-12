@@ -129,7 +129,7 @@ export default function Page() {
               MyVision(コンサル特化)の詳細
             </Link>
             <Link href="/review/newma/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
-              NewMAの詳細
+              NewMA(ニューマ)の口コミ・評判
             </Link>
             <Link href="/type/high-class/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ハイクラス向けエージェントまとめ
