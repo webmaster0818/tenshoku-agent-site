@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "出会えるエージェントの運営会社・料金・評判｜3社紹介の仕組みと利用条件【2026年】",
+  title: "出会えるエージェントの運営会社・料金・公式データ｜3社紹介の仕組みと利用条件【2026年】",
   description: "出会えるエージェントはforesma株式会社が運営する転職エージェント紹介サービスです。利用は無料で、15分のオンライン面談後に提携する人材紹介会社3社を紹介します。運営会社・許可番号・対象年齢と地域・利用者の声を公式情報で整理しました。",
   alternates: { canonical: "/review/deaeru-agent/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "出会えるエージェントの運営会社・料金・公式データ｜3社紹介の仕組みと利用条件【2026年】",
+    description: "出会えるエージェント(foresma株式会社運営)の運営会社・料金・対象条件を公式データで整理しています。15分のオンライン面談後に人材紹介会社3社を紹介する仕組みを解説します。",
+  },
 };
 
 const faqData = [
@@ -52,13 +57,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "出会えるエージェントの運営会社・評判" },
+          { name: "出会えるエージェントの運営会社・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            出会えるエージェントの運営会社・料金・評判｜3社紹介の仕組みと利用条件【2026年】
+            出会えるエージェントの運営会社・料金・公式データ｜3社紹介の仕組みと利用条件【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">出会えるエージェントは、foresma株式会社(東京都品川区)が運営する転職エージェント紹介サービスです。求職者は無料で利用でき、15分のオンライン面談で希望を伝えると、提携する人材紹介会社3社の紹介を受けられます。主な対象は20〜34歳で、首都圏・愛知・関西・福岡での勤務を希望する方です。本ページでは、公式サイト・利用規約・運営会社の会社情報(2026年10月30日確認)をもとに整理しています。</p>
         </div>
@@ -124,7 +129,7 @@ export default function Page() {
         </div>
         <p className="text-sm text-text-secondary mb-8">複数の転職エージェントを併用する際の考え方は、<Link href="/knowledge/multiple/" className="text-teal underline">転職エージェントの複数利用</Link>で解説しています。</p>
 
-        <h2>出会えるエージェントの評判(公式サイト掲載の利用者の声10件)</h2>
+        <h2>出会えるエージェントの公式サイト掲載の利用者の声(10件)</h2>
         <p>公式サイトには「サービス利用者アンケートより」として、利用者の声が10件掲載されています(2026年10月30日確認)。各件の内容を当サイトで要約すると次のとおりです。</p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
@@ -146,7 +151,7 @@ export default function Page() {
           </table>
         </div>
         <p className="text-sm text-text-secondary mb-3">当サイトで主な内容ごとに分類すると、担当者の話しやすさ・親身さに触れたものが3件(01・07・09)、強みや職種・今後の進め方の助言に触れたものが5件(03・05・06・08・10)、3社を比較できた点に触れたものが1件(04)、日程連絡に触れたものが1件(02)です。</p>
-        <p className="text-xs text-text-muted mb-8">出典：出会えるエージェント公式サイト「USER VOICES」。公式サイトには「利用者アンケートの高評価コメントから抜粋しています」と注記されているため、否定的な意見は含まれていません。2026年10月30日時点で、当サイトでは本サービスについて件数のまとまった第三者の口コミを確認できていません。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：出会えるエージェント公式サイト「USER VOICES」。公式サイトには「利用者アンケートの高評価コメントから抜粋しています」と注記されているため、否定的な意見は含まれていません。2026年11月13日に当サイトで調査した範囲では、口コミサイト「みん評」「コエテコキャリア」のいずれにも本サービスのページを確認できず、利用者による第三者の評判は確認できていません。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>出会えるエージェントが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">

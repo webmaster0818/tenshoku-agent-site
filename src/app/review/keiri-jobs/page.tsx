@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "経理Jobs(経理ジョブズ)の評判は？経理特化の転職エージェントを解説【2026年】",
+  title: "経理Jobs(経理ジョブズ)の特徴と公式データ｜経理特化の転職エージェントを解説【2026年】",
   description: "経理Jobs(経理ジョブズ)は株式会社ミツカルプロフェッショナルが運営する経理特化の転職エージェントです。経理・財務領域の求人紹介と転職支援を専門に扱います。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/keiri-jobs/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "経理Jobs(経理ジョブズ)の特徴と公式データ｜経理特化の転職エージェントを解説【2026年】",
+    description: "経理Jobs(経理ジョブズ・株式会社ミツカルプロフェッショナル運営)の特徴を公式データで整理しています。経理・財務領域に特化した転職エージェントの内容と、向いている人を解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "経理Jobsの評判・特徴" },
+          { name: "経理Jobsの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            経理Jobs(経理ジョブズ)の評判は？経理特化の転職エージェントを解説【2026年】
+            経理Jobs(経理ジョブズ)の特徴と公式データ｜経理特化の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">経理Jobs(経理ジョブズ)は、株式会社ミツカルプロフェッショナルが運営する経理特化の転職エージェントです。経理・財務領域に対象を絞った専門特化型として、経理人材の転職支援を行っています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
@@ -79,7 +84,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：経理Jobs公式サイト(keiri-jobs.com)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：経理Jobs公式サイト(keiri-jobs.com)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月13日に当サイトで調査した範囲では、口コミサイト「みん評」「コエテコキャリア」のいずれにも経理Jobsのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>経理Jobs(経理ジョブズ)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

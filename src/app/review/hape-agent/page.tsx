@@ -90,6 +90,21 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">実務的な転職ナレッジの公開</h3><p className="text-sm text-text-secondary leading-relaxed">営業職向けの履歴書・職務経歴書テンプレートや転職成功ナレッジを公式サイトで公開しており、登録前から活用できます。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのhape Agentの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のhape Agent（エイプエージェント）のページでは、口コミは1件、総合評価は5点満点中4.5です(項目別ではアドバイザー3.5・書類対策4.0・面接対策4.5・求人の充実度4.5。評点別の区分は★4に1件)。同ページの運営会社欄に株式会社hapeと記載されていることを確認しています。</li>
+            <li>投稿者は20代・サービス業界と表示され、「サービス利用証明済み」の表示があります。</li>
+            <li>件数が1件のため、サービス全体の傾向を示すものではありません。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカード（最大3,000円分）を進呈するキャンペーンを案内しています。口コミサイト「みん評」には、hape Agentのページを確認できませんでした。</li>
+
+          </ul>
+
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/hape-agent" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「hape Agent（エイプエージェント）の評判・口コミ」</a>(2026年11月13日取得)。件数・評価は取得日時点の値です。口コミ本文は転載していません。</p>
+
         <h2>hape Agentが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

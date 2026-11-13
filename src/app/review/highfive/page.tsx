@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "HIGH-FIVE(ハイファイブ)の評判は？クリエイター専門転職エージェントを解説【2026年】",
+  title: "HIGH-FIVE(ハイファイブ)の特徴と公式データ｜クリエイター専門転職エージェントを解説【2026年】",
   description: "HIGH-FIVE(ハイファイブ)はクリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェントです。「量より質」を掲げ、UI/UXデザイナーやWebディレクター等の求人を扱います。特徴を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/highfive/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "HIGH-FIVE(ハイファイブ)の特徴と公式データ｜クリエイター専門転職エージェントを解説【2026年】",
+    description: "HIGH-FIVE(ハイファイブ・クリーク・アンド・リバー社運営)の特徴を公式データで整理しています。「量より質」の紹介方針や対象職種など、デザイナー・クリエイター専門転職エージェントの内容を解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "HIGH-FIVEの評判・特徴" },
+          { name: "HIGH-FIVEの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            HIGH-FIVE(ハイファイブ)の評判は？クリエイター専門転職エージェントを解説【2026年】
+            HIGH-FIVE(ハイファイブ)の特徴と公式データ｜クリエイター専門転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">HIGH-FIVE(ハイファイブ)は、株式会社クリーク・アンド・リバー社が運営するデザイナー・クリエイター専門の転職エージェントです。「量より質。」をコンセプトに、価値観に合う求人・企業だけを紹介するスタイルを掲げています。公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
@@ -80,7 +85,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：HIGH-FIVE公式サイト(high-five.careers)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：HIGH-FIVE公式サイト(high-five.careers)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月13日に当サイトで調査した範囲では、口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)にHIGH-FIVEのページはあるものの口コミの掲載はなく、口コミサイト「みん評」にはHIGH-FIVEのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>HIGH-FIVE(ハイファイブ)の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
