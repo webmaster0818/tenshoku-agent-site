@@ -23,6 +23,14 @@ const guides = [
   { href: "/knowledge/job-history/", title: "転職回数と職歴の見られ方", desc: "何回から気にされるか。コンサルタント243人調査と採用側の本音" },
 ];
 
+const dataGuides = [
+  { href: "/knowledge/tedori-400man/", title: "年収400万円の手取り", desc: "令和8年の税制・保険料率で試算。内訳と年収300万〜500万円との比較" },
+  { href: "/knowledge/tedori-500man/", title: "年収500万円の手取り", desc: "令和8年の税制で試算。国税庁統計で見る年収500万円の位置" },
+  { href: "/knowledge/tedori-600man/", title: "年収600万円の手取り", desc: "年収665万円台で基礎控除が下がり手取りが逆転する境目も試算" },
+  { href: "/knowledge/tedori-1000man/", title: "年収1000万円の手取り", desc: "給与所得控除・厚生年金保険料の上限と、100万円増えたときの手取り" },
+  { href: "/knowledge/annual-holidays-120/", title: "年間休日120日の水準", desc: "厚労省調査で120日以上の企業は39.3%。2026年の土日祝は121日" },
+];
+
 const compares = [
   { href: "/compare/agent-vs-site/", title: "エージェント vs 転職サイト", desc: "12項目で違いを比較します。向いているのはどちらか" },
   { href: "/compare/recruit-vs-doda/", title: "リクルート vs doda", desc: "2大エージェントを10項目で比較" },
@@ -78,6 +86,16 @@ export default function KnowledgeHub() {
         <h2 className="section-title">活用ガイド</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
           {guides.map((g) => (
+            <Link key={g.href} href={g.href} className="card-hover p-5 block">
+              <h3 className="font-bold text-navy mb-1">{g.title}</h3>
+              <p className="text-sm text-text-secondary leading-relaxed">{g.desc}</p>
+            </Link>
+          ))}
+        </div>
+
+        <h2 className="section-title">年収・労働条件のデータ</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
+          {dataGuides.map((g) => (
             <Link key={g.href} href={g.href} className="card-hover p-5 block">
               <h3 className="font-bold text-navy mb-1">{g.title}</h3>
               <p className="text-sm text-text-secondary leading-relaxed">{g.desc}</p>
