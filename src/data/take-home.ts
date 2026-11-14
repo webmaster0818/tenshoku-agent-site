@@ -148,7 +148,7 @@ export const NTA_R7 = {
 
 // 年収（万円）を超える人の割合（例：400 → 400万円超の人の割合）
 export function shareAbove(manYen: number): string {
-  const idx: Record<number, number> = { 100: 1, 200: 2, 300: 3, 400: 4, 500: 5, 600: 6, 700: 7, 800: 8, 900: 9, 1000: 10 };
+  const idx: Record<number, number> = { 100: 1, 200: 2, 300: 3, 400: 4, 500: 5, 600: 6, 700: 7, 800: 8, 900: 9, 1000: 10, 1500: 11, 2000: 12 };
   const i = idx[manYen];
   const s = NTA_R7.bands.slice(i).reduce((a, b) => a + b.n, 0);
   return `${((s / NTA_R7.total) * 100).toFixed(1)}%`;

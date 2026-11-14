@@ -21,6 +21,7 @@ const companies: { slug: string; name: string; salary: string; tag: string; scop
   { slug: "mercari", name: "メルカリ", salary: "1,232万円（有価証券報告書）", tag: "IT" },
   { slug: "fujitsu", name: "富士通", salary: "約1,012万円（有価証券報告書）", tag: "ITサービス" },
   { slug: "ntt", name: "NTT（持株会社）", salary: "約1,056万円（有価証券報告書・持株単体）", tag: "通信" },
+  { slug: "nttdata", name: "NTTデータグループ", salary: "約923万円（2025年3月期有価証券報告書・持株単体）", tag: "ITサービス" },
   { slug: "kddi", name: "KDDI", salary: "約1,051万円（有価証券報告書）", tag: "通信" },
   { slug: "line-yahoo", name: "LINEヤフー", salary: "約902万円（有価証券報告書集計値）", tag: "IT" },
   { slug: "dena", name: "DeNA", salary: "約1,118万円（有価証券報告書）", tag: "IT" },
