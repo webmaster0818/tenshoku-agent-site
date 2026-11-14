@@ -5,9 +5,14 @@ import AgentHero from "@/components/AgentHero";
 import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
-  title: "PIT(ピット)の評判は？若手エンジニア専門の転職アプリ・エージェントを解説【2026年】",
+  title: "PIT(ピット)の特徴と公式データ｜若手エンジニア専門の転職アプリ・エージェントを解説【2026年】",
   description: "PIT(ピット)は株式会社ラストデータが運営する若手エンジニア専門の転職アプリ・転職エージェントです。自社開発・上流工程の求人が豊富で、履歴書なしでカジュアル面談に進める設計が特徴です。公式情報ベースで特徴・向いている人を解説します。利用は無料です。",
   alternates: { canonical: "/review/pit-career/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "PIT(ピット)の特徴と公式データ｜若手エンジニア専門の転職アプリ・エージェントを解説【2026年】",
+    description: "PIT(ピット)は株式会社ラストデータが運営する若手エンジニア専門の転職アプリ・転職エージェントです。自社開発・上流工程の求人が豊富で、履歴書なしでカジュアル面談に進める設計が特徴です。公式情報ベースで特徴・向いている人を解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -45,13 +50,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "PIT(ピット)の評判・特徴" },
+          { name: "PIT(ピット)の特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            PIT(ピット)の評判は？若手エンジニア専門の転職アプリ・エージェントを解説【2026年】
+            PIT(ピット)の特徴と公式データ｜若手エンジニア専門の転職アプリ・エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">PIT(ピット)は、株式会社ラストデータが運営する若手エンジニア専門の転職サービスです。アプリを起点に、自社開発・上流工程の求人紹介やカジュアル面談への接続を行う設計で、エージェント型の転職支援(PITキャリア)も展開しています。この記事では公式サイトで確認できる情報をもとに特徴を整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：PIT公式サイト(pit-job.net)、2026年8月22日確認。App Storeレビュー値・実績表記は公式サイト掲載値です(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：PIT公式サイト(pit-job.net)、2026年8月22日確認。App Storeレビュー値・実績表記は公式サイト掲載値です(注記条件は公式参照)。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「コエテコキャリア」にはPITキャリアのページがありますが、口コミの掲載は確認できませんでした。口コミサイト「みん評」(転職エージェントカテゴリの掲載一覧・Web検索)にはPITのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>PIT(ピット)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

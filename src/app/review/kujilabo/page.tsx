@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "クジラボの評判は？教員・公務員特化のキャリア支援サービスを解説【2026年】",
+  title: "クジラボの特徴と公式データ｜教員・公務員特化のキャリア支援サービスを解説【2026年】",
   description: "クジラボは教員・自治体職員・公安職・看護師・介護福祉職員向けのキャリアプログラムを提供するキャリア支援サービスです。「誰かの正解より自分の納得を」を掲げ、公共系専門職のキャリアの棚卸しを支援しています。特徴を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/kujilabo/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "クジラボの特徴と公式データ｜教員・公務員特化のキャリア支援サービスを解説【2026年】",
+    description: "クジラボは教員・自治体職員・公安職・看護師・介護福祉職員向けのキャリアプログラムを提供するキャリア支援サービスです。「誰かの正解より自分の納得を」を掲げ、公共系専門職のキャリアの棚卸しを支援しています。特徴を公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "クジラボの評判・特徴" },
+          { name: "クジラボの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            クジラボの評判は？教員・公務員特化のキャリア支援サービスを解説【2026年】
+            クジラボの特徴と公式データ｜教員・公務員特化のキャリア支援サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">クジラボ(株式会社クジラボ)は、教員をはじめとする公共系専門職向けのキャリア支援サービスです。教員向け・自治体職員向け・公安職員向け・看護師向け・介護福祉職員向けのキャリアプログラムを展開し、「誰かの正解より、自分の納得を。」を掲げています。一般的な転職エージェント(求人紹介型)ではなく、キャリアプログラム・コーチング型のサービスである点が特徴です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：クジラボ公式サイト(kujilabo.jp)、2026年8月22日確認。プログラムの料金体系・内容の詳細は公式サイト・無料相談でご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：クジラボ公式サイト(kujilabo.jp)、2026年8月22日確認。プログラムの料金体系・内容の詳細は公式サイト・無料相談でご確認ください。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「みん評」(転職エージェントカテゴリの掲載一覧・Web検索)と「コエテコキャリア」(サービス一覧)のいずれにもクジラボのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>クジラボの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">

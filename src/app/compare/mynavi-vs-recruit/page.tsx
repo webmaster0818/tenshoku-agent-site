@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { RECRUIT_JOBS } from "@/data/stats";
+import { MYNAVI_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ const faqJsonLd = {
 
 const comparisonItems = [
   { item: "運営会社", mynavi: "株式会社マイナビ", recruit: "株式会社リクルート" },
-  { item: "公開求人数", mynavi: "非公開（中小〜大手まで幅広く保有）", recruit: `${RECRUIT_JOBS.publicCount}（${RECRUIT_JOBS.asOf}時点）` },
+  { item: "公開求人数", mynavi: `${MYNAVI_JOBS.publicCount}（公式の公開求人検索の表示・${MYNAVI_JOBS.checkedAt}確認）`, recruit: `${RECRUIT_JOBS.publicCount}（${RECRUIT_JOBS.asOf}時点）` },
   { item: "非公開求人", mynavi: "あり（豊富）", recruit: `${RECRUIT_JOBS.privateCount}（${RECRUIT_JOBS.asOf}時点）` },
   { item: "得意な年代", mynavi: "20代・第二新卒・30代前半", recruit: "全年代" },
   { item: "強み", mynavi: "手厚いサポート・20代の転職支援", recruit: "求人数No.1・提案スピード" },

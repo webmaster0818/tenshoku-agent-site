@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "リアルエステートWORKSの評判は？不動産業界特化の転職エージェントを解説【2026年】",
+  title: "リアルエステートWORKSの特徴と公式データ｜不動産業界特化の転職エージェントを解説【2026年】",
   description: "リアルエステートWORKSは不動産業界特化の転職エージェントです。「転職成功者の3人に2人が上場企業へ」「面倒な書類作成が一切不要」と公式に表記しています。不動産営業からPM・BM・AM、建築・設計まで対応しています。公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/realestate-works/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "リアルエステートWORKSの特徴と公式データ｜不動産業界特化の転職エージェントを解説【2026年】",
+    description: "リアルエステートWORKSは不動産業界特化の転職エージェントです。「転職成功者の3人に2人が上場企業へ」「面倒な書類作成が一切不要」と公式に表記しています。不動産営業からPM・BM・AM、建築・設計まで対応しています。公式情報にもとづいて解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "リアルエステートWORKSの評判・特徴" },
+          { name: "リアルエステートWORKSの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            リアルエステートWORKSの評判は？不動産業界特化の転職エージェントを解説【2026年】
+            リアルエステートWORKSの特徴と公式データ｜不動産業界特化の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">リアルエステートWORKSは、不動産業界に特化した利用無料の転職エージェントです。求人紹介から内定まで不動産業界を熟知したキャリアパートナーが一貫サポートすることを掲げ、「転職成功者の3人に2人が上場企業へ」「面倒な書類作成が一切不要」という強みを公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：リアルエステートWORKS公式サイト(realestateworks.jp)、2026年8月22日確認。実績表記は公式サイトの掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：リアルエステートWORKS公式サイト(realestateworks.jp)、2026年8月22日確認。実績表記は公式サイトの掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「みん評」(転職エージェントカテゴリの掲載一覧・Web検索)と「コエテコキャリア」(サービス一覧)のいずれにもリアルエステートWORKSのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>リアルエステートWORKSの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">

@@ -90,6 +90,18 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">イベント・セミナーの豊富さ</h3><p className="text-sm text-text-secondary leading-relaxed">座談会イベントをきっかけにした転職事例が公式サイトで紹介されるなど、企業との接点づくりの場が多いのが大手運営の強みです。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのマイナビクリエイターの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「みん評」のマイナビクリエイターのページでは、口コミは20件、総合評価は5点満点中2.74です(項目別では求人数2.85・担当者2.71・サポート2.75・紹介内容2.81)。</li>
+            <li>同ページの紹介文では、業界出身のアドバイザーによるポートフォリオ作成支援が評価される一方、未経験者には向かない点や、担当者によって対応に差がある点を気にする利用者が多いとまとめられています。</li>
+            <li>20件は投稿者の任意の書き込みであり、利用者全体を代表するものではありません。評点は傾向の目安としてご覧ください。口コミサイト「コエテコキャリア」にもマイナビクリエイターのページがありますが、取得日時点で口コミの掲載は確認できませんでした。</li>
+          </ul>
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/mynavi-creator" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「マイナビクリエイターの口コミ・評判」</a>・<a href="https://coeteco.jp/career/job_change/mynavi-creator" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「マイナビクリエイターの評判・口コミ」</a>(いずれも2026年11月14日取得)。件数・評価は取得日時点の値です。口コミ本文は転載していません。</p>
+
         <h2>マイナビクリエイターが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

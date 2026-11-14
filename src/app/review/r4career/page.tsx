@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "R4CAREERの評判は？名古屋・東海3県特化の転職エージェントを解説【2026年】",
+  title: "R4CAREERの特徴と公式データ｜名古屋・東海3県特化の転職エージェントを解説【2026年】",
   description: "R4CAREER(アールフォーキャリア)は名古屋を拠点に東海3県(愛知・岐阜・三重)特化の転職支援を行う転職エージェントです。書類合格率43.7%(公式表記)、職業紹介許可番号は23-ユ-300807です。特徴・向いている人を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/r4career/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "R4CAREERの特徴と公式データ｜名古屋・東海3県特化の転職エージェントを解説【2026年】",
+    description: "R4CAREER(アールフォーキャリア)は名古屋を拠点に東海3県(愛知・岐阜・三重)特化の転職支援を行う転職エージェントです。書類合格率43.7%(公式表記)、職業紹介許可番号は23-ユ-300807です。特徴・向いている人を公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "R4CAREERの評判・特徴" },
+          { name: "R4CAREERの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            R4CAREERの評判は？名古屋・東海3県特化の転職エージェントを解説【2026年】
+            R4CAREERの特徴と公式データ｜名古屋・東海3県特化の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">R4CAREERは、株式会社R4CAREERが運営する名古屋拠点の転職エージェントです。東海三県(愛知・岐阜・三重)に特化した求人で転職支援を行い、「ぴったり転職」の実現を掲げています。書類合格率43.7%と公式に表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -82,7 +87,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：R4CAREER公式サイト(r4career.co.jp)、2026年8月22日確認。書類合格率は公式サイトの掲載値です。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：R4CAREER公式サイト(r4career.co.jp)、2026年8月22日確認。書類合格率は公式サイトの掲載値です。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「みん評」(転職エージェントカテゴリの掲載一覧・Web検索)と「コエテコキャリア」(サービス一覧)のいずれにもR4CAREERのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>R4CAREERの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">

@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "歯科医師求人ナビ(PECORI)の評判は？歯科医師専門の転職エージェントを解説【2026年】",
+  title: "歯科医師求人ナビ(PECORI)の特徴と公式データ｜歯科医師専門の転職エージェントを解説【2026年】",
   description: "歯科医師求人ナビは株式会社PECORIが運営する歯科医師専門の転職サイト・エージェントです。歯科業界専門で7年の実績を掲げ、歯科衛生士向け「歯科転職ナビ」・介護向けサービスも展開しています。特徴を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/shika-agent/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "歯科医師求人ナビ(PECORI)の特徴と公式データ｜歯科医師専門の転職エージェントを解説【2026年】",
+    description: "歯科医師求人ナビは株式会社PECORIが運営する歯科医師専門の転職サイト・エージェントです。歯科業界専門で7年の実績を掲げ、歯科衛生士向け「歯科転職ナビ」・介護向けサービスも展開しています。特徴を公式情報にもとづいて解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "歯科医師求人ナビの評判・特徴" },
+          { name: "歯科医師求人ナビの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            歯科医師求人ナビ(PECORI)の評判は？歯科医師専門の転職エージェントを解説【2026年】
+            歯科医師求人ナビ(PECORI)の特徴と公式データ｜歯科医師専門の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">歯科医師求人ナビは、株式会社PECORIが運営する歯科医師専門の転職サービスです。PECORIは「医療人材不足、待機児童問題」の解決を掲げる医療人材ベンチャーで、歯科衛生士専門の「歯科転職ナビ」、介護専門の「介護求人pecori」も展開しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：株式会社PECORI公式サイト(pecori.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：株式会社PECORI公式サイト(pecori.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「みん評」(転職エージェントカテゴリの掲載一覧・Web検索)と「コエテコキャリア」(サービス一覧)のいずれにも歯科医師求人ナビのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>歯科医師求人ナビ(PECORI)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

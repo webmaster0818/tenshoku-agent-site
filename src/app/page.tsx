@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BIZREACH_JOBS, DODA_JOBS, JAC_JOBS, RECRUIT_JOBS } from "@/data/stats";
+import { BIZREACH_JOBS, DODA_JOBS, JAC_JOBS, MYNAVI_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import TopMotion from "@/components/TopMotion";
 
 export const metadata: Metadata = {
@@ -52,7 +52,7 @@ const agents = [
   {
     rank: 3,
     name: "マイナビ転職エージェント",
-    jobs: "非公開求人多数",
+    jobs: `公開${MYNAVI_JOBS.publicCount}（公式の公開求人検索の表示・当サイトが${MYNAVI_JOBS.checkedAt}に確認）`,
     strength: "IT・メーカー・営業",
     age: "20代〜30代前半",
     feature: "20代・第二新卒に強く、手厚いサポートが特徴です。初めての転職に適しています。",

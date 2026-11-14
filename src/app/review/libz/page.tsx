@@ -89,6 +89,18 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">働き方重視の転職に適した設計</h3><p className="text-sm text-text-secondary leading-relaxed">リモート・時短などの柔軟な働き方を条件として提示しやすく、条件を曲げずに合う企業を待つ使い方ができます。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのLIBZ(リブズ)の評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のLIBZ（旧:リブズキャリア）のページでは、口コミは2件、総合評価は5点満点中3.5です(項目別ではアドバイザー4.5・書類対策3.8・面接対策3.5・求人の充実度3.3。評点別の区分は2件とも★3)。同ページのURLが公式サイトと同じ「career-prismy」であることを確認しています。</li>
+            <li>投稿者は20代・IT・メディア業界と30代・IT・メディア業界の各1件で、いずれも「サービス利用証明済み」の表示があります。</li>
+            <li>件数が2件のため、サービス全体の傾向を示すものではありません。コエテコキャリアは、口コミの投稿者にAmazonギフトカードを進呈するキャンペーンを案内しています。口コミサイト「みん評」には、LIBZのページを確認できませんでした(転職エージェントカテゴリの掲載一覧とWeb検索で確認)。</li>
+          </ul>
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/career-prismy" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「LIBZ（旧:リブズキャリア）の評判・口コミ」</a>(2026年11月14日取得)。件数・評価は取得日時点の値です。口コミ本文は転載していません。</p>
+
         <h2>LIBZ(リブズ)が向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">

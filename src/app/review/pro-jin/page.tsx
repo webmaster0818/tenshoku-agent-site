@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "@PRO人(アットプロジン)の評判は？IT専門転職エージェントを解説【2026年】",
+  title: "@PRO人(アットプロジン)の特徴と公式データ｜IT専門転職エージェントを解説【2026年】",
   description: "@PRO人(アットプロジン・株式会社エスアイアイー運営)はIT・Web・ゲーム専門の転職エージェントです。「たくさんの求人はいらない。私のための求人があればいい」を掲げる提案型・厳選紹介スタイルで、未経験者向けの窓口もあります。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/pro-jin/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "@PRO人(アットプロジン)の特徴と公式データ｜IT専門転職エージェントを解説【2026年】",
+    description: "@PRO人(アットプロジン・株式会社エスアイアイー運営)はIT・Web・ゲーム専門の転職エージェントです。「たくさんの求人はいらない。私のための求人があればいい」を掲げる提案型・厳選紹介スタイルで、未経験者向けの窓口もあります。公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "@PRO人の評判・特徴" },
+          { name: "@PRO人の特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            @PRO人(アットプロジン)の評判は？IT専門転職エージェントを解説【2026年】
+            @PRO人(アットプロジン)の特徴と公式データ｜IT専門転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">@PRO人(アットプロジン)は、株式会社エスアイアイーが運営するIT専門の転職エージェントです。「たくさんの求人はいらない。私のための求人があればいい。」をキャッチコピーに、大量紹介ではなく徹底したヒアリングからの提案型支援をモットーとしています。未経験者向けの登録窓口も用意されています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：@PRO人公式LP(jobcareer.jp/lp/agent-projin)、2026年8月22日確認。3部門最高評価等の表記は日本コンシューマーリサーチのWEB上イメージ調査(2022年10月・111名対象)にもとづく公式掲載であり、実利用者の実績調査ではない点にご留意ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：@PRO人公式LP(jobcareer.jp/lp/agent-projin)、2026年8月22日確認。3部門最高評価等の表記は日本コンシューマーリサーチのWEB上イメージ調査(2022年10月・111名対象)にもとづく公式掲載であり、実利用者の実績調査ではない点にご留意ください。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「みん評」(転職エージェントカテゴリの掲載一覧・Web検索)と「コエテコキャリア」(サービス一覧)のいずれにも@PRO人のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>IT転職 AGENT @PRO人の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

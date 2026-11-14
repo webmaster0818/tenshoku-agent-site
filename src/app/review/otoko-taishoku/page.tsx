@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "男の退職代行の評判は？男性専門の退職代行サービスを解説【2026年】",
+  title: "男の退職代行の特徴と公式データ｜男性専門の退職代行サービスを解説【2026年】",
   description: "男の退職代行(労働組合toNEXTユニオン運営)は日本初を掲げる男性専門の退職代行サービスです。成功率100%・男性退職代行サービス3冠(いずれも公式表記)を掲げ、労働組合運営のため交渉が可能で、即日退職にも対応しています。仕組みと注意点を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/otoko-taishoku/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "男の退職代行の特徴と公式データ｜男性専門の退職代行サービスを解説【2026年】",
+    description: "男の退職代行(労働組合toNEXTユニオン運営)は日本初を掲げる男性専門の退職代行サービスです。成功率100%・男性退職代行サービス3冠(いずれも公式表記)を掲げ、労働組合運営のため交渉が可能で、即日退職にも対応しています。仕組みと注意点を公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "男の退職代行の評判・特徴" },
+          { name: "男の退職代行の特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            男の退職代行の評判は？男性専門の退職代行サービスを解説【2026年】
+            男の退職代行の特徴と公式データ｜男性専門の退職代行サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">男の退職代行は、労働組合toNEXTユニオンが運営する男性専門の退職代行サービスです。「日本初！男性専門の退職代行サービス」を掲げ、成功率100%・男性退職代行サービス3冠(対応スピード・20代30代男性が選ぶ・顧客満足度)を公式に表記しています。女性向けの「わたしNEXT」と同じ労働組合の運営です。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：男の退職代行公式サイト(otoko-next.jp)、2026年8月22日確認。成功率・No.1表記は公式サイトに掲載されています(調査注記は公式サイトをご参照ください)。料金は公式サイトでご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：男の退職代行公式サイト(otoko-next.jp)、2026年8月22日確認。成功率・No.1表記は公式サイトに掲載されています(調査注記は公式サイトをご参照ください)。料金は公式サイトでご確認ください。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月14日に当サイトで調査した範囲では、口コミサイト「みん評」(Web検索)と「コエテコキャリア」(転職サービスのサービス一覧)のいずれにも男の退職代行のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>男の退職代行の特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">
