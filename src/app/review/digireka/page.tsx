@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/digireka/" },
   title: "デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】",
   description:
-    "デジレカ（株式会社マルニ運営）の口コミ・評判を出典とともに整理しています。マーケ経験者の担当、面談後決定率40%（公称）、面接対策5〜10回以上、未経験者向け無料講座、利用の流れ・退会方法・注意点まで公式情報にもとづいて解説します（2026年10月確認）。利用は無料です。",
+    "デジレカ（株式会社マルニ運営）の口コミ・評判を出典とともに整理しています。マーケ経験者の担当、面談後決定率40%（公称）、面接対策5〜10回以上、未経験者向け無料講座、利用の流れ・退会方法・注意点まで公式情報にもとづいて解説します（2026年11月確認）。利用は無料です。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】",
@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】",
-  dateModified: "2026-10-28",
+  dateModified: "2026-11-14",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/digireka/" },
@@ -60,6 +60,14 @@ const faqData = [
   {
     q: "紹介された企業に応募しないといけない？しつこく勧められる？",
     a: "公式Q&Aでは、紹介された企業に「応募する必要はまったくありません」と明記されており、納得できる企業・ポジションにだけ応募すればよいとしています。登録後はメールまたは電話で連絡が来る流れです。不要になった場合は、利用規約（第8条）に基づき所定の退会手続きで退会でき、退会すると会員情報は削除されると定められています。",
+  },
+  {
+    q: "デジレカの求人数はどのくらいですか？",
+    a: "デジレカ公式サイトには求人数の記載がありません（2026年11月14日確認）。運営会社の株式会社マルニは、自社の転職支援サイト（マルニキャリア）で「少数精鋭で運営しているサービスなので、求人総数では大手エージェント様の足元にも及びません」と説明し、その代わりに独自案件の保有率と選考通過率を強みとしています。求人の数を比べたい場合は、総合型エージェントとの併用をおすすめします。",
+  },
+  {
+    q: "「年間2000人以上」「面談後決定率40%」は公的なデータで確認できますか？",
+    a: "確認できません。厚生労働省の人材サービス総合サイトでは、株式会社マルニ（許可番号13-ユ-312608）の就職者数・離職者数の欄が令和2年度〜令和7年度のすべてで「-」表示、手数料・返戻金制度の欄が「未」表示となっており、数値は掲載されていません（2026年11月14日確認）。いずれの数値もデジレカの公称値として参考にとどめることをおすすめします。",
   },
   {
     q: "「面談後決定率40%」とはどういう意味ですか？",
@@ -101,7 +109,7 @@ export default function DigirekaReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             デジレカの口コミ・評判は？マーケティング職特化の転職エージェントを解説【2026年10月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年10月28日（口コミの掲載状況・公式サイトの転職事例・会社概要を再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月14日（口コミの掲載状況・公式サイト・運営会社サイト・厚生労働省の許可情報を確認）</p>
           <p className="text-text-secondary leading-relaxed">
             デジレカは、株式会社マルニが運営するマーケティング領域特化型の転職エージェントです。
             広告運用・デジタルマーケティング・デジタルプランナー・コンサルタント・ディレクターといった職種を対象に、
@@ -111,15 +119,17 @@ export default function DigirekaReview() {
         </div>
 
         <div className="bg-white rounded-2xl p-5 sm:p-6 mb-8 border-2 border-teal/30">
-          <p className="font-bold text-navy text-lg mb-3">デジレカの口コミ・評判の調査結果（2026年10月28日確認）</p>
+          <p className="font-bold text-navy text-lg mb-3">デジレカの口コミ・評判の調査結果（2026年11月14日更新）</p>
           <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5">
             <li><strong>第三者の公開口コミはごく少数です。</strong>口コミサイトやSNSで利用者本人の投稿と判別できる口コミは少なく、件数・平均点を示せる量はありません。</li>
             <li><strong>検索上位の口コミ記事4本に掲載された口コミは、すべて公式サイト掲載の転職事例と同じ内容でした。</strong>悪い口コミを掲載した記事は0本です（当サイトで集計）。</li>
             <li><strong>公式掲載の転職事例3件で評価されている点</strong>は、キャリアの選択肢を広げる提案、一貫したキャリア戦略の提示、未経験者への業界構造の説明の3点です。</li>
             <li><strong>注意点</strong>は、対象がマーケティング職に限られること、求人数が非公表であること、未経験者は職歴・年齢などにより制約があると公式Q&Aに明記されていることです。</li>
+            <li><strong>2026年11月14日の再調査</strong>でも、第三者サイトで利用者本人の口コミは新たに確認できませんでした（みん評はアクセス拒否、コエテコはアクセス制限のため閲覧できず）。公式サイトの転職事例・Q&A・会社概要は10月28日から変更ありません。</li>
+            <li><strong>厚生労働省の人材サービス総合サイト</strong>では、許可年月日は2020年11月1日で、就職者数などの実績欄は数値の掲載がありません。「年間2000人以上」「面談後決定率40%」は公的データで裏付けを確認できない公称値です。</li>
           </ul>
           <p className="text-xs text-text-muted mt-3">
-            詳しくは<a href="#reviews" className="underline">口コミ・評判の出典と内訳</a>をご覧ください。運営会社・許可番号は2026年10月28日に公式の会社概要で確認しています。
+            詳しくは<a href="#reviews" className="underline">口コミ・評判の出典と内訳</a>と<a href="#public-data" className="underline">公的データ・運営会社サイトで確認した情報</a>をご覧ください。運営会社・許可番号は2026年11月14日に公式の会社概要と厚生労働省の人材サービス総合サイトで確認しています。
           </p>
         </div>
 
@@ -168,7 +178,7 @@ export default function DigirekaReview() {
         </div>
 
         {/* 基本データ */}
-        <h2>デジレカの基本データ・運営会社【2026年10月28日確認】</h2>
+        <h2>デジレカの基本データ・運営会社【2026年11月14日確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -176,20 +186,20 @@ export default function DigirekaReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社マルニ</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都世田谷区三宿1-14-8 三宿バドスクエア101号室</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">若林 一平</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">公式サイトに記載なし</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2020年7月17日（運営会社サイトの会社概要に記載。デジレカ公式サイトには記載なし）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金</th><td className="px-3 py-2 border-b">500万円</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">事業内容</th><td className="px-3 py-2 border-b">webメディア運営・HRコンサルティング・デジタルマーケティング業界専門中途人材紹介事業</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">厚生労働大臣許可 13-ユ-312608</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">有料職業紹介事業許可番号</th><td className="px-3 py-2 border-b">厚生労働大臣許可 13-ユ-312608（許可年月日 2020年11月1日・厚生労働省の人材サービス総合サイトで確認）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象職種</th><td className="px-3 py-2 border-b">広告運用・デジタルマーケティング・デジタルプランナー・コンサルタント・ディレクター（チームリーダー〜マネージャー・事業部長・役員クラスまで）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象者</th><td className="px-3 py-2 border-b">マーケティング職の経験者・未経験者（年齢・地域の条件は公式サイトに明記なし）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">面談方法</th><td className="px-3 py-2 border-b">対面／電話／オンライン（Zoom、Google Meetなど）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公式サイトに記載なし（クローズド案件の保有は公表）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公式サイトに記載なし（クローズド案件の保有は公表。運営会社は「求人総数では大手エージェント様の足元にも及びません」と説明）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／求人紹介／面接対策・模擬面接／条件交渉支援／入社後フォロー</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（企業側の成功報酬モデル）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：デジレカ公式サイト（<a href="https://digireka.jp/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp</a>）・会社概要（<a href="https://digireka.jp/company/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp/company/</a>）・利用規約（digireka.jp/terms/）。会社概要（運営会社・所在地・代表者・資本金・事業内容・許可番号）は2026年10月28日、面談方法・サポート内容・利用規約は2026年10月14日に確認しました。設立年月日・求人数は公式サイトに記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：デジレカ公式サイト（<a href="https://digireka.jp/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp</a>）・会社概要（<a href="https://digireka.jp/company/" rel="nofollow noopener" target="_blank" className="underline">digireka.jp/company/</a>）・利用規約（digireka.jp/terms/）。会社概要（運営会社・所在地・代表者・資本金・事業内容・許可番号）と面談方法は2026年11月14日、サポート内容・利用規約は2026年10月14日に確認しました。設立年月日は運営会社サイト（<a href="https://career.maruni.work/company/" rel="nofollow noopener" target="_blank" className="underline">career.maruni.work/company/</a>）、許可年月日は厚生労働省の人材サービス総合サイトで2026年11月14日に確認しました。求人数はいずれにも記載がないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 特徴解説 */}
         <h2>デジレカの特徴（公式の公表情報より）</h2>
@@ -232,9 +242,9 @@ export default function DigirekaReview() {
         </div>
 
         {/* 口コミ・評判 */}
-        <h2 id="reviews">デジレカの口コミ・評判の傾向（出典あり）</h2>
+        <h2 id="reviews">デジレカの口コミ・評判の傾向（出典あり・2026年11月14日再調査）</h2>
         <p>
-          デジレカの口コミ・評判を、口コミサイト（みん評・転職会議・OpenWorkなど）やX（旧Twitter）の公開投稿を対象にWeb検索で調べました（2026年10月14日・10月28日確認）。
+          デジレカの口コミ・評判を、口コミサイト（みん評・転職会議・OpenWorkなど）やX（旧Twitter）の公開投稿を対象にWeb検索で調べました（2026年10月14日・10月28日・11月14日確認。11月14日はみん評がアクセス拒否、コエテコがアクセス制限のため個別ページを閲覧できませんでした）。
           その結果、<strong>利用者本人の投稿と判別できる公開口コミは確認できた範囲ではごく少数</strong>で、件数や平均点を示せるほどの量はありませんでした。
           マーケティング職に絞った比較的小規模な特化型サービスのため、大手総合型エージェントのように口コミが大量に集まる状況ではありません。
           当サイトでは架空の体験談や独自の点数は掲載せず、以下は「公式に公表された事実から読める評価ポイント」として整理しています。
@@ -301,6 +311,7 @@ export default function DigirekaReview() {
               <li>担当者がマーケティング企業・広告代理店などの出身で、現役でマーケティング業務に関わっています（職種の話が通じやすい体制です）。</li>
               <li>求職者と企業の両方を同一担当者が担当しています（企業側の実情を聞きやすい体制です）。</li>
               <li>紹介企業への応募は不要と明言しており、X公式アカウントでも「無理に転職をすすめたりはしません」と発信しています。</li>
+              <li>紹介数（転職数）をKPIに置いていないと公式サイトで明記しています（2026年11月14日確認）。</li>
               <li>場合により面接対策を5回〜10回以上実施しており、未経験者向けに約1時間半の無料講座も設けています。</li>
             </ul>
           </div>
@@ -324,8 +335,46 @@ export default function DigirekaReview() {
           </p>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          出典：みん評・転職会議・OpenWork・X（旧Twitter）の公開口コミを当サイトが2026年10月14日・10月28日にWeb検索で確認しました（利用者本人の投稿と判別できる口コミはごく少数のため、件数・平均点は掲載していません）。
+          出典：みん評・転職会議・OpenWork・X（旧Twitter）の公開口コミを当サイトが2026年10月14日・10月28日・11月14日にWeb検索で確認しました（利用者本人の投稿と判別できる口コミはごく少数のため、件数・平均点は掲載していません）。
           転職事例・紹介先企業の声はデジレカ公式サイトのトップページ（2026年10月28日確認）、その他の事実情報は会社概要・利用規約・公式Xアカウントです（2026年10月14日確認）。他社の口コミ記事は掲載状況の集計にのみ使用し、口コミの出典にはしていません。
+        </p>
+
+        {/* 公的データ・運営会社サイト */}
+        <h2 id="public-data">公的データと運営会社サイトで確認したデジレカの情報【2026年11月14日確認】</h2>
+        <p>
+          口コミが少ないサービスのため、当サイトでは評判を判断する材料として、厚生労働省の公開データと運営会社（株式会社マルニ）のサイトを確認しました。
+          いずれも誰でも閲覧できる公開情報です。
+        </p>
+        <h3 className="font-bold text-navy mb-2">厚生労働省「人材サービス総合サイト」の掲載内容</h3>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border-collapse">
+            <tbody>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-40">許可番号</th><td className="px-3 py-2 border-b">13-ユ-312608（事業主・事業所名称：株式会社マルニ）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">許可年月日</th><td className="px-3 py-2 border-b">2020年11月1日（令和2年11月1日）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">取扱職種・地域</th><td className="px-3 py-2 border-b">全職種・国内（許可上の範囲。デジレカ自体はマーケティング領域に特化しています）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">就職者数・離職者数</th><td className="px-3 py-2 border-b">令和2年度〜令和7年度のすべてで「-」表示（数値の掲載なし）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">手数料・返戻金制度</th><td className="px-3 py-2 border-b">いずれも「未」表示</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-6">
+          職業安定法第32条の16第3項にもとづき、職業紹介事業者は就職者数・離職者数などの情報を提供することとされており、人材サービス総合サイトにはその欄が設けられています。
+          デジレカは「年間2000人以上に選ばれる」「面談後決定率40%」と公表していますが、この公的データからは裏付けを確認できませんでした。
+          数値は公称値として参考にとどめ、面談時に実績の内訳を確認することをおすすめします。
+        </p>
+        <h3 className="font-bold text-navy mb-2">運営会社サイト（マルニキャリア）で公表されている内容</h3>
+        <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5 mb-3">
+          <li><strong>設立</strong>：2020年7月17日。事業内容は有料職業紹介事業・採用コンサルティング・採用クリエイティブ開発などで、デジレカは同社のメディア事業として紹介されています。</li>
+          <li><strong>コンサルタント</strong>：コンサルタント紹介ページには代表コンサルタントの若林一平氏とシニアコンサルタントの笠原玄太氏の2名が掲載されています（転職事例の絞り込みには丸本翔一氏を含む3名の名前があります）。デジレカ公式の転職事例に登場する担当者「笠原さん」「若林さん」と名前が一致します。</li>
+          <li><strong>求人数について</strong>：「少数精鋭で運営しているサービスなので、求人総数では大手エージェント様の足元にも及びません」と明記し、独自案件の保有率と選考通過率を強みとしています。</li>
+          <li><strong>転職事例</strong>：運営会社サイトには転職事例が10件掲載されています（広告制作会社から大手広告代理店のプランナー、大手広告代理店から大手コンサルティングファームなど）。デジレカ公式の事例と同じく運営会社の掲載で、第三者の口コミではありません。</li>
+        </ul>
+        <p className="text-sm text-text-secondary mb-3">
+          また、デジレカ公式サイトでは、紹介数（転職数）をKPIに置いていないこと、紹介先企業から成功報酬を得ていることを明記しています。
+          担当者の顔ぶれと方針が公開されている点は、口コミの少なさを補う判断材料になります。一方で担当者が少人数のため、担当者との相性が合わない場合の選択肢は大手より限られると考えられます。
+        </p>
+        <p className="text-xs text-text-muted mb-8">
+          出典：厚生労働省 人材サービス総合サイト 職業紹介事業詳細（許可番号13-ユ-312608・令和8年11月1日現在の表示）、株式会社マルニ 運営会社サイト（<a href="https://career.maruni.work/" rel="nofollow noopener" target="_blank" className="underline">career.maruni.work</a>：会社情報・コンサルタント紹介・転職事例）、デジレカ公式サイトのトップページ。いずれも2026年11月14日に確認しました。
         </p>
 
         {/* 利用の流れ */}
