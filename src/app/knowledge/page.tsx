@@ -24,6 +24,7 @@ const guides = [
 ];
 
 const dataGuides = [
+  { href: "/knowledge/tedori-300man/", title: "年収300万円の手取り", desc: "令和8年の税制で試算。住民税が所得税を上回る理由と入社1年目の手取り" },
   { href: "/knowledge/tedori-400man/", title: "年収400万円の手取り", desc: "令和8年の税制・保険料率で試算。内訳と年収300万〜500万円との比較" },
   { href: "/knowledge/tedori-500man/", title: "年収500万円の手取り", desc: "令和8年の税制で試算。国税庁統計で見る年収500万円の位置" },
   { href: "/knowledge/tedori-600man/", title: "年収600万円の手取り", desc: "年収665万円台で基礎控除が下がり手取りが逆転する境目も試算" },
@@ -33,6 +34,10 @@ const dataGuides = [
   { href: "/knowledge/tedori-2000man/", title: "年収2000万円の手取り", desc: "所得税33%の区分・保険料の上限・2,000万円超の確定申告" },
   { href: "/knowledge/tedori-gesshu-18man/", title: "手取り18万円の額面", desc: "必要な額面月給と年収を逆算。手取り16万〜25万円の早見表つき" },
   { href: "/knowledge/annual-holidays-120/", title: "年間休日120日の水準", desc: "厚労省調査で120日以上の企業は39.3%。2026年の土日祝は121日" },
+  { href: "/knowledge/gesshu-30man-tedori/", title: "月収30万円の手取り", desc: "額面月収30万円の手取りと内訳。月収25万〜40万円の早見表つき" },
+  { href: "/knowledge/annual-holidays-105/", title: "年間休日105日の水準", desc: "1日8時間勤務で法律上ほぼ下限の日数。2026年の土日は104日" },
+  { href: "/knowledge/zangyo-average/", title: "残業時間の平均", desc: "毎月勤労統計で一般労働者は月13.2時間。業種別一覧と36協定の上限" },
+  { href: "/knowledge/salary-30sai/", title: "30歳の平均年収", desc: "国税庁統計で30〜34歳は462万円。男女別・前後の年齢との比較" },
 ];
 
 const compares = [
