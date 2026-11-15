@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "オイシルキャリアの評判は？スーパー・生鮮業界特化の転職サービスを解説【2026年】",
+  title: "オイシルキャリアの特徴と公式データ｜スーパー・生鮮業界特化の転職サービスを解説【2026年】",
   description: "オイシルキャリア(株式会社オイシル運営)はスーパー・生鮮業界特化の求人サイト・転職支援サービスです。全国の求人を扱い、LINEでの無料転職相談に対応しています。有料職業紹介事業許可番号は13-ユ-314489です。特徴を公式情報ベースで解説します。",
   alternates: { canonical: "/review/oishiru-career/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "オイシルキャリアの特徴と公式データ｜スーパー・生鮮業界特化の転職サービスを解説【2026年】",
+    description: "オイシルキャリア(株式会社オイシル運営)はスーパー・生鮮業界特化の求人サイト・転職支援サービスです。全国の求人を扱い、LINEでの無料転職相談に対応しています。有料職業紹介事業許可番号は13-ユ-314489です。特徴を公式情報ベースで解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "オイシルキャリアの評判・特徴" },
+          { name: "オイシルキャリアの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            オイシルキャリアの評判は？スーパー・生鮮業界特化の転職サービスを解説【2026年】
+            オイシルキャリアの特徴と公式データ｜スーパー・生鮮業界特化の転職サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">オイシルキャリアは、株式会社オイシルが運営するスーパー・生鮮業界特化の求人サイト・転職支援サービスです。スーパーマーケット・生鮮部門(精肉・鮮魚・青果等)の経験者を主対象に、全国の求人を扱いLINEでの無料転職相談にも対応しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -82,7 +87,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：オイシルキャリア公式サイト(oishiru-career.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：オイシルキャリア公式サイト(oishiru-career.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月15日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索・転職エージェントカテゴリの掲載一覧)と「コエテコキャリア」(サービス一覧全20ページ・390サービス)のいずれにもオイシルキャリアのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>オイシルキャリアの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

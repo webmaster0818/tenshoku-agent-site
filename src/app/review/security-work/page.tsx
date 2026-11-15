@@ -3,9 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "セキュリティーワークの評判は？警備員専門の求人・転職サイトを解説【2026年】",
+  title: "セキュリティーワークの特徴と公式データ｜警備員専門の求人・転職サイトを解説【2026年】",
   description: "0120-753-053はセキュリティーワーク(株式会社ミライユ運営・警備員専門の求人サイト)の無料電話相談窓口です(平日9:30〜18:30)。施設警備・交通誘導・機械警備の求人を全国掲載し、60歳以上活躍中・日払い週払い可などの条件検索に対応しています。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/security-work/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "セキュリティーワークの特徴と公式データ｜警備員専門の求人・転職サイトを解説【2026年】",
+    description: "0120-753-053はセキュリティーワーク(株式会社ミライユ運営・警備員専門の求人サイト)の無料電話相談窓口です(平日9:30〜18:30)。施設警備・交通誘導・機械警備の求人を全国掲載し、60歳以上活躍中・日払い週払い可などの条件検索に対応しています。公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -47,13 +52,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "セキュリティーワークの評判・特徴" },
+          { name: "セキュリティーワークの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            セキュリティーワークの評判は？警備員専門の求人・転職サイトを解説【2026年】
+            セキュリティーワークの特徴と公式データ｜警備員専門の求人・転職サイトを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">セキュリティーワークは、株式会社ミライユが運営する警備員・警備スタッフ専門の求人・転職サイトです。施設警備・交通誘導警備・機械警備の業務内容別、「60歳以上活躍中」「日払い・週払い可」「正社員登用制度あり」などのこだわり条件別に全国の警備求人を検索できます。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -90,7 +95,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：セキュリティーワーク公式サイト(securityguard-work.com)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：セキュリティーワーク公式サイト(securityguard-work.com)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月15日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索・仕事探し/バイト探しサイトカテゴリの掲載一覧)と「コエテコキャリア」(サービス一覧全20ページ・390サービス)のいずれにもセキュリティーワークのページを確認できませんでした。サービス名と公式ドメイン名でのWeb検索でも、第三者の口コミサイトに評判のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>セキュリティーワークの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

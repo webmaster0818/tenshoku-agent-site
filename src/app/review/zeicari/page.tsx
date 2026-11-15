@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "ゼイキャリの評判は？税理士業界特化のハイクラス転職エージェントを解説【2026年】",
+  title: "ゼイキャリの特徴と公式データ｜税理士業界特化のハイクラス転職エージェントを解説【2026年】",
   description: "ゼイキャリ(マルゴト株式会社運営)は税理士業界特化のハイクラス転職エージェントです。年収600〜1,500万円の厳選求人、国内大手税理士法人代表からの推薦、業務委託案件の取扱いが特徴です。公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/zeicari/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "ゼイキャリの特徴と公式データ｜税理士業界特化のハイクラス転職エージェントを解説【2026年】",
+    description: "ゼイキャリ(マルゴト株式会社運営)は税理士業界特化のハイクラス転職エージェントです。年収600〜1,500万円の厳選求人、国内大手税理士法人代表からの推薦、業務委託案件の取扱いが特徴です。公式情報にもとづいて解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "ゼイキャリの評判・特徴" },
+          { name: "ゼイキャリの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            ゼイキャリの評判は？税理士業界特化のハイクラス転職エージェントを解説【2026年】
+            ゼイキャリの特徴と公式データ｜税理士業界特化のハイクラス転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">ゼイキャリは、マルゴト株式会社が運営する税理士業界特化のハイクラス転職エージェントです。「プロフェッショナルにこそ、選べる未来がある。」を掲げ、国内大手税理士法人・会計事務所を中心とした年収600〜1,500万円のハイクラス求人を扱います。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -82,7 +87,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：ゼイキャリ公式LP(zei-career.jp/lp01)、2026年8月22日確認。推薦コメントは公式サイトに掲載されているものです。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：ゼイキャリ公式LP(zei-career.jp/lp01)、2026年8月22日確認。推薦コメントは公式サイトに掲載されているものです。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月15日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索・転職エージェントカテゴリの掲載一覧)と「コエテコキャリア」(サービス一覧全20ページ・390サービス)のいずれにもゼイキャリのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>ゼイキャリの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">

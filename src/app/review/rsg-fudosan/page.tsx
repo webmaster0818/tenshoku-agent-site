@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "RSGの評判は？建設・不動産専門の転職エージェントを解説【2026年】",
+  title: "RSGの特徴と公式データ｜建設・不動産専門の転職エージェントを解説【2026年】",
   description: "株式会社RSGは建設・不動産専門の人材紹介・転職支援会社です。収入UP率99.4%・月収/年収1.2倍〜1.5倍(いずれも公式表記)を掲げ、業界経験者のキャリアアップ転職を支援しています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/rsg-fudosan/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "RSGの特徴と公式データ｜建設・不動産専門の転職エージェントを解説【2026年】",
+    description: "株式会社RSGは建設・不動産専門の人材紹介・転職支援会社です。収入UP率99.4%・月収/年収1.2倍〜1.5倍(いずれも公式表記)を掲げ、業界経験者のキャリアアップ転職を支援しています。特徴・向いている人を公式情報にもとづいて解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "RSGの評判・特徴" },
+          { name: "RSGの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            RSGの評判は？建設・不動産専門の転職エージェントを解説【2026年】
+            RSGの特徴と公式データ｜建設・不動産専門の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">RSG(株式会社RSG)は、建設・不動産業界専門の人材紹介・転職支援会社です。「はたらくを輝きに。社会を豊かに。」を掲げ、収入UP率99.4%・月収/年収1.2倍〜1.5倍へという実績を公式サイトで表記しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：RSG公式サイト(rsg-c.jp)、2026年8月22日確認。収入UP率等は公式サイト掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：RSG公式サイト(rsg-c.jp)、2026年8月22日確認。収入UP率等は公式サイト掲載値です(注記条件は公式サイトをご参照ください)。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月15日に当サイトで調査した範囲では、口コミサイト「コエテコキャリア」にRSGの「RSG不動産転職」「RSG建設転職」のページがありますが、いずれも口コミは掲載されていませんでした。口コミサイト「みん評」(サイト内検索・転職エージェントカテゴリの掲載一覧)にはRSGのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>RSG(建設・不動産転職)の特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "トキハナキャリアの評判は？結婚・ライフステージ特化の転職支援サービスを解説【2026年】",
+  title: "トキハナキャリアの特徴と公式データ｜結婚・ライフステージ特化の転職支援サービスを解説【2026年】",
   description: "トキハナキャリアは株式会社トキハナが運営する、結婚やライフステージの変化に合わせた転職支援サービスです。女性が活躍しやすい業界の求人に強みを持ち、土日勤務からの転換や家庭との両立転職を支援しています。公式情報にもとづいて解説します。利用は無料です。",
   alternates: { canonical: "/review/tokihana-career/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "トキハナキャリアの特徴と公式データ｜結婚・ライフステージ特化の転職支援サービスを解説【2026年】",
+    description: "トキハナキャリアは株式会社トキハナが運営する、結婚やライフステージの変化に合わせた転職支援サービスです。女性が活躍しやすい業界の求人に強みを持ち、土日勤務からの転換や家庭との両立転職を支援しています。公式情報にもとづいて解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "トキハナキャリアの評判・特徴" },
+          { name: "トキハナキャリアの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            トキハナキャリアの評判は？結婚・ライフステージ特化の転職支援サービスを解説【2026年】
+            トキハナキャリアの特徴と公式データ｜結婚・ライフステージ特化の転職支援サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">トキハナキャリアは、株式会社トキハナが運営する「結婚やライフステージの変化に合わせた」転職支援サービスです。「結婚後も今と同じように働けるか不安」「土日勤務が辛い」「ブランクがあるから転職できないかも」といった悩みを起点に、女性が活躍しやすい業界の求人で支援します。ブライダル業界特化の転職支援(A8プログラム紹介文)としても展開されています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：トキハナキャリア公式サイト(career.tokihana.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：トキハナキャリア公式サイト(career.tokihana.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月15日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索・転職エージェントカテゴリの掲載一覧)と「コエテコキャリア」(サービス一覧全20ページ・390サービス)のいずれにもトキハナキャリアのページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>トキハナキャリアの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">

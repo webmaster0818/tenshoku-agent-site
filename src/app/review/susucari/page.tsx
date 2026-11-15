@@ -90,6 +90,18 @@ export default function Page() {
           <div className="card-hover p-5"><h3 className="font-bold text-navy mb-1 text-sm">セクターを超えた職種区分</h3><p className="text-sm text-text-secondary leading-relaxed">民間だけでなく中央省庁・国際機関・地方自治体・NPO/NGOまで職種区分に含まれており、公共セクターも視野に入れられます。</p></div>
         </div>
 
+        <h2>第三者の口コミサイトでのサスキャリの評判</h2>
+
+        <div className="glass-card p-6 mb-4">
+          <ul className="space-y-2 text-sm text-text-secondary">
+            <li>口コミサイト「コエテコキャリア」(GMOメディア株式会社運営)のサスキャリのページでは、口コミは3件、総合評価は5点満点中4.8です(項目別ではアドバイザー4.7・書類対策4.7・面接対策5.0・求人の充実度5.0。評点別の内訳は★5が2件・★4が1件)。同ページでは、サスキャリはESG・サステナビリティ領域に特化したハイクラス向け転職エージェントとして紹介されています。</li>
+            <li>投稿者は20代・サービス業界、30代・製造業界、20代・IR支援業界の各1件で、いずれも「サービス利用証明済み」の表示があります。</li>
+            <li>件数が3件のため、サービス全体の傾向を示すものではありません。コエテコキャリアは、口コミの投稿者にAmazonギフトカードを進呈するキャンペーンを案内しています。口コミサイト「みん評」には、サスキャリのページを確認できませんでした(サイト内検索と転職エージェントカテゴリの掲載一覧で確認)。</li>
+          </ul>
+        </div>
+
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://coeteco.jp/career/job_change/esgagent" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「サスキャリの評判・口コミ」</a>(2026年11月15日取得)。件数・評価は取得日時点の値です。口コミ本文は転載していません。</p>
+
         <h2>サスキャリが向いている人・向いていない人</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-8">
           <div className="card-hover p-5">
