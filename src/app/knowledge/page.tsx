@@ -38,6 +38,11 @@ const dataGuides = [
   { href: "/knowledge/annual-holidays-105/", title: "年間休日105日の水準", desc: "1日8時間勤務で法律上ほぼ下限の日数。2026年の土日は104日" },
   { href: "/knowledge/zangyo-average/", title: "残業時間の平均", desc: "毎月勤労統計で一般労働者は月13.2時間。業種別一覧と36協定の上限" },
   { href: "/knowledge/salary-30sai/", title: "30歳の平均年収", desc: "国税庁統計で30〜34歳は462万円。男女別・前後の年齢との比較" },
+  { href: "/knowledge/tedori-1200man/", title: "年収1200万円の手取り", desc: "令和8年の税制で試算。年収1,195万円超で配偶者控除がなくなる境目" },
+  { href: "/knowledge/tedori-1500man/", title: "年収1500万円の手取り", desc: "年収約1,301万円から所得税33%。子どもがいる場合の所得金額調整控除" },
+  { href: "/knowledge/tedori-gesshu-40man/", title: "手取り40万円の額面", desc: "必要な額面月給と年収を逆算。手取り30万〜50万円の早見表つき" },
+  { href: "/knowledge/salary-25sai/", title: "25歳の平均年収", desc: "国税庁統計で25〜29歳は425万円。大学卒の初任給26.2万円との比較" },
+  { href: "/knowledge/dai2-shinsotsu-itsumade/", title: "第二新卒はいつまで", desc: "厚労省の指針で卒業後3年が目安。大学卒の3年以内離職率は33.8%" },
 ];
 
 const compares = [
