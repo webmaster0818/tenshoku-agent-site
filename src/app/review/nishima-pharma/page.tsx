@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "にしまファーマの評判は？医療業界特化の転職エージェントを解説【2026年】",
+  title: "にしまファーマの特徴と公式データ｜医療業界特化の転職エージェントを解説【2026年】",
   description: "にしまファーマ株式会社は医療業界向けの転職エージェントです。医療業界出身のコンサルタントが支援し、未経験からの医療業界転職にも対応しています。有料職業紹介事業許可番号は13-ユ-315534です。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
   alternates: { canonical: "/review/nishima-pharma/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "にしまファーマの特徴と公式データ｜医療業界特化の転職エージェントを解説【2026年】",
+    description: "にしまファーマ株式会社は医療業界向けの転職エージェントです。医療業界出身のコンサルタントが支援し、未経験からの医療業界転職にも対応しています。有料職業紹介事業許可番号は13-ユ-315534です。特徴・向いている人を公式情報ベースで解説します。利用は無料です。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "にしまファーマの評判・特徴" },
+          { name: "にしまファーマの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            にしまファーマの評判は？医療業界特化の転職エージェントを解説【2026年】
+            にしまファーマの特徴と公式データ｜医療業界特化の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">にしまファーマは、にしまファーマ株式会社が運営する医療業界向けの転職エージェントです。「医療業界出身の転職のプロが一人ひとりに寄り添う」ことを掲げ、医療業界内の転職に加えて、未経験から医療業界を目指す人の相談にも対応しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：にしまファーマ公式サイト(nishimapharma.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：にしまファーマ公式サイト(nishimapharma.co.jp)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月16日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索)と「コエテコキャリア」(サービス一覧全20ページ)のいずれにもにしまファーマのページを確認できませんでした。サービス名と公式ドメイン名でのWeb検索でも、第三者の口コミサイトに評判のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>にしまファーマの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

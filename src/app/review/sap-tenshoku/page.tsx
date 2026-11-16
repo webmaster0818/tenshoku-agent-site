@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "SAPテンショクの評判は？SAP特化の転職エージェントを解説【2026年】",
+  title: "SAPテンショクの特徴と公式データ｜SAP特化の転職エージェントを解説【2026年】",
   description: "SAPテンショク(スプラッシュエンジニアリング運営)は、SAPエンジニア・SAPコンサルタントに特化した転職エージェントです。全員がSAP経験者のキャリアコンサルタントによる支援と、「完全無料」を公式に掲げています。特徴を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/sap-tenshoku/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "SAPテンショクの特徴と公式データ｜SAP特化の転職エージェントを解説【2026年】",
+    description: "SAPテンショク(スプラッシュエンジニアリング運営)は、SAPエンジニア・SAPコンサルタントに特化した転職エージェントです。全員がSAP経験者のキャリアコンサルタントによる支援と、「完全無料」を公式に掲げています。特徴を公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "SAPテンショクの評判・特徴" },
+          { name: "SAPテンショクの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            SAPテンショクの評判は？SAP特化の転職エージェントを解説【2026年】
+            SAPテンショクの特徴と公式データ｜SAP特化の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">SAPテンショクは、株式会社スプラッシュエンジニアリングが運営するSAPエンジニア/SAPコンサルタント特化の転職エージェントです。「SAPで生きる、を支援する。」を掲げ、SAP業界とプロジェクトを熟知したコンサルタントによる支援を打ち出しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：SAPテンショク公式サイト(splash-eng.com/services/sap-career)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：SAPテンショク公式サイト(splash-eng.com/services/sap-career)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月16日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索)にSAPテンショクのページを確認できませんでした。「コエテコキャリア」(サービス一覧全20ページ)には、同じ「SAPキャリア」(sap-career.com)のフリーランス向けサービス「SAPフリーランスバンク」のページがありますが、口コミは掲載されておらず、SAPテンショクのページは確認できませんでした。サービス名と公式ドメイン名でのWeb検索でも、第三者の口コミサイトに評判のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>SAPテンショクの特徴(公式の公表情報より)</h2>
         <div className="space-y-4 mb-8">

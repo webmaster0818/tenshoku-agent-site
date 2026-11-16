@@ -4,9 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
-  title: "セキュリティプロ・フリーランスの評判は？セキュリティ特化の案件紹介サービスを解説【2026年】",
+  title: "セキュリティプロ・フリーランスの特徴と公式データ｜セキュリティ特化の案件紹介サービスを解説【2026年】",
   description: "セキュリティプロ・フリーランス(スプラッシュエンジニアリング運営)は、セキュリティエンジニア・コンサルタント向けのフリーランス案件紹介サービスです。セキュリティ領域特化のエージェントがキャリアを支援しています。特徴を公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/security-pro/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "セキュリティプロ・フリーランスの特徴と公式データ｜セキュリティ特化の案件紹介サービスを解説【2026年】",
+    description: "セキュリティプロ・フリーランス(スプラッシュエンジニアリング運営)は、セキュリティエンジニア・コンサルタント向けのフリーランス案件紹介サービスです。セキュリティ領域特化のエージェントがキャリアを支援しています。特徴を公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -44,13 +49,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "セキュリティプロ・フリーランスの特徴" },
+          { name: "セキュリティプロ・フリーランスの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            セキュリティプロ・フリーランスの評判は？セキュリティ特化の案件紹介サービスを解説【2026年】
+            セキュリティプロ・フリーランスの特徴と公式データ｜セキュリティ特化の案件紹介サービスを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">セキュリティプロ・フリーランスは、株式会社スプラッシュエンジニアリングが運営するセキュリティ領域特化のフリーランス案件紹介サービスです。「高いスキルや経験が必ずしも正当な評価や報酬に結びついていない」というセキュリティ専門家の課題を掲げ、専門特化エージェントによるキャリア支援を打ち出しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -81,7 +86,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：セキュリティプロ・フリーランス公式サイト(security.splash-eng.com)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：セキュリティプロ・フリーランス公式サイト(security.splash-eng.com)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月16日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索)と「コエテコキャリア」(サービス一覧全20ページ)のいずれにもセキュリティプロ・フリーランスのページを確認できませんでした。サービス名と公式ドメイン名でのWeb検索でも、第三者の口コミサイトに評判のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>セキュリティプロ・フリーランスの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">

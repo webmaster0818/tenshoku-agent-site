@@ -3,9 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "SaaSfieldの評判は？SaaS業界特化の転職エージェントを解説【2026年】",
+  title: "SaaSfieldの特徴と公式データ｜SaaS業界特化の転職エージェントを解説【2026年】",
   description: "SaaSfield(サースフィールド)は株式会社AMIキャリアが運営するSaaS業界特化の転職支援サービスです。未経験からのSaaS営業職(IS/FS/CS)転職を、ポジション別の適性を踏まえて支援しています。有料職業紹介事業許可番号は13-ユ-317207です。公式情報にもとづいて解説します。",
   alternates: { canonical: "/review/saasfield/" },
+  openGraph: {
+    images: ["/opengraph-image.jpg"],
+    title: "SaaSfieldの特徴と公式データ｜SaaS業界特化の転職エージェントを解説【2026年】",
+    description: "SaaSfield(サースフィールド)は株式会社AMIキャリアが運営するSaaS業界特化の転職支援サービスです。未経験からのSaaS営業職(IS/FS/CS)転職を、ポジション別の適性を踏まえて支援しています。有料職業紹介事業許可番号は13-ユ-317207です。公式情報にもとづいて解説します。",
+  },
 };
 
 const faqData = [
@@ -43,13 +48,13 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "エージェント一覧", href: "/review/" },
-          { name: "SaaSfieldの評判・特徴" },
+          { name: "SaaSfieldの特徴・公式データ" },
         ]}
       />
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            SaaSfieldの評判は？SaaS業界特化の転職エージェントを解説【2026年】
+            SaaSfieldの特徴と公式データ｜SaaS業界特化の転職エージェントを解説【2026年】
           </h1>
           <p className="text-text-secondary leading-relaxed">SaaSfield(サースフィールド)は、株式会社AMIキャリアが運営するSaaS業界特化の転職支援サービスです。SaaS営業職(インサイドセールス/フィールドセールス/カスタマーサクセス)への未経験転職で起きがちな「準備不足での大量エントリー→お見送り」を課題として掲げ、ポジション・プロダクトごとの適性を踏まえた支援を打ち出しています。公式サイトで確認できる情報をもとに整理します。</p>
         </div>
@@ -77,7 +82,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：SaaSfield公式サイト(amic.capoo.jp/lp/saasfield)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：SaaSfield公式サイト(amic.capoo.jp/lp/saasfield)、2026年8月22日確認。当サイトでは口コミ・数値の創作は行っていません。なお、2026年11月16日に当サイトで調査した範囲では、口コミサイト「みん評」(サイト内検索)(「SaaSfield」「サースフィールド」で検索)と「コエテコキャリア」(サービス一覧全20ページ)のいずれにもSaaSfieldのページを確認できませんでした。サービス名と公式ドメイン名でのWeb検索でも、第三者の口コミサイトに評判のページを確認できませんでした。利用者による第三者の評判を確認できなかったため、当ページでは公式サイトの公表データをもとに特徴を整理しています。</p>
 
         <h2>SaaSfieldの特徴(公式公表ベース)</h2>
         <div className="space-y-4 mb-8">
