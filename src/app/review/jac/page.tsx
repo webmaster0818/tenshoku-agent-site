@@ -181,7 +181,7 @@ export default function JacReview() {
             </ul>
           </div>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：口コミサイトに見られる評判の傾向（2026年6月確認）。件数・評価は、次の節に取得日とあわせて掲載しています。良し悪しは利用者の経歴・希望条件とJACの得意領域が合うかに左右されやすいのが共通見解です。</p>
+        <p className="text-xs text-text-muted mb-8">出典：上の傾向は、2026年6月に当サイトが口コミサイトの投稿を要約したものです。2026年11月17日に、みん評とコエテコキャリアの件数・評価を再確認し、次の節に掲載しています。良し悪しは利用者の経歴・希望条件とJACの得意領域が合うかに左右されやすいのが共通見解です。</p>
 
         <h2>第三者の口コミサイトでのJACリクルートメントの件数と評価</h2>
         <div className="glass-card p-6 mb-4">
@@ -192,7 +192,7 @@ export default function JacReview() {
             <li>2つのサイトで評価の水準は大きく異なります。みん評は、同サイトの性質上厳しい声が多くなり、低評価が多いことが必ずしも問題を示すものではないと注記しています。コエテコキャリアは、無料登録・面談後の口コミ投稿にAmazonギフトカードを進呈するキャンペーンを案内しています。いずれも個人の体験にもとづく投稿です。</li>
           </ul>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/jac-recruitment" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「JACリクルートメントの口コミ・評判」</a>(株式会社マイスタースタジオ運営)、<a href="https://coeteco.jp/career/job_change/jac-recruitment" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「JACリクルートメントの評判・口コミ」</a>(GMOメディア株式会社運営)、いずれも2026年11月11日取得。コエテコキャリアのページに運営会社が株式会社ジェイ エイ シー リクルートメントと記載されていることを確認しています。件数・評価は取得日時点の値です。評点別の件数は、当サイトがみん評の全50件を数えたものです。口コミ本文は転載せず、当サイトで傾向を要約しています。</p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://minhyo.jp/jac-recruitment" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">みん評「JACリクルートメントの口コミ・評判」</a>(株式会社マイスタースタジオ運営)、<a href="https://coeteco.jp/career/job_change/jac-recruitment" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">コエテコキャリア「JACリクルートメントの評判・口コミ」</a>(GMOメディア株式会社運営)、いずれも2026年11月11日に取得し、2026年11月17日に再確認しました（口コミ件数・表示評価は11月11日と同じでした）。コエテコキャリアのページに運営会社が株式会社ジェイ エイ シー リクルートメントと記載されていることを確認しています。件数・評価は取得日時点の値です。評点別の件数は、当サイトがみん評の全50件を数えたものです。口コミ本文は転載せず、当サイトで傾向を要約しています。</p>
 
         {/* 就職難易度の実態（検索意図 jacリクルートメント 就職難易度） */}
         <h2>「JACリクルートメントは就職難易度が高い」と言われる理由と実態</h2>
