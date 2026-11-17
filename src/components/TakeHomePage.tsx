@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import Breadcrumb from "@/components/Breadcrumb";
 import {
-  calcTakeHome, yen, man, pct, marginalRate, TAKE_HOME_CHECKED, TAKE_HOME_SOURCES, RATES,
+  calcTakeHome, yen, man, pct, marginalRate, residentBasicDeduction, TAKE_HOME_CHECKED, TAKE_HOME_SOURCES, RATES,
 } from "@/data/take-home";
 
 type Faq = { q: string; a: string };
@@ -94,7 +94,7 @@ export default function TakeHomePage(p: Props) {
         <p className="text-xs text-text-muted mb-10">
           ※健康保険料は協会けんぽ東京支部の令和8年度料率（9.85%）と子ども・子育て支援金率（0.23%）、40〜64歳は介護保険料率（1.62%）を加えた率の折半額です。
           厚生年金は18.3%の折半、雇用保険は年収の0.5%です。所得税は令和8年分の給与所得控除・基礎控除（{yen(u.basic)}）で計算し、
-          課税所得は{yen(u.taxable)}、適用される最高税率は{marginalRate(u.taxable)}%です。住民税は所得割10%・基礎控除43万円・調整控除2,500円・均等割4,000円・森林環境税1,000円で計算しています。
+          課税所得は{yen(u.taxable)}、適用される最高税率は{marginalRate(u.taxable)}%です。住民税は所得割10%・基礎控除{u.salaryIncome <= 24000000 ? "43万円" : yen(residentBasicDeduction(u.salaryIncome))}・{u.salaryIncome <= 25000000 ? "調整控除2,500円" : "調整控除なし（合計所得金額2,500万円超）"}・均等割4,000円・森林環境税1,000円で計算しています。
           月ごとの端数処理や、お住まいの自治体・加入する健康保険組合によって実際の金額は変わります。目安としてご覧ください。
         </p>
 

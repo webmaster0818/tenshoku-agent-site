@@ -43,6 +43,10 @@ const dataGuides = [
   { href: "/knowledge/tedori-gesshu-40man/", title: "手取り40万円の額面", desc: "必要な額面月給と年収を逆算。手取り30万〜50万円の早見表つき" },
   { href: "/knowledge/salary-25sai/", title: "25歳の平均年収", desc: "国税庁統計で25〜29歳は425万円。大学卒の初任給26.2万円との比較" },
   { href: "/knowledge/dai2-shinsotsu-itsumade/", title: "第二新卒はいつまで", desc: "厚労省の指針で卒業後3年が目安。大学卒の3年以内離職率は33.8%" },
+  { href: "/knowledge/tedori-450man/", title: "年収450万円の手取り", desc: "令和8年の税制で試算。賞与がある場合の毎月の手取りの例つき" },
+  { href: "/knowledge/shoukyu-heikin/", title: "昇給の平均", desc: "厚労省調査で月13,601円・4.4%。企業規模別・産業別の一覧" },
+  { href: "/knowledge/daisotsu-nenshu/", title: "大卒の平均年収", desc: "賃金構造基本統計調査から約611万円と算出。年齢別・学歴別の比較" },
+  { href: "/knowledge/tedori-3000man/", title: "年収3000万円の手取り", desc: "年収約2,695万円超で基礎控除がなくなる境目と所得税40%の区分" },
 ];
 
 const compares = [

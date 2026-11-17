@@ -53,6 +53,17 @@ export function basicDeduction(totalIncome: number): number {
   if (totalIncome <= 4890000) return 1040000;
   if (totalIncome <= 6550000) return 670000;
   if (totalIncome <= 23500000) return 620000;
+  if (totalIncome <= 24000000) return 480000;
+  if (totalIncome <= 24500000) return 320000;
+  if (totalIncome <= 25000000) return 160000;
+  return 0;
+}
+
+// 個人住民税の基礎控除（合計所得金額2,400万円超は段階的に減り、2,500万円超は0）
+export function residentBasicDeduction(totalIncome: number): number {
+  if (totalIncome <= 24000000) return 430000;
+  if (totalIncome <= 24500000) return 290000;
+  if (totalIncome <= 25000000) return 150000;
   return 0;
 }
 
@@ -111,8 +122,10 @@ export function calcTakeHome(annual: number, over40 = false): TakeHome {
   const basic = basicDeduction(salaryIncome);
   const taxable = Math.max(0, Math.floor((salaryIncome - social - basic) / 1000) * 1000);
   const incomeTax = Math.floor((incomeTaxRaw(taxable) * 1.021) / 100) * 100;
-  const residentTaxable = Math.max(0, Math.floor((salaryIncome - social - 430000) / 1000) * 1000);
-  const residentTax = Math.max(0, Math.floor((residentTaxable * 0.1 - 2500) / 100) * 100) + 5000;
+  const residentTaxable = Math.max(0, Math.floor((salaryIncome - social - residentBasicDeduction(salaryIncome)) / 1000) * 1000);
+  // 調整控除は合計所得金額2,500万円以下の場合のみ（地方税法 第314条の6）
+  const adjust = salaryIncome <= 25000000 ? 2500 : 0;
+  const residentTax = Math.max(0, Math.floor((residentTaxable * 0.1 - adjust) / 100) * 100) + 5000;
   const net = annual - social - incomeTax - residentTax;
   return {
     annual, monthly, grade, health, pension, employment, social, salaryIncome, basic,
