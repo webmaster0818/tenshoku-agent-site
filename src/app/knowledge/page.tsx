@@ -47,6 +47,9 @@ const dataGuides = [
   { href: "/knowledge/shoukyu-heikin/", title: "昇給の平均", desc: "厚労省調査で月13,601円・4.4%。企業規模別・産業別の一覧" },
   { href: "/knowledge/daisotsu-nenshu/", title: "大卒の平均年収", desc: "賃金構造基本統計調査から約611万円と算出。年齢別・学歴別の比較" },
   { href: "/knowledge/tedori-3000man/", title: "年収3000万円の手取り", desc: "年収約2,695万円超で基礎控除がなくなる境目と所得税40%の区分" },
+  { href: "/knowledge/programmer-nenshu/", title: "プログラマーの平均年収", desc: "賃金構造基本統計調査（ソフトウェア作成者）から約538万円と算出。年齢別・企業規模別" },
+  { href: "/knowledge/tedori-hayamihyo/", title: "年収別の手取り早見表", desc: "年収200万〜3000万円の手取りを令和8年の税制で一覧に。40歳以上の手取りも掲載" },
+  { href: "/knowledge/gesshu-40man-tedori/", title: "月収40万円の手取り", desc: "額面月収40万円の手取りと内訳。月収39.5万円前後で手取りが逆転する仕組み" },
 ];
 
 const compares = [
