@@ -2,16 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BIZREACH_JOBS, DODA_JOBS, JAC_JOBS, MYNAVI_JOBS, RECRUIT_JOBS } from "@/data/stats";
 import TopMotion from "@/components/TopMotion";
+import { REVIEW_COUNT } from "@/data/review-list";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  title: "転職エージェント比較ラボ【2026年最新】59サービス＋企業の年収ランキング189社を一次情報で比較",
+  title: `転職エージェント比較ラボ【2026年最新】${REVIEW_COUNT}サービス＋企業の年収ランキング189社を一次情報で比較`,
   description:
-    "転職エージェント・転職サービス59件を、求人数・得意分野・対応年代の公表情報で比較します。あわせて有価証券報告書にもとづく企業別の平均年収を189社ぶん公開し、20業界の年収ランキングにまとめています。年代別・目的別の選び方も解説しています。",
+    `転職エージェント・転職サービス${REVIEW_COUNT}件を、求人数・得意分野・対応年代の公表情報で比較します。あわせて有価証券報告書にもとづく企業別の平均年収を189社ぶん公開し、20業界の年収ランキングにまとめています。年代別・目的別の選び方も解説しています。`,
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: "転職エージェント比較ラボ【2026年最新】",
-    description: "転職エージェント59サービスと、有価証券報告書準拠の企業年収189社を比較できるサイトです。",
+    description: `転職エージェント${REVIEW_COUNT}サービスと、有価証券報告書準拠の企業年収189社を比較できるサイトです。`,
   },
 };
 
@@ -166,7 +167,7 @@ export default function HomePage() {
               <span className="tl-mask"><span className="tl-mask-in tl-mask-2">公表情報で比較</span></span>
             </h1>
             <p className="tl-in tl-d3 text-text-secondary text-base sm:text-lg mb-10 leading-relaxed">
-              転職エージェント・転職サービス<strong className="tl-marker">59件</strong>を、求人数・サポート内容・得意分野の公表情報で比較しています。
+              転職エージェント・転職サービス<strong className="tl-marker">{REVIEW_COUNT}件</strong>を、求人数・サポート内容・得意分野の公表情報で比較しています。
               あわせて<strong className="tl-marker tl-marker-2">有価証券報告書にもとづく企業別の平均年収を189社</strong>ぶん公開しています。
             </p>
             <div className="tl-in tl-d4 flex flex-col sm:flex-row gap-4">
@@ -185,7 +186,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { num: "59件", label: "掲載エージェント・サービス" },
+              { num: `${REVIEW_COUNT}件`, label: "掲載エージェント・サービス" },
               { num: "189社", label: "企業別の年収データ(有価証券報告書)" },
               { num: "20業界", label: "年収ランキング" },
               { num: "無料", label: "エージェント利用料金" },
@@ -203,9 +204,9 @@ export default function HomePage() {
       <section id="comparison" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="section-title section-title--center"><span className="inline-block">比較の起点となる</span><span className="inline-block">大手・ハイクラス系</span><span className="inline-block">5社の比較表</span></h2>
         <p className="text-center text-text-secondary text-sm mb-8 -mt-4">
-          当サイトは59サービスを掲載しています。下表はそのうち、求人数や知名度の面で最初の比較対象になりやすい5社です。
+          当サイトは{REVIEW_COUNT}サービスを掲載しています。下表はそのうち、求人数や知名度の面で最初の比較対象になりやすい5社です。
           順番は掲載順で、優劣の順位ではありません。
-          <Link href="/review/" className="text-teal underline ml-1">59サービスの一覧を見る</Link>
+          <Link href="/review/" className="text-teal underline ml-1">{REVIEW_COUNT}サービスの一覧を見る</Link>
         </p>
         <div className="overflow-x-auto -mx-4 sm:mx-0">
           <table className="comparison-table min-w-[700px]">
