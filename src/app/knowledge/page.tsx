@@ -50,6 +50,11 @@ const dataGuides = [
   { href: "/knowledge/programmer-nenshu/", title: "プログラマーの平均年収", desc: "賃金構造基本統計調査（ソフトウェア作成者）から約538万円と算出。年齢別・企業規模別" },
   { href: "/knowledge/tedori-hayamihyo/", title: "年収別の手取り早見表", desc: "年収200万〜3000万円の手取りを令和8年の税制で一覧に。40歳以上の手取りも掲載" },
   { href: "/knowledge/gesshu-40man-tedori/", title: "月収40万円の手取り", desc: "額面月収40万円の手取りと内訳。月収39.5万円前後で手取りが逆転する仕組み" },
+  { href: "/knowledge/nenshu-1000man-shokugyo/", title: "平均年収1000万円を超える職業", desc: "賃金構造基本統計調査の145職種から算出。航空機操縦士・医師など5職種" },
+  { href: "/knowledge/tedori-gesshu-30man/", title: "手取り30万円の額面", desc: "必要な額面は月約38.0万円・年収約456万円。額面37万円前後で手取りが逆転" },
+  { href: "/knowledge/tedori-gesshu-50man/", title: "手取り50万円の額面", desc: "必要な額面は月約67.3万円・年収約807.6万円。厚生年金保険料の上限も解説" },
+  { href: "/knowledge/gesshu-50man-tedori/", title: "月収50万円の手取り", desc: "額面月収50万円の手取りは約38.8万円。40歳以上の手取りと月収48.5万円の境目" },
+  { href: "/knowledge/30dai-josei-tenshoku/", title: "30代女性の転職", desc: "雇用動向調査で見る前職を辞めた理由と転職後の賃金の変化。育休の勤続要件も" },
 ];
 
 const compares = [
