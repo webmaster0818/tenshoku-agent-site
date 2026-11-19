@@ -33,6 +33,7 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "daifuku", name: "ダイフク", salary: "約917万円（有価証券報告書）", tag: "マテハン" },
   { slug: "nidec", name: "ニデック", salary: "約822万円（有価証券報告書）", tag: "電子部品" },
   { slug: "muji", name: "良品計画（無印良品）", salary: "約670万円（有価証券報告書）", tag: "小売" },
+  { slug: "nitori", name: "ニトリ", salary: "約598万円（有価証券報告書・最大人員会社の㈱ニトリ）", tag: "小売", scope: "専門職・嘱託社員を除く" },
   { slug: "obic", name: "オービック", salary: "約1,129万円（有価証券報告書）", tag: "SIer" },
   { slug: "nri", name: "野村総合研究所（NRI）", salary: "約1,332万円（有価証券報告書）", tag: "ITコンサル" },
   { slug: "baycurrent", name: "ベイカレント", salary: "約1,331万円（有価証券報告書）", tag: "コンサル" },
