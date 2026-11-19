@@ -248,6 +248,7 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
             <Link href="/company/muji/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">良品計画（無印良品）の転職ガイド</Link>
             <Link href="/knowledge/salary-40sai/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">40歳の平均年収</Link>
+            <Link href="/company/keibi-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">警備会社の年収ランキング</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>

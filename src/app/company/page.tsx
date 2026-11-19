@@ -65,6 +65,7 @@ export default function CompanyIndexPage() {
             <li><Link href="/company/keshohin-salary/" className="text-navy underline">化粧品・日用品メーカーの年収ランキング【有価証券報告書準拠】</Link></li>
             <li><Link href="/company/iryokiki-salary/" className="text-navy underline">医療機器メーカーの年収ランキング【有価証券報告書準拠】</Link></li>
             <li><Link href="/company/saas-salary/" className="text-navy underline">SaaS企業の年収ランキング【有価証券報告書準拠】</Link></li>
+            <li><Link href="/company/keibi-salary/" className="text-navy underline">警備会社の年収ランキング【有価証券報告書準拠】</Link></li>
             <li><Link href="/review/levtech/" className="text-navy underline">レバテックキャリアの評判（IT・エンジニア特化）</Link></li>
             <li><Link href="/review/recruit-agent/" className="text-navy underline">リクルートエージェントの評判（求人数最大級）</Link></li>
             <li><Link href="/review/jac/" className="text-navy underline">JACリクルートメントの評判（ハイクラス）</Link></li>
