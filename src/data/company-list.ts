@@ -149,6 +149,7 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "mufg", name: "三菱UFJ FG", salary: "約1,170万円（有価証券報告書・持株単体）", tag: "銀行", scope: "海外の現地採用者・他社への出向者を除く" },
   { slug: "mizuho-fg", name: "みずほFG", salary: "約1,166万円（有価証券報告書・持株単体）", tag: "銀行", scope: "出向者・海外の現地採用者・海外勤務者を除く" },
   { slug: "smbc", name: "三井住友銀行", salary: "約934万円（有価証券報告書・非上場の事業会社）", tag: "銀行", scope: "海外の現地採用者を除く" },
+  { slug: "mizuho-bank", name: "みずほ銀行", salary: "約870万円（有価証券報告書・非上場の事業会社）", tag: "銀行", scope: "出向者・海外の現地採用者・海外勤務者を除く" },
   { slug: "chugai", name: "中外製薬", salary: "約1,350万円（有価証券報告書）", tag: "製薬" },
   { slug: "takeda", name: "武田薬品工業", salary: "約1,144万円（有価証券報告書）", tag: "製薬" },
   { slug: "astellas", name: "アステラス製薬", salary: "約1,131万円（有価証券報告書）", tag: "製薬" },

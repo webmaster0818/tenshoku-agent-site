@@ -11,6 +11,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/lhh/", name: "LHH転職エージェント", tag: "アデコ・外資系" },
       { href: "/review/bizreach/", name: "ビズリーチ", tag: "スカウト型" },
       { href: "/review/miidas/", name: "ミイダス", tag: "オファー型・診断" },
+      { href: "/review/workport/", name: "ワークポート", tag: "全職種・全国拠点" },
       { href: "/review/jac/", name: "JACリクルートメント", tag: "ハイクラス" },
       { href: "/review/assign/", name: "ASSIGN(アサイン)", tag: "若手ハイエンド" },
       { href: "/review/libz/", name: "LIBZ(リブズ)", tag: "逆求人型" },

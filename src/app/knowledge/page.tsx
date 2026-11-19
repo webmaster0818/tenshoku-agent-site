@@ -38,6 +38,7 @@ const dataGuides = [
   { href: "/knowledge/annual-holidays-105/", title: "年間休日105日の水準", desc: "1日8時間勤務で法律上ほぼ下限の日数。2026年の土日は104日" },
   { href: "/knowledge/zangyo-average/", title: "残業時間の平均", desc: "毎月勤労統計で一般労働者は月13.2時間。業種別一覧と36協定の上限" },
   { href: "/knowledge/salary-30sai/", title: "30歳の平均年収", desc: "国税庁統計で30〜34歳は462万円。男女別・前後の年齢との比較" },
+  { href: "/knowledge/salary-35sai/", title: "35歳の平均年収", desc: "賃金構造基本統計調査から35〜39歳は約513万円。学歴別・勤続年数別の比較" },
   { href: "/knowledge/tedori-1200man/", title: "年収1200万円の手取り", desc: "令和8年の税制で試算。年収1,195万円超で配偶者控除がなくなる境目" },
   { href: "/knowledge/tedori-1500man/", title: "年収1500万円の手取り", desc: "年収約1,301万円から所得税33%。子どもがいる場合の所得金額調整控除" },
   { href: "/knowledge/tedori-gesshu-40man/", title: "手取り40万円の額面", desc: "必要な額面月給と年収を逆算。手取り30万〜50万円の早見表つき" },
@@ -55,6 +56,8 @@ const dataGuides = [
   { href: "/knowledge/tedori-gesshu-50man/", title: "手取り50万円の額面", desc: "必要な額面は月約67.3万円・年収約807.6万円。厚生年金保険料の上限も解説" },
   { href: "/knowledge/gesshu-50man-tedori/", title: "月収50万円の手取り", desc: "額面月収50万円の手取りは約38.8万円。40歳以上の手取りと月収48.5万円の境目" },
   { href: "/knowledge/30dai-josei-tenshoku/", title: "30代女性の転職", desc: "雇用動向調査で見る前職を辞めた理由と転職後の賃金の変化。育休の勤続要件も" },
+  { href: "/knowledge/black-kigyo-tokucho/", title: "ブラック企業の特徴", desc: "厚生労働省の説明と令和7年度の監督指導結果、労働基準法の上限、相談先" },
+  { href: "/knowledge/kaisha-yamekata/", title: "会社の辞め方", desc: "民法627条の2週間の決まり、就業規則との関係、退職後の手続きの期限" },
 ];
 
 const compares = [
