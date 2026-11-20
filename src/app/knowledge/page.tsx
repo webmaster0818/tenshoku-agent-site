@@ -61,6 +61,11 @@ const dataGuides = [
   { href: "/knowledge/30dai-josei-tenshoku/", title: "30代女性の転職", desc: "雇用動向調査で見る前職を辞めた理由と転職後の賃金の変化。育休の勤続要件も" },
   { href: "/knowledge/black-kigyo-tokucho/", title: "ブラック企業の特徴", desc: "厚生労働省の説明と令和7年度の監督指導結果、労働基準法の上限、相談先" },
   { href: "/knowledge/kaisha-yamekata/", title: "会社の辞め方", desc: "民法627条の2週間の決まり、就業規則との関係、退職後の手続きの期限" },
+  { href: "/knowledge/nenshu-500man-josei/", title: "年収500万円を超える女性の割合", desc: "国税庁統計で18.9%（約421万人）。5年間の推移と男性との比較" },
+  { href: "/knowledge/salary-50sai/", title: "50歳の平均年収", desc: "賃金構造基本統計調査から50〜54歳は約598万円。企業規模別・学歴別・勤続年数別" },
+  { href: "/knowledge/shigoto-yasumitai/", title: "仕事を休みたいときに使える制度", desc: "年次有給休暇は理由不要・取得率66.9%。傷病手当金・休職制度と相談窓口" },
+  { href: "/knowledge/dai2-shinsotsu-ote/", title: "第二新卒で大手企業に転職できるか", desc: "雇用動向調査で20〜24歳の転職者の34.6%が1,000人以上の企業へ。規模間の移動と離職率" },
+  { href: "/knowledge/ai-nakunaru-shigoto/", title: "AIでなくなる仕事", desc: "野村総研の試算（労働人口の49%）で挙がった職業の平均年収を賃金統計で比較" },
 ];
 
 const compares = [
