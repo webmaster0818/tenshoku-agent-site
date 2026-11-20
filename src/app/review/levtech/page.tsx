@@ -138,20 +138,20 @@ export default function LevtechReview() {
         </div>
 
         {/* 基本データ */}
-        <h2>レバテックキャリアの基本データ【2026年6月時点】</h2>
+        <h2>レバテックキャリアの基本データ【2026年11月時点】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">レバテック株式会社</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">IT・Webエンジニア／クリエイターに特化した転職エージェント</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">ITエンジニア・Webデザイナーの転職に特化した転職エージェント（公式：「50種類のIT専門職をサポート」）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">IT特化型として業界最大級（具体的件数は時期により変動するため、公式サイトの最新表示をご確認ください）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトでは「完全無料」と明記）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象</th><td className="px-3 py-2 border-b">実務経験のあるITエンジニア・Webクリエイターが中心</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国（求人数は都市部で多い傾向。リモート案件もあり）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトに「登録から企業のご紹介、そして実際のご入社までレバテックキャリアのサービスは全て無料」と記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対象</th><td className="px-3 py-2 border-b">ITエンジニア・Webデザイナーなど、IT・Web系の職種で転職を考えている方</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国（公式の登録画面で関東・北海道・東北・中部・近畿・中国・四国・九州・沖縄から希望勤務地を選択できます。リモート可の求人もあります）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：レバテックキャリア公式（career.levtech.jp）、レバテック株式会社会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：レバテックキャリア公式（career.levtech.jp、同サービス紹介ページ・ご利用の流れページ）、レバレジーズグループ会社概要（leverages.jp/company/）、2026年11月20日確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 評判・口コミ（メイン検索意図） */}
         <h2>レバテックキャリアの評判・口コミの傾向</h2>

@@ -138,20 +138,20 @@ export default function BizreachReview() {
         </div>
 
         {/* 基本データ */}
-        <h2>ビズリーチの基本データ【2026年6月時点】</h2>
+        <h2>ビズリーチの基本データ【2026年11月時点】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社ビズリーチ（Visionalグループ）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">ハイクラス向けスカウト型転職サービス（審査制）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">ハイクラス向けスカウト型転職サービス（登録後に独自の基準で審査あり。公式FAQ記載）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">ハイクラス領域として業界最大級（具体的な件数は時期により変動するため、公式サイトの最新表示をご確認ください）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">登録無料。無料のスタンダードプランと有料のプレミアムプランあり（最新の料金・提供範囲は公式サイトをご確認ください）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">30代〜50代が中心。年収600万円以上のミドル〜ハイクラス層向け</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国（求人数はエリアにより差あり）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">登録無料。無料プラン「スタンダードステージ」と有料プラン「プレミアムステージ」（Web決済の場合5,478円（税込）/30日）があります（最新の料金・提供範囲は公式サイトをご確認ください）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">主な対象</th><td className="px-3 py-2 border-b">管理職・スペシャリスト・グローバル人材（公式FAQ）。掲載求人のうち年収1,000万円以上が5割以上（公式・2026年1月末時点）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">日本国内向けサービス（公式FAQ）。勤務地は全国の都道府県から検索でき、海外勤務の求人もあります</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：ビズリーチ公式（bizreach.jp）、Visional会社概要、2026年6月確認。求人数・料金は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：ビズリーチ公式（bizreach.jp、同FAQ・プレミアム案内ページ）、株式会社ビズリーチ コーポレートサイト（bizreach.co.jp）、2026年11月20日確認。求人数・料金は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 評判・口コミの傾向（メイン検索意図） */}
         <h2>ビズリーチの評判・口コミの傾向</h2>

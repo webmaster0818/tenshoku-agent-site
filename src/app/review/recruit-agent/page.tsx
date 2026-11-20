@@ -65,7 +65,7 @@ export default function RecruitAgentReview() {
             </h1>
           </div>
           <p className="text-text-secondary leading-relaxed">
-            リクルートエージェントは、株式会社リクルートが運営する業界最大級の転職エージェントです。
+            リクルートエージェントは、株式会社インディードリクルートパートナーズ（リクルートグループ）が運営する業界最大級の転職エージェントです。
             公開・非公開を合わせた業界最大級の求人数を保有し、全国の幅広い業界・職種の転職をサポートしています。
             転職支援実績も豊富で、初めての転職から経験者のキャリアアップまで対応可能です。
           </p>
@@ -113,19 +113,19 @@ export default function RecruitAgentReview() {
         </div>
 
         {/* 基本データ */}
-        <h2>リクルートエージェントの基本データ【2026年6月時点】</h2>
+        <h2>リクルートエージェントの基本データ【2026年11月時点】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社リクルート</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社インディードリクルートパートナーズ（2025年4月1日に株式会社リクルートから分割）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">公開 {RECRUIT_JOBS.publicCount}／非公開 {RECRUIT_JOBS.privateCount}（公式・{RECRUIT_JOBS.asOf}時点。表示件数は採用予定数）＝業界最大級</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトでは「完全無料」と明記）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">全年代対応の総合型（現スキル・経験を活かす転職に強い）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">専門部門「リクルートエージェントIT」あり。IT出身アドバイザーが対応し、リモート案件も豊富</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式サイトに「ご利用頂く転職者様からは一切料金を頂いておりません」と記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応年代</th><td className="px-3 py-2 border-b">総合型。公式サイトに第二新卒（社会人歴1〜3年）向けの案内と、20代・30代の転職成功事例を掲載しています</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">IT・エンジニア</th><td className="px-3 py-2 border-b">IT職種の求人ページ（r-agent.com/it_engineer/）があり、「在宅勤務（リモートワーク）OK」の条件で絞り込めます</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：リクルートエージェント公式（r-agent.com）。求人数（公開{RECRUIT_JOBS.publicCount}／非公開{RECRUIT_JOBS.privateCount}・{RECRUIT_JOBS.asOf}時点の表示）は{RECRUIT_JOBS.checkedAt}確認、その他の項目は2026年6月21日確認です。求人数は時期により変動します。</p>
+        <p className="text-xs text-text-muted mb-8">出典：リクルートエージェント公式（r-agent.com）。求人数（公開{RECRUIT_JOBS.publicCount}／非公開{RECRUIT_JOBS.privateCount}・{RECRUIT_JOBS.asOf}時点の表示）は{RECRUIT_JOBS.checkedAt}確認、運営会社は同サイトの「会社概要」リンク先（indeedrecruit-partners.co.jp/about/profile/）とサービス一覧（同 /service/）、その他の項目は2026年11月20日に公式サイトで確認しています。求人数は時期により変動します。</p>
 
         {/* IT・口コミ（検索意図対応） */}
         <h2>ITエンジニア転職におけるリクルートエージェントの評判</h2>

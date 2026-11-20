@@ -139,21 +139,21 @@ export default function JacReview() {
         </div>
 
         {/* 基本データ */}
-        <h2>JACリクルートメントの基本データ【2026年6月時点】</h2>
+        <h2>JACリクルートメントの基本データ【2026年11月時点】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社ジェイ エイ シー リクルートメント</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">コンサルタント一気通貫型の転職エージェント</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">得意領域</th><td className="px-3 py-2 border-b">ハイクラス・管理職・専門職・外資系・グローバル企業</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">運営会社</th><td className="px-3 py-2 border-b">株式会社ジェイエイシーリクルートメント（JAC Recruitment Co., Ltd.）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サービス形態</th><td className="px-3 py-2 border-b">「コンサルタント型」の転職エージェント（一人のコンサルタントが企業と転職希望者の双方を担当。公式記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">得意領域</th><td className="px-3 py-2 border-b">ハイクラス・エグゼクティブ（管理職・専門職）、外資系・日系グローバル企業、海外勤務</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数</th><td className="px-3 py-2 border-b">ハイクラス特化として豊富（具体的な件数は時期により変動するため、公式の最新表示をご確認ください）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">メイン対象</th><td className="px-3 py-2 border-b">30代以上のミドル・ハイクラス層（20代も登録可）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国＋海外（海外在住者の相談にも対応）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料（公式に「すべての転職支援サービスは無料」と記載）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">メイン対象</th><td className="px-3 py-2 border-b">職務経験のあるハイクラス層。新卒・学生も登録はできますが、多くの求人は職務経験が応募条件のため紹介が難しい場合があります（公式FAQ）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">対応エリア</th><td className="px-3 py-2 border-b">全国＋海外勤務の求人。海外在住者も登録はできますが、居住国と希望条件によっては直接紹介できず、海外子会社のサービスを案内する場合があります（公式FAQ）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：JACリクルートメント公式、会社概要、2026年6月確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：JACリクルートメント公式（jac-recruitment.jp のサービス概要・特徴と強み・よくあるご質問）、同社IR情報（ir.jac-recruitment.jp）、2026年11月20日確認。求人数は時期により変動するため、最新値は公式サイトの表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* 評判・口コミ（メイン検索意図 jacリクルートメント 評判 / 口コミ） */}
         <h2>JACリクルートメントの評判・口コミの傾向</h2>
