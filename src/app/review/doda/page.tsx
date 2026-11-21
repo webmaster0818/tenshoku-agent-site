@@ -174,7 +174,7 @@ export default function DodaReview() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：doda公式（doda.jp）、パーソルキャリア会社概要。求人数は{DODA_JOBS.checkedAt}、運営会社は2026年10月17日に公式トップで確認し、その他の項目は2026年6月に確認しています。求人数は時期により変動するため、最新値は公式トップ表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：doda公式（doda.jp）、パーソルキャリア会社概要。求人数は{DODA_JOBS.checkedAt}に公式トップで確認しました。運営会社は2026年11月21日に<a href="https://www.persol-career.co.jp/corporate/overview/" target="_blank" rel="noopener noreferrer" className="underline">パーソルキャリア株式会社の会社概要</a>（同社のサービス一覧にdodaを掲載）で確認しています。その他の項目は2026年6月に確認しています。求人数は時期により変動するため、最新値は公式トップ表示をご確認ください。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         {/* dodaの評判・口コミ（メイン検索意図） */}
         <h2>dodaの評判・口コミの傾向</h2>
