@@ -66,6 +66,9 @@ const dataGuides = [
   { href: "/knowledge/shigoto-yasumitai/", title: "仕事を休みたいときに使える制度", desc: "年次有給休暇は理由不要・取得率66.9%。傷病手当金・休職制度と相談窓口" },
   { href: "/knowledge/dai2-shinsotsu-ote/", title: "第二新卒で大手企業に転職できるか", desc: "雇用動向調査で20〜24歳の転職者の34.6%が1,000人以上の企業へ。規模間の移動と離職率" },
   { href: "/knowledge/ai-nakunaru-shigoto/", title: "AIでなくなる仕事", desc: "野村総研の試算（労働人口の49%）で挙がった職業の平均年収を賃金統計で比較" },
+  { href: "/knowledge/tedori-750man/", title: "年収750万円の手取り", desc: "令和8年の税制で試算。年収726万円・762万円で標準報酬月額が上がる境目" },
+  { href: "/knowledge/tedori-gesshu-60man/", title: "手取り60万円の額面", desc: "必要な額面は月約82.5万円・年収約990万円。年収850万円の控除の境目" },
+  { href: "/knowledge/annual-holidays-110/", title: "年間休日110日の水準", desc: "厚労省調査で平均112.4日・109日以下は39.0%。有給の平均取得を加えた休み" },
 ];
 
 const compares = [
