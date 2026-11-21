@@ -69,6 +69,8 @@ const dataGuides = [
   { href: "/knowledge/tedori-750man/", title: "年収750万円の手取り", desc: "令和8年の税制で試算。年収726万円・762万円で標準報酬月額が上がる境目" },
   { href: "/knowledge/tedori-gesshu-60man/", title: "手取り60万円の額面", desc: "必要な額面は月約82.5万円・年収約990万円。年収850万円の控除の境目" },
   { href: "/knowledge/annual-holidays-110/", title: "年間休日110日の水準", desc: "厚労省調査で平均112.4日・109日以下は39.0%。有給の平均取得を加えた休み" },
+  { href: "/knowledge/gesshu-21man-tedori/", title: "月給21万円の手取り", desc: "令和8年の税制で約16.9万円。月給20.9万円より少なくなる境目と最低賃金との比較" },
+  { href: "/knowledge/infra-engineer-nenshu/", title: "インフラエンジニアの平均年収", desc: "賃金構造基本統計調査（その他の情報処理・通信技術者）で約566万円。年齢別・企業規模別" },
 ];
 
 const compares = [
