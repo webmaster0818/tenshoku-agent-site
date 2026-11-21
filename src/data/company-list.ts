@@ -154,6 +154,8 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "mizuho-bank", name: "みずほ銀行", salary: "約870万円（有価証券報告書・非上場の事業会社）", tag: "銀行", scope: "出向者・海外の現地採用者・海外勤務者を除く" },
   { slug: "mufg-bank", name: "三菱UFJ銀行", salary: "約914万円（有価証券報告書・非上場の事業会社）", tag: "銀行", scope: "海外の現地採用者・他社からの出向者を除く" },
   { slug: "orix", name: "オリックス", salary: "約1,040万円（有価証券報告書・提出会社単体）", tag: "リース・金融", scope: "休職者・期中の途中入社者・受入出向者を除く" },
+  { slug: "canon-mj", name: "キヤノンマーケティングジャパン", salary: "約849万円（有価証券報告書・提出会社単体）", tag: "事務機器販売・IT" },
+  { slug: "itochu-enex", name: "伊藤忠エネクス", salary: "約1,001万円（有価証券報告書・提出会社単体）", tag: "エネルギー商社" },
   { slug: "chugai", name: "中外製薬", salary: "約1,350万円（有価証券報告書）", tag: "製薬" },
   { slug: "takeda", name: "武田薬品工業", salary: "約1,144万円（有価証券報告書）", tag: "製薬" },
   { slug: "astellas", name: "アステラス製薬", salary: "約1,131万円（有価証券報告書）", tag: "製薬" },

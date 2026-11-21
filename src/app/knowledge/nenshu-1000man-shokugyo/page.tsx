@@ -273,6 +273,7 @@ export default function Page() {
           <li><Link href="/knowledge/tedori-1000man/" className="text-teal font-bold hover:underline">年収1000万円の手取り</Link></li>
           <li><Link href="/knowledge/programmer-nenshu/" className="text-teal font-bold hover:underline">プログラマーの平均年収</Link></li>
           <li><Link href="/knowledge/daisotsu-nenshu/" className="text-teal font-bold hover:underline">大卒の平均年収</Link></li>
+          <li><Link href="/knowledge/kouninkaikeishi-tenshoku/" className="text-teal font-bold hover:underline">公認会計士の転職と年齢別の年収</Link></li>
           <li><Link href="/knowledge/tedori-gesshu-50man/" className="text-teal font-bold hover:underline">手取り50万円の額面</Link></li>
           <li><Link href="/knowledge/30dai-josei-tenshoku/" className="text-teal font-bold hover:underline">30代女性の転職</Link></li>
           <li><Link href="/company/maker-salary/" className="text-teal font-bold hover:underline">メーカー年収ランキング</Link></li>

@@ -229,6 +229,7 @@ export default function CompanyCareer() {
             <Link href="/company/mitsubishi-corp/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">三菱商事転職ガイド</Link>
             <Link href="/company/sumitomo-corp/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">住友商事転職ガイド</Link>
             <Link href="/company/marubeni/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">丸紅転職ガイド</Link>
+            <Link href="/company/itochu-enex/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">伊藤忠エネクスの平均年収</Link>
           </div>
         </div>
       </article>

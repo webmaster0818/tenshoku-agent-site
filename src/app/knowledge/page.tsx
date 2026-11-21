@@ -71,6 +71,9 @@ const dataGuides = [
   { href: "/knowledge/annual-holidays-110/", title: "年間休日110日の水準", desc: "厚労省調査で平均112.4日・109日以下は39.0%。有給の平均取得を加えた休み" },
   { href: "/knowledge/gesshu-21man-tedori/", title: "月給21万円の手取り", desc: "令和8年の税制で約16.9万円。月給20.9万円より少なくなる境目と最低賃金との比較" },
   { href: "/knowledge/infra-engineer-nenshu/", title: "インフラエンジニアの平均年収", desc: "賃金構造基本統計調査（その他の情報処理・通信技術者）で約566万円。年齢別・企業規模別" },
+  { href: "/knowledge/kouninkaikeishi-tenshoku/", title: "公認会計士の転職", desc: "組織内会計士の78%が監査法人から転職（協会アンケート）。年齢別・企業規模別の年収" },
+  { href: "/knowledge/gesshu-28man-tedori/", title: "月給28万円の手取り", desc: "令和8年の税制で約22.4万円。学歴・年齢別の平均月給との比較" },
+  { href: "/knowledge/gesshu-100man-tedori/", title: "月収100万円の手取り", desc: "令和8年の税制で約71.3万円。厚生年金の上限で社会保険料の割合が下がる仕組み" },
 ];
 
 const compares = [

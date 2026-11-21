@@ -305,6 +305,7 @@ export default function CompanyCareer() {
             <Link href="/company/konica-minolta/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">コニカミノルタ転職ガイド</Link>
             <Link href="/company/epson/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">セイコーエプソン転職ガイド</Link>
             <Link href="/company/semiconductor-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">半導体業界の年収ランキング</Link>
+            <Link href="/company/canon-mj/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">キヤノンマーケティングジャパンの平均年収</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>
           </div>
         </div>
