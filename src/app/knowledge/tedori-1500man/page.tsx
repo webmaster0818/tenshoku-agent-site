@@ -69,6 +69,7 @@ export default function Page() {
       related={[
         { href: "/knowledge/tedori-1200man/", label: "年収1200万円の手取り" },
         { href: "/knowledge/tedori-1000man/", label: "年収1000万円の手取り" },
+        { href: "/knowledge/tedori-1800man/", label: "年収1800万円の手取り" },
         { href: "/knowledge/tedori-2000man/", label: "年収2000万円の手取り" },
         { href: "/knowledge/tedori-gesshu-40man/", label: "手取り40万円の額面（月額から逆算）" },
         { href: "/type/high-class/", label: "ハイクラス向けの転職エージェント" },

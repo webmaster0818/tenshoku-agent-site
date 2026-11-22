@@ -77,6 +77,10 @@ const dataGuides = [
   { href: "/knowledge/gesshu-35man-tedori/", title: "月収35万円の手取り", desc: "令和8年の税制で約27.6万円。月収34.9万円より少なくなる標準報酬月額の境目" },
   { href: "/industry/nurse/", title: "看護師の転職サイト8選", desc: "許可番号・公式表示の求人件数・雇用形態で比較。ナースセンターの求人倍率2.51倍も" },
   { href: "/knowledge/kyoin-yametai/", title: "教員を辞めたいときに確認すること", desc: "精神疾患の休職7,087人・定年以外の離職15,540人。休職中の収入・辞職の手続き・退職手当" },
+  { href: "/knowledge/gesshu-26man-tedori/", title: "月給26万円の手取り", desc: "令和8年の税制で約20.9万円。企業規模・年齢別の平均月給と月給24.9万円の境目" },
+  { href: "/knowledge/bonus-60man-tedori/", title: "ボーナス60万円の手取り", desc: "令和8年分の算出率の表で約43万〜49万円。前月の給与別の早見表と夏季賞与の産業別平均" },
+  { href: "/knowledge/gesshu-27man-tedori/", title: "月給27万円の手取り", desc: "令和8年の税制で約21.5万円。月給26.9万円より少なくなる理由と産業別の平均月給" },
+  { href: "/knowledge/tedori-1800man/", title: "年収1800万円の手取り", desc: "令和8年の税制で約1,187.9万円。健康保険料の上限と所得税率40%になる年収の目安" },
 ];
 
 const compares = [
