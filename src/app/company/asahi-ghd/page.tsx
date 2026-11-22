@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "アサヒグループホールディングスの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均年間給与は約1,335万円（2025年12月期・提出会社単体）です。1,232万円（2023年12月期）→1,218万円（2024年12月期）→1,335万円（2025年12月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2025年12月期の有価証券報告書（2026年7月27日提出、EDINETで2026年11月22日確認）によると、平均年間給与は13,351,606円（約1,335万円・提出会社単体）です。1,232万円（2023年12月期）→1,218万円（2024年12月期）→1,335万円（2025年12月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "アサヒグループホールディングスは中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "アサヒグループホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均勤続年数は13.6年、平均年齢は44.9歳（2025年12月期・提出会社）です。",
+    a: "2025年12月期の有価証券報告書によると、平均勤続年数は13.6年、平均年齢は44.9歳（2025年12月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "アサヒグループホールディングスへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-06",
+  dateModified: "2026-11-22",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/asahi-ghd/" },
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
         <h2 id="s1">アサヒGHD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,335万円です（2025年12月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約1,335万円です（13,351,606円、2025年12月期・有価証券報告書、EDINETで2026年11月22日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>1,232万円（2023年12月期）→1,218万円（2024年12月期）→1,335万円（2025年12月期）と推移しています。直近期は117万円上昇しており、上昇幅は食品飲料の収録9社の中で最大です。</li>
             <li>キャリア採用の情報は公式採用情報ページ(グループ)で確認できます（2026年9月8日確認）。</li>
             <li>提出会社は持株会社単体(本社機能中心)であり、アサヒビールなど事業会社の平均とは別の数値です。直近期の上昇は業績・報酬制度の影響を含むと考えられますが、有価証券報告書の記載からは内訳を特定できないため、当サイトでは断定を控えます。</li>
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "2502" },
                 { label: "本社", value: "東京都墨田区(吾妻橋)" },
                 { label: "事業内容", value: "アサヒビール・アサヒ飲料・アサヒグループ食品などを束ねる持株会社。欧州・豪州の海外ビール事業が利益の柱のグローバル企業" },
-                { label: "平均年間給与", value: "約1,335万円（2025年12月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月8日確認）" },
+                { label: "平均年間給与", value: "約1,335万円（13,351,606円、2025年12月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "1,232万円（2023年12月期）→1,218万円（2024年12月期）→1,335万円（2025年12月期）" },
                 { label: "平均年齢", value: "44.9歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "13.6年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月8日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月22日確認）に基づく提出会社単体の平均です。2025年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YSGA.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第102期の有価証券報告書</a>（2026年7月27日提出）、2024年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VHC1.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第101期の有価証券報告書</a>（2025年3月27日提出）、2023年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100T4G7.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第100期の有価証券報告書</a>（2024年3月27日提出）に基づきます。有価証券報告書の注記により、従業員数（328名）は就業人員で、提出会社への出向者189名を含みます。平均勤続年数は出向元での勤続年数を含めた通算で、出向日を起算日とした場合は1.4年です。平均年間給与には賞与及び基準外賃金が含まれます。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">アサヒGHDの中途採用の状況</h2>

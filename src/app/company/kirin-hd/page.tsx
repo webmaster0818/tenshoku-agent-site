@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "キリンホールディングスの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均年間給与は約998万円（2025年12月期・提出会社単体）です。956万円（2023年12月期）→1,000万円（2024年12月期）→998万円（2025年12月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2025年12月期の有価証券報告書（2026年3月27日提出、EDINETで2026年11月22日確認）によると、平均年間給与は9,985,539円（約998万円・提出会社単体）です。956万円（2023年12月期）→1,000万円（2024年12月期）→998万円（2025年12月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "キリンホールディングスは中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "キリンホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均勤続年数は13.6年、平均年齢は41.6歳（2025年12月期・提出会社）です。",
+    a: "2025年12月期の有価証券報告書によると、平均勤続年数は13.6年、平均年齢は41.6歳（2025年12月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "キリンホールディングスへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-06",
+  dateModified: "2026-11-22",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/kirin-hd/" },
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
         <h2 id="s1">キリンHD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約998万円です（2025年12月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約998万円です（9,985,539円、2025年12月期・有価証券報告書、EDINETで2026年11月22日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>956万円（2023年12月期）→1,000万円（2024年12月期）→998万円（2025年12月期）と推移しています（1,000万円前後の水準です）。</li>
             <li>キャリア採用の情報は公式キャリア採用ページ(グループ)で確認できます（2026年9月8日確認）。</li>
             <li>提出会社は持株会社単体であり、キリンビールなど事業会社の平均とは別の数値です。</li>
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "2503" },
                 { label: "本社", value: "東京都中野区" },
                 { label: "事業内容", value: "キリンビール・キリンビバレッジ・協和キリン(医薬)などを束ねる持株会社。「食から医にわたる領域」を掲げるCSV経営の先駆" },
-                { label: "平均年間給与", value: "約998万円（2025年12月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月8日確認）" },
+                { label: "平均年間給与", value: "約998万円（9,985,539円、2025年12月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "956万円（2023年12月期）→1,000万円（2024年12月期）→998万円（2025年12月期）" },
                 { label: "平均年齢", value: "41.6歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "13.6年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月8日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月22日確認）に基づく提出会社単体の平均です。2025年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XTVS.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第187期の有価証券報告書</a>（2026年3月27日提出）、2024年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VH7L.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第186期の有価証券報告書</a>（2025年3月28日提出）、2023年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100T4MO.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第185期の有価証券報告書</a>（2024年3月28日提出）に基づきます。有価証券報告書の注記により、従業員数（1,124人）は就業人員です。平均勤続年数は、雇用形態等により積算方法が異なるため概算です。平均年間給与には賞与及び基準外賃金が含まれます。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">キリンHDの中途採用の状況</h2>

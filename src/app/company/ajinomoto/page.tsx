@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "味の素の平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均年間給与は約1,061万円（2026年3月期・提出会社単体）です。1,072万円（2024年3月期）→1,036万円（2025年3月期）→1,061万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月12日提出、EDINETで2026年11月22日確認）によると、平均年間給与は10,613,479円（約1,061万円・提出会社単体）です。1,072万円（2024年3月期）→1,036万円（2025年3月期）→1,061万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "味の素は中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "味の素の平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均勤続年数は18.9年、平均年齢は43.5歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は18.9年、平均年齢は43.5歳（2026年3月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "味の素への転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-06",
+  dateModified: "2026-11-22",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/ajinomoto/" },
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
         <h2 id="s1">味の素転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,061万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約1,061万円（10,613,479円、2026年3月期・有価証券報告書、EDINETで2026年11月22日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>1,072万円（2024年3月期）→1,036万円（2025年3月期）→1,061万円（2026年3月期）と推移しており、1,000万円台で安定しています。</li>
             <li>キャリア採用の情報は公式採用情報ページで確認できます（2026年9月8日確認）。</li>
             <li>平均勤続18.9年の長期就業型です。全従業員平均であり、研究職・営業・工場で水準は異なります。</li>
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "2802" },
                 { label: "本社", value: "東京都中央区(京橋)" },
                 { label: "事業内容", value: "アミノ酸技術を核とする食品・バイオの大手。調味料から半導体材料(ABF)まで展開し「アミノサイエンス」を掲げる" },
-                { label: "平均年間給与", value: "約1,061万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月8日確認）" },
+                { label: "平均年間給与", value: "約1,061万円（10,613,479円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "1,072万円（2024年3月期）→1,036万円（2025年3月期）→1,061万円（2026年3月期）" },
                 { label: "平均年齢", value: "43.5歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "18.9年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月8日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月22日確認）に基づく提出会社単体の平均です。2026年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y992.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第148期の有価証券報告書</a>（2026年6月12日提出）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VXJA.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第147期の有価証券報告書</a>（2025年6月18日提出）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TNWR.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第146期の有価証券報告書</a>（2024年6月25日提出）に基づきます。有価証券報告書の注記により、従業員数（3,705人）は就業従業員数です。平均年間給与には賞与および基準外賃金が含まれます。対前事業年度増減率は2.4%と記載されています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">味の素の中途採用の状況</h2>

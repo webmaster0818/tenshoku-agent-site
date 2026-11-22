@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "日清食品ホールディングスの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均年間給与は約842万円（2026年3月期・提出会社単体）です。772万円（2024年3月期）→880万円（2025年3月期）→842万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月22日提出、EDINETで2026年11月22日確認）によると、平均年間給与は8,425,365円（約842万円・提出会社単体）です。772万円（2024年3月期）→880万円（2025年3月期）→842万円（2026年3月期）と推移しています。提出会社の従業員（12か月分の給与支払いがあった契約社員を除く795名）の平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "日清食品ホールディングスは中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "日清食品ホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均勤続年数は8.7年、平均年齢は39.5歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は8.7年、平均年齢は39.5歳（2026年3月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "日清食品ホールディングスへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-06",
+  dateModified: "2026-11-22",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/nissin-hd/" },
@@ -93,10 +93,10 @@ export default function CompanyCareer() {
         <h2 id="s1">日清食品HD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約842万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約842万円です（8,425,365円、2026年3月期・有価証券報告書、EDINETで2026年11月22日確認）。提出会社単体の平均値で、12か月分の給与支払いがあった契約社員を除く従業員795名が対象です。</li>
             <li>772万円（2024年3月期）→880万円（2025年3月期）→842万円（2026年3月期）と推移しています（直近2期は800万円台）。</li>
             <li>キャリア採用の情報は公式採用情報ページ(グループ)で確認できます（2026年9月8日確認）。</li>
-            <li>提出会社は持株会社単体であり、日清食品など事業会社の平均とは別の数値です。平均勤続8.7年と、中途採用者が多い構成です。</li>
+            <li>提出会社は持株会社単体であり、日清食品など事業会社の平均とは別の数値です。平均勤続年数は8.7年です（受入出向者8名を除く972名で算出）。</li>
           </ul>
         </div>
 
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "2897" },
                 { label: "本社", value: "東京都新宿区" },
                 { label: "事業内容", value: "カップヌードルの日清食品を中核とする持株会社。即席麺の世界的パイオニアで、完全メシなど新規事業にも積極的" },
-                { label: "平均年間給与", value: "約842万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月8日確認）" },
+                { label: "平均年間給与", value: "約842万円（8,425,365円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "772万円（2024年3月期）→880万円（2025年3月期）→842万円（2026年3月期）" },
                 { label: "平均年齢", value: "39.5歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "8.7年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月8日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月22日確認）に基づく提出会社単体の平均です。2026年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YEWB.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第78期の有価証券報告書</a>（2026年6月22日提出）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W2GG.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第77期の有価証券報告書</a>（2025年6月24日提出）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TR1G.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第76期の有価証券報告書</a>（2024年6月26日提出）に基づきます。有価証券報告書の注記により、従業員数は980名（就業人員数）ですが、平均年間給与は12か月分の給与支払いがあった契約社員を除く当社従業員795名、平均年齢と平均勤続年数は受入出向者8名を除く972名を対象に算出されています。平均年間給与には賞与及び基準外賃金が含まれます。対前事業年度増減率は△4.3%と記載されています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">日清食品HDの中途採用の状況</h2>
@@ -176,9 +176,9 @@ export default function CompanyCareer() {
         <h2 id="s6">日清食品HDの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約842万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
+            <li>約842万円（2026年3月期）は提出会社単体の従業員（契約社員の一部を除く795名）の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
-            <li>提出会社は持株会社単体であり、日清食品など事業会社の平均とは別の数値です。平均勤続8.7年と、中途採用者が多い構成です。</li>
+            <li>提出会社は持株会社単体であり、日清食品など事業会社の平均とは別の数値です。平均勤続年数は8.7年です（受入出向者8名を除く972名で算出）。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>
           </ul>
           <p className="text-sm text-text-secondary mt-3">正確な想定年収は、転職エージェントを通じてポジションごとのレンジをご確認いただくことをおすすめします。</p>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "明治ホールディングスの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均年間給与は約938万円（2026年3月期・提出会社単体）です。1,036万円（2024年3月期）→909万円（2025年3月期）→938万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月24日提出、EDINETで2026年11月22日確認）によると、平均年間給与は9,380千円（約938万円・提出会社単体）です。1,036万円（2024年3月期）→909万円（2025年3月期）→938万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "明治ホールディングスは中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "明治ホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月8日確認）によると、平均勤続年数は18.0年、平均年齢は43.0歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は18.0年、平均年齢は43.0歳（2026年3月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "明治ホールディングスへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-06",
+  dateModified: "2026-11-22",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/meiji-hd/" },
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
         <h2 id="s1">明治HD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約938万円です（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月8日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約938万円です（9,380千円、2026年3月期・有価証券報告書、EDINETで2026年11月22日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>1,036万円（2024年3月期）→909万円（2025年3月期）→938万円（2026年3月期）と推移しています（直近2期は900万円台）。</li>
             <li>キャリア採用の情報は明治グループの採用情報ページで確認できます（2026年9月8日確認）。</li>
             <li>提出会社は持株会社単体であり、明治(食品事業会社)の平均とは別の数値です。</li>
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "2269" },
                 { label: "本社", value: "東京都中央区(京橋)" },
                 { label: "事業内容", value: "明治(食品)と明治製菓ファルマ・KMバイオロジクス(医薬)を束ねる持株会社。ヨーグルト・チョコレートの国内最大手" },
-                { label: "平均年間給与", value: "約938万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月8日確認）" },
+                { label: "平均年間給与", value: "約938万円（9,380千円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "1,036万円（2024年3月期）→909万円（2025年3月期）→938万円（2026年3月期）" },
                 { label: "平均年齢", value: "43.0歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "18.0年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月8日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月22日確認）に基づく提出会社単体の平均です。2026年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YILP.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第17期の有価証券報告書</a>（2026年6月24日提出）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W6WK.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第16期の有価証券報告書</a>（2025年6月26日提出）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TW0N.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第15期の有価証券報告書</a>（2024年6月27日提出）に基づきます。有価証券報告書の注記により、従業員数（298人）は就業人員数で、当社グループ外から当社グループへの出向者を含みます。平均勤続年数は、㈱明治などから出向により当社で就業している従業員について、各社における勤続年数を通算しています。平均年間給与には賞与及び基準外賃金が含まれます。対前事業年度増減率は3.1%と記載されています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">明治HDの中途採用の状況</h2>

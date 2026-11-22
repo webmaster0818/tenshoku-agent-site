@@ -170,7 +170,7 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "jt", name: "JT（日本たばこ産業）", salary: "約1,003万円（有価証券報告書）", tag: "たばこ・食品" },
   { slug: "kirin-hd", name: "キリンHD", salary: "約998万円（有価証券報告書・持株単体）", tag: "食品・飲料" },
   { slug: "meiji-hd", name: "明治HD", salary: "約938万円（有価証券報告書・持株単体）", tag: "食品・飲料" },
-  { slug: "nissin-hd", name: "日清食品HD", salary: "約842万円（有価証券報告書・持株単体）", tag: "食品・飲料" },
+  { slug: "nissin-hd", name: "日清食品HD", salary: "約842万円（有価証券報告書・持株単体）", tag: "食品・飲料", scope: "12か月分の給与支払いがあった契約社員を除く" },
   { slug: "hankyu-hanshin", name: "阪急阪神HD", salary: "約919万円（有価証券報告書・持株単体）", tag: "鉄道" },
   { slug: "tokyu", name: "東急", salary: "約903万円（有価証券報告書・持株単体）", tag: "鉄道" },
   { slug: "jr-central", name: "JR東海", salary: "約860万円（有価証券報告書）", tag: "鉄道" },
