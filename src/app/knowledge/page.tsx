@@ -81,6 +81,10 @@ const dataGuides = [
   { href: "/knowledge/bonus-60man-tedori/", title: "ボーナス60万円の手取り", desc: "令和8年分の算出率の表で約43万〜49万円。前月の給与別の早見表と夏季賞与の産業別平均" },
   { href: "/knowledge/gesshu-27man-tedori/", title: "月給27万円の手取り", desc: "令和8年の税制で約21.5万円。月給26.9万円より少なくなる理由と産業別の平均月給" },
   { href: "/knowledge/tedori-1800man/", title: "年収1800万円の手取り", desc: "令和8年の税制で約1,187.9万円。健康保険料の上限と所得税率40%になる年収の目安" },
+  { href: "/knowledge/tedori-240man/", title: "年収240万円の手取り", desc: "令和8年の税制で約195.2万円。年収234万円・252万円で手取りが逆転する境目" },
+  { href: "/knowledge/tedori-380man/", title: "年収380万円の手取り", desc: "令和8年の税制で約302.2万円。年収372万円・396万円の標準報酬月額の境目" },
+  { href: "/knowledge/tedori-420man/", title: "年収420万円の手取り", desc: "令和8年の税制で約331.4万円。月給35万円の境目で年収418.8万円より手取りが少ない" },
+  { href: "/knowledge/tedori-480man/", title: "年収480万円の手取り", desc: "令和8年の税制で約376.7万円。基礎控除68万円→104万円で所得税が年2万円減る" },
 ];
 
 const compares = [

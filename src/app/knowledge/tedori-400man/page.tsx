@@ -67,6 +67,8 @@ export default function Page() {
       }
       faq={faq}
       related={[
+        { href: "/knowledge/tedori-380man/", label: "年収380万円の手取り" },
+        { href: "/knowledge/tedori-420man/", label: "年収420万円の手取り" },
         { href: "/knowledge/tedori-500man/", label: "年収500万円の手取り" },
         { href: "/knowledge/tedori-600man/", label: "年収600万円の手取り" },
         { href: "/age/20s/", label: "20代向けの転職エージェント" },

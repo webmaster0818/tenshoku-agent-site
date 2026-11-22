@@ -70,6 +70,7 @@ export default function Page() {
       }
       faq={faq}
       related={[
+        { href: "/knowledge/tedori-380man/", label: "年収380万円の手取り" },
         { href: "/knowledge/tedori-300man/", label: "年収300万円の手取り" },
         { href: "/knowledge/tedori-400man/", label: "年収400万円の手取り" },
         { href: "/knowledge/tedori-hayamihyo/", label: "年収別の手取り早見表" },
