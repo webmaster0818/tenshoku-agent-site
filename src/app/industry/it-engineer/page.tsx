@@ -185,6 +185,9 @@ export default function ItEngineerPage() {
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">他のカテゴリも見る</h3>
           <div className="flex flex-col sm:flex-row gap-3">
+            <Link href="/industry/nurse/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              看護師の転職サイト
+            </Link>
             <Link href="/industry/consulting/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               コンサル向けエージェント
             </Link>
