@@ -76,6 +76,7 @@ export default function Page() {
       related={[
         { href: "/knowledge/tedori-420man/", label: "年収420万円の手取り" },
         { href: "/knowledge/tedori-480man/", label: "年収480万円の手取り" },
+        { href: "/knowledge/hokkaido-heikin-nenshu/", label: "北海道の平均年収（約466.6万円）" },
         { href: "/knowledge/tedori-400man/", label: "年収400万円の手取り" },
         { href: "/knowledge/tedori-500man/", label: "年収500万円の手取り" },
         { href: "/knowledge/gesshu-30man-tedori/", label: "月収30万円の手取り" },

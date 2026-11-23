@@ -369,6 +369,9 @@ export default function LevtechReview() {
             <Link href="/type/it-engineer/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ITエンジニア向けエージェントの選び方
             </Link>
+            <Link href="/review/geekly/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              ギークリー（IT・Web・ゲーム特化）の評判
+            </Link>
             <Link href="/review/recruit-agent/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               リクルートエージェントの詳細
             </Link>

@@ -180,6 +180,9 @@ export default function AgentVsSitePage() {
             <Link href="/knowledge/how-to-choose/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               エージェントの選び方
             </Link>
+            <Link href="/review/en-tenshoku/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
+              エン転職（求人サイト）の評判
+            </Link>
             <Link href="/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">
               ランキングTOPへ
             </Link>

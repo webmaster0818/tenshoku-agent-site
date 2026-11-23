@@ -226,6 +226,7 @@ export default function Page() {
             <Link href="/company/tokio-marine/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">東京海上HD転職ガイド</Link>
             <Link href="/company/smbc/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">三井住友銀行の平均年収</Link>
             <Link href="/company/kinyu-salary/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">金融 年収ランキング</Link>
+            <Link href="/company/prudential/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">プルデンシャル生命の年収</Link>
             <Link href="/company/ms-ad/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">MS&AD転職ガイド</Link>
             <Link href="/company/sompo/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">SOMPO HD転職ガイド</Link>
             <Link href="/company/" className="btn-primary text-sm px-5 py-2.5 bg-navy-light">企業別転職ガイド一覧</Link>

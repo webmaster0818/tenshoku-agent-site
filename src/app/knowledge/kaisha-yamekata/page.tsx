@@ -253,6 +253,7 @@ export default function Page() {
           <li><Link href="/knowledge/flow/" className="text-teal font-bold hover:underline">転職エージェント利用の流れ</Link></li>
           <li><Link href="/knowledge/how-to-choose/" className="text-teal font-bold hover:underline">転職エージェントの選び方</Link></li>
           <li><Link href="/knowledge/kyoin-yametai/" className="text-teal font-bold hover:underline">教員を辞めたいときに確認すること（公立学校の手続き）</Link></li>
+          <li><Link href="/knowledge/shigoto-muitenai/" className="text-teal font-bold hover:underline">仕事が向いてないと感じて辞めたいときに確認すること</Link></li>
         </ul>
 
         <h2>出典</h2>

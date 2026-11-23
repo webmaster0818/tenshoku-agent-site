@@ -85,6 +85,8 @@ const dataGuides = [
   { href: "/knowledge/tedori-380man/", title: "年収380万円の手取り", desc: "令和8年の税制で約302.2万円。年収372万円・396万円の標準報酬月額の境目" },
   { href: "/knowledge/tedori-420man/", title: "年収420万円の手取り", desc: "令和8年の税制で約331.4万円。月給35万円の境目で年収418.8万円より手取りが少ない" },
   { href: "/knowledge/tedori-480man/", title: "年収480万円の手取り", desc: "令和8年の税制で約376.7万円。基礎控除68万円→104万円で所得税が年2万円減る" },
+  { href: "/knowledge/shigoto-muitenai/", title: "仕事が向いてないと感じて辞めたいとき", desc: "初職を「仕事が自分に合わない」で辞めた人は21.7%。年齢別の離職理由・無料の適職診断と相談" },
+  { href: "/knowledge/hokkaido-heikin-nenshu/", title: "北海道の平均年収", desc: "令和7年 賃金構造基本統計調査から約466.6万円・47都道府県中30位。男女別・年齢別・産業別" },
 ];
 
 const compares = [

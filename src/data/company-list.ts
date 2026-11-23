@@ -157,6 +157,7 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "canon-mj", name: "キヤノンマーケティングジャパン", salary: "約849万円（有価証券報告書・提出会社単体）", tag: "事務機器販売・IT" },
   { slug: "itochu-enex", name: "伊藤忠エネクス", salary: "約1,001万円（有価証券報告書・提出会社単体）", tag: "エネルギー商社" },
   { slug: "m3", name: "エムスリー", salary: "約976万円（有価証券報告書・提出会社単体）", tag: "医療IT" },
+  { slug: "prudential", name: "プルデンシャル生命保険", salary: "内勤の平均給与 月51.7万円（ディスクロージャー誌・賞与を除く）", tag: "生命保険", scope: "非上場で有価証券報告書の平均年間給与なし。内勤社員の2026年3月の税込定例給与" },
   { slug: "chugai", name: "中外製薬", salary: "約1,350万円（有価証券報告書）", tag: "製薬" },
   { slug: "takeda", name: "武田薬品工業", salary: "約1,144万円（有価証券報告書）", tag: "製薬" },
   { slug: "astellas", name: "アステラス製薬", salary: "約1,131万円（有価証券報告書）", tag: "製薬" },

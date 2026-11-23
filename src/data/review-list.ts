@@ -13,6 +13,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/bizreach/", name: "ビズリーチ", tag: "スカウト型" },
       { href: "/review/miidas/", name: "ミイダス", tag: "オファー型・診断" },
       { href: "/review/workport/", name: "ワークポート", tag: "全職種・全国拠点" },
+      { href: "/review/en-tenshoku/", name: "エン転職", tag: "求人サイト・取材型" },
       { href: "/review/jac/", name: "JACリクルートメント", tag: "ハイクラス" },
       { href: "/review/assign/", name: "ASSIGN(アサイン)", tag: "若手ハイエンド" },
       { href: "/review/libz/", name: "LIBZ(リブズ)", tag: "逆求人型" },
@@ -23,6 +24,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
     items: [
       { href: "/review/unison-career/", name: "ユニゾンキャリア", tag: "IT・Web特化" },
       { href: "/review/levtech/", name: "レバテックキャリア", tag: "IT特化大手" },
+      { href: "/review/geekly/", name: "ギークリー", tag: "IT・Web・ゲーム" },
       { href: "/review/techclips/", name: "TechClipsエージェント", tag: "SIer/SES脱出" },
       { href: "/review/pit-career/", name: "PIT(ピット)", tag: "若手エンジニア" },
       { href: "/review/pro-jin/", name: "@PRO人", tag: "IT厳選提案型" },
