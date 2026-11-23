@@ -98,6 +98,7 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "accenture", name: "アクセンチュア", salary: "参考値（外資）", tag: "コンサル" },
   { slug: "mitsui-fudosan", name: "三井不動産", salary: "約1,855万円（有価証券報告書）", tag: "不動産" },
   { slug: "ebisu-fudousan", name: "恵比寿不動産", salary: "公式採用ページ掲載（成果報酬型）", tag: "不動産" },
+  { slug: "sky", name: "Sky株式会社", salary: "832万円（公式採用サイト・2025年度・残業代含む）", tag: "IT・ソフトウェア" },
   { slug: "fujifilm", name: "富士フイルムHD", salary: "約1,085万円（有価証券報告書・持株単体）", tag: "精密・ヘルスケア" },
   { slug: "fujifilm-bi", name: "富士フイルムビジネスイノベーション", salary: "約1,059万円（親会社の有価証券報告書・非上場の事業会社）", tag: "精密機器", scope: "就業人員3,875名の平均" },
   { slug: "recruit", name: "リクルートHD", salary: "約1,162万円（有価証券報告書・持株単体）", tag: "IT・人材" },

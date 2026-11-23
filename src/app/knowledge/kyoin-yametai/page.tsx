@@ -597,6 +597,7 @@ export default function Page() {
         <h2>関連ページ</h2>
         <ul className="mb-10">
           <li><Link href="/review/kujilabo/" className="text-teal font-bold hover:underline">クジラボの特徴と公式データ（教員・公務員向けキャリア支援）</Link></li>
+          <li><Link href="/knowledge/komuin-yametai/" className="text-teal font-bold hover:underline">公務員を辞めたいときに確認すること（退職手当・失業時の給付）</Link></li>
           <li><Link href="/knowledge/shigoto-yasumitai/" className="text-teal font-bold hover:underline">仕事を休みたいときに使える制度</Link></li>
           <li><Link href="/knowledge/kaisha-yamekata/" className="text-teal font-bold hover:underline">会社の辞め方</Link></li>
           <li><Link href="/knowledge/resume/" className="text-teal font-bold hover:underline">職務経歴書の書き方</Link></li>

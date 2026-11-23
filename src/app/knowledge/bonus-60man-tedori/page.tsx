@@ -282,6 +282,7 @@ export default function Page() {
         <h2>関連ページ</h2>
         <ul className="mb-10">
           {[
+            { href: "/knowledge/bonus-40man-tedori/", label: "ボーナス40万円の手取り" },
             { href: "/knowledge/gesshu-30man-tedori/", label: "月収30万円の手取り" },
             { href: "/knowledge/tedori-500man/", label: "年収500万円の手取り" },
             { href: "/knowledge/tedori-hayamihyo/", label: "年収別の手取り早見表" },
