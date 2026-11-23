@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "セイコーエプソンの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月2日確認）によると、平均年間給与は約808万円（2026年3月期・提出会社単体）です。800万円（2024年3月期）→794万円（2025年3月期）→808万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月24日提出、EDINETで2026年11月23日確認）によると、平均年間給与は8,087千円（約808万円・提出会社単体）です。800万円（2024年3月期）→794万円（2025年3月期）→808万円（2026年3月期）と推移しています。提出会社の正規従業員の平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "セイコーエプソンは中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "セイコーエプソンの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月2日確認）によると、平均勤続年数は18.1年、平均年齢は42.9歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は18.1年、平均年齢は42.9歳（2026年3月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "セイコーエプソンへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-02",
+  dateModified: "2026-11-23",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/epson/" },
@@ -93,8 +93,8 @@ export default function CompanyCareer() {
         <h2 id="s1">エプソン転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約808万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
-            <li>800万円（2024年3月期）→794万円（2025年3月期）→808万円（2026年3月期）と推移しています。2025年3月期に一度下がった後、最新期に14万円上昇しました。</li>
+            <li>平均年間給与は約808万円（8,087千円、2026年3月期・有価証券報告書、EDINETで2026年11月23日確認）。提出会社単体の正規従業員の平均値です。</li>
+            <li>800万円（2024年3月期）→794万円（2025年3月期）→808万円（2026年3月期）と推移しています。2025年3月期に一度下がった後、最新期は約15万円上昇しました（7,941千円→8,087千円）。</li>
             <li>キャリア採用の情報は公式採用サイト（キャリア採用）で確認できます（2026年9月2日確認）。</li>
             <li>本社は長野県諏訪市です。平均勤続年数は18.1年で、長期就業型の従業員構成における平均値です。</li>
           </ul>
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "6724" },
                 { label: "本社", value: "長野県諏訪市" },
                 { label: "事業内容", value: "インクジェットプリンター・プロジェクターで世界大手。ウオッチ・産業用ロボット・半導体も手がける精密機器メーカー" },
-                { label: "平均年間給与", value: "約808万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月2日確認）" },
+                { label: "平均年間給与", value: "約808万円（8,087千円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "800万円（2024年3月期）→794万円（2025年3月期）→808万円（2026年3月期）" },
                 { label: "平均年齢", value: "42.9歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "18.1年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月2日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月23日確認）に基づく提出会社単体の正規従業員の平均です。2026年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YJ6A.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第84期の有価証券報告書</a>（2026年6月24日提出）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W55U.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第83期の有価証券報告書</a>（2025年6月25日提出）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TSY2.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第82期の有価証券報告書</a>（2024年6月26日提出）に基づきます。有価証券報告書の注記により、従業員数12,311名は就業人員数で、平均年齢・平均勤続年数・平均年間給与は提出会社の正規従業員をもとに計算されています。平均年間給与には賞与および基準外賃金が含まれます。対前事業年度増減率は1.8%と記載されています。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">エプソンの中途採用の状況</h2>
@@ -176,7 +176,7 @@ export default function CompanyCareer() {
         <h2 id="s6">エプソンの年収の考え方</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>約808万円（2026年3月期）は提出会社単体・全従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
+            <li>約808万円（2026年3月期）は提出会社単体・正規従業員の平均であり、職種・年代・役職により実際の水準は異なります。</li>
             <li>平均年間給与には賞与等の変動要素が含まれます。</li>
             <li>本社は長野県諏訪市です。平均勤続年数は18.1年で、長期就業型の従業員構成における平均値です。</li>
             <li>中途入社時の提示額はポジション・経験により個別に決まります。</li>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "クボタの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月2日確認）によると、平均年間給与は約860万円（2025年12月期・提出会社単体）です。798万円（2023年12月期）→824万円（2024年12月期）→860万円（2025年12月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2025年12月期の有価証券報告書（2026年3月16日提出、EDINETで2026年11月23日確認）によると、平均年間給与は8,609,216円（約860万円・提出会社単体）です。798万円（2023年12月期）→824万円（2024年12月期）→860万円（2025年12月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "クボタは中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "クボタの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月2日確認）によると、平均勤続年数は14.3年、平均年齢は39.9歳（2025年12月期・提出会社）です。",
+    a: "2025年12月期の有価証券報告書によると、平均勤続年数は14.3年、平均年齢は39.9歳（2025年12月期・提出会社）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "クボタへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-02",
+  dateModified: "2026-11-23",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/kubota/" },
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
         <h2 id="s1">クボタ転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約860万円です（2025年12月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約860万円です（8,609,216円、2025年12月期・有価証券報告書、EDINETで2026年11月23日確認）。提出会社単体の全従業員の平均値です。</li>
             <li>798万円（2023年12月期）→824万円（2024年12月期）→860万円（2025年12月期）と推移しており、2年連続で上昇しています。</li>
             <li>キャリア採用の情報は公式キャリア採用情報ページで確認できます（2026年9月2日確認）。</li>
             <li>12月決算のため、最新値は2025年12月期です。平均年齢39.9歳・平均勤続14.3年の従業員構成における平均値です。</li>
@@ -109,7 +109,7 @@ export default function CompanyCareer() {
                 { label: "証券コード", value: "6326" },
                 { label: "本社", value: "大阪府大阪市（浪速区）" },
                 { label: "事業内容", value: "農業機械・エンジンで国内首位級、水環境インフラ（パイプ・ポンプ・水処理）も手がける大手機械メーカー" },
-                { label: "平均年間給与", value: "約860万円（2025年12月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月2日確認）" },
+                { label: "平均年間給与", value: "約860万円（8,609,216円、2025年12月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "798万円（2023年12月期）→824万円（2024年12月期）→860万円（2025年12月期）" },
                 { label: "平均年齢", value: "39.9歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "14.3年（同・提出会社）" },
@@ -123,7 +123,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月2日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月23日確認）に基づく提出会社単体の平均です。2025年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XR0M.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第136期の有価証券報告書</a>（2026年3月16日提出）、2024年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VF2E.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第135期の有価証券報告書</a>（2025年3月21日提出）、2023年12月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100T32K.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第134期の有価証券報告書</a>（2024年3月22日提出）に基づきます。有価証券報告書の注記により、従業員数15,897名は就業人員数です。平均年間給与には賞与及び基準外賃金が含まれます。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">クボタの中途採用の状況</h2>

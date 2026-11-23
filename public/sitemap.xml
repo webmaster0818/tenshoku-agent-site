@@ -53,7 +53,7 @@
   <url><loc>https://tenshoku-agent-lab.com/type/women/</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/type/it-engineer/</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/compare/mynavi-vs-recruit/</loc><lastmod>2026-11-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/</loc><lastmod>2026-11-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/</loc><lastmod>2026-11-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/koei-tecmo/</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/obic/</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/konami/</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -155,10 +155,10 @@
   <url><loc>https://tenshoku-agent-lab.com/company/yaskawa/</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/hirose/</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/horiba/</loc><lastmod>2026-08-12</lastmod></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/minebea-mitsumi/</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/minebea-mitsumi/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/smc/</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/ibiden/</loc><lastmod>2026-08-12</lastmod></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/hamamatsu-photonics/</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/hamamatsu-photonics/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/nabtesco/</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/taiyo-yuden/</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://tenshoku-agent-lab.com/company/thk/</loc><lastmod>2026-08-12</lastmod></url>
@@ -460,7 +460,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tenshoku-agent-lab.com/company/fujifilm/</loc>
+    <loc>https://tenshoku-agent-lab.com/company/fujifilm/</loc><lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -470,7 +470,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tenshoku-agent-lab.com/company/mitsubishi-electric/</loc>
+    <loc>https://tenshoku-agent-lab.com/company/mitsubishi-electric/</loc><lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -480,7 +480,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tenshoku-agent-lab.com/company/kubota/</loc>
+    <loc>https://tenshoku-agent-lab.com/company/kubota/</loc><lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -495,7 +495,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tenshoku-agent-lab.com/company/epson/</loc>
+    <loc>https://tenshoku-agent-lab.com/company/epson/</loc><lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

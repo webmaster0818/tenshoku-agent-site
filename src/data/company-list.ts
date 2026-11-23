@@ -106,7 +106,7 @@ export const COMPANIES: { slug: string; name: string; salary: string; tag: strin
   { slug: "kubota", name: "クボタ", salary: "約860万円（有価証券報告書・12月期）", tag: "農業機械" },
   { slug: "olympus", name: "オリンパス", salary: "約1,005万円（有価証券報告書）", tag: "医療機器" },
   { slug: "terumo", name: "テルモ", salary: "約821万円（有価証券報告書）", tag: "医療機器", scope: "正社員のみ" },
-  { slug: "epson", name: "セイコーエプソン", salary: "約808万円（有価証券報告書）", tag: "精密機器" },
+  { slug: "epson", name: "セイコーエプソン", salary: "約808万円（有価証券報告書）", tag: "精密機器", scope: "正規従業員のみ" },
   { slug: "honda", name: "ホンダ(本田技研工業)", salary: "約932万円（有価証券報告書）", tag: "自動車" },
   { slug: "nissan", name: "日産自動車", salary: "約857万円（有価証券報告書）", tag: "自動車" },
   { slug: "suzuki", name: "スズキ", salary: "約827万円（有価証券報告書）", tag: "自動車" },
