@@ -93,6 +93,7 @@ export default function Page() {
       }
       faq={faq}
       related={[
+        { href: "/knowledge/gesshu-60man-tedori/", label: "月収60万円の手取り" },
         { href: "/knowledge/tedori-600man/", label: "年収600万円の手取り" },
         { href: "/knowledge/gesshu-40man-tedori/", label: "月収40万円の手取り" },
         { href: "/knowledge/tedori-gesshu-40man/", label: "手取り40万円の額面（逆算）" },
