@@ -99,6 +99,7 @@ export default function Page() {
       }
       faq={faq}
       related={[
+        { href: "/knowledge/tedori-gesshu-22man/", label: "手取り22万円の額面" },
         { href: "/knowledge/tedori-gesshu-27man/", label: "手取り27万円の額面" },
         { href: "/knowledge/tedori-gesshu-30man/", label: "手取り30万円の額面" },
         { href: "/knowledge/gesshu-26man-tedori/", label: "月給26万円の手取り" },

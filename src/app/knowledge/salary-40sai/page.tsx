@@ -288,6 +288,7 @@ export default function Page() {
         <h2>関連ページ</h2>
         <ul className="mb-10">
           <li><Link href="/knowledge/salary-35sai/" className="text-teal font-bold hover:underline">35歳の平均年収</Link></li>
+          <li><Link href="/knowledge/salary-45sai/" className="text-teal font-bold hover:underline">45歳の平均年収</Link></li>
           <li><Link href="/age/40s/" className="text-teal font-bold hover:underline">40代におすすめの転職エージェント</Link></li>
           <li><Link href="/knowledge/daisotsu-nenshu/" className="text-teal font-bold hover:underline">大卒の平均年収</Link></li>
           <li><Link href="/knowledge/tedori-500man/" className="text-teal font-bold hover:underline">年収500万円の手取り</Link></li>

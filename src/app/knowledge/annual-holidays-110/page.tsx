@@ -235,6 +235,7 @@ export default function Page() {
         <h2>関連ページ</h2>
         <ul className="mb-10">
           <li><Link href="/knowledge/annual-holidays-105/" className="text-teal font-bold hover:underline">年間休日105日の水準</Link></li>
+          <li><Link href="/knowledge/annual-holidays-115/" className="text-teal font-bold hover:underline">年間休日115日の水準</Link></li>
           <li><Link href="/knowledge/annual-holidays-120/" className="text-teal font-bold hover:underline">年間休日120日の水準</Link></li>
           <li><Link href="/knowledge/zangyo-average/" className="text-teal font-bold hover:underline">残業時間の平均（毎月勤労統計調査）</Link></li>
           <li><Link href="/knowledge/tedori-750man/" className="text-teal font-bold hover:underline">年収750万円の手取り</Link></li>
