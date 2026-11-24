@@ -7,7 +7,8 @@ import { COMPANY_COUNT } from "@/data/company-list";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  title: `転職エージェント比較ラボ【2026年最新】${REVIEW_COUNT}サービス＋企業の年収ランキング${COMPANY_COUNT}社を一次情報で比較`,
+  // 2026-11-24 施主 mi26rock 判断A（③ 1574578475896016927）：10/28 に足した「企業の年収ランキング」を title から外し、比較・ランキングに戻す。年収ランキングは description とページ内の案内に残す
+  title: `転職エージェント比較・ランキング【2026年最新】${REVIEW_COUNT}サービスを一次情報で比較｜転職エージェント比較ラボ`,
   description:
     `転職エージェント・転職サービス${REVIEW_COUNT}件を、求人数・得意分野・対応年代の公表情報で比較します。あわせて有価証券報告書にもとづく企業別の平均年収を${COMPANY_COUNT}社ぶん公開し、20業界の年収ランキングにまとめています。年代別・目的別の選び方も解説しています。`,
   openGraph: {
