@@ -53,6 +53,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/caricon/", name: "キャリコン", tag: "エージェント紹介" },
       { href: "/review/deaeru-agent/", name: "出会えるエージェント", tag: "3社紹介型" },
       { href: "/review/career-ticket-tenshoku/", name: "キャリアチケット転職", tag: "20-30代・成長軸" },
+      { href: "/review/re-shukatsu/", name: "Re就活", tag: "20代向け転職サイト" },
     ],
   },
   {
