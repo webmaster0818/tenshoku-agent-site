@@ -124,6 +124,7 @@ export default function ConsultingPage() {
         <ul className="space-y-2 text-sm text-text-secondary mb-6">
           <li><strong>事業会社からコンサルファームへ初めて挑戦する</strong> → 業界・個社の説明からケース面接対策まで未経験前提で支援するMyVision</li>
           <li><strong>M&amp;A仲介・FAS・PEファンドなども視野に入れる</strong> → コンサルとM&amp;A領域を扱う<FelmatTextLink slug="newma" text="NewMA(PR)" /></li>
+          <li><strong>コンサル・M&amp;A・FASに加えてファンド領域も比較したい</strong> → 厚生労働省に登録された令和7年度の就職者数が285人の<Link href="/review/remedy/" className="text-teal hover:underline">リメディ</Link>（2026年11月25日確認）</li>
         </ul>
         <A8Cta slug="myvision" heading="MyVision公式サイトで無料転職相談を予約する" note="コンサル業界のキャリア相談は無料です。" />
 

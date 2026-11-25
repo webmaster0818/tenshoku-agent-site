@@ -110,6 +110,9 @@ export default function HighClassPage() {
             </div>
           ))}
         </div>
+        <p className="text-sm text-text-secondary mb-10">
+          コンサルティングファーム・M&amp;A仲介・FAS・ファンド領域のハイクラス転職を考えている場合は、これらの領域を中心に支援する<Link href="/review/remedy/" className="text-teal underline">リメディ</Link>も比較対象になります（許可番号・就職者数・求人数の公式表記を2026年11月25日に確認）。
+        </p>
 
         {/* ハイクラス転職とは */}
         <h2>ハイクラス転職とは</h2>

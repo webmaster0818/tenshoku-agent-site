@@ -63,6 +63,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/tokihana-career/", name: "トキハナキャリア", tag: "結婚・両立" },
       { href: "/review/newma/", name: "NewMA(ニューマ)", tag: "コンサル・M&A" },
       { href: "/review/myvision/", name: "MyVision(マイビジョン)", tag: "コンサル特化" },
+      { href: "/review/remedy/", name: "リメディ", tag: "コンサル・M&A・FAS" },
     ],
   },
   {
