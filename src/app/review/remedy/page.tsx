@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta from "@/components/FelmatCta";
 
 const TITLE = "リメディはどんな転職エージェント？M&A・コンサル・FASのハイクラス転職を厚労省データで解説【2026年11月】";
 
@@ -143,6 +144,8 @@ export default function RemedyReview() {
             </div>
           ))}
         </div>
+
+        <FelmatCta slug="remedy" heading="リメディの公式サイトでキャリア相談を申し込む" note="求職者の手数料はかかりません（公式の「取扱職種の範囲等の明示」より）。" />
 
         <h2>リメディの基本データ【2026年11月25日確認】</h2>
         <div className="overflow-x-auto mb-4">
@@ -339,6 +342,8 @@ export default function RemedyReview() {
           公式サイト：<a href="https://remedy-tokyo.co.jp/" className="text-teal underline">リメディ株式会社（remedy-tokyo.co.jp）</a>
           ご利用前に、公式サイトにて最新情報をご確認ください。
         </p>
+
+        <FelmatCta slug="remedy" heading="リメディの公式サイトでキャリア相談を申し込む" note="求職者の手数料はかかりません（公式の「取扱職種の範囲等の明示」より）。" />
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">リメディを他社と比較・併用する</h3>

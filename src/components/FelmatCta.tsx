@@ -20,6 +20,8 @@ const FELMAT_TAGS: Record<string, string> = {
     '<a href="https://t.felmat.net/fmcl?ak=C11879J.1.9163258L.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/C11879J.9163258L.J1389963" width="300" height="250" alt="" border="0" /></a>',
   "realme-career":
     '<a href="https://t.felmat.net/fmcl?ak=L10947D.1.B152393L.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/L10947D.B152393L.J1389963" width="300" height="250" alt="" border="0" /></a>',
+  remedy:
+    '<a href="https://t.felmat.net/fmcl?ak=C10593U.1.T1492008.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/C10593U.T1492008.J1389963" width="300" height="250" alt="" border="0" /></a>',
 };
 
 // テキストリンク用: バナーと同一のfmcl計測URL(URL文字列は変更しない)
@@ -33,6 +35,7 @@ const FELMAT_CLICK_URLS: Record<string, string> = {
   rework: "https://t.felmat.net/fmcl?ak=I11924T.1.U163459N.J1389963",
   "ebisu-fudousan": "https://t.felmat.net/fmcl?ak=C11879J.1.9163258L.J1389963",
   "realme-career": "https://t.felmat.net/fmcl?ak=L10947D.1.B152393L.J1389963",
+  remedy: "https://t.felmat.net/fmcl?ak=C10593U.1.T1492008.J1389963",
 };
 
 export function FelmatTextLink({ slug, text }: { slug: string; text: string }) {
