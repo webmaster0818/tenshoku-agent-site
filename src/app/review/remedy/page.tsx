@@ -3,13 +3,13 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
 
-const TITLE = "リメディはどんな転職エージェント？M&A・コンサル・FASのハイクラス転職を厚労省データで解説【2026年11月】";
+const TITLE = "リメディの口コミ・評判は？Googleのクチコミ103件と厚労省データでM&A・コンサル特化の転職エージェントを解説【2026年11月】";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/remedy/" },
   title: TITLE,
   description:
-    "リメディ株式会社が運営するハイクラス転職エージェント「リメディ」の運営会社・有料職業紹介事業の許可番号・扱う職種・公開求人数・求職者の費用を、公式サイトと厚生労働省「人材サービス総合サイト」で確認して整理しています。就職者数と早期離職者数の推移も掲載しています。",
+    "リメディ（リメディ株式会社）の口コミ・評判を、Googleのクチコミ（平均4.9・103件、2026年11月26日確認）の内容の傾向で整理しています。運営会社・許可番号・求人数・求職者の費用、厚生労働省に登録された就職者数と早期離職者数もあわせて掲載しています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: TITLE,
@@ -22,7 +22,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: TITLE,
-  dateModified: "2026-11-25",
+  dateModified: "2026-11-26",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/remedy/" },
@@ -30,6 +30,10 @@ const articleJsonLd = {
 };
 
 const faqData = [
+  {
+    q: "リメディの口コミ・評判はどうですか？",
+    a: "Googleマップの「リメディ株式会社」のクチコミは、2026年11月26日時点で平均4.9・103件です。当サイトが取得できた投稿5件はいずれも★5で、担当者の書類作成・面接対策・こまめな連絡を評価する内容でした。ただし低評価の投稿の内容は確認できておらず、クチコミは利用者全体の意見を代表するとは限りません。",
+  },
   {
     q: "リメディの利用に費用はかかりますか？",
     a: "求職者の費用はかかりません。リメディ株式会社の「取扱職種の範囲等の明示」には「求職者から徴収する手数料はありません」と記載されており、トップページでも転職支援を「完全無料」と案内しています（2026年11月25日確認）。",
@@ -99,9 +103,9 @@ export default function RemedyReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            リメディはどんな転職エージェント？M&amp;A・コンサル・FASのハイクラス転職を厚労省データで解説【2026年11月】
+            リメディの口コミ・評判は？Googleのクチコミ103件と厚労省データでM&amp;A・コンサル特化の転職エージェントを解説【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月25日（公式サイトと厚生労働省「人材サービス総合サイト」を同日に確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月26日（Googleのクチコミを11月26日、公式サイトと厚生労働省「人材サービス総合サイト」を11月25日に確認）</p>
           <p className="text-text-secondary leading-relaxed">
             リメディは、東京都千代田区のリメディ株式会社が運営するハイクラス向けの転職エージェントです。
             コンサルティングファーム、M&amp;A仲介会社、FAS、PEファンド・不動産ファンドなどへの転職支援を中心としています。
@@ -126,6 +130,10 @@ export default function RemedyReview() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
+              <span><strong>Googleのクチコミは平均4.9・103件です</strong>（2026年11月26日確認）。表示される投稿は、担当者の面接対策や書類添削への評価が中心です。詳しくは<a href="#reviews" className="underline">口コミ・評判の項目</a>をご覧ください。</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
               <span><strong>求職者の手数料はかかりません</strong>。公式の「取扱職種の範囲等の明示」に記載があります。</span>
             </li>
           </ul>
@@ -146,6 +154,39 @@ export default function RemedyReview() {
         </div>
 
         <FelmatCta slug="remedy" heading="リメディの公式サイトでキャリア相談を申し込む" note="求職者の手数料はかかりません（公式の「取扱職種の範囲等の明示」より）。" />
+
+        <h2 id="reviews">リメディの口コミ・評判（Googleのクチコミ）【2026年11月26日確認】</h2>
+        <p>
+          Googleマップに登録されている「リメディ株式会社」（所在地は公式サイトの会社概要と同じ千代田区神田神保町三丁目27番7号）のクチコミは、
+          2026年11月26日時点で<strong>平均4.9（5段階）・103件</strong>です。当サイトがGoogleの公式API（Places API）で取得できた投稿5件の内容を、次のとおり整理しました。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border border-gray-200">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">投稿時期</th>
+                <th className="text-left px-3 py-2 border-b">評価</th>
+                <th className="text-left px-3 py-2 border-b">投稿で触れられている内容（要約）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">2026年11月</td><td className="px-3 py-2 border-b">★5</td><td className="px-3 py-2 border-b">的確な助言を受け、第一希望の企業から内定を得た</td></tr>
+              <tr><td className="px-3 py-2 border-b">2026年10月</td><td className="px-3 py-2 border-b">★5</td><td className="px-3 py-2 border-b">最終的に現職に残る判断をしたが、最後まで丁寧に対応してもらえた</td></tr>
+              <tr><td className="px-3 py-2 border-b">2026年4月</td><td className="px-3 py-2 border-b">★5</td><td className="px-3 py-2 border-b">他社エージェントと比べて対応が迅速・丁寧だった</td></tr>
+              <tr><td className="px-3 py-2 border-b">2025年11月</td><td className="px-3 py-2 border-b">★5</td><td className="px-3 py-2 border-b">連絡がこまめで、面接のたびに対策に付き合ってもらえた。約1か月で転職活動を終えた</td></tr>
+              <tr><td className="px-3 py-2 border-b">2024年3月</td><td className="px-3 py-2 border-b">★5</td><td className="px-3 py-2 border-b">M&amp;A業界を志望し、初回面談から約1か月で第一志望の内定。履歴書・職務経歴書と面接の対策が手厚かった</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <ul className="text-sm space-y-2 mb-4">
+          <li><strong>傾向：</strong>5件とも、担当者の名前を挙げて書類作成・面接対策・連絡の細かさを評価する内容でした。転職しなかった方の投稿も含まれています。</li>
+          <li><strong>読み方の注意：</strong>取得できた5件はいずれも★5で、103件全体の評価の内訳や低評価の投稿の内容は、当サイトでは確認できていません。Googleのクチコミは投稿者が任意に書き込むもので、利用者全体の意見を代表するとは限りません。</li>
+          <li><strong>他媒体の口コミについて：</strong>他の比較サイトでは「経歴によっては紹介できる求人が限られる」「地方の求人が少ない」といった声が紹介されていますが、いずれも各媒体が独自に集めたアンケートで、当サイトでは原本を確認できないため掲載していません。公式サイトも、対象年代や年収の利用条件は明記していません（2026年11月25日確認）。</li>
+        </ul>
+        <p className="text-sm mb-8">
+          クチコミとは別の客観的な指標として、厚生労働省に登録された就職者数と6か月以内の離職者数を<a href="#placements" className="underline">下の項目</a>に掲載しています。
+          出典：Googleマップ「リメディ株式会社」のクチコミ（Places API で2026年11月26日に取得）。
+        </p>
 
         <h2>リメディの基本データ【2026年11月25日確認】</h2>
         <div className="overflow-x-auto mb-4">
@@ -200,7 +241,7 @@ export default function RemedyReview() {
           保有求人数の表記が2種類ある理由は公式サイトに説明がないため、当サイトではトップページの「2万件以上」を公式表記として扱い、検索ページの件数を併記しています。
         </p>
 
-        <h2>厚生労働省の登録情報で見るリメディの就職実績</h2>
+        <h2 id="placements">厚生労働省の登録情報で見るリメディの就職実績</h2>
         <p className="text-sm text-text-secondary mb-4">
           有料職業紹介事業者は、就職者数と、無期雇用で就職した人のうち6か月以内に離職した人数を、厚生労働省「人材サービス総合サイト」に毎年登録しています。
           リメディ株式会社（許可番号13-ユ-312160）の登録内容は次のとおりです。早期離職の割合は当サイトが算出しました。
