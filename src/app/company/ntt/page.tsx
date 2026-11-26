@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "NTTの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK・日経会社情報掲載値・2026年8月19日確認）によると、提出会社（NTT株式会社＝持株会社単体）の平均年間給与は約1,056万円（2026年3月期）です。これは研究開発・経営管理が中心の持株会社2,606名の平均であり、NTTドコモ・NTTデータ・NTT東日本/西日本など事業会社の給与水準とは別のものです。",
+    a: "2026年3月期の有価証券報告書（2026年6月16日提出、EDINETで2026年11月26日確認）によると、提出会社（NTT株式会社＝持株会社単体）の平均年間給与は10,562,434円（約1,056万円）です。これは研究開発・経営管理が中心の持株会社2,606名の平均であり、NTTドコモ・NTTデータ・NTT東日本/西日本など事業会社の給与水準とは別のものです。",
   },
   {
     q: "「NTTの平均年収」を見るときの注意点はありますか？",
-    a: "証券コード9432で開示されるのは持株会社単体の数値です。実際にサービスを担う事業会社（ドコモ・データ・東西など）は別会社で、それぞれ採用・処遇も異なります。持株会社の推移は2024年3月期1,023万円→2025年3月期1,069万円→2026年3月期1,056万円で、直近期は微減です（IR BANK掲載値・2026年8月19日確認）。",
+    a: "証券コード9432で開示されるのは持株会社単体の数値です。実際にサービスを担う事業会社（ドコモ・データ・東西など）は別会社で、それぞれ採用・処遇も異なります。持株会社の推移は2024年3月期1,023万円→2025年3月期1,069万円→2026年3月期1,056万円で、直近期は微減です（各期の有価証券報告書。2026年3月期の対前事業年度増減率は△1.2%と記載されています）。",
   },
   {
     q: "NTT（持株会社）は中途採用を行っていますか？",
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     q: "NTT持株会社の平均年齢・従業員数はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年8月19日確認）によると、平均年齢は41.4歳、従業員数は2,606名（いずれも2026年3月期・提出会社単体）です。IOWN・AIなどの研究開発人材が中核の構成です。",
+    a: "2026年3月期の有価証券報告書によると、平均年齢は41.4歳、平均勤続年数は15.6年、従業員数は2,606名（いずれも2026年3月期・提出会社単体）です。IOWN・AIなどの研究開発人材が中核の構成です。",
   },
   {
     q: "NTTの本社はどこですか？",
@@ -42,7 +42,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "NTT（持株会社）への転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-08-19",
+  dateModified: "2026-11-26",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/ntt/" },
@@ -98,7 +98,7 @@ export default function CompanyCareer() {
         <h2 id="s1">NTT転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,056万円です（2026年3月期・有価証券報告書。IR BANK・日経会社情報掲載値・2026年8月19日確認）。提出会社（持株会社単体）2,606名の平均です。</li>
+            <li>平均年間給与は約1,056万円です（10,562,434円、2026年3月期・有価証券報告書、EDINETで2026年11月26日確認）。提出会社（持株会社単体）2,606名の平均です。</li>
             <li>この数値はドコモ・NTTデータ・NTT東西など事業会社の給与水準を表すものではありません（各社は別採用・別処遇です）。</li>
             <li>推移は1,023万円（2024年3月期）→1,069万円（2025年3月期）→1,056万円（2026年3月期）で、直近期は微減です。</li>
             <li>採用はgroup.ntt/jp/careers/がグループ各社・R&D採用への入口です（2026年8月19日確認）。</li>
@@ -116,9 +116,10 @@ export default function CompanyCareer() {
                 { label: "本社", value: "東京都千代田区大手町1-5-1 大手町ファーストスクエア イーストタワー" },
                 { label: "設立", value: "1952年8月1日" },
                 { label: "事業内容", value: "NTTグループの持株会社（研究開発・グループ経営管理）。事業は総合ICT・グローバル・地域通信等をグループ各社が担う" },
-                { label: "平均年間給与", value: "約1,056万円（2026年3月期・有価証券報告書／提出会社＝持株単体。IR BANK・日経会社情報掲載値・2026年8月19日確認）" },
+                { label: "平均年間給与", value: "約1,056万円（10,562,434円、2026年3月期・有価証券報告書／提出会社＝持株単体）" },
                 { label: "直近3年の推移", value: "1,023万円（2024年3月期）→1,069万円（2025年3月期）→1,056万円（2026年3月期）" },
                 { label: "平均年齢", value: "41.4歳（同・提出会社）" },
+                { label: "平均勤続年数", value: "15.6年（同・提出会社）" },
                 { label: "従業員数", value: "2,606名（提出会社単体）" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
@@ -130,7 +131,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK・日経会社情報掲載値・2026年8月19日確認）に基づく提出会社（持株会社）単体・全従業員の平均です。事業会社の給与水準・採用条件は各社の公式情報でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月26日確認）に基づく提出会社（持株会社）単体の平均です。2026年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YCP3.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第41期の有価証券報告書</a>（2026年6月16日提出、PDF 105ページ「従業員の状況」）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W1FL.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第40期の有価証券報告書</a>（2025年6月20日提出、PDF 15ページ・10,690,766円）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TPQI.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第39期の有価証券報告書</a>（2024年6月21日提出、PDF 15ページ・10,238,323円）に基づきます。有価証券報告書の注記により、従業員数2,606名は就業人員（臨時従業員128名は外数）で、平均年間給与には基準内・基準外給与及び賞与が含まれます。本社・設立は日経会社情報（2026年8月19日確認）によります。事業会社の給与水準・採用条件は各社の公式情報でご確認ください。
         </p>
 
         <h2 id="s3">NTTの中途採用の状況</h2>

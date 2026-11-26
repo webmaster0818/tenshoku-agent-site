@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "リクルートホールディングスの平均年収はいくらですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月2日確認）によると、平均年間給与は約1,162万円（2026年3月期・提出会社単体）です。1,119万円（2024年3月期）→1,145万円（2025年3月期）→1,162万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月19日提出、EDINETで2026年11月26日確認）によると、平均年間給与は11,624,997円（約1,162万円・提出会社単体）です。1,119万円（2024年3月期）→1,145万円（2025年3月期）→1,162万円（2026年3月期）と推移しています。提出会社の全従業員平均であり、職種・年代・役職により実際の年収は異なります。",
   },
   {
     q: "リクルートホールディングスは中途採用を行っていますか？",
@@ -26,11 +26,11 @@ const faqData = [
   },
   {
     q: "リクルートホールディングスはどんな会社ですか？",
-    a: "Indeed等のHRテクノロジー、住宅・美容・旅行等のマッチング＆ソリューション、人材派遣を展開するグループの持株会社です。本社は東京都千代田区（丸の内）にあります。",
+    a: "Indeed等のHRテクノロジー、美容・旅行・住宅等のマーケティング・マッチング・テクノロジー、人材派遣を展開するグループの持株会社です。本社は東京都千代田区（丸の内）にあります。",
   },
   {
     q: "リクルートホールディングスの平均勤続年数・平均年齢はどのくらいですか？",
-    a: "有価証券報告書（IR BANK掲載値・2026年9月2日確認）によると、平均勤続年数は9.3年、平均年齢は40.2歳（2026年3月期・提出会社）です。",
+    a: "2026年3月期の有価証券報告書によると、平均勤続年数は9.3年、平均年齢は40.2歳、従業員数は130名（2026年3月期・提出会社）です。同じ報告書に記載された主要な国内連結子会社の株式会社リクルートは、従業員数11,776名・平均年齢33.7歳・平均勤続年数6.6年・平均年間給与7,638,676円（約763万円）です。",
   },
 ];
 
@@ -38,7 +38,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "リクルートホールディングスへの転職は難しい？中途採用・平均年収・選考【有価証券報告書準拠】",
-  dateModified: "2026-09-02",
+  dateModified: "2026-11-26",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/recruit/" },
@@ -72,7 +72,7 @@ export default function CompanyCareer() {
         <p className="text-xs text-text-muted mb-6">リクルートHD 公式サイトのスクリーンショット(2026年9月16日取得)。最新の情報は公式サイトをご確認ください。</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
-            リクルートホールディングス（証券コード6098）は、Indeed等のHRテクノロジー、住宅・美容・旅行等のマッチング＆ソリューション、人材派遣を展開するグループの持株会社です。
+            リクルートホールディングス（証券コード6098）は、Indeed等のHRテクノロジー、美容・旅行・住宅等のマーケティング・マッチング・テクノロジー、人材派遣を展開するグループの持株会社です。
             本記事では、有価証券報告書などの公開一次データをもとに、平均年収・中途採用の状況・選考の考え方を客観的に整理します。
           </p>
         </div>
@@ -93,7 +93,7 @@ export default function CompanyCareer() {
         <h2 id="s1">リクルートHD転職の要点</h2>
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
-            <li>平均年間給与は約1,162万円（2026年3月期・有価証券報告書。IR BANK掲載値・2026年9月2日確認）。提出会社単体の全従業員の平均値です。</li>
+            <li>平均年間給与は約1,162万円です（11,624,997円、2026年3月期・有価証券報告書、EDINETで2026年11月26日確認）。提出会社単体130名の平均値です。</li>
             <li>1,119万円（2024年3月期）→1,145万円（2025年3月期）→1,162万円（2026年3月期）と推移しています（2年連続で上昇）。</li>
             <li>キャリア採用の情報は株式会社リクルートのキャリア採用ページで確認できます（2026年9月2日確認）。</li>
             <li>提出会社は持株会社（リクルートホールディングス）単体であり、株式会社リクルートやIndeed等のグループ各社の平均とは別の数値です。平均勤続9.3年と流動性の高い構成での平均です。</li>
@@ -108,11 +108,13 @@ export default function CompanyCareer() {
                 { label: "社名", value: "株式会社リクルートホールディングス" },
                 { label: "証券コード", value: "6098" },
                 { label: "本社", value: "東京都千代田区（丸の内）" },
-                { label: "事業内容", value: "Indeed等のHRテクノロジー、住宅・美容・旅行等のマッチング＆ソリューション、人材派遣を展開するグループの持株会社" },
-                { label: "平均年間給与", value: "約1,162万円（2026年3月期・有価証券報告書／提出会社。IR BANK掲載値・2026年9月2日確認）" },
+                { label: "事業内容", value: "Indeed等のHRテクノロジー、美容・旅行・住宅等のマーケティング・マッチング・テクノロジー、人材派遣を展開するグループの持株会社" },
+                { label: "平均年間給与", value: "約1,162万円（11,624,997円、2026年3月期・有価証券報告書／提出会社）" },
                 { label: "直近3年の推移", value: "1,119万円（2024年3月期）→1,145万円（2025年3月期）→1,162万円（2026年3月期）" },
                 { label: "平均年齢", value: "40.2歳（同・提出会社）" },
                 { label: "平均勤続年数", value: "9.3年（同・提出会社）" },
+                { label: "従業員数", value: "130名（提出会社単体）" },
+                { label: "参考：株式会社リクルート", value: "平均年間給与 約763万円（7,638,676円）・平均年齢33.7歳・平均勤続年数6.6年・従業員数11,776名（2026年3月期・主要な国内連結子会社）" },
               ].map((row) => (
                 <tr key={row.label} className="border-b border-border">
                   <th className="text-left py-3 px-4 bg-warm-gray font-bold text-navy w-1/3">{row.label}</th>
@@ -123,7 +125,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※数値は有価証券報告書（IR BANK掲載値・2026年9月2日確認）に基づく提出会社単体・全従業員の平均です。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※数値は有価証券報告書の原本（EDINETで2026年11月26日確認）に基づく提出会社単体の平均です。2026年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YDHL.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第66期の有価証券報告書</a>（2026年6月19日提出、PDF 146ページ「従業員の状況」。株式会社リクルートの数値は同PDF 147ページ）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VZG5.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第65期の有価証券報告書</a>（2025年6月23日提出、PDF 19ページ・11,453,407円）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TNM6.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第64期の有価証券報告書</a>（2024年6月21日提出、PDF 19ページ・11,192,716円）に基づきます。有価証券報告書の注記により、従業員数は当社から他社への出向者を除き、他社から当社への出向者を含む就業人員で、臨時従業員（5名）は含みません。職種・年代・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">リクルートHDの中途採用の状況</h2>

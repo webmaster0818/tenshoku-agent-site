@@ -128,9 +128,9 @@ export default function CyberAgentCareer() {
           <a href="https://www.cyberagent.co.jp/corporate/overview/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式会社概要</a>
           、従業員数は
           <a href="https://www.cyberagent.co.jp/sustainability/cadata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">データで見るサイバーエージェント</a>
-          、平均年収は有価証券報告書（
-          <a href="https://irbank.net/4751/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
-          ）によります。2026年10月14日に確認しました。最新情報は公式サイトでご確認ください。
+          （2026年10月14日確認）、平均年収は
+          <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XCU9.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第28期（2025年9月期）の有価証券報告書</a>
+          （2025年12月24日提出、PDF 8ページ「従業員の状況」、平均年間給与9,138千円）によります。有価証券報告書はEDINETで2026年11月26日に確認しました。最新情報は公式サイトでご確認ください。
         </p>
 
         {/* 転職難易度 */}
@@ -174,11 +174,15 @@ export default function CyberAgentCareer() {
             <li>職種別の従業員割合はビジネス職59%・エンジニア職22%・クリエイター職19%、事業別ではゲーム事業37%・インターネット広告事業32%・メディア&amp;IP事業25%です（2025年9月末時点・連結・公式データ）。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">
-            出典：有価証券報告書（
-            <a href="https://irbank.net/4751/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
-            ）、
+            出典：有価証券報告書の原本（EDINETで2026年11月26日確認）。2025年9月期は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XCU9.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第28期</a>
+            （2025年12月24日提出・9,138千円）、2024年9月期は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100UXZA.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第27期</a>
+            （2024年12月13日提出・8,822千円）、2023年9月期は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100SFQ1.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第26期</a>
+            （2023年12月8日提出・8,064千円）で、いずれもPDF 8ページ「従業員の状況（提出会社の状況）」に記載されています。有価証券報告書の注記により、従業員数は就業人員（臨時従業員を含みません）で、平均年間給与は平均人員を基に算出されています。連結従業員数・採用比率は
             <a href="https://www.cyberagent.co.jp/sustainability/cadata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">データで見るサイバーエージェント</a>
-            （公式）。平均年間給与・平均年齢・平均勤続年数は提出会社（単体）の全社員平均で、職種別の数値ではありません。2026年10月14日に確認しました。
+            （公式・2026年10月14日確認）によります。平均年間給与・平均年齢・平均勤続年数は提出会社（単体）の全社員平均で、職種別の数値ではありません。
           </p>
         </div>
 

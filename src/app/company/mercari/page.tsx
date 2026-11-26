@@ -123,9 +123,9 @@ export default function MercariCareer() {
           <a href="https://about.mercari.com/about/company/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式会社概要</a>
           、従業員数は
           <a href="https://about.mercari.com/sustainability/esg/esgdata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">公式ESGデータ</a>
-          、平均年収は有価証券報告書（
-          <a href="https://irbank.net/4385/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
-          ）によります。2026年10月14日に確認しました。最新情報は公式サイトでご確認ください。
+          （2026年10月14日確認）、平均年収は
+          <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Z2BE.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第14期（2026年6月期）の有価証券報告書</a>
+          （2026年9月17日提出、PDF 100ページ「従業員の状況」、平均年間給与12,325千円）によります。有価証券報告書はEDINETで2026年11月26日に確認しました。最新情報は公式サイトでご確認ください。
         </p>
 
         {/* 転職難易度 */}
@@ -169,13 +169,17 @@ export default function MercariCareer() {
             <li>バリューは「Go Bold（大胆にやろう）」「All for One（全ては成功のために）」「Be a Pro（プロフェッショナルであれ）」「Move Fast（はやく動く）」の4つです（公式サイト）。</li>
           </ul>
           <p className="text-xs text-text-muted mt-4">
-            出典：有価証券報告書（
-            <a href="https://irbank.net/4385/salary" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">IR BANK掲載値</a>
-            ）、
+            出典：有価証券報告書の原本（EDINETで2026年11月26日確認）。2026年6月期は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Z2BE.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第14期</a>
+            （2026年9月17日提出・PDF 100ページ・12,325千円）、2025年6月期は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100WQDW.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第13期</a>
+            （2025年9月24日提出・PDF 12ページ・11,763千円）、2024年6月期は
+            <a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100UEYZ.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第12期</a>
+            （2024年9月25日提出・PDF 12ページ・11,668千円）の「従業員の状況（提出会社の状況）」に記載されています。有価証券報告書の注記により、従業員数は就業人員（臨時雇用者を含みません）で、平均年間給与には賞与及び基準外賃金が含まれます。2026年6月期の対前事業年度増減率は4.8%と記載されています。そのほか
             <a href="https://about.mercari.com/sustainability/esg/esgdata/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">メルカリ ESGデータ</a>
             、
             <a href="https://about.mercari.com/about/about-us/" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">私たちについて</a>
-            （公式）。平均年間給与・平均年齢・平均勤続年数は提出会社（単体）の全社員平均で、職種別の数値ではありません。2026年10月14日に確認しました。
+            （公式・2026年10月14日確認）によります。平均年間給与・平均年齢・平均勤続年数は提出会社（単体）の全社員平均で、職種別の数値ではありません。
           </p>
         </div>
 

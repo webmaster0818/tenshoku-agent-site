@@ -16,9 +16,9 @@
   <url><loc>https://tenshoku-agent-lab.com/company/muji/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/nidec/</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/amazon/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/cyberagent/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/cyberagent/</loc><lastmod>2026-11-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/google/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tenshoku-agent-lab.com/company/mercari/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tenshoku-agent-lab.com/company/mercari/</loc><lastmod>2026-11-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/nintendo/</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/sony/</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tenshoku-agent-lab.com/company/toyota/</loc><lastmod>2026-10-29</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -168,7 +168,7 @@
   </url>
   <url>
     <loc>https://tenshoku-agent-lab.com/company/ntt/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://tenshoku-agent-lab.com/company/kddi/</loc>
@@ -180,7 +180,7 @@
   </url>
   <url>
     <loc>https://tenshoku-agent-lab.com/company/dena/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://tenshoku-agent-lab.com/company/zozo/</loc>
@@ -465,7 +465,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tenshoku-agent-lab.com/company/recruit/</loc>
+    <loc>https://tenshoku-agent-lab.com/company/recruit/</loc><lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
