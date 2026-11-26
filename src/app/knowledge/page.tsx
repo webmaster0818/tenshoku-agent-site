@@ -113,6 +113,11 @@ const dataGuides = [
   { href: "/knowledge/tedori-380man/", title: "年収380万円の手取り", desc: "令和8年の税制で約302.2万円。年収372万円・396万円の標準報酬月額の境目" },
   { href: "/knowledge/tedori-420man/", title: "年収420万円の手取り", desc: "令和8年の税制で約331.4万円。月給35万円の境目で年収418.8万円より手取りが少ない" },
   { href: "/knowledge/tedori-480man/", title: "年収480万円の手取り", desc: "令和8年の税制で約376.7万円。基礎控除68万円→104万円で所得税が年2万円減る" },
+  { href: "/knowledge/busho-ido-shitai/", title: "部署異動したいとき", desc: "配置転換の裁判例（東亜ペイント事件・令和6年 最高裁）と労働条件通知書の「変更の範囲」・希望の伝え方" },
+  { href: "/knowledge/tenshoku-kowai/", title: "転職が怖いとき", desc: "転職後に賃金が増えた人40.5%・減った人29.4%。転職者の満足度54.7%と年齢別の賃金の変化" },
+  { href: "/knowledge/jieitai-yametai/", title: "自衛隊を辞めたいとき", desc: "退職の承認（自衛隊法40条）・任期制の任用期間・中途退職者約5,620人・退職手当と雇用保険の扱い" },
+  { href: "/knowledge/tenshoku-kaisu-gyokai/", title: "転職回数を気にしない業界", desc: "正社員の入職者に占める転職者の割合と「転職者を優先して採用したい」事業所を産業別に比較" },
+  { href: "/knowledge/tenshoku-umakuikanai/", title: "転職がうまくいかないとき", desc: "企業が転職者を採用した理由・賃金決定で考慮する要素・転職者が使った活動方法（令和7年 転職者実態調査）" },
   { href: "/knowledge/shigoto-muitenai/", title: "仕事が向いてないと感じて辞めたいとき", desc: "初職を「仕事が自分に合わない」で辞めた人は21.7%。年齢別の離職理由・無料の適職診断と相談" },
   { href: "/knowledge/hokkaido-heikin-nenshu/", title: "北海道の平均年収", desc: "令和7年 賃金構造基本統計調査から約466.6万円・47都道府県中30位。男女別・年齢別・産業別" },
 ];
