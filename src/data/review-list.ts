@@ -11,6 +11,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/lhh/", name: "LHH転職エージェント", tag: "アデコ・外資系" },
       { href: "/review/randstad/", name: "ランスタッド", tag: "外資系・ハイクラス" },
       { href: "/review/bizreach/", name: "ビズリーチ", tag: "スカウト型" },
+      { href: "/review/recruit-direct-scout/", name: "リクルートダイレクトスカウト", tag: "スカウト型・完全無料" },
       { href: "/review/miidas/", name: "ミイダス", tag: "オファー型・診断" },
       { href: "/review/workport/", name: "ワークポート", tag: "全職種・全国拠点" },
       { href: "/review/en-tenshoku/", name: "エン転職", tag: "求人サイト・取材型" },
@@ -54,6 +55,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/deaeru-agent/", name: "出会えるエージェント", tag: "3社紹介型" },
       { href: "/review/career-ticket-tenshoku/", name: "キャリアチケット転職", tag: "20-30代・成長軸" },
       { href: "/review/re-shukatsu/", name: "Re就活", tag: "20代向け転職サイト" },
+      { href: "/review/dym-shushoku/", name: "DYM就職(現ミーツカンパニー)", tag: "既卒・フリーター" },
     ],
   },
   {
@@ -78,6 +80,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/keiri-jobs/", name: "経理Jobs", tag: "経理特化" },
       { href: "/review/randstad-challenged/", name: "ランスタッド(障がい者転職)", tag: "障がい者雇用" },
       { href: "/review/jobsoelu/", name: "ジョブソエル", tag: "医療・介護求人" },
+      { href: "/review/levwell-kaigo/", name: "レバウェル介護", tag: "介護職" },
       { href: "/review/doctor-net/", name: "ドクターネットエージェント", tag: "放射線科" },
     ],
   },

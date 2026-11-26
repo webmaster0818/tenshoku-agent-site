@@ -123,6 +123,8 @@ const dataGuides = [
   { href: "/knowledge/kangoshi-igai-tenshoku/", title: "看護師から看護師以外への転職", desc: "病院以外で働く看護師は34.3%。就業場所の内訳と事務職・介護職などとの年収比較" },
   { href: "/knowledge/58sai-tenshoku/", title: "58歳の転職", desc: "60歳定年の企業62.2%・55〜59歳の転職で賃金が減った人36.6%・定年を上限とする年齢制限のルール" },
   { href: "/knowledge/josei-nenshu-300man/", title: "年収300万円を超える女性の割合", desc: "令和7年分で50.7%と令和3年分以降で初めて半数超え。正社員444万円・正社員以外179万円の平均給与" },
+  { href: "/knowledge/32sai-tenshoku/", title: "32歳の転職", desc: "30〜34歳の転職入職率は男性10.3%・女性13.2%、賃金が増えた人46.1%。転職者の離職理由・活動方法と、年齢上限つき求人のルール" },
+  { href: "/knowledge/keisatsukan-tenshoku/", title: "警察官の転職", desc: "警察職の普通退職6,269人・25歳未満が23.5%（全職種8.1%）。退職後の守秘義務・再就職規制・雇用保険の扱い" },
   { href: "/knowledge/shigoto-muitenai/", title: "仕事が向いてないと感じて辞めたいとき", desc: "初職を「仕事が自分に合わない」で辞めた人は21.7%。年齢別の離職理由・無料の適職診断と相談" },
   { href: "/knowledge/hokkaido-heikin-nenshu/", title: "北海道の平均年収", desc: "令和7年 賃金構造基本統計調査から約466.6万円・47都道府県中30位。男女別・年齢別・産業別" },
 ];
