@@ -3,13 +3,13 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
 
-const TITLE = "CARINAR（キャリナー）とは？特徴・料金・対応領域を公式情報で確認【2026年11月】";
+const TITLE = "CARINAR（キャリナー）の評判・口コミは？特徴・料金・対応領域を公式情報で確認【2026年11月】";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/carinar/" },
   title: TITLE,
   description:
-    "CARINAR（キャリナー）は、相談したい転職エージェントを経歴・支援事例・動画から自分で選び、相談をリクエストできる転職サービスです。運営会社・許可番号・求職者の費用・対応領域・相談までの流れを、公式サイト・利用規約・厚生労働省の登録情報で確認して整理しています（2026年11月27日確認）。",
+    "CARINAR（キャリナー）は、相談したい転職エージェントを経歴・支援事例・動画から自分で選び、相談をリクエストできる転職サービスです。運営会社・許可番号・求職者の費用・対応領域・相談までの流れと、App Store・Googleマップの評価を整理しています（2026年11月27日確認）。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: TITLE,
@@ -62,6 +62,10 @@ const faqData = [
     q: "CARINARの求人数や登録者数は公開されていますか？",
     a: "2026年11月27日時点で、公式サイトに求人数・登録者数・在籍エージェント数の記載は見当たりません。当サイトでは、確認できない数値は掲載していません。客観的な指標として、運営会社が厚生労働省に登録している就職者数を本ページに掲載しています。",
   },
+  {
+    q: "CARINAR（キャリナー）の口コミ・評判はどうですか？",
+    a: "2026年11月27日時点で確認できた利用者の評価は、App Storeのアプリ評価（平均4.6・9件）と、運営会社ヤマトヒューマンキャピタルのGoogleマップの評価（4.6・143件）です。App Storeの本文付き投稿4件は、業界・企業の解説が情報収集に役立つ、動画が見やすいという内容で、エージェントへの相談結果に触れた投稿はありませんでした。Googleマップの投稿は運営会社の転職支援全体に対するもので、CARINAR経由の相談に限った評価ではありません。投稿数が少ないため、参考程度にとどめることをおすすめします。",
+  },
 ];
 
 const faqJsonLd = {
@@ -104,9 +108,9 @@ export default function CarinarReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            CARINAR（キャリナー）とは？特徴・料金・対応領域を公式情報で確認【2026年11月】
+            CARINAR（キャリナー）の評判・口コミは？特徴・料金・対応領域を公式情報で確認【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月27日（公式サイト・利用規約・運営会社の会社概要・厚生労働省「人材サービス総合サイト」・App Storeを11月27日に確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月27日（公式サイト・利用規約・運営会社の会社概要・App Store・Googleマップ・厚生労働省「人材サービス総合サイト」・App Storeを11月27日に確認）</p>
           <p className="text-text-secondary leading-relaxed">
             CARINAR（キャリナー）は、ヤマトヒューマンキャピタル株式会社が運営する転職サービスです。
             相談したい転職エージェントを、アプリ上で経歴・支援事例・本人の動画を見て自分で選び、相談をリクエストする仕組みです。
@@ -296,13 +300,42 @@ export default function CarinarReview() {
           「情報登録年度」は同サイトの表記どおりです。離職者の割合は「無期雇用のうち6か月以内の離職者÷うち無期雇用」で当サイトが算出した値です。
         </p>
 
-        <h2>アプリストアの評価</h2>
-        <p className="text-sm text-text-secondary mb-2">
-          App Storeのアプリ「転職 キャリナー | エージェント指名 スカウト転職アプリ」（提供元 YAMATO HUMAN CAPITAL, Inc.）の評価は、2026年11月27日時点で平均4.6（5段階）・評価数9件です。
-          評価数が少ないため、利用者全体の傾向を示すものとしては参考程度にとどめることをおすすめします。投稿の内容は当サイトでは確認していないため、掲載していません。
+        <h2 id="reviews">CARINARの口コミ・評判（App Store・Googleマップ）</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          当サイトでは、提供元や評価の件数を確認できる投稿のみを対象にしています。2026年11月27日時点で確認できたのは、App Storeのアプリ評価と、運営会社のGoogleマップの評価の2つです。
+          当サイトの検索（2026年11月27日）では、口コミサイトにCARINARの利用者投稿は見つかりませんでした。アプリの配信開始が2026年4月のため、投稿が少ない段階です。
         </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border border-gray-200">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">出典</th>
+                <th className="text-left px-3 py-2 border-b">評価・件数</th>
+                <th className="text-left px-3 py-2 border-b">投稿の内容（当サイトの要約）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-3 py-2 border-b">App Store「転職 キャリナー」（提供元 YAMATO HUMAN CAPITAL, Inc.）</td>
+                <td className="px-3 py-2 border-b">平均4.6・評価9件（本文付きの投稿4件：★5が1件・★4が2件・★3が1件、2026年4月8日〜5月20日）</td>
+                <td className="px-3 py-2 border-b">「会社ごとの裏話」や業界の情勢、専門的な内容の解説が情報収集・勉強に役立つ（2件）、動画が止まらずに再生できる（1件）、見やすい（1件）。改善点として、メッセージがたまる一方で整理しにくいという指摘が1件ありました。転職サービスとしてはまだ利用していないと明記した投稿もあり、エージェントへの相談結果に触れた投稿はありませんでした。</td>
+              </tr>
+              <tr>
+                <td className="px-3 py-2 border-b">Googleマップ「ヤマトヒューマンキャピタル㈱」（東京都千代田区平河町）</td>
+                <td className="px-3 py-2 border-b">4.6・143件（APIで本文を取得できた5件はすべて★5、2026年8月〜11月の投稿）</td>
+                <td className="px-3 py-2 border-b">担当者の名前を挙げて、書類添削・面接対策・年収交渉まで支援を受けた、連絡が早い、志望企業に詳しい別の担当者との面談を設けてもらった、という内容です。運営会社の転職エージェント事業全体への投稿で、CARINARのアプリ経由の相談かどうかは書かれていません。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <ul className="space-y-2 text-sm text-text-secondary list-disc pl-5 mb-3">
+          <li><strong>投稿を読むときの注意：</strong>Googleマップで本文を取得できた5件のうち1件は、冒頭に「以下は、そのままGoogle口コミに投稿できる、詳細で自然な文章です。事実と異なる箇所だけ調整してください。」という文言が残っていました。文章作成ツールなどで作った下書きをそのまま投稿した可能性があり、当サイトでは内容の真偽を判断できません。</li>
+          <li><strong>低い評価の内容：</strong>APIで取得できる本文は5件までで、すべて★5でした。143件のうち低い評価の件数や内容は確認できていません。</li>
+          <li><strong>評価の範囲：</strong>CARINARには運営会社以外のエージェントも登録しているため、相談の満足度は指名したエージェントによって異なると考えられます。指名前に、本ページの「<a href="#placements" className="underline">運営会社の就職実績</a>」や各エージェントの経歴をあわせて確認することをおすすめします。</li>
+        </ul>
         <p className="text-xs text-text-muted mb-8">
-          出典：<a href="https://apps.apple.com/jp/app/id6760984116" className="underline">App Store「転職 キャリナー」</a>（Appleの公開API〈iTunes Search API〉で2026年11月27日に取得。平均評価は小数第2位を四捨五入）。
+          出典：<a href="https://apps.apple.com/jp/app/id6760984116" className="underline">App Store「転職 キャリナー」</a>（Appleの公開API〈iTunes Search API・カスタマーレビューRSS〉で2026年11月27日に取得。平均評価は小数第2位を四捨五入）、
+          Googleマップ「ヤマトヒューマンキャピタル㈱」（Google Places APIで2026年11月27日に取得。住所は公式サイトの会社概要と一致）。要約は当サイトによるもので、個人が特定される担当者名は掲載していません。
         </p>
 
         <h2>CARINARが向いている人・他サービスと併用したい人</h2>

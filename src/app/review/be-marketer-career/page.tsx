@@ -3,13 +3,13 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
 
-const TITLE = "Be Marketer Career（ビーマーケターキャリア）とは？特徴・料金・対応職種を公式情報で確認【2026年11月】";
+const TITLE = "Be Marketer Career（ビーマーケターキャリア）の評判・口コミは？特徴・料金・対応職種を公式情報で確認【2026年11月】";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/be-marketer-career/" },
   title: TITLE,
   description:
-    "Be Marketer Career（ビーマーケターキャリア）は、リフリード株式会社が2026年10月に開始したマーケティング職専門の転職エージェントです。運営会社・許可番号・費用・対応職種と、公式の求人例10件の年収・勤務地を公式情報と厚生労働省の登録情報で整理しています（2026年11月27日確認）。",
+    "Be Marketer Career（ビーマーケターキャリア）は、リフリード株式会社が2026年10月に開始したマーケティング職専門の転職エージェントです。運営会社・許可番号・費用・対応職種と、公式の求人例10件の年収・勤務地、口コミ・評判の確認状況を整理しています（2026年11月27日確認）。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
     title: TITLE,
@@ -61,6 +61,10 @@ const faqData = [
   {
     q: "登録から内定までどのくらいかかりますか？",
     a: "公式サイトでは、登録から内定までの目安を1〜3か月としています。利用者は在職中の方が大半で、ペースは希望に合わせると案内しています（2026年11月27日確認）。",
+  },
+  {
+    q: "Be Marketer Careerの口コミ・評判はありますか？",
+    a: "2026年11月27日時点で、Be Marketer Careerの利用者による口コミは確認できませんでした。サービス開始が2026年10月6日と日が浅く、厚生労働省「人材サービス総合サイト」の就職者数もまだ登録されていません。同じ運営会社のスクール「Be Marketer」はITreviewに掲載されていますが、評価対象のレビューは0件で、転職支援の評価でもありません。現時点では、公式の求人例や許可番号などの確認できる情報と、面談での説明をもとに判断することをおすすめします。",
   },
 ];
 
@@ -121,7 +125,7 @@ export default function BeMarketerCareerReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            Be Marketer Career（ビーマーケターキャリア）とは？特徴・料金・対応職種を公式情報で確認【2026年11月】
+            Be Marketer Career（ビーマーケターキャリア）の評判・口コミは？特徴・料金・対応職種を公式情報で確認【2026年11月】
           </h1>
           <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月27日（公式サイト・運営会社の会社概要と発表・厚生労働省「人材サービス総合サイト」を11月27日に確認）</p>
           <p className="text-text-secondary leading-relaxed">
@@ -307,6 +311,38 @@ export default function BeMarketerCareerReview() {
         </div>
         <p className="text-xs text-text-muted mb-8">
           出典：Be Marketer Careerは本ページ記載の各出典（2026年11月27日確認）。デジレカは当サイトの<Link href="/review/digireka/" className="underline">デジレカの解説ページ</Link>（公式サイト・厚生労働省「人材サービス総合サイト」を2026年11月14日に確認）。
+        </p>
+
+        <h2 id="reviews">Be Marketer Careerの口コミ・評判について【2026年11月27日時点】</h2>
+        <p className="text-sm text-text-secondary mb-3">
+          Be Marketer Careerは2026年10月6日に始まったサービスで、2026年11月27日時点では利用者による口コミを確認できませんでした。当サイトで確認した内容は次のとおりです。
+        </p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border border-gray-200">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="text-left px-3 py-2 border-b">確認したもの</th>
+                <th className="text-left px-3 py-2 border-b">結果（2026年11月27日）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">Web検索（「Be Marketer Career 評判」「同 口コミ」）</td><td className="px-3 py-2 border-b">転職支援の利用者の投稿は見つからず。表示されるのは同じ運営会社のスクール「Be Marketer」に関する記事です。</td></tr>
+              <tr><td className="px-3 py-2 border-b">ITreview「Be Marketer」（スクールの掲載ページ）</td><td className="px-3 py-2 border-b">評価対象のレビュー0件。スクールの掲載で、転職支援の評価ではありません。</td></tr>
+              <tr><td className="px-3 py-2 border-b">厚生労働省「人材サービス総合サイト」（リフリード株式会社）</td><td className="px-3 py-2 border-b">就職者数・6か月以内の離職者数は令和2年度〜令和7年度まですべて「-」（許可が2026年10月1日のため）。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-2">
+          スクール「Be Marketer」の受講者の声や運営会社の発表している数値は、転職支援の利用者の評価ではないため、当サイトでは口コミとして扱っていません。
+          口コミが少ない段階では、次の点を初回面談で確認すると、他の転職エージェントと比べやすくなります。
+        </p>
+        <ul className="space-y-1 text-sm text-text-secondary list-disc pl-5 mb-3">
+          <li>紹介できる求人のうち、事業会社と広告代理店・支援会社の割合（公式は全体で「ほぼ半々」と案内）</li>
+          <li>東京以外の勤務地やフルリモートの求人の有無（公式の求人例10件はすべて東京）</li>
+          <li>担当者のマーケティング実務の経験と、スクール・副業支援との関係（転職支援だけを受けられるか）</li>
+        </ul>
+        <p className="text-xs text-text-muted mb-8">
+          出典：<a href="https://www.itreview.jp/products/be-marketer" rel="nofollow noopener" target="_blank" className="underline">ITreview「Be Marketer」</a>・<a href={MHLW_URL} rel="nofollow noopener" target="_blank" className="underline">厚生労働省「人材サービス総合サイト」</a>・<a href={OFFICIAL_URL} className="underline">Be Marketer Career 公式サイト</a>（いずれも2026年11月27日確認）。口コミが確認でき次第、本ページに追記します。
         </p>
 
         <h2>Be Marketer Careerが向いている人・他サービスと併用したい人</h2>
