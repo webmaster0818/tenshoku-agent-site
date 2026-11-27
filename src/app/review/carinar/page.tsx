@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta from "@/components/FelmatCta";
 
 const TITLE = "CARINAR（キャリナー）とは？特徴・料金・対応領域を公式情報で確認【2026年11月】";
 
@@ -152,6 +153,8 @@ export default function CarinarReview() {
             </div>
           ))}
         </div>
+
+        <FelmatCta slug="carinar" heading="CARINARの公式サイトで相談したいエージェントを探す" note="登録・利用は無料です（公式サイトのよくある質問・利用規約第5条より）。" />
 
         <h2>CARINARの基本データ【2026年11月27日確認】</h2>
         <div className="overflow-x-auto mb-4">
@@ -348,6 +351,8 @@ export default function CarinarReview() {
           公式サイト：<a href={OFFICIAL_URL} className="text-teal underline">CARINAR（carinar.com）</a>
           ご利用前に、公式サイトにて最新情報をご確認ください。
         </p>
+
+        <FelmatCta slug="carinar" heading="CARINARの公式サイトで相談したいエージェントを探す" note="登録・利用は無料です（公式サイトのよくある質問・利用規約第5条より）。" />
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">CARINARを他社と比較・併用する</h3>

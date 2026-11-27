@@ -22,6 +22,10 @@ const FELMAT_TAGS: Record<string, string> = {
     '<a href="https://t.felmat.net/fmcl?ak=L10947D.1.B152393L.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/L10947D.B152393L.J1389963" width="300" height="250" alt="" border="0" /></a>',
   remedy:
     '<a href="https://t.felmat.net/fmcl?ak=C10593U.1.T1492008.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/C10593U.T1492008.J1389963" width="300" height="250" alt="" border="0" /></a>',
+  carinar:
+    '<a href="https://t.felmat.net/fmcl?ak=C12207X.1.M1688446.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/C12207X.M1688446.J1389963" width="300" height="250" alt="" border="0" /></a>',
+  "be-marketer-career":
+    '<a href="https://t.felmat.net/fmcl?ak=N12194M.1.A168684U.J1389963" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/N12194M.A168684U.J1389963" width="300" height="300" alt="" border="0" /></a>',
 };
 
 // テキストリンク用: バナーと同一のfmcl計測URL(URL文字列は変更しない)
@@ -36,6 +40,8 @@ const FELMAT_CLICK_URLS: Record<string, string> = {
   "ebisu-fudousan": "https://t.felmat.net/fmcl?ak=C11879J.1.9163258L.J1389963",
   "realme-career": "https://t.felmat.net/fmcl?ak=L10947D.1.B152393L.J1389963",
   remedy: "https://t.felmat.net/fmcl?ak=C10593U.1.T1492008.J1389963",
+  carinar: "https://t.felmat.net/fmcl?ak=C12207X.1.M1688446.J1389963",
+  "be-marketer-career": "https://t.felmat.net/fmcl?ak=N12194M.1.A168684U.J1389963",
 };
 
 export function FelmatTextLink({ slug, text }: { slug: string; text: string }) {

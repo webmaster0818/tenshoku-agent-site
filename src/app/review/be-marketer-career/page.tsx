@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FelmatCta from "@/components/FelmatCta";
 
 const TITLE = "Be Marketer Career（ビーマーケターキャリア）とは？特徴・料金・対応職種を公式情報で確認【2026年11月】";
 
@@ -169,6 +170,8 @@ export default function BeMarketerCareerReview() {
             </div>
           ))}
         </div>
+
+        <FelmatCta slug="be-marketer-career" heading="Be Marketer Careerの公式サイトで無料登録する" note="会員登録から入社まで無料です（公式サイトより）。" />
 
         <h2>Be Marketer Careerの基本データ【2026年11月27日確認】</h2>
         <div className="overflow-x-auto mb-4">
@@ -350,6 +353,8 @@ export default function BeMarketerCareerReview() {
           公式サイト：<a href={OFFICIAL_URL} className="text-teal underline">Be Marketer Career（be-marketer.com/career）</a>
           ご利用前に、公式サイトにて最新情報をご確認ください。
         </p>
+
+        <FelmatCta slug="be-marketer-career" heading="Be Marketer Careerの公式サイトで無料登録する" note="会員登録から入社まで無料です（公式サイトより）。" />
 
         <div className="mt-10 pt-8 border-t border-border">
           <h3 className="font-bold text-navy mb-4">Be Marketer Careerを他社と比較・併用する</h3>
