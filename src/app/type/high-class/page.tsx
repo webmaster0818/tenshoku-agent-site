@@ -112,6 +112,7 @@ export default function HighClassPage() {
         </div>
         <p className="text-sm text-text-secondary mb-10">
           コンサルティングファーム・M&amp;A仲介・FAS・ファンド領域のハイクラス転職を考えている場合は、これらの領域を中心に支援する<Link href="/review/remedy/" className="text-teal underline">リメディ</Link>も比較対象になります（許可番号・就職者数・求人数の公式表記を2026年11月25日に確認）。
+          担当者を自分で選びたい場合は、M&amp;A・投資銀行・PEファンド・VC・スタートアップ経営幹部などの領域のエージェントを経歴・支援事例・動画から選んで相談をリクエストできる<Link href="/review/carinar/" className="text-teal underline">CARINAR（キャリナー）</Link>もあります（運営会社・許可番号・費用を2026年11月27日に確認）。
         </p>
 
         {/* ハイクラス転職とは */}

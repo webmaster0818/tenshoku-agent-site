@@ -42,6 +42,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/famicari/", name: "ファミキャリ!", tag: "ゲーム業界" },
       { href: "/review/hiraku-agent/", name: "Hiraku agent", tag: "ゲーム経験者" },
       { href: "/review/digireka/", name: "デジレカ", tag: "マーケ職特化" },
+      { href: "/review/be-marketer-career/", name: "Be Marketer Career", tag: "マーケター専門" },
     ],
   },
   {
@@ -67,6 +68,7 @@ export const REVIEW_GROUPS: { title: string; items: { href: string; name: string
       { href: "/review/newma/", name: "NewMA(ニューマ)", tag: "コンサル・M&A" },
       { href: "/review/myvision/", name: "MyVision(マイビジョン)", tag: "コンサル特化" },
       { href: "/review/remedy/", name: "リメディ", tag: "コンサル・M&A・FAS" },
+      { href: "/review/carinar/", name: "CARINAR(キャリナー)", tag: "エージェント指名型" },
     ],
   },
   {

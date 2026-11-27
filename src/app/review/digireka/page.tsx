@@ -411,6 +411,7 @@ export default function DigirekaReview() {
               <li>マーケティング職以外への転職を考えている人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型が向きます</li>
               <li>幅広い業界・職種の求人を横断的に比較したい人 →総合型エージェントの併用をおすすめします</li>
               <li>20〜30代でマーケ以外も含めた成長企業・ハイエンド志向の人 →<Link href="/review/assign/" className="text-teal underline">ASSIGN（アサイン）</Link>も選択肢になります</li>
+              <li>同じマーケティング職特化のエージェントと比べたい人 →2026年10月に開始した<Link href="/review/be-marketer-career/" className="text-teal underline">Be Marketer Career</Link>も比較対象になります（運営会社・許可番号を2026年11月27日に確認）</li>
             </ul>
           </div>
         </div>
