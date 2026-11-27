@@ -119,6 +119,8 @@ const dataGuides = [
   { href: "/knowledge/tenshoku-kaisu-gyokai/", title: "転職回数を気にしない業界", desc: "正社員の入職者に占める転職者の割合と「転職者を優先して採用したい」事業所を産業別に比較" },
   { href: "/knowledge/tenshoku-umakuikanai/", title: "転職がうまくいかないとき", desc: "企業が転職者を採用した理由・賃金決定で考慮する要素・転職者が使った活動方法（令和7年 転職者実態調査）" },
   { href: "/knowledge/nenshu-600man-shokugyo/", title: "年収600万円の職業", desc: "平均年収600万円以上は144職種中27職種。45〜49歳では42職種・20代後半で超える4職種" },
+  { href: "/knowledge/nenshu-700man-shokugyo/", title: "年収700万円の職業", desc: "平均年収700万円以上は144職種中12職種。45〜49歳では28職種・年収に占める賞与の割合も比較" },
+  { href: "/knowledge/kensetsu-tenshoku/", title: "建設業の転職", desc: "建設・採掘の有効求人倍率5.13倍・平均年収の目安約556万円・離職率8.7%を統計で確認" },
   { href: "/knowledge/keiyakushain-nattehaikenai/", title: "契約社員になる前に確認すること", desc: "正社員以外の月給は年齢が上がっても23万円台。無期転換・雇止め・待遇差のルールを条文で確認" },
   { href: "/knowledge/kangoshi-igai-tenshoku/", title: "看護師から看護師以外への転職", desc: "病院以外で働く看護師は34.3%。就業場所の内訳と事務職・介護職などとの年収比較" },
   { href: "/knowledge/58sai-tenshoku/", title: "58歳の転職", desc: "60歳定年の企業62.2%・55〜59歳の転職で賃金が減った人36.6%・定年を上限とする年齢制限のルール" },
