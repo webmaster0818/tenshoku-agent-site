@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     q: "ZOZOの年収が大きく上がったのはなぜですか？",
-    a: "有価証券報告書ベースの推移は2024年3月期692万円→2025年3月期656万円→2026年3月期856万円で、直近期に約200万円増加しています（2026年3月期・2025年3月期は有価証券報告書の原本で確認、2024年3月期はIR BANK・日経会社情報掲載値・2026年8月19日確認）。なお、2026年3月期の有価証券報告書に記載された平均年間給与の対前事業年度増減率は18.6%で、両期の記載額から単純計算した増加率（約30%）とは一致しません。算定方法は記載されていないため、当サイトでは記載額をそのまま掲載しています。平均年間給与には賞与等の変動要素が含まれますが、増加の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは理由の断定を控えます。",
+    a: "有価証券報告書ベースの推移は2024年3月期692万円→2025年3月期656万円→2026年3月期856万円で、直近期に約200万円増加しています（いずれも各期の有価証券報告書の原本で確認、2024年3月期はEDINETで2026年11月28日確認）。なお、2026年3月期の有価証券報告書に記載された平均年間給与の対前事業年度増減率は18.6%で、両期の記載額から単純計算した増加率（約30%）とは一致しません。算定方法は記載されていないため、当サイトでは記載額をそのまま掲載しています。平均年間給与には賞与等の変動要素が含まれますが、増加の内訳は有価証券報告書の記載範囲では特定できないため、当サイトでは理由の断定を控えます。",
   },
   {
     q: "ZOZOは中途採用を行っていますか？",
@@ -130,7 +130,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y951.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月8日提出、EDINETで2026年10月20日確認）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VXJF.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">2025年3月期の有価証券報告書</a>（2025年6月13日提出、6,560千円、EDINETで2026年10月20日確認）、2024年3月期はIR BANK・日経会社情報掲載値（2026年8月19日確認）に基づく提出会社の全社員平均です。有価証券報告書の注記のとおり、賞与及び基準外賃金を含み、ストックオプション・譲渡制限付株式による株式報酬費用は含みません。職種・役割により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y951.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月8日提出、EDINETで2026年10月20日確認）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VXJF.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">2025年3月期の有価証券報告書</a>（2025年6月13日提出、6,560千円、EDINETで2026年10月20日確認）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TLK2.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">2024年3月期の有価証券報告書</a>（第26期・2024年6月14日提出・PDF 9ページ・6,925千円・1,604名・33.9歳・6.2年、EDINETで2026年11月28日確認）の「従業員の状況（提出会社の状況）」に基づく提出会社の全社員平均です。万円表示は万円未満を切り捨てています。従業員数は当社から他社への出向者を除き他社から当社への出向者を含む就業人員で、臨時雇用者（アルバイト及び派遣社員）は年間平均人員を外数（2026年3月期は5,432名）で記載していると注記されています。有価証券報告書の注記のとおり、賞与及び基準外賃金を含み、ストックオプション・譲渡制限付株式による株式報酬費用は含みません。職種・役割により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">ZOZOの中途採用の状況</h2>

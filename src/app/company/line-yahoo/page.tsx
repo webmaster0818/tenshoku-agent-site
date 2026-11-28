@@ -6,7 +6,7 @@ import FelmatCta, { FelmatTextLink } from "@/components/FelmatCta";
 export const metadata: Metadata = {
   title: "LINEヤフーへの転職は難しい？中途採用・平均年収・選考を解説【2026年】",
   description:
-    "LINEヤフー（証券コード4689）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約902万円（2026年3月期・有価証券報告書集計値）で、上昇傾向にあります。LINE・Yahoo! JAPANを支える国内最大級のサービス開発と中途採用の状況をまとめました。",
+    "LINEヤフー（証券コード4689）への転職を有価証券報告書などの一次データで解説します。平均年間給与は約902万円（2026年3月期・有価証券報告書）で、上昇傾向にあります。LINE・Yahoo! JAPANを支える国内最大級のサービス開発と中途採用の状況をまとめました。",
   alternates: { canonical: "/company/line-yahoo/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "LINEヤフーの平均年収はいくらですか？",
-    a: "2026年3月期の有価証券報告書（2026年6月18日提出、EDINETで2026年10月19日確認）によると、平均年間給与は9,023,870円（約902万円・提出会社）です。2024年3月期819万円→2025年3月期884万円→2026年3月期902万円と上昇が続いています（2025年3月期以前はIR BANK掲載値・2026年8月19日確認）。全職種平均であり、エンジニア職・グレード別の年収は個別に異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月18日提出、EDINETで2026年10月19日確認）によると、平均年間給与は9,023,870円（約902万円・提出会社）です。2024年3月期819万円→2025年3月期884万円→2026年3月期902万円と上昇が続いています（各期の有価証券報告書の原本で確認・EDINETで2026年11月28日確認）。全職種平均であり、エンジニア職・グレード別の年収は個別に異なります。",
   },
   {
     q: "LINEヤフーは中途採用を行っていますか？",
@@ -99,7 +99,7 @@ export default function CompanyCareer() {
         <div className="glass-card p-6 mb-8">
           <ul className="space-y-2 text-sm text-text-secondary">
             <li>平均年間給与は約902万円です（9,023,870円、2026年3月期・有価証券報告書、EDINETで2026年10月19日確認）。提出会社10,577名の全職種平均です。</li>
-            <li>819万円→884万円→902万円と上昇傾向にあります（有価証券報告書集計値ベース）。</li>
+            <li>819万円→884万円→902万円と上昇傾向にあります（各期の有価証券報告書の原本・提出会社）。</li>
             <li>採用情報はwww.lycorp.co.jp/ja/recruit/に集約されており、職種別にキャリア採用が行われています（2026年8月19日確認）。</li>
             <li>国内最大級のトラフィックを持つサービス群（LINE・Yahoo! JAPAN）に携われる環境です。</li>
             <li>全職種平均であり、エンジニアのグレード別レンジは公表されていません。提示額はオファー時に個別にご確認ください。</li>
@@ -130,7 +130,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YBXD.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月18日提出、EDINETで2026年10月19日確認）、それ以前の推移はIR BANK掲載値（2026年8月19日確認）に基づく提出会社・全職種の平均です。職種・グレードにより実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YBXD.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月18日提出、EDINETで2026年10月19日確認）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100VYGU.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第30期の有価証券報告書</a>（2025年6月18日提出・PDF 11ページ・8,843,627円・11,035名・38.4歳・8.8年）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TM4A.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第29期の有価証券報告書</a>（2024年6月17日提出・PDF 12ページ・8,190,703円・11,176名・37.3歳・7.4年）の「従業員の状況（提出会社の状況）」に基づく提出会社・全職種の平均です（推移の各期はEDINETで2026年11月28日に確認）。万円表示は万円未満を切り捨てています。有価証券報告書の注記により、従業員数は当社から他社への出向者を除き、他社から当社への出向者を含む就業人員で、平均年間給与は賞与および基準外賃金を含みます。2026年3月期（PDF 114ページ）の対前事業年度増減率は2.0%と記載されています。なお、2024年3月期は主に2023年10月1日付のヤフー㈱・Z Entertainment㈱・Zデータ㈱の吸収合併と、Z中間グローバル㈱（旧社名：LINE㈱）からの吸収分割により従業員数が前期から増加したと注記されており、それより前の期とは対象となる従業員の構成が異なります。職種・グレードにより実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">LINEヤフーの中途採用の状況</h2>

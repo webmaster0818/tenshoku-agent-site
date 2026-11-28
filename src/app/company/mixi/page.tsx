@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "MIXIの平均年収はいくらですか？",
-    a: "2026年3月期の有価証券報告書（2026年6月19日提出、EDINETで2026年10月21日確認）によると、平均年間給与は8,470千円（約847万円・提出会社単体）です。2024年3月期746万円→2025年3月期791万円→2026年3月期847万円と3年連続で上昇しています（2025年3月期以前はIR BANK掲載値・2026年8月19日確認）。なお、2026年3月期から平均年間給与の算出方法が変更されており、有価証券報告書に記載された同じ算出方法による対前期増減率は2.0%です。提出会社の全社員平均であり、職種・等級により実際の年収は異なります。",
+    a: "2026年3月期の有価証券報告書（2026年6月19日提出、EDINETで2026年10月21日確認）によると、平均年間給与は8,470千円（約847万円・提出会社単体）です。2024年3月期746万円→2025年3月期791万円→2026年3月期847万円と3年連続で上昇しています（2023年3月期は738万円。各期の有価証券報告書の原本で確認・EDINETで2026年11月28日確認）。なお、2026年3月期から平均年間給与の算出方法が変更されており、有価証券報告書に記載された同じ算出方法による対前期増減率は2.0%です。提出会社の全社員平均であり、職種・等級により実際の年収は異なります。",
   },
   {
     q: "MIXIは中途採用を行っていますか？",
@@ -130,7 +130,7 @@ export default function CompanyCareer() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">
-          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YE1D.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月19日提出、EDINETで2026年10月21日確認）、それ以前の推移はIR BANK掲載値（2026年8月19日確認）に基づく提出会社単体・全従業員の平均です。有価証券報告書の注記により、平均年間給与は賞与及び基準外賃金を含みます。また、2026年3月期から算出方法を「男女の賃金の差異」と同一の方法（実績ベースの賃金総額÷人員数）に変更しており、対前事業年度増減率2.0%は変更後の算出方法による前期の数値との比較と記載されています。2025年3月期以前の推移は変更前の算出方法による値のため、直近期との差額は同じ基準の比較ではない点にご留意ください。職種・等級・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
+          ※2026年3月期の数値は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YE1D.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">有価証券報告書</a>（2026年6月19日提出、EDINETで2026年10月21日確認）、2025年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W37Z.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第26期の有価証券報告書</a>（2025年6月27日提出・PDF 7ページ・7,918千円・1,259名・37.4歳・5.8年）、2024年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100TR2T.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第25期の有価証券報告書</a>（2024年6月27日提出・PDF 7ページ・7,464千円・1,245名・36.7歳・5.2年）、2023年3月期は<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100QX1Y.pdf" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">第24期の有価証券報告書</a>（2023年6月22日提出・PDF 7ページ・7,387千円）の「従業員の状況（提出会社の状況）」に基づく提出会社単体・全従業員の平均です（推移の各期はEDINETで2026年11月28日に確認）。万円表示は万円未満を切り捨てています。従業員数は就業人員で、臨時雇用者数（パートタイマー、契約社員を含む）は外数（2026年3月期は年間平均50名）と注記されています。有価証券報告書の注記により、平均年間給与は賞与及び基準外賃金を含みます。また、2026年3月期から算出方法を「男女の賃金の差異」と同一の方法（実績ベースの賃金総額÷人員数）に変更しており、対前事業年度増減率2.0%は変更後の算出方法による前期の数値との比較と記載されています。2025年3月期以前の推移は変更前の算出方法による値のため、直近期との差額は同じ基準の比較ではない点にご留意ください。職種・等級・役職により実際の年収は異なります。最新情報は公式IR・有価証券報告書でご確認ください。
         </p>
 
         <h2 id="s3">MIXIの中途採用の状況</h2>
