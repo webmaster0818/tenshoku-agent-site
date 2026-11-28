@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FelmatCta from "@/components/FelmatCta";
 
 export const metadata: Metadata = {
-  title: "恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】",
+  title: "恵比寿不動産の評判・口コミ｜やばい・ブラックは本当？社員口コミ132件・公式の年収例・お客様の声1,713件の集計【2026年11月】",
   description:
     "恵比寿不動産（株式会社ライフアドバンス）の評判・口コミを整理しています。公式サイトの「お客様の声」賃貸1,543件・売買55件・オーナー115件の満足度を当サイトで集計し、社員口コミ（エン カイシャの評判 17人・スコア3.7・平均残業32時間）と公式採用情報から注意点を解説します。",
   alternates: { canonical: "/company/ebisu-fudousan/" },
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】",
+    title: "恵比寿不動産の評判・口コミ｜やばい・ブラックは本当？社員口コミ132件・公式の年収例・お客様の声1,713件の集計【2026年11月】",
     description: "恵比寿不動産の評判・口コミを、公式「お客様の声」の集計と採用・働き方の公式情報をもとに整理しています。",
   },
 };
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "恵比寿不動産は「やばい」「ブラック」という評判は本当ですか？",
-    a: "社員口コミサイト「エン カイシャの評判」では、社員・元社員17人の回答による評判スコアが3.7、掲載口コミは5件で、社員同士の協力やコミュニケーションの活発さを評価する声がある一方、成果が出ない人は苦しむという指摘もあります（2026年10月14日確認）。件数が少ないため、これだけで判断するのは難しい状況です。公式採用ページでは、飛び込み営業なしの完全反響営業、残業月20時間以内、年間休日115日以上、育児休暇取得実績100%（2025年度）と記載される一方、月給にはみなし残業45時間分が含まれ、休日はローテーション制です。条件はカジュアル面談で職種ごとに確認することをおすすめします。",
+    a: "社員口コミサイト「エン カイシャの評判」では、社員・元社員17人の回答による評判スコアが3.7で、口コミは132件（うち年収の口コミ27件）掲載されています（2026年11月28日確認）。当サイトが読んだエン転職企業ページ内の口コミ5件では、社員同士の協力やコミュニケーションの活発さを評価する声がある一方、成果が出ない人は苦しむという指摘もありました。OpenWorkの評価スコアは3.02（回答者2人）、月間残業時間29.9時間、有給休暇消化率49.9%です（2026年11月28日確認）。OpenWorkは回答者が2人と少ないため、これだけで判断するのは難しい状況です。公式採用ページでは、飛び込み営業なしの完全反響営業、残業月20時間以内、年間休日115日以上、育児休暇取得実績100%（2025年度）と記載される一方、月給にはみなし残業45時間分が含まれ、休日はローテーション制です。条件はカジュアル面談で職種ごとに確認することをおすすめします。",
   },
   {
     q: "部屋探し・売買を依頼する不動産会社としての恵比寿不動産の評判はどうですか？",
@@ -42,7 +42,7 @@ const faqData = [
   },
   {
     q: "不動産業界未経験でも応募できますか？",
-    a: "公式採用ページでは、動画教育ツールやレベル別研修・先輩とのロープレ・マンツーマンのサポート体制を整えており、「研修でほっとかれる、とりあえずやってみな等は行いません」と記載されています（2026年8月22日確認）。研修体制を前提にした採用設計です。応募資格の詳細は募集要項・カジュアル面談でご確認ください。",
+    a: "公式採用ページでは、動画教育ツールやレベル別研修・先輩とのロープレ・マンツーマンのサポート体制を整えており、「研修でほっとかれる、とりあえずやってみな等は行いません」と記載されています（2026年8月22日確認）。研修体制を前提にした採用設計です。ただし、募集要項（2026年11月28日確認）では、売買仲介営業は「営業経験もしくは販売経験1年以上必須」とされています。賃貸仲介営業は普通自動車運転免許（AT限定可）が必須です。応募資格の詳細は職種ごとの募集要項・カジュアル面談でご確認ください。",
   },
   {
     q: "選考には履歴書が必要ですか？",
@@ -57,8 +57,8 @@ const faqData = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】",
-  dateModified: "2026-11-11",
+  headline: "恵比寿不動産の評判・口コミ｜やばい・ブラックは本当？社員口コミ132件・公式の年収例・お客様の声1,713件の集計【2026年11月】",
+  dateModified: "2026-11-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/company/ebisu-fudousan/" },
@@ -84,9 +84,9 @@ export default function EbisuFudousanCareer() {
 
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            恵比寿不動産の評判・口コミ｜公式「お客様の声」1,713件の満足度集計と採用・働き方（年収・残業）【2026年11月】
+            恵比寿不動産の評判・口コミ｜やばい・ブラックは本当？社員口コミ132件・公式の年収例・お客様の声1,713件の集計【2026年11月】
           </h1>
-        <p className="text-xs text-text-muted mb-4">最終更新: 2026年11月11日（公式サイトの「お客様の声」全1,713件の満足度を集計して追加）</p>
+        <p className="text-xs text-text-muted mb-4">最終更新: 2026年11月28日（エン カイシャの評判の口コミ件数・OpenWorkのスコア・公式採用ページの職種別年収例と応募条件を追加）</p>
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <p className="text-text-secondary leading-relaxed">
             恵比寿不動産（運営：株式会社ライフアドバンス）は、恵比寿を拠点に都心8区の賃貸・売買仲介を手がける不動産会社です。
@@ -206,9 +206,39 @@ export default function EbisuFudousanCareer() {
         </div>
         <p className="text-xs text-text-muted mb-4">
           出典：<a href="https://employment.en-japan.com/comp-85058/" rel="nofollow noopener" target="_blank" className="text-teal underline">エン転職「株式会社ライフアドバンス（恵比寿不動産）」企業ページ</a>内の「エン カイシャの評判」掲載データ・口コミ（口コミ投稿日2026年3月19日・5月20日、2026年10月14日確認）を当サイトが要約しています。
-          掲載口コミは5件と少なく、うち2件は2017年時点の情報です。同ページには採用担当者からの回答（2026年3月30日）も掲載されていますが、企業側のコメントのため傾向には含めていません。
-          OpenWork・転職会議・キャリコネは、2026年10月14日のWeb検索では同社の口コミページを確認できませんでした。
+          エン転職の企業ページに転載されている口コミは5件で、うち2件は2017年時点の情報です。同ページには採用担当者からの回答（2026年3月30日）も掲載されていますが、企業側のコメントのため傾向には含めていません。
+          2026年11月28日の再確認では、エン カイシャの評判の企業ページに口コミ132件（営業系111件・企画/事務/管理系13件・建築系8件）が掲載されており、OpenWorkにも同社のページ（評価スコア3.02・回答者2人）があることを確認しました。転職会議・キャリコネでは同社のページを確認できていません。
         </p>
+        <div className="glass-card p-5 mb-4">
+          <h3 className="font-bold text-navy mb-2 text-sm">社員口コミサイト2社の数値（2026年11月28日確認）</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead><tr><th className="bg-gray-50 text-left px-3 py-2 border-b">項目</th><th className="bg-gray-50 text-left px-3 py-2 border-b">エン カイシャの評判</th><th className="bg-gray-50 text-left px-3 py-2 border-b">OpenWork</th></tr></thead>
+              <tbody>
+                <tr><td className="px-3 py-2 border-b">総合評価</td><td className="px-3 py-2 border-b">3.7（正社員17人の回答）</td><td className="px-3 py-2 border-b">3.02（回答者2人）</td></tr>
+                <tr><td className="px-3 py-2 border-b">口コミ件数</td><td className="px-3 py-2 border-b">132件（年収の口コミ27件）</td><td className="px-3 py-2 border-b">—</td></tr>
+                <tr><td className="px-3 py-2 border-b">平均年収（回答者）</td><td className="px-3 py-2 border-b">642万円</td><td className="px-3 py-2 border-b">—</td></tr>
+                <tr><td className="px-3 py-2 border-b">残業時間（月・回答者平均）</td><td className="px-3 py-2 border-b">32時間</td><td className="px-3 py-2 border-b">29.9時間</td></tr>
+                <tr><td className="px-3 py-2 border-b">有給休暇消化率</td><td className="px-3 py-2 border-b">—</td><td className="px-3 py-2 border-b">49.9%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-muted mt-2">出典：<a href="https://en-hyouban.com/company/10200190005/" rel="nofollow noopener" target="_blank" className="text-teal underline">エン カイシャの評判「株式会社ライフアドバンス」</a>・OpenWork「ライフアドバンス」企業ページ（いずれも2026年11月28日確認）。どちらも回答者の平均値で、会社全体の実績値ではありません。公式採用ページの「残業月20時間以内」に対し、口コミの平均は約30時間で、月給には45時間分のみなし残業代が含まれます。</p>
+        </div>
+        <div className="glass-card p-5 mb-4">
+          <h3 className="font-bold text-navy mb-2 text-sm">公式採用ページの職種別の年収例（2026年11月28日確認）</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead><tr><th className="bg-gray-50 text-left px-3 py-2 border-b">職種</th><th className="bg-gray-50 text-left px-3 py-2 border-b">公式に掲載されている年収例</th><th className="bg-gray-50 text-left px-3 py-2 border-b">応募条件など</th></tr></thead>
+              <tbody>
+                <tr><td className="px-3 py-2 border-b">売買仲介営業</td><td className="px-3 py-2 border-b">600万円（入社2年目・29歳）／1,200万円（入社3年目・28歳）／2,000万円（入社4年目・26歳）</td><td className="px-3 py-2 border-b">営業経験もしくは販売経験1年以上必須</td></tr>
+                <tr><td className="px-3 py-2 border-b">賃貸仲介営業</td><td className="px-3 py-2 border-b">480万円（入社1年目・21歳）／600万円（入社2年目・29歳）／950万円（入社3年目・28歳）</td><td className="px-3 py-2 border-b">普通自動車運転免許（AT限定可）必須</td></tr>
+                <tr><td className="px-3 py-2 border-b">賃貸管理営業</td><td className="px-3 py-2 border-b">450万円（入社1年目・28歳）／550万円（入社2年目・30歳）／750万円（入社4年目・32歳）</td><td className="px-3 py-2 border-b">—</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-text-muted mt-2">出典：<a href="https://ebisu-fudousan.com/recruit/" rel="nofollow noopener" target="_blank" className="text-teal underline">恵比寿不動産 採用ページ</a>（2026年11月28日確認）。年収例は会社が選んで掲載している個人の例で、平均値ではありません。歩合給の比重が高い職種ほど年収の幅が大きくなります。役職はメンバー・主任・係長・課長代理・課長・次長・部長の7段階で、未経験入社で半年ほどで主任になった例が紹介されています。</p>
+        </div>
         <div className="glass-card p-5 mb-4">
           <h3 className="font-bold text-navy mb-2 text-sm">当サイトの見方</h3>
           <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
@@ -243,7 +273,7 @@ export default function EbisuFudousanCareer() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">会社名</th><td className="px-3 py-2 border-b">株式会社ライフアドバンス（屋号：恵比寿不動産）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">檜垣 知宏</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2014年8月29日（資本金800万円）</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">宅建業免許</th><td className="px-3 py-2 border-b">宅地建物取引業 東京都知事（3）第97301号（全日本不動産協会 加盟）</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">宅建業免許</th><td className="px-3 py-2 border-b">宅地建物取引業 東京都知事（3）第97301号（全日本不動産協会 加盟）／賃貸住宅管理業 国土交通大臣(01)第009212号（2026年11月28日 公式会社概要で確認）</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">社員数</th><td className="px-3 py-2 border-b">64名（男性44名・女性20名、うち未経験入社37名）と公式採用ページに記載</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都渋谷区東3-25-11 TOKYU REIT恵比寿ビル4階・7階</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">事業内容</th><td className="px-3 py-2 border-b">都心8区（千代田・中央・港・新宿・渋谷・世田谷・品川・目黒）中心の賃貸仲介・売買仲介・リフォーム・投資物件</td></tr>

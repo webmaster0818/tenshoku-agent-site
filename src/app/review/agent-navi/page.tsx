@@ -6,12 +6,12 @@ import AgentHero from "@/components/AgentHero";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/agent-navi/" },
-  title: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】",
+  title: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜悪い評判・仕組み・比較記事の読み方【2026年11月】",
   description:
     "転職エージェントナビ（転職AGENT Navi）の評判・口コミを出典つきで整理します。circus株式会社が2024年4月に始めた無料のマッチングサービスで、運営会社が公表するエージェントデータベース3,000名超・紹介履歴データの使い方、同名の別サービスとの見分け方、注意点を解説します。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】",
+    title: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜悪い評判・仕組み・比較記事の読み方【2026年11月】",
     description:
       "転職エージェントナビ（転職AGENT Navi）の評判・口コミの傾向と、仕組み・注意点を公式情報ベースで解説します。利用は無料です。",
   },
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】",
-  dateModified: "2026-11-11",
+  headline: "転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜悪い評判・仕組み・比較記事の読み方【2026年11月】",
+  dateModified: "2026-11-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/agent-navi/" },
@@ -111,9 +111,9 @@ export default function AgentNaviReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜仕組みと注意点【2026年11月】
+            転職エージェントナビ（転職AGENT Navi）の評判・口コミ｜悪い評判・仕組み・比較記事の読み方【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-2">最終更新: 2026年11月11日（運営会社が公表するマッチングの仕組み・同名の別サービスとの見分け方・従業員数を追加）</p>
+          <p className="text-xs text-text-muted mb-2">最終更新: 2026年11月28日（公式の掲載メディア一覧と比較記事の関係・No.1表記の調査期間の記載・公式LPの数値を再確認）／2026年11月11日（運営会社が公表するマッチングの仕組み・同名の別サービスとの見分け方・従業員数を追加）</p>
           <p className="text-text-secondary leading-relaxed">
             転職AGENT Navi（転職エージェントナビ）は、circus株式会社が運営する「求職者と転職エージェントのマッチングサービス」です。
             自分で複数のエージェントに登録して比較する代わりに、面談を通じて300名以上のアドバイザーから相性の良い担当者を紹介してもらう仕組みで、
@@ -138,7 +138,7 @@ export default function AgentNaviReview() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
-              <span><strong>10万件以上の求人(公称・2026年10月17日時点)</strong>を母数に、紹介されたエージェント経由で提案を受けられます。</span>
+              <span><strong>10万件以上の求人(公称・公式LPに時点の記載なし、2026年11月28日確認)</strong>を母数に、紹介されたエージェント経由で提案を受けられます。</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-teal mt-0.5 flex-shrink-0">&#10003;</span>
@@ -163,7 +163,7 @@ export default function AgentNaviReview() {
           ))}
         </div>
 
-        <h2>転職AGENT Navi（転職エージェントナビ）の基本データ【2026年10月14日確認】</h2>
+        <h2>転職AGENT Navi（転職エージェントナビ）の基本データ【2026年10月14日確認・11月28日に公式LPの数値を再確認】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -217,6 +217,14 @@ export default function AgentNaviReview() {
               <li>予約はLINE上で行う設計のため、LINEを使わない人には向きません。</li>
             </ul>
           </div>
+        </div>
+        <div className="glass-card p-5 mb-4">
+          <h3 className="font-bold text-navy mb-2 text-sm">比較記事の口コミを読むときの注意（2026年11月28日確認）</h3>
+          <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
+            <li>転職エージェントナビの公式サイトには「メディア掲載情報」のページがあり、外部サイトへのリンクが38件（24ドメイン）並んでいます。掲載先には、転職エージェントの比較・口コミ記事を載せているサイトも含まれます。比較記事の評価を読む際は、公式の掲載一覧に載っている媒体かどうかも参考にしてください。</li>
+            <li>公式LPの「No.1」表記の注記は、調査期間が「2024年11月29日～2024年1月7日」と記載されており、終了日が開始日より前になっています（誤記と考えられます）。同じ注記には「n数：100」「本ブランドの利用有無は聴取しておりません」とあり、利用者の満足度ではなくブランドのイメージを聞いた調査です。</li>
+          </ul>
+          <p className="text-xs text-text-muted mt-2">出典：<a href="https://service.circus-group.jp/circus/agentnavi/media/" rel="nofollow noopener" target="_blank" className="text-teal underline">転職エージェントナビ「メディア掲載情報」</a>・<a href="https://service.circus-group.jp/circus/agentnavi/" rel="nofollow noopener" target="_blank" className="text-teal underline">公式LP</a>（2026年11月28日確認。リンク件数は当サイトがページ内の外部リンクを数えた値です）。</p>
         </div>
         <p className="text-sm text-text-secondary mb-2">
           <strong>当サイトの見方：</strong>

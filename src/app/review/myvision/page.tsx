@@ -7,12 +7,12 @@ import AgentClients from "@/components/AgentClients";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/myvision/" },
-  title: "MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】",
+  title: "MyVision(マイビジョン)の評判・口コミ｜やばい？悪い評判と公式データ・MyVisionコンサルティングへの名称変更【2026年11月】",
   description:
     "MyVision(マイビジョン)の評判・口コミを出典を明記して整理します。悪い評判(担当者差・求人のミスマッチ)の傾向、公式データページ(2026年8月時点)の年齢分布・年収帯別の年収アップ率・転職期間の中央値、利用規約で確認しておきたい点、NewMA・ASSIGNとの比較を掲載しています。",
   openGraph: {
     images: ["/opengraph-image.jpg"],
-    title: "MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】",
+    title: "MyVision(マイビジョン)の評判・口コミ｜やばい？悪い評判と公式データ・MyVisionコンサルティングへの名称変更【2026年11月】",
     description: "MyVision(マイビジョン)の口コミ・評判を出典を明記して整理します。良い評判・悪い評判の傾向と公式データは2026年11月11日に確認しています。",
   },
 };
@@ -58,13 +58,21 @@ const faqData = [
     q: "「今は転職しない」という段階でも相談できますか？",
     a: "公式サイトでは「『今は転職しない』という選択肢も含めたキャリア提案」「中長期での支援を前提としたキャリアのパートナー」を掲げています(2026年8月16日確認)。情報収集段階の相談から始められる方針です。",
   },
+  {
+    q: "「MyVision」と「MyVisionコンサルティング」は違うサービスですか？",
+    a: "運営会社はどちらも株式会社MyVisionです。公式のお知らせ（2026年7月9日、2026年11月28日確認）によると、同社は2026年6月30日にAI時代の転職プラットフォーム「MyVision」の提供を開始し、それに伴い従来のコンサル特化の転職エージェントのサービス名を「MyVisionコンサルティング」に変更しました。ネット上の「MyVision 評判」の記事の多くは、名称変更前のコンサル特化エージェント（現在のMyVisionコンサルティング）を指しています。",
+  },
+  {
+    q: "MyVisionは「やばい」「やめとけ」と言われますが、本当ですか？",
+    a: "「やばい」と言われる背景としては、2022年6月設立の比較的新しい会社であること、担当者による対応の差や、希望と合わない求人を勧められたという口コミがあることが考えられます。一方で、会社概要では従業員446名・有料職業紹介事業許可番号13-ユ-314719が公表されており、ベイカレントから2025年度の紹介後採用決定人数2位のエージェントとして表彰されたことも公式に発表されています（いずれも2026年11月28日確認）。担当者との相性は口コミでも評価が分かれるため、初回面談で担当変更の可否を確認しておくと安心です。",
+  },
 ];
 
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】",
-  dateModified: "2026-11-11",
+  headline: "MyVision(マイビジョン)の評判・口コミ｜やばい？悪い評判と公式データ・MyVisionコンサルティングへの名称変更【2026年11月】",
+  dateModified: "2026-11-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/myvision/" },
@@ -102,9 +110,9 @@ export default function MyvisionReview() {
       <article className="prose-custom max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <div className="bg-warm-gray rounded-2xl p-6 sm:p-8 mb-8">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
-            MyVision(マイビジョン)の評判・口コミ｜悪い評判と公式データで見る年収・転職期間【2026年11月】
+            MyVision(マイビジョン)の評判・口コミ｜やばい？悪い評判と公式データ・MyVisionコンサルティングへの名称変更【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月11日（公式データページの年齢分布・年収帯別の年収アップ率・転職期間、利用規約の確認点、従業員数を更新）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月28日（サービス名称の変更・ITコンサル転職者の提示年収データ・ファームからの表彰・「やばい」と言われる理由の節を追加）／2026年11月11日（公式データページの年齢分布・年収帯別の年収アップ率・転職期間、利用規約の確認点、従業員数を更新）</p>
           <p className="text-text-secondary leading-relaxed">
             MyVisionは、株式会社MyVisionが運営するコンサルティング業界特化の転職エージェントです。
             利用者の8割がコンサル業界未経験と公表しており、業界説明からケース面接対策までを未経験者前提で支援するのが特徴です。
@@ -157,7 +165,7 @@ export default function MyvisionReview() {
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">MyVision(コンサル業界特化の転職エージェント)</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b w-32 whitespace-nowrap">サービス名</th><td className="px-3 py-2 border-b">MyVisionコンサルティング(コンサル業界特化の転職エージェント)。2026年6月30日に同社のAI転職プラットフォーム「MyVision」の提供開始に伴い、転職エージェントのサービス名を「MyVisionコンサルティング」に変更しています(2026年7月9日 公式お知らせ、2026年11月28日確認)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">運営会社</th><td className="px-3 py-2 border-b">株式会社MyVision</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都港区虎ノ門4-1-1 神谷町トラストタワー24階</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役社長 山口 翔平／代表取締役CEO 岡﨑 健斗</td></tr>
@@ -229,6 +237,27 @@ export default function MyvisionReview() {
           </table>
         </div>
         <p className="text-xs text-text-muted mb-8">出典：各掲載先、2026年10月21日確認。当サイトでは掲載先の点数を転記せず、件数と内容の傾向のみを記載しています。件数が少ないため、全体の評価を表すものではありません。</p>
+
+        <h2>MyVision(マイビジョン)は「やばい」？やめとけと言われる理由と、公表データで確かめられること</h2>
+        <p className="text-sm text-text-secondary mb-4">
+          「マイビジョン やばい」「MyVision やめとけ」と検索される背景には、設立が2022年6月と比較的新しいこと、担当者によって対応に差がある・希望と合わない求人を勧められたといった口コミがあることが考えられます。ここでは、運営会社が公表している事実と、その数値の定義を整理しました（すべて2026年11月28日に公式サイトで確認）。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead><tr><th className="bg-gray-50 text-left px-3 py-2 border-b">確かめたいこと</th><th className="bg-gray-50 text-left px-3 py-2 border-b">公表されている事実</th><th className="bg-gray-50 text-left px-3 py-2 border-b">読むときの注意</th></tr></thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b">実在する許可事業者か</td><td className="px-3 py-2 border-b">株式会社MyVision・設立2022年6月・資本金1億円・従業員446名・有料職業紹介事業許可番号13-ユ-314719（会社概要）</td><td className="px-3 py-2 border-b">許可番号は厚生労働省「人材サービス総合サイト」でも検索できます（当サイトの11/28の確認時は同サイトの検索がエラーで照合できませんでした）</td></tr>
+              <tr><td className="px-3 py-2 border-b">サービス名が変わったのはなぜか</td><td className="px-3 py-2 border-b">2026年6月30日にAI転職プラットフォーム「MyVision」を開始し、転職エージェントは「MyVisionコンサルティング」に名称変更（2026年7月9日 お知らせ）</td><td className="px-3 py-2 border-b">古い記事の「MyVision」は、現在のMyVisionコンサルティングを指している場合がほとんどです</td></tr>
+              <tr><td className="px-3 py-2 border-b">ファームからの評価</td><td className="px-3 py-2 border-b">ベイカレント「TOP AGENT 2026 / VALUABLE AGENT」（2025年3月〜2026年2月の紹介後採用決定人数が2番目に多いエージェント、2026年7月30日発表）</td><td className="px-3 py-2 border-b">特定ファームでの実績で、すべてのファームでの評価ではありません</td></tr>
+              <tr><td className="px-3 py-2 border-b">年収は上がるのか（ITコンサル）</td><td className="px-3 py-2 border-b">ITコンサル転職者の73.2%で提示年収が上昇。上昇した人の平均増加額107.6万円・中央値97.0万円。20代75.7%・30代68.8%。80.6%がコンサル業界未経験（2026年10月22日発表）</td><td className="px-3 py-2 border-b">対象は2023年7月1日〜2026年9月1日入社で、転職前年収と入社時の提示年収を確認できた方。転職後の実支給年収ではありません</td></tr>
+              <tr><td className="px-3 py-2 border-b">書類選考は通りやすいのか</td><td className="px-3 py-2 border-b">公式トップに「書類選考通過率83%」と掲載</td><td className="px-3 py-2 border-b">集計期間・対象の記載は見当たりませんでした。目安として読むのが適切です</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-secondary mb-2">
+          否定的な口コミ（担当者による対応の差・希望と合わない求人の提案・面接対策の物足りなさ）は、前の「悪い評判・注意点で多い指摘」に出典つきでまとめています。会社の実在や許可の有無に関わる問題ではなく、使い方や相性の問題として書かれているものが中心です。
+        </p>
+        <p className="text-xs text-text-muted mb-8">出典：MyVision公式サイトの会社概要・トップページ、お知らせ「転職プラットフォーム『MyVision』提供開始に伴うサービス名称変更のお知らせ」（2026年7月9日）・「ITコンサル転職者の73.2%で年収アップ」（2026年10月22日）・ベイカレント表彰のお知らせ（2026年7月30日）。いずれも2026年11月28日確認。</p>
 
         <h2>MyVisionの公表数値と、その定義【2026年10月21日確認】</h2>
         <p className="text-sm text-text-secondary mb-4">

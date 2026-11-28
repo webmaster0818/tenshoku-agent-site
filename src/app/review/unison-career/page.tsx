@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】",
-  dateModified: "2026-11-11",
+  dateModified: "2026-11-28",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/unison-career/" },
@@ -77,6 +77,18 @@ const faqData = [
     q: "在職中でも相談できますか？",
     a: "在職中・離職中どちらの相談にも対応しています(公式LPに両方の入口が明示されています)。IT業界は在職中の転職活動が一般的なので、情報収集段階での相談も可能です。",
   },
+  {
+    q: "ITスキルに自信がなくても、ユニゾンキャリアで転職できますか？",
+    a: "公式の転職エージェントページのFAQ（2026年11月28日確認）では、企業によっては経験者枠・未経験者枠のほかに「微経験者枠」があり、その枠で内定を取るための戦略を立てて進めると案内されています。経験年数よりも、取り組んできた業務や取得したスキル・資格が重視されるとも記載されています。",
+  },
+  {
+    q: "今すぐ転職するつもりがなくても相談できますか？ブランクがあっても大丈夫ですか？",
+    a: "公式FAQ（2026年11月28日確認）では、転職を無理強いすることはなく、「情報収集したい」「数ヶ月後の転職を見越して動きたい」といった相談にも対応するとしています。面談は始業前や終業後の時間にも組めるとされ、エンジニアとしてのブランク期間についても「問題ございません」と回答しています。",
+  },
+  {
+    q: "ユニゾンキャリアではITコンサルタントの求人も紹介してもらえますか？",
+    a: "公式FAQ（2026年11月28日確認）では、ITコンサルタントの求人も紹介可能で、エンジニア経験を活かして転職し200万円以上年収が上がった方もいると案内されています。経験1年で100万円以上年収が上がった事例も紹介されていますが、いずれも個別の事例で、平均値ではありません。",
+  },
 ];
 
 const faqJsonLd = {
@@ -112,7 +124,7 @@ export default function UnisonCareerReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月11日（SESに関する口コミの確認、運営会社の事業とWebCM・広告の発表内容を追加。コエテコキャリアの口コミ件数を再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月28日（公式FAQの微経験者枠・情報収集のみの相談・ITコンサル求人、対象業界のゲーム、会社概要の資本金の記載差を追加）／2026年11月11日（SESに関する口コミの確認、運営会社の事業とWebCM・広告の発表内容を追加。コエテコキャリアの口コミ件数を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT・Web業界専門の転職エージェントです。
             「大量応募＆同意なしの応募はしません」という厳選紹介の方針と、Google口コミ4.8(470件・2025年12月23日時点の公称)を掲げています。
@@ -153,7 +165,7 @@ export default function UnisonCareerReview() {
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
-            { label: "特化領域", value: "IT・Web" },
+            { label: "特化領域", value: "IT・Web・ゲーム" },
             { label: "Google口コミ（公称）", value: "4.8" },
             { label: "口コミ件数（公称）", value: "470件" },
             { label: "料金", value: "無料" },
@@ -258,7 +270,7 @@ export default function UnisonCareerReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">所在地</th><td className="px-3 py-2 border-b">東京都渋谷区渋谷3-15-6 並木橋ビル4F</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">代表者</th><td className="px-3 py-2 border-b">代表取締役 土肥 将司</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">設立</th><td className="px-3 py-2 border-b">2021年1月6日</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金</th><td className="px-3 py-2 border-b">1,000万円</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">資本金</th><td className="px-3 py-2 border-b">サービスサイトの会社概要は30,000,000円、運営会社サイトの会社概要は1,000万円と、公式内で記載が異なります（いずれも2026年11月28日確認）。運営会社サイトではプライバシーマーク取得も記載されています</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">従業員数</th><td className="px-3 py-2 border-b">112名(アルバイト、契約社員含む)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">事業内容</th><td className="px-3 py-2 border-b">システム・アプリケーション設計開発、情報インフラ設計開発、IT領域における人材紹介</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">電話番号</th><td className="px-3 py-2 border-b">03-6450-5980(運営会社)</td></tr>
