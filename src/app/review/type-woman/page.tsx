@@ -155,7 +155,7 @@ export default function TypeWomanReview() {
           ))}
         </div>
 
-        <h2>type女性の転職エージェントの基本データ【2026年11月11日更新】</h2>
+        <h2>type女性の転職エージェントの基本データ【2026年11月28日更新】</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <tbody>
@@ -174,7 +174,7 @@ export default function TypeWomanReview() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-text-muted mb-8">出典：<a href="https://type.woman-agent.jp/" rel="nofollow noopener" target="_blank" className="underline">type女性の転職エージェント公式サイト</a>(求人数・勤務地別の検索件数は2026年11月11日、サポート内容は10月14日に確認)および<a href="https://type.career-agent.jp/aboutus/" rel="nofollow noopener" target="_blank" className="underline">運営会社について(株式会社キャリアデザインセンター)</a>(所在地・設立・代表者・許可番号)、2026年10月14日確認。勤務地別の件数は複数勤務地の求人が重複して数えられる場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
+        <p className="text-xs text-text-muted mb-8">出典：<a href="https://type.woman-agent.jp/" rel="nofollow noopener" target="_blank" className="underline">type女性の転職エージェント公式サイト</a>(求人総数・非公開求人数は2026年11月28日、勤務地別の検索件数は2026年11月11日、サポート内容は10月14日に確認)および<a href="https://type.career-agent.jp/aboutus/" rel="nofollow noopener" target="_blank" className="underline">運営会社について(株式会社キャリアデザインセンター)</a>(所在地・設立・代表者・許可番号)、2026年10月14日確認。勤務地別の件数は複数勤務地の求人が重複して数えられる場合があります。当サイトでは口コミ・数値の創作は行っていません。</p>
 
         <h2>都道府県別の求人数（13都道府県・当サイト集計）</h2>
         <p className="text-sm text-text-secondary mb-4">

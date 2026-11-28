@@ -21,7 +21,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】",
-  dateModified: "2026-11-28",
+  dateModified: "2026-11-29",
   author: { "@type": "Organization", name: "転職エージェント比較ラボ編集部", url: "https://tenshoku-agent-lab.com" },
   publisher: { "@type": "Organization", name: "転職エージェント比較ラボ", url: "https://tenshoku-agent-lab.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://tenshoku-agent-lab.com/review/unison-career/" },
@@ -124,7 +124,7 @@ export default function UnisonCareerReview() {
           <h1 className="text-2xl sm:text-3xl font-extrabold text-navy leading-tight mb-3">
             ユニゾンキャリアの評判・口コミは？「やばい」「SESばかり」は本当か、IT特化エージェントを経験者/未経験別に解説【2026年11月】
           </h1>
-          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月28日（公式FAQの微経験者枠・情報収集のみの相談・ITコンサル求人、対象業界のゲーム、会社概要の資本金の記載差を追加）／2026年11月11日（SESに関する口コミの確認、運営会社の事業とWebCM・広告の発表内容を追加。コエテコキャリアの口コミ件数を再確認）</p>
+          <p className="text-xs text-text-muted mb-3">最終更新: 2026年11月29日（公式「よくある質問」ページの求人数表記「IT業界の求人12,000件以上」を確認し、「求人数は非公表」としていた記載を訂正）／2026年11月28日（公式FAQの微経験者枠・情報収集のみの相談・ITコンサル求人、対象業界のゲーム、会社概要の資本金の記載差を追加）／2026年11月11日（SESに関する口コミの確認、運営会社の事業とWebCM・広告の発表内容を追加。コエテコキャリアの口コミ件数を再確認）</p>
           <p className="text-text-secondary leading-relaxed">
             ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT・Web業界専門の転職エージェントです。
             「大量応募＆同意なしの応募はしません」という厳選紹介の方針と、Google口コミ4.8(470件・2025年12月23日時点の公称)を掲げています。
@@ -197,7 +197,7 @@ export default function UnisonCareerReview() {
             <ul className="space-y-1 text-sm text-text-secondary list-disc pl-4">
               <li>低評価は1件で、「紹介される企業が期待したほどではなかった」「未経験の1社目向き」という趣旨です</li>
               <li>項目別平均で最も低いのは「求人の充実度」(4.5)です。IT・Web特化のため、職種・業界の幅は総合型より狭くなります</li>
-              <li>公式サイトで求人数・対応エリアは公表されていないため、地方求人の量は面談でご確認ください</li>
+              <li>求人数は公式のよくある質問ページの案内枠に「IT業界の求人12,000件以上」とあるだけで(2026年11月29日確認)、地域別の件数や対応エリアは公表されていません。地方求人の量は面談でご確認ください</li>
             </ul>
           </div>
         </div>
@@ -281,7 +281,7 @@ export default function UnisonCareerReview() {
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">相談方法</th><td className="px-3 py-2 border-b">Web面談が中心。電話・メール・LINE、希望者には対面面談にも対応。始業前・終業後の時間帯にも面談を設定可能(公式転職ページのFAQ)</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">サポート内容</th><td className="px-3 py-2 border-b">キャリア相談／市場価値・適性年収の提示／求人の厳選紹介／書類添削／面接対策／年収交渉／入社前・入社後フォロー</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">公表実績</th><td className="px-3 py-2 border-b">年収UP率 約93%(2025年1月〜8月の内定承諾者のうち応募時より転職後年収が上がった割合・エンジニア経験者のみ)／入社後定着率 約97%(2025年1月〜8月入社者の3ヶ月以上継続率)※いずれも公称</td></tr>
-              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数・対応エリア</th><td className="px-3 py-2 border-b">公式サイトでは公表なし</td></tr>
+              <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">求人数・対応エリア</th><td className="px-3 py-2 border-b">求人数：IT業界の求人12,000件以上(公式「よくある質問」ページの案内枠の表記。トップ・転職支援ページには記載なし、2026年11月29日確認)／対応エリア：公表なし</td></tr>
               <tr><th className="bg-gray-50 text-left px-3 py-2 border-b">料金</th><td className="px-3 py-2 border-b">求職者は無料(企業側の成功報酬モデル)</td></tr>
             </tbody>
           </table>
@@ -289,7 +289,7 @@ export default function UnisonCareerReview() {
         <p className="text-xs text-text-muted mb-8">
           出典：ユニゾンキャリア公式サイト(<a href="https://unison-career.jp/" rel="nofollow noopener" target="_blank" className="underline">unison-career.jp</a>)・公式FAQおよび運営会社の
           <a href="https://www.unison-tech.jp/company/" rel="nofollow noopener" target="_blank" className="underline">会社概要</a>、2026年10月14日確認(2026年10月24日に会社概要・公式転職ページ <a href="https://unison-career.jp/job-change/" rel="nofollow noopener" target="_blank" className="underline">unison-career.jp/job-change/</a> を再確認)。
-          求人数・対応エリアは公式に公表されていないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。
+          求人数は公式の案内枠にある「12,000件以上」の表記のみを掲載し、職種別・地域別の内訳や対応エリアは公表されていないため掲載していません。当サイトでは口コミ・数値の創作は行っていません。
         </p>
 
         <h2>ユニゾンキャリアの利用の流れ</h2>
@@ -398,7 +398,7 @@ export default function UnisonCareerReview() {
               <li>大手の求人数・実績データを重視する人 →<Link href="/review/levtech/" className="text-teal underline">レバテックキャリア</Link>との比較・併用が向きます</li>
               <li>IT以外の職種も幅広く見たい人 →<Link href="/review/recruit-agent/" className="text-teal underline">リクルートエージェント</Link>や<Link href="/review/doda/" className="text-teal underline">doda</Link>などの総合型が候補です</li>
               <li>ハイクラスのスカウトを待ちたい人 →<Link href="/review/bizreach/" className="text-teal underline">ビズリーチ</Link>が選択肢になります</li>
-              <li>求人数の多さや地方求人の量を最優先したい人は、面談での確認が必要です(求人数・対応エリアは公式非公表のため)</li>
+              <li>求人数の多さや地方求人の量を最優先したい人は、面談での確認が必要です(公式の表記は「IT業界の求人12,000件以上」のみで、地域別の件数・対応エリアは非公表のため)</li>
             </ul>
           </div>
         </div>
